@@ -72,7 +72,7 @@ yarn-debug.log*
 yarn-error.log*
 
 # Project specific
-data/
+# data/
 models/
 logs/
 *.log
