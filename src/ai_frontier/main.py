@@ -47,13 +47,24 @@ def setup_logging():
 # Initialize logging
 logger = setup_logging()
 
-from .arxiv.client import ArxivClient, ArxivPaper
-from .translation.translator import get_translator
-from .summarization.summarizer import get_summarizer
-from .reporting.generator import ReportGenerator
-from .keywords.extractor import get_keyword_extractor
-from .embeddings.similarity_manager import get_similarity_manager
-from .utils.duplicate_manager import DuplicateManager
+# Try absolute imports first, fall back to relative imports
+try:
+    from ai_frontier.arxiv.client import ArxivClient, ArxivPaper
+    from ai_frontier.translation.translator import get_translator
+    from ai_frontier.summarization.summarizer import get_summarizer
+    from ai_frontier.reporting.generator import ReportGenerator
+    from ai_frontier.keywords.extractor import get_keyword_extractor
+    from ai_frontier.embeddings.similarity_manager import get_similarity_manager
+    from ai_frontier.utils.duplicate_manager import DuplicateManager
+except ImportError:
+    # Fallback to relative imports for when module is imported
+    from .arxiv.client import ArxivClient, ArxivPaper
+    from .translation.translator import get_translator
+    from .summarization.summarizer import get_summarizer
+    from .reporting.generator import ReportGenerator
+    from .keywords.extractor import get_keyword_extractor
+    from .embeddings.similarity_manager import get_similarity_manager
+    from .utils.duplicate_manager import DuplicateManager
 
 class ArxivReportingService:
     """Main service for arxiv paper reporting automation."""
@@ -105,6 +116,9 @@ class ArxivReportingService:
         self.duplicate_manager = DuplicateManager(str(individual_papers_dir))
         self.logger.info(f"✅ Duplicate manager initialized with {self.duplicate_manager.get_statistics()['total_existing_papers']} existing papers")
 
+        # Track papers with embedding failures for reporting
+        self.embedding_failures = []
+
         self.logger.info(f"ArxivReportingService initialized with translation: {translation_provider}, summarization: {summarization_provider}, keywords: {keyword_provider}")
 
     def _save_individual_paper_immediately(
@@ -119,22 +133,40 @@ class ArxivReportingService:
     ) -> Path:
         """개별 논문 파일을 즉시 저장"""
 
-        # 파일명 생성: 원문 제목 사용
-        date_str = paper.published.strftime("%Y%m%d")
-        safe_title = self._sanitize_filename(paper.title[:50])  # 원문 제목을 50자로 제한
-        filename = f"{safe_title}_{date_str}.md"
+        # 날짜별 폴더 생성
+        date_str = paper.published.strftime("%Y-%m-%d")  # YYYY-MM-DD 형태
+        date_dir = output_dir / date_str
+        date_dir.mkdir(parents=True, exist_ok=True)
 
-        # 파일 경로
-        file_path = output_dir / filename
+        # 파일명 생성: 원문 제목 전체 사용 (길이 제한 없음)
+        date_filename = paper.published.strftime("%Y%m%d")
+        safe_title = self._sanitize_filename(paper.title)  # 전체 제목 사용
+        filename = f"{safe_title}_{date_filename}.md"
 
-        # 임베딩 처리 (콘텐츠 생성 전)
+        # 파일 경로 (날짜 폴더 내에 저장)
+        file_path = date_dir / filename
+
+        # 임베딩 처리 (콘텐츠 생성 전) - 재시도 로직 포함
         if self.enable_embeddings and self.similarity_manager:
-            try:
-                self.logger.debug(f"Creating embedding for paper {paper.arxiv_id}")
-                paper_embedding = self.similarity_manager.process_paper(paper, summary, key_points)
-                self.logger.debug(f"Successfully created and stored embedding for {paper.arxiv_id}")
-            except Exception as e:
-                self.logger.warning(f"Failed to create embedding for {paper.arxiv_id}: {e}")
+            embedding_success = False
+            max_retries = 3
+
+            for retry_attempt in range(max_retries):
+                try:
+                    self.logger.debug(f"Creating embedding for paper {paper.arxiv_id} (attempt {retry_attempt + 1}/{max_retries})")
+                    paper_embedding = self.similarity_manager.process_paper(paper, summary, key_points)
+                    self.logger.info(f"✅ Successfully created and stored embedding for {paper.arxiv_id}")
+                    embedding_success = True
+                    break
+                except Exception as e:
+                    self.logger.warning(f"❌ Failed to create embedding for {paper.arxiv_id} (attempt {retry_attempt + 1}/{max_retries}): {e}")
+                    if retry_attempt < max_retries - 1:
+                        import time
+                        time.sleep(2 ** retry_attempt)  # Exponential backoff: 1s, 2s, 4s
+
+            if not embedding_success:
+                self.logger.error(f"🚨 CRITICAL: Failed to create embedding for {paper.arxiv_id} after {max_retries} attempts. Paper will be missing from similarity search!")
+                self.embedding_failures.append(paper.arxiv_id)
 
         # ReportGenerator를 사용하여 마크다운 콘텐츠 생성 (임베딩 저장 후)
         from .reporting.generator import ReportGenerator
@@ -169,12 +201,14 @@ class ArxivReportingService:
         return file_path
 
     def _sanitize_filename(self, filename: str) -> str:
-        """파일명에서 불법 문자 제거"""
+        """파일명에서 불법 문자 제거 - 콜론만 언더스코어로 변경, 띄어쓰기는 유지"""
         import re
-        # 윈도우와 유닉스에서 금지된 문자들 제거
-        illegal_chars = r'[<>:"/\\|?*\x00-\x1f]'
-        filename = re.sub(illegal_chars, '_', filename)
-        # 연속된 언더스코어 제거
+        # 콜론만 언더스코어로 변경
+        filename = filename.replace(':', '_')
+        # 다른 금지된 문자들 제거 (띄어쓰기는 유지)
+        illegal_chars = r'[<>"/\\|?*\x00-\x1f]'
+        filename = re.sub(illegal_chars, '', filename)
+        # 연속된 언더스코어를 하나로 변경
         filename = re.sub(r'_+', '_', filename)
         # 앞뒤 공백과 점 제거
         filename = filename.strip(' .')
@@ -388,10 +422,11 @@ class ArxivReportingService:
                     print(f"Skipping paper {paper.arxiv_id}: {reason}")
                     continue
                 elif action == 'update':
-                    updated_papers.append((paper.arxiv_id, reason))
-                    self.logger.info(f"논문 업데이트 - {paper.arxiv_id}: {reason}")
-                    print(f"Updating paper {paper.arxiv_id}: {reason}")
-                    # 업데이트의 경우 처리를 계속 진행
+                    # 중복된 논문의 경우 파일을 다시 생성하지 않고 건너뛰기
+                    skipped_papers.append((paper.arxiv_id, reason))
+                    self.logger.info(f"중복 논문 건너뛰기 - {paper.arxiv_id}: {reason}")
+                    print(f"Skipping duplicate paper {paper.arxiv_id}: {reason}")
+                    continue
             else:
                 new_papers.append(paper.arxiv_id)
                 self.logger.info(f"새로운 논문 - {paper.arxiv_id}: {reason}")
@@ -527,6 +562,18 @@ class ArxivReportingService:
         print(f"\nIndividual files saved to: {individual_papers_dir}")
         print(f"Total files saved: {len(saved_files)}")
 
+        # Report embedding failures if any
+        if self.embedding_failures:
+            self.logger.warning(f"🚨 Vector Database 임베딩 실패: {len(self.embedding_failures)}개 논문")
+            self.logger.warning(f"실패한 논문들: {', '.join(self.embedding_failures)}")
+            print(f"\n⚠️ WARNING: {len(self.embedding_failures)} papers failed embedding generation:")
+            for arxiv_id in self.embedding_failures:
+                print(f"  - {arxiv_id}")
+            print("These papers will not appear in similarity search results.")
+        else:
+            if self.enable_embeddings:
+                self.logger.info("✅ 모든 논문의 벡터 임베딩 생성 성공")
+
         # Log all saved file paths
         for file_path in saved_files:
             self.logger.info(f"저장된 파일: {file_path}")
@@ -542,8 +589,8 @@ class ArxivReportingService:
                 progress_percentage=100
             ))
 
-        # Return the individual papers directory path
-        return str(individual_papers_dir)
+        # Return both the directory path and number of papers collected
+        return str(individual_papers_dir), len(saved_files)
 
 def main():
     """Main function for CLI usage."""
@@ -619,7 +666,10 @@ def main():
 
     # Handle digest generation
     if args.generate_digest:
-        from .summarization.digest import DigestGenerator
+        try:
+            from ai_frontier.summarization.digest import DigestGenerator
+        except ImportError:
+            from .summarization.digest import DigestGenerator
         from datetime import datetime
 
         # Parse target date

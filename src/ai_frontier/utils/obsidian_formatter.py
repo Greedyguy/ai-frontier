@@ -34,6 +34,21 @@ class ObsidianFormatter:
         sanitized = re.sub(r'\s+', ' ', sanitized).strip()
         return sanitized
 
+    def _generate_filename_from_title_and_date(self, title: str, published_date) -> str:
+        """Generate filename from paper title and published date."""
+        # Sanitize title for filename - 콜론만 언더스코어로 변경, 띄어쓰기는 유지
+        sanitized_title = title.replace(':', '_')
+        # 다른 금지된 문자들 제거 (띄어쓰기는 유지)
+        illegal_chars = r'[<>"/\\|?*\x00-\x1f]'
+        sanitized_title = re.sub(illegal_chars, '', sanitized_title)
+        sanitized_title = re.sub(r'_+', '_', sanitized_title)
+        sanitized_title = sanitized_title.strip(' .')
+        if not sanitized_title:
+            sanitized_title = "untitled"
+        # Get date string
+        date_str = published_date.strftime("%Y%m%d")
+        return f"{sanitized_title}_{date_str}"
+
     def _extract_keywords_from_paper(self, paper: ArxivPaper, summary: str = "", key_points: List[str] = None) -> List[str]:
         """Extract categorized keywords using the new keyword extraction system."""
         try:
@@ -152,9 +167,10 @@ class ObsidianFormatter:
         """Generate Obsidian-style links for paper metadata."""
         links = []
 
-        # Date link
+        # Date link (link to daily digest file)
         date_str = paper.published.strftime("%Y-%m-%d")
-        links.append(f"[[daily/{date_str}|{date_str}]]")
+        date_filename = paper.published.strftime("%Y%m%d")
+        links.append(f"[[reports/digests/daily_digest_{date_filename}|{date_str}]]")
 
         # Keywords links with categorized approach
         try:
@@ -246,8 +262,23 @@ class ObsidianFormatter:
                     similarity_lines = []
                     for similar_paper, similarity in similar_papers:
                         sim_pct = round(similarity * 100, 1)
+                        # Generate filename from title and date
+                        # published 정보를 metadata에서 가져오기
+                        published_str = similar_paper.metadata.get("published", "")
+                        if published_str:
+                            from datetime import datetime
+                            try:
+                                published_date = datetime.fromisoformat(published_str.replace('Z', '+00:00'))
+                            except:
+                                published_date = datetime.now()
+                        else:
+                            published_date = datetime.now()
+                        
+                        filename_base = self._generate_filename_from_title_and_date(similar_paper.title, published_date)
                         sanitized_title = self._sanitize_link_name(similar_paper.title)
-                        similarity_lines.append(f"- [[{sanitized_title}]] ({sim_pct}% similar)")
+                        # 날짜 폴더 경로 추가
+                        date_folder = published_date.strftime("%Y-%m-%d")
+                        similarity_lines.append(f"- [[{date_folder}/{filename_base}|{sanitized_title}]] ({sim_pct}% similar)")
 
                     similarity_section = f"""
 ## 🔗 유사한 논문
@@ -256,17 +287,7 @@ class ObsidianFormatter:
             except Exception as e:
                 print(f"Warning: Could not generate similarity section for {paper.arxiv_id}: {e}")
 
-        metadata = f"""## 📋 메타데이터
-
-**Links**: {links}
-
-## 🏷️ 카테고리화된 키워드
-{keywords_section}{similarity_section}
-
-**ArXiv ID**: [{paper.arxiv_id}](https://arxiv.org/abs/{paper.arxiv_id})
-**Published**: {paper.published.strftime("%Y-%m-%d")}
-**Category**: {paper.category}
-**PDF**: [Download]({paper.pdf_url})
+        metadata = f"""**Links**: {links}{similarity_section}
 """
         return metadata
 
