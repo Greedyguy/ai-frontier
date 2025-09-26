@@ -75,6 +75,7 @@ jobs:
       run: |
         mkdir -p reports/individual_papers
         mkdir -p reports/digests
+        mkdir -p data/embeddings
 
     - name: Set collection parameters
       id: params
@@ -159,6 +160,22 @@ jobs:
         MODEL_NAME: ${{ secrets.MODEL_NAME || 'gpt-4o-mini' }}
       run: |
         python automation_script.py digest weekly
+
+    - name: Generate embeddings for RAG search
+      env:
+        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      run: |
+        echo "🔄 Generating embeddings for collected papers..."
+        python automation_script.py generate-embeddings
+
+        # Check if embeddings were generated
+        if [ -f "data/embeddings/faiss.index" ] && [ -f "data/embeddings/metadata.pkl" ]; then
+          echo "✅ Embeddings generated successfully"
+          echo "📊 FAISS index size: $(du -h data/embeddings/faiss.index | cut -f1)"
+          echo "📋 Metadata size: $(du -h data/embeddings/metadata.pkl | cut -f1)"
+        else
+          echo "⚠️ Embeddings generation may have failed"
+        fi
 
     - name: Send Slack notification
       if: success()
@@ -255,6 +272,7 @@ jobs:
 
         # Add generated files
         git add reports/
+        git add data/embeddings/ || echo "No embeddings to commit"
 
         # Commit if there are changes
         if ! git diff --cached --quiet; then

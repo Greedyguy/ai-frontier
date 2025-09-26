@@ -25,6 +25,7 @@ sys.path.insert(0, str(Path(__file__).parent / "src"))
 
 from ai_frontier.main import ArxivReportingService
 from ai_frontier.summarization.digest import DigestGenerator
+from ai_frontier.embeddings.service import EmbeddingService
 
 # Configure logging
 logging.basicConfig(
@@ -260,6 +261,69 @@ class AutomationScriptRunner:
                 message=f"Failed to list files: {str(e)}"
             )
 
+    async def generate_embeddings(self) -> AutomationResult:
+        """수집된 논문들의 임베딩 생성"""
+        try:
+            self.logger.info("=== 임베딩 생성 시작 ===")
+
+            # 임베딩 서비스 초기화
+            embedding_service = EmbeddingService()
+
+            # 논문 파일들 찾기
+            papers_dir = Path("reports/individual_papers")
+            if not papers_dir.exists():
+                return AutomationResult(
+                    success=False,
+                    message="No papers directory found. Run collect command first."
+                )
+
+            paper_files = list(papers_dir.glob("*.md"))
+            if not paper_files:
+                return AutomationResult(
+                    success=False,
+                    message="No paper files found. Run collect command first."
+                )
+
+            self.logger.info(f"논문 파일 수: {len(paper_files)}개")
+
+            # 임베딩 생성
+            embeddings_generated = await embedding_service.generate_embeddings_for_papers(paper_files)
+
+            # 벡터 데이터베이스 파일 확인
+            embeddings_dir = Path("data/embeddings")
+            faiss_index = embeddings_dir / "faiss.index"
+            metadata_file = embeddings_dir / "metadata.pkl"
+
+            index_size = faiss_index.stat().st_size if faiss_index.exists() else 0
+            metadata_size = metadata_file.stat().st_size if metadata_file.exists() else 0
+
+            self.logger.info(f"=== 임베딩 생성 완료 ===")
+            self.logger.info(f"생성된 임베딩 수: {embeddings_generated}개")
+            self.logger.info(f"FAISS 인덱스 크기: {index_size} bytes")
+            self.logger.info(f"메타데이터 크기: {metadata_size} bytes")
+
+            return AutomationResult(
+                success=True,
+                message=f"Embeddings generated successfully: {embeddings_generated} papers processed",
+                data={
+                    "embeddings_generated": embeddings_generated,
+                    "paper_files_processed": len(paper_files),
+                    "faiss_index_size": index_size,
+                    "metadata_size": metadata_size,
+                    "faiss_index_path": str(faiss_index),
+                    "metadata_path": str(metadata_file),
+                    "vector_db_exists": faiss_index.exists() and metadata_file.exists()
+                }
+            )
+
+        except Exception as e:
+            self.logger.error(f"임베딩 생성 실패: {str(e)}")
+            return AutomationResult(
+                success=False,
+                message=f"Embedding generation failed: {str(e)}",
+                data={"error_type": type(e).__name__}
+            )
+
 
 async def main():
     """메인 실행 함수"""
@@ -282,6 +346,9 @@ Examples:
 
   # 최근 파일 목록 조회
   python automation_script.py list --limit 10
+
+  # 논문 임베딩 생성 (RAG 검색용)
+  python automation_script.py generate-embeddings
         """
     )
 
@@ -309,6 +376,9 @@ Examples:
     # list 명령어
     list_parser = subparsers.add_parser('list', help='List recent files')
     list_parser.add_argument('--limit', type=int, default=20, help='Number of files to list')
+
+    # generate-embeddings 명령어
+    embeddings_parser = subparsers.add_parser('generate-embeddings', help='Generate embeddings for collected papers')
 
     args = parser.parse_args()
 
@@ -342,6 +412,9 @@ Examples:
 
         elif args.command == 'list':
             result = runner.list_recent_files(limit=args.limit)
+
+        elif args.command == 'generate-embeddings':
+            result = await runner.generate_embeddings()
 
         else:
             result = AutomationResult(
