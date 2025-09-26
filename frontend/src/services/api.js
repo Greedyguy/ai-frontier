@@ -26,9 +26,29 @@ const handleApiError = async (response) => {
 export const startCollection = async (requestData) => {
   try {
     console.log('🚀 Starting collection with data:', requestData);
-    console.log('🔗 API URL:', `${API_BASE_URL}/api/collect`);
 
-    const response = await fetch(`${API_BASE_URL}/api/collect`, {
+    // GitHub Pages 정적 모드에서는 실제 API 호출 대신 안내 메시지 반환
+    if (isStaticMode) {
+      console.log('📍 Static mode detected - GitHub Pages deployment');
+      return {
+        success: false,
+        message: 'GitHub Pages는 정적 호스팅입니다.',
+        instructions: [
+          '실시간 논문 수집은 GitHub Actions 워크플로우를 사용하세요:',
+          '1. Repository → Actions → "Collect ArXiv Papers" 선택',
+          '2. "Run workflow" 버튼 클릭',
+          '3. 파라미터 설정 후 실행',
+          '',
+          '또는 로컬 환경에서 백엔드 서버를 실행하세요:',
+          'python -m ai_frontier.api.server'
+        ],
+        github_actions_url: 'https://github.com/Greedyguy/ai-frontier/actions/workflows/collect-papers.yml'
+      };
+    }
+
+    console.log('🔗 API URL:', `${API_BASE_URL_LEGACY}/api/collect`);
+
+    const response = await fetch(`${API_BASE_URL_LEGACY}/api/collect`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

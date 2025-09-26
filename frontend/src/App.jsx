@@ -227,6 +227,14 @@ function App() {
       console.log('📋 Response object:', response);
       console.log('🆔 Task ID from response:', response?.task_id);
 
+      // GitHub Pages 정적 모드에서는 안내 메시지 표시
+      if (response.success === false && response.instructions) {
+        console.log('📍 Static mode response detected');
+        setError(response.message + '\n\n' + response.instructions.join('\n'));
+        setIsCollecting(false);
+        return;
+      }
+
       const taskId = response.task_id;
 
       if (!taskId) {
