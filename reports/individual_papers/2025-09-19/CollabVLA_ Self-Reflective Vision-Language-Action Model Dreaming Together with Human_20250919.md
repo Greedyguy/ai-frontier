@@ -1,3 +1,36 @@
+---
+keywords:
+  - Diffusion Models
+  - Vision-Language-Action
+  - Reflective Reasoning
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14889
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:52:34.932004",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Diffusion Models",
+    "Vision-Language-Action",
+    "Reflective Reasoning"
+  ],
+  "rejected_keywords": [
+    "Mixture-of-Experts Design",
+    "Self-Reflection"
+  ],
+  "similarity_scores": {
+    "Diffusion Models": 0.82,
+    "Vision-Language-Action": 0.78,
+    "Reflective Reasoning": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # CollabVLA: Self-Reflective Vision-Language-Action Model Dreaming Together with Human
 
@@ -5,10 +38,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Self-Reflective Vision-Language-Action
+**🔗 Specific Connectable**: [[keywords/Diffusion Models|Diffusion-based Action Generation]]
+**⚡ Unique Technical**: [[keywords/Vision-Language-Action|Vision-Language-Action]]
+**🚀 Evolved Concepts**: [[keywords/Reflective Reasoning|Reflective Reasoning]]
 
 ## 🔗 유사한 논문
 - [[ThinkAct Vision-Language-Action Reasoning via Reinforced Visual Latent Planning]] (88.6% similar)

@@ -1,3 +1,36 @@
+---
+keywords:
+  - Physical-Cyber Convergence
+  - Cybersecurity AI
+  - Telemetry Connections
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.14096
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:05:31.005005",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Physical-Cyber Convergence",
+    "Cybersecurity AI",
+    "Telemetry Connections"
+  ],
+  "rejected_keywords": [
+    "Humanoid Robots",
+    "Proprietary Encryption"
+  ],
+  "similarity_scores": {
+    "Physical-Cyber Convergence": 0.8,
+    "Cybersecurity AI": 0.85,
+    "Telemetry Connections": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # The Cybersecurity of a Humanoid Robot
 
@@ -5,10 +38,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Cybersecurity AI (CAI) Frameworks
+**🔗 Specific Connectable**: [[keywords/Telemetry Connections|telemetry connections]]
+**⚡ Unique Technical**: [[keywords/Cybersecurity AI|Cybersecurity AI]]
+**🚀 Evolved Concepts**: [[keywords/Physical-Cyber Convergence|physical-cyber convergence]]
 
 ## 🔗 유사한 논문
 - [[Cybersecurity_AI_Humanoid_Robots_as_Attack_Vectors_20250918|Cybersecurity AI: Humanoid Robots as Attack Vectors]] (95.0% similar)

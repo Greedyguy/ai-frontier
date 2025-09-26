@@ -1,3 +1,35 @@
+---
+keywords:
+  - GCDance
+  - Diffusion Models
+  - CLIP
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2502.18309
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:42:21.242305",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "GCDance",
+    "Diffusion Models",
+    "CLIP"
+  ],
+  "rejected_keywords": [
+    "Music-Driven Dance Generation"
+  ],
+  "similarity_scores": {
+    "GCDance": 0.8,
+    "Diffusion Models": 0.78,
+    "CLIP": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # GCDance: Genre-Controlled 3D Full Body Dance Generation Driven By Music
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Genre-Controlled Dance Generation
+**🔗 Specific Connectable**: [[keywords/Diffusion Models|Diffusion Framework]], [[keywords/CLIP|CLIP]]
+**⚡ Unique Technical**: [[keywords/GCDance|GCDance]]
 
 ## 🔗 유사한 논문
 - [[WorldForge Unlocking Emergent 3D4D Generation in Video Diffusion Model via Training-Free Guidance]] (77.3% similar)

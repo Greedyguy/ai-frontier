@@ -1,13 +1,46 @@
+---
+keywords:
+  - Federated Learning
+  - Differential Privacy
+  - Homomorphic Encryption
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:48:45.607720",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Federated Learning",
+    "Differential Privacy",
+    "Homomorphic Encryption"
+  ],
+  "rejected_keywords": [
+    "Parallel Protection Framework",
+    "Model Partitioning Scheme"
+  ],
+  "similarity_scores": {
+    "Federated Learning": 0.95,
+    "Differential Privacy": 0.9,
+    "Homomorphic Encryption": 0.88
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # ParaAegis: Parallel Protection for Flexible Privacy-preserved Federated Learning
 
 **Korean Title:** ParaAegis: 유연한 프라이버시 보호 연합 학습을 위한 병렬 보호
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Zihou Wu|Zihou Wu]] [[authors/Yuecheng Li|Yuecheng Li]] [[authors/Tianchi Liao|Tianchi Liao]] [[authors/Jian Lou|Jian Lou]] [[authors/Chuan Chen|Chuan Chen]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Parallel Protection Framework
+**🔗 Specific Connectable**: [[keywords/Federated Learning|Federated Learning]], [[keywords/Differential Privacy|Differential Privacy]], [[keywords/Homomorphic Encryption|Homomorphic Encryption]]
 
 ## 🔗 유사한 논문
 - [[Differential Privacy in Federated Learning_ Mitigating Inference Attacks with Randomized Response_20250917|Differential Privacy in Federated Learning Mitigating Inference Attacks with Randomized Response]] (84.9% similar)

@@ -1,13 +1,46 @@
+---
+keywords:
+  - Large Language Models
+  - Iterative Unlearning
+  - Self-generated Data
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:12:57.459269",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Iterative Unlearning",
+    "Self-generated Data"
+  ],
+  "rejected_keywords": [
+    "Natural Language Processing"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.9,
+    "Iterative Unlearning": 0.82,
+    "Self-generated Data": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Reveal and Release: Iterative LLM Unlearning with Self-generated Data
 
 **Korean Title:** 드러내고 해제하기: 자기 생성 데이터를 통한 반복적 대형 언어 모델 학습 해제
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Linxi Xie|Linxi Xie]] [[authors/Xin Teng|Xin Teng]] [[authors/Shichang Ke|Shichang Ke]] [[authors/Hongyi Wen|Hongyi Wen]] [[authors/Shengjie Wang|Shengjie Wang]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Self-generated Data Unlearning
+**⚡ Unique Technical**: [[keywords/Iterative Unlearning|Iterative Unlearning]], [[keywords/Self-generated Data|Self-generated Data]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Model]]
 
 ## 🔗 유사한 논문
 - [[Middo_ Model-Informed Dynamic Data Optimization for Enhanced LLM Fine-Tuning via Closed-Loop Learning_20250919|Middo Model-Informed Dynamic Data Optimization for Enhanced LLM Fine-Tuning via Closed-Loop Learning]] (84.7% similar)

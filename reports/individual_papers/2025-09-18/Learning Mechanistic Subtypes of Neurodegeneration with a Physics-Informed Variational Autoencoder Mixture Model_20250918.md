@@ -1,13 +1,46 @@
+---
+keywords:
+  - Generative Models
+  - Neurodegenerative Disease Subtypes
+  - Physics-Informed Machine Learning
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:22:17.193970",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Generative Models",
+    "Neurodegenerative Disease Subtypes",
+    "Physics-Informed Machine Learning"
+  ],
+  "rejected_keywords": [
+    "Partial Differential Equations"
+  ],
+  "similarity_scores": {
+    "Generative Models": 0.8,
+    "Neurodegenerative Disease Subtypes": 0.78,
+    "Physics-Informed Machine Learning": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Learning Mechanistic Subtypes of Neurodegeneration with a Physics-Informed Variational Autoencoder Mixture Model
 
 **Korean Title:** 신경퇴행성 질환의 기계적 아형 학습을 위한 물리 기반 변분 오토인코더 혼합 모델
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Sanduni Pinnawala|Sanduni Pinnawala]] [[authors/Annabelle Hartanto|Annabelle Hartanto]] [[authors/Ivor J. A. Simpson|Ivor J. A. Simpson]] [[authors/Peter A. Wijeratne|Peter A. Wijeratne]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]       [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Variational Autoencoder, Partial Differential Equations
+**🔗 Specific Connectable**: [[keywords/Generative Models|Variational Autoencoder Mixture Model]]
+**⚡ Unique Technical**: [[keywords/Neurodegenerative Disease Subtypes|Neurodegenerative Disease Subtypes]], [[keywords/Physics-Informed Machine Learning|Physics-Informed Machine Learning]]
 
 ## 🔗 유사한 논문
 - [[Ensemble of Pathology Foundation Models for MIDOG 2025 Track 2_ Atypical Mitosis Classification_20250919|Ensemble of Pathology Foundation Models for MIDOG 2025 Track 2 Atypical Mitosis Classification]] (81.7% similar)

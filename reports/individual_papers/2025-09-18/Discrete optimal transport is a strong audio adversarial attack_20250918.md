@@ -1,13 +1,45 @@
+---
+keywords:
+  - Discrete Optimal Transport
+  - Audio Adversarial Attack
+  - Distribution-Level Alignment
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:32:38.073338",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Discrete Optimal Transport",
+    "Audio Adversarial Attack",
+    "Distribution-Level Alignment"
+  ],
+  "rejected_keywords": [
+    "Neural Vocoder"
+  ],
+  "similarity_scores": {
+    "Discrete Optimal Transport": 0.8,
+    "Audio Adversarial Attack": 0.78,
+    "Distribution-Level Alignment": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Discrete optimal transport is a strong audio adversarial attack
 
 **Korean Title:** 이산 최적 수송은 강력한 오디오 적대적 공격입니다.
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Anton Selitskiy|Anton Selitskiy]] [[authors/Akib Shahriyar|Akib Shahriyar]] [[authors/Jishnuraj Prakasan|Jishnuraj Prakasan]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]      [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Distribution Alignment
+**⚡ Unique Technical**: [[keywords/Discrete Optimal Transport|discrete optimal transport]], [[keywords/Audio Adversarial Attack|audio adversarial attack]], [[keywords/Distribution-Level Alignment|distribution-level alignment]]
 
 ## 🔗 유사한 논문
 - [[Real-Time Streaming Mel Vocoding with Generative Flow Matching_20250918|Real-Time Streaming Mel Vocoding with Generative Flow Matching]] (77.5% similar)

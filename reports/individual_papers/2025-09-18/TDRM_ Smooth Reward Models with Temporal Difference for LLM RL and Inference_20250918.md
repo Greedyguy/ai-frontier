@@ -1,13 +1,47 @@
+---
+keywords:
+  - Reinforcement Learning
+  - Large Language Models
+  - Temporal Difference Regularization
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:07:53.079396",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Reinforcement Learning",
+    "Large Language Models",
+    "Temporal Difference Regularization"
+  ],
+  "rejected_keywords": [
+    "Process Reward Models"
+  ],
+  "similarity_scores": {
+    "Reinforcement Learning": 0.88,
+    "Large Language Models": 0.85,
+    "Temporal Difference Regularization": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # TDRM: Smooth Reward Models with Temporal Difference for LLM RL and Inference
 
 **Korean Title:** TDRM: LLM 강화 학습 및 추론을 위한 시간 차이 기반의 부드러운 보상 모델
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Dan Zhang|Dan Zhang]] [[authors/Min Cai|Min Cai]] [[authors/Jonathan Li|Jonathan Li]] [[authors/Ziniu Hu|Ziniu Hu]] [[authors/Yisong Yue|Yisong Yue]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Temporal Difference Regularization
+**🔗 Specific Connectable**: [[keywords/Reinforcement Learning|Reinforcement Learning]]
+**⚡ Unique Technical**: [[keywords/Temporal Difference Regularization|Temporal Difference Regularization]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[Zero-Shot LLMs in Human-in-the-Loop RL_ Replacing Human Feedback for Reward Shaping_20250919|Zero-Shot LLMs in Human-in-the-Loop RL Replacing Human Feedback for Reward Shaping]] (85.2% similar)

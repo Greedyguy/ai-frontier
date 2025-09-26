@@ -1,3 +1,35 @@
+---
+keywords:
+  - Graph Neural Networks
+  - Self-Supervised Learning
+  - Advanced Persistent Threat
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2501.06997
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:07:42.952126",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Graph Neural Networks",
+    "Self-Supervised Learning",
+    "Advanced Persistent Threat"
+  ],
+  "rejected_keywords": [
+    "Temporal Provenance Graph"
+  ],
+  "similarity_scores": {
+    "Graph Neural Networks": 0.8,
+    "Self-Supervised Learning": 0.79,
+    "Advanced Persistent Threat": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # TFLAG:Towards Practical APT Detection via Deviation-Aware Learning on Temporal Provenance Graph
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Temporal Provenance Graph
+**🔗 Specific Connectable**: [[keywords/Graph Neural Networks|Graph Learning Techniques]], [[keywords/Self-Supervised Learning|Self-Supervised Integration Framework]]
+**⚡ Unique Technical**: [[keywords/Advanced Persistent Threat|Advanced Persistent Threat]]
 
 ## 🔗 유사한 논문
 - [[Learning Temporal Invariance in Android Malware Detectors]] (79.9% similar)

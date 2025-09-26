@@ -1,3 +1,35 @@
+---
+keywords:
+  - Dense Passage Retrieval
+  - Graph Neural Networks
+  - Out-of-Distribution Settings
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13562
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:20:55.885954",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Dense Passage Retrieval",
+    "Graph Neural Networks",
+    "Out-of-Distribution Settings"
+  ],
+  "rejected_keywords": [
+    "Manifold-aware Distance Metric"
+  ],
+  "similarity_scores": {
+    "Dense Passage Retrieval": 0.8,
+    "Graph Neural Networks": 0.75,
+    "Out-of-Distribution Settings": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # MA-DPR: Manifold-aware Distance Metrics for Dense Passage Retrieval
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Out-of-distribution Passage Retrieval
+**🔗 Specific Connectable**: [[keywords/Graph Neural Networks|Graph Neural Networks]]
+**⚡ Unique Technical**: [[keywords/Dense Passage Retrieval|Dense Passage Retrieval]]
+**🚀 Evolved Concepts**: [[keywords/Out-of-Distribution Settings|Out-of-Distribution Settings]]
 
 ## 🔗 유사한 논문
 - [[MAP: End-to-End Autonomous Driving with Map-Assisted Planning]] (77.5% similar)

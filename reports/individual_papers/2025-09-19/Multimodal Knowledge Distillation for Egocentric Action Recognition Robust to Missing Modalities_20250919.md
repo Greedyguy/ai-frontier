@@ -1,3 +1,35 @@
+---
+keywords:
+  - Multi-Modal Learning
+  - Egocentric Action Recognition
+  - Epic-Kitchens
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2504.08578
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:32:44.113560",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Multi-Modal Learning",
+    "Egocentric Action Recognition",
+    "Epic-Kitchens"
+  ],
+  "rejected_keywords": [
+    "Missing Modalities"
+  ],
+  "similarity_scores": {
+    "Multi-Modal Learning": 0.82,
+    "Egocentric Action Recognition": 0.79,
+    "Epic-Kitchens": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Multimodal Knowledge Distillation for Egocentric Action Recognition Robust to Missing Modalities
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Egocentric Action Recognition
+**⚡ Unique Technical**: [[keywords/Egocentric Action Recognition|Egocentric Action Recognition]], [[keywords/Epic-Kitchens|Epic-Kitchens]]
+**🚀 Evolved Concepts**: [[keywords/Multi-Modal Learning|Multimodal Knowledge Distillation]]
 
 ## 🔗 유사한 논문
 - [[MOCHA Multi-modal Objects-aware Cross-arcHitecture Alignment]] (84.9% similar)

@@ -1,3 +1,36 @@
+---
+keywords:
+  - Large Language Models
+  - SeeAct Framework
+  - Web Agents
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14382
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:48:40.932353",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "SeeAct Framework",
+    "Web Agents"
+  ],
+  "rejected_keywords": [
+    "Error Analysis",
+    "Mind2Web Dataset"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "SeeAct Framework": 0.78,
+    "Web Agents": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Detecting Pipeline Failures through Fine-Grained Analysis of Web Agents
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔬 Broad Technical**: Large Language Models, Web Agents
+**⚡ Unique Technical**: [[keywords/SeeAct Framework|SeeAct Framework]], [[keywords/Web Agents|Web Agents]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]]
 
 ## 📋 저자 정보
 

@@ -1,13 +1,46 @@
+---
+keywords:
+  - Machine Learning Models
+  - Multi-Robot Systems
+  - Source Localization
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:50:13.131476",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Machine Learning Models",
+    "Multi-Robot Systems",
+    "Source Localization"
+  ],
+  "rejected_keywords": [
+    "Infotaxis"
+  ],
+  "similarity_scores": {
+    "Machine Learning Models": 0.82,
+    "Multi-Robot Systems": 0.8,
+    "Source Localization": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Multi-robot Multi-source Localization in Complex Flows with Physics-Preserving Environment Models
 
 **Korean Title:** 복잡한 흐름에서 물리 보존 환경 모델을 활용한 다중 로봇 다중 소스 위치 추정
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Benjamin Shaffer|Benjamin Shaffer]] [[authors/Victoria Edwards|Victoria Edwards]] [[authors/Brooks Kinch|Brooks Kinch]] [[authors/Nathaniel Trask|Nathaniel Trask]] [[authors/M. Ani Hsieh|M. Ani Hsieh]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Distributed Mobile Sensing
+**🌐 Broad Technical**: [[keywords/Machine Learning Models|machine-learned finite element model]]
+**⚡ Unique Technical**: [[keywords/Multi-Robot Systems|multi-robot teams]], [[keywords/Source Localization|source localization]]
 
 ## 🔗 유사한 논문
 - [[Semantic-LiDAR-Inertial-Wheel Odometry Fusion for Robust Localization in Large-Scale Dynamic Environments_20250919|Semantic-LiDAR-Inertial-Wheel Odometry Fusion for Robust Localization in Large-Scale Dynamic Environments]] (81.3% similar)

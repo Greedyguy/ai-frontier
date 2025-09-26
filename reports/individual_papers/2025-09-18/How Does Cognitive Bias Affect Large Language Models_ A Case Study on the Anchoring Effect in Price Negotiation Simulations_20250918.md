@@ -1,3 +1,35 @@
+---
+keywords:
+  - Large Language Models
+  - Cognitive Biases
+  - Anchoring Effect
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2508.21137
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:26:10.993288",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Cognitive Biases",
+    "Anchoring Effect"
+  ],
+  "rejected_keywords": [
+    "Reasoning Models"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Cognitive Biases": 0.78,
+    "Anchoring Effect": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # How Does Cognitive Bias Affect Large Language Models? A Case Study on the Anchoring Effect in Price Negotiation Simulations
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Multi-agent LLM
+**⚡ Unique Technical**: [[keywords/Cognitive Biases|Cognitive Biases]], [[keywords/Anchoring Effect|Anchoring Effect]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[Do_LLMs_Align_Human_Values_Regarding_Social_Biases_Judging_and_Explaining_Social_Biases_with_LLMs_20250918|Do LLMs Align Human Values Regarding Social Biases? Judging and Explaining Social Biases with LLMs]] (85.3% similar)

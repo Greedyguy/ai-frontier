@@ -1,3 +1,35 @@
+---
+keywords:
+  - Autonomous Driving
+  - Diffusion Models
+  - Bird's Eye View Representations
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14303
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:43:43.716827",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Autonomous Driving",
+    "Diffusion Models",
+    "Bird's Eye View Representations"
+  ],
+  "rejected_keywords": [
+    "Energy Flow Fields"
+  ],
+  "similarity_scores": {
+    "Autonomous Driving": 0.78,
+    "Diffusion Models": 0.75,
+    "Bird's Eye View Representations": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # FlowDrive: Energy Flow Field for End-to-End Autonomous Driving
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: BEV Representation, Conditional Diffusion Planner
+**🔗 Specific Connectable**: [[keywords/Autonomous Driving|end-to-end autonomous driving]], [[keywords/Diffusion Models|conditional diffusion planner]]
+**⚡ Unique Technical**: [[keywords/Bird's Eye View Representations|BEV representations]]
 
 ## 🔗 유사한 논문
 - [[MAP End-to-End Autonomous Driving with Map-Assisted Planning]] (85.1% similar)

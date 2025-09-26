@@ -1,3 +1,35 @@
+---
+keywords:
+  - Transfer Learning
+  - Neural Networks
+  - Covariate Shift
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2503.17534
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:19:38.233300",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Transfer Learning",
+    "Neural Networks",
+    "Covariate Shift"
+  ],
+  "rejected_keywords": [
+    "Test Selection"
+  ],
+  "similarity_scores": {
+    "Transfer Learning": 0.78,
+    "Neural Networks": 0.85,
+    "Covariate Shift": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # MetaSel: A Test Selection Approach for Fine-tuned DNN Models
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Test Relative Coverage
+**🌐 Broad Technical**: [[keywords/Neural Networks|Deep Neural Networks]]
+**🔗 Specific Connectable**: [[keywords/Transfer Learning|Fine-tuning]]
+**⚡ Unique Technical**: [[keywords/Covariate Shift|Covariate Shift]]
 
 ## 🔗 유사한 논문
 - [[DiffGAN_A_Test_Generation_Approach_for_Differential_Testing_of_Deep_Neural_Networks_for_Image_Analysis_20250918|DiffGAN: A Test Generation Approach for Differential Testing of Deep Neural Networks for Image Analysis]] (79.9% similar)

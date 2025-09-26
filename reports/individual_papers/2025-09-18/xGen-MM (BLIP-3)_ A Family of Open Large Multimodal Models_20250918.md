@@ -1,3 +1,35 @@
+---
+keywords:
+  - Multi-Modal Learning
+  - Transformer Architecture
+  - BLIP-3
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2408.08872
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:00:36.766454",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Multi-Modal Learning",
+    "Transformer Architecture",
+    "BLIP-3"
+  ],
+  "rejected_keywords": [
+    "Open-source Large Multimodal Models"
+  ],
+  "similarity_scores": {
+    "Multi-Modal Learning": 0.82,
+    "Transformer Architecture": 0.85,
+    "BLIP-3": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # xGen-MM (BLIP-3): A Family of Open Large Multimodal Models
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Open-source LMMs
+**🔗 Specific Connectable**: [[keywords/Transformer Architecture|Transformer Architecture]]
+**⚡ Unique Technical**: [[keywords/BLIP-3|BLIP-3]]
+**🚀 Evolved Concepts**: [[keywords/Multi-Modal Learning|Large Multimodal Models]]
 
 ## 🔗 유사한 논문
 - [[LLM-I LLMs are Naturally Interleaved Multimodal Creators]] (83.2% similar)

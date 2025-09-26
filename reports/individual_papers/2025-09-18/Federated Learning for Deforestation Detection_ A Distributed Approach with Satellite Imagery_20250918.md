@@ -1,3 +1,35 @@
+---
+keywords:
+  - Federated Learning
+  - Transformer Architecture
+  - Convolutional Neural Networks
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13631
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:28:48.396962",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Federated Learning",
+    "Transformer Architecture",
+    "Convolutional Neural Networks"
+  ],
+  "rejected_keywords": [
+    "Satellite Imagery"
+  ],
+  "similarity_scores": {
+    "Federated Learning": 0.95,
+    "Transformer Architecture": 0.88,
+    "Convolutional Neural Networks": 0.89
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Federated Learning for Deforestation Detection: A Distributed Approach with Satellite Imagery
 
@@ -5,10 +37,10 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔬 Broad Technical**: Federated Learning, Satellite Imagery
+**🔗 Specific Connectable**: [[keywords/Federated Learning|Federated Learning]], [[keywords/Transformer Architecture|Vision Transformers]], [[keywords/Convolutional Neural Networks|Convolutional Neural Networks]]
 
 ## 🔗 유사한 논문
 - [[FedDiverse: Tackling Data Heterogeneity in Federated Learning with Diversity-Driven Client Selection]] (82.0% similar)

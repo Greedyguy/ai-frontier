@@ -1,3 +1,35 @@
+---
+keywords:
+  - Py maidr
+  - Multimodal Data Representations
+  - Interactive Computing
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13532
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:14:33.201177",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Py maidr",
+    "Multimodal Data Representations",
+    "Interactive Computing"
+  ],
+  "rejected_keywords": [
+    "Data Visualization"
+  ],
+  "similarity_scores": {
+    "Py maidr": 0.85,
+    "Multimodal Data Representations": 0.78,
+    "Interactive Computing": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Py maidr: Bridging Visual and Non-Visual Data Experiences Through a Unified Python Framework
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Accessible data visualization
+**🔗 Specific Connectable**: [[keywords/Interactive Computing|interactive computing]]
+**⚡ Unique Technical**: [[keywords/Py maidr|Py maidr]]
+**🚀 Evolved Concepts**: [[keywords/Multimodal Data Representations|multimodal data representations]]
 
 ## 🔗 유사한 논문
 - [[Intelligent Healthcare Imaging Platform An VLM-Based Framework for Automated Medical Image Analysis and Clinical Report Generation]] (76.8% similar)

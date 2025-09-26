@@ -1,13 +1,47 @@
+---
+keywords:
+  - Reinforcement Learning
+  - Transformer Architecture
+  - Large Language Models
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:52:37.180841",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Reinforcement Learning",
+    "Transformer Architecture",
+    "Large Language Models"
+  ],
+  "rejected_keywords": [
+    "Offline Reinforcement Learning",
+    "Parameter-Efficient Fine-Tuning"
+  ],
+  "similarity_scores": {
+    "Reinforcement Learning": 0.85,
+    "Transformer Architecture": 0.82,
+    "Large Language Models": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Large Language Model-Empowered Decision Transformer for UAV-Enabled Data Collection
 
 **Korean Title:** 대형 언어 모델 기반 의사 결정 변환기를 활용한 UAV 지원 데이터 수집
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Zhixion Chen|Zhixion Chen]] [[authors/Jiangzhou Wang|Jiangzhou Wang]] [[authors/and Hyundong Shin|and Hyundong Shin]] [[authors/Arumugam Nallanathan|Arumugam Nallanathan]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]       [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Trajectory Optimization, Resource Allocation
+**🔗 Specific Connectable**: [[keywords/Reinforcement Learning|Reinforcement Learning]], [[keywords/Transformer Architecture|Transformer Architecture]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Model]]
 
 ## 🔗 유사한 논문
 - [[Reinforcement Learning for Autonomous Point-to-Point UAV Navigation_20250918|Reinforcement Learning for Autonomous Point-to-Point UAV Navigation]] (85.4% similar)

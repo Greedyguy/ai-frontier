@@ -1,13 +1,48 @@
+---
+keywords:
+  - Convolutional Neural Networks
+  - Anomaly Detection
+  - Radio Frequency Fingerprint Identification
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:01:37.712335",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Convolutional Neural Networks",
+    "Anomaly Detection",
+    "Radio Frequency Fingerprint Identification"
+  ],
+  "rejected_keywords": [
+    "Watermarking",
+    "Generative Models"
+  ],
+  "similarity_scores": {
+    "Convolutional Neural Networks": 0.82,
+    "Anomaly Detection": 0.8,
+    "Radio Frequency Fingerprint Identification": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Watermarking and Anomaly Detection in Machine Learning Models for LORA RF Fingerprinting
 
 **Korean Title:** 기계 학습 모델에서 LORA RF 핑거프린팅을 위한 워터마킹 및 이상 탐지
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Aarushi Mahajan|Aarushi Mahajan]] [[authors/Wayne Burleson|Wayne Burleson]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]     [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Radio Frequency Fingerprinting, ResNet
+**🌐 Broad Technical**: [[keywords/Anomaly Detection|Anomaly Detection]]
+**🔗 Specific Connectable**: [[keywords/Convolutional Neural Networks|ResNet-34]]
+**⚡ Unique Technical**: [[keywords/Radio Frequency Fingerprint Identification|Radio Frequency Fingerprint Identification]]
 
 ## 🔗 유사한 논문
 - [[RationAnomaly_ Log Anomaly Detection with Rationality via Chain-of-Thought and Reinforcement Learning_20250919|RationAnomaly Log Anomaly Detection with Rationality via Chain-of-Thought and Reinforcement Learning]] (78.2% similar)

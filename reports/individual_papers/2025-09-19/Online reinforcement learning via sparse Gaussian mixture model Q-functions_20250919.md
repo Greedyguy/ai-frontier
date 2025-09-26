@@ -1,3 +1,35 @@
+---
+keywords:
+  - Reinforcement Learning
+  - Sparse Gaussian Mixture Model Q-functions
+  - Optimization
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14585
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:31:18.461274",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Reinforcement Learning",
+    "Sparse Gaussian Mixture Model Q-functions",
+    "Optimization"
+  ],
+  "rejected_keywords": [
+    "Riemannian Manifold Structure"
+  ],
+  "similarity_scores": {
+    "Reinforcement Learning": 0.85,
+    "Sparse Gaussian Mixture Model Q-functions": 0.8,
+    "Optimization": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Online reinforcement learning via sparse Gaussian mixture model Q-functions
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Sparsified Deep Reinforcement Learning
+**🌐 Broad Technical**: [[keywords/Optimization|Online Gradient Descent]]
+**🔗 Specific Connectable**: [[keywords/Reinforcement Learning|Reinforcement Learning]]
+**⚡ Unique Technical**: [[keywords/Sparse Gaussian Mixture Model Q-functions|Sparse Gaussian Mixture Model Q-functions]]
 
 ## 🔗 유사한 논문
 - [[Mining the Long Tail A Comparative Study of Data-Centric Criticality Metrics for Robust Offline Reinforcement Learning in Autonomous Motion Planning]] (81.8% similar)

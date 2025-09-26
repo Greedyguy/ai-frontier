@@ -1,13 +1,46 @@
+---
+keywords:
+  - Compute as Teacher
+  - Self-Proposed Rubrics
+  - Large Language Models
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:58:36.427081",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Compute as Teacher",
+    "Self-Proposed Rubrics",
+    "Large Language Models"
+  ],
+  "rejected_keywords": [
+    "Reinforcement Learning"
+  ],
+  "similarity_scores": {
+    "Compute as Teacher": 0.8,
+    "Self-Proposed Rubrics": 0.77,
+    "Large Language Models": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Compute as Teacher: Turning Inference Compute Into Reference-Free Supervision
 
 **Korean Title:** 교사로서의 계산: 추론 계산을 참조 없는 감독으로 전환하기
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Dulhan Jayalath|Dulhan Jayalath]] [[authors/Shashwat Goel|Shashwat Goel]] [[authors/Thomas Foster|Thomas Foster]] [[authors/Parag Jain|Parag Jain]] [[authors/Suchin Gururangan|Suchin Gururangan]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Reference-Free Supervision
+**⚡ Unique Technical**: [[keywords/Compute as Teacher|Compute as Teacher]], [[keywords/Self-Proposed Rubrics|Self-Proposed Rubrics]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[Teaching According to Talents! Instruction Tuning LLMs with Competence-Aware Curriculum Learning_20250917|Teaching According to Talents! Instruction Tuning LLMs with Competence-Aware Curriculum Learning]] (80.9% similar)

@@ -1,13 +1,46 @@
+---
+keywords:
+  - Deep Loop Shaping
+  - Gravitational Wave Observatories
+  - Reinforcement Learning
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:53:13.006085",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Deep Loop Shaping",
+    "Gravitational Wave Observatories",
+    "Reinforcement Learning"
+  ],
+  "rejected_keywords": [
+    "Intermediate-Mass Black Hole Mergers"
+  ],
+  "similarity_scores": {
+    "Deep Loop Shaping": 0.8,
+    "Gravitational Wave Observatories": 0.78,
+    "Reinforcement Learning": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Improving cosmological reach of a gravitational wave observatory using Deep Loop Shaping
 
 **Korean Title:** 중력파 관측소의 우주론적 탐지 범위 향상을 위한 딥 루프 쉐이핑 기법 활용
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Jonas Buchli|Jonas Buchli]] [[authors/Brendan Tracey|Brendan Tracey]] [[authors/Tomislav Andric|Tomislav Andric]] [[authors/Christopher Wipf|Christopher Wipf]] [[authors/Yu Him Justin Chiu|Yu Him Justin Chiu]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Low-frequency Sensitivity Improvement
+**🔗 Specific Connectable**: [[keywords/Reinforcement Learning|Reinforcement Learning]]
+**⚡ Unique Technical**: [[keywords/Deep Loop Shaping|Deep Loop Shaping]], [[keywords/Gravitational Wave Observatories|Gravitational Wave Observatories]]
 
 ## 🔗 유사한 논문
 - [[Inspired by machine learning optimization_ can gradient-based optimizers solve cycle skipping in full waveform inversion given sufficient iterations_20250918|Inspired by machine learning optimization can gradient-based optimizers solve cycle skipping in full waveform inversion given sufficient iterations]] (77.5% similar)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - Mixture-of-Experts
+  - Semi-Supervised Learning
+  - Histopathology Image Segmentation
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13834
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:10:11.129213",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Mixture-of-Experts",
+    "Semi-Supervised Learning",
+    "Histopathology Image Segmentation"
+  ],
+  "rejected_keywords": [
+    "Adaptive Multi-Objective Loss"
+  ],
+  "similarity_scores": {
+    "Mixture-of-Experts": 0.85,
+    "Semi-Supervised Learning": 0.8,
+    "Histopathology Image Segmentation": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Semi-MoE: Mixture-of-Experts meets Semi-Supervised Histopathology Segmentation
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Multi-Gating Pseudo-labeling
+**🔗 Specific Connectable**: [[keywords/Semi-Supervised Learning|Semi-Supervised Learning]]
+**⚡ Unique Technical**: [[keywords/Mixture-of-Experts|Mixture-of-Experts]], [[keywords/Histopathology Image Segmentation|Histopathology Image Segmentation]]
 
 ## 🔗 유사한 논문
 - [[CSMoE_An_Efficient_Remote_Sensing_Foundation_Model_with_Soft_Mixture-of-Experts_20250918|CSMoE: An Efficient Remote Sensing Foundation Model with Soft Mixture-of-Experts]] (82.5% similar)

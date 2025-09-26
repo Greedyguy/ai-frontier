@@ -1,3 +1,35 @@
+---
+keywords:
+  - Zero-Knowledge Machine Learning
+  - Cryptographic Verification
+  - Federated Learning
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2508.06972
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:50:15.480906",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Zero-Knowledge Machine Learning",
+    "Cryptographic Verification",
+    "Federated Learning"
+  ],
+  "rejected_keywords": [
+    "Proving Systems"
+  ],
+  "similarity_scores": {
+    "Zero-Knowledge Machine Learning": 0.8,
+    "Cryptographic Verification": 0.75,
+    "Federated Learning": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # DSperse: A Framework for Targeted Verification in Zero-Knowledge Machine Learning
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Targeted Verification
+**🔗 Specific Connectable**: [[keywords/Federated Learning|Distributed Machine Learning]]
+**⚡ Unique Technical**: [[keywords/Zero-Knowledge Machine Learning|Zero-Knowledge Machine Learning]], [[keywords/Cryptographic Verification|Cryptographic Verification]]
 
 ## 🔗 유사한 논문
 - [[Multi-Threaded_Software_Model_Checking_via_Parallel_Trace_Abstraction_Refinement_20250918|Multi-Threaded Software Model Checking via Parallel Trace Abstraction Refinement]] (80.0% similar)

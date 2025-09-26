@@ -1,3 +1,35 @@
+---
+keywords:
+  - Adaptive Extended Jacobian Controller
+  - Neural Networks
+  - Model Predictive Control
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2406.04094
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:57:55.920899",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Adaptive Extended Jacobian Controller",
+    "Neural Networks",
+    "Model Predictive Control"
+  ],
+  "rejected_keywords": [
+    "Iterative Feedback Control"
+  ],
+  "similarity_scores": {
+    "Adaptive Extended Jacobian Controller": 0.78,
+    "Neural Networks": 0.8,
+    "Model Predictive Control": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # AdapJ: An Adaptive Extended Jacobian Controller for Soft Manipulators
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Adaptive Control Mechanism
+**🌐 Broad Technical**: [[keywords/Neural Networks|Neural Networks]]
+**🔗 Specific Connectable**: [[keywords/Model Predictive Control|Model Predictive Controller]]
+**⚡ Unique Technical**: [[keywords/Adaptive Extended Jacobian Controller|AdapJ]]
 
 ## 🔗 유사한 논문
 - [[ActivePusher Active Learning and Planning with Residual Physics for Nonprehensile Manipulation]] (81.4% similar)

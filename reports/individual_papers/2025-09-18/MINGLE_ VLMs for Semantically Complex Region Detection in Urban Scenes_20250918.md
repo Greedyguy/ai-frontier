@@ -1,3 +1,36 @@
+---
+keywords:
+  - Social Group Region Detection
+  - Vision-Language Models
+  - Urban Street-View Images
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13484
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:20:22.086920",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Social Group Region Detection",
+    "Vision-Language Models",
+    "Urban Street-View Images"
+  ],
+  "rejected_keywords": [
+    "Computer Vision",
+    "Spatial Aggregation Algorithm"
+  ],
+  "similarity_scores": {
+    "Social Group Region Detection": 0.78,
+    "Vision-Language Models": 0.8,
+    "Urban Street-View Images": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # MINGLE: VLMs for Semantically Complex Region Detection in Urban Scenes
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Social Group Region Detection
+**🔗 Specific Connectable**: [[keywords/Vision-Language Models|Vision-Language Models]]
+**⚡ Unique Technical**: [[keywords/Social Group Region Detection|social group region detection]], [[keywords/Urban Street-View Images|urban street-view images]]
 
 ## 🔗 유사한 논문
 - [[Semi-MoE_Mixture-of-Experts_meets_Semi-Supervised_Histopathology_Segmentation_20250918|Semi-MoE: Mixture-of-Experts meets Semi-Supervised Histopathology Segmentation]] (77.7% similar)

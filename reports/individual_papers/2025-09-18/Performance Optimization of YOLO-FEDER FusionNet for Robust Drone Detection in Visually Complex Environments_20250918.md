@@ -1,3 +1,36 @@
+---
+keywords:
+  - YOLO-FEDER FusionNet
+  - Drone Detection
+  - Camouflage Object Detection
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.14012
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:16:24.009206",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "YOLO-FEDER FusionNet",
+    "Drone Detection",
+    "Camouflage Object Detection"
+  ],
+  "rejected_keywords": [
+    "Feature Fusion Strategies",
+    "YOLOv8l Backbone"
+  ],
+  "similarity_scores": {
+    "YOLO-FEDER FusionNet": 0.8,
+    "Drone Detection": 0.7,
+    "Camouflage Object Detection": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Performance Optimization of YOLO-FEDER FusionNet for Robust Drone Detection in Visually Complex Environments
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Backbone Upgrades
+**🔗 Specific Connectable**: [[keywords/Drone Detection|Drone Detection]]
+**⚡ Unique Technical**: [[keywords/YOLO-FEDER FusionNet|YOLO-FEDER FusionNet]], [[keywords/Camouflage Object Detection|Camouflage Object Detection]]
 
 ## 🔗 유사한 논문
 - [[A_Novel_Compression_Framework_for_YOLOv8_Achieving_Real-Time_Aerial_Object_Detection_on_Edge_Devices_via_Structured_Pruning_and_Channel-Wise_Distillation_20250918|A Novel Compression Framework for YOLOv8: Achieving Real-Time Aerial Object Detection on Edge Devices via Structured Pruning and Channel-Wise Distillation]] (86.2% similar)

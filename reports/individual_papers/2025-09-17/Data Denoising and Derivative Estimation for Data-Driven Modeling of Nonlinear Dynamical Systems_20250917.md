@@ -1,13 +1,46 @@
+---
+keywords:
+  - Sparse Identification of Nonlinear Dynamics
+  - Neural Networks
+  - Runge-Kutta Integration
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:57:45.224567",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Sparse Identification of Nonlinear Dynamics",
+    "Neural Networks",
+    "Runge-Kutta Integration"
+  ],
+  "rejected_keywords": [
+    "Total Variation"
+  ],
+  "similarity_scores": {
+    "Sparse Identification of Nonlinear Dynamics": 0.8,
+    "Neural Networks": 0.78,
+    "Runge-Kutta Integration": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Data Denoising and Derivative Estimation for Data-Driven Modeling of Nonlinear Dynamical Systems
 
 **Korean Title:** 비선형 동적 시스템의 데이터 기반 모델링을 위한 데이터 노이즈 제거 및 미분 추정
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Jiaqi Yao|Jiaqi Yao]] [[authors/Lewis Mitchell|Lewis Mitchell]] [[authors/John Maclean|John Maclean]] [[authors/Hemanth Saratchandran|Hemanth Saratchandran]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]       [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Automatic Differentiation, Sparse Identification of Nonlinear Dynamics
+**🌐 Broad Technical**: [[keywords/Neural Networks|Implicit Neural Representation]]
+**⚡ Unique Technical**: [[keywords/Sparse Identification of Nonlinear Dynamics|Sparse Identification of Nonlinear Dynamics]], [[keywords/Runge-Kutta Integration|Runge-Kutta Integration]]
 
 ## 🔗 유사한 논문
 - [[Out-of-Sight Trajectories_ Tracking, Fusion, and Prediction_20250919|Out-of-Sight Trajectories Tracking, Fusion, and Prediction]] (78.2% similar)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - Uncertainty Quantification
+  - Active Learning
+  - Residual Physics
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2506.04646
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:58:03.105509",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Uncertainty Quantification",
+    "Active Learning",
+    "Residual Physics"
+  ],
+  "rejected_keywords": [
+    "Kinodynamic Planning"
+  ],
+  "similarity_scores": {
+    "Uncertainty Quantification": 0.82,
+    "Active Learning": 0.8,
+    "Residual Physics": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # ActivePusher: Active Learning and Planning with Residual Physics for Nonprehensile Manipulation
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Residual Physics Modeling, Uncertainty-based Control
+**🔗 Specific Connectable**: [[keywords/Uncertainty Quantification|Uncertainty Quantification]], [[keywords/Active Learning|Active Learning]]
+**⚡ Unique Technical**: [[keywords/Residual Physics|Residual Physics]]
 
 ## 🔗 유사한 논문
 - [[Embracing Bulky Objects with Humanoid Robots Whole-Body Manipulation with Reinforcement Learning]] (83.2% similar)

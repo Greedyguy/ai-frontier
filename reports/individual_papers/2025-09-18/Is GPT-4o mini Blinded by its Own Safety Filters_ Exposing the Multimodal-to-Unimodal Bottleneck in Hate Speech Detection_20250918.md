@@ -1,3 +1,36 @@
+---
+keywords:
+  - AI Alignment
+  - Multi-Modal Learning
+  - Hate Speech Detection
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13608
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:24:45.697759",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "AI Alignment",
+    "Multi-Modal Learning",
+    "Hate Speech Detection"
+  ],
+  "rejected_keywords": [
+    "Unimodal Bottleneck",
+    "Safety Filters"
+  ],
+  "similarity_scores": {
+    "AI Alignment": 0.85,
+    "Multi-Modal Learning": 0.8,
+    "Hate Speech Detection": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Is GPT-4o mini Blinded by its Own Safety Filters? Exposing the Multimodal-to-Unimodal Bottleneck in Hate Speech Detection
 
@@ -5,10 +38,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Unimodal Bottleneck
+**🌐 Broad Technical**: [[keywords/AI Alignment|AI Alignment]]
+**🔗 Specific Connectable**: [[keywords/Multi-Modal Learning|Large Multimodal Models]]
+**⚡ Unique Technical**: [[keywords/Hate Speech Detection|Hate Speech Detection]]
 
 ## 🔗 유사한 논문
 - [[Multimodal Hate Detection Using Dual-Stream Graph Neural Networks]] (82.7% similar)

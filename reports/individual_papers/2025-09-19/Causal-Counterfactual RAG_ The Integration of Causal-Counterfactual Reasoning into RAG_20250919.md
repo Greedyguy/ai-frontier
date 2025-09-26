@@ -1,3 +1,35 @@
+---
+keywords:
+  - Causal-Counterfactual RAG
+  - Retrieval-Augmented Generation
+  - Causal Graphs
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14435
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:53:38.765077",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Causal-Counterfactual RAG",
+    "Retrieval-Augmented Generation",
+    "Causal Graphs"
+  ],
+  "rejected_keywords": [
+    "Large Language Models"
+  ],
+  "similarity_scores": {
+    "Causal-Counterfactual RAG": 0.8,
+    "Retrieval-Augmented Generation": 0.78,
+    "Causal Graphs": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Causal-Counterfactual RAG: The Integration of Causal-Counterfactual Reasoning into RAG
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Causal Graphs, Counterfactual Reasoning
+**🔗 Specific Connectable**: [[keywords/Retrieval-Augmented Generation|Retrieval-Augmented Generation]], [[keywords/Causal Graphs|Causal Graphs]]
+**⚡ Unique Technical**: [[keywords/Causal-Counterfactual RAG|Causal-Counterfactual RAG]]
 
 ## 🔗 유사한 논문
 - [[Enhancing Retrieval Augmentation via Adversarial Collaboration_20250919|Enhancing Retrieval Augmentation via Adversarial Collaboration]] (87.4% similar)

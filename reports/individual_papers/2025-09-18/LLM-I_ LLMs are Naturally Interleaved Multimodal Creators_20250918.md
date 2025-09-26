@@ -1,3 +1,35 @@
+---
+keywords:
+  - LLM-Interleaved
+  - Diffusion Models
+  - Reinforcement Learning
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13642
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:23:33.581317",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "LLM-Interleaved",
+    "Diffusion Models",
+    "Reinforcement Learning"
+  ],
+  "rejected_keywords": [
+    "Multi-Modal Learning"
+  ],
+  "similarity_scores": {
+    "LLM-Interleaved": 0.8,
+    "Diffusion Models": 0.78,
+    "Reinforcement Learning": 0.85
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # LLM-I: LLMs are Naturally Interleaved Multimodal Creators
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Interleaved Multimodal Framework
+**🔗 Specific Connectable**: [[keywords/Diffusion Models|Diffusion-based generation]], [[keywords/Reinforcement Learning|Reinforcement Learning]]
+**⚡ Unique Technical**: [[keywords/LLM-Interleaved|LLM-Interleaved]]
 
 ## 🔗 유사한 논문
 - [[Forget What You Know about LLMs Evaluations -- LLMs are Like a Chameleon]] (84.0% similar)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - Large Language Models
+  - Multi-Modal Learning
+  - Generative Models
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14738
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:19:12.348428",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Multi-Modal Learning",
+    "Generative Models"
+  ],
+  "rejected_keywords": [
+    "Computer Vision"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.88,
+    "Multi-Modal Learning": 0.84,
+    "Generative Models": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # UnifiedVisual: A Framework for Constructing Unified Vision-Language Datasets
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Cross Modal Reasoning
+**🔗 Specific Connectable**: [[keywords/Generative Models|text-guided image synthesis]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Unified vision large language models]], [[keywords/Multi-Modal Learning|cross-modal reasoning]]
 
 ## 🔗 유사한 논문
 - [[Decoupled Proxy Alignment Mitigating Language Prior Conflict for Multimodal Alignment in MLLM]] (84.4% similar)

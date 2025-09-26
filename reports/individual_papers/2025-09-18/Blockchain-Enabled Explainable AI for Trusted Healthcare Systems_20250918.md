@@ -1,13 +1,48 @@
+---
+keywords:
+  - Blockchain-Integrated Explainable AI
+  - Clinical Decision Support
+  - Explainable AI
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:36:56.196533",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Blockchain-Integrated Explainable AI",
+    "Clinical Decision Support",
+    "Explainable AI"
+  ],
+  "rejected_keywords": [
+    "Federated Learning",
+    "Data Security"
+  ],
+  "similarity_scores": {
+    "Blockchain-Integrated Explainable AI": 0.8,
+    "Clinical Decision Support": 0.77,
+    "Explainable AI": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Blockchain-Enabled Explainable AI for Trusted Healthcare Systems
 
 **Korean Title:** 블록체인 기반 설명 가능한 인공지능을 활용한 신뢰할 수 있는 헬스케어 시스템
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Md Talha Mohsin|Md Talha Mohsin]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]    [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Hybrid Edge-Cloud Architecture
+**🌐 Broad Technical**: [[keywords/Explainable AI|Explainable AI]]
+**🔗 Specific Connectable**: [[keywords/Clinical Decision Support|Clinical decision-making]]
+**⚡ Unique Technical**: [[keywords/Blockchain-Integrated Explainable AI|Blockchain-Integrated Explainable AI Framework]]
 
 ## 🔗 유사한 논문
 - [[OpenLens AI_ Fully Autonomous Research Agent for Health Infomatics_20250919|OpenLens AI Fully Autonomous Research Agent for Health Infomatics]] (79.1% similar)

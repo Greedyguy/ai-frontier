@@ -1,3 +1,36 @@
+---
+keywords:
+  - Decoupled Proxy Alignment
+  - Vision-Language Alignment
+  - Multi-Modal Learning
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14735
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:49:42.851764",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Decoupled Proxy Alignment",
+    "Vision-Language Alignment",
+    "Multi-Modal Learning"
+  ],
+  "rejected_keywords": [
+    "Language Prior Conflict",
+    "Large Language Models"
+  ],
+  "similarity_scores": {
+    "Decoupled Proxy Alignment": 0.9,
+    "Vision-Language Alignment": 0.88,
+    "Multi-Modal Learning": 0.85
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Decoupled Proxy Alignment: Mitigating Language Prior Conflict for Multimodal Alignment in MLLM
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Language Prior Conflict Mitigation
+**⚡ Unique Technical**: [[keywords/Decoupled Proxy Alignment|Decoupled Proxy Alignment]], [[keywords/Vision-Language Alignment|Vision-Language Alignment]]
+**🚀 Evolved Concepts**: [[keywords/Multi-Modal Learning|Multimodal Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[Modular Machine Learning An Indispensable Path towards New-Generation Large Language Models]] (87.6% similar)

@@ -1,13 +1,47 @@
+---
+keywords:
+  - Large Language Models
+  - Multilingual Representation
+  - Goldfish Objective
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 23:01:18.215929",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Multilingual Representation",
+    "Goldfish Objective"
+  ],
+  "rejected_keywords": [
+    "Data Compliance",
+    "Open Model Ecosystem"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.9,
+    "Multilingual Representation": 0.82,
+    "Goldfish Objective": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Apertus: Democratizing Open and Compliant LLMs for Global Language Environments
 
 **Korean Title:** Apertus: 글로벌 언어 환경을 위한 개방적이고 규범적인 대형 언어 모델의 민주화
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Alejandro Hernández-Cano|Alejandro Hernández-Cano]] [[authors/Alexander Hägele|Alexander Hägele]] [[authors/Allen Hao Huang|Allen Hao Huang]] [[authors/Angelika Romanou|Angelika Romanou]] [[authors/Antoni-Joan Solergibert|Antoni-Joan Solergibert]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Goldfish Objective
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Large Language Models]]
+**⚡ Unique Technical**: [[keywords/Multilingual Representation|Multilingual Representation]], [[keywords/Goldfish Objective|Goldfish Objective]]
 
 ## 🔗 유사한 논문
 - [[LNE-Blocking_ An Efficient Framework for Contamination Mitigation Evaluation on Large Language Models_20250918|LNE-Blocking An Efficient Framework for Contamination Mitigation Evaluation on Large Language Models]] (82.3% similar)

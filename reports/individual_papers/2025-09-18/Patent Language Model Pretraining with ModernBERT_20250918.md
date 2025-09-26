@@ -1,13 +1,48 @@
+---
+keywords:
+  - Transformer Architecture
+  - Natural Language Processing
+  - Patent NLP
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:16:42.397070",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Transformer Architecture",
+    "Natural Language Processing",
+    "Patent NLP"
+  ],
+  "rejected_keywords": [
+    "FlashAttention",
+    "Domain-specific Pretraining"
+  ],
+  "similarity_scores": {
+    "Transformer Architecture": 0.8,
+    "Natural Language Processing": 0.75,
+    "Patent NLP": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Patent Language Model Pretraining with ModernBERT
 
 **Korean Title:** 특허 언어 모델 사전 훈련: ModernBERT 활용
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Amirhossein Yousefiramandi|Amirhossein Yousefiramandi]] [[authors/Ciaran Cooney|Ciaran Cooney]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]     [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Domain-specific Pretraining
+**🌐 Broad Technical**: [[keywords/Natural Language Processing|Natural Language Processing]]
+**🔗 Specific Connectable**: [[keywords/Transformer Architecture|Transformer-based language models]]
+**⚡ Unique Technical**: [[keywords/Patent NLP|Patent-focused NLP tasks]]
 
 ## 🔗 유사한 논문
 - [[BERTector_ An Intrusion Detection Framework Constructed via Joint-dataset Learning Based on Language Model_20250918|BERTector An Intrusion Detection Framework Constructed via Joint-dataset Learning Based on Language Model]] (79.7% similar)

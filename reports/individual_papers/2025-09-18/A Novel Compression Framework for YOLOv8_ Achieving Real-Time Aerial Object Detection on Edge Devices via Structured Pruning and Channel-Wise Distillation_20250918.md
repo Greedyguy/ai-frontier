@@ -1,3 +1,35 @@
+---
+keywords:
+  - Knowledge Distillation
+  - Channel Pruning
+  - YOLOv8
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.12918
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:41:52.954964",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Knowledge Distillation",
+    "Channel Pruning",
+    "YOLOv8"
+  ],
+  "rejected_keywords": [
+    "Edge Computing"
+  ],
+  "similarity_scores": {
+    "Knowledge Distillation": 0.81,
+    "Channel Pruning": 0.79,
+    "YOLOv8": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # A Novel Compression Framework for YOLOv8: Achieving Real-Time Aerial Object Detection on Edge Devices via Structured Pruning and Channel-Wise Distillation
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Real-Time Deployment
+**🔗 Specific Connectable**: [[keywords/Knowledge Distillation|Channel-Wise Knowledge Distillation]], [[keywords/Channel Pruning|Structured Channel Pruning]]
+**⚡ Unique Technical**: [[keywords/YOLOv8|YOLOv8]]
 
 ## 🔗 유사한 논문
 - [[Performance_Optimization_of_YOLO-FEDER_FusionNet_for_Robust_Drone_Detection_in_Visually_Complex_Environments_20250918|Performance Optimization of YOLO-FEDER FusionNet for Robust Drone Detection in Visually Complex Environments]] (86.2% similar)

@@ -1,13 +1,46 @@
+---
+keywords:
+  - Post-Quantum Resilience
+  - TPM-based Remote Attestation
+  - IoT Audio Classification
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:04:49.960531",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Post-Quantum Resilience",
+    "TPM-based Remote Attestation",
+    "IoT Audio Classification"
+  ],
+  "rejected_keywords": [
+    "End-to-End Encryption"
+  ],
+  "similarity_scores": {
+    "Post-Quantum Resilience": 0.82,
+    "TPM-based Remote Attestation": 0.79,
+    "IoT Audio Classification": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Threat Modeling for Enhancing Security of IoT Audio Classification Devices under a Secure Protocols Framework
 
 **Korean Title:** 사물인터넷 오디오 분류 장치의 보안을 강화하기 위한 위협 모델링: 보안 프로토콜 프레임워크 하에서
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Sergio Benlloch-Lopez|Sergio Benlloch-Lopez]] [[authors/Miquel Viel-Vazquez|Miquel Viel-Vazquez]] [[authors/Javier Naranjo-Alcazar|Javier Naranjo-Alcazar]] [[authors/Jordi Grau-Haro|Jordi Grau-Haro]] [[authors/Pedro Zuccarello|Pedro Zuccarello]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**⭐ Unique Technical**: Defence-in-Depth Architecture
+**🔗 Specific Connectable**: [[keywords/Post-Quantum Resilience|Post-Quantum Resilience]]
+**⚡ Unique Technical**: [[keywords/TPM-based Remote Attestation|TPM-based Remote Attestation]], [[keywords/IoT Audio Classification|IoT Audio Classification]]
 
 ## 🔗 유사한 논문
 - [[The Cybersecurity of a Humanoid Robot_20250918|The Cybersecurity of a Humanoid Robot]] (80.5% similar)

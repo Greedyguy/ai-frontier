@@ -1,13 +1,47 @@
+---
+keywords:
+  - Large Language Models
+  - Hierarchical Neural Networks
+  - FPGA-Based Learning
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:05:20.399591",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Hierarchical Neural Networks",
+    "FPGA-Based Learning"
+  ],
+  "rejected_keywords": [
+    "Incremental Learning",
+    "Sustainable AI"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Hierarchical Neural Networks": 0.78,
+    "FPGA-Based Learning": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # The Energy-Efficient Hierarchical Neural Network with Fast FPGA-Based Incremental Learning
 
 **Korean Title:** 에너지 효율적인 계층적 신경망과 빠른 FPGA 기반 점진적 학습
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Mohammad Saleh Vahdatpour|Mohammad Saleh Vahdatpour]] [[authors/Huaiyuan Chu|Huaiyuan Chu]] [[authors/Yanqing Zhang|Yanqing Zhang]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]      [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Incremental Learning, FPGA-based Equation Solving
+**⚡ Unique Technical**: [[keywords/Hierarchical Neural Networks|Hierarchical Neural Network]], [[keywords/FPGA-Based Learning|FPGA-Based Learning]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[Low-rank surrogate modeling and stochastic zero-order optimization for training of neural networks with black-box layers_20250918|Low-rank surrogate modeling and stochastic zero-order optimization for training of neural networks with black-box layers]] (86.4% similar)

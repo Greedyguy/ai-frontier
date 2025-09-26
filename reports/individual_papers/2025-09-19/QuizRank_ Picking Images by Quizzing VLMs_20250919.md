@@ -1,3 +1,35 @@
+---
+keywords:
+  - Contrastive QuizRank
+  - Large Language Models
+  - Vision Language Models
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.15059
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:28:19.379901",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Contrastive QuizRank",
+    "Large Language Models",
+    "Vision Language Models"
+  ],
+  "rejected_keywords": [
+    "Computer Vision"
+  ],
+  "similarity_scores": {
+    "Contrastive QuizRank": 0.9,
+    "Large Language Models": 0.8,
+    "Vision Language Models": 0.85
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # QuizRank: Picking Images by Quizzing VLMs
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Contrastive QuizRank
+**⚡ Unique Technical**: [[keywords/Contrastive QuizRank|Contrastive QuizRank]], [[keywords/Vision Language Models|Vision Language Models]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[V-SEAM Visual Semantic Editing and Attention Modulating for Causal Interpretability of Vision-Language Models]] (82.2% similar)

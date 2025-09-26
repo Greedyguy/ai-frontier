@@ -1,3 +1,36 @@
+---
+keywords:
+  - Artificial General Intelligence
+  - Cognition and Association
+  - Large Language Models
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14171
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:55:50.855415",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Artificial General Intelligence",
+    "Cognition and Association",
+    "Large Language Models"
+  ],
+  "rejected_keywords": [
+    "Association Thinking",
+    "Ambiguity in Association Tasks"
+  ],
+  "similarity_scores": {
+    "Artificial General Intelligence": 0.82,
+    "Cognition and Association": 0.77,
+    "Large Language Models": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # AssoCiAm: A Benchmark for Evaluating Association Thinking while Circumventing Ambiguity
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Hybrid Computational Method
+**⚡ Unique Technical**: [[keywords/Artificial General Intelligence|artificial general intelligence]]
+**🚀 Evolved Concepts**: [[keywords/Cognition and Association|cognition and association]]
 
 ## 🔗 유사한 논문
 - [[Internalizing Self-Consistency in Language Models Multi-Agent Consensus Alignment]] (82.2% similar)

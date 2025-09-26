@@ -1,3 +1,36 @@
+---
+keywords:
+  - Large Language Models
+  - Forgetting Mechanism
+  - Ultra-Long Dialogues
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.11860
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:20:17.587236",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Forgetting Mechanism",
+    "Ultra-Long Dialogues"
+  ],
+  "rejected_keywords": [
+    "Memory Extraction",
+    "Role-Playing Scenarios"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.78,
+    "Forgetting Mechanism": 0.75,
+    "Ultra-Long Dialogues": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # MOOM: Maintenance, Organization and Optimization of Memory in Ultra-Long Role-Playing Dialogues
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Competition-inhibition memory theory
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Large Language Models]]
+**⚡ Unique Technical**: [[keywords/Forgetting Mechanism|Forgetting mechanism]], [[keywords/Ultra-Long Dialogues|Ultra-long dialogues]]
 
 ## 🔗 유사한 논문
 - [[MOCHA: Multi-modal Objects-aware Cross-arcHitecture Alignment]] (77.9% similar)

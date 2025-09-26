@@ -1,3 +1,35 @@
+---
+keywords:
+  - Sample Complexity
+  - Learning from Label Proportions
+  - Loss Functions
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.15145
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:30:22.570195",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Sample Complexity",
+    "Learning from Label Proportions",
+    "Loss Functions"
+  ],
+  "rejected_keywords": [
+    "De-biasing Techniques"
+  ],
+  "similarity_scores": {
+    "Sample Complexity": 0.79,
+    "Learning from Label Proportions": 0.78,
+    "Loss Functions": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Optimal Learning from Label Proportions with General Loss Functions
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Aggregate Label Information
+**🌐 Broad Technical**: [[keywords/Loss Functions|loss functions]]
+**🔗 Specific Connectable**: [[keywords/Sample Complexity|sample complexity guarantees]]
+**⚡ Unique Technical**: [[keywords/Learning from Label Proportions|Learning from Label Proportions]]
 
 ## 🔗 유사한 논문
 - [[Zero-Shot LLMs in Human-in-the-Loop RL Replacing Human Feedback for Reward Shaping]] (81.0% similar)

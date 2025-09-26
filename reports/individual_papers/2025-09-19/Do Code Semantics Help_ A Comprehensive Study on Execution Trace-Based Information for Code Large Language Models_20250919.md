@@ -1,3 +1,35 @@
+---
+keywords:
+  - Large Language Models
+  - Supervised Fine-Tuning
+  - Execution Traces
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.11686
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:47:38.594941",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Supervised Fine-Tuning",
+    "Execution Traces"
+  ],
+  "rejected_keywords": [
+    "Semantic Information"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Supervised Fine-Tuning": 0.78,
+    "Execution Traces": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Do Code Semantics Help? A Comprehensive Study on Execution Trace-Based Information for Code Large Language Models
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Semantic Information Integration
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Code Large Language Models]], [[keywords/Supervised Fine-Tuning|supervised fine-tuning]]
+**⚡ Unique Technical**: [[keywords/Execution Traces|execution trace]]
 
 ## 🔗 유사한 논문
 - [[Reasoning Efficiently Through Adaptive Chain-of-Thought Compression A Self-Optimizing Framework]] (82.5% similar)

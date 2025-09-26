@@ -1,13 +1,48 @@
+---
+keywords:
+  - Foundation Models
+  - Transformer Architecture
+  - Physics Foundation Model
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:43:41.467225",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Foundation Models",
+    "Transformer Architecture",
+    "Physics Foundation Model"
+  ],
+  "rejected_keywords": [
+    "General Physics Transformer",
+    "In-Context Learning"
+  ],
+  "similarity_scores": {
+    "Foundation Models": 0.8,
+    "Transformer Architecture": 0.82,
+    "Physics Foundation Model": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Towards a Physics Foundation Model
 
 **Korean Title:** 물리학 기초 모델을 향하여
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Florian Wiesner|Florian Wiesner]] [[authors/Matthias Wessling|Matthias Wessling]] [[authors/Stephen Baek|Stephen Baek]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]      [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Physics Foundation Model
+**🔗 Specific Connectable**: [[keywords/Transformer Architecture|Transformer Architecture]]
+**⚡ Unique Technical**: [[keywords/Physics Foundation Model|Physics Foundation Model]]
+**🚀 Evolved Concepts**: [[keywords/Foundation Models|Foundation Models]]
 
 ## 🔗 유사한 논문
 - [[An End-to-End Differentiable, Graph Neural Network-Embedded Pore Network Model for Permeability Prediction_20250917|An End-to-End Differentiable, Graph Neural Network-Embedded Pore Network Model for Permeability Prediction]] (80.8% similar)

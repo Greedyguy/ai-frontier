@@ -1,13 +1,46 @@
+---
+keywords:
+  - Transformer Architecture
+  - Attention Mechanism
+  - Stochastic Clock Attention
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:09:02.152895",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Transformer Architecture",
+    "Attention Mechanism",
+    "Stochastic Clock Attention"
+  ],
+  "rejected_keywords": [
+    "Sequence-to-Sequence Tasks"
+  ],
+  "similarity_scores": {
+    "Transformer Architecture": 0.78,
+    "Attention Mechanism": 0.8,
+    "Stochastic Clock Attention": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Stochastic Clock Attention for Aligning Continuous and Ordered Sequences
 
 **Korean Title:** 확률적 시계 주의 메커니즘을 통한 연속적이고 순차적인 시퀀스 정렬
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Hyungjoon Soh|Hyungjoon Soh]] [[authors/Junghyo Jo|Junghyo Jo]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]     [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Frame-synchronous Targets
+**🔗 Specific Connectable**: [[keywords/Transformer Architecture|Transformer text-to-speech]], [[keywords/Attention Mechanism|attention mechanism]]
+**⚡ Unique Technical**: [[keywords/Stochastic Clock Attention|stochastic clock attention]]
 
 ## 🔗 유사한 논문
 - [[Fast Multipole Attention_ A Scalable Multilevel Attention Mechanism for Text and Images_20250919|Fast Multipole Attention A Scalable Multilevel Attention Mechanism for Text and Images]] (79.3% similar)

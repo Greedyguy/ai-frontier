@@ -1,3 +1,35 @@
+---
+keywords:
+  - Reinforcement Learning
+  - Theory of Mind
+  - Deceptive Policies
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14453
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:31:31.632353",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Reinforcement Learning",
+    "Theory of Mind",
+    "Deceptive Policies"
+  ],
+  "rejected_keywords": [
+    "KL-regularized Policy Improvement"
+  ],
+  "similarity_scores": {
+    "Reinforcement Learning": 0.8,
+    "Theory of Mind": 0.7,
+    "Deceptive Policies": 0.65
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Online Learning of Deceptive Policies under Intermittent Observation
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Deceptive Policy Learning
+**🔗 Specific Connectable**: [[keywords/Reinforcement Learning|Reinforcement Learning]]
+**⚡ Unique Technical**: [[keywords/Theory of Mind|Theory of Mind]], [[keywords/Deceptive Policies|Deceptive Policies]]
 
 ## 🔗 유사한 논문
 - [[Multi-Fidelity Hybrid Reinforcement Learning via Information Gain Maximization_20250919|Multi-Fidelity Hybrid Reinforcement Learning via Information Gain Maximization]] (83.9% similar)

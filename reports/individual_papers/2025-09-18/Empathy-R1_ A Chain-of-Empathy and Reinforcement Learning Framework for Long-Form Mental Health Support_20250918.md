@@ -1,13 +1,47 @@
+---
+keywords:
+  - Chain-of-Empathy
+  - Reinforcement Learning
+  - Large Language Models
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:30:24.628127",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Chain-of-Empathy",
+    "Reinforcement Learning",
+    "Large Language Models"
+  ],
+  "rejected_keywords": [
+    "Cognitive-Behavioral Therapy"
+  ],
+  "similarity_scores": {
+    "Chain-of-Empathy": 0.82,
+    "Reinforcement Learning": 0.8,
+    "Large Language Models": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Empathy-R1: A Chain-of-Empathy and Reinforcement Learning Framework for Long-Form Mental Health Support
 
 **Korean Title:** 공감-R1: 장기 정신 건강 지원을 위한 공감 사슬 및 강화 학습 프레임워크
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Xianrong Yao|Xianrong Yao]] [[authors/Dong She|Dong She]] [[authors/Chenxu Zhang|Chenxu Zhang]] [[authors/Yimeng Zhang|Yimeng Zhang]] [[authors/Yueru Sun|Yueru Sun]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Interpretable AI for Mental Health
+**🔗 Specific Connectable**: [[keywords/Reinforcement Learning|Reinforcement Learning]]
+**⚡ Unique Technical**: [[keywords/Chain-of-Empathy|Chain-of-Empathy]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[LLM Agents at the Roundtable_ A Multi-Perspective and Dialectical Reasoning Framework for Essay Scoring_20250919|LLM Agents at the Roundtable A Multi-Perspective and Dialectical Reasoning Framework for Essay Scoring]] (81.5% similar)

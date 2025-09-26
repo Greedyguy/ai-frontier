@@ -1,3 +1,35 @@
+---
+keywords:
+  - Diffusion Models
+  - Multi-Modal Learning
+  - Radiology Report Conditional Framework
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14780
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:27:54.476264",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Diffusion Models",
+    "Multi-Modal Learning",
+    "Radiology Report Conditional Framework"
+  ],
+  "rejected_keywords": [
+    "Frechet Inception Distance"
+  ],
+  "similarity_scores": {
+    "Diffusion Models": 0.8,
+    "Multi-Modal Learning": 0.82,
+    "Radiology Report Conditional Framework": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Radiology Report Conditional 3D CT Generation with Multi Encoder Latent diffusion Model
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Multi Encoder Text Conditioning
+**🔗 Specific Connectable**: [[keywords/Diffusion Models|latent diffusion models]]
+**⚡ Unique Technical**: [[keywords/Radiology Report Conditional Framework|radiology report conditional latent diffusion framework]]
+**🚀 Evolved Concepts**: [[keywords/Multi-Modal Learning|multi encoder text conditioning]]
 
 ## 🔗 유사한 논문
 - [[Intelligent Healthcare Imaging Platform An VLM-Based Framework for Automated Medical Image Analysis and Clinical Report Generation]] (82.6% similar)

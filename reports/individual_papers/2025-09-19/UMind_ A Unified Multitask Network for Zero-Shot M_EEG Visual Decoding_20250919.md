@@ -1,3 +1,35 @@
+---
+keywords:
+  - Diffusion Models
+  - Zero-Shot Visual Decoding
+  - Multi-Modal Learning
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14772
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:19:33.131018",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Diffusion Models",
+    "Zero-Shot Visual Decoding",
+    "Multi-Modal Learning"
+  ],
+  "rejected_keywords": [
+    "Multitask Learning"
+  ],
+  "similarity_scores": {
+    "Diffusion Models": 0.8,
+    "Zero-Shot Visual Decoding": 0.78,
+    "Multi-Modal Learning": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # UMind: A Unified Multitask Network for Zero-Shot M/EEG Visual Decoding
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Multitask Visual Decoding
+**🔗 Specific Connectable**: [[keywords/Diffusion Models|Diffusion Model]]
+**⚡ Unique Technical**: [[keywords/Zero-Shot Visual Decoding|Zero-Shot M/EEG Visual Decoding]]
+**🚀 Evolved Concepts**: [[keywords/Multi-Modal Learning|Multimodal Alignment]]
 
 ## 🔗 유사한 논문
 - [[Reconstruction Alignment Improves Unified Multimodal Models_20250919|Reconstruction Alignment Improves Unified Multimodal Models]] (82.8% similar)

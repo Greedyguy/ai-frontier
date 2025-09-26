@@ -1,13 +1,47 @@
+---
+keywords:
+  - Graph Neural Networks
+  - Optimization
+  - Partial Separability
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:57:31.935274",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Graph Neural Networks",
+    "Optimization",
+    "Partial Separability"
+  ],
+  "rejected_keywords": [
+    "Randomized Local Coordination"
+  ],
+  "similarity_scores": {
+    "Graph Neural Networks": 0.82,
+    "Optimization": 0.78,
+    "Partial Separability": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Decentralized Optimization with Topology-Independent Communication
 
 **Korean Title:** 토폴로지 독립적 통신을 통한 분산 최적화
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Ying Lin|Ying Lin]] [[authors/Yao Kuang|Yao Kuang]] [[authors/Ahmet Alacaoglu|Ahmet Alacaoglu]] [[authors/Michael P. Friedlander|Michael P. Friedlander]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]       [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Topology-independent Communication
+**🌐 Broad Technical**: [[keywords/Optimization|Distributed optimization]]
+**🔗 Specific Connectable**: [[keywords/Graph Neural Networks|Graph-guided regularizers]]
+**⚡ Unique Technical**: [[keywords/Partial Separability|Partial separability]]
 
 ## 🔗 유사한 논문
 - [[Data-Driven Distributed Optimization via Aggregative Tracking and Deep-Learning_20250918|Data-Driven Distributed Optimization via Aggregative Tracking and Deep-Learning]] (84.5% similar)

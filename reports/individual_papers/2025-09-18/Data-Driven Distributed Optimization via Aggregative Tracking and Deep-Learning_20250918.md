@@ -1,3 +1,35 @@
+---
+keywords:
+  - Neural Networks
+  - Distributed Optimization
+  - Aggregative Framework
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2503.04668
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:33:32.426517",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Neural Networks",
+    "Distributed Optimization",
+    "Aggregative Framework"
+  ],
+  "rejected_keywords": [
+    "Timescale Separation"
+  ],
+  "similarity_scores": {
+    "Neural Networks": 0.85,
+    "Distributed Optimization": 0.78,
+    "Aggregative Framework": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Data-Driven Distributed Optimization via Aggregative Tracking and Deep-Learning
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Data-Driven Optimization
+**🌐 Broad Technical**: [[keywords/Neural Networks|neural networks]]
+**⚡ Unique Technical**: [[keywords/Distributed Optimization|distributed data-driven optimization]], [[keywords/Aggregative Framework|aggregative framework]]
 
 ## 🔗 유사한 논문
 - [[Distributionally_Robust_Equilibria_over_the_Wasserstein_Distance_for_Generalized_Nash_Game_20250918|Distributionally Robust Equilibria over the Wasserstein Distance for Generalized Nash Game]] (81.8% similar)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - Multi-Modal Learning
+  - Multi-Modal Learning
+  - Contact-rich manipulation
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2505.22159
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:43:28.646429",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Multi-Modal Learning",
+    "Multi-Modal Learning",
+    "Contact-rich manipulation"
+  ],
+  "rejected_keywords": [
+    "Force-aware Mixture-of-Experts",
+    "6-axis force feedback"
+  ],
+  "similarity_scores": {
+    "Multi-Modal Learning": 0.77,
+    "Contact-rich manipulation": 0.74
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # ForceVLA: Enhancing VLA Models with a Force-aware MoE for Contact-rich Manipulation
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Vision-Language-Action Models
+**⚡ Unique Technical**: [[keywords/Contact-rich manipulation|Contact-rich manipulation]]
+**🚀 Evolved Concepts**: [[keywords/Multi-Modal Learning|Vision-Language-Action models]], [[keywords/Multi-Modal Learning|Multimodal integration]]
 
 ## 🔗 유사한 논문
 - [[CLAW A Vision-Language-Action Framework for Weight-Aware Robotic Grasping]] (86.0% similar)

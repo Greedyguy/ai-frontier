@@ -1,13 +1,46 @@
+---
+keywords:
+  - Convolutional Neural Networks
+  - Audio Tagging
+  - Open Neural Network Exchange
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:58:45.137660",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Convolutional Neural Networks",
+    "Audio Tagging",
+    "Open Neural Network Exchange"
+  ],
+  "rejected_keywords": [
+    "Resource-Constrained Devices"
+  ],
+  "similarity_scores": {
+    "Convolutional Neural Networks": 0.9,
+    "Audio Tagging": 0.8,
+    "Open Neural Network Exchange": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Comprehensive Evaluation of CNN-Based Audio Tagging Models on Resource-Constrained Devices
 
 **Korean Title:** 자원 제약 장치에서 CNN 기반 오디오 태깅 모델의 종합적 평가
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Jordi Grau-Haro|Jordi Grau-Haro]] [[authors/Ruben Ribes-Serrano|Ruben Ribes-Serrano]] [[authors/Javier Naranjo-Alcazar|Javier Naranjo-Alcazar]] [[authors/Marta Garcia-Ballesteros|Marta Garcia-Ballesteros]] [[authors/Pedro Zuccarello|Pedro Zuccarello]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Audio Classification, Model Optimization
+**🔗 Specific Connectable**: [[keywords/Convolutional Neural Networks|Convolutional Neural Networks]], [[keywords/Open Neural Network Exchange|Open Neural Network Exchange]]
+**⚡ Unique Technical**: [[keywords/Audio Tagging|Audio Tagging]]
 
 ## 🔗 유사한 논문
 - [[Exploring the Relationship between Brain Hemisphere States and Frequency Bands through Deep Learning Optimization Techniques_20250917|Exploring the Relationship between Brain Hemisphere States and Frequency Bands through Deep Learning Optimization Techniques]] (78.0% similar)

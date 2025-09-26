@@ -1,3 +1,35 @@
+---
+keywords:
+  - Reinforcement Learning
+  - Sim-to-Real Transfer
+  - Whole-body Manipulation
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13534
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:30:45.196909",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Reinforcement Learning",
+    "Sim-to-Real Transfer",
+    "Whole-body Manipulation"
+  ],
+  "rejected_keywords": [
+    "Neural Signed Distance Field"
+  ],
+  "similarity_scores": {
+    "Reinforcement Learning": 0.9,
+    "Sim-to-Real Transfer": 0.8,
+    "Whole-body Manipulation": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Embracing Bulky Objects with Humanoid Robots: Whole-Body Manipulation with Reinforcement Learning
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Sim-to-real Transfer
+**🔗 Specific Connectable**: [[keywords/Reinforcement Learning|Reinforcement Learning]], [[keywords/Sim-to-Real Transfer|Sim-to-real transfer]]
+**⚡ Unique Technical**: [[keywords/Whole-body Manipulation|Whole-body manipulation]]
 
 ## 🔗 유사한 논문
 - [[Motion_Adaptation_Across_Users_and_Tasks_for_Exoskeletons_via_Meta-Learning_20250918|Motion Adaptation Across Users and Tasks for Exoskeletons via Meta-Learning]] (86.0% similar)

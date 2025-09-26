@@ -1,3 +1,35 @@
+---
+keywords:
+  - Reinforcement Learning
+  - Discrepancy of Environment Prioritized Experience Replay
+  - Non-Stationary Environments
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.15032
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:25:26.262623",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Reinforcement Learning",
+    "Discrepancy of Environment Prioritized Experience Replay",
+    "Non-Stationary Environments"
+  ],
+  "rejected_keywords": [
+    "Experience Replay"
+  ],
+  "similarity_scores": {
+    "Reinforcement Learning": 0.85,
+    "Discrepancy of Environment Prioritized Experience Replay": 0.82,
+    "Non-Stationary Environments": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Sample Efficient Experience Replay in Non-stationary Environments
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Adaptive Experience Replay
+**🔗 Specific Connectable**: [[keywords/Reinforcement Learning|Reinforcement learning]]
+**⚡ Unique Technical**: [[keywords/Discrepancy of Environment Prioritized Experience Replay|Discrepancy of Environment Prioritized Experience Replay]], [[keywords/Non-Stationary Environments|non-stationary environments]]
 
 ## 🔗 유사한 논문
 - [[Efficient Last-Iterate Convergence in Regret Minimization via Adaptive Reward Transformation]] (78.8% similar)

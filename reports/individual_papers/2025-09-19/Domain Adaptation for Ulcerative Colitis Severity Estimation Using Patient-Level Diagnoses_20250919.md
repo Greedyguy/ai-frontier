@@ -1,3 +1,35 @@
+---
+keywords:
+  - Transfer Learning
+  - Weakly Supervised Learning
+  - Ulcerative Colitis Severity Estimation
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14573
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:47:30.910160",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Transfer Learning",
+    "Weakly Supervised Learning",
+    "Ulcerative Colitis Severity Estimation"
+  ],
+  "rejected_keywords": [
+    "Max-Severity Triplet Loss"
+  ],
+  "similarity_scores": {
+    "Transfer Learning": 0.8,
+    "Weakly Supervised Learning": 0.75,
+    "Ulcerative Colitis Severity Estimation": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Domain Adaptation for Ulcerative Colitis Severity Estimation Using Patient-Level Diagnoses
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Shared Aggregation Tokens
+**🔗 Specific Connectable**: [[keywords/Transfer Learning|Domain Adaptation]]
+**⚡ Unique Technical**: [[keywords/Ulcerative Colitis Severity Estimation|Ulcerative Colitis Severity Estimation]]
+**🚀 Evolved Concepts**: [[keywords/Weakly Supervised Learning|Weakly Supervised Domain Adaptation]]
 
 ## 🔗 유사한 논문
 - [[BEVUDA++ Geometric-aware Unsupervised Domain Adaptation for Multi-View 3D Object Detection]] (79.8% similar)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - Reinforcement Learning
+  - Zero-Sum Turn Games
+  - Saddle-Point Policies
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13585
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:01:15.194634",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Reinforcement Learning",
+    "Zero-Sum Turn Games",
+    "Saddle-Point Policies"
+  ],
+  "rejected_keywords": [
+    "Opponent-Informed Exploration"
+  ],
+  "similarity_scores": {
+    "Reinforcement Learning": 0.8,
+    "Zero-Sum Turn Games": 0.7,
+    "Saddle-Point Policies": 0.65
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Zero-sum turn games using Q-learning: finite computation with security guarantees
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Multi-agent Game
+**🔗 Specific Connectable**: [[keywords/Reinforcement Learning|Q-learning]]
+**⚡ Unique Technical**: [[keywords/Zero-Sum Turn Games|zero-sum turn games]], [[keywords/Saddle-Point Policies|saddle-point state-feedback policies]]
 
 ## 🔗 유사한 논문
 - [[Nash Equilibria in Games with Playerwise Concave Coupling Constraints: Existence and Computation]] (80.7% similar)

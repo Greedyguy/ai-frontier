@@ -1,3 +1,36 @@
+---
+keywords:
+  - Event Detection
+  - Few-Shot Learning
+  - Domain Drift
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2502.17394
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:26:12.132108",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Event Detection",
+    "Few-Shot Learning",
+    "Domain Drift"
+  ],
+  "rejected_keywords": [
+    "Domain-aware Data Generation",
+    "Synthetic Data Generation"
+  ],
+  "similarity_scores": {
+    "Event Detection": 0.8,
+    "Few-Shot Learning": 0.82,
+    "Domain Drift": 0.79
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # SNaRe: Domain-aware Data Generation for Low-Resource Event Detection
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Domain-aware Data Generation
+**🔗 Specific Connectable**: [[keywords/Few-Shot Learning|Few-Shot Learning]]
+**⚡ Unique Technical**: [[keywords/Event Detection|Event Detection]], [[keywords/Domain Drift|Domain Drift]]
 
 ## 🔗 유사한 논문
 - [[DeKeyNLU Enhancing Natural Language to SQL Generation through Task Decomposition and Keyword Extraction]] (78.1% similar)

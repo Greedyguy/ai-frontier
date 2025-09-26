@@ -1,0 +1,270 @@
+name: Collect ArXiv Papers
+
+on:
+  # Daily collection at 9 AM KST (0 AM UTC)
+  schedule:
+    - cron: '0 0 * * *'
+
+  # Weekly collection on Monday at 10 AM KST (1 AM UTC)
+  schedule:
+    - cron: '0 1 * * 1'
+
+  # Manual trigger
+  workflow_dispatch:
+    inputs:
+      keywords:
+        description: 'Keywords to search for (comma-separated)'
+        required: false
+        default: 'transformer,attention,large language model'
+      categories:
+        description: 'ArXiv categories (comma-separated)'
+        required: false
+        default: 'cs.AI,cs.LG,cs.CL,cs.CV'
+      days_back:
+        description: 'Number of days back to search'
+        required: false
+        default: '1'
+        type: number
+      start_date:
+        description: 'Start date (YYYYMMDD, optional)'
+        required: false
+      end_date:
+        description: 'End date (YYYYMMDD, optional)'
+        required: false
+      keyword_only:
+        description: 'Search only by keywords (ignore categories)'
+        required: false
+        default: false
+        type: boolean
+
+env:
+  PYTHONPATH: ${{ github.workspace }}/src
+
+jobs:
+  collect-papers:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+
+    - name: Cache pip dependencies
+      uses: actions/cache@v3
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/pyproject.toml') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -e .
+
+    - name: Create reports directory
+      run: |
+        mkdir -p reports/individual_papers
+        mkdir -p reports/digests
+
+    - name: Set collection parameters
+      id: params
+      run: |
+        # Set default values
+        KEYWORDS="${{ github.event.inputs.keywords || 'transformer,attention,large language model' }}"
+        CATEGORIES="${{ github.event.inputs.categories || 'cs.AI,cs.LG,cs.CL,cs.CV' }}"
+        DAYS_BACK="${{ github.event.inputs.days_back || '1' }}"
+        KEYWORD_ONLY="${{ github.event.inputs.keyword_only || 'false' }}"
+
+        # Convert comma-separated to space-separated for CLI
+        KEYWORDS_CLI=$(echo "$KEYWORDS" | tr ',' ' ')
+        CATEGORIES_CLI=$(echo "$CATEGORIES" | tr ',' ' ')
+
+        echo "keywords_cli=$KEYWORDS_CLI" >> $GITHUB_OUTPUT
+        echo "categories_cli=$CATEGORIES_CLI" >> $GITHUB_OUTPUT
+        echo "days_back=$DAYS_BACK" >> $GITHUB_OUTPUT
+        echo "keyword_only=$KEYWORD_ONLY" >> $GITHUB_OUTPUT
+
+        # Handle date range if provided
+        if [ -n "${{ github.event.inputs.start_date }}" ] && [ -n "${{ github.event.inputs.end_date }}" ]; then
+          echo "start_date=${{ github.event.inputs.start_date }}" >> $GITHUB_OUTPUT
+          echo "end_date=${{ github.event.inputs.end_date }}" >> $GITHUB_OUTPUT
+          echo "use_date_range=true" >> $GITHUB_OUTPUT
+        else
+          echo "use_date_range=false" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Collect papers (date range mode)
+      if: steps.params.outputs.use_date_range == 'true'
+      env:
+        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        MODEL_NAME: ${{ secrets.MODEL_NAME || 'gpt-4o-mini' }}
+      run: |
+        if [ "${{ steps.params.outputs.keyword_only }}" = "true" ]; then
+          python automation_script.py collect \
+            --keywords ${{ steps.params.outputs.keywords_cli }} \
+            --start-date ${{ steps.params.outputs.start_date }} \
+            --end-date ${{ steps.params.outputs.end_date }} \
+            --keyword-only
+        else
+          python automation_script.py collect \
+            --keywords ${{ steps.params.outputs.keywords_cli }} \
+            --categories ${{ steps.params.outputs.categories_cli }} \
+            --start-date ${{ steps.params.outputs.start_date }} \
+            --end-date ${{ steps.params.outputs.end_date }}
+        fi
+
+    - name: Collect papers (days back mode)
+      if: steps.params.outputs.use_date_range == 'false'
+      env:
+        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        MODEL_NAME: ${{ secrets.MODEL_NAME || 'gpt-4o-mini' }}
+      run: |
+        if [ "${{ steps.params.outputs.keyword_only }}" = "true" ]; then
+          python automation_script.py collect \
+            --keywords ${{ steps.params.outputs.keywords_cli }} \
+            --days-back ${{ steps.params.outputs.days_back }} \
+            --keyword-only
+        else
+          python automation_script.py collect \
+            --keywords ${{ steps.params.outputs.keywords_cli }} \
+            --categories ${{ steps.params.outputs.categories_cli }} \
+            --days-back ${{ steps.params.outputs.days_back }}
+        fi
+
+    - name: Generate daily digest
+      env:
+        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        MODEL_NAME: ${{ secrets.MODEL_NAME || 'gpt-4o-mini' }}
+      run: |
+        python automation_script.py digest daily
+
+    - name: Generate weekly digest (Mondays only)
+      if: github.event.schedule == '0 1 * * 1' || github.event_name == 'workflow_dispatch'
+      env:
+        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        MODEL_NAME: ${{ secrets.MODEL_NAME || 'gpt-4o-mini' }}
+      run: |
+        python automation_script.py digest weekly
+
+    - name: Send Slack notification
+      if: success()
+      env:
+        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        SLACK_CHANNEL: ${{ secrets.SLACK_CHANNEL || '#ai-frontier' }}
+        SLACK_BOT_NAME: ${{ secrets.SLACK_BOT_NAME || 'AI Frontier Bot' }}
+      run: |
+        # Count collected papers
+        PAPER_COUNT=$(find reports/individual_papers -name "*.md" -type f | wc -l)
+
+        # Create Slack message
+        MESSAGE="🤖 **GitHub Actions 논문 수집 완료**\n"
+        MESSAGE="${MESSAGE}📊 수집된 논문: ${PAPER_COUNT}개\n"
+        MESSAGE="${MESSAGE}📅 실행 시간: $(date '+%Y-%m-%d %H:%M:%S') UTC\n"
+        MESSAGE="${MESSAGE}🔗 결과 확인: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"
+
+        # Send to Slack if webhook URL is configured
+        if [ -n "$SLACK_WEBHOOK_URL" ]; then
+          curl -X POST -H 'Content-type: application/json' \
+            --data "{\"text\":\"$MESSAGE\"}" \
+            "$SLACK_WEBHOOK_URL"
+        fi
+
+    - name: Send email notification
+      if: success()
+      env:
+        EMAIL_SMTP_SERVER: ${{ secrets.EMAIL_SMTP_SERVER }}
+        EMAIL_SMTP_PORT: ${{ secrets.EMAIL_SMTP_PORT || '587' }}
+        EMAIL_USERNAME: ${{ secrets.EMAIL_USERNAME }}
+        EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+        EMAIL_TO: ${{ secrets.EMAIL_TO }}
+      run: |
+        if [ -n "$EMAIL_SMTP_SERVER" ] && [ -n "$EMAIL_USERNAME" ] && [ -n "$EMAIL_PASSWORD" ] && [ -n "$EMAIL_TO" ]; then
+          # Send email notification using Python
+          cat > send_email.py << 'EOF'
+        import smtplib
+        import os
+        from email.mime.text import MIMEText
+        from email.mime.multipart import MIMEMultipart
+        from datetime import datetime
+
+        # Email configuration
+        smtp_server = os.getenv('EMAIL_SMTP_SERVER')
+        smtp_port = int(os.getenv('EMAIL_SMTP_PORT', '587'))
+        username = os.getenv('EMAIL_USERNAME')
+        password = os.getenv('EMAIL_PASSWORD')
+        to_email = os.getenv('EMAIL_TO')
+
+        # Count papers
+        import glob
+        paper_count = len(glob.glob('reports/individual_papers/*.md'))
+
+        # Create message
+        msg = MIMEMultipart()
+        msg['From'] = username
+        msg['To'] = to_email
+        msg['Subject'] = f"AI Frontier 논문 수집 완료 - {datetime.now().strftime('%Y-%m-%d')}"
+
+        body = f"""
+        GitHub Actions를 통한 AI 논문 수집이 완료되었습니다.
+
+        📊 수집된 논문: {paper_count}개
+        📅 실행 시간: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} UTC
+        🔗 결과 확인: https://github.com/${{ github.repository }}
+
+        자동 생성된 메시지입니다.
+        """
+
+        msg.attach(MIMEText(body, 'plain'))
+
+        # Send email
+        try:
+            server = smtplib.SMTP(smtp_server, smtp_port)
+            server.starttls()
+            server.login(username, password)
+            text = msg.as_string()
+            server.sendmail(username, to_email, text)
+            server.quit()
+            print("Email sent successfully")
+        except Exception as e:
+            print(f"Failed to send email: {e}")
+        EOF
+
+          python send_email.py
+        fi
+
+    - name: Commit and push results
+      if: success()
+      run: |
+        # Configure git
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+
+        # Add generated files
+        git add reports/
+
+        # Commit if there are changes
+        if ! git diff --cached --quiet; then
+          PAPER_COUNT=$(find reports/individual_papers -name "*.md" -type f | wc -l)
+          git commit -m "📚 Auto-collect papers: ${PAPER_COUNT} papers on $(date '+%Y-%m-%d')"
+          git push
+        else
+          echo "No new papers to commit"
+        fi
+
+    - name: Update GitHub Pages deployment
+      if: success()
+      uses: ./.github/workflows/deploy-pages.yml

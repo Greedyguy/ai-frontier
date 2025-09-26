@@ -1,3 +1,36 @@
+---
+keywords:
+  - Right-to-Override
+  - Smart Grid
+  - Multi-Agent Systems
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13369
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:12:48.430653",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Right-to-Override",
+    "Smart Grid",
+    "Multi-Agent Systems"
+  ],
+  "rejected_keywords": [
+    "Deliberative Audit Method",
+    "Uncertainty Quantification"
+  ],
+  "similarity_scores": {
+    "Right-to-Override": 0.8,
+    "Smart Grid": 0.78,
+    "Multi-Agent Systems": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Right-to-Override for Critical Urban Control Systems: A Deliberative Audit Method for Buildings, Power, and Transport
 
@@ -5,10 +38,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Multi-agent traffic signals
+**🌐 Broad Technical**: [[keywords/Smart Grid|smart-grid load shedding]]
+**🔗 Specific Connectable**: [[keywords/Multi-Agent Systems|multi-agent traffic signals]]
+**⚡ Unique Technical**: [[keywords/Right-to-Override|Right-to-Override]]
 
 ## 🔗 유사한 논문
 - [[Privacy-Preserving Uncertainty Disclosure for Facilitating Enhanced Energy Storage Dispatch]] (76.3% similar)

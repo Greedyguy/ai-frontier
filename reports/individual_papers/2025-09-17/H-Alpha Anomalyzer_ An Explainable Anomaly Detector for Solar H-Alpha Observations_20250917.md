@@ -1,13 +1,46 @@
+---
+keywords:
+  - H-Alpha Anomalyzer
+  - GONG Network
+  - Explainability
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:54:01.373687",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "H-Alpha Anomalyzer",
+    "GONG Network",
+    "Explainability"
+  ],
+  "rejected_keywords": [
+    "Anomaly Detection"
+  ],
+  "similarity_scores": {
+    "H-Alpha Anomalyzer": 0.8,
+    "GONG Network": 0.78,
+    "Explainability": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # H-Alpha Anomalyzer: An Explainable Anomaly Detector for Solar H-Alpha Observations
 
 **Korean Title:** H-알파 아노말라이저: 태양 H-알파 관측을 위한 설명 가능한 이상 탐지기
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Mahsa Khazaei|Mahsa Khazaei]] [[authors/Azim Ahmadzadeh|Azim Ahmadzadeh]] [[authors/Alexei Pevtsov|Alexei Pevtsov]] [[authors/Luca Bertello|Luca Bertello]] [[authors/Alexander Pevtsov|Alexander Pevtsov]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Explainable Anomaly Detection
+**⚡ Unique Technical**: [[keywords/H-Alpha Anomalyzer|H-Alpha Anomalyzer]], [[keywords/GONG Network|GONG network]]
+**🚀 Evolved Concepts**: [[keywords/Explainability|explainability]]
 
 ## 🔗 유사한 논문
 - [[AnoF-Diff_ One-Step Diffusion-Based Anomaly Detection for Forceful Tool Use_20250918|AnoF-Diff One-Step Diffusion-Based Anomaly Detection for Forceful Tool Use]] (80.4% similar)

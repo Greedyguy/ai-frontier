@@ -1,13 +1,46 @@
+---
+keywords:
+  - Obstructive Sleep Apnoea
+  - Latent-space Fusion Framework
+  - Respiratory Effort
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:30:00.559217",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Obstructive Sleep Apnoea",
+    "Latent-space Fusion Framework",
+    "Respiratory Effort"
+  ],
+  "rejected_keywords": [
+    "Acoustic-based Screening",
+    "Smartphone Audio"
+  ],
+  "similarity_scores": {
+    "Obstructive Sleep Apnoea": 0.85,
+    "Latent-space Fusion Framework": 0.82,
+    "Respiratory Effort": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Estimating Respiratory Effort from Nocturnal Breathing Sounds for Obstructive Sleep Apnoea Screening
 
 **Korean Title:** 수면 무호흡증 선별을 위한 야간 호흡 소리로부터 호흡 노력 추정
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Xiaolei Xu|Xiaolei Xu]] [[authors/Chaoyue Niu|Chaoyue Niu]] [[authors/Guy J. Brown|Guy J. Brown]] [[authors/Hector Romero|Hector Romero]] [[authors/Ning Ma|Ning Ma]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Sensor-free OSA Monitoring
+**⚡ Unique Technical**: [[keywords/Obstructive Sleep Apnoea|Obstructive Sleep Apnoea]], [[keywords/Latent-space Fusion Framework|Latent-space Fusion Framework]], [[keywords/Respiratory Effort|Respiratory Effort]]
 
 ## 🔗 유사한 논문
 - [[Out-of-Sight Trajectories_ Tracking, Fusion, and Prediction_20250919|Out-of-Sight Trajectories Tracking, Fusion, and Prediction]] (76.6% similar)

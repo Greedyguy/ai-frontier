@@ -1,3 +1,35 @@
+---
+keywords:
+  - Rule-Based Debugging
+  - Automated Code Translation
+  - Large Language Models
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14829
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:26:38.322938",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Rule-Based Debugging",
+    "Automated Code Translation",
+    "Large Language Models"
+  ],
+  "rejected_keywords": [
+    "Error Localization"
+  ],
+  "similarity_scores": {
+    "Rule-Based Debugging": 0.82,
+    "Automated Code Translation": 0.78,
+    "Large Language Models": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # RulER: Automated Rule-Based Semantic Error Localization and Repair for Code Translation
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Semantic Error Localization
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Large Language Models]]
+**⚡ Unique Technical**: [[keywords/Rule-Based Debugging|Rule-Based Debugging]], [[keywords/Automated Code Translation|Automated Code Translation]]
 
 ## 🔗 유사한 논문
 - [[Semantic Alignment-Enhanced Code Translation via an LLM-Based Multi-Agent System_20250918|Semantic Alignment-Enhanced Code Translation via an LLM-Based Multi-Agent System]] (85.3% similar)

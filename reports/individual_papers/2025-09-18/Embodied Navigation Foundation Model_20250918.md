@@ -1,3 +1,36 @@
+---
+keywords:
+  - Navigation Foundation Model
+  - Vision-Language Models
+  - Embodied Navigation
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.12129
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:30:55.795243",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Navigation Foundation Model",
+    "Vision-Language Models",
+    "Embodied Navigation"
+  ],
+  "rejected_keywords": [
+    "Multi-Modal Learning",
+    "Autonomous Driving"
+  ],
+  "similarity_scores": {
+    "Navigation Foundation Model": 0.85,
+    "Vision-Language Models": 0.82,
+    "Embodied Navigation": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Embodied Navigation Foundation Model
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Cross-embodiment Navigation
+**🌐 Broad Technical**: [[keywords/Vision-Language Models|Vision-Language Models]]
+**⚡ Unique Technical**: [[keywords/Navigation Foundation Model|Navigation Foundation Model]], [[keywords/Embodied Navigation|Embodied Navigation]]
 
 ## 🔗 유사한 논문
 - [[NavMoE_Hybrid_Model-_and_Learning-based_Traversability_Estimation_for_Local_Navigation_via_Mixture_of_Experts_20250918|NavMoE: Hybrid Model- and Learning-based Traversability Estimation for Local Navigation via Mixture of Experts]] (84.2% similar)

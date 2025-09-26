@@ -1,3 +1,35 @@
+---
+keywords:
+  - Vision-Language Models
+  - Multimodal Driver Attention Fusion
+  - Attention Mechanism
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2502.18042
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:18:34.546321",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Vision-Language Models",
+    "Multimodal Driver Attention Fusion",
+    "Attention Mechanism"
+  ],
+  "rejected_keywords": [
+    "Bird's-Eye-View"
+  ],
+  "similarity_scores": {
+    "Vision-Language Models": 0.88,
+    "Multimodal Driver Attention Fusion": 0.85,
+    "Attention Mechanism": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # VLM-E2E: Enhancing End-to-End Autonomous Driving with Multimodal Driver Attention Fusion
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Multimodal Fusion, Attention Mechanism
+**🔗 Specific Connectable**: [[keywords/Attention Mechanism|Attention Mechanism]]
+**⚡ Unique Technical**: [[keywords/Multimodal Driver Attention Fusion|Multimodal Driver Attention Fusion]]
+**🚀 Evolved Concepts**: [[keywords/Vision-Language Models|Vision-Language Models]]
 
 ## 🔗 유사한 논문
 - [[MAP End-to-End Autonomous Driving with Map-Assisted Planning]] (82.1% similar)

@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { Search, Settings, Download, Play, Pause, RotateCcw, Trash2, AlertCircle, CheckCircle } from 'lucide-react';
-import KeywordInput from './components/KeywordInput';
-import DateRangePicker from './components/DateRangePicker';
+import { Search, Settings, Download, Play, Pause, RotateCcw, Trash2, AlertCircle, CheckCircle, Mail, X } from 'lucide-react';
+// import KeywordInput from './components/KeywordInput'; // 키워드 입력 UI 제거
+// import DateRangePicker from './components/DateRangePicker'; // 날짜 범위 선택 제거 (RSS 기본 사용)
 import CategorySelector from './components/CategorySelector';
 import PaperList from './components/PaperList';
+import DigestPanel from './components/DigestPanel';
+import NotificationSettings from './components/NotificationSettings';
+import PaperSearch from './components/PaperSearch';
 import { loadAllSettings, categoryStorage, searchModeStorage, dateStorage, aiServiceStorage, rssStorage, clearAllSettings } from './utils/storage';
 import { startCollection, getCollectionStatus, monitorProgress, transformFormDataToApiRequest, downloadReport, cancelCollection } from './services/api';
 
@@ -17,18 +20,24 @@ function App() {
   const [startDate, setStartDate] = useState('');
   const [endDate, setEndDate] = useState('');
 
-  // 카테고리 상태
-  const [selectedCategories, setSelectedCategories] = useState(['cs.AI', 'cs.LG', 'cs.CL', 'cs.CV']);
+  // 카테고리 상태 - CS 전체 카테고리로 기본 설정
+  const [selectedCategories, setSelectedCategories] = useState([
+    'cs.AI', 'cs.LG', 'cs.CL', 'cs.CV', 'cs.CR', 'cs.DC', 'cs.DM', 'cs.DS',
+    'cs.ET', 'cs.FL', 'cs.GL', 'cs.GR', 'cs.GT', 'cs.HC', 'cs.IR', 'cs.IT',
+    'cs.LO', 'cs.MA', 'cs.MM', 'cs.MS', 'cs.NA', 'cs.NE', 'cs.NI', 'cs.OH',
+    'cs.OS', 'cs.PF', 'cs.PL', 'cs.RO', 'cs.SC', 'cs.SD', 'cs.SE', 'cs.SI',
+    'cs.SY'
+  ]);
 
-  // 검색 모드 상태
-  const [searchMode, setSearchMode] = useState('category'); // 'category', 'keyword', 'keyword-only'
+  // 검색 모드 상태 - 카테고리만 사용 (고정)
+  const [searchMode, setSearchMode] = useState('category');
 
   // AI 서비스 설정
   const [translationProvider, setTranslationProvider] = useState('openai');
   const [summarizationProvider, setSummarizationProvider] = useState('openai');
 
-  // 검색 방식 설정
-  const [useRss, setUseRss] = useState(false);
+  // 검색 방식 설정 (RSS를 기본값으로 설정)
+  const [useRss, setUseRss] = useState(true);
 
   // UI 상태 - 새로운 변수명으로 충돌 방지
   const [isProcessing, setIsProcessingState] = useState(false);
@@ -42,6 +51,7 @@ function App() {
 
   const [showAdvanced, setShowAdvanced] = useState(false);
   const [showPaperList, setShowPaperList] = useState(true); // 기본적으로 표시
+  const [activeTab, setActiveTab] = useState('collection'); // 'collection', 'digest', 'notifications'
 
   // API 관련 상태
   const [currentTask, setCurrentTask] = useState(null);
@@ -159,18 +169,15 @@ function App() {
 
   // 폼 검증
   const canSubmit = () => {
-    console.log('🔍 canSubmit called with:', { searchMode, keywords: keywords.length, selectedCategories: selectedCategories.length, dateMode, startDate, endDate });
+    console.log('🔍 canSubmit called with:', { searchMode, keywords: keywords.length, selectedCategories: selectedCategories.length, dateMode, startDate, endDate, useRss });
 
-    if (searchMode === 'keyword-only' && keywords.length === 0) {
-      console.log('❌ canSubmit: false - keyword-only mode but no keywords');
-      return false;
-    }
     if (searchMode === 'category' && selectedCategories.length === 0) {
       console.log('❌ canSubmit: false - category mode but no categories');
       return false;
     }
-    if (dateMode === 'range' && (!startDate || !endDate)) {
-      console.log('❌ canSubmit: false - range mode but missing dates');
+    // RSS 모드가 아닐 때만 날짜 검증
+    if (!useRss && dateMode === 'range' && (!startDate || !endDate)) {
+      console.log('❌ canSubmit: false - range mode but missing dates (non-RSS)');
       return false;
     }
     console.log('✅ canSubmit: true');
@@ -392,197 +399,74 @@ function App() {
         </div>
       </header>
 
+      {/* 탭 네비게이션 */}
+      <div className="border-b border-gray-200 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <nav className="flex space-x-8">
+            <button
+              onClick={() => setActiveTab('collection')}
+              className={`py-4 px-1 border-b-2 font-medium text-sm transition-colors ${
+                activeTab === 'collection'
+                  ? 'border-blue-500 text-blue-600'
+                  : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'
+              }`}
+            >
+              <Search className="inline w-4 h-4 mr-2" />
+              논문 수집
+            </button>
+            <button
+              onClick={() => setActiveTab('digest')}
+              className={`py-4 px-1 border-b-2 font-medium text-sm transition-colors ${
+                activeTab === 'digest'
+                  ? 'border-blue-500 text-blue-600'
+                  : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'
+              }`}
+            >
+              <AlertCircle className="inline w-4 h-4 mr-2" />
+              다이제스트
+            </button>
+            <button
+              onClick={() => setActiveTab('search')}
+              className={`py-4 px-1 border-b-2 font-medium text-sm transition-colors ${
+                activeTab === 'search'
+                  ? 'border-blue-500 text-blue-600'
+                  : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'
+              }`}
+            >
+              <Search className="inline w-4 h-4 mr-2" />
+              논문 검색
+            </button>
+            <button
+              onClick={() => setActiveTab('notifications')}
+              className={`py-4 px-1 border-b-2 font-medium text-sm transition-colors ${
+                activeTab === 'notifications'
+                  ? 'border-blue-500 text-blue-600'
+                  : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'
+              }`}
+            >
+              <Mail className="inline w-4 h-4 mr-2" />
+              알림 설정
+            </button>
+          </nav>
+        </div>
+      </div>
+
       {/* 메인 컨텐츠 */}
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-        {/* 전체 설정을 한 줄에 배치 */}
-        <div className="space-y-6">
-          {/* 첫 번째 행: 검색 모드 + 키워드 */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-            {/* 검색 모드 선택 */}
-            <div className="card p-4">
-              <h2 className="text-base font-semibold text-gray-900 mb-3">검색 모드</h2>
-              <div className="grid grid-cols-3 gap-2">
-                <button
-                  type="button"
-                  onClick={() => setSearchMode('category')}
-                  className={`p-3 rounded-lg border-2 transition-colors text-xs ${
-                    searchMode === 'category'
-                      ? 'border-primary-500 bg-primary-50 text-primary-700'
-                      : 'border-gray-200 hover:border-gray-300'
-                  }`}
-                >
-                  <div className="font-medium">카테고리</div>
-                  <div className="text-gray-500 mt-1">CS 카테고리</div>
-                </button>
-                <button
-                  type="button"
-                  onClick={() => setSearchMode('keyword')}
-                  className={`p-3 rounded-lg border-2 transition-colors text-xs ${
-                    searchMode === 'keyword'
-                      ? 'border-primary-500 bg-primary-50 text-primary-700'
-                      : 'border-gray-200 hover:border-gray-300'
-                  }`}
-                >
-                  <div className="font-medium">카테고리+키워드</div>
-                  <div className="text-gray-500 mt-1">조합 검색</div>
-                </button>
-                <button
-                  type="button"
-                  onClick={() => setSearchMode('keyword-only')}
-                  className={`p-3 rounded-lg border-2 transition-colors text-xs ${
-                    searchMode === 'keyword-only'
-                      ? 'border-primary-500 bg-primary-50 text-primary-700'
-                      : 'border-gray-200 hover:border-gray-300'
-                  }`}
-                >
-                  <div className="font-medium">키워드 전용</div>
-                  <div className="text-gray-500 mt-1">전 분야</div>
-                </button>
-              </div>
-            </div>
-
-            {/* 키워드 입력 */}
-            <div className="card p-4">
-              <KeywordInput
-                keywords={keywords}
-                setKeywords={setKeywords}
-                placeholder="transformer, attention, neural network 등..."
-              />
-            </div>
-
+        {/* 탭별 컨텐츠 렌더링 */}
+        {activeTab === 'collection' && (
+          <div className="space-y-6">
+          {/* 첫 번째 행: CS 카테고리 선택 */}
+          <div className="card p-6">
+            <h2 className="text-lg font-semibold text-gray-900 mb-4">CS 카테고리 선택</h2>
+            <CategorySelector
+              selectedCategories={selectedCategories}
+              setSelectedCategories={setSelectedCategories}
+            />
           </div>
 
-          {/* 두 번째 행: 카테고리 + 날짜 */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-            {/* 카테고리 선택 */}
-            {(searchMode === 'category' || searchMode === 'keyword') && (
-              <div className="card p-4">
-                <CategorySelector
-                  selectedCategories={selectedCategories}
-                  setSelectedCategories={setSelectedCategories}
-                />
-              </div>
-            )}
-
-            {/* 날짜 범위 선택 */}
-            <div className={`card p-4 ${(searchMode !== 'category' && searchMode !== 'keyword') ? 'lg:col-span-2' : ''}`}>
-              <DateRangePicker
-                dateMode={dateMode}
-                setDateMode={setDateMode}
-                daysBack={daysBack}
-                setDaysBack={setDaysBack}
-                startDate={startDate}
-                setStartDate={setStartDate}
-                endDate={endDate}
-                setEndDate={setEndDate}
-              />
-            </div>
-          </div>
-
-          {/* 세 번째 행: 실행 버튼 + 고급 설정 + 상태 */}
+          {/* 두 번째 행: 고급설정, 상태, 실행을 3열로 배치 */}
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-            {/* 실행 및 설정 요약 */}
-            <div className="card p-4">
-              <h3 className="text-base font-semibold text-gray-900 mb-3">실행</h3>
-
-              {/* 설정 요약 */}
-              <div className="space-y-2 mb-4 text-xs">
-                <div className="flex justify-between">
-                  <span className="text-gray-600">모드:</span>
-                  <span className="font-medium">
-                    {searchMode === 'category' && '카테고리'}
-                    {searchMode === 'keyword' && '카테고리+키워드'}
-                    {searchMode === 'keyword-only' && '키워드 전용'}
-                  </span>
-                </div>
-                {selectedCategories.length > 0 && (
-                  <div className="flex justify-between">
-                    <span className="text-gray-600">카테고리:</span>
-                    <span className="font-medium">{selectedCategories.length}개</span>
-                  </div>
-                )}
-                {keywords.length > 0 && (
-                  <div className="flex justify-between">
-                    <span className="text-gray-600">키워드:</span>
-                    <span className="font-medium">{keywords.length}개</span>
-                  </div>
-                )}
-                <div className="flex justify-between">
-                  <span className="text-gray-600">기간:</span>
-                  <span className="font-medium">
-                    {dateMode === 'recent' ? `최근 ${daysBack}일` : `선택된 범위`}
-                  </span>
-                </div>
-              </div>
-
-              {/* 실행 버튼 */}
-              <div className="space-y-2">
-                <button
-                  type="button"
-                  onClick={() => {
-                    console.log('🖱️ Button clicked! Current isCollecting:', isCollecting);
-                    console.log('🖱️ Button clicked! Current currentTask:', currentTask);
-
-                    // 만약 isCollecting이 true인데 currentTask가 null이면 강제 리셋
-                    if (isCollecting && !currentTask) {
-                      console.log('⚠️ Invalid state detected! Forcing reset...');
-                      setIsCollecting(false);
-                      setIsProcessing(false);
-                      return;
-                    }
-
-                    if (isCollecting) {
-                      console.log('➡️ Calling handleStopCollection');
-                      handleStopCollection();
-                    } else {
-                      console.log('➡️ Calling handleStartCollection');
-                      handleStartCollection();
-                    }
-                  }}
-                  disabled={!canSubmit() && !isCollecting}
-                  className={`w-full flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-medium transition-colors ${
-                    isCollecting
-                      ? 'bg-orange-600 text-white hover:bg-orange-700'
-                      : canSubmit()
-                      ? 'bg-primary-600 text-white hover:bg-primary-700'
-                      : 'bg-gray-300 text-gray-500 cursor-not-allowed'
-                  }`}
-                >
-                  {isCollecting ? (
-                    <>
-                      <Pause size={16} />
-                      중단하기
-                    </>
-                  ) : (
-                    <>
-                      <Play size={16} />
-                      논문 수집 시작
-                    </>
-                  )}
-                </button>
-
-                {/* 다운로드 버튼 */}
-                {taskStatus?.status === 'completed' && taskStatus.result?.success && (
-                  <button
-                    type="button"
-                    onClick={handleDownloadReport}
-                    className="w-full flex items-center justify-center gap-2 py-2 px-4 rounded-lg font-medium bg-green-600 text-white hover:bg-green-700 transition-colors"
-                  >
-                    <Download size={16} />
-                    보고서 다운로드
-                  </button>
-                )}
-              </div>
-
-              {!canSubmit() && (
-                <div className="mt-2 text-xs text-red-600">
-                  {searchMode === 'keyword-only' && keywords.length === 0 && '키워드를 입력해주세요.'}
-                  {searchMode === 'category' && selectedCategories.length === 0 && '카테고리를 선택해주세요.'}
-                  {dateMode === 'range' && (!startDate || !endDate) && '날짜 범위를 설정해주세요.'}
-                </div>
-              )}
-            </div>
-
             {/* 고급 설정 */}
             <div className="card p-4">
               <div className="flex items-center justify-between mb-3">
@@ -590,8 +474,8 @@ function App() {
                 <button
                   type="button"
                   onClick={() => setShowAdvanced(!showAdvanced)}
-                  className={`p-1 rounded transition-colors ${
-                    showAdvanced ? 'text-primary-600' : 'text-gray-400 hover:text-gray-600'
+                  className={`p-2 rounded-lg transition-colors ${
+                    showAdvanced ? 'bg-primary-100 text-primary-700' : 'text-gray-400 hover:text-gray-600 hover:bg-gray-100'
                   }`}
                 >
                   <Settings size={16} />
@@ -601,59 +485,51 @@ function App() {
               {showAdvanced ? (
                 <div className="space-y-3">
                   <div>
-                    <label className="block text-xs font-medium text-gray-700 mb-1">
+                    <label className="block text-sm font-medium text-gray-700 mb-1">
                       번역 서비스
                     </label>
                     <select
                       value={translationProvider}
                       onChange={(e) => setTranslationProvider(e.target.value)}
-                      className="w-full px-2 py-1 text-xs border border-gray-300 rounded focus:outline-none focus:ring-1 focus:ring-primary-500"
+                      className="w-full px-3 py-2 text-sm border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500"
                     >
                       <option value="openai">OpenAI</option>
                       <option value="claude">Claude</option>
                     </select>
                   </div>
                   <div>
-                    <label className="block text-xs font-medium text-gray-700 mb-1">
+                    <label className="block text-sm font-medium text-gray-700 mb-1">
                       요약 서비스
                     </label>
                     <select
                       value={summarizationProvider}
                       onChange={(e) => setSummarizationProvider(e.target.value)}
-                      className="w-full px-2 py-1 text-xs border border-gray-300 rounded focus:outline-none focus:ring-1 focus:ring-primary-500"
+                      className="w-full px-3 py-2 text-sm border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500"
                     >
                       <option value="openai">OpenAI</option>
                       <option value="claude">Claude</option>
                     </select>
                   </div>
                   <div>
-                    <label className="flex items-center space-x-2 text-xs">
+                    <label className="flex items-center space-x-2 text-sm">
                       <input
                         type="checkbox"
                         checked={useRss}
                         onChange={(e) => setUseRss(e.target.checked)}
-                        className="w-3 h-3 text-primary-600 border-gray-300 rounded focus:ring-primary-500"
+                        className="w-4 h-4 text-primary-600 border-gray-300 rounded focus:ring-primary-500"
                       />
-                      <span className="font-medium text-gray-700">
-                        RSS 피드 사용
-                      </span>
+                      <span className="font-medium text-gray-700">RSS 피드 사용</span>
                     </label>
                     <p className="mt-1 text-xs text-gray-500">
-                      ArXiv API 대신 RSS 피드를 사용합니다. 최신 논문에 대해 더 정확한 날짜 기준으로 검색됩니다.
+                      더 많은 논문 수집 (권장)
                     </p>
-                    {useRss && (
-                      <p className="mt-1 text-xs text-amber-600 bg-amber-50 p-2 rounded">
-                        ⚠️ RSS 모드는 최신 발표 논문만 검색 가능합니다. 과거 날짜 검색은 ArXiv API를 사용해주세요.
-                      </p>
-                    )}
                   </div>
                 </div>
               ) : (
-                <div className="text-xs text-gray-500">
+                <div className="text-sm text-gray-500 space-y-1">
                   <p>번역: {translationProvider}</p>
                   <p>요약: {summarizationProvider}</p>
-                  <p>검색: {useRss ? 'RSS 피드' : 'ArXiv API'}</p>
-                  <p className="mt-2 text-gray-400">설정 아이콘을 클릭하여 변경</p>
+                  <p>검색: RSS 피드</p>
                 </div>
               )}
             </div>
@@ -661,17 +537,17 @@ function App() {
             {/* 진행 상태 */}
             <div className="card p-4">
               <h3 className="text-base font-semibold text-gray-900 mb-3">
-                {isCollecting ? '수집 진행 상황' : '상태'}
+                {isCollecting ? '진행 상황' : '상태'}
               </h3>
 
               {/* 에러 표시 */}
               {error && (
-                <div className="mb-3 p-2 bg-red-50 border border-red-200 rounded-lg">
+                <div className="mb-3 p-3 bg-red-50 border border-red-200 rounded-lg">
                   <div className="flex items-center gap-2 text-red-700">
-                    <AlertCircle size={14} />
-                    <span className="text-xs font-medium">오류 발생</span>
+                    <AlertCircle size={16} />
+                    <span className="text-sm font-medium">오류 발생</span>
                   </div>
-                  <p className="text-xs text-red-600 mt-1">{error}</p>
+                  <p className="text-sm text-red-600 mt-1">{error}</p>
                 </div>
               )}
 
@@ -692,108 +568,146 @@ function App() {
                   {/* 현재 단계 */}
                   <div className="flex items-center gap-2">
                     {taskStatus?.status === 'completed' ? (
-                      <CheckCircle size={14} className="text-green-500" />
+                      <CheckCircle size={16} className="text-green-500" />
                     ) : taskStatus?.status === 'error' ? (
-                      <AlertCircle size={14} className="text-red-500" />
+                      <AlertCircle size={16} className="text-red-500" />
                     ) : (
-                      <div className="w-3.5 h-3.5 border-2 border-primary-600 border-t-transparent rounded-full animate-spin"></div>
+                      <div className="w-4 h-4 border-2 border-primary-600 border-t-transparent rounded-full animate-spin"></div>
                     )}
-                    <span className="text-xs text-gray-600">
-                      {taskStatus?.progress?.current_step || '작업을 시작하고 있습니다...'}
+                    <span className="text-sm text-gray-600 truncate">
+                      {taskStatus?.progress?.current_step || '대기 중...'}
                     </span>
                   </div>
 
-                  {/* 상세 정보 */}
-                  {taskStatus?.progress && (
-                    <div className="text-xs text-gray-500 space-y-1">
-                      {taskStatus.progress.papers_found > 0 && (
-                        <div className="flex justify-between">
-                          <span>발견된 논문:</span>
-                          <span className="font-medium">{taskStatus.progress.papers_found}개</span>
-                        </div>
-                      )}
-                      {taskStatus.progress.total_papers > 0 && (
-                        <div className="flex justify-between">
-                          <span>진행률:</span>
-                          <span className="font-medium">
-                            {taskStatus.progress.papers_processed}/{taskStatus.progress.total_papers} 
-                            ({taskStatus.progress.progress_percentage}%)
-                          </span>
-                        </div>
-                      )}
-                      {taskStatus.progress.current_step && taskStatus.progress.current_step.includes('논문') && (
-                        <div className="mt-2 p-2 bg-blue-50 rounded border-l-2 border-blue-300">
-                          <div className="text-blue-700 font-medium text-xs">처리 중:</div>
-                          <div className="text-blue-600 text-xs mt-1 truncate" title={taskStatus.progress.current_step}>
-                            {taskStatus.progress.current_step}
-                          </div>
-                        </div>
-                      )}
+                  {/* 간단한 통계 */}
+                  {taskStatus?.progress && taskStatus.progress.total_papers > 0 && (
+                    <div className="text-sm text-gray-500">
+                      {taskStatus.progress.papers_processed}/{taskStatus.progress.total_papers}
+                      ({taskStatus.progress.progress_percentage}%)
                     </div>
                   )}
 
-                  {/* 완료 메시지 */}
+                  {/* 완료/에러 메시지 */}
                   {taskStatus?.status === 'completed' && (
-                    <div className="p-2 bg-green-50 border border-green-200 rounded-lg">
-                      <p className="text-xs text-green-700 font-medium">
-                        ✅ 수집이 완료되었습니다!
-                      </p>
-                      {taskStatus.result && (
-                        <p className="text-xs text-green-600 mt-1">
-                          {taskStatus.result.papers_collected}개의 논문이 수집되었습니다.
-                        </p>
-                      )}
+                    <div className="p-3 bg-green-50 border border-green-200 rounded-lg text-sm text-green-700">
+                      ✅ 수집 완료!
                     </div>
                   )}
-
-                  {/* 중단 메시지 */}
-                  {taskStatus?.status === 'cancelled' && (
-                    <div className="p-2 bg-orange-50 border border-orange-200 rounded-lg">
-                      <p className="text-xs text-orange-700 font-medium">
-                        ⏹️ 수집이 중단되었습니다
-                      </p>
-                      <p className="text-xs text-orange-600 mt-1">
-                        사용자 요청에 의해 작업이 중단되었습니다.
-                      </p>
-                    </div>
-                  )}
-
-                  {/* 에러 메시지 */}
                   {taskStatus?.status === 'error' && (
-                    <div className="p-2 bg-red-50 border border-red-200 rounded-lg">
-                      <p className="text-xs text-red-700 font-medium">
-                        ❌ 수집 중 오류가 발생했습니다
-                      </p>
-                      {taskStatus.progress?.error_message && (
-                        <p className="text-xs text-red-600 mt-1">
-                          {taskStatus.progress.error_message}
-                        </p>
-                      )}
+                    <div className="p-3 bg-red-50 border border-red-200 rounded-lg text-sm text-red-700">
+                      ❌ 오류 발생
                     </div>
                   )}
                 </div>
               ) : (
                 <div className="space-y-2">
-                  <div className="flex items-center gap-2 text-xs">
-                    <div className="w-2 h-2 bg-green-500 rounded-full"></div>
+                  <div className="flex items-center gap-2 text-sm">
+                    <div className="w-3 h-3 bg-green-500 rounded-full"></div>
                     <span className="text-gray-600">대기 중</span>
                   </div>
-                  <div className="text-xs text-gray-500">
-                    <p>• 설정을 확인하고 수집을 시작하세요</p>
-                    <p>• 결과는 마크다운 파일로 저장됩니다</p>
+                  <div className="text-sm text-gray-500">
+                    <p>• 설정 확인 후 수집 시작</p>
                   </div>
                 </div>
               )}
             </div>
+
+            {/* 실행 */}
+            <div className="card p-4">
+              <h3 className="text-base font-semibold text-gray-900 mb-3">실행</h3>
+
+              {/* 설정 요약 */}
+              <div className="space-y-2 mb-4 text-sm">
+                <div className="flex justify-between">
+                  <span className="text-gray-600">모드:</span>
+                  <span className="font-medium">카테고리</span>
+                </div>
+                <div className="flex justify-between">
+                  <span className="text-gray-600">카테고리:</span>
+                  <span className="font-medium">{selectedCategories.length}개</span>
+                </div>
+                <div className="flex justify-between">
+                  <span className="text-gray-600">검색:</span>
+                  <span className="font-medium">RSS 피드</span>
+                </div>
+              </div>
+
+              {/* 실행 버튼들 */}
+              <div className="space-y-2">
+                {!isCollecting ? (
+                  <button
+                    type="button"
+                    onClick={handleStartCollection}
+                    className="w-full bg-primary-600 hover:bg-primary-700 text-white px-4 py-2 rounded-lg font-medium transition-colors flex items-center justify-center gap-2"
+                  >
+                    <Play size={16} />
+                    수집 시작
+                  </button>
+                ) : (
+                  <button
+                    type="button"
+                    onClick={handleStopCollection}
+                    className="w-full bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-medium transition-colors flex items-center justify-center gap-2"
+                  >
+                    <Pause size={16} />
+                    수집 중단
+                  </button>
+                )}
+
+                {/* 다운로드 버튼 */}
+                {currentTask && taskStatus?.status === 'completed' && (
+                  <button
+                    type="button"
+                    onClick={handleDownloadReport}
+                    className="w-full bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg font-medium transition-colors flex items-center justify-center gap-2"
+                  >
+                    <Download size={16} />
+                    보고서 다운로드
+                  </button>
+                )}
+              </div>
+            </div>
           </div>
 
-          {/* 수집된 논문 목록 */}
-          <PaperList 
-            taskStatus={taskStatus}
-            isVisible={showPaperList}
-            onToggle={() => setShowPaperList(!showPaperList)}
-          />
-        </div>
+          {/* 수집된 논문 결과 */}
+          {showPaperList && (
+            <div className="card p-6">
+              <div className="flex items-center justify-between mb-4">
+                <h2 className="text-lg font-semibold text-gray-900">수집된 논문</h2>
+                <button
+                  type="button"
+                  onClick={() => setShowPaperList(false)}
+                  className="text-gray-400 hover:text-gray-600"
+                >
+                  <X size={20} />
+                </button>
+              </div>
+              <PaperList />
+            </div>
+          )}
+          </div>
+        )}
+
+        {/* 논문 검색 탭 */}
+        {activeTab === 'search' && (
+          <div className="space-y-6">
+            <PaperSearch />
+          </div>
+        )}
+
+        {/* 다이제스트 탭 */}
+        {activeTab === 'digest' && (
+          <div className="space-y-6">
+            <DigestPanel />
+          </div>
+        )}
+
+        {/* 알림 설정 탭 */}
+        {activeTab === 'notifications' && (
+          <div className="space-y-6">
+            <NotificationSettings />
+          </div>
+        )}
       </main>
     </div>
   );

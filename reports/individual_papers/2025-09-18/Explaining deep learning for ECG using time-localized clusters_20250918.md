@@ -1,13 +1,47 @@
+---
+keywords:
+  - Convolutional Neural Networks
+  - Deep Learning
+  - ECG Analysis
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:29:17.955299",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Convolutional Neural Networks",
+    "Deep Learning",
+    "ECG Analysis"
+  ],
+  "rejected_keywords": [
+    "Uncertainty Quantification"
+  ],
+  "similarity_scores": {
+    "Convolutional Neural Networks": 0.88,
+    "Deep Learning": 0.85,
+    "ECG Analysis": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Explaining deep learning for ECG using time-localized clusters
 
 **Korean Title:** ECG에 대한 심층 학습을 시간-국소화된 클러스터를 사용하여 설명하기
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Ahcène Boubekki|Ahcène Boubekki]] [[authors/Konstantinos Patlatzoglou|Konstantinos Patlatzoglou]] [[authors/Joseph Barker|Joseph Barker]] [[authors/Fu Siong Ng|Fu Siong Ng]] [[authors/Antônio H. Ribeiro|Antônio H. Ribeiro]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**⭐ Unique Technical**: Time-localized Clusters
+**🌐 Broad Technical**: [[keywords/Deep Learning|Deep learning]]
+**🔗 Specific Connectable**: [[keywords/Convolutional Neural Networks|Convolutional neural networks]]
+**⚡ Unique Technical**: [[keywords/ECG Analysis|ECG analysis]]
 
 ## 🔗 유사한 논문
 - [[Locally Explaining Prediction Behavior via Gradual Interventions and Measuring Property Gradients_20250918|Locally Explaining Prediction Behavior via Gradual Interventions and Measuring Property Gradients]] (82.4% similar)

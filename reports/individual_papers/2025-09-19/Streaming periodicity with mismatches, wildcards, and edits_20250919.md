@@ -1,3 +1,36 @@
+---
+keywords:
+  - Edit Distance
+  - Hamming Distance
+  - Wildcard Matching
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14898
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:23:20.905599",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Edit Distance",
+    "Hamming Distance",
+    "Wildcard Matching"
+  ],
+  "rejected_keywords": [
+    "Streaming Algorithms",
+    "Grammar Decomposition"
+  ],
+  "similarity_scores": {
+    "Edit Distance": 0.8,
+    "Hamming Distance": 0.78,
+    "Wildcard Matching": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Streaming periodicity with mismatches, wildcards, and edits
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Wildcard Period Detection
+**🔗 Specific Connectable**: [[keywords/Edit Distance|edit distance]], [[keywords/Hamming Distance|Hamming distance]]
+**⚡ Unique Technical**: [[keywords/Wildcard Matching|wildcards]]
 
 ## 🔗 유사한 논문
 - [[Accelerated Gradient Methods with Biased Gradient Estimates Risk Sensitivity, High-Probability Guarantees, and Large Deviation Bounds]] (74.0% similar)

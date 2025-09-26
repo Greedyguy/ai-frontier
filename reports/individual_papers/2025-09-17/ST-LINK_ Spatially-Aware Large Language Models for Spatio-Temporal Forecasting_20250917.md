@@ -1,13 +1,47 @@
+---
+keywords:
+  - Large Language Models
+  - Attention Mechanism
+  - Graph Neural Networks
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:46:12.638844",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Attention Mechanism",
+    "Graph Neural Networks"
+  ],
+  "rejected_keywords": [
+    "Spatially-Enhanced Attention",
+    "Spatio-Temporal Forecasting"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.78,
+    "Attention Mechanism": 0.77,
+    "Graph Neural Networks": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # ST-LINK: Spatially-Aware Large Language Models for Spatio-Temporal Forecasting
 
 **Korean Title:** ST-LINK: 시공간 예측을 위한 공간 인식 대형 언어 모델
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Hyotaek Jeon|Hyotaek Jeon]] [[authors/Hyunwook Lee|Hyunwook Lee]] [[authors/Juwon Kim|Juwon Kim]] [[authors/Sungahn Ko|Sungahn Ko]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]       [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Spatially-Enhanced Attention
+**🔗 Specific Connectable**: [[keywords/Attention Mechanism|Attention Mechanism]], [[keywords/Graph Neural Networks|Graph-Structured Spatial Data]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[Improving Internet Traffic Matrix Prediction via Time Series Clustering_20250919|Improving Internet Traffic Matrix Prediction via Time Series Clustering]] (82.3% similar)

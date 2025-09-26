@@ -1,13 +1,48 @@
+---
+keywords:
+  - Large Language Models
+  - Arabic Dialect Identification
+  - Few-Shot Learning
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:55:12.959390",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Arabic Dialect Identification",
+    "Few-Shot Learning"
+  ],
+  "rejected_keywords": [
+    "Prompt-Tuning",
+    "LoRA"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.82,
+    "Arabic Dialect Identification": 0.78,
+    "Few-Shot Learning": 0.79
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Exploring Data and Parameter Efficient Strategies for Arabic Dialect Identifications
 
 **Korean Title:** 아랍어 방언 식별을 위한 데이터 및 매개변수 효율적 전략 탐색
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Vani Kanjirangat|Vani Kanjirangat]] [[authors/Ljiljana Dolamic|Ljiljana Dolamic]] [[authors/Fabio Rinaldi|Fabio Rinaldi]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]      [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Few-shot Learning, Zero-shot Learning
+**🔗 Specific Connectable**: [[keywords/Few-Shot Learning|Few-Shot Learning]]
+**⚡ Unique Technical**: [[keywords/Arabic Dialect Identification|Arabic Dialect Identification]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[Hala Technical Report_ Building Arabic-Centric Instruction & Translation Models at Scale_20250917|Hala Technical Report Building Arabic-Centric Instruction & Translation Models at Scale]] (82.4% similar)

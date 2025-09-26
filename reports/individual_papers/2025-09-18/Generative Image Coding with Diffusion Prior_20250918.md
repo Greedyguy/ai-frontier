@@ -1,3 +1,35 @@
+---
+keywords:
+  - Diffusion Models
+  - Attention Mechanism
+  - Generative Models
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13768
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:26:52.796560",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Diffusion Models",
+    "Attention Mechanism",
+    "Generative Models"
+  ],
+  "rejected_keywords": [
+    "Computer Vision"
+  ],
+  "similarity_scores": {
+    "Diffusion Models": 0.88,
+    "Attention Mechanism": 0.8,
+    "Generative Models": 0.82
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Generative Image Coding with Diffusion Prior
 
@@ -5,10 +37,10 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Efficient Adaptation
+**🔗 Specific Connectable**: [[keywords/Diffusion Models|diffusion priors]], [[keywords/Attention Mechanism|attentive fusion module]], [[keywords/Generative Models|generative coding framework]]
 
 ## 🔗 유사한 논문
 - [[Identity-Preserving_Text-to-Video_Generation_Guided_by_Simple_yet_Effective_Spatial-Temporal_Decoupled_Representations_20250918|Identity-Preserving Text-to-Video Generation Guided by Simple yet Effective Spatial-Temporal Decoupled Representations]] (79.7% similar)

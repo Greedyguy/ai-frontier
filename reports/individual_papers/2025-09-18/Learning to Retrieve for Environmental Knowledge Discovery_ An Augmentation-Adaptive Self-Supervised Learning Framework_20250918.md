@@ -1,13 +1,47 @@
+---
+keywords:
+  - Self-Supervised Learning
+  - Augmentation-Adaptive Mechanism
+  - Environmental Knowledge Discovery
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:22:02.756821",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Self-Supervised Learning",
+    "Augmentation-Adaptive Mechanism",
+    "Environmental Knowledge Discovery"
+  ],
+  "rejected_keywords": [
+    "Data Augmentation"
+  ],
+  "similarity_scores": {
+    "Self-Supervised Learning": 0.8,
+    "Augmentation-Adaptive Mechanism": 0.78,
+    "Environmental Knowledge Discovery": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Learning to Retrieve for Environmental Knowledge Discovery: An Augmentation-Adaptive Self-Supervised Learning Framework
 
 **Korean Title:** 환경 지식 발견을 위한 검색 학습: 증강 적응형 자가 지도 학습 프레임워크
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Shiyuan Luo|Shiyuan Luo]] [[authors/Runlong Yu|Runlong Yu]] [[authors/Chonghao Qiu|Chonghao Qiu]] [[authors/Rahul Ghosh|Rahul Ghosh]] [[authors/Robert Ladwig|Robert Ladwig]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Scenario Encoder
+**🔗 Specific Connectable**: [[keywords/Self-Supervised Learning|Self-Supervised Learning]]
+**⚡ Unique Technical**: [[keywords/Augmentation-Adaptive Mechanism|Augmentation-Adaptive Mechanism]]
+**🚀 Evolved Concepts**: [[keywords/Environmental Knowledge Discovery|Environmental Knowledge Discovery]]
 
 ## 🔗 유사한 논문
 - [[Select to Know_ An Internal-External Knowledge Self-Selection Framework for Domain-Specific Question Answering_20250919|Select to Know An Internal-External Knowledge Self-Selection Framework for Domain-Specific Question Answering]] (78.1% similar)

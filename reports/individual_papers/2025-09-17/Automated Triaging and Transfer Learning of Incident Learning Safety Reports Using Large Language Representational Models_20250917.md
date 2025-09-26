@@ -1,3 +1,35 @@
+---
+keywords:
+  - Transfer Learning
+  - Natural Language Processing
+  - Large Language Models
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 23:00:41.418845",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Transfer Learning",
+    "Natural Language Processing",
+    "Large Language Models"
+  ],
+  "rejected_keywords": [
+    "Incident Learning Safety Reports"
+  ],
+  "similarity_scores": {
+    "Transfer Learning": 0.88,
+    "Natural Language Processing": 0.85,
+    "Large Language Models": 0.82
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Automated Triaging and Transfer Learning of Incident Learning Safety Reports Using Large Language Representational Models
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Peter Beidler|Peter Beidler]] [[authors/Mark Nguyen|Mark Nguyen]] [[authors/Kevin Lybarger|Kevin Lybarger]] [[authors/Ola Holmberg|Ola Holmberg]] [[authors/Eric Ford|Eric Ford]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔬 Broad Technical**: Large Language Representational Models, Natural Language Processing
+**🌐 Broad Technical**: [[keywords/Natural Language Processing|Natural Language Processing]]
+**🔗 Specific Connectable**: [[keywords/Transfer Learning|Transfer Learning]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[A Comprehensive Survey on the Trustworthiness of Large Language Models in Healthcare]] (78.7% similar)

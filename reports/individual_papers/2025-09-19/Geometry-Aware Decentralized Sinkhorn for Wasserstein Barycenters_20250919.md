@@ -1,3 +1,35 @@
+---
+keywords:
+  - Optimal Transport
+  - Decentralized Sinkhorn Algorithm
+  - Wasserstein Barycenters
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14521
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:41:40.306749",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Optimal Transport",
+    "Decentralized Sinkhorn Algorithm",
+    "Wasserstein Barycenters"
+  ],
+  "rejected_keywords": [
+    "Event-Triggered Transmissions"
+  ],
+  "similarity_scores": {
+    "Optimal Transport": 0.8,
+    "Decentralized Sinkhorn Algorithm": 0.82,
+    "Wasserstein Barycenters": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Geometry-Aware Decentralized Sinkhorn for Wasserstein Barycenters
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Event-Triggered Transmissions
+**🌐 Broad Technical**: [[keywords/Optimal Transport|Optimal Transport]]
+**⚡ Unique Technical**: [[keywords/Decentralized Sinkhorn Algorithm|Decentralized Sinkhorn Algorithm]], [[keywords/Wasserstein Barycenters|Wasserstein Barycenters]]
 
 ## 🔗 유사한 논문
 - [[Data-Driven Distributed Optimization via Aggregative Tracking and Deep-Learning_20250918|Data-Driven Distributed Optimization via Aggregative Tracking and Deep-Learning]] (84.3% similar)

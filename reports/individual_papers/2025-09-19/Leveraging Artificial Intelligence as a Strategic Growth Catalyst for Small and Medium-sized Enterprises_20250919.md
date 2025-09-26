@@ -1,3 +1,35 @@
+---
+keywords:
+  - Strategic AI Adoption
+  - Artificial Intelligence
+  - Small and Medium-sized Enterprises
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14532
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:37:52.077772",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Strategic AI Adoption",
+    "Artificial Intelligence",
+    "Small and Medium-sized Enterprises"
+  ],
+  "rejected_keywords": [
+    "Operational Efficiency"
+  ],
+  "similarity_scores": {
+    "Strategic AI Adoption": 0.8,
+    "Artificial Intelligence": 0.85,
+    "Small and Medium-sized Enterprises": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Leveraging Artificial Intelligence as a Strategic Growth Catalyst for Small and Medium-sized Enterprises
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Strategic AI Adoption
+**🌐 Broad Technical**: [[keywords/Artificial Intelligence|Artificial Intelligence]]
+**⚡ Unique Technical**: [[keywords/Small and Medium-sized Enterprises|Small and Medium-sized Enterprises]]
+**🚀 Evolved Concepts**: [[keywords/Strategic AI Adoption|Strategic AI Adoption]]
 
 ## 🔗 유사한 논문
 - [[MIRA Empowering One-Touch AI Services on Smartphones with MLLM-based Instruction Recommendation]] (78.3% similar)

@@ -1,13 +1,46 @@
+---
+keywords:
+  - Graph Neural Networks
+  - GNSS Jamming
+  - Heterogeneous Graph ConvLSTM
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:56:58.565832",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Graph Neural Networks",
+    "GNSS Jamming",
+    "Heterogeneous Graph ConvLSTM"
+  ],
+  "rejected_keywords": [
+    "Real-Time Correction"
+  ],
+  "similarity_scores": {
+    "Graph Neural Networks": 0.82,
+    "GNSS Jamming": 0.78,
+    "Heterogeneous Graph ConvLSTM": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Deep Temporal Graph Networks for Real-Time Correction of GNSS Jamming-Induced Deviations
 
 **Korean Title:** 깊은 시간 그래프 네트워크를 통한 GNSS 재밍 유발 편차의 실시간 수정
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Ivana Kesić|Ivana Kesić]] [[authors/Aljaž Blatnik|Aljaž Blatnik]] [[authors/Carolina Fortuna|Carolina Fortuna]] [[authors/Blaž Bertalanič|Blaž Bertalanič]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]       [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Receiver-centric Deep Temporal Graph Network
+**🔗 Specific Connectable**: [[keywords/Graph Neural Networks|Deep Temporal Graph Networks]]
+**⚡ Unique Technical**: [[keywords/GNSS Jamming|GNSS Jamming]], [[keywords/Heterogeneous Graph ConvLSTM|Heterogeneous Graph ConvLSTM]]
 
 ## 🔗 유사한 논문
 - [[Spatio-Temporal Anomaly Detection with Graph Networks for Data Quality Monitoring of the Hadron Calorimeter_20250919|Spatio-Temporal Anomaly Detection with Graph Networks for Data Quality Monitoring of the Hadron Calorimeter]] (80.2% similar)

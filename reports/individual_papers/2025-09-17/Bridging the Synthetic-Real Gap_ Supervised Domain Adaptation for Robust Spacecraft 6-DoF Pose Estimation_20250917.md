@@ -1,13 +1,46 @@
+---
+keywords:
+  - Supervised Domain Adaptation
+  - Spacecraft Pose Estimation
+  - Learning Invariant Representation and Risk
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:59:43.087522",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Supervised Domain Adaptation",
+    "Spacecraft Pose Estimation",
+    "Learning Invariant Representation and Risk"
+  ],
+  "rejected_keywords": [
+    "Computer Vision"
+  ],
+  "similarity_scores": {
+    "Supervised Domain Adaptation": 0.82,
+    "Spacecraft Pose Estimation": 0.78,
+    "Learning Invariant Representation and Risk": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Bridging the Synthetic-Real Gap: Supervised Domain Adaptation for Robust Spacecraft 6-DoF Pose Estimation
 
 **Korean Title:** 합성-실제 간극 연결: 견고한 우주선 6-자유도 자세 추정을 위한 지도형 도메인 적응
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Inder Pal Singh|Inder Pal Singh]] [[authors/Nidhal Eddine Chenni|Nidhal Eddine Chenni]] [[authors/Abd El Rahman Shabayek|Abd El Rahman Shabayek]] [[authors/Arunkumar Rathinam|Arunkumar Rathinam]] [[authors/Djamila Aouada|Djamila Aouada]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**⭐ Unique Technical**: Supervised Domain Adaptation
+**⚡ Unique Technical**: [[keywords/Spacecraft Pose Estimation|Spacecraft Pose Estimation]], [[keywords/Learning Invariant Representation and Risk|Learning Invariant Representation and Risk]]
+**🚀 Evolved Concepts**: [[keywords/Supervised Domain Adaptation|Supervised Domain Adaptation]]
 
 ## 🔗 유사한 논문
 - [[BEVUDA++_ Geometric-aware Unsupervised Domain Adaptation for Multi-View 3D Object Detection_20250918|BEVUDA++ Geometric-aware Unsupervised Domain Adaptation for Multi-View 3D Object Detection]] (82.4% similar)

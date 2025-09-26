@@ -1,13 +1,47 @@
+---
+keywords:
+  - Graph Neural Networks
+  - Graph Condensation
+  - Optimal Transport
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:04:25.878984",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Graph Neural Networks",
+    "Graph Condensation",
+    "Optimal Transport"
+  ],
+  "rejected_keywords": [
+    "Semantic Harmonizer",
+    "Uncertainty Quantification"
+  ],
+  "similarity_scores": {
+    "Graph Neural Networks": 0.8,
+    "Graph Condensation": 0.78,
+    "Optimal Transport": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Towards Pre-trained Graph Condensation via Optimal Transport
 
 **Korean Title:** 최적 수송을 통한 사전 학습된 그래프 응축 연구
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Yeyu Yan|Yeyu Yan]] [[authors/Shuai Zheng|Shuai Zheng]] [[authors/Wenjun Hui|Wenjun Hui]] [[authors/Xiangkai Zhu|Xiangkai Zhu]] [[authors/Dong Chen|Dong Chen]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Graph Diffusion Augmentation
+**🔗 Specific Connectable**: [[keywords/Graph Neural Networks|Graph Neural Networks]]
+**⚡ Unique Technical**: [[keywords/Graph Condensation|Graph Condensation]], [[keywords/Optimal Transport|Optimal Transport]]
 
 ## 🔗 유사한 논문
 - [[Attention Beyond Neighborhoods_ Reviving Transformer for Graph Clustering_20250918|Attention Beyond Neighborhoods Reviving Transformer for Graph Clustering]] (83.0% similar)

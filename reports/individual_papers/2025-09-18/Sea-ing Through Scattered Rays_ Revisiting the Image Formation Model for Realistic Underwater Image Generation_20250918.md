@@ -1,13 +1,46 @@
+---
+keywords:
+  - Underwater Image Formation Model
+  - Synthetic Data Generation
+  - Forward Scattering
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:11:17.662780",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Underwater Image Formation Model",
+    "Synthetic Data Generation",
+    "Forward Scattering"
+  ],
+  "rejected_keywords": [
+    "Nonuniform Medium"
+  ],
+  "similarity_scores": {
+    "Underwater Image Formation Model": 0.78,
+    "Synthetic Data Generation": 0.72,
+    "Forward Scattering": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Sea-ing Through Scattered Rays: Revisiting the Image Formation Model for Realistic Underwater Image Generation
 
 **Korean Title:** 산란된 광선을 통한 바다 탐색: 현실적인 수중 이미지 생성을 위한 이미지 형성 모델 재검토
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Vasiliki Ismiroglou|Vasiliki Ismiroglou]] [[authors/Malte Pedersen|Malte Pedersen]] [[authors/Stefan H. Bengtson|Stefan H. Bengtson]] [[authors/Andreas Aakerberg|Andreas Aakerberg]] [[authors/Thomas B. Moeslund|Thomas B. Moeslund]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Underwater Image Formation Model
+**🌐 Broad Technical**: [[keywords/Synthetic Data Generation|synthetic data generation]]
+**⚡ Unique Technical**: [[keywords/Underwater Image Formation Model|underwater image formation model]], [[keywords/Forward Scattering|forward scattering]]
 
 ## 🔗 유사한 논문
 - [[SPATIALGEN_ Layout-guided 3D Indoor Scene Generation_20250919|SPATIALGEN Layout-guided 3D Indoor Scene Generation]] (79.4% similar)

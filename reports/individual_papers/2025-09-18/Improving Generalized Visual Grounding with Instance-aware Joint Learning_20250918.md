@@ -1,3 +1,35 @@
+---
+keywords:
+  - Generalized Visual Grounding
+  - InstanceVG
+  - Instance-aware Joint Learning
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13747
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:25:24.229455",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Generalized Visual Grounding",
+    "InstanceVG",
+    "Instance-aware Joint Learning"
+  ],
+  "rejected_keywords": [
+    "Computer Vision"
+  ],
+  "similarity_scores": {
+    "Generalized Visual Grounding": 0.8,
+    "InstanceVG": 0.78,
+    "Instance-aware Joint Learning": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Improving Generalized Visual Grounding with Instance-aware Joint Learning
 
@@ -5,10 +37,10 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Multi-granularity Predictions
+**⚡ Unique Technical**: [[keywords/Generalized Visual Grounding|Generalized Visual Grounding]], [[keywords/InstanceVG|InstanceVG]], [[keywords/Instance-aware Joint Learning|Instance-aware Joint Learning]]
 
 ## 🔗 유사한 논문
 - [[GeoAware-VLA_Implicit_Geometry_Aware_Vision-Language-Action_Model_20250918|GeoAware-VLA: Implicit Geometry Aware Vision-Language-Action Model]] (79.9% similar)

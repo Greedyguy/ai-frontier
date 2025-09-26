@@ -1,3 +1,35 @@
+---
+keywords:
+  - Semantic-LiDAR-Inertial-Wheel Odometry
+  - Iterative Error-State Kalman Filter
+  - Semantic Voxel Map
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14999
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:24:23.191618",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Semantic-LiDAR-Inertial-Wheel Odometry",
+    "Iterative Error-State Kalman Filter",
+    "Semantic Voxel Map"
+  ],
+  "rejected_keywords": [
+    "3D Adaptive Scaling"
+  ],
+  "similarity_scores": {
+    "Semantic-LiDAR-Inertial-Wheel Odometry": 0.8,
+    "Iterative Error-State Kalman Filter": 0.75,
+    "Semantic Voxel Map": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Semantic-LiDAR-Inertial-Wheel Odometry Fusion for Robust Localization in Large-Scale Dynamic Environments
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Iterative Error-State Kalman Filter, Semantic Voxel Map
+**🔗 Specific Connectable**: [[keywords/Iterative Error-State Kalman Filter|Iterative Error-State Kalman Filter]]
+**⚡ Unique Technical**: [[keywords/Semantic-LiDAR-Inertial-Wheel Odometry|Semantic-LiDAR-Inertial-Wheel Odometry]], [[keywords/Semantic Voxel Map|semantic-voxel map representation]]
 
 ## 🔗 유사한 논문
 - [[Semantic Exploration and Dense Mapping of Complex Environments using Ground Robot with Panoramic LiDAR-Camera Fusion_20250919|Semantic Exploration and Dense Mapping of Complex Environments using Ground Robot with Panoramic LiDAR-Camera Fusion]] (86.6% similar)

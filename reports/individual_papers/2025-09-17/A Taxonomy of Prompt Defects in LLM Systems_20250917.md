@@ -1,13 +1,46 @@
+---
+keywords:
+  - Large Language Models
+  - Prompt Defects Taxonomy
+  - Prompt Engineering
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 23:02:53.260957",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Prompt Defects Taxonomy",
+    "Prompt Engineering"
+  ],
+  "rejected_keywords": [
+    "Natural Language Processing"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.9,
+    "Prompt Defects Taxonomy": 0.88,
+    "Prompt Engineering": 0.85
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # A Taxonomy of Prompt Defects in LLM Systems
 
 **Korean Title:** LLM 시스템에서 프롬프트 결함의 분류학
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Haoye Tian|Haoye Tian]] [[authors/Chong Wang|Chong Wang]] [[authors/BoYang Yang|BoYang Yang]] [[authors/Lyuye Zhang|Lyuye Zhang]] [[authors/Yang Liu|Yang Liu]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Engineering-oriented Methodologies
+**⚡ Unique Technical**: [[keywords/Prompt Defects Taxonomy|Taxonomy of Prompt Defects]], [[keywords/Prompt Engineering|Prompt Engineering]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[Simulating a Bias Mitigation Scenario in Large Language Models_20250917|Simulating a Bias Mitigation Scenario in Large Language Models]] (82.2% similar)

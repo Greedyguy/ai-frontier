@@ -1,3 +1,36 @@
+---
+keywords:
+  - AWS SageMaker
+  - AI Workflow Development
+  - GPU Programming
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13703
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:27:24.848570",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "AWS SageMaker",
+    "AI Workflow Development",
+    "GPU Programming"
+  ],
+  "rejected_keywords": [
+    "Parallel Computing",
+    "Experiential Learning"
+  ],
+  "similarity_scores": {
+    "AWS SageMaker": 0.8,
+    "AI Workflow Development": 0.77,
+    "GPU Programming": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # GPU Programming for AI Workflow Development on AWS SageMaker: An Instructional Approach
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: scalable AI solutions
+**⚡ Unique Technical**: [[keywords/AWS SageMaker|AWS SageMaker]], [[keywords/GPU Programming|GPU Programming]]
+**🚀 Evolved Concepts**: [[keywords/AI Workflow Development|AI Workflow Development]]
 
 ## 🔗 유사한 논문
 - [[Gen AI in Proof-based Math Courses: A Pilot Study]] (81.4% similar)

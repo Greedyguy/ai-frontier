@@ -1,3 +1,35 @@
+---
+keywords:
+  - Large Language Models
+  - Intelligent Tutoring System
+  - Personalized Educational Content
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.15068
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:38:23.018556",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Intelligent Tutoring System",
+    "Personalized Educational Content"
+  ],
+  "rejected_keywords": [
+    "Student Engagement"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.9,
+    "Intelligent Tutoring System": 0.82,
+    "Personalized Educational Content": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Learning in Context: Personalizing Educational Content with Large Language Models to Enhance Student Learning
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: LLM-powered Personalization
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Large Language Models]], [[keywords/Intelligent Tutoring System|Intelligent Tutoring System]]
+**⚡ Unique Technical**: [[keywords/Personalized Educational Content|Personalized Educational Content]]
 
 ## 🔗 유사한 논문
 - [[Auto-Slides An Interactive Multi-Agent System for Creating and Customizing Research Presentations]] (83.9% similar)

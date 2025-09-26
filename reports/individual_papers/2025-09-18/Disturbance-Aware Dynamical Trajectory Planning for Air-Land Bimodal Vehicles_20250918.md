@@ -1,3 +1,35 @@
+---
+keywords:
+  - Trajectory Optimization
+  - Disturbance Observer
+  - Bimodal Vehicles
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2508.05972
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:32:24.426516",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Trajectory Optimization",
+    "Disturbance Observer",
+    "Bimodal Vehicles"
+  ],
+  "rejected_keywords": [
+    "Disturbance-Aware Motion Planning"
+  ],
+  "similarity_scores": {
+    "Trajectory Optimization": 0.8,
+    "Disturbance Observer": 0.79,
+    "Bimodal Vehicles": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Disturbance-Aware Dynamical Trajectory Planning for Air-Land Bimodal Vehicles
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Disturbance estimation
+**🌐 Broad Technical**: [[keywords/Trajectory Optimization|trajectory optimization]]
+**🔗 Specific Connectable**: [[keywords/Disturbance Observer|disturbance observer]]
+**⚡ Unique Technical**: [[keywords/Bimodal Vehicles|bimodal vehicles]]
 
 ## 🔗 유사한 논문
 - [[Occupancy-aware_Trajectory_Planning_for_Autonomous_Valet_Parking_in_Uncertain_Dynamic_Environments_20250918|Occupancy-aware Trajectory Planning for Autonomous Valet Parking in Uncertain Dynamic Environments]] (82.9% similar)

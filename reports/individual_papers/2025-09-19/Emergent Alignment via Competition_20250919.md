@@ -1,3 +1,36 @@
+---
+keywords:
+  - AI Alignment
+  - Stackelberg Game
+  - Model Diversity
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.15090
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:46:57.590284",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "AI Alignment",
+    "Stackelberg Game",
+    "Model Diversity"
+  ],
+  "rejected_keywords": [
+    "Bayesian Persuasion",
+    "Quantal Response"
+  ],
+  "similarity_scores": {
+    "AI Alignment": 0.85,
+    "Stackelberg Game": 0.8,
+    "Model Diversity": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Emergent Alignment via Competition
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Multi-leader Stackelberg Game
+**⚡ Unique Technical**: [[keywords/AI Alignment|AI alignment]], [[keywords/Stackelberg Game|Stackelberg game]]
+**🚀 Evolved Concepts**: [[keywords/Model Diversity|model diversity]]
 
 ## 🔗 유사한 논문
 - [[Polynomial-Time Approximation Schemes via Utility Alignment Unit-Demand Pricing and More]] (84.3% similar)

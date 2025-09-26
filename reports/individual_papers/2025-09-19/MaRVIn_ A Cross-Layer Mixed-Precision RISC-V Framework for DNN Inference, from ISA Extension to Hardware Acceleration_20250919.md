@@ -1,3 +1,36 @@
+---
+keywords:
+  - RISC-V Architectures
+  - Deep Learning
+  - Mixed-Precision Techniques
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.15187
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:35:42.608064",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "RISC-V Architectures",
+    "Deep Learning",
+    "Mixed-Precision Techniques"
+  ],
+  "rejected_keywords": [
+    "Hardware-Software Co-Design",
+    "Cycle-Accurate Emulation"
+  ],
+  "similarity_scores": {
+    "RISC-V Architectures": 0.8,
+    "Deep Learning": 0.85,
+    "Mixed-Precision Techniques": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # MaRVIn: A Cross-Layer Mixed-Precision RISC-V Framework for DNN Inference, from ISA Extension to Hardware Acceleration
 
@@ -5,10 +38,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Cross-Layer Co-Design
+**🌐 Broad Technical**: [[keywords/Deep Learning|deep learning inference]]
+**🔗 Specific Connectable**: [[keywords/RISC-V Architectures|RISC-V architectures]]
+**⚡ Unique Technical**: [[keywords/Mixed-Precision Techniques|mixed-precision techniques]]
 
 ## 🔗 유사한 논문
 - [[Evolution of Kernels Automated RISC-V Kernel Optimization with Large Language Models]] (83.5% similar)

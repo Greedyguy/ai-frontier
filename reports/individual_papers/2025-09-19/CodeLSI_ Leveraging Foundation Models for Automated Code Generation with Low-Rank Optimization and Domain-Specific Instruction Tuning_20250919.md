@@ -1,3 +1,35 @@
+---
+keywords:
+  - Domain-Specific Instruction Tuning
+  - Foundation Models
+  - Automated Code Generation
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14373
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:52:42.345573",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Domain-Specific Instruction Tuning",
+    "Foundation Models",
+    "Automated Code Generation"
+  ],
+  "rejected_keywords": [
+    "Optimization"
+  ],
+  "similarity_scores": {
+    "Domain-Specific Instruction Tuning": 0.82,
+    "Foundation Models": 0.78,
+    "Automated Code Generation": 0.79
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # CodeLSI: Leveraging Foundation Models for Automated Code Generation with Low-Rank Optimization and Domain-Specific Instruction Tuning
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Low-rank Optimization, Domain-specific Instruction Tuning
+**⚡ Unique Technical**: [[keywords/Domain-Specific Instruction Tuning|Domain-Specific Instruction Tuning]], [[keywords/Automated Code Generation|Automated Code Generation]]
+**🚀 Evolved Concepts**: [[keywords/Foundation Models|Foundation Models]]
 
 ## 🔗 유사한 논문
 - [[Do Code Semantics Help_ A Comprehensive Study on Execution Trace-Based Information for Code Large Language Models_20250919|Do Code Semantics Help A Comprehensive Study on Execution Trace-Based Information for Code Large Language Models]] (83.1% similar)

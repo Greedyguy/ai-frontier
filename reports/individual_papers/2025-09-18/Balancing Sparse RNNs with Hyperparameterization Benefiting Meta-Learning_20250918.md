@@ -1,13 +1,47 @@
+---
+keywords:
+  - Meta-Learning
+  - Neural Networks
+  - Hidden Proportion Metric
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:37:50.877577",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Meta-Learning",
+    "Neural Networks",
+    "Hidden Proportion Metric"
+  ],
+  "rejected_keywords": [
+    "Optimization"
+  ],
+  "similarity_scores": {
+    "Meta-Learning": 0.8,
+    "Neural Networks": 0.78,
+    "Hidden Proportion Metric": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Balancing Sparse RNNs with Hyperparameterization Benefiting Meta-Learning
 
 **Korean Title:** 희소 RNN의 균형 조정: 메타 학습에 유익한 하이퍼파라미터화
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Quincy Hershey|Quincy Hershey]] [[authors/Randy Paffenroth|Randy Paffenroth]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]     [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**⭐ Unique Technical**: Hidden Proportion Metric
+**🌐 Broad Technical**: [[keywords/Neural Networks|sparse Recurrent Neural Networks]]
+**🔗 Specific Connectable**: [[keywords/Meta-Learning|meta-learning]]
+**⚡ Unique Technical**: [[keywords/Hidden Proportion Metric|hidden proportion]]
 
 ## 🔗 유사한 논문
 - [[Online reinforcement learning via sparse Gaussian mixture model Q-functions_20250919|Online reinforcement learning via sparse Gaussian mixture model Q-functions]] (79.4% similar)

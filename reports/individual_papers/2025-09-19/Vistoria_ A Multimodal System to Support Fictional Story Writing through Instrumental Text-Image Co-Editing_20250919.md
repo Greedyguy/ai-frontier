@@ -1,3 +1,35 @@
+---
+keywords:
+  - Multi-Modal Learning
+  - Instrumental Interaction
+  - Narrative Exploration
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.13646
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:18:11.134848",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Multi-Modal Learning",
+    "Instrumental Interaction",
+    "Narrative Exploration"
+  ],
+  "rejected_keywords": [
+    "Cognitive Load"
+  ],
+  "similarity_scores": {
+    "Multi-Modal Learning": 0.82,
+    "Instrumental Interaction": 0.7,
+    "Narrative Exploration": 0.65
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Vistoria: A Multimodal System to Support Fictional Story Writing through Instrumental Text-Image Co-Editing
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Text Image Co Editing
+**🔗 Specific Connectable**: [[keywords/Multi-Modal Learning|multimodal co-editing]]
+**⚡ Unique Technical**: [[keywords/Instrumental Interaction|Instrumental Interaction]], [[keywords/Narrative Exploration|narrative exploration]]
 
 ## 🔗 유사한 논문
 - [[Visible Yet Unreadable A Systematic Blind Spot of Vision Language Models Across Writing Systems]] (79.3% similar)

@@ -1,13 +1,47 @@
+---
+keywords:
+  - Large Language Models
+  - In-Context Learning
+  - Authorship Attribution
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:35:19.223246",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "In-Context Learning",
+    "Authorship Attribution"
+  ],
+  "rejected_keywords": [
+    "Style Matching"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "In-Context Learning": 0.77,
+    "Authorship Attribution": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Catch Me If You Can? Not Yet: LLMs Still Struggle to Imitate the Implicit Writing Styles of Everyday Authors
 
 **Korean Title:** "잡을 테면 잡아봐? 아직은 아님: LLM은 여전히 일상 작가들의 암묵적인 글쓰기 스타일을 모방하는 데 어려움을 겪고 있다"
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Zhengxiang Wang|Zhengxiang Wang]] [[authors/Nafis Irtiza Tripto|Nafis Irtiza Tripto]] [[authors/Solha Park|Solha Park]] [[authors/Zhenzhen Li|Zhenzhen Li]] [[authors/Jiawei Zhou|Jiawei Zhou]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Personalized LLM Adaptation
+**🔗 Specific Connectable**: [[keywords/In-Context Learning|In-Context Learning]]
+**⚡ Unique Technical**: [[keywords/Authorship Attribution|Authorship Attribution]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[Adding LLMs to the psycholinguistic norming toolbox_ A practical guide to getting the most out of human ratings_20250919|Adding LLMs to the psycholinguistic norming toolbox A practical guide to getting the most out of human ratings]] (83.1% similar)

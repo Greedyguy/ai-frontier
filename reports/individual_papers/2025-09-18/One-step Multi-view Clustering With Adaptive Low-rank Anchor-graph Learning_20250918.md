@@ -1,13 +1,45 @@
+---
+keywords:
+  - Adaptive Low-Rank Learning
+  - Multi-View Clustering
+  - Nuclear Norm-Based Learning
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:17:17.873387",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Adaptive Low-Rank Learning",
+    "Multi-View Clustering",
+    "Nuclear Norm-Based Learning"
+  ],
+  "rejected_keywords": [
+    "Clustering Optimization"
+  ],
+  "similarity_scores": {
+    "Adaptive Low-Rank Learning": 0.8,
+    "Multi-View Clustering": 0.78,
+    "Nuclear Norm-Based Learning": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # One-step Multi-view Clustering With Adaptive Low-rank Anchor-graph Learning
 
 **Korean Title:** 단계적 다중 뷰 클러스터링을 위한 적응형 저차원 앵커 그래프 학습
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Zhiyuan Xue|Zhiyuan Xue]] [[authors/Ben Yang|Ben Yang]] [[authors/Xuetao Zhang|Xuetao Zhang]] [[authors/Fei Wang|Fei Wang]] [[authors/Zhiping Lin|Zhiping Lin]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Adaptive Low-rank Anchor-graph Learning
+**⚡ Unique Technical**: [[keywords/Adaptive Low-Rank Learning|adaptive low-rank anchor-graph learning]], [[keywords/Multi-View Clustering|anchor graph-based multi-view clustering]], [[keywords/Nuclear Norm-Based Learning|nuclear norm-based adaptive CAG learning model]]
 
 ## 🔗 유사한 논문
 - [[Attention Beyond Neighborhoods_ Reviving Transformer for Graph Clustering_20250918|Attention Beyond Neighborhoods Reviving Transformer for Graph Clustering]] (82.4% similar)

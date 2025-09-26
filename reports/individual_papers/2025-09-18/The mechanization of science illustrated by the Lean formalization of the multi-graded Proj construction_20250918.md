@@ -1,13 +1,44 @@
+---
+keywords:
+  - Lean Theorem Prover
+  - Mechanized Mathematics
+  - Multi-Graded Proj Construction
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:04:56.150428",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Lean Theorem Prover",
+    "Mechanized Mathematics",
+    "Multi-Graded Proj Construction"
+  ],
+  "rejected_keywords": [],
+  "similarity_scores": {
+    "Lean Theorem Prover": 0.8,
+    "Mechanized Mathematics": 0.78,
+    "Multi-Graded Proj Construction": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # The mechanization of science illustrated by the Lean formalization of the multi-graded Proj construction
 
 **Korean Title:** 과학의 기계화: 다중 등급 Proj 구성의 Lean 형식화
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Arnaud Mayeux|Arnaud Mayeux]] [[authors/Jujian Zhang|Jujian Zhang]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]     [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Multi-graded Proj Construction
+**🔗 Specific Connectable**: [[keywords/Lean Theorem Prover|Lean4]]
+**⚡ Unique Technical**: [[keywords/Mechanized Mathematics|mechanized mathematics]], [[keywords/Multi-Graded Proj Construction|multi-graded Proj construction]]
 
 ## 🔗 유사한 논문
 - [[Evaluating Classical Software Process Models as Coordination Mechanisms for LLM-Based Software Generation_20250918|Evaluating Classical Software Process Models as Coordination Mechanisms for LLM-Based Software Generation]] (74.1% similar)

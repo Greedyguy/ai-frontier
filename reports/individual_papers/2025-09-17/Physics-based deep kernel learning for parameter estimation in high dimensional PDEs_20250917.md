@@ -1,13 +1,46 @@
+---
+keywords:
+  - Hamiltonian Monte Carlo
+  - Uncertainty Quantification
+  - Deep Kernel Learning
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:47:53.451660",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Hamiltonian Monte Carlo",
+    "Uncertainty Quantification",
+    "Deep Kernel Learning"
+  ],
+  "rejected_keywords": [
+    "Partial Differential Equations"
+  ],
+  "similarity_scores": {
+    "Hamiltonian Monte Carlo": 0.82,
+    "Uncertainty Quantification": 0.8,
+    "Deep Kernel Learning": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Physics-based deep kernel learning for parameter estimation in high dimensional PDEs
 
 **Korean Title:** 고차원 편미분 방정식에서의 매개변수 추정을 위한 물리 기반 심층 커널 학습
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Weihao Yan|Weihao Yan]] [[authors/Christoph Brune|Christoph Brune]] [[authors/Mengwu Guo|Mengwu Guo]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]      [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Surrogate Model Training
+**🔗 Specific Connectable**: [[keywords/Hamiltonian Monte Carlo|Hamiltonian Monte Carlo]], [[keywords/Uncertainty Quantification|uncertainty quantification]]
+**⚡ Unique Technical**: [[keywords/Deep Kernel Learning|deep kernel learning]]
 
 ## 🔗 유사한 논문
 - [[Deconstructing Intraocular Pressure_ A Non-invasive Multi-Stage Probabilistic Inverse Framework_20250917|Deconstructing Intraocular Pressure A Non-invasive Multi-Stage Probabilistic Inverse Framework]] (81.6% similar)

@@ -1,13 +1,46 @@
+---
+keywords:
+  - Large Language Models
+  - Word Sense Disambiguation
+  - Generative Models
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:56:00.468823",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Word Sense Disambiguation",
+    "Generative Models"
+  ],
+  "rejected_keywords": [
+    "Definition Generation"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.9,
+    "Word Sense Disambiguation": 0.85,
+    "Generative Models": 0.82
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Do Large Language Models Understand Word Senses?
 
 **Korean Title:** 대형 언어 모델은 단어의 의미를 이해하는가?
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Domenico Meconi|Domenico Meconi]] [[authors/Simone Stirpe|Simone Stirpe]] [[authors/Federico Martelli|Federico Martelli]] [[authors/Leonardo Lavalle|Leonardo Lavalle]] [[authors/Roberto Navigli|Roberto Navigli]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Instruction-tuned LLMs
+**🔗 Specific Connectable**: [[keywords/Word Sense Disambiguation|Word Sense Disambiguation]], [[keywords/Generative Models|Generative Models]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[Large Multi-modal Models Can Interpret Features in Large Multi-modal Models_20250919|Large Multi-modal Models Can Interpret Features in Large Multi-modal Models]] (85.0% similar)

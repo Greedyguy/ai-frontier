@@ -1,3 +1,35 @@
+---
+keywords:
+  - NDLPNet
+  - NSR Dataset
+  - Position Perception Module
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13766
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:18:32.638102",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "NDLPNet",
+    "NSR Dataset",
+    "Position Perception Module"
+  ],
+  "rejected_keywords": [
+    "Computer Vision"
+  ],
+  "similarity_scores": {
+    "NDLPNet": 0.8,
+    "NSR Dataset": 0.78,
+    "Position Perception Module": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # NDLPNet: A Location-Aware Nighttime Deraining Network and a Real-World Benchmark Dataset
 
@@ -5,10 +37,10 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Nighttime Deraining Task
+**⚡ Unique Technical**: [[keywords/NDLPNet|Nighttime Deraining Location-enhanced Perceptual Network]], [[keywords/NSR Dataset|night scene rainy dataset]], [[keywords/Position Perception Module|Position Perception Module]]
 
 ## 🔗 유사한 논문
 - [[Performance_Optimization_of_YOLO-FEDER_FusionNet_for_Robust_Drone_Detection_in_Visually_Complex_Environments_20250918|Performance Optimization of YOLO-FEDER FusionNet for Robust Drone Detection in Visually Complex Environments]] (78.8% similar)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - Large Language Models
+  - El Farol Bar Problem
+  - Game Theory
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.04537
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:30:31.581848",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "El Farol Bar Problem",
+    "Game Theory"
+  ],
+  "rejected_keywords": [
+    "Group Decision Making"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "El Farol Bar Problem": 0.78,
+    "Game Theory": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Emergent Social Dynamics of LLM Agents in the El Farol Bar Problem
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Group Decision Making
+**🌐 Broad Technical**: [[keywords/Game Theory|game-theoretic rationality]]
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Large Language Model agents]]
+**⚡ Unique Technical**: [[keywords/El Farol Bar Problem|El Farol Bar problem]]
 
 ## 🔗 유사한 논문
 - [[From Automation to Autonomy A Survey on Large Language Models in Scientific Discovery]] (83.2% similar)

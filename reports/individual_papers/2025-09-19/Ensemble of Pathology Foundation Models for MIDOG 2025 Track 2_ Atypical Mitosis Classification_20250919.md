@@ -1,3 +1,35 @@
+---
+keywords:
+  - Foundation Models
+  - Convolutional Neural Networks
+  - Fourier Domain Adaptation
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.02591
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:46:11.407767",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Foundation Models",
+    "Convolutional Neural Networks",
+    "Fourier Domain Adaptation"
+  ],
+  "rejected_keywords": [
+    "Mitotic Figures"
+  ],
+  "similarity_scores": {
+    "Foundation Models": 0.8,
+    "Convolutional Neural Networks": 0.78,
+    "Fourier Domain Adaptation": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Ensemble of Pathology Foundation Models for MIDOG 2025 Track 2: Atypical Mitosis Classification
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Parameter-efficient Fine-tuning
+**🔗 Specific Connectable**: [[keywords/Convolutional Neural Networks|Convolutional Neural Network]]
+**⚡ Unique Technical**: [[keywords/Fourier Domain Adaptation|Fourier Domain Adaptation]]
+**🚀 Evolved Concepts**: [[keywords/Foundation Models|Pathology Foundation Models]]
 
 ## 🔗 유사한 논문
 - [[Generative_AI_for_Misalignment-Resistant_Virtual_Staining_to_Accelerate_Histopathology_Workflows_20250918|Generative AI for Misalignment-Resistant Virtual Staining to Accelerate Histopathology Workflows]] (81.3% similar)

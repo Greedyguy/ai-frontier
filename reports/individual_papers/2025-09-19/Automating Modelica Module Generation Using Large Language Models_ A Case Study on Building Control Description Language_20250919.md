@@ -1,3 +1,36 @@
+---
+keywords:
+  - Large Language Models
+  - Modelica
+  - OpenModelica
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14623
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:55:29.035874",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Modelica",
+    "OpenModelica"
+  ],
+  "rejected_keywords": [
+    "Control Description Language",
+    "Building Modelica Library"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Modelica": 0.75,
+    "OpenModelica": 0.68
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Automating Modelica Module Generation Using Large Language Models: A Case Study on Building Control Description Language
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Pre Simulation Validation
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Large Language Models]]
+**⚡ Unique Technical**: [[keywords/Modelica|Modelica]], [[keywords/OpenModelica|OpenModelica]]
 
 ## 🔗 유사한 논문
 - [[Evaluating_Classical_Software_Process_Models_as_Coordination_Mechanisms_for_LLM-Based_Software_Generation_20250918|Evaluating Classical Software Process Models as Coordination Mechanisms for LLM-Based Software Generation]] (82.9% similar)

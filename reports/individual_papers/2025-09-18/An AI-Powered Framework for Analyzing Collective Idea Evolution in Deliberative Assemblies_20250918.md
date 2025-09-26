@@ -1,3 +1,35 @@
+---
+keywords:
+  - Large Language Models
+  - Idea Evolution
+  - Deliberative Assemblies
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.12577
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:40:17.164750",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Idea Evolution",
+    "Deliberative Assemblies"
+  ],
+  "rejected_keywords": [
+    "Voting Dynamics"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Idea Evolution": 0.72,
+    "Deliberative Assemblies": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # An AI-Powered Framework for Analyzing Collective Idea Evolution in Deliberative Assemblies
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Multi-agent RAG
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Large Language Models]]
+**⚡ Unique Technical**: [[keywords/Deliberative Assemblies|Deliberative Assemblies]]
+**🚀 Evolved Concepts**: [[keywords/Idea Evolution|Idea Evolution]]
 
 ## 🔗 유사한 논문
 - [[Emergent_Social_Dynamics_of_LLM_Agents_in_the_El_Farol_Bar_Problem_20250918|Emergent Social Dynamics of LLM Agents in the El Farol Bar Problem]] (79.4% similar)

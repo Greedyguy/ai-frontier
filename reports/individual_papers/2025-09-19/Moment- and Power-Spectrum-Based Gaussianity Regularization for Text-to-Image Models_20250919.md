@@ -1,3 +1,36 @@
+---
+keywords:
+  - Text-to-Image Models
+  - Generative Models
+  - Gaussianity Regularization
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.07027
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:33:28.716996",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Text-to-Image Models",
+    "Generative Models",
+    "Gaussianity Regularization"
+  ],
+  "rejected_keywords": [
+    "Moment-Based Regularization",
+    "Power Spectrum-Based Regularization"
+  ],
+  "similarity_scores": {
+    "Text-to-Image Models": 0.82,
+    "Generative Models": 0.79,
+    "Gaussianity Regularization": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Moment- and Power-Spectrum-Based Gaussianity Regularization for Text-to-Image Models
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Moment Based Regularization
+**🔗 Specific Connectable**: [[keywords/Text-to-Image Models|Text-to-Image Models]], [[keywords/Generative Models|Generative Modeling]]
+**⚡ Unique Technical**: [[keywords/Gaussianity Regularization|Gaussianity Regularization]]
 
 ## 🔗 유사한 논문
 - [[BiasMap Leveraging Cross-Attentions to Discover and Mitigate Hidden Social Biases in Text-to-Image Generation]] (78.9% similar)

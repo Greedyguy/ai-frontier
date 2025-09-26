@@ -1,13 +1,47 @@
+---
+keywords:
+  - Diffusion Models
+  - Reinforcement Learning
+  - Hybrid Quantum-Classical Models
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:47:14.562135",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Diffusion Models",
+    "Reinforcement Learning",
+    "Hybrid Quantum-Classical Models"
+  ],
+  "rejected_keywords": [
+    "Optimization"
+  ],
+  "similarity_scores": {
+    "Diffusion Models": 0.85,
+    "Reinforcement Learning": 0.82,
+    "Hybrid Quantum-Classical Models": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Quantum Reinforcement Learning-Guided Diffusion Model for Image Synthesis via Hybrid Quantum-Classical Generative Model Architectures
 
 **Korean Title:** 양자 강화 학습 기반 확산 모델을 통한 이미지 합성을 위한 하이브리드 양자-고전 생성 모델 아키텍처
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Chi-Sheng Chen|Chi-Sheng Chen]] [[authors/En-Jui Kuo|En-Jui Kuo]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]     [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Proximal Policy Optimization, Variational Quantum Circuit
+**🔗 Specific Connectable**: [[keywords/Reinforcement Learning|Quantum Reinforcement Learning]]
+**⚡ Unique Technical**: [[keywords/Hybrid Quantum-Classical Models|Hybrid Quantum-Classical Generative Model]]
+**🚀 Evolved Concepts**: [[keywords/Diffusion Models|Diffusion Models]]
 
 ## 🔗 유사한 논문
 - [[Online reinforcement learning via sparse Gaussian mixture model Q-functions_20250919|Online reinforcement learning via sparse Gaussian mixture model Q-functions]] (82.1% similar)

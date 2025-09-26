@@ -1,3 +1,35 @@
+---
+keywords:
+  - Verifiable Credentials
+  - CRSet
+  - Ethereum Transactions
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2501.17089
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:54:06.710296",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Verifiable Credentials",
+    "CRSet",
+    "Ethereum Transactions"
+  ],
+  "rejected_keywords": [
+    "Relying Parties"
+  ],
+  "similarity_scores": {
+    "Verifiable Credentials": 0.8,
+    "CRSet": 0.78,
+    "Ethereum Transactions": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # CRSet: Private Non-Interactive Verifiable Credential Revocation
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Non-interactive Revocation
+**🔗 Specific Connectable**: [[keywords/Ethereum Transactions|Ethereum blob-carrying transactions]]
+**⚡ Unique Technical**: [[keywords/Verifiable Credentials|Verifiable Credentials]], [[keywords/CRSet|CRSet]]
 
 ## 🔗 유사한 논문
 - [[Communication-Efficient and Privacy-Adaptable Mechanism for Federated Learning_20250919|Communication-Efficient and Privacy-Adaptable Mechanism for Federated Learning]] (76.4% similar)

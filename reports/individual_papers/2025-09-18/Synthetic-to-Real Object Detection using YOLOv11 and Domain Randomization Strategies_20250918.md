@@ -1,13 +1,48 @@
+---
+keywords:
+  - Domain Randomization
+  - YOLOv11
+  - Synthetic-to-Real Domain Gap
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:08:15.787090",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Domain Randomization",
+    "YOLOv11",
+    "Synthetic-to-Real Domain Gap"
+  ],
+  "rejected_keywords": [
+    "Object Detection",
+    "Data Augmentation"
+  ],
+  "similarity_scores": {
+    "Domain Randomization": 0.85,
+    "YOLOv11": 0.8,
+    "Synthetic-to-Real Domain Gap": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Synthetic-to-Real Object Detection using YOLOv11 and Domain Randomization Strategies
 
 **Korean Title:** YOLOv11과 도메인 랜덤화 전략을 활용한 합성-실제 객체 탐지
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Luisa Torquato Niño|Luisa Torquato Niño]] [[authors/Hamza A. A. Gardi|Hamza A. A. Gardi]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]     [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Synthetic-to-Real Training
+**🔗 Specific Connectable**: [[keywords/Domain Randomization|Domain Randomization]]
+**⚡ Unique Technical**: [[keywords/YOLOv11|YOLOv11]]
+**🚀 Evolved Concepts**: [[keywords/Synthetic-to-Real Domain Gap|Synthetic-to-Real Domain Gap]]
 
 ## 🔗 유사한 논문
 - [[Performance Optimization of YOLO-FEDER FusionNet for Robust Drone Detection in Visually Complex Environments_20250918|Performance Optimization of YOLO-FEDER FusionNet for Robust Drone Detection in Visually Complex Environments]] (83.2% similar)

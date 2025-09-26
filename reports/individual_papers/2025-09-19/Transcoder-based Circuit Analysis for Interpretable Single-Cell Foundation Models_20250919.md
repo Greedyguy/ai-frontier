@@ -1,3 +1,35 @@
+---
+keywords:
+  - Gene Regulatory Networks
+  - Large Language Models
+  - Foundation Models
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14723
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:20:17.479155",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Gene Regulatory Networks",
+    "Large Language Models",
+    "Foundation Models"
+  ],
+  "rejected_keywords": [
+    "Transcoders"
+  ],
+  "similarity_scores": {
+    "Gene Regulatory Networks": 0.78,
+    "Large Language Models": 0.82,
+    "Foundation Models": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Transcoder-based Circuit Analysis for Interpretable Single-Cell Foundation Models
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Interpretable Decision Circuits
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Large Language Models]]
+**⚡ Unique Technical**: [[keywords/Gene Regulatory Networks|gene regulatory networks]]
+**🚀 Evolved Concepts**: [[keywords/Foundation Models|Single-cell foundation models]]
 
 ## 🔗 유사한 논문
 - [[From Correction to Mastery Reinforced Distillation of Large Language Model Agents]] (77.8% similar)

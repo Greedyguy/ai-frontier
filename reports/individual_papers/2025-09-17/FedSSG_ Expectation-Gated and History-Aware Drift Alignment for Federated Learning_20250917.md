@@ -1,13 +1,47 @@
+---
+keywords:
+  - Federated Learning
+  - Non-IID Data
+  - Client Drift
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:54:44.436983",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Federated Learning",
+    "Non-IID Data",
+    "Client Drift"
+  ],
+  "rejected_keywords": [
+    "Stochastic Sampling",
+    "Drift Alignment"
+  ],
+  "similarity_scores": {
+    "Federated Learning": 0.95,
+    "Non-IID Data": 0.85,
+    "Client Drift": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # FedSSG: Expectation-Gated and History-Aware Drift Alignment for Federated Learning
 
 **Korean Title:** 연합 학습을 위한 기대 게이트 및 이력 인식 드리프트 정렬: FedSSG
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Zhanting Zhou|Zhanting Zhou]] [[authors/Jinshan Lai|Jinshan Lai]] [[authors/Fengchun Zhang|Fengchun Zhang]] [[authors/Zeqin Wu|Zeqin Wu]] [[authors/Fengli Zhang|Fengli Zhang]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: History-Aware Drift Alignment
+**🔗 Specific Connectable**: [[keywords/Federated Learning|Federated Learning]]
+**⚡ Unique Technical**: [[keywords/Non-IID Data|Non-IID data]], [[keywords/Client Drift|Client Drift]]
 
 ## 🔗 유사한 논문
 - [[FedAVOT_ Exact Distribution Alignment in Federated Learning via Masked Optimal Transport_20250919|FedAVOT Exact Distribution Alignment in Federated Learning via Masked Optimal Transport]] (81.3% similar)

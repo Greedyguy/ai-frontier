@@ -1,3 +1,35 @@
+---
+keywords:
+  - Reinforcement Learning
+  - Strategic Diversity
+  - Intrinsic Reward Mechanism
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14276
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:51:37.296048",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Reinforcement Learning",
+    "Strategic Diversity",
+    "Intrinsic Reward Mechanism"
+  ],
+  "rejected_keywords": [
+    "Constructive Conflict"
+  ],
+  "similarity_scores": {
+    "Reinforcement Learning": 0.8,
+    "Strategic Diversity": 0.7,
+    "Intrinsic Reward Mechanism": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Constructive Conflict-Driven Multi-Agent Reinforcement Learning for Strategic Diversity
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Strategic Diversity
+**🔗 Specific Connectable**: [[keywords/Reinforcement Learning|multi-agent reinforcement learning]]
+**⚡ Unique Technical**: [[keywords/Strategic Diversity|strategic diversity]], [[keywords/Intrinsic Reward Mechanism|intrinsic reward mechanism]]
 
 ## 🔗 유사한 논문
 - [[MIMIC-D Multi-modal Imitation for MultI-agent Coordination with Decentralized Diffusion Policies]] (82.3% similar)

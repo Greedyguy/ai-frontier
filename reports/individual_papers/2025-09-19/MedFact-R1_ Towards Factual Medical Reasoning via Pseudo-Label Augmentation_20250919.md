@@ -1,3 +1,35 @@
+---
+keywords:
+  - Reinforcement Learning
+  - Medical Vision-Language Models
+  - Pseudo-Label Supervised Fine-Tuning
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.15154
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:34:58.073249",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Reinforcement Learning",
+    "Medical Vision-Language Models",
+    "Pseudo-Label Supervised Fine-Tuning"
+  ],
+  "rejected_keywords": [
+    "Knowledge Grounding"
+  ],
+  "similarity_scores": {
+    "Reinforcement Learning": 0.8,
+    "Medical Vision-Language Models": 0.78,
+    "Pseudo-Label Supervised Fine-Tuning": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # MedFact-R1: Towards Factual Medical Reasoning via Pseudo-Label Augmentation
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Pseudo Label Supervised Fine Tuning, Group Relative Policy Optimization
+**🔗 Specific Connectable**: [[keywords/Reinforcement Learning|Reinforcement Learning]]
+**⚡ Unique Technical**: [[keywords/Pseudo-Label Supervised Fine-Tuning|Pseudo-Label Supervised Fine-Tuning]]
+**🚀 Evolved Concepts**: [[keywords/Medical Vision-Language Models|Medical Vision-Language Models]]
 
 ## 🔗 유사한 논문
 - [[MedVAL Toward Expert-Level Medical Text Validation with Language Models]] (82.2% similar)

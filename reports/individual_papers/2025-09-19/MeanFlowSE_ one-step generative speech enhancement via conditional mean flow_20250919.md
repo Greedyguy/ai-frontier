@@ -1,3 +1,35 @@
+---
+keywords:
+  - Generative Models
+  - MeanFlowSE
+  - Diffusion Models
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14858
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:35:12.701945",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Generative Models",
+    "MeanFlowSE",
+    "Diffusion Models"
+  ],
+  "rejected_keywords": [
+    "Optimization"
+  ],
+  "similarity_scores": {
+    "Generative Models": 0.8,
+    "MeanFlowSE": 0.75,
+    "Diffusion Models": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # MeanFlowSE: one-step generative speech enhancement via conditional mean flow
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Single-step Generation
+**🔗 Specific Connectable**: [[keywords/Generative Models|generative speech enhancement]], [[keywords/Diffusion Models|flow- and diffusion-based systems]]
+**⚡ Unique Technical**: [[keywords/MeanFlowSE|MeanFlowSE]]
 
 ## 🔗 유사한 논문
 - [[FlowDrive Energy Flow Field for End-to-End Autonomous Driving]] (78.5% similar)

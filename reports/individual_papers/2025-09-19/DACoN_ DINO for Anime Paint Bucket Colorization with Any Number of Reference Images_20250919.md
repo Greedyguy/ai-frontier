@@ -1,3 +1,35 @@
+---
+keywords:
+  - Convolutional Neural Networks
+  - Deep Learning
+  - Anime Colorization
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14685
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:50:52.047467",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Convolutional Neural Networks",
+    "Deep Learning",
+    "Anime Colorization"
+  ],
+  "rejected_keywords": [
+    "Foundation Models"
+  ],
+  "similarity_scores": {
+    "Convolutional Neural Networks": 0.88,
+    "Deep Learning": 0.85,
+    "Anime Colorization": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # DACoN: DINO for Anime Paint Bucket Colorization with Any Number of Reference Images
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Part-level Semantics
+**🌐 Broad Technical**: [[keywords/Deep Learning|Deep Learning]]
+**🔗 Specific Connectable**: [[keywords/Convolutional Neural Networks|Convolutional Neural Networks]]
+**⚡ Unique Technical**: [[keywords/Anime Colorization|Anime Colorization]]
 
 ## 🔗 유사한 논문
 - [[AD-DINOv3 Enhancing DINOv3 for Zero-Shot Anomaly Detection with Anomaly-Aware Calibration]] (79.8% similar)

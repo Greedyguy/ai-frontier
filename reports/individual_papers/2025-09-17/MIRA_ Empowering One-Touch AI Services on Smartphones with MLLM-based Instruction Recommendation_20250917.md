@@ -1,13 +1,46 @@
+---
+keywords:
+  - Large Language Models
+  - Constrained Decoding
+  - Instruction Recommendation
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:51:47.741413",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Constrained Decoding",
+    "Instruction Recommendation"
+  ],
+  "rejected_keywords": [
+    "Template-Augmented Reasoning"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Constrained Decoding": 0.75,
+    "Instruction Recommendation": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # MIRA: Empowering One-Touch AI Services on Smartphones with MLLM-based Instruction Recommendation
 
 **Korean Title:** MIRA: MLLM 기반의 지시 추천을 통해 스마트폰에서 원터치 AI 서비스를 강화하기
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Zhipeng Bian|Zhipeng Bian]] [[authors/Jieming Zhu|Jieming Zhu]] [[authors/Xuyang Xie|Xuyang Xie]] [[authors/Quanyu Dai|Quanyu Dai]] [[authors/Zhou Zhao|Zhou Zhao]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Prefix-tree-based Constrained Decoding
+**🔗 Specific Connectable**: [[keywords/Constrained Decoding|prefix-tree-based constrained decoding]]
+**⚡ Unique Technical**: [[keywords/Instruction Recommendation|instruction recommendation]]
 
 ## 🔗 유사한 논문
 - [[Process-Supervised Reinforcement Learning for Interactive Multimodal Tool-Use Agents_20250919|Process-Supervised Reinforcement Learning for Interactive Multimodal Tool-Use Agents]] (80.6% similar)

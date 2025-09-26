@@ -1,13 +1,45 @@
+---
+keywords:
+  - Compressive Sensing
+  - Nonlinear Compressive Sensing
+  - Probabilistic Reformulation
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:15:03.769310",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Compressive Sensing",
+    "Nonlinear Compressive Sensing",
+    "Probabilistic Reformulation"
+  ],
+  "rejected_keywords": [
+    "Best Subset Selection"
+  ],
+  "similarity_scores": {
+    "Compressive Sensing": 0.85,
+    "Nonlinear Compressive Sensing": 0.8,
+    "Probabilistic Reformulation": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Probabilistic and nonlinear compressive sensing
 
 **Korean Title:** 확률적 및 비선형 압축 센싱
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Lukas Silvester Barth|Lukas Silvester Barth]] [[authors/Paulo von Petersenn|Paulo von Petersenn]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]     [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Nonlinear Generalizations of Compressive Sensing
+**⚡ Unique Technical**: [[keywords/Compressive Sensing|compressive sensing]], [[keywords/Nonlinear Compressive Sensing|nonlinear compressive sensing]], [[keywords/Probabilistic Reformulation|probabilistic reformulation]]
 
 ## 🔗 유사한 논문
 - [[A Universal Banach--Bregman Framework for Stochastic Iterations_ Unifying Stochastic Mirror Descent, Learning and LLM Training_20250917|A Universal Banach--Bregman Framework for Stochastic Iterations Unifying Stochastic Mirror Descent, Learning and LLM Training]] (80.6% similar)

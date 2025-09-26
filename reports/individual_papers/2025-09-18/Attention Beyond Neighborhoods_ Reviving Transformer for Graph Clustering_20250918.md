@@ -1,13 +1,47 @@
+---
+keywords:
+  - Graph Neural Networks
+  - Transformer Architecture
+  - Attentive Graph Clustering Network
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:39:09.317699",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Graph Neural Networks",
+    "Transformer Architecture",
+    "Attentive Graph Clustering Network"
+  ],
+  "rejected_keywords": [
+    "Attention Mechanism",
+    "Graph Clustering"
+  ],
+  "similarity_scores": {
+    "Graph Neural Networks": 0.85,
+    "Transformer Architecture": 0.82,
+    "Attentive Graph Clustering Network": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Attention Beyond Neighborhoods: Reviving Transformer for Graph Clustering
 
 **Korean Title:** 이웃을 넘어선 주의: 그래프 클러스터링을 위한 트랜스포머의 부활
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Xuanting Xie|Xuanting Xie]] [[authors/Bingheng Li|Bingheng Li]] [[authors/Erlin Pan|Erlin Pan]] [[authors/Rui Hou|Rui Hou]] [[authors/Wenyu Chen|Wenyu Chen]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Attention Mechanism, Graph Neural Network
+**🔗 Specific Connectable**: [[keywords/Graph Neural Networks|Graph Neural Networks]], [[keywords/Transformer Architecture|Transformer]]
+**⚡ Unique Technical**: [[keywords/Attentive Graph Clustering Network|Attentive Graph Clustering Network]]
 
 ## 🔗 유사한 논문
 - [[GraphTorque_ Torque-Driven Rewiring Graph Neural Network_20250918|GraphTorque Torque-Driven Rewiring Graph Neural Network]] (84.3% similar)

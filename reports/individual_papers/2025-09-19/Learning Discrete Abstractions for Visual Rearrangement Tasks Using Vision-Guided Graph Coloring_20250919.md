@@ -1,3 +1,35 @@
+---
+keywords:
+  - Vision-Guided Graph Coloring
+  - Attention Mechanism
+  - Graph-Structured Abstractions
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14460
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:38:32.043717",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Vision-Guided Graph Coloring",
+    "Attention Mechanism",
+    "Graph-Structured Abstractions"
+  ],
+  "rejected_keywords": [
+    "Rearrangement Tasks"
+  ],
+  "similarity_scores": {
+    "Vision-Guided Graph Coloring": 0.78,
+    "Attention Mechanism": 0.8,
+    "Graph-Structured Abstractions": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Learning Discrete Abstractions for Visual Rearrangement Tasks Using Vision-Guided Graph Coloring
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Graph Coloring, Attention Mechanism
+**🔗 Specific Connectable**: [[keywords/Attention Mechanism|Attention-Guided Visual Distance]]
+**⚡ Unique Technical**: [[keywords/Vision-Guided Graph Coloring|Vision-Guided Graph Coloring]], [[keywords/Graph-Structured Abstractions|Graph-Structured Abstractions]]
 
 ## 🔗 유사한 논문
 - [[Hybrid Diffusion Policies with Projective Geometric Algebra for Efficient Robot Manipulation Learning_20250918|Hybrid Diffusion Policies with Projective Geometric Algebra for Efficient Robot Manipulation Learning]] (81.9% similar)

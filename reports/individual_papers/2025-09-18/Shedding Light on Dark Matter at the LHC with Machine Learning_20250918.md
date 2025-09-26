@@ -1,13 +1,46 @@
+---
+keywords:
+  - WIMP Dark Matter
+  - Machine Learning
+  - Next-to-Minimal Supersymmetric Standard Model
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:09:41.949552",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "WIMP Dark Matter",
+    "Machine Learning",
+    "Next-to-Minimal Supersymmetric Standard Model"
+  ],
+  "rejected_keywords": [
+    "Radiatively Decaying Neutralinos"
+  ],
+  "similarity_scores": {
+    "WIMP Dark Matter": 0.8,
+    "Machine Learning": 0.85,
+    "Next-to-Minimal Supersymmetric Standard Model": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Shedding Light on Dark Matter at the LHC with Machine Learning
 
 **Korean Title:** LHC에서 기계 학습을 활용한 암흑 물질 연구
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Ernesto Arganda|Ernesto Arganda]] [[authors/Martín de los Rios|Martín de los Rios]] [[authors/Andres D. Perez|Andres D. Perez]] [[authors/Subhojit Roy|Subhojit Roy]] [[authors/Rosa M. Sandá Seoane|Rosa M. Sandá Seoane]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Radiative Decay Modes
+**🌐 Broad Technical**: [[keywords/Machine Learning|Machine Learning]]
+**⚡ Unique Technical**: [[keywords/WIMP Dark Matter|WIMP dark matter]], [[keywords/Next-to-Minimal Supersymmetric Standard Model|Next-to-Minimal Supersymmetric Standard Model]]
 
 ## 🔗 유사한 논문
 - [[DINAMO_ Dynamic and INterpretable Anomaly MOnitoring for Large-Scale Particle Physics Experiments_20250919|DINAMO Dynamic and INterpretable Anomaly MOnitoring for Large-Scale Particle Physics Experiments]] (76.7% similar)

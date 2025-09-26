@@ -1,3 +1,35 @@
+---
+keywords:
+  - Inertial Measurement Units
+  - Barometer-Aided Estimation
+  - Attitude Estimation
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13649
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:37:35.621462",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Inertial Measurement Units",
+    "Barometer-Aided Estimation",
+    "Attitude Estimation"
+  ],
+  "rejected_keywords": [
+    "Nonlinear Observer on SO(3)"
+  ],
+  "similarity_scores": {
+    "Inertial Measurement Units": 0.8,
+    "Barometer-Aided Estimation": 0.78,
+    "Attitude Estimation": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Barometer-Aided Attitude Estimation
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Complementary Filter
+**🔗 Specific Connectable**: [[keywords/Inertial Measurement Units|Inertial Measurement Units]]
+**⚡ Unique Technical**: [[keywords/Barometer-Aided Estimation|barometer-aided estimation]], [[keywords/Attitude Estimation|attitude estimation]]
 
 ## 🔗 유사한 논문
 - [[Accelerated Gradient Methods with Biased Gradient Estimates: Risk Sensitivity, High-Probability Guarantees, and Large Deviation Bounds]] (78.8% similar)

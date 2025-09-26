@@ -1,3 +1,35 @@
+---
+keywords:
+  - Reinforcement Learning
+  - Sample Complexity
+  - Stable Matching
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14466
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:30:41.942859",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Reinforcement Learning",
+    "Sample Complexity",
+    "Stable Matching"
+  ],
+  "rejected_keywords": [
+    "Matching Markets"
+  ],
+  "similarity_scores": {
+    "Reinforcement Learning": 0.78,
+    "Sample Complexity": 0.75,
+    "Stable Matching": 0.74
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Optimal Algorithms for Bandit Learning in Matching Markets
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Two-sided Learning
+**🔗 Specific Connectable**: [[keywords/Reinforcement Learning|Bandit Learning]]
+**⚡ Unique Technical**: [[keywords/Sample Complexity|Sample Complexity]], [[keywords/Stable Matching|Stable Matching]]
 
 ## 🔗 유사한 논문
 - [[Constrained Feedback Learning for Non-Stationary Multi-Armed Bandits_20250919|Constrained Feedback Learning for Non-Stationary Multi-Armed Bandits]] (82.1% similar)

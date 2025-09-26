@@ -1,13 +1,46 @@
+---
+keywords:
+  - Spatial Audio Reasoning
+  - Large Language Models
+  - Disentangled Representations
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:57:51.882182",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Spatial Audio Reasoning",
+    "Large Language Models",
+    "Disentangled Representations"
+  ],
+  "rejected_keywords": [
+    "SpatialAST"
+  ],
+  "similarity_scores": {
+    "Spatial Audio Reasoning": 0.82,
+    "Large Language Models": 0.78,
+    "Disentangled Representations": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # DSpAST: Disentangled Representations for Spatial Audio Reasoning with Large Language Models
 
 **Korean Title:** DSpAST: 대형 언어 모델을 활용한 공간 오디오 추론을 위한 분리 표현
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Kevin Wilkinghoff|Kevin Wilkinghoff]] [[authors/Zheng-Hua Tan|Zheng-Hua Tan]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]     [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Disentangled Representations
+**⚡ Unique Technical**: [[keywords/Spatial Audio Reasoning|Spatial Audio Reasoning]], [[keywords/Disentangled Representations|Disentangled Representations]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[Spatial Audio Motion Understanding and Reasoning_20250918|Spatial Audio Motion Understanding and Reasoning]] (86.4% similar)

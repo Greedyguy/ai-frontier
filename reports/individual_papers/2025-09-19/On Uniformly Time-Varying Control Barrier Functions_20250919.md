@@ -1,3 +1,35 @@
+---
+keywords:
+  - Control Barrier Functions
+  - Forward Invariance
+  - Time-Varying Functions
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.15037
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:32:02.351531",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Control Barrier Functions",
+    "Forward Invariance",
+    "Time-Varying Functions"
+  ],
+  "rejected_keywords": [
+    "Comparison Functions"
+  ],
+  "similarity_scores": {
+    "Control Barrier Functions": 0.8,
+    "Forward Invariance": 0.77,
+    "Time-Varying Functions": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # On Uniformly Time-Varying Control Barrier Functions
 
@@ -5,10 +37,10 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Forward Invariance in CBFs
+**⚡ Unique Technical**: [[keywords/Control Barrier Functions|Control Barrier Functions]], [[keywords/Forward Invariance|Forward Invariance]], [[keywords/Time-Varying Functions|Time-Varying Functions]]
 
 ## 🔗 유사한 논문
 - [[Continuous-Time Value Iteration for Multi-Agent Reinforcement Learning_20250919|Continuous-Time Value Iteration for Multi-Agent Reinforcement Learning]] (77.1% similar)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - Diffusion Models
+  - Sparse-view CT Reconstruction
+  - Generative Models
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14566
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:50:27.562853",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Diffusion Models",
+    "Sparse-view CT Reconstruction",
+    "Generative Models"
+  ],
+  "rejected_keywords": [
+    "Consensus Equilibrium"
+  ],
+  "similarity_scores": {
+    "Diffusion Models": 0.8,
+    "Sparse-view CT Reconstruction": 0.78,
+    "Generative Models": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # DICE: Diffusion Consensus Equilibrium for Sparse-view CT Reconstruction
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Two-agent Consensus Equilibrium
+**🔗 Specific Connectable**: [[keywords/Diffusion Models|Diffusion Models]], [[keywords/Generative Models|Generative Models]]
+**⚡ Unique Technical**: [[keywords/Sparse-view CT Reconstruction|Sparse-view CT Reconstruction]]
 
 ## 🔗 유사한 논문
 - [[Cross-Distribution Diffusion Priors-Driven Iterative Reconstruction for Sparse-View CT_20250918|Cross-Distribution Diffusion Priors-Driven Iterative Reconstruction for Sparse-View CT]] (85.5% similar)

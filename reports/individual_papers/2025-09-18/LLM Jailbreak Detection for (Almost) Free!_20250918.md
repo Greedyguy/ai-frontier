@@ -1,13 +1,46 @@
+---
+keywords:
+  - Jailbreak Detection
+  - Large Language Models
+  - Virtual Instruction Learning
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:23:43.922805",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Jailbreak Detection",
+    "Large Language Models",
+    "Virtual Instruction Learning"
+  ],
+  "rejected_keywords": [
+    "Natural Language Processing"
+  ],
+  "similarity_scores": {
+    "Jailbreak Detection": 0.82,
+    "Large Language Models": 0.78,
+    "Virtual Instruction Learning": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # LLM Jailbreak Detection for (Almost) Free!
 
 **Korean Title:** (거의) 무료로 LLM 탈옥 탐지!
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Guorui Chen|Guorui Chen]] [[authors/Yifan Xia|Yifan Xia]] [[authors/Xiaojun Jia|Xiaojun Jia]] [[authors/Zhijiang Li|Zhijiang Li]] [[authors/Philip Torr|Philip Torr]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Virtual Instruction Learning
+**⚡ Unique Technical**: [[keywords/Jailbreak Detection|Jailbreak Detection]], [[keywords/Virtual Instruction Learning|Virtual Instruction Learning]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[DetectAnyLLM_ Towards Generalizable and Robust Detection of Machine-Generated Text Across Domains and Models_20250919|DetectAnyLLM Towards Generalizable and Robust Detection of Machine-Generated Text Across Domains and Models]] (83.4% similar)

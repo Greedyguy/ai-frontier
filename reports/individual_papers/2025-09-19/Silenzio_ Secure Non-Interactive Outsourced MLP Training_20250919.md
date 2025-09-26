@@ -1,3 +1,35 @@
+---
+keywords:
+  - Fully Homomorphic Encryption
+  - Privacy-Preserving Machine Learning
+  - Neural Networks
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2504.17785
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:23:58.576645",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Fully Homomorphic Encryption",
+    "Privacy-Preserving Machine Learning",
+    "Neural Networks"
+  ],
+  "rejected_keywords": [
+    "Residue Number Systems"
+  ],
+  "similarity_scores": {
+    "Fully Homomorphic Encryption": 0.82,
+    "Privacy-Preserving Machine Learning": 0.8,
+    "Neural Networks": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Silenzio: Secure Non-Interactive Outsourced MLP Training
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Non-interactive Outsourced Training
+**🌐 Broad Technical**: [[keywords/Neural Networks|MLP training]]
+**⚡ Unique Technical**: [[keywords/Fully Homomorphic Encryption|Fully Homomorphic Encryption]]
+**🚀 Evolved Concepts**: [[keywords/Privacy-Preserving Machine Learning|privacy-preserving ML]]
 
 ## 🔗 유사한 논문
 - [[Enterprise AI Must Enforce Participant-Aware Access Control_20250919|Enterprise AI Must Enforce Participant-Aware Access Control]] (77.2% similar)

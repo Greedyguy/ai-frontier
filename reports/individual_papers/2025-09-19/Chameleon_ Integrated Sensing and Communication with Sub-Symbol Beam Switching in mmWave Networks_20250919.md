@@ -1,3 +1,35 @@
+---
+keywords:
+  - Integrated Sensing and Communication
+  - Object Localization
+  - Beamforming
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14628
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:53:12.328931",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Integrated Sensing and Communication",
+    "Object Localization",
+    "Beamforming"
+  ],
+  "rejected_keywords": [
+    "Machine Learning"
+  ],
+  "similarity_scores": {
+    "Integrated Sensing and Communication": 0.78,
+    "Object Localization": 0.77,
+    "Beamforming": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Chameleon: Integrated Sensing and Communication with Sub-Symbol Beam Switching in mmWave Networks
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Sub-Symbol Beam Switching
+**🌐 Broad Technical**: [[keywords/Beamforming|Beamforming]]
+**🔗 Specific Connectable**: [[keywords/Object Localization|Object Localization]]
+**⚡ Unique Technical**: [[keywords/Integrated Sensing and Communication|Integrated Sensing and Communication]]
 
 ## 🔗 유사한 논문
 - [[RF-LSCM Pushing Radiance Fields to Multi-Domain Localized Statistical Channel Modeling for Cellular Network Optimization]] (83.5% similar)

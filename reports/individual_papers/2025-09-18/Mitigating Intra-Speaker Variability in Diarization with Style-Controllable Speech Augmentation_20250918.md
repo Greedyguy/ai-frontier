@@ -1,13 +1,46 @@
+---
+keywords:
+  - Style-Controllable Speech Augmentation
+  - Speaker Diarization
+  - Generative Models
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:19:24.150633",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Style-Controllable Speech Augmentation",
+    "Speaker Diarization",
+    "Generative Models"
+  ],
+  "rejected_keywords": [
+    "Speech Recognition"
+  ],
+  "similarity_scores": {
+    "Style-Controllable Speech Augmentation": 0.85,
+    "Speaker Diarization": 0.8,
+    "Generative Models": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Mitigating Intra-Speaker Variability in Diarization with Style-Controllable Speech Augmentation
 
 **Korean Title:** 화자 내 변동성을 완화하기 위한 스타일 제어 가능한 음성 증강을 통한 다이어리제이션 개선
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Miseul Kim|Miseul Kim]] [[authors/Soo Jin Park|Soo Jin Park]] [[authors/Kyungguen Byun|Kyungguen Byun]] [[authors/Hyeon-Kyeong Shin|Hyeon-Kyeong Shin]] [[authors/Sunkuk Moon|Sunkuk Moon]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Intra-speaker Variability Mitigation
+**🔗 Specific Connectable**: [[keywords/Generative Models|Generative Models]]
+**⚡ Unique Technical**: [[keywords/Style-Controllable Speech Augmentation|Style-Controllable Speech Augmentation]], [[keywords/Speaker Diarization|Speaker Diarization]]
 
 ## 🔗 유사한 논문
 - [[Hybrid Autoregressive-Diffusion Model for Real-Time Sign Language Production_20250919|Hybrid Autoregressive-Diffusion Model for Real-Time Sign Language Production]] (79.5% similar)

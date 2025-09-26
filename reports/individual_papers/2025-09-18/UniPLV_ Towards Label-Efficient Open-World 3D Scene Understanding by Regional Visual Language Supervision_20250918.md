@@ -1,3 +1,36 @@
+---
+keywords:
+  - Multi-Modal Learning
+  - 3D Scene Understanding
+  - Vision-Point Matching
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2412.18131
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:02:22.424503",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Multi-Modal Learning",
+    "3D Scene Understanding",
+    "Vision-Point Matching"
+  ],
+  "rejected_keywords": [
+    "Open-World",
+    "Semantic Segmentation"
+  ],
+  "similarity_scores": {
+    "Multi-Modal Learning": 0.8,
+    "3D Scene Understanding": 0.78,
+    "Vision-Point Matching": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # UniPLV: Towards Label-Efficient Open-World 3D Scene Understanding by Regional Visual Language Supervision
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔬 Broad Technical**: 3D Scene Understanding, Multimodal Alignment
+**🔗 Specific Connectable**: [[keywords/Multi-Modal Learning|Multimodal Alignment]]
+**⚡ Unique Technical**: [[keywords/3D Scene Understanding|3D Scene Understanding]], [[keywords/Vision-Point Matching|Vision-Point Matching]]
 
 ## 🔗 유사한 논문
 - [[Search-TTA: A Multimodal Test-Time Adaptation Framework for Visual Search in the Wild]] (79.7% similar)

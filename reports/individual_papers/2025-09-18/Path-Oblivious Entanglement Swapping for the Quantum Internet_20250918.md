@@ -1,3 +1,35 @@
+---
+keywords:
+  - Quantum Internet
+  - Entanglement Swapping
+  - Path-Oblivious Networking
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13993
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:16:33.030284",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Quantum Internet",
+    "Entanglement Swapping",
+    "Path-Oblivious Networking"
+  ],
+  "rejected_keywords": [
+    "Optimization"
+  ],
+  "similarity_scores": {
+    "Quantum Internet": 0.8,
+    "Entanglement Swapping": 0.78,
+    "Path-Oblivious Networking": 0.82
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Path-Oblivious Entanglement Swapping for the Quantum Internet
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Naive balancing
+**🔗 Specific Connectable**: [[keywords/Entanglement Swapping|Bell pair swapping]]
+**⚡ Unique Technical**: [[keywords/Quantum Internet|Quantum Internet]], [[keywords/Path-Oblivious Networking|path-oblivious approach]]
 
 ## 🔗 유사한 논문
 - [[Enhanced_R'enyi_Entropy-Based_Post-Quantum_Key_Agreement_with_Provable_Security_and_Information-Theoretic_Guarantees_20250918|Enhanced R\'enyi Entropy-Based Post-Quantum Key Agreement with Provable Security and Information-Theoretic Guarantees]] (77.8% similar)

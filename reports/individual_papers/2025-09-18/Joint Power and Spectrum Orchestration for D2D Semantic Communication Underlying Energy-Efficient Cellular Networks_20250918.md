@@ -1,3 +1,36 @@
+---
+keywords:
+  - Semantic Communication
+  - Spectrum Reuse
+  - Power Control
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2501.18350
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:24:17.512009",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Semantic Communication",
+    "Spectrum Reuse",
+    "Power Control"
+  ],
+  "rejected_keywords": [
+    "Device-to-Device Communication",
+    "Energy Efficiency"
+  ],
+  "similarity_scores": {
+    "Semantic Communication": 0.78,
+    "Spectrum Reuse": 0.74,
+    "Power Control": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Joint Power and Spectrum Orchestration for D2D Semantic Communication Underlying Energy-Efficient Cellular Networks
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔬 Broad Technical**: Semantic communication, Energy-efficient networks
+**🔗 Specific Connectable**: [[keywords/Spectrum Reuse|Spectrum Reuse]], [[keywords/Power Control|Power Control]]
+**⚡ Unique Technical**: [[keywords/Semantic Communication|Semantic Communication]]
 
 ## 🔗 유사한 논문
 - [[RF-LSCM: Pushing Radiance Fields to Multi-Domain Localized Statistical Channel Modeling for Cellular Network Optimization]] (78.8% similar)

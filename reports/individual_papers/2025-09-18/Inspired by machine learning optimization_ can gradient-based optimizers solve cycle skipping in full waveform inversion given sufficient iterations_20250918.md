@@ -1,13 +1,46 @@
+---
+keywords:
+  - Optimization
+  - Full Waveform Inversion
+  - Cycle Skipping
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:25:07.674146",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Optimization",
+    "Full Waveform Inversion",
+    "Cycle Skipping"
+  ],
+  "rejected_keywords": [
+    "Neural Networks"
+  ],
+  "similarity_scores": {
+    "Optimization": 0.8,
+    "Full Waveform Inversion": 0.78,
+    "Cycle Skipping": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Inspired by machine learning optimization: can gradient-based optimizers solve cycle skipping in full waveform inversion given sufficient iterations?
 
 **Korean Title:** 기계 학습 최적화에 영감을 받아: 충분한 반복 횟수가 주어졌을 때, 그래디언트 기반 최적화 기법이 전파형상 역산에서의 주기 건너뛰기 문제를 해결할 수 있는가?
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Xinru Mu|Xinru Mu]] [[authors/Omar M. Saad|Omar M. Saad]] [[authors/Shaowen Wang|Shaowen Wang]] [[authors/Tariq Alkhalifah|Tariq Alkhalifah]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]       [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Quasi-global Optimization
+**🌐 Broad Technical**: [[keywords/Optimization|Gradient-based optimizers]]
+**⚡ Unique Technical**: [[keywords/Full Waveform Inversion|Full waveform inversion]], [[keywords/Cycle Skipping|Cycle skipping]]
 
 ## 🔗 유사한 논문
 - [[Stochastic Bilevel Optimization with Heavy-Tailed Noise_20250918|Stochastic Bilevel Optimization with Heavy-Tailed Noise]] (76.7% similar)

@@ -1,3 +1,36 @@
+---
+keywords:
+  - Exogenous Variables
+  - Causal Network
+  - Temporal Causal Module
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14933
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:50:44.450112",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Exogenous Variables",
+    "Causal Network",
+    "Temporal Causal Module"
+  ],
+  "rejected_keywords": [
+    "Time Series Forecasting",
+    "Channel Causal Module"
+  ],
+  "similarity_scores": {
+    "Exogenous Variables": 0.82,
+    "Causal Network": 0.8,
+    "Temporal Causal Module": 0.79
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # DAG: A Dual Causal Network for Time Series Forecasting with Exogenous Variables
 
@@ -5,10 +38,10 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Temporal Causal Module
+**⚡ Unique Technical**: [[keywords/Exogenous Variables|Exogenous Variables]], [[keywords/Causal Network|Causal Network]], [[keywords/Temporal Causal Module|Temporal Causal Module]]
 
 ## 🔗 유사한 논문
 - [[TFMAdapter Lightweight Instance-Level Adaptation of Foundation Models for Forecasting with Covariates]] (78.3% similar)

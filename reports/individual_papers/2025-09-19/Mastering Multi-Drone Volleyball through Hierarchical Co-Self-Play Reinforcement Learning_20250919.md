@@ -1,3 +1,35 @@
+---
+keywords:
+  - Hierarchical Co-Self-Play
+  - Reinforcement Learning
+  - Strategic Coordination
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2505.04317
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:35:20.280298",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Hierarchical Co-Self-Play",
+    "Reinforcement Learning",
+    "Strategic Coordination"
+  ],
+  "rejected_keywords": [
+    "Multi-Agent Systems"
+  ],
+  "similarity_scores": {
+    "Hierarchical Co-Self-Play": 0.8,
+    "Reinforcement Learning": 0.85,
+    "Strategic Coordination": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Mastering Multi-Drone Volleyball through Hierarchical Co-Self-Play Reinforcement Learning
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Multi-Agent Coordination
+**🔗 Specific Connectable**: [[keywords/Reinforcement Learning|Reinforcement Learning]]
+**⚡ Unique Technical**: [[keywords/Hierarchical Co-Self-Play|Hierarchical Co-Self-Play]]
+**🚀 Evolved Concepts**: [[keywords/Strategic Coordination|Strategic Coordination]]
 
 ## 🔗 유사한 논문
 - [[Reinforcement_Learning_Agent_for_a_2D_Shooter_Game_20250919|Reinforcement Learning Agent for a 2D Shooter Game]] (79.4% similar)

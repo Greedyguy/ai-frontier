@@ -1,13 +1,46 @@
+---
+keywords:
+  - Self-Supervised Learning
+  - Attention Mechanism
+  - Sigmoid Self-Attention Weighting
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:46:19.893032",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Self-Supervised Learning",
+    "Attention Mechanism",
+    "Sigmoid Self-Attention Weighting"
+  ],
+  "rejected_keywords": [
+    "Question-based Sign Language Translation"
+  ],
+  "similarity_scores": {
+    "Self-Supervised Learning": 0.8,
+    "Attention Mechanism": 0.75,
+    "Sigmoid Self-Attention Weighting": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # SSL-SSAW: Self-Supervised Learning with Sigmoid Self-Attention Weighting for Question-Based Sign Language Translation
 
 **Korean Title:** SSL-SSAW: 질문 기반 수어 번역을 위한 시그모이드 자기 주의 가중치를 활용한 자가 지도 학습
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Zekang Liu|Zekang Liu]] [[authors/Wei Feng|Wei Feng]] [[authors/Fanhua Shang|Fanhua Shang]] [[authors/Lianyu Hu|Lianyu Hu]] [[authors/Jichao Feng|Jichao Feng]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Contrastive Learning, Attention Mechanism
+**🔗 Specific Connectable**: [[keywords/Self-Supervised Learning|Self-Supervised Learning]], [[keywords/Attention Mechanism|Attention Mechanism]]
+**⚡ Unique Technical**: [[keywords/Sigmoid Self-Attention Weighting|Sigmoid Self-Attention Weighting]]
 
 ## 🔗 유사한 논문
 - [[Hybrid Autoregressive-Diffusion Model for Real-Time Sign Language Production_20250919|Hybrid Autoregressive-Diffusion Model for Real-Time Sign Language Production]] (83.1% similar)

@@ -1,13 +1,47 @@
+---
+keywords:
+  - Graph Neural Networks
+  - Microstructure Evolution
+  - Neural Networks
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:16:12.512525",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Graph Neural Networks",
+    "Microstructure Evolution",
+    "Neural Networks"
+  ],
+  "rejected_keywords": [
+    "Latent Graph Space"
+  ],
+  "similarity_scores": {
+    "Graph Neural Networks": 0.8,
+    "Microstructure Evolution": 0.78,
+    "Neural Networks": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Physics-Informed GCN-LSTM Framework for Long-Term Forecasting of 2D and 3D Microstructure Evolution
 
 **Korean Title:** 2D 및 3D 미세구조 진화의 장기 예측을 위한 물리학 기반 GCN-LSTM 프레임워크
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Hamidreza Razavi|Hamidreza Razavi]] [[authors/Nele Moelans|Nele Moelans]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]     [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**⭐ Unique Technical**: Physics-Informed GCN-LSTM Framework
+**🌐 Broad Technical**: [[keywords/Neural Networks|Long Short-Term Memory]]
+**🔗 Specific Connectable**: [[keywords/Graph Neural Networks|Graph Convolutional Networks]]
+**⚡ Unique Technical**: [[keywords/Microstructure Evolution|Microstructure Evolution]]
 
 ## 🔗 유사한 논문
 - [[Brain-HGCN_ A Hyperbolic Graph Convolutional Network for Brain Functional Network Analysis_20250919|Brain-HGCN A Hyperbolic Graph Convolutional Network for Brain Functional Network Analysis]] (80.9% similar)

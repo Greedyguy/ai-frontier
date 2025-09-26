@@ -1,13 +1,46 @@
+---
+keywords:
+  - Large Language Models
+  - Graph Neural Networks
+  - Hypothesis-verification-refinement loop
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:44:02.330599",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Graph Neural Networks",
+    "Hypothesis-verification-refinement loop"
+  ],
+  "rejected_keywords": [
+    "Optimization"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.85,
+    "Graph Neural Networks": 0.82,
+    "Hypothesis-verification-refinement loop": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # TopoSizing: An LLM-aided Framework of Topology-based Understanding and Sizing for AMS Circuits
 
 **Korean Title:** 토포사이징: AMS 회로의 위상 기반 이해 및 크기 조정을 위한 LLM 지원 프레임워크
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Ziming Wei|Ziming Wei]] [[authors/Zichen Kong|Zichen Kong]] [[authors/Yuan Wang|Yuan Wang]] [[authors/David Z. Pan|David Z. Pan]] [[authors/Xiyuan Tang|Xiyuan Tang]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: LLM-guided Initial Sampling
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Large Language Models]], [[keywords/Graph Neural Networks|Graph algorithms]]
+**⚡ Unique Technical**: [[keywords/Hypothesis-verification-refinement loop|Hypothesis-verification-refinement loop]]
 
 ## 🔗 유사한 논문
 - [[Evolution of Kernels_ Automated RISC-V Kernel Optimization with Large Language Models_20250919|Evolution of Kernels Automated RISC-V Kernel Optimization with Large Language Models]] (80.0% similar)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - Diffusion Models
+  - Manipulability-Aware Control
+  - Mobile Manipulation
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14980
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:37:10.154403",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Diffusion Models",
+    "Manipulability-Aware Control",
+    "Mobile Manipulation"
+  ],
+  "rejected_keywords": [
+    "Proprioceptive States"
+  ],
+  "similarity_scores": {
+    "Diffusion Models": 0.82,
+    "Manipulability-Aware Control": 0.78,
+    "Mobile Manipulation": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # M4Diffuser: Multi-View Diffusion Policy with Manipulability-Aware Control for Robust Mobile Manipulation
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Manipulability-Aware Control
+**🔗 Specific Connectable**: [[keywords/Diffusion Models|Multi-View Diffusion Policy]]
+**⚡ Unique Technical**: [[keywords/Manipulability-Aware Control|Manipulability-Aware Control]]
+**🚀 Evolved Concepts**: [[keywords/Mobile Manipulation|Mobile Manipulation]]
 
 ## 🔗 유사한 논문
 - [[MIMIC-D Multi-modal Imitation for MultI-agent Coordination with Decentralized Diffusion Policies]] (82.9% similar)

@@ -1,13 +1,47 @@
+---
+keywords:
+  - Transit Light Curve Analysis
+  - Deep Learning
+  - Fourier Analysis
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:37:13.822405",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Transit Light Curve Analysis",
+    "Deep Learning",
+    "Fourier Analysis"
+  ],
+  "rejected_keywords": [
+    "Shape Reconstruction"
+  ],
+  "similarity_scores": {
+    "Transit Light Curve Analysis": 0.8,
+    "Deep Learning": 0.85,
+    "Fourier Analysis": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Beyond Spherical geometry: Unraveling complex features of objects orbiting around stars from its transit light curve using deep learning
 
 **Korean Title:** 구면 기하학을 넘어서: 심층 학습을 활용한 항성 주위를 공전하는 물체의 복잡한 특징을 통과 광곡선으로부터 해명하기
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Ushasi Bhowmick|Ushasi Bhowmick]] [[authors/Shivam Kumaran|Shivam Kumaran]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]     [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Transit Light Curve Analysis
+**🌐 Broad Technical**: [[keywords/Deep Learning|deep neural networks]]
+**🔗 Specific Connectable**: [[keywords/Fourier Analysis|Fourier coefficients]]
+**⚡ Unique Technical**: [[keywords/Transit Light Curve Analysis|transit light curve]]
 
 ## 🔗 유사한 논문
 - [[Physics-Informed GCN-LSTM Framework for Long-Term Forecasting of 2D and 3D Microstructure Evolution_20250918|Physics-Informed GCN-LSTM Framework for Long-Term Forecasting of 2D and 3D Microstructure Evolution]] (78.1% similar)

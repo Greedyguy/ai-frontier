@@ -1,3 +1,35 @@
+---
+keywords:
+  - Multi-Robot Connectivity-Aware Planner
+  - Vehicle Routing Problem
+  - Hierarchical Coverage Path Planning
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14941
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:33:09.443422",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Multi-Robot Connectivity-Aware Planner",
+    "Vehicle Routing Problem",
+    "Hierarchical Coverage Path Planning"
+  ],
+  "rejected_keywords": [
+    "Adjacency Graph"
+  ],
+  "similarity_scores": {
+    "Multi-Robot Connectivity-Aware Planner": 0.8,
+    "Vehicle Routing Problem": 0.78,
+    "Hierarchical Coverage Path Planning": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Multi-CAP: A Multi-Robot Connectivity-Aware Hierarchical Coverage Path Planning Algorithm for Unknown Environments
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Connectivity-Aware Planning
+**🔗 Specific Connectable**: [[keywords/Vehicle Routing Problem|Vehicle Routing Problem]]
+**⚡ Unique Technical**: [[keywords/Multi-Robot Connectivity-Aware Planner|Multi-Robot Connectivity-Aware Planner]], [[keywords/Hierarchical Coverage Path Planning|Hierarchical Coverage Path Planning]]
 
 ## 🔗 유사한 논문
 - [[Semantic Exploration and Dense Mapping of Complex Environments using Ground Robot with Panoramic LiDAR-Camera Fusion_20250919|Semantic Exploration and Dense Mapping of Complex Environments using Ground Robot with Panoramic LiDAR-Camera Fusion]] (84.4% similar)

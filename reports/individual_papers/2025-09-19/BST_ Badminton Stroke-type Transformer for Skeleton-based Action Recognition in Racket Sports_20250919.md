@@ -1,3 +1,35 @@
+---
+keywords:
+  - Transformer Architecture
+  - Badminton Stroke-type Transformer
+  - Human Pose Estimation
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2502.21085
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:55:11.784772",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Transformer Architecture",
+    "Badminton Stroke-type Transformer",
+    "Human Pose Estimation"
+  ],
+  "rejected_keywords": [
+    "Shuttlecock Trajectory Tracking"
+  ],
+  "similarity_scores": {
+    "Transformer Architecture": 0.85,
+    "Badminton Stroke-type Transformer": 0.8,
+    "Human Pose Estimation": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # BST: Badminton Stroke-type Transformer for Skeleton-based Action Recognition in Racket Sports
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Human Pose Estimation, Trajectory Tracking
+**🔗 Specific Connectable**: [[keywords/Transformer Architecture|Transformer Architecture]], [[keywords/Human Pose Estimation|Human Pose Estimation]]
+**⚡ Unique Technical**: [[keywords/Badminton Stroke-type Transformer|Badminton Stroke-type Transformer]]
 
 ## 🔗 유사한 논문
 - [[TrajBooster Boosting Humanoid Whole-Body Manipulation via Trajectory-Centric Learning]] (79.1% similar)

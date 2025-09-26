@@ -1,13 +1,47 @@
+---
+keywords:
+  - Reinforcement Learning
+  - Self-Explaining Neural Networks
+  - Neural Networks
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:10:59.198536",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Reinforcement Learning",
+    "Self-Explaining Neural Networks",
+    "Neural Networks"
+  ],
+  "rejected_keywords": [
+    "Resource Allocation in Mobile Networks"
+  ],
+  "similarity_scores": {
+    "Reinforcement Learning": 0.88,
+    "Self-Explaining Neural Networks": 0.8,
+    "Neural Networks": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Self-Explaining Reinforcement Learning for Mobile Network Resource Allocation
 
 **Korean Title:** 모바일 네트워크 자원 할당을 위한 자기 설명 강화 학습
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Konrad Nowosadko|Konrad Nowosadko]] [[authors/Franco Ruggeri|Franco Ruggeri]] [[authors/Ahmad Terra|Ahmad Terra]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]      [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Interpretable AI
+**🌐 Broad Technical**: [[keywords/Neural Networks|Deep Neural Networks]]
+**🔗 Specific Connectable**: [[keywords/Reinforcement Learning|Reinforcement Learning]]
+**⚡ Unique Technical**: [[keywords/Self-Explaining Neural Networks|Self-Explaining Neural Networks]]
 
 ## 🔗 유사한 논문
 - [[An Explainable AI Framework for Dynamic Resource Management in Vehicular Network Slicing_20250919|An Explainable AI Framework for Dynamic Resource Management in Vehicular Network Slicing]] (83.5% similar)

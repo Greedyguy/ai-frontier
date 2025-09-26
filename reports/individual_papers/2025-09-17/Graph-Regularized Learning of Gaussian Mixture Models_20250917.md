@@ -1,13 +1,45 @@
+---
+keywords:
+  - Gaussian Mixture Models
+  - Graph Neural Networks
+  - Federated Learning
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:54:10.313563",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Gaussian Mixture Models",
+    "Graph Neural Networks",
+    "Federated Learning"
+  ],
+  "rejected_keywords": [
+    "Graph-Regularized Learning"
+  ],
+  "similarity_scores": {
+    "Gaussian Mixture Models": 0.8,
+    "Graph Neural Networks": 0.77,
+    "Federated Learning": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Graph-Regularized Learning of Gaussian Mixture Models
 
 **Korean Title:** 그래프 정규화된 가우시안 혼합 모델 학습
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Shamsiiat Abdurakhmanova|Shamsiiat Abdurakhmanova]] [[authors/Alex Jung|Alex Jung]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]     [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Parameter Sharing in Heterogeneous Data
+**🔗 Specific Connectable**: [[keywords/Gaussian Mixture Models|Gaussian Mixture Models]], [[keywords/Graph Neural Networks|similarity graph]], [[keywords/Federated Learning|distributed settings]]
 
 ## 🔗 유사한 논문
 - [[Online reinforcement learning via sparse Gaussian mixture model Q-functions_20250919|Online reinforcement learning via sparse Gaussian mixture model Q-functions]] (79.4% similar)

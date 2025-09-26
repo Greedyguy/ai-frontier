@@ -1,13 +1,47 @@
+---
+keywords:
+  - Machine Learning
+  - Human-Machine Synergy
+  - Economic Utility
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:51:22.280806",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Machine Learning",
+    "Human-Machine Synergy",
+    "Economic Utility"
+  ],
+  "rejected_keywords": [
+    "Monte Carlo Simulations"
+  ],
+  "similarity_scores": {
+    "Machine Learning": 0.85,
+    "Human-Machine Synergy": 0.8,
+    "Economic Utility": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Machines are more productive than humans until they aren't, and vice versa
 
 **Korean Title:** 기계는 그렇지 않을 때까지 인간보다 생산성이 높으며, 그 반대의 경우도 마찬가지이다.
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Riccardo Zanardelli|Riccardo Zanardelli]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]    [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Human-Machine Augmentation
+**🌐 Broad Technical**: [[keywords/Machine Learning|artificial skills]]
+**⚡ Unique Technical**: [[keywords/Economic Utility|economic utility]]
+**🚀 Evolved Concepts**: [[keywords/Human-Machine Synergy|human-machine synergy]]
 
 ## 🔗 유사한 논문
 - [[Emergent Alignment via Competition_20250919|Emergent Alignment via Competition]] (80.1% similar)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - Catalpa Garbage Collector
+  - Bosque Programming Language
+  - Bounded Collection Pauses
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13429
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:35:28.588790",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Catalpa Garbage Collector",
+    "Bosque Programming Language",
+    "Bounded Collection Pauses"
+  ],
+  "rejected_keywords": [
+    "Reference-Cycle Freedom"
+  ],
+  "similarity_scores": {
+    "Catalpa Garbage Collector": 0.8,
+    "Bosque Programming Language": 0.78,
+    "Bounded Collection Pauses": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Catalpa: GC for a Low-Variance Software Stack
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Tail-latencies
+**🔗 Specific Connectable**: [[keywords/Bounded Collection Pauses|bounded collection pauses]]
+**⚡ Unique Technical**: [[keywords/Catalpa Garbage Collector|Catalpa collector]], [[keywords/Bosque Programming Language|Bosque programming language]]
 
 ## 🔗 유사한 논문
 - [[From Legacy Fortran to Portable Kokkos: An Autonomous Agentic AI Workflow]] (77.0% similar)

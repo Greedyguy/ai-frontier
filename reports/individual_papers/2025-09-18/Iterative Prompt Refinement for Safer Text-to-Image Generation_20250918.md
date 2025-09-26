@@ -1,3 +1,35 @@
+---
+keywords:
+  - Large Language Models
+  - Multi-Modal Learning
+  - Generative Models
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13760
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:24:35.981156",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Multi-Modal Learning",
+    "Generative Models"
+  ],
+  "rejected_keywords": [
+    "Computer Vision"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.85,
+    "Multi-Modal Learning": 0.82,
+    "Generative Models": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Iterative Prompt Refinement for Safer Text-to-Image Generation
 
@@ -5,10 +37,10 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Visual Feedback
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Large Language Models]], [[keywords/Multi-Modal Learning|Vision Language Models]], [[keywords/Generative Models|Text-to-Image models]]
 
 ## 🔗 유사한 논문
 - [[Visible Yet Unreadable: A Systematic Blind Spot of Vision Language Models Across Writing Systems]] (82.0% similar)

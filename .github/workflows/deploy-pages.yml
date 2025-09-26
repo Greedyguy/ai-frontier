@@ -1,0 +1,85 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  # Allow manual deployment
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+        cache-dependency-path: frontend/package-lock.json
+
+    - name: Install frontend dependencies
+      working-directory: ./frontend
+      run: npm ci
+
+    - name: Build frontend
+      working-directory: ./frontend
+      run: |
+        # GitHub Pages에서 사용할 수 있도록 API URL 설정
+        echo "VITE_API_BASE_URL=/ai_frontier/api" > .env.production
+        npm run build
+
+    - name: Setup Pages
+      uses: actions/configure-pages@v4
+
+    - name: Create deployment directory
+      run: |
+        mkdir -p deploy
+        # Copy frontend build
+        cp -r frontend/dist/* deploy/
+
+        # Create API mock for GitHub Pages (static files only)
+        mkdir -p deploy/api
+
+        # Copy reports as static files
+        if [ -d "reports" ]; then
+          mkdir -p deploy/reports
+          cp -r reports/* deploy/reports/
+        fi
+
+        # Create a simple index for reports
+        cat > deploy/api/reports.json << 'EOF'
+        {
+          "message": "This is a static deployment. Use GitHub Actions workflows for data collection.",
+          "reports_available": true,
+          "last_updated": "${{ github.event.head_commit.timestamp }}"
+        }
+        EOF
+
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: ./deploy
+
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4

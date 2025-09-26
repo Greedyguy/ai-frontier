@@ -1,3 +1,35 @@
+---
+keywords:
+  - Subspace Identification Methods
+  - Finite Sample Analysis
+  - Hankel-like Matrix
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2501.16639
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:28:41.339192",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Subspace Identification Methods",
+    "Finite Sample Analysis",
+    "Hankel-like Matrix"
+  ],
+  "rejected_keywords": [
+    "Model Reduction"
+  ],
+  "similarity_scores": {
+    "Subspace Identification Methods": 0.78,
+    "Finite Sample Analysis": 0.75,
+    "Hankel-like Matrix": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Finite Sample Analysis of Open-loop Subspace Identification Methods
 
@@ -5,10 +37,10 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Model Reduction
+**⚡ Unique Technical**: [[keywords/Subspace Identification Methods|Subspace Identification Methods]], [[keywords/Finite Sample Analysis|Finite Sample Analysis]], [[keywords/Hankel-like Matrix|Hankel-like Matrix]]
 
 ## 🔗 유사한 논문
 - [[Post-Hoc_Split-Point_Self-Consistency_Verification_for_Efficient,_Unified_Quantification_of_Aleatoric_and_Epistemic_Uncertainty_in_Deep_Learning_20250918|Post-Hoc Split-Point Self-Consistency Verification for Efficient, Unified Quantification of Aleatoric and Epistemic Uncertainty in Deep Learning]] (77.2% similar)

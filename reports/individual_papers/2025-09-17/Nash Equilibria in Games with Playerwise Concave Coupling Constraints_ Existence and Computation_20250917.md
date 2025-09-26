@@ -1,13 +1,46 @@
+---
+keywords:
+  - Nash Equilibria
+  - Playerwise Concave Constraints
+  - Log Barrier Regularized Gradient Ascent
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:49:46.515873",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Nash Equilibria",
+    "Playerwise Concave Constraints",
+    "Log Barrier Regularized Gradient Ascent"
+  ],
+  "rejected_keywords": [
+    "Topological Fixed Point Theory"
+  ],
+  "similarity_scores": {
+    "Nash Equilibria": 0.92,
+    "Playerwise Concave Constraints": 0.8,
+    "Log Barrier Regularized Gradient Ascent": 0.82
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Nash Equilibria in Games with Playerwise Concave Coupling Constraints: Existence and Computation
 
 **Korean Title:** 게임에서 플레이어별 오목한 결합 제약을 가진 내쉬 균형: 존재성과 계산
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Philip Jordan|Philip Jordan]] [[authors/Maryam Kamgarpour|Maryam Kamgarpour]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]     [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Playerwise Concave Constraints
+**🔗 Specific Connectable**: [[keywords/Nash Equilibria|Nash equilibria]]
+**⚡ Unique Technical**: [[keywords/Playerwise Concave Constraints|playerwise concave constraints]], [[keywords/Log Barrier Regularized Gradient Ascent|log barrier regularized gradient ascent]]
 
 ## 🔗 유사한 논문
 - [[Distributionally Robust Equilibria over the Wasserstein Distance for Generalized Nash Game_20250918|Distributionally Robust Equilibria over the Wasserstein Distance for Generalized Nash Game]] (84.2% similar)

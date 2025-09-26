@@ -1,3 +1,36 @@
+---
+keywords:
+  - Sonification
+  - Non-Visual Exploration
+  - Tactile Graphs
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14452
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:24:14.563341",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Sonification",
+    "Non-Visual Exploration",
+    "Tactile Graphs"
+  ],
+  "rejected_keywords": [
+    "Blind and Low-Vision Learners",
+    "Statistical Concepts in Histograms"
+  ],
+  "similarity_scores": {
+    "Sonification": 0.8,
+    "Non-Visual Exploration": 0.78,
+    "Tactile Graphs": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Sensing the Shape of Data: Non-Visual Exploration of Statistical Concepts in Histograms with Blind and Low-Vision Learners
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Non-Visual Data Exploration
+**🔗 Specific Connectable**: [[keywords/Sonification|Sonification]]
+**⚡ Unique Technical**: [[keywords/Non-Visual Exploration|Non-Visual Exploration]], [[keywords/Tactile Graphs|Tactile Graphs]]
 
 ## 🔗 유사한 논문
 - [[Py maidr Bridging Visual and Non-Visual Data Experiences Through a Unified Python Framework]] (80.0% similar)

@@ -1,13 +1,47 @@
+---
+keywords:
+  - Triple Query Former
+  - Referring Video Object Segmentation
+  - Transformer Architecture
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:50:58.082866",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Triple Query Former",
+    "Referring Video Object Segmentation",
+    "Transformer Architecture"
+  ],
+  "rejected_keywords": [
+    "Motion-aware Aggregation",
+    "Multi-Modal Learning"
+  ],
+  "similarity_scores": {
+    "Triple Query Former": 0.85,
+    "Referring Video Object Segmentation": 0.8,
+    "Transformer Architecture": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Mitigating Query Selection Bias in Referring Video Object Segmentation
 
 **Korean Title:** 쿼리 선택 편향 완화에 관한 비디오 객체 분할 참조
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Dingwei Zhang|Dingwei Zhang]] [[authors/Dong Zhang|Dong Zhang]] [[authors/Jinhui Tang|Jinhui Tang]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]      [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Motion-aware Aggregation
+**🔗 Specific Connectable**: [[keywords/Transformer Architecture|Transformer Architecture]]
+**⚡ Unique Technical**: [[keywords/Triple Query Former|Triple Query Former]], [[keywords/Referring Video Object Segmentation|Referring Video Object Segmentation]]
 
 ## 🔗 유사한 논문
 - [[VSE-MOT_ Multi-Object Tracking in Low-Quality Video Scenes Guided by Visual Semantic Enhancement_20250918|VSE-MOT Multi-Object Tracking in Low-Quality Video Scenes Guided by Visual Semantic Enhancement]] (83.8% similar)

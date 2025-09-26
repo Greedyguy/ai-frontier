@@ -1,3 +1,36 @@
+---
+keywords:
+  - Deep Learning
+  - Medical Skin Lesion Classifiers
+  - Local Interventional Explanations
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2503.05424
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:21:21.766814",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Deep Learning",
+    "Medical Skin Lesion Classifiers",
+    "Local Interventional Explanations"
+  ],
+  "rejected_keywords": [
+    "Image-to-Image Editing Models",
+    "Expected Property Gradient Magnitude"
+  ],
+  "similarity_scores": {
+    "Deep Learning": 0.85,
+    "Medical Skin Lesion Classifiers": 0.72,
+    "Local Interventional Explanations": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Locally Explaining Prediction Behavior via Gradual Interventions and Measuring Property Gradients
 
@@ -5,10 +38,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Local Explanations
+**🌐 Broad Technical**: [[keywords/Deep Learning|Deep Learning]]
+**🔗 Specific Connectable**: [[keywords/Medical Skin Lesion Classifiers|Medical Skin Lesion Classifiers]]
+**⚡ Unique Technical**: [[keywords/Local Interventional Explanations|Local Interventional Explanations]]
 
 ## 🔗 유사한 논문
 - [[Singular_Value_Few-shot_Adaptation_of_Vision-Language_Models_20250918|Singular Value Few-shot Adaptation of Vision-Language Models]] (81.1% similar)

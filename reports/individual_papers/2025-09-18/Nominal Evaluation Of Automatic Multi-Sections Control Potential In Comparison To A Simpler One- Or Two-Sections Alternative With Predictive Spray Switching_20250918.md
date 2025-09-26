@@ -1,3 +1,35 @@
+---
+keywords:
+  - Area Coverage Path Planning
+  - Automatic Section Control
+  - Predictive Spray Switching
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2508.11573
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:18:08.046665",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Area Coverage Path Planning",
+    "Automatic Section Control",
+    "Predictive Spray Switching"
+  ],
+  "rejected_keywords": [
+    "Economic Cost Analysis"
+  ],
+  "similarity_scores": {
+    "Area Coverage Path Planning": 0.82,
+    "Automatic Section Control": 0.8,
+    "Predictive Spray Switching": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Nominal Evaluation Of Automatic Multi-Sections Control Potential In Comparison To A Simpler One- Or Two-Sections Alternative With Predictive Spray Switching
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔬 Broad Technical**: Automatic Section Control, Spraying in Agriculture
+**🔗 Specific Connectable**: [[keywords/Area Coverage Path Planning|Area Coverage Path Planning]]
+**⚡ Unique Technical**: [[keywords/Automatic Section Control|Automatic Section Control]], [[keywords/Predictive Spray Switching|Predictive Spray Switching]]
 
 ## 🔗 유사한 논문
 - [[Data-Driven_Distributed_Optimization_via_Aggregative_Tracking_and_Deep-Learning_20250918|Data-Driven Distributed Optimization via Aggregative Tracking and Deep-Learning]] (77.6% similar)

@@ -1,13 +1,46 @@
+---
+keywords:
+  - Federated Learning
+  - Reinforcement Learning
+  - Whittle Index
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 23:02:12.797609",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Federated Learning",
+    "Reinforcement Learning",
+    "Whittle Index"
+  ],
+  "rejected_keywords": [
+    "Restless Multi-Armed Bandit"
+  ],
+  "similarity_scores": {
+    "Federated Learning": 0.9,
+    "Reinforcement Learning": 0.8,
+    "Whittle Index": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Adaptive Client Selection via Q-Learning-based Whittle Index in Wireless Federated Learning
 
 **Korean Title:** 무선 연합 학습에서 Q-러닝 기반 Whittle 지수를 통한 적응형 클라이언트 선택
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Qiyue Li|Qiyue Li]] [[authors/Yingxin Liu|Yingxin Liu]] [[authors/Hang Qi|Hang Qi]] [[authors/Jieping Luo|Jieping Luo]] [[authors/Zhizhang Liu|Zhizhang Liu]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Restless Multi-armed Bandit
+**🔗 Specific Connectable**: [[keywords/Federated Learning|Federated Learning]], [[keywords/Reinforcement Learning|Q-Learning]]
+**⚡ Unique Technical**: [[keywords/Whittle Index|Whittle Index]]
 
 ## 🔗 유사한 논문
 - [[Who to Trust Aggregating Client Knowledge in Logit-Based Federated Learning_20250919|Who to Trust Aggregating Client Knowledge in Logit-Based Federated Learning]] (80.8% similar)

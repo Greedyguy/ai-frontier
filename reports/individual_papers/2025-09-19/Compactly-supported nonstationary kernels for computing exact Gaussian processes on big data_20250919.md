@@ -1,3 +1,35 @@
+---
+keywords:
+  - Gaussian Processes
+  - Uncertainty Quantification
+  - Scalable Gaussian Processes
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2411.05869
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:52:03.136659",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Gaussian Processes",
+    "Uncertainty Quantification",
+    "Scalable Gaussian Processes"
+  ],
+  "rejected_keywords": [
+    "Nonstationary Kernels"
+  ],
+  "similarity_scores": {
+    "Gaussian Processes": 0.78,
+    "Uncertainty Quantification": 0.77,
+    "Scalable Gaussian Processes": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Compactly-supported nonstationary kernels for computing exact Gaussian processes on big data
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Scalable Gaussian Processes
+**🌐 Broad Technical**: [[keywords/Gaussian Processes|Gaussian Processes]]
+**🔗 Specific Connectable**: [[keywords/Uncertainty Quantification|Uncertainty Quantification]]
+**🚀 Evolved Concepts**: [[keywords/Scalable Gaussian Processes|Scalable Gaussian Processes]]
 
 ## 🔗 유사한 논문
 - [[Learning quantum many-body data locally A provably scalable framework]] (78.0% similar)

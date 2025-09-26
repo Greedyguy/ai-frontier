@@ -1,3 +1,36 @@
+---
+keywords:
+  - Hamilton--Jacobi--Bellman Equation
+  - Multi-Agent Reinforcement Learning
+  - Continuous-Time Reinforcement Learning
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.09135
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:51:30.797908",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Hamilton--Jacobi--Bellman Equation",
+    "Multi-Agent Reinforcement Learning",
+    "Continuous-Time Reinforcement Learning"
+  ],
+  "rejected_keywords": [
+    "Physics-Informed Neural Networks",
+    "Value Gradient Iteration"
+  ],
+  "similarity_scores": {
+    "Hamilton--Jacobi--Bellman Equation": 0.82,
+    "Multi-Agent Reinforcement Learning": 0.8,
+    "Continuous-Time Reinforcement Learning": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Continuous-Time Value Iteration for Multi-Agent Reinforcement Learning
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Continuous-Time Multi-Agent Reinforcement Learning
+**🔗 Specific Connectable**: [[keywords/Hamilton--Jacobi--Bellman Equation|Hamilton--Jacobi--Bellman equation]], [[keywords/Multi-Agent Reinforcement Learning|Multi-Agent Reinforcement Learning]]
+**⚡ Unique Technical**: [[keywords/Continuous-Time Reinforcement Learning|Continuous-Time Reinforcement Learning]]
 
 ## 🔗 유사한 논문
 - [[Multi-Fidelity_Hybrid_Reinforcement_Learning_via_Information_Gain_Maximization_20250919|Multi-Fidelity Hybrid Reinforcement Learning via Information Gain Maximization]] (83.0% similar)

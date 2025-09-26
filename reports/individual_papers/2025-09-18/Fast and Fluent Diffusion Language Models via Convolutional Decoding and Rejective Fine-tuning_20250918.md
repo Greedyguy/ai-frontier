@@ -1,13 +1,46 @@
+---
+keywords:
+  - Diffusion Models
+  - Convolutional Decoding
+  - Rejective Fine-tuning
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:28:56.243247",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Diffusion Models",
+    "Convolutional Decoding",
+    "Rejective Fine-tuning"
+  ],
+  "rejected_keywords": [
+    "Natural Language Processing"
+  ],
+  "similarity_scores": {
+    "Diffusion Models": 0.82,
+    "Convolutional Decoding": 0.78,
+    "Rejective Fine-tuning": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Fast and Fluent Diffusion Language Models via Convolutional Decoding and Rejective Fine-tuning
 
 **Korean Title:** 빠르고 유창한 확산 언어 모델: 합성곱 디코딩 및 거부적 미세 조정을 통한 접근
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Yeongbin Seo|Yeongbin Seo]] [[authors/Dongha Lee|Dongha Lee]] [[authors/Jaehyung Kim|Jaehyung Kim]] [[authors/Jinyoung Yeo|Jinyoung Yeo]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]       [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Diffusion Language Models
+**🔗 Specific Connectable**: [[keywords/Diffusion Models|Diffusion Language Models]]
+**⚡ Unique Technical**: [[keywords/Convolutional Decoding|Convolutional Decoding]], [[keywords/Rejective Fine-tuning|Rejective Fine-tuning]]
 
 ## 🔗 유사한 논문
 - [[Hybrid Autoregressive-Diffusion Model for Real-Time Sign Language Production_20250919|Hybrid Autoregressive-Diffusion Model for Real-Time Sign Language Production]] (81.8% similar)

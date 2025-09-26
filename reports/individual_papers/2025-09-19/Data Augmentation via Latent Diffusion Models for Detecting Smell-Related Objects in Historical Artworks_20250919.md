@@ -1,3 +1,35 @@
+---
+keywords:
+  - Diffusion Models
+  - Generative Models
+  - Historical Artworks
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14755
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:50:06.803861",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Diffusion Models",
+    "Generative Models",
+    "Historical Artworks"
+  ],
+  "rejected_keywords": [
+    "Smell-Related Objects"
+  ],
+  "similarity_scores": {
+    "Diffusion Models": 0.8,
+    "Generative Models": 0.78,
+    "Historical Artworks": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Data Augmentation via Latent Diffusion Models for Detecting Smell-Related Objects in Historical Artworks
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Synthetic Data Generation
+**🔗 Specific Connectable**: [[keywords/Diffusion Models|latent diffusion models]], [[keywords/Generative Models|synthetic data generation]]
+**⚡ Unique Technical**: [[keywords/Historical Artworks|historical artworks]]
 
 ## 🔗 유사한 논문
 - [[Generative AI for Misalignment-Resistant Virtual Staining to Accelerate Histopathology Workflows_20250918|Generative AI for Misalignment-Resistant Virtual Staining to Accelerate Histopathology Workflows]] (79.2% similar)

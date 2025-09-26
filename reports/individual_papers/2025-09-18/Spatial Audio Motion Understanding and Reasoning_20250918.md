@@ -1,13 +1,46 @@
+---
+keywords:
+  - Large Language Models
+  - Attention Mechanism
+  - Direction of Arrival
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:09:22.183649",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Attention Mechanism",
+    "Direction of Arrival"
+  ],
+  "rejected_keywords": [
+    "Spatial Audio Reasoning",
+    "Spatial Audio Encoder"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.85,
+    "Attention Mechanism": 0.83,
+    "Direction of Arrival": 0.82
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Spatial Audio Motion Understanding and Reasoning
 
 **Korean Title:** 공간 오디오 동작 이해 및 추론
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Arvind Krishna Sridhar|Arvind Krishna Sridhar]] [[authors/Yinyi Guo|Yinyi Guo]] [[authors/Erik Visser|Erik Visser]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]      [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Spatial Audio Motion Understanding
+**🔗 Specific Connectable**: [[keywords/Large Language Models|large language model]], [[keywords/Attention Mechanism|cross-attention mechanism]], [[keywords/Direction of Arrival|Direction of Arrival]]
 
 ## 🔗 유사한 논문
 - [[Omni-CLST_ Error-aware Curriculum Learning with guided Selective chain-of-Thought for audio question answering_20250918|Omni-CLST Error-aware Curriculum Learning with guided Selective chain-of-Thought for audio question answering]] (81.3% similar)

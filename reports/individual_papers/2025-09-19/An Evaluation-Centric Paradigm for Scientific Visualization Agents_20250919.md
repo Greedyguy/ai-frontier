@@ -1,3 +1,35 @@
+---
+keywords:
+  - Large Language Models
+  - Evaluation Benchmarks
+  - Agent Self-Improvement
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.15160
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:56:40.099050",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Evaluation Benchmarks",
+    "Agent Self-Improvement"
+  ],
+  "rejected_keywords": [
+    "Scientific Visualization"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Evaluation Benchmarks": 0.77,
+    "Agent Self-Improvement": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # An Evaluation-Centric Paradigm for Scientific Visualization Agents
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Autonomous Visualization Agents
+**🔗 Specific Connectable**: [[keywords/Large Language Models|multi-modal large language models]]
+**⚡ Unique Technical**: [[keywords/Agent Self-Improvement|agent self-improvement]]
+**🚀 Evolved Concepts**: [[keywords/Evaluation Benchmarks|evaluation benchmarks]]
 
 ## 🔗 유사한 논문
 - [[EdiVal-Agent An Object-Centric Framework for Automated, Scalable, Fine-Grained Evaluation of Multi-Turn Editing]] (82.5% similar)

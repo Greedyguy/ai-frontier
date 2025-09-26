@@ -1,3 +1,36 @@
+---
+keywords:
+  - Convolutional Neural Networks
+  - Attention Mechanism
+  - Self-Supervised Learning
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:48:00.465029",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Convolutional Neural Networks",
+    "Attention Mechanism",
+    "Self-Supervised Learning"
+  ],
+  "rejected_keywords": [
+    "Human Phenotype Ontology",
+    "Gene Interaction Networks"
+  ],
+  "similarity_scores": {
+    "Convolutional Neural Networks": 0.82,
+    "Attention Mechanism": 0.79,
+    "Self-Supervised Learning": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # PhenoGnet: A Graph-Based Contrastive Learning Framework for Disease Similarity Prediction
 
@@ -5,10 +38,10 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Ranga Baminiwatte|Ranga Baminiwatte]] [[authors/Kazi Jewel Rana|Kazi Jewel Rana]] [[authors/Aaron J. Masino|Aaron J. Masino]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]      [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔬 Broad Technical**: Graph Convolutional Networks, Graph Attention Networks
+**🔗 Specific Connectable**: [[keywords/Convolutional Neural Networks|Graph Convolutional Networks]], [[keywords/Attention Mechanism|Graph Attention Networks]], [[keywords/Self-Supervised Learning|contrastive learning]]
 
 ## 🔗 유사한 논문
 - [[A Geometric Graph-Based Deep Learning Model for Drug-Target Affinity Prediction]] (78.7% similar)

@@ -1,13 +1,48 @@
+---
+keywords:
+  - LiMuon Optimizer
+  - DistilGPT2
+  - Vision Transformers
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:21:54.317306",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "LiMuon Optimizer",
+    "DistilGPT2",
+    "Vision Transformers"
+  ],
+  "rejected_keywords": [
+    "Large Models",
+    "Randomized SVD",
+    "Variance Reduction Techniques"
+  ],
+  "similarity_scores": {
+    "LiMuon Optimizer": 0.8,
+    "DistilGPT2": 0.78,
+    "Vision Transformers": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # LiMuon: Light and Fast Muon Optimizer for Large Models
 
 **Korean Title:** LiMuon: 대형 모델을 위한 경량 및 고속 뮤온 최적화기
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Feihu Huang|Feihu Huang]] [[authors/Yuning Luo|Yuning Luo]] [[authors/Songcan Chen|Songcan Chen]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]      [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Momentum-based Variance Reduction
+**🔗 Specific Connectable**: [[keywords/DistilGPT2|DistilGPT2]], [[keywords/Vision Transformers|Vision Transformers]]
+**⚡ Unique Technical**: [[keywords/LiMuon Optimizer|LiMuon optimizer]]
 
 ## 🔗 유사한 논문
 - [[Middo_ Model-Informed Dynamic Data Optimization for Enhanced LLM Fine-Tuning via Closed-Loop Learning_20250919|Middo Model-Informed Dynamic Data Optimization for Enhanced LLM Fine-Tuning via Closed-Loop Learning]] (80.7% similar)

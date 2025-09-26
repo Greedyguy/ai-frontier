@@ -1,3 +1,35 @@
+---
+keywords:
+  - Dynamic Wavelet Positional Encoding
+  - Transformer Architecture
+  - Discrete Wavelet Transform
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14640
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:47:08.257558",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Dynamic Wavelet Positional Encoding",
+    "Transformer Architecture",
+    "Discrete Wavelet Transform"
+  ],
+  "rejected_keywords": [
+    "Biomedical Signals"
+  ],
+  "similarity_scores": {
+    "Dynamic Wavelet Positional Encoding": 0.85,
+    "Transformer Architecture": 0.8,
+    "Discrete Wavelet Transform": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # DyWPE: Signal-Aware Dynamic Wavelet Positional Encoding for Time Series Transformers
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Signal-Aware Positional Encoding
+**🔗 Specific Connectable**: [[keywords/Transformer Architecture|Time Series Transformers]], [[keywords/Discrete Wavelet Transform|Discrete Wavelet Transform]]
+**⚡ Unique Technical**: [[keywords/Dynamic Wavelet Positional Encoding|Dynamic Wavelet Positional Encoding]]
 
 ## 🔗 유사한 논문
 - [[DECAMP Towards Scene-Consistent Multi-Agent Motion Prediction with Disentangled Context-Aware Pre-Training]] (75.7% similar)

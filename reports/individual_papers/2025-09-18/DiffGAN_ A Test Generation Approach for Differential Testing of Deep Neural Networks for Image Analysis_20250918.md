@@ -1,3 +1,35 @@
+---
+keywords:
+  - Generative Models
+  - Differential Testing
+  - Neural Networks
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2410.19794
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:33:03.175218",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Generative Models",
+    "Differential Testing",
+    "Neural Networks"
+  ],
+  "rejected_keywords": [
+    "Non-dominated Sorting Genetic Algorithm II"
+  ],
+  "similarity_scores": {
+    "Generative Models": 0.78,
+    "Differential Testing": 0.72,
+    "Neural Networks": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # DiffGAN: A Test Generation Approach for Differential Testing of Deep Neural Networks for Image Analysis
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Machine Learning-based Model Selection
+**🌐 Broad Technical**: [[keywords/Neural Networks|Deep Neural Networks]]
+**🔗 Specific Connectable**: [[keywords/Generative Models|Generative Adversarial Network]]
+**⚡ Unique Technical**: [[keywords/Differential Testing|Differential Testing]]
 
 ## 🔗 유사한 논문
 - [[Evolution Meets Diffusion: Efficient Neural Architecture Generation]] (82.8% similar)

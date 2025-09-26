@@ -1,13 +1,47 @@
+---
+keywords:
+  - Dual Pyramid Attention Network
+  - Attention Mechanism
+  - Temporal Pyramid
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:33:52.422971",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Dual Pyramid Attention Network",
+    "Attention Mechanism",
+    "Temporal Pyramid"
+  ],
+  "rejected_keywords": [
+    "Frequency Pyramid",
+    "Multivariate Time Series Forecasting"
+  ],
+  "similarity_scores": {
+    "Dual Pyramid Attention Network": 0.8,
+    "Attention Mechanism": 0.78,
+    "Temporal Pyramid": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # DPANet: Dual Pyramid Attention Network for Multivariate Time Series Forecasting
 
 **Korean Title:** DPANet: 다변량 시계열 예측을 위한 이중 피라미드 주의 네트워크
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Qianyang Li|Qianyang Li]] [[authors/Xingjun Zhang|Xingjun Zhang]] [[authors/Shaoxun Wang|Shaoxun Wang]] [[authors/Jia Wei|Jia Wei]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]       [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Interactive Fusion Block
+**🔗 Specific Connectable**: [[keywords/Attention Mechanism|Cross-Attention Mechanism]]
+**⚡ Unique Technical**: [[keywords/Dual Pyramid Attention Network|Dual Pyramid Attention Network]], [[keywords/Temporal Pyramid|Temporal Pyramid]]
 
 ## 🔗 유사한 논문
 - [[Attention Beyond Neighborhoods_ Reviving Transformer for Graph Clustering_20250918|Attention Beyond Neighborhoods Reviving Transformer for Graph Clustering]] (76.8% similar)

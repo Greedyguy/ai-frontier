@@ -1,3 +1,35 @@
+---
+keywords:
+  - Compliant Catching
+  - Optimization
+  - Mobile Manipulators
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2409.14754
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:51:01.464819",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Compliant Catching",
+    "Optimization",
+    "Mobile Manipulators"
+  ],
+  "rejected_keywords": [
+    "Neural Networks"
+  ],
+  "similarity_scores": {
+    "Compliant Catching": 0.8,
+    "Optimization": 0.78,
+    "Mobile Manipulators": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # CushionCatch: A Compliant Catching Mechanism for Mobile Manipulators via Combined Optimization and Learning
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: LSTM, Optimization
+**🌐 Broad Technical**: [[keywords/Optimization|optimization and learning]]
+**🔗 Specific Connectable**: [[keywords/Mobile Manipulators|mobile manipulators]]
+**⚡ Unique Technical**: [[keywords/Compliant Catching|compliant catching]]
 
 ## 🔗 유사한 논문
 - [[ActivePusher Active Learning and Planning with Residual Physics for Nonprehensile Manipulation]] (83.1% similar)

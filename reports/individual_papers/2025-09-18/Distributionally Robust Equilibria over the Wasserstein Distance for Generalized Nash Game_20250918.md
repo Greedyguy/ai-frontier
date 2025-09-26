@@ -1,3 +1,35 @@
+---
+keywords:
+  - Wasserstein Distance
+  - Mixed-Integer Nonlinear Programming
+  - Generalized Nash Equilibrium Problem
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13985
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:32:33.838329",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Wasserstein Distance",
+    "Mixed-Integer Nonlinear Programming",
+    "Generalized Nash Equilibrium Problem"
+  ],
+  "rejected_keywords": [
+    "Distributionally Robust Chance Constraints"
+  ],
+  "similarity_scores": {
+    "Wasserstein Distance": 0.8,
+    "Mixed-Integer Nonlinear Programming": 0.77,
+    "Generalized Nash Equilibrium Problem": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Distributionally Robust Equilibria over the Wasserstein Distance for Generalized Nash Game
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Shared Distributionally Robust Chance Constraints
+**🌐 Broad Technical**: [[keywords/Mixed-Integer Nonlinear Programming|Mixed-Integer Nonlinear Programming]]
+**🔗 Specific Connectable**: [[keywords/Wasserstein Distance|Wasserstein Distance]]
+**⚡ Unique Technical**: [[keywords/Generalized Nash Equilibrium Problem|Generalized Nash Equilibrium Problem]]
 
 ## 🔗 유사한 논문
 - [[Nash Equilibria in Games with Playerwise Concave Coupling Constraints: Existence and Computation]] (84.6% similar)

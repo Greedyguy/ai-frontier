@@ -1,3 +1,35 @@
+---
+keywords:
+  - Uncertainty Quantification
+  - Vital Sign Forecasting
+  - Reconstruction Uncertainty Estimate
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.01319
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:04:09.254734",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Uncertainty Quantification",
+    "Vital Sign Forecasting",
+    "Reconstruction Uncertainty Estimate"
+  ],
+  "rejected_keywords": [
+    "Gaussian Copula"
+  ],
+  "similarity_scores": {
+    "Uncertainty Quantification": 0.8,
+    "Vital Sign Forecasting": 0.78,
+    "Reconstruction Uncertainty Estimate": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Towards Trustworthy Vital Sign Forecasting: Leveraging Uncertainty for Prediction Intervals
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Interpretable Prediction Intervals
+**🔗 Specific Connectable**: [[keywords/Uncertainty Quantification|Uncertainty Quantification]]
+**⚡ Unique Technical**: [[keywords/Vital Sign Forecasting|Vital Sign Forecasting]], [[keywords/Reconstruction Uncertainty Estimate|Reconstruction Uncertainty Estimate]]
 
 ## 🔗 유사한 논문
 - [[Post-Hoc_Split-Point_Self-Consistency_Verification_for_Efficient,_Unified_Quantification_of_Aleatoric_and_Epistemic_Uncertainty_in_Deep_Learning_20250918|Post-Hoc Split-Point Self-Consistency Verification for Efficient, Unified Quantification of Aleatoric and Epistemic Uncertainty in Deep Learning]] (79.9% similar)

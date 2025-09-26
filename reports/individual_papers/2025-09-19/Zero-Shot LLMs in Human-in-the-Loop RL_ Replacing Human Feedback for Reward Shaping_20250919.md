@@ -1,3 +1,36 @@
+---
+keywords:
+  - Reinforcement Learning
+  - Large Language Models
+  - Reward Shaping
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2503.22723
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:16:53.088019",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Reinforcement Learning",
+    "Large Language Models",
+    "Reward Shaping"
+  ],
+  "rejected_keywords": [
+    "Human-in-the-Loop",
+    "Bias Correction"
+  ],
+  "similarity_scores": {
+    "Reinforcement Learning": 0.85,
+    "Large Language Models": 0.8,
+    "Reward Shaping": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Zero-Shot LLMs in Human-in-the-Loop RL: Replacing Human Feedback for Reward Shaping
 
@@ -5,10 +38,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Zero-Shot Learning
+**🔗 Specific Connectable**: [[keywords/Reinforcement Learning|Reinforcement Learning]]
+**⚡ Unique Technical**: [[keywords/Reward Shaping|Reward Shaping]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[FlowRL Matching Reward Distributions for LLM Reasoning]] (84.7% similar)

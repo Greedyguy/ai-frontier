@@ -1,3 +1,35 @@
+---
+keywords:
+  - Large Language Models
+  - Natural Language Processing
+  - Distributed Inference
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2502.09922
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:16:00.266501",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Natural Language Processing",
+    "Distributed Inference"
+  ],
+  "rejected_keywords": [
+    "Serverless Computing"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.9,
+    "Natural Language Processing": 0.85,
+    "Distributed Inference": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # {\lambda}Scale: Enabling Fast Scaling for Serverless Large Language Model Inference
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: RDMA Networks, Distributed Inference
+**🌐 Broad Technical**: [[keywords/Natural Language Processing|Natural Language Processing]]
+**⚡ Unique Technical**: [[keywords/Distributed Inference|Distributed Inference]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[Taming Serverless Cold Starts Through OS Co-Design_20250919|Taming Serverless Cold Starts Through OS Co-Design]] (80.5% similar)

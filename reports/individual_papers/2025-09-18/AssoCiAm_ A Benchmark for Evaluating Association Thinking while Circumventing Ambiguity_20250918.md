@@ -1,3 +1,35 @@
+---
+keywords:
+  - Large Language Models
+  - Artificial General Intelligence
+  - Association Thinking
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.14171
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:39:28.214759",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Artificial General Intelligence",
+    "Association Thinking"
+  ],
+  "rejected_keywords": [
+    "Ambiguity"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Artificial General Intelligence": 0.78,
+    "Association Thinking": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # AssoCiAm: A Benchmark for Evaluating Association Thinking while Circumventing Ambiguity
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Cognition-Association Correlation
+**⚡ Unique Technical**: [[keywords/Association Thinking|association thinking]]
+**🚀 Evolved Concepts**: [[keywords/Artificial General Intelligence|artificial general intelligence]]
 
 ## 🔗 유사한 논문
 - [[Language Models Identify Ambiguities and Exploit Loopholes]] (82.1% similar)

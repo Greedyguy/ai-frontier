@@ -1,3 +1,35 @@
+---
+keywords:
+  - Transformer Architecture
+  - Large Language Models
+  - Computer Vision
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13352
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:40:31.990122",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Transformer Architecture",
+    "Large Language Models",
+    "Computer Vision"
+  ],
+  "rejected_keywords": [
+    "Agentic UAVs"
+  ],
+  "similarity_scores": {
+    "Transformer Architecture": 0.82,
+    "Large Language Models": 0.8,
+    "Computer Vision": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Agentic UAVs: LLM-Driven Autonomy with Integrated Tool-Calling and Cognitive Reasoning
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: LLM-driven Autonomy
+**🌐 Broad Technical**: [[keywords/Computer Vision|YOLOv11 object detection]]
+**🔗 Specific Connectable**: [[keywords/Transformer Architecture|GPT-4 reasoning]], [[keywords/Large Language Models|Large Language Model agents]]
 
 ## 🔗 유사한 논문
 - [[Reinforcement_Learning_for_Autonomous_Point-to-Point_UAV_Navigation_20250918|Reinforcement Learning for Autonomous Point-to-Point UAV Navigation]] (82.9% similar)

@@ -1,3 +1,36 @@
+---
+keywords:
+  - General Data Protection Regulation
+  - Machine Unlearning
+  - Collaborative Filtering
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2508.17076
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:20:41.676475",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "General Data Protection Regulation",
+    "Machine Unlearning",
+    "Collaborative Filtering"
+  ],
+  "rejected_keywords": [
+    "Recommender Systems",
+    "Next-Basket Recommendation"
+  ],
+  "similarity_scores": {
+    "General Data Protection Regulation": 0.8,
+    "Machine Unlearning": 0.78,
+    "Collaborative Filtering": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Towards a Real-World Aligned Benchmark for Unlearning in Recommender Systems
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Sequential Recommendation Unlearning
+**🔗 Specific Connectable**: [[keywords/General Data Protection Regulation|GDPR]], [[keywords/Collaborative Filtering|Collaborative Filtering]]
+**⚡ Unique Technical**: [[keywords/Machine Unlearning|Machine Unlearning]]
 
 ## 🔗 유사한 논문
 - [[Sample Efficient Experience Replay in Non-stationary Environments_20250919|Sample Efficient Experience Replay in Non-stationary Environments]] (78.5% similar)

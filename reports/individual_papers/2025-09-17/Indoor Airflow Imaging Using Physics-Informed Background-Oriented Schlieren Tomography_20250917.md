@@ -1,13 +1,44 @@
+---
+keywords:
+  - Background-Oriented Schlieren Tomography
+  - Neural Networks
+  - Volumetric Indoor Airflow Estimation
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:53:03.316291",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Background-Oriented Schlieren Tomography",
+    "Neural Networks",
+    "Volumetric Indoor Airflow Estimation"
+  ],
+  "rejected_keywords": [],
+  "similarity_scores": {
+    "Background-Oriented Schlieren Tomography": 0.8,
+    "Neural Networks": 0.78,
+    "Volumetric Indoor Airflow Estimation": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Indoor Airflow Imaging Using Physics-Informed Background-Oriented Schlieren Tomography
 
 **Korean Title:** 물리학에 기반한 배경 지향 슐리렌 단층촬영을 이용한 실내 공기 흐름 영상화
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Arjun Teh|Arjun Teh]] [[authors/Wael H. Ali|Wael H. Ali]] [[authors/Joshua Rapp|Joshua Rapp]] [[authors/Hassan Mansour|Hassan Mansour]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]       [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Physics Based Light Rendering
+**🌐 Broad Technical**: [[keywords/Neural Networks|Physics-Informed Neural Network]]
+**⚡ Unique Technical**: [[keywords/Background-Oriented Schlieren Tomography|Background-Oriented Schlieren Tomography]], [[keywords/Volumetric Indoor Airflow Estimation|Volumetric Indoor Airflow Estimation]]
 
 ## 🔗 유사한 논문
 - [[Non-Intrusive Parametrized-Background Data-Weak Reconstruction of Cardiac Displacement Fields from Sparse MRI-like Observations_20250918|Non-Intrusive Parametrized-Background Data-Weak Reconstruction of Cardiac Displacement Fields from Sparse MRI-like Observations]] (77.3% similar)

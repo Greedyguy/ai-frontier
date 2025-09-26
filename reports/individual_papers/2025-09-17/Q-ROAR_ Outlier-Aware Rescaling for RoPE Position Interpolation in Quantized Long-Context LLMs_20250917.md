@@ -1,13 +1,48 @@
+---
+keywords:
+  - Large Language Models
+  - Post-Training Quantization
+  - RoPE Position Interpolation
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:47:24.008760",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Post-Training Quantization",
+    "RoPE Position Interpolation"
+  ],
+  "rejected_keywords": [
+    "Interpolation Pressure",
+    "Tail Inflation Ratios"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Post-Training Quantization": 0.77,
+    "RoPE Position Interpolation": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Q-ROAR: Outlier-Aware Rescaling for RoPE Position Interpolation in Quantized Long-Context LLMs
 
 **Korean Title:** Q-ROAR: 양자화된 장문맥 대형 언어 모델에서 RoPE 위치 보간을 위한 이상치 인식 재스케일링
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Ye Qiao|Ye Qiao]] [[authors/Sitao Huang|Sitao Huang]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]     [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Outlier Aware Rescaling
+**🔗 Specific Connectable**: [[keywords/Post-Training Quantization|Post-Training Quantization]]
+**⚡ Unique Technical**: [[keywords/RoPE Position Interpolation|RoPE Position Interpolation]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[Scalable Multi-Objective Robot Reinforcement Learning through Gradient Conflict Resolution_20250919|Scalable Multi-Objective Robot Reinforcement Learning through Gradient Conflict Resolution]] (80.4% similar)

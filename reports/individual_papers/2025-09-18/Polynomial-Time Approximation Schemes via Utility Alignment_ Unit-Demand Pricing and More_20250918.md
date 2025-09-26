@@ -1,3 +1,36 @@
+---
+keywords:
+  - Polynomial-Time Approximation Schemes
+  - Assortment Optimization
+  - Utility Alignment
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2506.20030
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:16:03.940845",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Polynomial-Time Approximation Schemes",
+    "Assortment Optimization",
+    "Utility Alignment"
+  ],
+  "rejected_keywords": [
+    "Unit-Demand Pricing",
+    "Delegated Choice"
+  ],
+  "similarity_scores": {
+    "Polynomial-Time Approximation Schemes": 0.78,
+    "Assortment Optimization": 0.75,
+    "Utility Alignment": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Polynomial-Time Approximation Schemes via Utility Alignment: Unit-Demand Pricing and More
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Delegated Choice
+**⚡ Unique Technical**: [[keywords/Polynomial-Time Approximation Schemes|polynomial-time approximation schemes]], [[keywords/Assortment Optimization|assortment optimization]]
+**🚀 Evolved Concepts**: [[keywords/Utility Alignment|utility alignment]]
 
 ## 🔗 유사한 논문
 - [[Distributionally_Robust_Equilibria_over_the_Wasserstein_Distance_for_Generalized_Nash_Game_20250918|Distributionally Robust Equilibria over the Wasserstein Distance for Generalized Nash Game]] (80.6% similar)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - Large Language Models
+  - Language-Specific Steering Vectors
+  - Language Confusion
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14814
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:27:24.502025",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Language-Specific Steering Vectors",
+    "Language Confusion"
+  ],
+  "rejected_keywords": [
+    "Natural Language Processing"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Language-Specific Steering Vectors": 0.75,
+    "Language Confusion": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # ReCoVeR the Target Language: Language Steering without Sacrificing Task Performance
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Language Confusion Mitigation
+**⚡ Unique Technical**: [[keywords/Language-Specific Steering Vectors|language-specific steering vectors]], [[keywords/Language Confusion|language confusion]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[Decoupled Proxy Alignment Mitigating Language Prior Conflict for Multimodal Alignment in MLLM]] (84.0% similar)

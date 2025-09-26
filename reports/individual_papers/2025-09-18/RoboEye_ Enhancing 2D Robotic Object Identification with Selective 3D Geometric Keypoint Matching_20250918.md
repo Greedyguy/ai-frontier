@@ -1,13 +1,48 @@
+---
+keywords:
+  - Computer Vision
+  - Transformer Architecture
+  - 3D Geometric Keypoint Matching
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:12:38.670813",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Computer Vision",
+    "Transformer Architecture",
+    "3D Geometric Keypoint Matching"
+  ],
+  "rejected_keywords": [
+    "Vision Transformers",
+    "3D Feature Extractor"
+  ],
+  "similarity_scores": {
+    "Computer Vision": 0.85,
+    "Transformer Architecture": 0.82,
+    "3D Geometric Keypoint Matching": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # RoboEye: Enhancing 2D Robotic Object Identification with Selective 3D Geometric Keypoint Matching
 
 **Korean Title:** RoboEye: 선택적 3D 기하학적 키포인트 매칭을 통한 2D 로봇 객체 식별 향상
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Xingwu Zhang|Xingwu Zhang]] [[authors/Guanxuan Li|Guanxuan Li]] [[authors/Zhuocheng Zhang|Zhuocheng Zhang]] [[authors/Zijun Long|Zijun Long]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]       [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: 3D Geometric Keypoint Matching
+**🌐 Broad Technical**: [[keywords/Computer Vision|Computer Vision]]
+**🔗 Specific Connectable**: [[keywords/Transformer Architecture|Transformer Architecture]]
+**⚡ Unique Technical**: [[keywords/3D Geometric Keypoint Matching|3D Geometric Keypoint Matching]]
 
 ## 🔗 유사한 논문
 - [[PRISM_ Product Retrieval In Shopping Carts using Hybrid Matching_20250919|PRISM Product Retrieval In Shopping Carts using Hybrid Matching]] (82.1% similar)

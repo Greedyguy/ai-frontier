@@ -1,3 +1,35 @@
+---
+keywords:
+  - Deep Learning
+  - Hawks and Doves
+  - Avoidance Game
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2503.11452
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:49:23.076699",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Deep Learning",
+    "Hawks and Doves",
+    "Avoidance Game"
+  ],
+  "rejected_keywords": [
+    "Neural Networks"
+  ],
+  "similarity_scores": {
+    "Deep Learning": 0.85,
+    "Hawks and Doves": 0.72,
+    "Avoidance Game": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Deep Learning Agents Trained For Avoidance Behave Like Hawks And Doves
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Multi-agent Behavior
+**🌐 Broad Technical**: [[keywords/Deep Learning|Deep Learning]]
+**⚡ Unique Technical**: [[keywords/Hawks and Doves|Hawks and Doves]], [[keywords/Avoidance Game|Avoidance Game]]
 
 ## 🔗 유사한 논문
 - [[Reinforcement_Learning_Agent_for_a_2D_Shooter_Game_20250919|Reinforcement Learning Agent for a 2D Shooter Game]] (84.2% similar)

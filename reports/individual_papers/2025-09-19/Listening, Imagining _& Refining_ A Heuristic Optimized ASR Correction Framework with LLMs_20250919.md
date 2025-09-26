@@ -1,3 +1,35 @@
+---
+keywords:
+  - Large Language Models
+  - Speech Recognition
+  - Optimization
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.15095
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:37:23.159485",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Speech Recognition",
+    "Optimization"
+  ],
+  "rejected_keywords": [
+    "Finite State Machine"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.85,
+    "Speech Recognition": 0.8,
+    "Optimization": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Listening, Imagining \& Refining: A Heuristic Optimized ASR Correction Framework with LLMs
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Heuristic Optimized Iterative Correction
+**🌐 Broad Technical**: [[keywords/Optimization|Heuristic Optimization]]
+**🔗 Specific Connectable**: [[keywords/Speech Recognition|Automatic Speech Recognition]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[Opening the Black Box Interpretable LLMs via Semantic Resonance Architecture]] (80.2% similar)

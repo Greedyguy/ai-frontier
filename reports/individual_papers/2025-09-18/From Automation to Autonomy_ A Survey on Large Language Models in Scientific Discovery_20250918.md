@@ -1,3 +1,36 @@
+---
+keywords:
+  - Large Language Models
+  - Autonomous Agents
+  - Human-AI Collaboration
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2505.13259
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:27:54.801600",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Autonomous Agents",
+    "Human-AI Collaboration"
+  ],
+  "rejected_keywords": [
+    "Scientific Discovery",
+    "Ethical Governance"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.9,
+    "Autonomous Agents": 0.87,
+    "Human-AI Collaboration": 0.88
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # From Automation to Autonomy: A Survey on Large Language Models in Scientific Discovery
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Robotic Automation
+**⚡ Unique Technical**: [[keywords/Human-AI Collaboration|Human-AI Collaboration]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]], [[keywords/Autonomous Agents|Autonomous Agents]]
 
 ## 🔗 유사한 논문
 - [[Large_Language_Models_for_Information_Retrieval_A_Survey_20250918|Large Language Models for Information Retrieval: A Survey]] (87.4% similar)

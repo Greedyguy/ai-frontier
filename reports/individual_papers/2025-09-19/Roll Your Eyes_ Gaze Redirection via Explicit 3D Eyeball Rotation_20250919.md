@@ -1,3 +1,35 @@
+---
+keywords:
+  - Neural Radiance Fields
+  - 3D Gaze Redirection
+  - 3D Gaussian Splatting
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2508.06136
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:26:47.505436",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Neural Radiance Fields",
+    "3D Gaze Redirection",
+    "3D Gaussian Splatting"
+  ],
+  "rejected_keywords": [
+    "Computer Vision"
+  ],
+  "similarity_scores": {
+    "Neural Radiance Fields": 0.82,
+    "3D Gaze Redirection": 0.78,
+    "3D Gaussian Splatting": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Roll Your Eyes: Gaze Redirection via Explicit 3D Eyeball Rotation
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: 3D Gaze Redirection
+**🔗 Specific Connectable**: [[keywords/Neural Radiance Fields|Neural Radiance Fields]]
+**⚡ Unique Technical**: [[keywords/3D Gaze Redirection|3D gaze redirection]], [[keywords/3D Gaussian Splatting|3D Gaussian Splatting]]
 
 ## 🔗 유사한 논문
 - [[Lightweight_Gradient-Aware_Upscaling_of_3D_Gaussian_Splatting_Images_20250918|Lightweight Gradient-Aware Upscaling of 3D Gaussian Splatting Images]] (82.1% similar)

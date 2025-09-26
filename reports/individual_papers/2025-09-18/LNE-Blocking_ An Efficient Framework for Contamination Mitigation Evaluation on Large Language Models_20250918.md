@@ -1,13 +1,46 @@
+---
+keywords:
+  - Large Language Models
+  - Contamination Detection
+  - Data Contamination
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:23:25.183618",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Contamination Detection",
+    "Data Contamination"
+  ],
+  "rejected_keywords": [
+    "Natural Language Processing"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Contamination Detection": 0.72,
+    "Data Contamination": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # LNE-Blocking: An Efficient Framework for Contamination Mitigation Evaluation on Large Language Models
 
 **Korean Title:** LNE-Blocking: 대형 언어 모델에서 오염 완화 평가를 위한 효율적인 프레임워크
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Ruijie Hou|Ruijie Hou]] [[authors/Yueyang Jiao|Yueyang Jiao]] [[authors/Hanxu Hu|Hanxu Hu]] [[authors/Yingming Li|Yingming Li]] [[authors/Wai Lam|Wai Lam]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Contamination Mitigation
+**⚡ Unique Technical**: [[keywords/Contamination Detection|Contamination Detection]], [[keywords/Data Contamination|Data Contamination]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[DetectAnyLLM_ Towards Generalizable and Robust Detection of Machine-Generated Text Across Domains and Models_20250919|DetectAnyLLM Towards Generalizable and Robust Detection of Machine-Generated Text Across Domains and Models]] (84.0% similar)

@@ -1,13 +1,44 @@
+---
+keywords:
+  - Optimization
+  - Adaptive Optimization
+  - Stochastic Oracle
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:09:15.275076",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Optimization",
+    "Adaptive Optimization",
+    "Stochastic Oracle"
+  ],
+  "rejected_keywords": [],
+  "similarity_scores": {
+    "Optimization": 0.85,
+    "Adaptive Optimization": 0.7,
+    "Stochastic Oracle": 0.65
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Stochastic Adaptive Gradient Descent Without Descent
 
 **Korean Title:** 확률적 적응 경사 하강법 없이 하강하기
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Jean-François Aujol|Jean-François Aujol]] [[authors/Jérémie Bigot|Jérémie Bigot]] [[authors/Camille Castera|Camille Castera]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]      [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Adaptive Step-size Strategy
+**🌐 Broad Technical**: [[keywords/Optimization|stochastic gradient descent]]
+**⚡ Unique Technical**: [[keywords/Adaptive Optimization|adaptive step-size strategy]], [[keywords/Stochastic Oracle|first-order stochastic oracle]]
 
 ## 🔗 유사한 논문
 - [[Data-Driven Distributed Optimization via Aggregative Tracking and Deep-Learning_20250918|Data-Driven Distributed Optimization via Aggregative Tracking and Deep-Learning]] (79.2% similar)

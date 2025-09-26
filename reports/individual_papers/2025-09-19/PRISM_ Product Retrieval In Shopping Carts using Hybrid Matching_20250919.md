@@ -1,3 +1,36 @@
+---
+keywords:
+  - Product Retrieval
+  - Computer Vision
+  - Vision-Language Model
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14985
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:29:33.239823",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Product Retrieval",
+    "Computer Vision",
+    "Vision-Language Model"
+  ],
+  "rejected_keywords": [
+    "Pixel-wise Matching",
+    "Foundation Models"
+  ],
+  "similarity_scores": {
+    "Product Retrieval": 0.78,
+    "Computer Vision": 0.85,
+    "Vision-Language Model": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # PRISM: Product Retrieval In Shopping Carts using Hybrid Matching
 
@@ -5,10 +38,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Hybrid Matching
+**🌐 Broad Technical**: [[keywords/Computer Vision|Computer Vision]]
+**⚡ Unique Technical**: [[keywords/Product Retrieval|Product Retrieval]]
+**🚀 Evolved Concepts**: [[keywords/Vision-Language Model|Vision-Language Model]]
 
 ## 🔗 유사한 논문
 - [[Chain-of-Thought Re-ranking for Image Retrieval Tasks_20250919|Chain-of-Thought Re-ranking for Image Retrieval Tasks]] (81.4% similar)

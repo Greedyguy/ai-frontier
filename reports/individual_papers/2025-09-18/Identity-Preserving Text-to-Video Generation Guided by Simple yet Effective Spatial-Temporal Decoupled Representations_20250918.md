@@ -1,3 +1,36 @@
+---
+keywords:
+  - Identity-preserving Text-to-Video Generation
+  - Image-to-Video Generation
+  - Text-to-Image Generation
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2507.04705
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:25:43.110842",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Identity-preserving Text-to-Video Generation",
+    "Image-to-Video Generation",
+    "Text-to-Image Generation"
+  ],
+  "rejected_keywords": [
+    "Spatial-Temporal Decoupled Framework",
+    "Semantic Prompt Optimization"
+  ],
+  "similarity_scores": {
+    "Identity-preserving Text-to-Video Generation": 0.8,
+    "Image-to-Video Generation": 0.77,
+    "Text-to-Image Generation": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Identity-Preserving Text-to-Video Generation Guided by Simple yet Effective Spatial-Temporal Decoupled Representations
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Stage-wise Decoupled Generation
+**🔗 Specific Connectable**: [[keywords/Image-to-Video Generation|image-to-video stage]], [[keywords/Text-to-Image Generation|text-to-image stage]]
+**⚡ Unique Technical**: [[keywords/Identity-preserving Text-to-Video Generation|Identity-preserving text-to-video generation]]
 
 ## 🔗 유사한 논문
 - [[Iterative_Prompt_Refinement_for_Safer_Text-to-Image_Generation_20250918|Iterative Prompt Refinement for Safer Text-to-Image Generation]] (81.9% similar)

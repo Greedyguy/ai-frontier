@@ -1,3 +1,35 @@
+---
+keywords:
+  - Reinforcement Learning
+  - Vehicle-to-Infrastructure Communications
+  - Multi-Agent Proximal Policy Optimization
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.15099
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:47:58.767407",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Reinforcement Learning",
+    "Vehicle-to-Infrastructure Communications",
+    "Multi-Agent Proximal Policy Optimization"
+  ],
+  "rejected_keywords": [
+    "Digital Twin"
+  ],
+  "similarity_scores": {
+    "Reinforcement Learning": 0.8,
+    "Vehicle-to-Infrastructure Communications": 0.77,
+    "Multi-Agent Proximal Policy Optimization": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Digital Twin-based Cooperative Autonomous Driving in Smart Intersections: A Multi-Agent Reinforcement Learning Approach
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Proximal Policy Optimization, Behavior Cloning
+**🔗 Specific Connectable**: [[keywords/Reinforcement Learning|Reinforcement Learning]], [[keywords/Vehicle-to-Infrastructure Communications|Vehicle-to-Infrastructure Communications]]
+**⚡ Unique Technical**: [[keywords/Multi-Agent Proximal Policy Optimization|Multi-Agent Proximal Policy Optimization]]
 
 ## 🔗 유사한 논문
 - [[Resolve Highway Conflict in Multi-Autonomous Vehicle Controls with Local State Attention_20250919|Resolve Highway Conflict in Multi-Autonomous Vehicle Controls with Local State Attention]] (85.6% similar)

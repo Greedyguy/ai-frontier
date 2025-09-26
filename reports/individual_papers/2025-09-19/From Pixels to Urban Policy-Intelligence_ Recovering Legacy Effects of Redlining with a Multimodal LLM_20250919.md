@@ -1,3 +1,35 @@
+---
+keywords:
+  - Large Language Models
+  - Computer Vision
+  - Quasi-Experimental Design
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.15132
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:42:53.099089",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Computer Vision",
+    "Quasi-Experimental Design"
+  ],
+  "rejected_keywords": [
+    "Socio-environmental Legacy Effects"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.88,
+    "Computer Vision": 0.8,
+    "Quasi-Experimental Design": 0.82
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # From Pixels to Urban Policy-Intelligence: Recovering Legacy Effects of Redlining with a Multimodal LLM
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Holistic Scene Reasoning
+**🌐 Broad Technical**: [[keywords/Computer Vision|street-view imagery]]
+**🔗 Specific Connectable**: [[keywords/Quasi-Experimental Design|quasi-experimental design]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|multimodal large language model]]
 
 ## 🔗 유사한 논문
 - [[Decoupled Proxy Alignment Mitigating Language Prior Conflict for Multimodal Alignment in MLLM]] (82.6% similar)

@@ -1,13 +1,48 @@
+---
+keywords:
+  - Chain-of-Thought Reasoning
+  - Large Language Models
+  - Adaptive Framework
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:46:29.103853",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Chain-of-Thought Reasoning",
+    "Large Language Models",
+    "Adaptive Framework"
+  ],
+  "rejected_keywords": [
+    "Best-of-N Sampling",
+    "Task-Aware Adaptive Filtering"
+  ],
+  "similarity_scores": {
+    "Chain-of-Thought Reasoning": 0.78,
+    "Large Language Models": 0.8,
+    "Adaptive Framework": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Reasoning Efficiently Through Adaptive Chain-of-Thought Compression: A Self-Optimizing Framework
 
 **Korean Title:** 적응형 사고 과정 압축을 통한 효율적인 추론: 자기 최적화 프레임워크
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Kerui Huang|Kerui Huang]] [[authors/Shuhan Liu|Shuhan Liu]] [[authors/Xing Hu|Xing Hu]] [[authors/Tongtong Xu|Tongtong Xu]] [[authors/Lingfeng Bao|Lingfeng Bao]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Adaptive Chain-of-Thought Compression
+**🌐 Broad Technical**: [[keywords/Large Language Models|Large Language Models]]
+**⚡ Unique Technical**: [[keywords/Chain-of-Thought Reasoning|Chain-of-Thought reasoning]]
+**🚀 Evolved Concepts**: [[keywords/Adaptive Framework|adaptive framework]]
 
 ## 🔗 유사한 논문
 - [[Early Stopping Chain-of-thoughts in Large Language Models_20250918|Early Stopping Chain-of-thoughts in Large Language Models]] (89.4% similar)

@@ -1,13 +1,46 @@
+---
+keywords:
+  - Continual Learning
+  - Electroencephalography
+  - Personalized Seizure Detection
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:48:13.837291",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Continual Learning",
+    "Electroencephalography",
+    "Personalized Seizure Detection"
+  ],
+  "rejected_keywords": [
+    "Deep Learning"
+  ],
+  "similarity_scores": {
+    "Continual Learning": 0.82,
+    "Electroencephalography": 0.78,
+    "Personalized Seizure Detection": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Personalization on a Budget: Minimally-Labeled Continual Learning for Resource-Efficient Seizure Detection
 
 **Korean Title:** 예산 내 개인화: 자원 효율적인 발작 감지를 위한 최소 라벨 지속 학습
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Amirhossein Shahbazinia|Amirhossein Shahbazinia]] [[authors/Jonathan Dan|Jonathan Dan]] [[authors/Jose A. Miranda|Jose A. Miranda]] [[authors/Giovanni Ansaloni|Giovanni Ansaloni]] [[authors/David Atienza|David Atienza]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Personalized Seizure Detection
+**🔗 Specific Connectable**: [[keywords/Continual Learning|continual learning]]
+**⚡ Unique Technical**: [[keywords/Electroencephalography|electroencephalography]], [[keywords/Personalized Seizure Detection|personalized seizure detection]]
 
 ## 🔗 유사한 논문
 - [[Explaining deep learning for ECG using time-localized clusters_20250918|Explaining deep learning for ECG using time-localized clusters]] (81.2% similar)

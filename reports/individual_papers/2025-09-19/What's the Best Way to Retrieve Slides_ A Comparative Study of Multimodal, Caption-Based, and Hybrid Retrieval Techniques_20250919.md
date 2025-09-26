@@ -1,3 +1,35 @@
+---
+keywords:
+  - Vision-Language Models
+  - Multi-Modal Learning
+  - Hybrid Retrieval Techniques
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.15211
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:17:34.855879",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Vision-Language Models",
+    "Multi-Modal Learning",
+    "Hybrid Retrieval Techniques"
+  ],
+  "rejected_keywords": [
+    "Reciprocal Rank Fusion"
+  ],
+  "similarity_scores": {
+    "Vision-Language Models": 0.88,
+    "Multi-Modal Learning": 0.85,
+    "Hybrid Retrieval Techniques": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # What's the Best Way to Retrieve Slides? A Comparative Study of Multimodal, Caption-Based, and Hybrid Retrieval Techniques
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Vision-Language Models
+**⚡ Unique Technical**: [[keywords/Hybrid Retrieval Techniques|Hybrid Retrieval Techniques]]
+**🚀 Evolved Concepts**: [[keywords/Vision-Language Models|Vision-Language Models]], [[keywords/Multi-Modal Learning|Multimodal Retrieval]]
 
 ## 🔗 유사한 논문
 - [[Auto-Slides An Interactive Multi-Agent System for Creating and Customizing Research Presentations]] (79.9% similar)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - Music Information Retrieval
+  - User-Item Interaction Data
+  - Genre Classification
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14891
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:32:35.712230",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Music Information Retrieval",
+    "User-Item Interaction Data",
+    "Genre Classification"
+  ],
+  "rejected_keywords": [
+    "Multi-Modal Learning"
+  ],
+  "similarity_scores": {
+    "Music Information Retrieval": 0.8,
+    "User-Item Interaction Data": 0.79,
+    "Genre Classification": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Music4All A+A: A Multimodal Dataset for Music Information Retrieval Tasks
 
@@ -5,10 +37,10 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Multimodal Music Recommendation
+**⚡ Unique Technical**: [[keywords/Music Information Retrieval|Music Information Retrieval]], [[keywords/User-Item Interaction Data|user--item interaction data]], [[keywords/Genre Classification|genre classification]]
 
 ## 🔗 유사한 논문
 - [[Two Web Toolkits for Multimodal Piano Performance Dataset Acquisition and Fingering Annotation_20250919|Two Web Toolkits for Multimodal Piano Performance Dataset Acquisition and Fingering Annotation]] (79.7% similar)

@@ -1,13 +1,47 @@
+---
+keywords:
+  - TFMAdapter
+  - Foundation Models
+  - Gaussian Process
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:44:52.050012",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "TFMAdapter",
+    "Foundation Models",
+    "Gaussian Process"
+  ],
+  "rejected_keywords": [
+    "Covariates"
+  ],
+  "similarity_scores": {
+    "TFMAdapter": 0.82,
+    "Foundation Models": 0.78,
+    "Gaussian Process": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # TFMAdapter: Lightweight Instance-Level Adaptation of Foundation Models for Forecasting with Covariates
 
 **Korean Title:** TFMAdapter: 공변량을 활용한 예측을 위한 기초 모델의 경량 인스턴스 수준 적응
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Afrin Dange|Afrin Dange]] [[authors/Sunita Sarawagi|Sunita Sarawagi]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]     [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Instance-Level Adaptation
+**🔗 Specific Connectable**: [[keywords/Gaussian Process|Gaussian Process regressor]]
+**⚡ Unique Technical**: [[keywords/TFMAdapter|TFMAdapter]]
+**🚀 Evolved Concepts**: [[keywords/Foundation Models|Time Series Foundation Models]]
 
 ## 🔗 유사한 논문
 - [[Super-Linear_ A Lightweight Pretrained Mixture of Linear Experts for Time Series Forecasting_20250918|Super-Linear A Lightweight Pretrained Mixture of Linear Experts for Time Series Forecasting]] (79.5% similar)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - Divergent-Convergent Reasoning
+  - Large Language Models
+  - Zero-shot Event Detection
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2506.05128
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:48:32.710580",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Divergent-Convergent Reasoning",
+    "Large Language Models",
+    "Zero-shot Event Detection"
+  ],
+  "rejected_keywords": [
+    "Transfer Learning"
+  ],
+  "similarity_scores": {
+    "Divergent-Convergent Reasoning": 0.85,
+    "Large Language Models": 0.82,
+    "Zero-shot Event Detection": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # DiCoRe: Enhancing Zero-shot Event Detection via Divergent-Convergent LLM Reasoning
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Zero-shot Learning, Finite-state Machine
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Large Language Models]]
+**⚡ Unique Technical**: [[keywords/Divergent-Convergent Reasoning|Divergent-Convergent Reasoning]], [[keywords/Zero-shot Event Detection|Zero-shot Event Detection]]
 
 ## 🔗 유사한 논문
 - [[SNaRe Domain-aware Data Generation for Low-Resource Event Detection]] (81.7% similar)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - Distributed Manipulator Systems
+  - Flexible Surface Manipulation
+  - Origami-Inspired Robotics
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13998
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:28:28.442790",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Distributed Manipulator Systems",
+    "Flexible Surface Manipulation",
+    "Origami-Inspired Robotics"
+  ],
+  "rejected_keywords": [
+    "Actuator Arrays"
+  ],
+  "similarity_scores": {
+    "Distributed Manipulator Systems": 0.78,
+    "Flexible Surface Manipulation": 0.75,
+    "Origami-Inspired Robotics": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Flexible and Foldable: Workspace Analysis and Object Manipulation Using a Soft, Interconnected, Origami-Inspired Actuator Array
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Flexible Manipulation Surface
+**⚡ Unique Technical**: [[keywords/Distributed Manipulator Systems|Distributed manipulator systems]], [[keywords/Origami-Inspired Robotics|Origami-inspired robotic tiles]]
+**🚀 Evolved Concepts**: [[keywords/Flexible Surface Manipulation|Flexible surface manipulation]]
 
 ## 🔗 유사한 논문
 - [[One-Step_Model_Predictive_Path_Integral_for_Manipulator_Motion_Planning_Using_Configuration_Space_Distance_Fields_20250918|One-Step Model Predictive Path Integral for Manipulator Motion Planning Using Configuration Space Distance Fields]] (82.0% similar)

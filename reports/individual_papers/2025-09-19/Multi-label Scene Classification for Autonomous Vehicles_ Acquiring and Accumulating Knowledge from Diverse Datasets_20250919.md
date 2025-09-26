@@ -1,3 +1,36 @@
+---
+keywords:
+  - Autonomous Vehicles
+  - Multi-label Scene Classification
+  - Consistency-based Active Learning
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2506.17101
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:32:50.665789",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Autonomous Vehicles",
+    "Multi-label Scene Classification",
+    "Consistency-based Active Learning"
+  ],
+  "rejected_keywords": [
+    "Knowledge Acquisition and Accumulation",
+    "Driving Scene Identification dataset"
+  ],
+  "similarity_scores": {
+    "Autonomous Vehicles": 0.82,
+    "Multi-label Scene Classification": 0.78,
+    "Consistency-based Active Learning": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Multi-label Scene Classification for Autonomous Vehicles: Acquiring and Accumulating Knowledge from Diverse Datasets
 
@@ -5,10 +38,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Multi-label Scene Classification
+**🌐 Broad Technical**: [[keywords/Autonomous Vehicles|Autonomous Vehicles]]
+**⚡ Unique Technical**: [[keywords/Multi-label Scene Classification|Multi-label Scene Classification]]
+**🚀 Evolved Concepts**: [[keywords/Consistency-based Active Learning|Consistency-based Active Learning]]
 
 ## 🔗 유사한 논문
 - [[Multimodal Knowledge Distillation for Egocentric Action Recognition Robust to Missing Modalities_20250919|Multimodal Knowledge Distillation for Egocentric Action Recognition Robust to Missing Modalities]] (80.6% similar)

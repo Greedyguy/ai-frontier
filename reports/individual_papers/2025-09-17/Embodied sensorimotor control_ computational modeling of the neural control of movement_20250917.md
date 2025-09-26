@@ -1,13 +1,46 @@
+---
+keywords:
+  - Sensorimotor Control
+  - Optimal Control Theory
+  - Neural Population Activity
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:55:31.847930",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Sensorimotor Control",
+    "Optimal Control Theory",
+    "Neural Population Activity"
+  ],
+  "rejected_keywords": [
+    "Musculoskeletal Dynamics"
+  ],
+  "similarity_scores": {
+    "Sensorimotor Control": 0.8,
+    "Optimal Control Theory": 0.82,
+    "Neural Population Activity": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Embodied sensorimotor control: computational modeling of the neural control of movement
 
 **Korean Title:** 움직임의 신경 제어에 대한 계산 모델링: 체화된 감각운동 제어
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Muhammad Noman Almani|Muhammad Noman Almani]] [[authors/John Lazzari|John Lazzari]] [[authors/Jeff Walker|Jeff Walker]] [[authors/Shreya Saxena|Shreya Saxena]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]       [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Multi-regional Circuit Models
+**🔗 Specific Connectable**: [[keywords/Optimal Control Theory|optimal control theory]]
+**⚡ Unique Technical**: [[keywords/Sensorimotor Control|sensorimotor control]], [[keywords/Neural Population Activity|neural population activity]]
 
 ## 🔗 유사한 논문
 - [[The Role of Touch_ Towards Optimal Tactile Sensing Distribution in Anthropomorphic Hands for Dexterous In-Hand Manipulation_20250918|The Role of Touch Towards Optimal Tactile Sensing Distribution in Anthropomorphic Hands for Dexterous In-Hand Manipulation]] (81.1% similar)

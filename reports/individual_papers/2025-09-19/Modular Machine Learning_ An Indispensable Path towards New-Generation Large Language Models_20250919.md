@@ -1,3 +1,36 @@
+---
+keywords:
+  - Large Language Models
+  - Modular Machine Learning
+  - Neuro-Symbolic Learning
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2504.20020
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:33:54.226197",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Modular Machine Learning",
+    "Neuro-Symbolic Learning"
+  ],
+  "rejected_keywords": [
+    "Disentangled Representation Learning",
+    "Neural Architecture Search"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.85,
+    "Modular Machine Learning": 0.8,
+    "Neuro-Symbolic Learning": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Modular Machine Learning: An Indispensable Path towards New-Generation Large Language Models
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Modular Reasoning
+**⚡ Unique Technical**: [[keywords/Modular Machine Learning|Modular Machine Learning]], [[keywords/Neuro-Symbolic Learning|Neuro-Symbolic Learning]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[LLM-I LLMs are Naturally Interleaved Multimodal Creators]] (87.1% similar)

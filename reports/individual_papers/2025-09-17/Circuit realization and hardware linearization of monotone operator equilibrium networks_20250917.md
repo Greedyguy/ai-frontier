@@ -1,13 +1,46 @@
+---
+keywords:
+  - Neural Networks
+  - Hardware Linearization
+  - Diode ReLU
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:59:22.711550",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Neural Networks",
+    "Hardware Linearization",
+    "Diode ReLU"
+  ],
+  "rejected_keywords": [
+    "Resistor-Diode Networks"
+  ],
+  "similarity_scores": {
+    "Neural Networks": 0.78,
+    "Hardware Linearization": 0.7,
+    "Diode ReLU": 0.68
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Circuit realization and hardware linearization of monotone operator equilibrium networks
 
 **Korean Title:** 단조 연산자 평형 네트워크의 회로 구현 및 하드웨어 선형화
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Thomas Chaffey|Thomas Chaffey]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]    [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Hardware Linearization
+**🌐 Broad Technical**: [[keywords/Neural Networks|ReLU monotone operator equilibrium network]]
+**⚡ Unique Technical**: [[keywords/Hardware Linearization|hardware linearization]], [[keywords/Diode ReLU|diode ReLU]]
 
 ## 🔗 유사한 논문
 - [[A Neural Network for the Identical Kuramoto Equation_ Architectural Considerations and Performance Evaluation_20250917|A Neural Network for the Identical Kuramoto Equation Architectural Considerations and Performance Evaluation]] (80.6% similar)

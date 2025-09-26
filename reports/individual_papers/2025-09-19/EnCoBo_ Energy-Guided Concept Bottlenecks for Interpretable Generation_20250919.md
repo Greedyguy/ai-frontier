@@ -1,3 +1,35 @@
+---
+keywords:
+  - Diffusion Models
+  - Energy-Based Models
+  - Generative Models
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2507.08334
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:46:50.364015",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Diffusion Models",
+    "Energy-Based Models",
+    "Generative Models"
+  ],
+  "rejected_keywords": [
+    "Concept Bottleneck Models"
+  ],
+  "similarity_scores": {
+    "Diffusion Models": 0.79,
+    "Energy-Based Models": 0.77,
+    "Generative Models": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # EnCoBo: Energy-Guided Concept Bottlenecks for Interpretable Generation
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Concept Bottleneck Models
+**🔗 Specific Connectable**: [[keywords/Energy-Based Models|Energy-Based Framework]], [[keywords/Generative Models|Generative Models]]
+**🚀 Evolved Concepts**: [[keywords/Diffusion Models|Diffusion-Scheduled Energy Functions]]
 
 ## 🔗 유사한 논문
 - [[Early_Stopping_Chain-of-thoughts_in_Large_Language_Models_20250918|Early Stopping Chain-of-thoughts in Large Language Models]] (78.7% similar)

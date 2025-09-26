@@ -45,13 +45,16 @@ class DuplicateManager:
 
     def _load_existing_papers(self) -> None:
         """기존 논문 파일들을 스캔하여 메타데이터 로드"""
+        # 기존 논문 딕셔너리 초기화
+        self.existing_papers = {}
+
         if not self.reports_dir.exists():
             logger.info(f"Reports directory {self.reports_dir} does not exist")
             return
 
         logger.info(f"Scanning existing papers in {self.reports_dir}")
 
-        for md_file in self.reports_dir.glob("*.md"):
+        for md_file in self.reports_dir.rglob("*.md"):
             try:
                 paper_info = self._extract_paper_info(md_file)
                 if paper_info:

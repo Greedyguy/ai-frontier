@@ -1,3 +1,35 @@
+---
+keywords:
+  - Large Language Models
+  - Chain-of-thought Reasoning
+  - Inference Optimization
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.14004
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:31:40.620291",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Chain-of-thought Reasoning",
+    "Inference Optimization"
+  ],
+  "rejected_keywords": [
+    "Self-consistency Prompting"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Chain-of-thought Reasoning": 0.78,
+    "Inference Optimization": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Early Stopping Chain-of-thoughts in Large Language Models
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Self-consistency Prompting
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Large Language Models]]
+**⚡ Unique Technical**: [[keywords/Chain-of-thought Reasoning|Chain-of-thoughts]]
+**🚀 Evolved Concepts**: [[keywords/Inference Optimization|Inference-time method]]
 
 ## 🔗 유사한 논문
 - [[Reasoning Efficiently Through Adaptive Chain-of-Thought Compression: A Self-Optimizing Framework]] (90.1% similar)

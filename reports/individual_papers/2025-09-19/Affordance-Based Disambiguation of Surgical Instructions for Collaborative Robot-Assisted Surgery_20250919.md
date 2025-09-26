@@ -1,3 +1,36 @@
+---
+keywords:
+  - Affordance-Based Reasoning
+  - Robotic Surgical Assistant
+  - Multi-Modal Learning
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14967
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:57:13.547725",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Affordance-Based Reasoning",
+    "Robotic Surgical Assistant",
+    "Multi-Modal Learning"
+  ],
+  "rejected_keywords": [
+    "Conformal Prediction",
+    "Human-Robot Interaction"
+  ],
+  "similarity_scores": {
+    "Affordance-Based Reasoning": 0.82,
+    "Robotic Surgical Assistant": 0.78,
+    "Multi-Modal Learning": 0.79
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Affordance-Based Disambiguation of Surgical Instructions for Collaborative Robot-Assisted Surgery
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Affordance Based Reasoning
+**🔗 Specific Connectable**: [[keywords/Multi-Modal Learning|multimodal vision-language model]]
+**⚡ Unique Technical**: [[keywords/Affordance-Based Reasoning|affordance-based reasoning]], [[keywords/Robotic Surgical Assistant|robotic surgical assistant]]
 
 ## 🔗 유사한 논문
 - [[Intelligent Healthcare Imaging Platform An VLM-Based Framework for Automated Medical Image Analysis and Clinical Report Generation]] (81.4% similar)

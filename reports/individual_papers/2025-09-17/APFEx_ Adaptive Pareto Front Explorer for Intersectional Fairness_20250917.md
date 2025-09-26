@@ -1,13 +1,46 @@
+---
+keywords:
+  - Differentiable Intersectional Fairness Metrics
+  - Intersectional Fairness
+  - Pareto-Optimal Solutions
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 23:02:20.888365",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Differentiable Intersectional Fairness Metrics",
+    "Intersectional Fairness",
+    "Pareto-Optimal Solutions"
+  ],
+  "rejected_keywords": [
+    "Multi-Objective Optimization"
+  ],
+  "similarity_scores": {
+    "Differentiable Intersectional Fairness Metrics": 0.82,
+    "Intersectional Fairness": 0.78,
+    "Pareto-Optimal Solutions": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # APFEx: Adaptive Pareto Front Explorer for Intersectional Fairness
 
 **Korean Title:** APFEx: 교차적 공정성을 위한 적응형 파레토 전선 탐색기
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Priyobrata Mondal|Priyobrata Mondal]] [[authors/Faizanuddin Ansari|Faizanuddin Ansari]] [[authors/Swagatam Das|Swagatam Das]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]      [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Intersectional Fairness
+**🌐 Broad Technical**: [[keywords/Pareto-Optimal Solutions|Pareto-optimal solutions]]
+**⚡ Unique Technical**: [[keywords/Differentiable Intersectional Fairness Metrics|differentiable intersectional fairness metrics]], [[keywords/Intersectional Fairness|intersectional fairness]]
 
 ## 🔗 유사한 논문
 - [[CausalPre_ Scalable and Effective Data Pre-processing for Causal Fairness_20250919|CausalPre Scalable and Effective Data Pre-processing for Causal Fairness]] (82.8% similar)

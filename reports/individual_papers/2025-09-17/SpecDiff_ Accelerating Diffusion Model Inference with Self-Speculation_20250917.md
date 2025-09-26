@@ -1,13 +1,47 @@
+---
+keywords:
+  - Diffusion Models
+  - Self-Speculation
+  - Efficient Diffusion Model Inference
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:45:27.336531",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Diffusion Models",
+    "Self-Speculation",
+    "Efficient Diffusion Model Inference"
+  ],
+  "rejected_keywords": [
+    "Feature Caching"
+  ],
+  "similarity_scores": {
+    "Diffusion Models": 0.9,
+    "Self-Speculation": 0.85,
+    "Efficient Diffusion Model Inference": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # SpecDiff: Accelerating Diffusion Model Inference with Self-Speculation
 
 **Korean Title:** SpecDiff: 자기 추측을 통한 확산 모델 추론 가속화
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Jiayi Pan|Jiayi Pan]] [[authors/Jiaming Xu|Jiaming Xu]] [[authors/Yongkang Zhou|Yongkang Zhou]] [[authors/Guohao Dai|Guohao Dai]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]       [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Self-Speculation
+**🔗 Specific Connectable**: [[keywords/Diffusion Models|Diffusion Model]]
+**⚡ Unique Technical**: [[keywords/Self-Speculation|Self-Speculation]]
+**🚀 Evolved Concepts**: [[keywords/Efficient Diffusion Model Inference|Efficient Diffusion Model Inference]]
 
 ## 🔗 유사한 논문
 - [[Fast and Fluent Diffusion Language Models via Convolutional Decoding and Rejective Fine-tuning_20250918|Fast and Fluent Diffusion Language Models via Convolutional Decoding and Rejective Fine-tuning]] (82.0% similar)

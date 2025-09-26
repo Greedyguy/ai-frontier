@@ -1,3 +1,35 @@
+---
+keywords:
+  - Natural Language Processing
+  - Agent Manifests
+  - Agentic Coding Tools
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14744
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:31:48.134801",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Natural Language Processing",
+    "Agent Manifests",
+    "Agentic Coding Tools"
+  ],
+  "rejected_keywords": [
+    "Operational Commands"
+  ],
+  "similarity_scores": {
+    "Natural Language Processing": 0.85,
+    "Agent Manifests": 0.72,
+    "Agentic Coding Tools": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # On the Use of Agentic Coding Manifests: An Empirical Study of Claude Code
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Agentic Coding Tools
+**🌐 Broad Technical**: [[keywords/Natural Language Processing|Natural Language Processing]]
+**⚡ Unique Technical**: [[keywords/Agent Manifests|agent manifests]], [[keywords/Agentic Coding Tools|Agentic coding tools]]
 
 ## 🔗 유사한 논문
 - [[AI Agents with Human-Like Collaborative Tools Adaptive Strategies for Enhanced Problem-Solving]] (78.0% similar)

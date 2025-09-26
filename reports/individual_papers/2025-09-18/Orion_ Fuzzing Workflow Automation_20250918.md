@@ -1,3 +1,35 @@
+---
+keywords:
+  - Large Language Models
+  - Orion Framework
+  - Fuzz Testing
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:17:02.951410",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Orion Framework",
+    "Fuzz Testing"
+  ],
+  "rejected_keywords": [
+    "Software Vulnerabilities"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.9,
+    "Orion Framework": 0.85,
+    "Fuzz Testing": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Orion: Fuzzing Workflow Automation
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Max Bazalii|Max Bazalii]] [[authors/Marius Fleischer|Marius Fleischer]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]     [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔬 Broad Technical**: Fuzz Testing, Software Vulnerabilities
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Large Language Models]]
+**⚡ Unique Technical**: [[keywords/Orion Framework|Orion]], [[keywords/Fuzz Testing|fuzz testing]]
 
 ## 📋 저자 정보
 

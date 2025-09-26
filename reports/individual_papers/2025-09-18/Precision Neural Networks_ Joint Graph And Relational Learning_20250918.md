@@ -1,13 +1,47 @@
+---
+keywords:
+  - Graph Neural Networks
+  - Precision Neural Networks
+  - Covariance Matrix
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:15:16.189162",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Graph Neural Networks",
+    "Precision Neural Networks",
+    "Covariance Matrix"
+  ],
+  "rejected_keywords": [
+    "Optimization"
+  ],
+  "similarity_scores": {
+    "Graph Neural Networks": 0.82,
+    "Precision Neural Networks": 0.78,
+    "Covariance Matrix": 0.65
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Precision Neural Networks: Joint Graph And Relational Learning
 
 **Korean Title:** 정밀 신경망: 그래프 및 관계 학습의 결합
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Andrea Cavallo|Andrea Cavallo]] [[authors/Samuel Rey|Samuel Rey]] [[authors/Antonio G. Marques|Antonio G. Marques]] [[authors/Elvin Isufi|Elvin Isufi]] [[categories/cs.AI|cs.AI]]
+**Links**:      [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Joint Graph and Relational Learning
+**🌐 Broad Technical**: [[keywords/Covariance Matrix|Covariance Matrix]]
+**🔗 Specific Connectable**: [[keywords/Graph Neural Networks|Graph Neural Networks]]
+**⚡ Unique Technical**: [[keywords/Precision Neural Networks|Precision Neural Networks]]
 
 ## 🔗 유사한 논문
 - [[Data-Driven Distributed Optimization via Aggregative Tracking and Deep-Learning_20250918|Data-Driven Distributed Optimization via Aggregative Tracking and Deep-Learning]] (76.8% similar)

@@ -1,13 +1,47 @@
+---
+keywords:
+  - Parametrized-Background Data-Weak
+  - Orthogonal Matching Pursuit
+  - Cardiac Displacement Fields
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:18:01.747201",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Parametrized-Background Data-Weak",
+    "Orthogonal Matching Pursuit",
+    "Cardiac Displacement Fields"
+  ],
+  "rejected_keywords": [
+    "Magnetic Resonance Imaging",
+    "Finite Element Method"
+  ],
+  "similarity_scores": {
+    "Parametrized-Background Data-Weak": 0.8,
+    "Orthogonal Matching Pursuit": 0.78,
+    "Cardiac Displacement Fields": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Non-Intrusive Parametrized-Background Data-Weak Reconstruction of Cardiac Displacement Fields from Sparse MRI-like Observations
 
 **Korean Title:** 희소 MRI 유사 관측으로부터 심장 변위장을 비침습적 매개변수화된 배경 데이터 약한 재구성
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Francesco C. Mantegazza|Francesco C. Mantegazza]] [[authors/Federica Caforio|Federica Caforio]] [[authors/Christoph Augustin|Christoph Augustin]] [[authors/Matthias A. F. Gsell|Matthias A. F. Gsell]] [[authors/Gundolf Haase|Gundolf Haase]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Sparse Measurement Reconstruction
+**🔗 Specific Connectable**: [[keywords/Orthogonal Matching Pursuit|Orthogonal Matching Pursuit algorithm]]
+**⚡ Unique Technical**: [[keywords/Parametrized-Background Data-Weak|Parametrized-Background Data-Weak approach]], [[keywords/Cardiac Displacement Fields|cardiac displacement fields]]
 
 ## 🔗 유사한 논문
 - [[Learning Mechanistic Subtypes of Neurodegeneration with a Physics-Informed Variational Autoencoder Mixture Model_20250918|Learning Mechanistic Subtypes of Neurodegeneration with a Physics-Informed Variational Autoencoder Mixture Model]] (80.1% similar)

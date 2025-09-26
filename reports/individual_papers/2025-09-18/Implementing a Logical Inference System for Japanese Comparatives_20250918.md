@@ -1,3 +1,35 @@
+---
+keywords:
+  - Large Language Models
+  - Logical Inference Systems
+  - Natural Language Processing
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13734
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:25:34.386301",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Logical Inference Systems",
+    "Natural Language Processing"
+  ],
+  "rejected_keywords": [
+    "Compositional Semantics"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Logical Inference Systems": 0.77,
+    "Natural Language Processing": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Implementing a Logical Inference System for Japanese Comparatives
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Japanese NLI
+**🌐 Broad Technical**: [[keywords/Natural Language Processing|Natural Language Inference]]
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Large Language Models]]
+**⚡ Unique Technical**: [[keywords/Logical Inference Systems|logical inference system]]
 
 ## 🔗 유사한 논문
 - [[Explicit Reasoning Makes Better Judges: A Systematic Study on Accuracy, Efficiency, and Robustness]] (76.6% similar)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - Language Server Protocol
+  - Typelang
+  - Modular Language Server Generation
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.15150
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:52:50.415945",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Language Server Protocol",
+    "Typelang",
+    "Modular Language Server Generation"
+  ],
+  "rejected_keywords": [
+    "Variant-Oriented Programming"
+  ],
+  "similarity_scores": {
+    "Language Server Protocol": 0.85,
+    "Typelang": 0.78,
+    "Modular Language Server Generation": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Code Less to Code More: Streamlining Language Server Protocol and Type System Development for Language Families
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Variant Oriented Programming
+**🔗 Specific Connectable**: [[keywords/Language Server Protocol|language server protocol]]
+**⚡ Unique Technical**: [[keywords/Typelang|Typelang]]
+**🚀 Evolved Concepts**: [[keywords/Modular Language Server Generation|modular language server generation]]
 
 ## 🔗 유사한 논문
 - [[An LLM Agentic Approach for Legal-Critical Software A Case Study for Tax Prep Software]] (77.8% similar)

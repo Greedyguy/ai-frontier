@@ -1,3 +1,35 @@
+---
+keywords:
+  - Vision Transformers
+  - Zero-Shot Anomaly Detection
+  - Multi-Modal Learning
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.14084
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:41:33.403062",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Vision Transformers",
+    "Zero-Shot Anomaly Detection",
+    "Multi-Modal Learning"
+  ],
+  "rejected_keywords": [
+    "Anomaly-Aware Calibration Module"
+  ],
+  "similarity_scores": {
+    "Vision Transformers": 0.8,
+    "Zero-Shot Anomaly Detection": 0.78,
+    "Multi-Modal Learning": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # AD-DINOv3: Enhancing DINOv3 for Zero-Shot Anomaly Detection with Anomaly-Aware Calibration
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Anomaly-Aware Calibration
+**🔗 Specific Connectable**: [[keywords/Vision Transformers|DINOv3]]
+**⚡ Unique Technical**: [[keywords/Zero-Shot Anomaly Detection|Zero-Shot Anomaly Detection]]
+**🚀 Evolved Concepts**: [[keywords/Multi-Modal Learning|Multimodal Contrastive Learning]]
 
 ## 🔗 유사한 논문
 - [[Singular_Value_Few-shot_Adaptation_of_Vision-Language_Models_20250918|Singular Value Few-shot Adaptation of Vision-Language Models]] (81.4% similar)

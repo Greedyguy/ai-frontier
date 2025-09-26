@@ -1,3 +1,36 @@
+---
+keywords:
+  - Continual Learning
+  - Catastrophic Forgetting
+  - Transfer Learning
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13211
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:26:24.374485",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Continual Learning",
+    "Catastrophic Forgetting",
+    "Transfer Learning"
+  ],
+  "rejected_keywords": [
+    "Parameter-Efficient Fine-Tuning",
+    "Hierarchical Adapters Merging"
+  ],
+  "similarity_scores": {
+    "Continual Learning": 0.85,
+    "Catastrophic Forgetting": 0.8,
+    "Transfer Learning": 0.82
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # HAM: Hierarchical Adapter Merging for Scalable Continual Learning
 
@@ -5,10 +38,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Dynamic Learning Scenarios
+**🔗 Specific Connectable**: [[keywords/Transfer Learning|Transfer Learning]]
+**⚡ Unique Technical**: [[keywords/Catastrophic Forgetting|Catastrophic Forgetting]]
+**🚀 Evolved Concepts**: [[keywords/Continual Learning|Continual Learning]]
 
 ## 🔗 유사한 논문
 - [[FroM_Frobenius_Norm-Based_Data-Free_Adaptive_Model_Merging_20250918|FroM: Frobenius Norm-Based Data-Free Adaptive Model Merging]] (80.5% similar)

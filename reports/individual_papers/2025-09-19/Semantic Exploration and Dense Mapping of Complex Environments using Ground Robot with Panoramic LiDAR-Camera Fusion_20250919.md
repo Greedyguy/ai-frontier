@@ -1,3 +1,35 @@
+---
+keywords:
+  - Semantic Exploration
+  - LiDAR-Camera Fusion
+  - Dense Semantic Mapping
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2505.22880
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:24:32.243164",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Semantic Exploration",
+    "LiDAR-Camera Fusion",
+    "Dense Semantic Mapping"
+  ],
+  "rejected_keywords": [
+    "Hierarchical Planner"
+  ],
+  "similarity_scores": {
+    "Semantic Exploration": 0.79,
+    "LiDAR-Camera Fusion": 0.78,
+    "Dense Semantic Mapping": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Semantic Exploration and Dense Mapping of Complex Environments using Ground Robot with Panoramic LiDAR-Camera Fusion
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Dense Semantic Mapping
+**⚡ Unique Technical**: [[keywords/LiDAR-Camera Fusion|LiDAR-Camera Fusion]], [[keywords/Dense Semantic Mapping|Dense Semantic Mapping]]
+**🚀 Evolved Concepts**: [[keywords/Semantic Exploration|Semantic Exploration]]
 
 ## 🔗 유사한 논문
 - [[Search-TTA A Multimodal Test-Time Adaptation Framework for Visual Search in the Wild]] (83.6% similar)

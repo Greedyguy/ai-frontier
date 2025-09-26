@@ -1,13 +1,46 @@
+---
+keywords:
+  - Floating-Body Hydrodynamic Neural Networks
+  - Neural ODEs
+  - Hamiltonian and Lagrangian Neural Networks
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:54:38.039961",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Floating-Body Hydrodynamic Neural Networks",
+    "Neural ODEs",
+    "Hamiltonian and Lagrangian Neural Networks"
+  ],
+  "rejected_keywords": [
+    "Fluid-Structure Interaction"
+  ],
+  "similarity_scores": {
+    "Floating-Body Hydrodynamic Neural Networks": 0.85,
+    "Neural ODEs": 0.8,
+    "Hamiltonian and Lagrangian Neural Networks": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Floating-Body Hydrodynamic Neural Networks
 
 **Korean Title:** 부체 유체역학 신경망
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Tianshuo Zhang|Tianshuo Zhang]] [[authors/Wenzhe Zhai|Wenzhe Zhai]] [[authors/Rui Yann|Rui Yann]] [[authors/Jia Gao|Jia Gao]] [[authors/He Cao|He Cao]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Physics Structured Framework
+**🔗 Specific Connectable**: [[keywords/Neural ODEs|Neural ODEs]], [[keywords/Hamiltonian and Lagrangian Neural Networks|Hamiltonian and Lagrangian neural networks]]
+**⚡ Unique Technical**: [[keywords/Floating-Body Hydrodynamic Neural Networks|Floating-Body Hydrodynamic Neural Networks]]
 
 ## 🔗 유사한 논문
 - [[A Neural Network for the Identical Kuramoto Equation_ Architectural Considerations and Performance Evaluation_20250917|A Neural Network for the Identical Kuramoto Equation Architectural Considerations and Performance Evaluation]] (81.1% similar)

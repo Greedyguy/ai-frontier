@@ -1,13 +1,48 @@
+---
+keywords:
+  - Machine Translation
+  - Multilingual Regression Models
+  - COMET Framework
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:52:03.824732",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Machine Translation",
+    "Multilingual Regression Models",
+    "COMET Framework"
+  ],
+  "rejected_keywords": [
+    "Translation Quality Evaluation",
+    "Long-context Data"
+  ],
+  "similarity_scores": {
+    "Machine Translation": 0.8,
+    "Multilingual Regression Models": 0.77,
+    "COMET Framework": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Long-context Reference-based MT Quality Estimation
 
 **Korean Title:** 장문 맥락 참조 기반 기계 번역 품질 추정
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Sami Ul Haq|Sami Ul Haq]] [[authors/Chinonso Cynthia Osuji|Chinonso Cynthia Osuji]] [[authors/Sheila Castilho|Sheila Castilho]] [[authors/Brian Davis|Brian Davis]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]       [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Long-context Data Integration
+**🌐 Broad Technical**: [[keywords/Machine Translation|Machine Translation]]
+**🔗 Specific Connectable**: [[keywords/Multilingual Regression Models|Multilingual Regression Models]]
+**⚡ Unique Technical**: [[keywords/COMET Framework|COMET framework]]
 
 ## 🔗 유사한 논문
 - [[You Are What You Train_ Effects of Data Composition on Training Context-aware Machine Translation Models_20250917|You Are What You Train Effects of Data Composition on Training Context-aware Machine Translation Models]] (82.8% similar)

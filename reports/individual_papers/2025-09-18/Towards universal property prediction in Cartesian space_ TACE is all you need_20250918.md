@@ -1,13 +1,45 @@
+---
+keywords:
+  - Tensor Atomic Cluster Expansion
+  - Tensor Moment Potential
+  - Latent Ewald Summation
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:04:03.530446",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Tensor Atomic Cluster Expansion",
+    "Tensor Moment Potential",
+    "Latent Ewald Summation"
+  ],
+  "rejected_keywords": [
+    "Machine Learning"
+  ],
+  "similarity_scores": {
+    "Tensor Atomic Cluster Expansion": 0.8,
+    "Tensor Moment Potential": 0.75,
+    "Latent Ewald Summation": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Towards universal property prediction in Cartesian space: TACE is all you need
 
 **Korean Title:** 카르테시안 공간에서의 보편적 특성 예측을 향하여: TACE가 당신에게 필요한 전부입니다.
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Zemin Xu|Zemin Xu]] [[authors/Wenbo Xie|Wenbo Xie]] [[authors/Daiqian Xie|Daiqian Xie]] [[authors/P. Hu|P. Hu]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]       [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Cartesian Space Modeling
+**⚡ Unique Technical**: [[keywords/Tensor Atomic Cluster Expansion|Tensor Atomic Cluster Expansion]], [[keywords/Tensor Moment Potential|Tensor Moment Potential]], [[keywords/Latent Ewald Summation|Latent Ewald Summation]]
 
 ## 🔗 유사한 논문
 - [[Physics-Informed GCN-LSTM Framework for Long-Term Forecasting of 2D and 3D Microstructure Evolution_20250918|Physics-Informed GCN-LSTM Framework for Long-Term Forecasting of 2D and 3D Microstructure Evolution]] (79.3% similar)

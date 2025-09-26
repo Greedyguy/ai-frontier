@@ -1,3 +1,35 @@
+---
+keywords:
+  - Graph Neural Networks
+  - Structural Fairness
+  - Community Detection
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2508.15499
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:38:00.855608",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Graph Neural Networks",
+    "Structural Fairness",
+    "Community Detection"
+  ],
+  "rejected_keywords": [
+    "FairGuide"
+  ],
+  "similarity_scores": {
+    "Graph Neural Networks": 0.9,
+    "Structural Fairness": 0.82,
+    "Community Detection": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Let's Grow an Unbiased Community: Guiding the Fairness of Graphs via New Links
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Fairness Guidance
+**🔗 Specific Connectable**: [[keywords/Graph Neural Networks|Graph Neural Networks]], [[keywords/Community Detection|community detection]]
+**🚀 Evolved Concepts**: [[keywords/Structural Fairness|structural fairness]]
 
 ## 🔗 유사한 논문
 - [[GraphTorque Torque-Driven Rewiring Graph Neural Network]] (83.0% similar)

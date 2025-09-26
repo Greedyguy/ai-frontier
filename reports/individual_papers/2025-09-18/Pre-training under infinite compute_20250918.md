@@ -1,13 +1,47 @@
+---
+keywords:
+  - Large Language Models
+  - Pre-Training
+  - Scaling Laws
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:15:25.020235",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Pre-Training",
+    "Scaling Laws"
+  ],
+  "rejected_keywords": [
+    "Ensemble Scaling",
+    "Data Efficiency"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Pre-Training": 0.85,
+    "Scaling Laws": 0.82
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Pre-training under infinite compute
 
 **Korean Title:** 무한 계산에서의 사전 훈련
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Konwoo Kim|Konwoo Kim]] [[authors/Suhas Kotha|Suhas Kotha]] [[authors/Percy Liang|Percy Liang]] [[authors/Tatsunori Hashimoto|Tatsunori Hashimoto]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]       [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Data Efficiency Improvement
+**🔗 Specific Connectable**: [[keywords/Large Language Models|language model]], [[keywords/Scaling Laws|scaling laws]]
+**⚡ Unique Technical**: [[keywords/Pre-Training|pre-training]]
 
 ## 🔗 유사한 논문
 - [[Self-Improving Embodied Foundation Models_20250918|Self-Improving Embodied Foundation Models]] (82.7% similar)

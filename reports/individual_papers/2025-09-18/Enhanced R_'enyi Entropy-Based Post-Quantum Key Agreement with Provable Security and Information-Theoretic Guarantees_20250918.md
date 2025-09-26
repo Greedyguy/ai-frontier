@@ -1,3 +1,11 @@
+---
+keywords:
+  []
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.00104
+---
+
 
 # Enhanced R\'enyi Entropy-Based Post-Quantum Key Agreement with Provable Security and Information-Theoretic Guarantees
 
@@ -5,10 +13,7 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
-
-## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Confidentiality-Preserving Verification
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🔗 유사한 논문
 - [[Learning quantum many-body data locally: A provably scalable framework]] (79.2% similar)

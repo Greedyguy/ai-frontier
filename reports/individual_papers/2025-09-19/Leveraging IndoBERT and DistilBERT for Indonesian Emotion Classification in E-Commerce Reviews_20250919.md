@@ -1,3 +1,36 @@
+---
+keywords:
+  - Data Augmentation
+  - Emotion Classification
+  - IndoBERT
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14611
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:37:37.569725",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Data Augmentation",
+    "Emotion Classification",
+    "IndoBERT"
+  ],
+  "rejected_keywords": [
+    "DistilBERT",
+    "Natural Language Processing"
+  ],
+  "similarity_scores": {
+    "Data Augmentation": 0.82,
+    "Emotion Classification": 0.8,
+    "IndoBERT": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Leveraging IndoBERT and DistilBERT for Indonesian Emotion Classification in E-Commerce Reviews
 
@@ -5,10 +38,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Data Augmentation, Hyperparameter Tuning
+**🌐 Broad Technical**: [[keywords/Data Augmentation|data augmentation]]
+**🔗 Specific Connectable**: [[keywords/Emotion Classification|emotion classification]]
+**⚡ Unique Technical**: [[keywords/IndoBERT|IndoBERT]]
 
 ## 🔗 유사한 논문
 - [[Advancing Conversational AI with Shona Slang A Dataset and Hybrid Model for Digital Inclusion]] (75.8% similar)

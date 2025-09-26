@@ -1,13 +1,48 @@
+---
+keywords:
+  - MOCHA
+  - Vision-Language Models
+  - Few-Shot Learning
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:51:35.121509",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "MOCHA",
+    "Vision-Language Models",
+    "Few-Shot Learning"
+  ],
+  "rejected_keywords": [
+    "Knowledge Distillation",
+    "Object Detection"
+  ],
+  "similarity_scores": {
+    "MOCHA": 0.85,
+    "Vision-Language Models": 0.78,
+    "Few-Shot Learning": 0.79
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # MOCHA: Multi-modal Objects-aware Cross-arcHitecture Alignment
 
 **Korean Title:** MOCHA: 다중 모달 객체 인식 교차 아키텍처 정렬
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Elena Camuffo|Elena Camuffo]] [[authors/Francesco Barbato|Francesco Barbato]] [[authors/Mete Ozay|Mete Ozay]] [[authors/Simone Milani|Simone Milani]] [[authors/Umberto Michieli|Umberto Michieli]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Vision-Language Alignment
+**🔗 Specific Connectable**: [[keywords/Few-Shot Learning|few-shot regimes]]
+**⚡ Unique Technical**: [[keywords/MOCHA|MOCHA]]
+**🚀 Evolved Concepts**: [[keywords/Vision-Language Models|vision-language teacher]]
 
 ## 🔗 유사한 논문
 - [[Multimodal Knowledge Distillation for Egocentric Action Recognition Robust to Missing Modalities_20250919|Multimodal Knowledge Distillation for Egocentric Action Recognition Robust to Missing Modalities]] (84.0% similar)

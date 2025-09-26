@@ -1,13 +1,46 @@
+---
+keywords:
+  - Diffusion Models
+  - Transformer Architecture
+  - Block-Wise Caching
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 23:00:34.251475",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Diffusion Models",
+    "Transformer Architecture",
+    "Block-Wise Caching"
+  ],
+  "rejected_keywords": [
+    "Generative Models"
+  ],
+  "similarity_scores": {
+    "Diffusion Models": 0.9,
+    "Transformer Architecture": 0.85,
+    "Block-Wise Caching": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # BWCache: Accelerating Video Diffusion Transformers through Block-Wise Caching
 
 **Korean Title:** BWCache: 블록 단위 캐싱을 통한 비디오 확산 변환기의 가속화
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Hanshuai Cui|Hanshuai Cui]] [[authors/Zhiqing Tang|Zhiqing Tang]] [[authors/Zhifei Xu|Zhifei Xu]] [[authors/Zhi Yao|Zhi Yao]] [[authors/Wenyi Zeng|Wenyi Zeng]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Sequential Denoising Acceleration
+**🔗 Specific Connectable**: [[keywords/Diffusion Models|Diffusion Transformers]], [[keywords/Transformer Architecture|Transformer Architecture]]
+**⚡ Unique Technical**: [[keywords/Block-Wise Caching|Block-Wise Caching]]
 
 ## 🔗 유사한 논문
 - [[SpecDiff_ Accelerating Diffusion Model Inference with Self-Speculation_20250917|SpecDiff Accelerating Diffusion Model Inference with Self-Speculation]] (81.3% similar)

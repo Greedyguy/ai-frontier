@@ -1,3 +1,35 @@
+---
+keywords:
+  - Code Translation
+  - Large Language Models
+  - Multi-Agent System
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2409.19894
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:10:25.278069",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Code Translation",
+    "Large Language Models",
+    "Multi-Agent System"
+  ],
+  "rejected_keywords": [
+    "Semantic Alignment"
+  ],
+  "similarity_scores": {
+    "Code Translation": 0.78,
+    "Large Language Models": 0.8,
+    "Multi-Agent System": 0.79
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Semantic Alignment-Enhanced Code Translation via an LLM-Based Multi-Agent System
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Multi-agent System
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Large Language Models]], [[keywords/Multi-Agent System|Multi-Agent System]]
+**⚡ Unique Technical**: [[keywords/Code Translation|Code Translation]]
 
 ## 🔗 유사한 논문
 - [[An LLM Agentic Approach for Legal-Critical Software A Case Study for Tax Prep Software]] (84.4% similar)

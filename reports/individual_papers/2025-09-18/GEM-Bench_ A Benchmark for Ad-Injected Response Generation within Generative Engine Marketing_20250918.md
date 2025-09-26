@@ -1,3 +1,35 @@
+---
+keywords:
+  - Generative Engine Marketing
+  - Large Language Models
+  - Ad-Injected Response Generation
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.14221
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:27:31.386466",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Generative Engine Marketing",
+    "Large Language Models",
+    "Ad-Injected Response Generation"
+  ],
+  "rejected_keywords": [
+    "User Satisfaction"
+  ],
+  "similarity_scores": {
+    "Generative Engine Marketing": 0.8,
+    "Large Language Models": 0.78,
+    "Ad-Injected Response Generation": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # GEM-Bench: A Benchmark for Ad-Injected Response Generation within Generative Engine Marketing
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Multi-agent Framework
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Large Language Models]]
+**⚡ Unique Technical**: [[keywords/Generative Engine Marketing|Generative Engine Marketing]], [[keywords/Ad-Injected Response Generation|Ad-Injected Response Generation]]
 
 ## 🔗 유사한 논문
 - [[Mind the Gap: Aligning Knowledge Bases with User Needs to Enhance Mental Health Retrieval]] (75.7% similar)

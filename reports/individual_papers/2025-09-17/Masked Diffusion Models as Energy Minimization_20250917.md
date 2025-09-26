@@ -1,13 +1,47 @@
+---
+keywords:
+  - Diffusion Models
+  - Optimal Transport
+  - Optimization
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:51:10.730463",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Diffusion Models",
+    "Optimal Transport",
+    "Optimization"
+  ],
+  "rejected_keywords": [
+    "Beta Distributions"
+  ],
+  "similarity_scores": {
+    "Diffusion Models": 0.9,
+    "Optimal Transport": 0.8,
+    "Optimization": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Masked Diffusion Models as Energy Minimization
 
 **Korean Title:** 마스크드 확산 모델의 에너지 최소화
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Sitong Chen|Sitong Chen]] [[authors/Shen Nie|Shen Nie]] [[authors/Jiacheng Sun|Jiacheng Sun]] [[authors/Zijin Feng|Zijin Feng]] [[authors/Zhenguo Li|Zhenguo Li]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Energy Inspired Schedules
+**🌐 Broad Technical**: [[keywords/Optimization|energy minimization]]
+**🔗 Specific Connectable**: [[keywords/Diffusion Models|masked diffusion models]]
+**⚡ Unique Technical**: [[keywords/Optimal Transport|discrete optimal transport]]
 
 ## 🔗 유사한 논문
 - [[Masked Feature Modeling Enhances Adaptive Segmentation_20250918|Masked Feature Modeling Enhances Adaptive Segmentation]] (80.9% similar)

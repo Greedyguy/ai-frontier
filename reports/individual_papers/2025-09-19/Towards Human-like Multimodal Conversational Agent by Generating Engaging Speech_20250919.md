@@ -1,3 +1,35 @@
+---
+keywords:
+  - Large Language Models
+  - Paralinguistic Information
+  - Multi-Modal Learning
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14627
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:20:58.345050",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Paralinguistic Information",
+    "Multi-Modal Learning"
+  ],
+  "rejected_keywords": [
+    "MultiSensory Conversation Dataset"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Paralinguistic Information": 0.78,
+    "Multi-Modal Learning": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Towards Human-like Multimodal Conversational Agent by Generating Engaging Speech
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Human-like Conversational Agent
+**🔗 Specific Connectable**: [[keywords/Paralinguistic Information|paralinguistic information]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|multimodal LLMs]], [[keywords/Multi-Modal Learning|multimodal LLM-based model]]
 
 ## 🔗 유사한 논문
 - [[Enhancing Multi-Agent Debate System Performance via Confidence Expression]] (81.4% similar)

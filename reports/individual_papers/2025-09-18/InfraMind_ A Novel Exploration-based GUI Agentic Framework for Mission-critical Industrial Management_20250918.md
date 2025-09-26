@@ -1,3 +1,35 @@
+---
+keywords:
+  - Large Language Models
+  - Industrial Management Systems
+  - Graphical User Interface Agents
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13704
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:25:15.815618",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Industrial Management Systems",
+    "Graphical User Interface Agents"
+  ],
+  "rejected_keywords": [
+    "Robotic Process Automation"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.78,
+    "Industrial Management Systems": 0.74,
+    "Graphical User Interface Agents": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # InfraMind: A Novel Exploration-based GUI Agentic Framework for Mission-critical Industrial Management
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Exploration-based GUI Agentic Framework
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Large Language Model]]
+**⚡ Unique Technical**: [[keywords/Industrial Management Systems|Industrial Management Systems]], [[keywords/Graphical User Interface Agents|Graphical User Interface agents]]
 
 ## 🔗 유사한 논문
 - [[VeriOS Query-Driven Proactive Human-Agent-GUI Interaction for Trustworthy OS Agents]] (80.9% similar)

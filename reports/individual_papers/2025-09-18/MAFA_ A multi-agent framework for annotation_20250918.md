@@ -1,3 +1,36 @@
+---
+keywords:
+  - Multi-Agent Systems
+  - Few-Shot Learning
+  - Attentive Reasoning Queries
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2505.13668
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:20:41.345862",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Multi-Agent Systems",
+    "Few-Shot Learning",
+    "Attentive Reasoning Queries"
+  ],
+  "rejected_keywords": [
+    "FAQ Annotation",
+    "Natural Language Processing"
+  ],
+  "similarity_scores": {
+    "Multi-Agent Systems": 0.85,
+    "Few-Shot Learning": 0.78,
+    "Attentive Reasoning Queries": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # MAFA: A multi-agent framework for annotation
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Structured Reasoning Approach
+**🔗 Specific Connectable**: [[keywords/Few-Shot Learning|few-shot example strategy]]
+**⚡ Unique Technical**: [[keywords/Multi-Agent Systems|multi-agent framework]], [[keywords/Attentive Reasoning Queries|Attentive Reasoning Queries]]
 
 ## 🔗 유사한 논문
 - [[AppAgent v2 Advanced Agent for Flexible Mobile Interactions]] (82.8% similar)

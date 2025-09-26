@@ -1,3 +1,35 @@
+---
+keywords:
+  - Differential Privacy
+  - DP Deployment Registry
+  - Privacy Guarantees
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13509
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:15:29.315728",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Differential Privacy",
+    "DP Deployment Registry",
+    "Privacy Guarantees"
+  ],
+  "rejected_keywords": [
+    "User Study"
+  ],
+  "similarity_scores": {
+    "Differential Privacy": 0.85,
+    "DP Deployment Registry": 0.78,
+    "Privacy Guarantees": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Practitioners' Perspectives on a Differential Privacy Deployment Registry
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Interactive Interface
+**🌐 Broad Technical**: [[keywords/Differential Privacy|Differential Privacy]]
+**🔗 Specific Connectable**: [[keywords/Privacy Guarantees|privacy guarantees]]
+**⚡ Unique Technical**: [[keywords/DP Deployment Registry|DP deployment registry]]
 
 ## 🔗 유사한 논문
 - [[Digital_Privacy_Under_Attack_Challenges_and_Enablers_20250918|Digital Privacy Under Attack: Challenges and Enablers]] (78.4% similar)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - Vision-Language Models
+  - Multi-Modal Learning
+  - Uncertainty Quantification
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.13379
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:21:59.036191",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Vision-Language Models",
+    "Multi-Modal Learning",
+    "Uncertainty Quantification"
+  ],
+  "rejected_keywords": [
+    "Conformal Prediction"
+  ],
+  "similarity_scores": {
+    "Vision-Language Models": 0.88,
+    "Multi-Modal Learning": 0.84,
+    "Uncertainty Quantification": 0.82
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # The Art of Saying "Maybe": A Conformal Lens for Uncertainty Benchmarking in VLMs
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Uncertainty Benchmarking
+**🔗 Specific Connectable**: [[keywords/Uncertainty Quantification|Uncertainty Quantification]]
+**🚀 Evolved Concepts**: [[keywords/Vision-Language Models|Vision-Language Models]], [[keywords/Multi-Modal Learning|Multimodal Systems]]
 
 ## 🔗 유사한 논문
 - [[Visible Yet Unreadable A Systematic Blind Spot of Vision Language Models Across Writing Systems]] (81.4% similar)

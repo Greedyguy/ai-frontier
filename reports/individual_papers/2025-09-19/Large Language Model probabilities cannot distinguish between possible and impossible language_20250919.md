@@ -1,3 +1,35 @@
+---
+keywords:
+  - Large Language Models
+  - Natural Language Processing
+  - Grammaticality Distinction
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.15114
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:38:48.655951",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Natural Language Processing",
+    "Grammaticality Distinction"
+  ],
+  "rejected_keywords": [
+    "Probabilistic Proxies"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.9,
+    "Natural Language Processing": 0.8,
+    "Grammaticality Distinction": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Large Language Model probabilities cannot distinguish between possible and impossible language
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Minimal-pair Surprisal
+**🌐 Broad Technical**: [[keywords/Natural Language Processing|Natural Language Processing]]
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Large Language Models]]
+**⚡ Unique Technical**: [[keywords/Grammaticality Distinction|grammatical-ungrammatical distinction]]
 
 ## 🔗 유사한 논문
 - [[Language Models Identify Ambiguities and Exploit Loopholes]] (85.9% similar)

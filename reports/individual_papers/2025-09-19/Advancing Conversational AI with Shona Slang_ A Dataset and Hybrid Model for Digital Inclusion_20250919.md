@@ -1,3 +1,35 @@
+---
+keywords:
+  - Shona-English Slang Dataset
+  - Hybrid Chatbot
+  - Natural Language Processing
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14249
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:57:29.870258",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Shona-English Slang Dataset",
+    "Hybrid Chatbot",
+    "Natural Language Processing"
+  ],
+  "rejected_keywords": [
+    "Multilingual DistilBERT Classifier"
+  ],
+  "similarity_scores": {
+    "Shona-English Slang Dataset": 0.8,
+    "Hybrid Chatbot": 0.82,
+    "Natural Language Processing": 0.85
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Advancing Conversational AI with Shona Slang: A Dataset and Hybrid Model for Digital Inclusion
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Multilingual DistilBERT, Intent Recognition
+**🌐 Broad Technical**: [[keywords/Natural Language Processing|Natural Language Processing]]
+**⚡ Unique Technical**: [[keywords/Shona-English Slang Dataset|Shona--English slang dataset]], [[keywords/Hybrid Chatbot|Hybrid chatbot]]
 
 ## 🔗 유사한 논문
 - [[AI_as_a_teaching_tool_and_learning_partner_20250918|AI as a teaching tool and learning partner]] (78.5% similar)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - Federated Learning
+  - Communication-Efficient and Privacy-Adaptable Mechanism
+  - Differential Privacy
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2501.12046
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:52:11.100210",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Federated Learning",
+    "Communication-Efficient and Privacy-Adaptable Mechanism",
+    "Differential Privacy"
+  ],
+  "rejected_keywords": [
+    "Rejection-Sampled Universal Quantizer"
+  ],
+  "similarity_scores": {
+    "Federated Learning": 0.95,
+    "Communication-Efficient and Privacy-Adaptable Mechanism": 0.8,
+    "Differential Privacy": 0.82
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Communication-Efficient and Privacy-Adaptable Mechanism for Federated Learning
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Privacy Adaptability
+**🌐 Broad Technical**: [[keywords/Differential Privacy|Differential Privacy]]
+**🔗 Specific Connectable**: [[keywords/Federated Learning|Federated Learning]]
+**⚡ Unique Technical**: [[keywords/Communication-Efficient and Privacy-Adaptable Mechanism|Communication-Efficient and Privacy-Adaptable Mechanism]]
 
 ## 🔗 유사한 논문
 - [[Who to Trust_ Aggregating Client Knowledge in Logit-Based Federated Learning_20250919|Who to Trust Aggregating Client Knowledge in Logit-Based Federated Learning]] (83.7% similar)

@@ -1,13 +1,47 @@
+---
+keywords:
+  - Vision-Language Models
+  - Zero-Shot Learning
+  - Uncertainty Quantification
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:32:08.043689",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Vision-Language Models",
+    "Zero-Shot Learning",
+    "Uncertainty Quantification"
+  ],
+  "rejected_keywords": [
+    "Urban Perception",
+    "Synthetic Images"
+  ],
+  "similarity_scores": {
+    "Vision-Language Models": 0.9,
+    "Zero-Shot Learning": 0.85,
+    "Uncertainty Quantification": 0.82
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Do Vision-Language Models See Urban Scenes as People Do? An Urban Perception Benchmark
 
 **Korean Title:** 비전-언어 모델은 도시 장면을 사람처럼 인식하는가? 도시 인식 벤치마크
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Rashid Mushkani|Rashid Mushkani]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]    [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Participatory Urban Analysis
+**🔗 Specific Connectable**: [[keywords/Zero-Shot Learning|Zero-Shot Setup]], [[keywords/Uncertainty Quantification|Uncertainty-Aware Evaluation]]
+**🚀 Evolved Concepts**: [[keywords/Vision-Language Models|Vision-Language Models]]
 
 ## 🔗 유사한 논문
 - [[From Pixels to Urban Policy-Intelligence_ Recovering Legacy Effects of Redlining with a Multimodal LLM_20250919|From Pixels to Urban Policy-Intelligence Recovering Legacy Effects of Redlining with a Multimodal LLM]] (83.0% similar)

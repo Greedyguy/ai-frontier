@@ -1,13 +1,46 @@
+---
+keywords:
+  - Large Language Models
+  - Linear Probes
+  - Training Order
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:52:46.249033",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Linear Probes",
+    "Training Order"
+  ],
+  "rejected_keywords": [
+    "Named Entities"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Linear Probes": 0.72,
+    "Training Order": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Language models' activations linearly encode training-order recency
 
 **Korean Title:** 언어 모델의 활성화는 훈련 순서의 최신성을 선형적으로 인코딩합니다.
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Dmitrii Krasheninnikov|Dmitrii Krasheninnikov]] [[authors/Richard E. Turner|Richard E. Turner]] [[authors/David Krueger|David Krueger]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]      [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Temporal Encoding in Language Models
+**🔗 Specific Connectable**: [[keywords/Large Language Models|language models]]
+**⚡ Unique Technical**: [[keywords/Linear Probes|linear probes]], [[keywords/Training Order|training order]]
 
 ## 🔗 유사한 논문
 - [[Middo_ Model-Informed Dynamic Data Optimization for Enhanced LLM Fine-Tuning via Closed-Loop Learning_20250919|Middo Model-Informed Dynamic Data Optimization for Enhanced LLM Fine-Tuning via Closed-Loop Learning]] (81.4% similar)

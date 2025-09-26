@@ -1,13 +1,46 @@
+---
+keywords:
+  - Reinforcement Learning
+  - Large Language Models
+  - Optimization
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:09:09.382935",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Reinforcement Learning",
+    "Large Language Models",
+    "Optimization"
+  ],
+  "rejected_keywords": [
+    "Heavy-Tailed Noise"
+  ],
+  "similarity_scores": {
+    "Reinforcement Learning": 0.85,
+    "Large Language Models": 0.82,
+    "Optimization": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Stochastic Bilevel Optimization with Heavy-Tailed Noise
 
 **Korean Title:** 확률적 이층 최적화와 두꺼운 꼬리 잡음
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Zhuanghua Liu|Zhuanghua Liu]] [[authors/Luo Luo|Luo Luo]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]     [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Nonconvex Strongly Concave Minimax Optimization
+**🌐 Broad Technical**: [[keywords/Optimization|bilevel optimization]]
+**🔗 Specific Connectable**: [[keywords/Reinforcement Learning|reinforcement learning]], [[keywords/Large Language Models|large language models]]
 
 ## 🔗 유사한 논문
 - [[Data-Driven Distributed Optimization via Aggregative Tracking and Deep-Learning_20250918|Data-Driven Distributed Optimization via Aggregative Tracking and Deep-Learning]] (83.0% similar)

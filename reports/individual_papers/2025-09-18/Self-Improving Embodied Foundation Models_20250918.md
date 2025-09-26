@@ -1,13 +1,47 @@
+---
+keywords:
+  - Reinforcement Learning
+  - Self-Improvement
+  - Autonomous Skill Acquisition
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:10:35.847492",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Reinforcement Learning",
+    "Self-Improvement",
+    "Autonomous Skill Acquisition"
+  ],
+  "rejected_keywords": [
+    "Foundation Models",
+    "Behavioral Cloning"
+  ],
+  "similarity_scores": {
+    "Reinforcement Learning": 0.85,
+    "Self-Improvement": 0.8,
+    "Autonomous Skill Acquisition": 0.79
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Self-Improving Embodied Foundation Models
 
 **Korean Title:** 자기 개선 구현 기반 모델
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Seyed Kamyar Seyed Ghasemipour|Seyed Kamyar Seyed Ghasemipour]] [[authors/Ayzaan Wahid|Ayzaan Wahid]] [[authors/Jonathan Tompson|Jonathan Tompson]] [[authors/Pannag Sanketi|Pannag Sanketi]] [[authors/Igor Mordatch|Igor Mordatch]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Autonomous Skill Acquisition
+**🔗 Specific Connectable**: [[keywords/Reinforcement Learning|Reinforcement Learning]]
+**⚡ Unique Technical**: [[keywords/Self-Improvement|Self-Improvement]], [[keywords/Autonomous Skill Acquisition|Autonomous Skill Acquisition]]
 
 ## 🔗 유사한 논문
 - [[(P)rior(D)yna(F)low_ A Priori Dynamic Workflow Construction via Multi-Agent Collaboration_20250919|(P)rior(D)yna(F)low A Priori Dynamic Workflow Construction via Multi-Agent Collaboration]] (82.8% similar)

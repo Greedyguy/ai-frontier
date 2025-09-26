@@ -1,13 +1,45 @@
+---
+keywords:
+  - Case Suffix Prediction
+  - Predictive Process Monitoring
+  - Sweep-Line Approach
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:15:07.750893",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Case Suffix Prediction",
+    "Predictive Process Monitoring",
+    "Sweep-Line Approach"
+  ],
+  "rejected_keywords": [
+    "Resource Capacity Planning"
+  ],
+  "similarity_scores": {
+    "Case Suffix Prediction": 0.77,
+    "Predictive Process Monitoring": 0.78,
+    "Sweep-Line Approach": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Predicting Case Suffixes With Activity Start and End Times: A Sweep-Line Based Approach
 
 **Korean Title:** 활동 시작 및 종료 시간을 사용한 사례 접미사 예측: 스윕 라인 기반 접근법
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Muhammad Awais Ali|Muhammad Awais Ali]] [[authors/Marlon Dumas|Marlon Dumas]] [[authors/Fredrik Milani|Fredrik Milani]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]      [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Multi-Model Approach
+**⚡ Unique Technical**: [[keywords/Case Suffix Prediction|Case suffix prediction]], [[keywords/Predictive Process Monitoring|Predictive process monitoring]], [[keywords/Sweep-Line Approach|Sweep-line approach]]
 
 ## 🔗 유사한 논문
 - [[ActivePusher_ Active Learning and Planning with Residual Physics for Nonprehensile Manipulation_20250919|ActivePusher Active Learning and Planning with Residual Physics for Nonprehensile Manipulation]] (75.3% similar)

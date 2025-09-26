@@ -1,3 +1,35 @@
+---
+keywords:
+  - Reinforcement Learning
+  - Transformer Architecture
+  - Genetic Algorithms
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14894
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:37:29.660221",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Reinforcement Learning",
+    "Transformer Architecture",
+    "Genetic Algorithms"
+  ],
+  "rejected_keywords": [
+    "Beauty Hadron Decays"
+  ],
+  "similarity_scores": {
+    "Reinforcement Learning": 0.8,
+    "Transformer Architecture": 0.78,
+    "Genetic Algorithms": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Leveraging Reinforcement Learning, Genetic Algorithms and Transformers for background determination in particle physics
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Sparse Rewards
+**🔗 Specific Connectable**: [[keywords/Reinforcement Learning|Reinforcement Learning]], [[keywords/Transformer Architecture|Transformer Architecture]]
+**⚡ Unique Technical**: [[keywords/Genetic Algorithms|Genetic Algorithms]]
 
 ## 🔗 유사한 논문
 - [[Reinforcement_Learning_Agent_for_a_2D_Shooter_Game_20250919|Reinforcement Learning Agent for a 2D Shooter Game]] (79.9% similar)

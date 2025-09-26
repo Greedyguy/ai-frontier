@@ -1,3 +1,36 @@
+---
+keywords:
+  - Vision-Language Models
+  - Multi-Modal Learning
+  - Domain Adaptation
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.03740
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:09:35.678332",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Vision-Language Models",
+    "Multi-Modal Learning",
+    "Domain Adaptation"
+  ],
+  "rejected_keywords": [
+    "Singular Value Decomposition",
+    "Few-Shot Learning"
+  ],
+  "similarity_scores": {
+    "Vision-Language Models": 0.88,
+    "Multi-Modal Learning": 0.85,
+    "Domain Adaptation": 0.82
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Singular Value Few-shot Adaptation of Vision-Language Models
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Multi-modal Adaptation
+**🔗 Specific Connectable**: [[keywords/Domain Adaptation|Domain Adaptation]]
+**🚀 Evolved Concepts**: [[keywords/Vision-Language Models|Vision-Language Models]], [[keywords/Multi-Modal Learning|Multi-Modal Learning]]
 
 ## 🔗 유사한 논문
 - [[An Empirical Analysis of VLM-based OOD Detection: Mechanisms, Advantages, and Sensitivity]] (81.9% similar)

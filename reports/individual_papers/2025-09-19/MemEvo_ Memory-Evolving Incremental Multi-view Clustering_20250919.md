@@ -1,3 +1,35 @@
+---
+keywords:
+  - Knowledge Consolidation
+  - Incremental Multi-view Clustering
+  - Stability-Plasticity Dilemma
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14544
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:34:41.982797",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Knowledge Consolidation",
+    "Incremental Multi-view Clustering",
+    "Stability-Plasticity Dilemma"
+  ],
+  "rejected_keywords": [
+    "Memory-Evolving"
+  ],
+  "similarity_scores": {
+    "Knowledge Consolidation": 0.8,
+    "Incremental Multi-view Clustering": 0.78,
+    "Stability-Plasticity Dilemma": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # MemEvo: Memory-Evolving Incremental Multi-view Clustering
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Memory Evolving Mechanism
+**🔗 Specific Connectable**: [[keywords/Knowledge Consolidation|Knowledge Consolidation]]
+**⚡ Unique Technical**: [[keywords/Incremental Multi-view Clustering|Incremental Multi-view Clustering]], [[keywords/Stability-Plasticity Dilemma|Stability-Plasticity Dilemma]]
 
 ## 🔗 유사한 논문
 - [[HAM Hierarchical Adapter Merging for Scalable Continual Learning]] (79.6% similar)

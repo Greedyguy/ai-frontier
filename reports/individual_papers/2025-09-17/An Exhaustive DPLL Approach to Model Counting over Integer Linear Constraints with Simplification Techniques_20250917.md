@@ -1,13 +1,46 @@
+---
+keywords:
+  - Mixed Integer Programming
+  - Integer Linear Constraints
+  - Model Counting
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 23:01:36.546445",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Mixed Integer Programming",
+    "Integer Linear Constraints",
+    "Model Counting"
+  ],
+  "rejected_keywords": [
+    "DPLL Architecture"
+  ],
+  "similarity_scores": {
+    "Mixed Integer Programming": 0.8,
+    "Integer Linear Constraints": 0.78,
+    "Model Counting": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # An Exhaustive DPLL Approach to Model Counting over Integer Linear Constraints with Simplification Techniques
 
 **Korean Title:** 정수 선형 제약 조건에 대한 모델 카운팅을 위한 간략화 기법을 포함한 포괄적 DPLL 접근법
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Mingwei Zhang|Mingwei Zhang]] [[authors/Zhenhao Gu|Zhenhao Gu]] [[authors/Liangda Fang|Liangda Fang]] [[authors/Cunjing Ge|Cunjing Ge]] [[authors/Ziliang Chen|Ziliang Chen]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Mixed Integer Programming
+**🌐 Broad Technical**: [[keywords/Mixed Integer Programming|Mixed Integer Programming]]
+**⚡ Unique Technical**: [[keywords/Integer Linear Constraints|Integer Linear Constraints]], [[keywords/Model Counting|Model Counting]]
 
 ## 🔗 유사한 논문
 - [[Enhancing Logical Reasoning in Language Models via Symbolically-Guided Monte Carlo Process Supervision_20250919|Enhancing Logical Reasoning in Language Models via Symbolically-Guided Monte Carlo Process Supervision]] (78.1% similar)

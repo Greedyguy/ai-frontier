@@ -1,3 +1,35 @@
+---
+keywords:
+  - Deforestation Detection
+  - Deep Learning
+  - Earth Observation Satellites
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13586
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:39:57.612824",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Deforestation Detection",
+    "Deep Learning",
+    "Earth Observation Satellites"
+  ],
+  "rejected_keywords": [
+    "Visual Semantic Model"
+  ],
+  "similarity_scores": {
+    "Deforestation Detection": 0.8,
+    "Deep Learning": 0.85,
+    "Earth Observation Satellites": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Annotating Satellite Images of Forests with Keywords from a Specialized Corpus in the Context of Change Detection
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Deforestation Monitoring
+**🌐 Broad Technical**: [[keywords/Deep Learning|deep learning techniques]]
+**🔗 Specific Connectable**: [[keywords/Earth Observation Satellites|Earth observation satellites]]
+**⚡ Unique Technical**: [[keywords/Deforestation Detection|deforestation detection]]
 
 ## 🔗 유사한 논문
 - [[Federated_Learning_for_Deforestation_Detection_A_Distributed_Approach_with_Satellite_Imagery_20250918|Federated Learning for Deforestation Detection: A Distributed Approach with Satellite Imagery]] (78.6% similar)

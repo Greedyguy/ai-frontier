@@ -1,3 +1,35 @@
+---
+keywords:
+  - Large Language Models
+  - Knowledge Graph
+  - Graph-Guided Repair Framework
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2503.21710
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:23:59.280854",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Knowledge Graph",
+    "Graph-Guided Repair Framework"
+  ],
+  "rejected_keywords": [
+    "Repository-Level Software Repair"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Knowledge Graph": 0.78,
+    "Graph-Guided Repair Framework": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # KGCompass: Knowledge Graph Enhanced Repository-Level Software Repair
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Path-guided Repair
+**🌐 Broad Technical**: [[keywords/Knowledge Graph|Knowledge Graph]]
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Large Language Models]]
+**⚡ Unique Technical**: [[keywords/Graph-Guided Repair Framework|Graph-Guided Repair Framework]]
 
 ## 🔗 유사한 논문
 - [[An Empirical Study on Failures in Automated Issue Solving]] (77.0% similar)

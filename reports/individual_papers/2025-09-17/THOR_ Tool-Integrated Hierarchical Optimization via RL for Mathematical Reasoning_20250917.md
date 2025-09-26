@@ -1,13 +1,47 @@
+---
+keywords:
+  - Reinforcement Learning
+  - Large Language Models
+  - Hierarchical Optimization
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:44:31.796157",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Reinforcement Learning",
+    "Large Language Models",
+    "Hierarchical Optimization"
+  ],
+  "rejected_keywords": [
+    "Tool-Integrated Reasoning"
+  ],
+  "similarity_scores": {
+    "Reinforcement Learning": 0.8,
+    "Large Language Models": 0.75,
+    "Hierarchical Optimization": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # THOR: Tool-Integrated Hierarchical Optimization via RL for Mathematical Reasoning
 
 **Korean Title:** THOR: 수학적 추론을 위한 강화 학습 기반 도구 통합 계층적 최적화
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Qikai Chang|Qikai Chang]] [[authors/Zhenrong Zhang|Zhenrong Zhang]] [[authors/Pengfei Hu|Pengfei Hu]] [[authors/Jiefeng Ma|Jiefeng Ma]] [[authors/Yicheng Pan|Yicheng Pan]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Hierarchical Optimization
+**🔗 Specific Connectable**: [[keywords/Reinforcement Learning|Reinforcement Learning]]
+**⚡ Unique Technical**: [[keywords/Hierarchical Optimization|Hierarchical Optimization]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[Enhancing Logical Reasoning in Language Models via Symbolically-Guided Monte Carlo Process Supervision_20250919|Enhancing Logical Reasoning in Language Models via Symbolically-Guided Monte Carlo Process Supervision]] (85.5% similar)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - Evidential Physics-Informed Neural Networks
+  - Posterior Distribution
+  - Uncertainty Quantification
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14568
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:45:21.276574",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Evidential Physics-Informed Neural Networks",
+    "Posterior Distribution",
+    "Uncertainty Quantification"
+  ],
+  "rejected_keywords": [
+    "Neural Networks"
+  ],
+  "similarity_scores": {
+    "Evidential Physics-Informed Neural Networks": 0.8,
+    "Posterior Distribution": 0.77,
+    "Uncertainty Quantification": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Evidential Physics-Informed Neural Networks for Scientific Discovery
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Evidential Deep Learning
+**🔗 Specific Connectable**: [[keywords/Posterior Distribution|Posterior Distribution]], [[keywords/Uncertainty Quantification|Uncertainty Quantification]]
+**⚡ Unique Technical**: [[keywords/Evidential Physics-Informed Neural Networks|Evidential Physics-Informed Neural Network]]
 
 ## 🔗 유사한 논문
 - [[A Conformal Prediction Framework for Uncertainty Quantification in Physics-Informed Neural Networks]] (85.8% similar)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - Graph Neural Networks
+  - Convolutional Neural Networks
+  - Recurrent Neural Networks
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2311.04190
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:23:33.687444",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Graph Neural Networks",
+    "Convolutional Neural Networks",
+    "Recurrent Neural Networks"
+  ],
+  "rejected_keywords": [
+    "Spatio-Temporal Anomaly Detection"
+  ],
+  "similarity_scores": {
+    "Graph Neural Networks": 0.9,
+    "Convolutional Neural Networks": 0.88,
+    "Recurrent Neural Networks": 0.85
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Spatio-Temporal Anomaly Detection with Graph Networks for Data Quality Monitoring of the Hadron Calorimeter
 
@@ -5,10 +37,10 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Spatio-Temporal Analysis, Graph Neural Network
+**🔗 Specific Connectable**: [[keywords/Graph Neural Networks|Graph Neural Networks]], [[keywords/Convolutional Neural Networks|Convolutional Neural Networks]], [[keywords/Recurrent Neural Networks|Recurrent Neural Networks]]
 
 ## 🔗 유사한 논문
 - [[Multimodal signal fusion for stress detection using deep neural networks a novel approach for converting 1D signals to unified 2D images]] (76.8% similar)

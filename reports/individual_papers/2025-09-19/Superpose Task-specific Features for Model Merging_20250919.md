@@ -1,3 +1,36 @@
+---
+keywords:
+  - Model Merging
+  - Multi-Task Capabilities
+  - Linear Representation Hypothesis
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2502.10698
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:22:40.249632",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Model Merging",
+    "Multi-Task Capabilities",
+    "Linear Representation Hypothesis"
+  ],
+  "rejected_keywords": [
+    "Neural Networks",
+    "Feature Vectors"
+  ],
+  "similarity_scores": {
+    "Model Merging": 0.85,
+    "Multi-Task Capabilities": 0.8,
+    "Linear Representation Hypothesis": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Superpose Task-specific Features for Model Merging
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Model Merging
+**🔗 Specific Connectable**: [[keywords/Multi-Task Capabilities|Multi-Task Capabilities]]
+**⚡ Unique Technical**: [[keywords/Model Merging|Model Merging]], [[keywords/Linear Representation Hypothesis|Linear Representation Hypothesis]]
 
 ## 🔗 유사한 논문
 - [[FroM Frobenius Norm-Based Data-Free Adaptive Model Merging]] (84.2% similar)

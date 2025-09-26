@@ -1,13 +1,63 @@
+---
+keywords:
+  - Uncertainty Quantification
+  - Neural Networks
+  - Partial Differential Equations
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 23:03:28.341461",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Uncertainty Quantification",
+    "Neural Networks",
+    "Partial Differential Equations"
+  ],
+  "rejected_keywords": [
+    "Conformal Prediction"
+  ],
+  "similarity_scores": {
+    "Uncertainty Quantification": 0.82,
+    "Neural Networks": 0.78,
+    "Partial Differential Equations": 0.79
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
+<\!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 17:34:52.552652",
+  "vocabulary_version": "1.0",
+  "selected_keywords": ["Physics-Informed Neural Networks", "Uncertainty Quantification", "Conformal Prediction"],
+  "rejected_keywords": ["Distribution-Free", "Local Conformal Quantile Estimation"],
+  "similarity_scores": {
+    "Physics-Informed Neural Networks": 0.837,
+    "Uncertainty Quantification": 0.803,
+    "Conformal Prediction": 0.761
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true,
+  "max_links_per_paper": 3
+}
+-->
+
 # A Conformal Prediction Framework for Uncertainty Quantification in Physics-Informed Neural Networks
 
 **Korean Title:** 물리 정보 신경망에서 불확실성 정량화를 위한 적합 예측 프레임워크
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Yifan Yu|Yifan Yu]] [[authors/Cheuk Hin Ho|Cheuk Hin Ho]] [[authors/Yangshuai Wang|Yangshuai Wang]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]      [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Distribution-Free Uncertainty Quantification
+**🌐 Broad Technical**: [[keywords/Neural Networks|Physics-Informed Neural Networks]]
+**🔗 Specific Connectable**: [[keywords/Uncertainty Quantification|Uncertainty Quantification]], [[keywords/Partial Differential Equations|Partial Differential Equations]]
 
 ## 🔗 유사한 논문
 - [[Evidential Physics-Informed Neural Networks for Scientific Discovery_20250919|Evidential Physics-Informed Neural Networks for Scientific Discovery]] (85.0% similar)

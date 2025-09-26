@@ -1,3 +1,35 @@
+---
+keywords:
+  - Thunderhammer
+  - Rowhammer
+  - Thunderbolt
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.11440
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:04:37.826392",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Thunderhammer",
+    "Rowhammer",
+    "Thunderbolt"
+  ],
+  "rejected_keywords": [
+    "PCIe"
+  ],
+  "similarity_scores": {
+    "Thunderhammer": 0.85,
+    "Rowhammer": 0.8,
+    "Thunderbolt": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Thunderhammer: Rowhammer Bitflips via PCIe and Thunderbolt (USB-C)
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Remote code execution
+**🔗 Specific Connectable**: [[keywords/Thunderbolt|Thunderbolt]]
+**⚡ Unique Technical**: [[keywords/Thunderhammer|Thunderhammer]], [[keywords/Rowhammer|Rowhammer]]
 
 ## 🔗 유사한 논문
 - [[Protocol-Aware_Firmware_Rehosting_for_Effective_Fuzzing_of_Embedded_Network_Stacks_20250918|Protocol-Aware Firmware Rehosting for Effective Fuzzing of Embedded Network Stacks]] (73.4% similar)

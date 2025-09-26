@@ -1,13 +1,48 @@
+---
+keywords:
+  - Large Language Models
+  - Confidence-Aware Routing
+  - Uncertainty Quantification
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:36:37.915489",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Confidence-Aware Routing",
+    "Uncertainty Quantification"
+  ],
+  "rejected_keywords": [
+    "Optimization",
+    "Domain-Specific Regressors"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Confidence-Aware Routing": 0.78,
+    "Uncertainty Quantification": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # CARGO: A Framework for Confidence-Aware Routing of Large Language Models
 
 **Korean Title:** CARGO: 대형 언어 모델의 신뢰 인식 라우팅을 위한 프레임워크
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Amine Barrak|Amine Barrak]] [[authors/Yosr Fourati|Yosr Fourati]] [[authors/Michael Olchawa|Michael Olchawa]] [[authors/Emna Ksontini|Emna Ksontini]] [[authors/Khalil Zoghlami|Khalil Zoghlami]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Category-Specific Regressors
+**🔗 Specific Connectable**: [[keywords/Uncertainty Quantification|Uncertainty Quantification]]
+**⚡ Unique Technical**: [[keywords/Confidence-Aware Routing|Confidence-Aware Routing]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[Opening the Black Box_ Interpretable LLMs via Semantic Resonance Architecture_20250919|Opening the Black Box Interpretable LLMs via Semantic Resonance Architecture]] (84.5% similar)

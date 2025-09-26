@@ -1,3 +1,35 @@
+---
+keywords:
+  - Federated Learning
+  - Reinforcement Learning
+  - Vehicular Metaverse Services
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2410.19665
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:34:35.203032",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Federated Learning",
+    "Reinforcement Learning",
+    "Vehicular Metaverse Services"
+  ],
+  "rejected_keywords": [
+    "Equilibrium Problem with Equilibrium Constraints"
+  ],
+  "similarity_scores": {
+    "Federated Learning": 0.9,
+    "Reinforcement Learning": 0.85,
+    "Vehicular Metaverse Services": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # MetaTrading: An Immersion-Aware Model Trading Framework for Vehicular Metaverse Services
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Immersion Aware Model Trading
+**🔗 Specific Connectable**: [[keywords/Federated Learning|Federated Learning]], [[keywords/Reinforcement Learning|Deep Reinforcement Learning]]
+**⚡ Unique Technical**: [[keywords/Vehicular Metaverse Services|Vehicular Metaverse Services]]
 
 ## 🔗 유사한 논문
 - [[AI-Driven_Multi-Agent_Vehicular_Planning_for_Battery_Efficiency_and_QoS_in_6G_Smart_Cities_20250919|AI-Driven Multi-Agent Vehicular Planning for Battery Efficiency and QoS in 6G Smart Cities]] (81.4% similar)

@@ -1,3 +1,36 @@
+---
+keywords:
+  - Reinforcement Learning
+  - Sim-to-Real Transfer
+  - Vision-Language Model
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13731
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:13:15.564326",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Reinforcement Learning",
+    "Sim-to-Real Transfer",
+    "Vision-Language Model"
+  ],
+  "rejected_keywords": [
+    "Flexible Flat Cables",
+    "Foundation Models"
+  ],
+  "similarity_scores": {
+    "Reinforcement Learning": 0.9,
+    "Sim-to-Real Transfer": 0.8,
+    "Vision-Language Model": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Reinforcement Learning for Robotic Insertion of Flexible Cables in Industrial Settings
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Zero-shot Learning
+**🔗 Specific Connectable**: [[keywords/Reinforcement Learning|Reinforcement Learning]], [[keywords/Sim-to-Real Transfer|Sim-to-Real Transfer]]
+**🚀 Evolved Concepts**: [[keywords/Vision-Language Model|Vision-Language Model]]
 
 ## 🔗 유사한 논문
 - [[SHaRe-RL_Structured,_Interactive_Reinforcement_Learning_for_Contact-Rich_Industrial_Assembly_Tasks_20250918|SHaRe-RL: Structured, Interactive Reinforcement Learning for Contact-Rich Industrial Assembly Tasks]] (85.8% similar)

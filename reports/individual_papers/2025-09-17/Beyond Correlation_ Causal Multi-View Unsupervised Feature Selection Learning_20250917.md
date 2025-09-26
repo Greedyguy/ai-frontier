@@ -1,13 +1,46 @@
+---
+keywords:
+  - Causal Multi-View Feature Selection
+  - Structural Causal Model
+  - Confounder Separation
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 23:00:08.099691",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Causal Multi-View Feature Selection",
+    "Structural Causal Model",
+    "Confounder Separation"
+  ],
+  "rejected_keywords": [
+    "Unsupervised Spectral Regression"
+  ],
+  "similarity_scores": {
+    "Causal Multi-View Feature Selection": 0.8,
+    "Structural Causal Model": 0.78,
+    "Confounder Separation": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Beyond Correlation: Causal Multi-View Unsupervised Feature Selection Learning
 
 **Korean Title:** 상관을 넘어: 인과적 다중 뷰 비지도 특징 선택 학습
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Zongxin Shen|Zongxin Shen]] [[authors/Yanyong Huang|Yanyong Huang]] [[authors/Bin Wang|Bin Wang]] [[authors/Jinyuan Chang|Jinyuan Chang]] [[authors/Shiyu Liu|Shiyu Liu]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Causal Multi-view Feature Selection
+**🔗 Specific Connectable**: [[keywords/Structural Causal Model|Structural Causal Model]]
+**⚡ Unique Technical**: [[keywords/Causal Multi-View Feature Selection|Causal Multi-View Unsupervised Feature Selection]], [[keywords/Confounder Separation|Confounder Separation]]
 
 ## 🔗 유사한 논문
 - [[Lightweight and Accurate Multi-View Stereo with Confidence-Aware Diffusion Model_20250918|Lightweight and Accurate Multi-View Stereo with Confidence-Aware Diffusion Model]] (79.2% similar)

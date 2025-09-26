@@ -1,13 +1,46 @@
+---
+keywords:
+  - FlowCast-ODE
+  - Ordinary Differential Equation
+  - Dynamic Flow Matching
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:28:09.455266",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "FlowCast-ODE",
+    "Ordinary Differential Equation",
+    "Dynamic Flow Matching"
+  ],
+  "rejected_keywords": [
+    "Low-rank AdaLN-Zero Modulation"
+  ],
+  "similarity_scores": {
+    "FlowCast-ODE": 0.78,
+    "Ordinary Differential Equation": 0.75,
+    "Dynamic Flow Matching": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # FlowCast-ODE: Continuous Hourly Weather Forecasting with Dynamic Flow Matching and ODE Integration
 
 **Korean Title:** FlowCast-ODE: 동적 흐름 매칭 및 ODE 통합을 통한 연속 시간별 기상 예측
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Shuangshuang He|Shuangshuang He]] [[authors/Yuanting Zhang|Yuanting Zhang]] [[authors/Hongli Liang|Hongli Liang]] [[authors/Qingye Meng|Qingye Meng]] [[authors/Xingyuan Yuan|Xingyuan Yuan]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Dynamic Flow Matching
+**🌐 Broad Technical**: [[keywords/Ordinary Differential Equation|Ordinary Differential Equation solver]]
+**⚡ Unique Technical**: [[keywords/FlowCast-ODE|FlowCast-ODE]], [[keywords/Dynamic Flow Matching|Dynamic Flow Matching]]
 
 ## 🔗 유사한 논문
 - [[MeanFlowSE_ one-step generative speech enhancement via conditional mean flow_20250919|MeanFlowSE one-step generative speech enhancement via conditional mean flow]] (78.7% similar)

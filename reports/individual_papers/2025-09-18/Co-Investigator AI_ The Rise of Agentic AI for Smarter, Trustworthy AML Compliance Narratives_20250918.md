@@ -1,3 +1,36 @@
+---
+keywords:
+  - Large Language Models
+  - Suspicious Activity Reports
+  - AI-Privacy Guard
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.08380
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:35:12.667206",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Suspicious Activity Reports",
+    "AI-Privacy Guard"
+  ],
+  "rejected_keywords": [
+    "Agentic AI",
+    "Agent-as-a-Judge"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Suspicious Activity Reports": 0.75,
+    "AI-Privacy Guard": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Co-Investigator AI: The Rise of Agentic AI for Smarter, Trustworthy AML Compliance Narratives
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: AI-Privacy Guard
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Large Language Models]]
+**⚡ Unique Technical**: [[keywords/Suspicious Activity Reports|Suspicious Activity Reports]], [[keywords/AI-Privacy Guard|AI-Privacy Guard]]
 
 ## 🔗 유사한 논문
 - [[$Agent^2$ An Agent-Generates-Agent Framework for Reinforcement Learning Automation]] (83.1% similar)

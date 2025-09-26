@@ -1,3 +1,35 @@
+---
+keywords:
+  - Multi-Agent Systems
+  - Reinforcement Learning
+  - Task Parallelizability
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2503.15703
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:28:56.067826",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Multi-Agent Systems",
+    "Reinforcement Learning",
+    "Task Parallelizability"
+  ],
+  "rejected_keywords": [
+    "Amdahl's Law"
+  ],
+  "similarity_scores": {
+    "Multi-Agent Systems": 0.82,
+    "Reinforcement Learning": 0.85,
+    "Task Parallelizability": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Predicting Multi-Agent Specialization via Task Parallelizability
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Multi-Agent Reinforcement Learning
+**🔗 Specific Connectable**: [[keywords/Multi-Agent Systems|multi-agent systems]], [[keywords/Reinforcement Learning|Reinforcement Learning]]
+**⚡ Unique Technical**: [[keywords/Task Parallelizability|task parallelizability]]
 
 ## 🔗 유사한 논문
 - [[Internalizing Self-Consistency in Language Models Multi-Agent Consensus Alignment]] (82.0% similar)

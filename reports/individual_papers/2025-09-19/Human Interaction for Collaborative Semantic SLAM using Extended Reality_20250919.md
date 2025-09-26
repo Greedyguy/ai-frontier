@@ -1,3 +1,35 @@
+---
+keywords:
+  - Human-in-the-Loop
+  - Semantic SLAM
+  - Graph-based Semantic Fusion
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14949
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:40:28.795690",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Human-in-the-Loop",
+    "Semantic SLAM",
+    "Graph-based Semantic Fusion"
+  ],
+  "rejected_keywords": [
+    "Extended Reality"
+  ],
+  "similarity_scores": {
+    "Human-in-the-Loop": 0.79,
+    "Semantic SLAM": 0.78,
+    "Graph-based Semantic Fusion": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Human Interaction for Collaborative Semantic SLAM using Extended Reality
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Human-in-the-Loop Collaboration
+**⚡ Unique Technical**: [[keywords/Semantic SLAM|Semantic SLAM]], [[keywords/Graph-based Semantic Fusion|Graph-based Semantic Fusion]]
+**🚀 Evolved Concepts**: [[keywords/Human-in-the-Loop|Human-in-the-Loop]]
 
 ## 🔗 유사한 논문
 - [[BIM Informed Visual SLAM for Construction Monitoring_20250918|BIM Informed Visual SLAM for Construction Monitoring]] (83.3% similar)

@@ -1,3 +1,36 @@
+---
+keywords:
+  - Large Language Models
+  - Natural Language Processing
+  - Facilitation Strategies
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2503.01513
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:45:36.457150",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Natural Language Processing",
+    "Facilitation Strategies"
+  ],
+  "rejected_keywords": [
+    "Conversation Facilitation Datasets",
+    "Discussion Quality Evaluation"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.9,
+    "Natural Language Processing": 0.85,
+    "Facilitation Strategies": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Evaluation and Facilitation of Online Discussions in the LLM Era: A Survey
 
@@ -5,10 +38,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: LLM-oriented Roadmap
+**🌐 Broad Technical**: [[keywords/Natural Language Processing|NLP]]
+**🔗 Specific Connectable**: [[keywords/Large Language Models|LLMs]]
+**🚀 Evolved Concepts**: [[keywords/Facilitation Strategies|facilitation strategies]]
 
 ## 🔗 유사한 논문
 - [[An AI-Powered Framework for Analyzing Collective Idea Evolution in Deliberative Assemblies_20250918|An AI-Powered Framework for Analyzing Collective Idea Evolution in Deliberative Assemblies]] (84.8% similar)

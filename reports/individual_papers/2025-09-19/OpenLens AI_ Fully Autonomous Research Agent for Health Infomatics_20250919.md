@@ -1,3 +1,35 @@
+---
+keywords:
+  - Large Language Models
+  - Health Informatics
+  - Vision-Language Feedback
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14778
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:31:01.407837",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Health Informatics",
+    "Vision-Language Feedback"
+  ],
+  "rejected_keywords": [
+    "Automated Research Pipeline"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.82,
+    "Health Informatics": 0.79,
+    "Vision-Language Feedback": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # OpenLens AI: Fully Autonomous Research Agent for Health Infomatics
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Automated Research Pipeline
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Large Language Model]]
+**⚡ Unique Technical**: [[keywords/Health Informatics|Health Informatics]]
+**🚀 Evolved Concepts**: [[keywords/Vision-Language Feedback|Vision-Language Feedback]]
 
 ## 🔗 유사한 논문
 - [[AppAgent v2 Advanced Agent for Flexible Mobile Interactions]] (82.9% similar)

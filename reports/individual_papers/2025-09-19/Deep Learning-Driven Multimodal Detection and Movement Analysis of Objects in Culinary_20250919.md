@@ -1,3 +1,36 @@
+---
+keywords:
+  - YOLOv8
+  - Deep Learning
+  - Large Language Models
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.00033
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:49:15.574655",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "YOLOv8",
+    "Deep Learning",
+    "Large Language Models"
+  ],
+  "rejected_keywords": [
+    "Computer Vision",
+    "Speech Recognition"
+  ],
+  "similarity_scores": {
+    "YOLOv8": 0.8,
+    "Deep Learning": 0.85,
+    "Large Language Models": 0.79
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Deep Learning-Driven Multimodal Detection and Movement Analysis of Objects in Culinary
 
@@ -5,10 +38,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Step by Step Guide Generation
+**🌐 Broad Technical**: [[keywords/Deep Learning|Deep Learning]]
+**⚡ Unique Technical**: [[keywords/YOLOv8|YOLOv8 segmentation model]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[Learning Multimodal Attention for Manipulating Deformable Objects with Changing States]] (83.3% similar)

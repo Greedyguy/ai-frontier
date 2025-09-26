@@ -1,13 +1,47 @@
+---
+keywords:
+  - Graph Signal Processing
+  - Machine Learning
+  - Graph Topology Learning
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:22:25.278093",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Graph Signal Processing",
+    "Machine Learning",
+    "Graph Topology Learning"
+  ],
+  "rejected_keywords": [
+    "Restricted Isometry Property",
+    "Smoothness-Based Graph Learning"
+  ],
+  "similarity_scores": {
+    "Graph Signal Processing": 0.78,
+    "Machine Learning": 0.8,
+    "Graph Topology Learning": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Learning Graph from Smooth Signals under Partial Observation: A Robustness Analysis
 
 **Korean Title:** 부분 관찰 하에서 매끄러운 신호로부터 그래프 학습: 강건성 분석
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Hoang-Son Nguyen|Hoang-Son Nguyen]] [[authors/Hoi-To Wai|Hoi-To Wai]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]     [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Smoothness Based Graph Learning
+**🌐 Broad Technical**: [[keywords/Machine Learning|Machine Learning]]
+**⚡ Unique Technical**: [[keywords/Graph Signal Processing|graph signal processing]], [[keywords/Graph Topology Learning|graph topology learning]]
 
 ## 🔗 유사한 논문
 - [[GraphTorque_ Torque-Driven Rewiring Graph Neural Network_20250918|GraphTorque Torque-Driven Rewiring Graph Neural Network]] (84.9% similar)

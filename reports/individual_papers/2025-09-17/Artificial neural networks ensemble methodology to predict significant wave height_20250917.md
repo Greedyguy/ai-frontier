@@ -1,13 +1,47 @@
+---
+keywords:
+  - Convolutional Neural Networks
+  - Neural Networks
+  - Ensemble Learning
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 23:00:48.393832",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Convolutional Neural Networks",
+    "Neural Networks",
+    "Ensemble Learning"
+  ],
+  "rejected_keywords": [
+    "Significant Wave Height Prediction"
+  ],
+  "similarity_scores": {
+    "Convolutional Neural Networks": 0.82,
+    "Neural Networks": 0.78,
+    "Ensemble Learning": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Artificial neural networks ensemble methodology to predict significant wave height
 
 **Korean Title:** 인공 신경망 앙상블 방법론을 이용한 유의 파고 예측
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Felipe Crivellaro Minuzzi|Felipe Crivellaro Minuzzi]] [[authors/Leandro Farina|Leandro Farina]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]     [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**⭐ Unique Technical**: Hybrid CNN-LSTM
+**🌐 Broad Technical**: [[keywords/Neural Networks|artificial neural networks]]
+**🔗 Specific Connectable**: [[keywords/Convolutional Neural Networks|Convolutional Neural Networks]]
+**🚀 Evolved Concepts**: [[keywords/Ensemble Learning|ensemble methodology]]
 
 ## 🔗 유사한 논문
 - [[Forecasting and Visualizing Air Quality from Sky Images with Vision-Language Models_20250919|Forecasting and Visualizing Air Quality from Sky Images with Vision-Language Models]] (79.3% similar)

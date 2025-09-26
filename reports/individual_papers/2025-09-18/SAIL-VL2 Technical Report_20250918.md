@@ -1,3 +1,35 @@
+---
+keywords:
+  - Multi-Modal Learning
+  - Mixture-of-Experts
+  - Foundation Models
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.14033
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:12:00.353478",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Multi-Modal Learning",
+    "Mixture-of-Experts",
+    "Foundation Models"
+  ],
+  "rejected_keywords": [
+    "Progressive Training"
+  ],
+  "similarity_scores": {
+    "Multi-Modal Learning": 0.85,
+    "Mixture-of-Experts": 0.78,
+    "Foundation Models": 0.82
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # SAIL-VL2 Technical Report
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Cross-modal Retrieval
+**🔗 Specific Connectable**: [[keywords/Mixture-of-Experts|Mixture-of-Experts designs]]
+**🚀 Evolved Concepts**: [[keywords/Multi-Modal Learning|multimodal pre-training]], [[keywords/Foundation Models|vision-language foundation model]]
 
 ## 🔗 유사한 논문
 - [[MARS2 2025 Challenge on Multimodal Reasoning: Datasets, Methods, Results, Discussion, and Outlook]] (81.6% similar)

@@ -1,13 +1,46 @@
+---
+keywords:
+  - Variational Quantum Eigensolver
+  - Barren Plateaus
+  - Deep Learning
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:07:06.321139",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Variational Quantum Eigensolver",
+    "Barren Plateaus",
+    "Deep Learning"
+  ],
+  "rejected_keywords": [
+    "Transverse-Field Ising Models"
+  ],
+  "similarity_scores": {
+    "Variational Quantum Eigensolver": 0.85,
+    "Barren Plateaus": 0.8,
+    "Deep Learning": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # TITAN: A Trajectory-Informed Technique for Adaptive Parameter Freezing in Large-Scale VQE
 
 **Korean Title:** TITAN: 대규모 VQE에서 적응형 매개변수 동결을 위한 궤적 정보 기반 기법
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Yifeng Peng|Yifeng Peng]] [[authors/Xinyi Li|Xinyi Li]] [[authors/Samuel Yen-Chi Chen|Samuel Yen-Chi Chen]] [[authors/Kaining Zhang|Kaining Zhang]] [[authors/Zhiding Liang|Zhiding Liang]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Adaptive Parameter Freezing
+**🌐 Broad Technical**: [[keywords/Deep Learning|deep learning framework]]
+**⚡ Unique Technical**: [[keywords/Variational Quantum Eigensolver|Variational Quantum Eigensolver]], [[keywords/Barren Plateaus|barren plateaus]]
 
 ## 🔗 유사한 논문
 - [[Trainability of Quantum Models Beyond Known Classical Simulability_20250919|Trainability of Quantum Models Beyond Known Classical Simulability]] (80.8% similar)

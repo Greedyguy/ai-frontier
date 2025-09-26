@@ -1,13 +1,46 @@
+---
+keywords:
+  - Explainable AI
+  - Human-Machine Teaming
+  - Maritime Decision Support
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:27:37.499964",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Explainable AI",
+    "Human-Machine Teaming",
+    "Maritime Decision Support"
+  ],
+  "rejected_keywords": [
+    "Trust in AI"
+  ],
+  "similarity_scores": {
+    "Explainable AI": 0.85,
+    "Human-Machine Teaming": 0.8,
+    "Maritime Decision Support": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # From Sea to System: Exploring User-Centered Explainable AI for Maritime Decision Support
 
 **Korean Title:** 바다에서 시스템으로: 해양 의사결정 지원을 위한 사용자 중심 설명 가능한 인공지능 탐구
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Doreen Jirak|Doreen Jirak]] [[authors/Pieter Maes|Pieter Maes]] [[authors/Armeen Saroukanoff|Armeen Saroukanoff]] [[authors/Dirk van Rooy|Dirk van Rooy]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]       [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: User-Centered Integration
+**🌐 Broad Technical**: [[keywords/Explainable AI|Explainable AI]]
+**⚡ Unique Technical**: [[keywords/Human-Machine Teaming|Human-Machine Teaming]], [[keywords/Maritime Decision Support|Maritime Decision Support]]
 
 ## 🔗 유사한 논문
 - [[Why Johnny Can't Use Agents_ Industry Aspirations vs. User Realities with AI Agent Software_20250919|Why Johnny Can't Use Agents Industry Aspirations vs. User Realities with AI Agent Software]] (80.7% similar)

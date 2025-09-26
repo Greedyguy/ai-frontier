@@ -1,3 +1,35 @@
+---
+keywords:
+  - Tilted Empirical Risk Minimization
+  - Outlier Detection
+  - Robust Regression
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.15141
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:54:59.889942",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Tilted Empirical Risk Minimization",
+    "Outlier Detection",
+    "Robust Regression"
+  ],
+  "rejected_keywords": [
+    "Empirical Risk Minimization"
+  ],
+  "similarity_scores": {
+    "Tilted Empirical Risk Minimization": 0.78,
+    "Outlier Detection": 0.77,
+    "Robust Regression": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Benefits of Online Tilted Empirical Risk Minimization: A Case Study of Outlier Detection and Robust Regression
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Tilted Empirical Risk Minimization
+**🔗 Specific Connectable**: [[keywords/Outlier Detection|Outlier Detection]], [[keywords/Robust Regression|Robust Regression]]
+**⚡ Unique Technical**: [[keywords/Tilted Empirical Risk Minimization|Tilted Empirical Risk Minimization]]
 
 ## 🔗 유사한 논문
 - [[Multi-Fidelity_Hybrid_Reinforcement_Learning_via_Information_Gain_Maximization_20250919|Multi-Fidelity Hybrid Reinforcement Learning via Information Gain Maximization]] (79.8% similar)

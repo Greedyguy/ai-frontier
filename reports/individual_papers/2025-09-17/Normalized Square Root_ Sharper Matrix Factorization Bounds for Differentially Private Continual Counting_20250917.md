@@ -1,13 +1,46 @@
+---
+keywords:
+  - Differential Privacy
+  - Matrix Factorization Norms
+  - Continual Counting
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:49:34.570773",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Differential Privacy",
+    "Matrix Factorization Norms",
+    "Continual Counting"
+  ],
+  "rejected_keywords": [
+    "Deep Learning"
+  ],
+  "similarity_scores": {
+    "Differential Privacy": 0.85,
+    "Matrix Factorization Norms": 0.78,
+    "Continual Counting": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Normalized Square Root: Sharper Matrix Factorization Bounds for Differentially Private Continual Counting
 
 **Korean Title:** 정규화된 제곱근: 차등 프라이버시를 위한 지속적 카운팅의 더 날카로운 행렬 분해 경계
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Monika Henzinger|Monika Henzinger]] [[authors/Nikita P. Kalinin|Nikita P. Kalinin]] [[authors/Jalaj Upadhyay|Jalaj Upadhyay]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]      [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Sharper Matrix Factorization Bounds
+**🌐 Broad Technical**: [[keywords/Differential Privacy|differential privacy]]
+**⚡ Unique Technical**: [[keywords/Matrix Factorization Norms|factorization norms]], [[keywords/Continual Counting|continual counting]]
 
 ## 🔗 유사한 논문
 - [[Stochastic Bilevel Optimization with Heavy-Tailed Noise_20250918|Stochastic Bilevel Optimization with Heavy-Tailed Noise]] (77.7% similar)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - Uncertainty Quantification
+  - Transfer Learning
+  - Bird's Eye View perception
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.14151
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:38:38.124070",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Uncertainty Quantification",
+    "Transfer Learning",
+    "Bird's Eye View perception"
+  ],
+  "rejected_keywords": [
+    "Geometric-aware teacher-student framework"
+  ],
+  "similarity_scores": {
+    "Uncertainty Quantification": 0.8,
+    "Transfer Learning": 0.78,
+    "Bird's Eye View perception": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # BEVUDA++: Geometric-aware Unsupervised Domain Adaptation for Multi-View 3D Object Detection
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Multi-view 3D Object Detection
+**🔗 Specific Connectable**: [[keywords/Uncertainty Quantification|Uncertainty-guided Exponential Moving Average]], [[keywords/Transfer Learning|Domain Adaptation]]
+**⚡ Unique Technical**: [[keywords/Bird's Eye View perception|Bird's Eye View perception]]
 
 ## 🔗 유사한 논문
 - [[FishBEV_Distortion-Resilient_Bird's_Eye_View_Segmentation_with_Surround-View_Fisheye_Cameras_20250918|FishBEV: Distortion-Resilient Bird's Eye View Segmentation with Surround-View Fisheye Cameras]] (84.7% similar)

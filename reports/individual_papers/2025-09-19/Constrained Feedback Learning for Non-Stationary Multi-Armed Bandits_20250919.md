@@ -1,3 +1,35 @@
+---
+keywords:
+  - Non-stationary Multi-Armed Bandits
+  - Dynamic Regret
+  - Constrained Feedback
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.15073
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:51:47.229278",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Non-stationary Multi-Armed Bandits",
+    "Dynamic Regret",
+    "Constrained Feedback"
+  ],
+  "rejected_keywords": [
+    "Reinforcement Learning"
+  ],
+  "similarity_scores": {
+    "Non-stationary Multi-Armed Bandits": 0.78,
+    "Dynamic Regret": 0.75,
+    "Constrained Feedback": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Constrained Feedback Learning for Non-Stationary Multi-Armed Bandits
 
@@ -5,10 +37,10 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Non-Stationary Multi-Armed Bandits
+**⚡ Unique Technical**: [[keywords/Non-stationary Multi-Armed Bandits|Non-stationary multi-armed bandits]], [[keywords/Dynamic Regret|Dynamic regret]], [[keywords/Constrained Feedback|Constrained feedback]]
 
 ## 🔗 유사한 논문
 - [[Graph Feedback Bandits on Similar Arms With and Without Graph Structures]] (85.9% similar)

@@ -1,13 +1,46 @@
+---
+keywords:
+  - Hyperdimensional Computing
+  - Deep Learning
+  - Medical Data Classification
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:26:15.494515",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Hyperdimensional Computing",
+    "Deep Learning",
+    "Medical Data Classification"
+  ],
+  "rejected_keywords": [
+    "Energy-Efficient Classification"
+  ],
+  "similarity_scores": {
+    "Hyperdimensional Computing": 0.78,
+    "Deep Learning": 0.85,
+    "Medical Data Classification": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # HD3C: Efficient Medical Data Classification for Embedded Devices
 
 **Korean Title:** HD3C: 임베디드 장치를 위한 효율적인 의료 데이터 분류
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Jianglan Wei|Jianglan Wei]] [[authors/Zhenyu Zhang|Zhenyu Zhang]] [[authors/Pengcheng Wang|Pengcheng Wang]] [[authors/Mingjie Zeng|Mingjie Zeng]] [[authors/Zhigang Zeng|Zhigang Zeng]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Lightweight Classification Framework
+**🌐 Broad Technical**: [[keywords/Deep Learning|Deep Learning]]
+**⚡ Unique Technical**: [[keywords/Hyperdimensional Computing|Hyperdimensional Computing]], [[keywords/Medical Data Classification|Medical Data Classification]]
 
 ## 🔗 유사한 논문
 - [[Non-Intrusive Parametrized-Background Data-Weak Reconstruction of Cardiac Displacement Fields from Sparse MRI-like Observations_20250918|Non-Intrusive Parametrized-Background Data-Weak Reconstruction of Cardiac Displacement Fields from Sparse MRI-like Observations]] (80.5% similar)

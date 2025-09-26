@@ -1,13 +1,47 @@
+---
+keywords:
+  - Convolutional Neural Networks
+  - Optimization
+  - EEG Frequency Bands
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:54:52.074003",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Convolutional Neural Networks",
+    "Optimization",
+    "EEG Frequency Bands"
+  ],
+  "rejected_keywords": [
+    "Deep Dense Network"
+  ],
+  "similarity_scores": {
+    "Convolutional Neural Networks": 0.88,
+    "Optimization": 0.78,
+    "EEG Frequency Bands": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Exploring the Relationship between Brain Hemisphere States and Frequency Bands through Deep Learning Optimization Techniques
 
 **Korean Title:** 뇌 반구 상태와 주파수 대역 간의 관계를 심층 학습 최적화 기법을 통해 탐구하기
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Robiul Islam|Robiul Islam]] [[authors/Dmitry I. Ignatov|Dmitry I. Ignatov]] [[authors/Karl Kaberg|Karl Kaberg]] [[authors/Roman Nabatchikov|Roman Nabatchikov]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]       [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Optimizer Selection in EEG Analysis
+**🌐 Broad Technical**: [[keywords/Optimization|Adagrad Optimizer]]
+**🔗 Specific Connectable**: [[keywords/Convolutional Neural Networks|Convolutional Neural Network]]
+**⚡ Unique Technical**: [[keywords/EEG Frequency Bands|EEG Frequency Bands]]
 
 ## 🔗 유사한 논문
 - [[Explaining deep learning for ECG using time-localized clusters_20250918|Explaining deep learning for ECG using time-localized clusters]] (80.1% similar)

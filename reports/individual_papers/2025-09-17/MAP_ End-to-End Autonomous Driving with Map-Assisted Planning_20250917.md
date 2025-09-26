@@ -1,13 +1,46 @@
+---
+keywords:
+  - Map-Assisted Planning
+  - End-to-End Autonomous Driving
+  - Semantic Map Features
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:51:54.927669",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Map-Assisted Planning",
+    "End-to-End Autonomous Driving",
+    "Semantic Map Features"
+  ],
+  "rejected_keywords": [
+    "Trajectory Planning"
+  ],
+  "similarity_scores": {
+    "Map-Assisted Planning": 0.82,
+    "End-to-End Autonomous Driving": 0.78,
+    "Semantic Map Features": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # MAP: End-to-End Autonomous Driving with Map-Assisted Planning
 
 **Korean Title:** 지도: 지도 지원 계획을 통한 종단 간 자율 주행
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Huilin Yin|Huilin Yin]] [[authors/Yiming Kan|Yiming Kan]] [[authors/Daniel Watzenig|Daniel Watzenig]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]      [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: End-to-End Trajectory Planning
+**🔗 Specific Connectable**: [[keywords/Semantic Map Features|semantic map features]]
+**⚡ Unique Technical**: [[keywords/Map-Assisted Planning|map-assisted planning]], [[keywords/End-to-End Autonomous Driving|end-to-end autonomous driving]]
 
 ## 🔗 유사한 논문
 - [[FlowDrive_ Energy Flow Field for End-to-End Autonomous Driving_20250919|FlowDrive Energy Flow Field for End-to-End Autonomous Driving]] (83.9% similar)

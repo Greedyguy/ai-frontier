@@ -1,13 +1,46 @@
+---
+keywords:
+  - Large Language Models
+  - Bias Mitigation
+  - Simulation Framework
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:45:52.981318",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Bias Mitigation",
+    "Simulation Framework"
+  ],
+  "rejected_keywords": [
+    "Natural Language Processing"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Bias Mitigation": 0.78,
+    "Simulation Framework": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Simulating a Bias Mitigation Scenario in Large Language Models
 
 **Korean Title:** 대형 언어 모델에서 편향 완화 시나리오 시뮬레이션
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Kiana Kiashemshaki|Kiana Kiashemshaki]] [[authors/Mohammad Jalili Torkamani|Mohammad Jalili Torkamani]] [[authors/Negin Mahmoudi|Negin Mahmoudi]] [[authors/Meysam Shirdel Bilehsavar|Meysam Shirdel Bilehsavar]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]       [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**⭐ Unique Technical**: Bias Simulation Framework
+**⚡ Unique Technical**: [[keywords/Bias Mitigation|Bias Mitigation]], [[keywords/Simulation Framework|Simulation Framework]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[Do LLMs Align Human Values Regarding Social Biases Judging and Explaining Social Biases with LLMs_20250918|Do LLMs Align Human Values Regarding Social Biases Judging and Explaining Social Biases with LLMs]] (86.3% similar)

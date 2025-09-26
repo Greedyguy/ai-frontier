@@ -1,3 +1,36 @@
+---
+keywords:
+  - Activation Functions
+  - Transformer Architecture
+  - Vision Transformers
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.13240
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:47:21.902846",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Activation Functions",
+    "Transformer Architecture",
+    "Vision Transformers"
+  ],
+  "rejected_keywords": [
+    "Parameter-Efficient Fine-Tuning",
+    "Low-Rank Adaptation"
+  ],
+  "similarity_scores": {
+    "Activation Functions": 0.85,
+    "Transformer Architecture": 0.82,
+    "Vision Transformers": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Don't Forget the Nonlinearity: Unlocking Activation Functions in Efficient Fine-Tuning
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Activation Space Tuning
+**🔗 Specific Connectable**: [[keywords/Transformer Architecture|Transformer Architecture]], [[keywords/Vision Transformers|Vision Transformers]]
+**⚡ Unique Technical**: [[keywords/Activation Functions|activation functions]]
 
 ## 🔗 유사한 논문
 - [[HAM Hierarchical Adapter Merging for Scalable Continual Learning]] (80.9% similar)

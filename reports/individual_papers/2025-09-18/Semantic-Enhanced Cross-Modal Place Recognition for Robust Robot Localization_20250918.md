@@ -1,3 +1,36 @@
+---
+keywords:
+  - Cross-Modal Place Recognition
+  - Semantic-Geometric Matching
+  - Visual Place Recognition
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13474
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:10:20.334882",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Cross-Modal Place Recognition",
+    "Semantic-Geometric Matching",
+    "Visual Place Recognition"
+  ],
+  "rejected_keywords": [
+    "Feature Fusion",
+    "LiDAR Descriptors"
+  ],
+  "similarity_scores": {
+    "Cross-Modal Place Recognition": 0.8,
+    "Semantic-Geometric Matching": 0.79,
+    "Visual Place Recognition": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Semantic-Enhanced Cross-Modal Place Recognition for Robust Robot Localization
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Multi-View Semantic-Geometric Matching
+**🔗 Specific Connectable**: [[keywords/Visual Place Recognition|Visual Place Recognition]]
+**⚡ Unique Technical**: [[keywords/Cross-Modal Place Recognition|Semantic-Enhanced Cross-Modal Place Recognition]], [[keywords/Semantic-Geometric Matching|Multi-View Semantic-Geometric Matching]]
 
 ## 🔗 유사한 논문
 - [[FSR-VLN_Fast_and_Slow_Reasoning_for_Vision-Language_Navigation_with_Hierarchical_Multi-modal_Scene_Graph_20250918|FSR-VLN: Fast and Slow Reasoning for Vision-Language Navigation with Hierarchical Multi-modal Scene Graph]] (81.1% similar)

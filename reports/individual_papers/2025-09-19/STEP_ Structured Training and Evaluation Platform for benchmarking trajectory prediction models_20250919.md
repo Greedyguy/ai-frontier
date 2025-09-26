@@ -1,3 +1,35 @@
+---
+keywords:
+  - Multi-Agent Systems
+  - Trajectory Prediction
+  - Automated Vehicles
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14801
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:25:50.499293",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Multi-Agent Systems",
+    "Trajectory Prediction",
+    "Automated Vehicles"
+  ],
+  "rejected_keywords": [
+    "Adversarial Agents"
+  ],
+  "similarity_scores": {
+    "Multi-Agent Systems": 0.77,
+    "Trajectory Prediction": 0.8,
+    "Automated Vehicles": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # STEP: Structured Training and Evaluation Platform for benchmarking trajectory prediction models
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Multi-agent Generalization
+**🔗 Specific Connectable**: [[keywords/Multi-Agent Systems|multi-agent settings]], [[keywords/Automated Vehicles|automated vehicles]]
+**⚡ Unique Technical**: [[keywords/Trajectory Prediction|trajectory prediction]]
 
 ## 🔗 유사한 논문
 - [[AgentCompass Towards Reliable Evaluation of Agentic Workflows in Production]] (83.2% similar)

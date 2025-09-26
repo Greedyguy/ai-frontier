@@ -1,3 +1,35 @@
+---
+keywords:
+  - Large Language Models
+  - Cross Entropy
+  - Optimization
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2505.16307
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:29:40.533865",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Cross Entropy",
+    "Optimization"
+  ],
+  "rejected_keywords": [
+    "Probabilistic Metric"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.85,
+    "Cross Entropy": 0.8,
+    "Optimization": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # PMPO: Probabilistic Metric Prompt Optimization for Small and Large Language Models
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Token Level Cross Entropy Evaluation
+**🌐 Broad Technical**: [[keywords/Optimization|Prompt Optimization]]
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Large Language Models]]
+**⚡ Unique Technical**: [[keywords/Cross Entropy|Token Level Cross Entropy]]
 
 ## 🔗 유사한 논문
 - [[Annotation-Efficient Language Model Alignment via Diverse and Representative Response Texts]] (81.7% similar)

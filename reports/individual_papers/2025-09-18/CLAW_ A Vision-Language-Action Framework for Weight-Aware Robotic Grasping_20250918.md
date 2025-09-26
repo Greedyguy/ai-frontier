@@ -1,3 +1,35 @@
+---
+keywords:
+  - Vision Transformers
+  - Multi-Modal Learning
+  - Weight-Aware Robotic Grasping
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.14143
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:36:29.678999",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Vision Transformers",
+    "Multi-Modal Learning",
+    "Weight-Aware Robotic Grasping"
+  ],
+  "rejected_keywords": [
+    "Symbolic Weight Reasoning"
+  ],
+  "similarity_scores": {
+    "Vision Transformers": 0.82,
+    "Multi-Modal Learning": 0.8,
+    "Weight-Aware Robotic Grasping": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # CLAW: A Vision-Language-Action Framework for Weight-Aware Robotic Grasping
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Weight-Aware Behaviors
+**🔗 Specific Connectable**: [[keywords/Vision Transformers|CLIP model]], [[keywords/Multi-Modal Learning|Vision-Language-Action models]]
+**⚡ Unique Technical**: [[keywords/Weight-Aware Robotic Grasping|weight-aware robotic grasping]]
 
 ## 🔗 유사한 논문
 - [[GeoAware-VLA_Implicit_Geometry_Aware_Vision-Language-Action_Model_20250918|GeoAware-VLA: Implicit Geometry Aware Vision-Language-Action Model]] (83.9% similar)

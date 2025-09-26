@@ -1,3 +1,35 @@
+---
+keywords:
+  - Multi-Modal Learning
+  - State-aware Reasoning
+  - Graphical User Interface
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13615
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:11:08.924901",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Multi-Modal Learning",
+    "State-aware Reasoning",
+    "Graphical User Interface"
+  ],
+  "rejected_keywords": [
+    "Toggle Control"
+  ],
+  "similarity_scores": {
+    "Multi-Modal Learning": 0.8,
+    "State-aware Reasoning": 0.78,
+    "Graphical User Interface": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # See, Think, Act: Teaching Multimodal Agents to Effectively Interact with GUI by Identifying Toggles
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Toggle Instruction Execution
+**🌐 Broad Technical**: [[keywords/Graphical User Interface|graphical user interface]]
+**⚡ Unique Technical**: [[keywords/State-aware Reasoning|State-aware Reasoning]]
+**🚀 Evolved Concepts**: [[keywords/Multi-Modal Learning|multimodal agents]]
 
 ## 🔗 유사한 논문
 - [[VeriOS Query-Driven Proactive Human-Agent-GUI Interaction for Trustworthy OS Agents]] (81.4% similar)

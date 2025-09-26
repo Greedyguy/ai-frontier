@@ -1,13 +1,46 @@
+---
+keywords:
+  - Transfer Learning
+  - State Anxiety Prediction
+  - Ecological Momentary Assessments
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:42:57.467133",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Transfer Learning",
+    "State Anxiety Prediction",
+    "Ecological Momentary Assessments"
+  ],
+  "rejected_keywords": [
+    "Smartwatch Data"
+  ],
+  "similarity_scores": {
+    "Transfer Learning": 0.8,
+    "State Anxiety Prediction": 0.75,
+    "Ecological Momentary Assessments": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # WatchAnxiety: A Transfer Learning Approach for State Anxiety Prediction from Smartwatch Data
 
 **Korean Title:** 스마트워치 데이터로부터 상태 불안 예측을 위한 전이 학습 접근법: WatchAnxiety
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Md Sabbir Ahmed|Md Sabbir Ahmed]] [[authors/Noah French|Noah French]] [[authors/Mark Rucker|Mark Rucker]] [[authors/Zhiyuan Wang|Zhiyuan Wang]] [[authors/Taylor Myers-Brower|Taylor Myers-Brower]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Just-In-Time Adaptive Interventions
+**🔗 Specific Connectable**: [[keywords/Transfer Learning|Transfer Learning]]
+**⚡ Unique Technical**: [[keywords/State Anxiety Prediction|State Anxiety Prediction]], [[keywords/Ecological Momentary Assessments|Ecological Momentary Assessments]]
 
 ## 🔗 유사한 논문
 - [[Personalization on a Budget_ Minimally-Labeled Continual Learning for Resource-Efficient Seizure Detection_20250917|Personalization on a Budget Minimally-Labeled Continual Learning for Resource-Efficient Seizure Detection]] (79.7% similar)

@@ -1,3 +1,36 @@
+---
+keywords:
+  - Large Language Models
+  - Bias Amplification
+  - Multi-Agent Debate
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2505.19477
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:39:19.529967",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Bias Amplification",
+    "Multi-Agent Debate"
+  ],
+  "rejected_keywords": [
+    "Meta-Judge",
+    "Debiasing Method"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Bias Amplification": 0.78,
+    "Multi-Agent Debate": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Judging with Many Minds: Do More Perspectives Mean Less Prejudice? On Bias Amplifications and Resistance in Multi-Agent Based LLM-as-Judge
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Bias Mitigation Strategies
+**⚡ Unique Technical**: [[keywords/Multi-Agent Debate|Multi-Agent Debate]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]], [[keywords/Bias Amplification|Bias Amplification]]
 
 ## 🔗 유사한 논문
 - [[How Does Cognitive Bias Affect Large Language Models_ A Case Study on the Anchoring Effect in Price Negotiation Simulations_20250918|How Does Cognitive Bias Affect Large Language Models A Case Study on the Anchoring Effect in Price Negotiation Simulations]] (83.5% similar)

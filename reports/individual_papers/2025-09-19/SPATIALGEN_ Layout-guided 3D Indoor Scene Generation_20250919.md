@@ -1,3 +1,35 @@
+---
+keywords:
+  - Diffusion Models
+  - Multi-Modal Learning
+  - Generative Models
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14981
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:26:04.178559",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Diffusion Models",
+    "Multi-Modal Learning",
+    "Generative Models"
+  ],
+  "rejected_keywords": [
+    "3D Indoor Scene Generation"
+  ],
+  "similarity_scores": {
+    "Diffusion Models": 0.82,
+    "Multi-Modal Learning": 0.79,
+    "Generative Models": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # SPATIALGEN: Layout-guided 3D Indoor Scene Generation
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Layout-guided Scene Generation
+**🔗 Specific Connectable**: [[keywords/Diffusion Models|Diffusion Model]], [[keywords/Generative Models|Generative AI]]
+**🚀 Evolved Concepts**: [[keywords/Multi-Modal Learning|Multi-Modal Learning]]
 
 ## 🔗 유사한 논문
 - [[Evolution Meets Diffusion Efficient Neural Architecture Generation]] (80.3% similar)

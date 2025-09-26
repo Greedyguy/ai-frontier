@@ -1,3 +1,35 @@
+---
+keywords:
+  - Vision-Language Models
+  - Computer Use Agents
+  - Cross-Platform Data
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.15221
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:25:13.039852",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Vision-Language Models",
+    "Computer Use Agents",
+    "Cross-Platform Data"
+  ],
+  "rejected_keywords": [
+    "Foundation Models"
+  ],
+  "similarity_scores": {
+    "Vision-Language Models": 0.88,
+    "Computer Use Agents": 0.8,
+    "Cross-Platform Data": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # ScaleCUA: Scaling Open-Source Computer Use Agents with Cross-Platform Data
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Data Driven Scaling
+**⚡ Unique Technical**: [[keywords/Computer Use Agents|Computer Use Agents]], [[keywords/Cross-Platform Data|Cross-Platform Data]]
+**🚀 Evolved Concepts**: [[keywords/Vision-Language Models|Vision-Language Models]]
 
 ## 🔗 유사한 논문
 - [[UnifiedVisual A Framework for Constructing Unified Vision-Language Datasets]] (83.5% similar)

@@ -1,3 +1,36 @@
+---
+keywords:
+  - PyTorch
+  - Large Language Models
+  - TensorFlow
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14626
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:45:43.955096",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "PyTorch",
+    "Large Language Models",
+    "TensorFlow"
+  ],
+  "rejected_keywords": [
+    "Deep Learning",
+    "Coverage-Guided Fuzzing"
+  ],
+  "similarity_scores": {
+    "PyTorch": 0.82,
+    "Large Language Models": 0.8,
+    "TensorFlow": 0.81
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Evaluating the Effectiveness of Coverage-Guided Fuzzing for Testing Deep Learning Library APIs
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Feedback Driven Synthesis
+**🔗 Specific Connectable**: [[keywords/PyTorch|PyTorch]], [[keywords/TensorFlow|TensorFlow]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[Towards Robust Agentic CUDA Kernel Benchmarking, Verification, and Optimization_20250919|Towards Robust Agentic CUDA Kernel Benchmarking, Verification, and Optimization]] (79.7% similar)

@@ -1,13 +1,48 @@
+---
+keywords:
+  - Deep Learning
+  - Domain Shift
+  - Clinician-Validated Datasets
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:21:30.904921",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Deep Learning",
+    "Domain Shift",
+    "Clinician-Validated Datasets"
+  ],
+  "rejected_keywords": [
+    "Label Quality",
+    "Dataset Bias"
+  ],
+  "similarity_scores": {
+    "Deep Learning": 0.8,
+    "Domain Shift": 0.75,
+    "Clinician-Validated Datasets": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Limitations of Public Chest Radiography Datasets for Artificial Intelligence: Label Quality, Domain Shift, Bias and Evaluation Challenges
 
 **Korean Title:** 공공 흉부 방사선 촬영 데이터셋의 인공지능 한계: 레이블 품질, 도메인 이동, 편향 및 평가 과제
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Amy Rafferty|Amy Rafferty]] [[authors/Rishi Ramaesh|Rishi Ramaesh]] [[authors/Ajitha Rajan|Ajitha Rajan]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]      [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Clinician-validated Datasets
+**🌐 Broad Technical**: [[keywords/Deep Learning|Deep Learning]]
+**⚡ Unique Technical**: [[keywords/Domain Shift|Domain Shift]]
+**🚀 Evolved Concepts**: [[keywords/Clinician-Validated Datasets|Clinician-Validated Datasets]]
 
 ## 🔗 유사한 논문
 - [[Mixture of Multicenter Experts in Multimodal AI for Debiased Radiotherapy Target Delineation_20250919|Mixture of Multicenter Experts in Multimodal AI for Debiased Radiotherapy Target Delineation]] (81.9% similar)

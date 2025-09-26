@@ -1,3 +1,35 @@
+---
+keywords:
+  - Multi-Modal Learning
+  - Attention Mechanism
+  - Causal Interpretability
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14837
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:18:42.271962",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Multi-Modal Learning",
+    "Attention Mechanism",
+    "Causal Interpretability"
+  ],
+  "rejected_keywords": [
+    "Visual Semantic Editing"
+  ],
+  "similarity_scores": {
+    "Multi-Modal Learning": 0.82,
+    "Attention Mechanism": 0.79,
+    "Causal Interpretability": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # V-SEAM: Visual Semantic Editing and Attention Modulating for Causal Interpretability of Vision-Language Models
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Visual Semantic Editing
+**🔗 Specific Connectable**: [[keywords/Multi-Modal Learning|Vision-Language Models]], [[keywords/Attention Mechanism|Attention Modulating]]
+**⚡ Unique Technical**: [[keywords/Causal Interpretability|Causal Interpretability]]
 
 ## 🔗 유사한 논문
 - [[VLM-E2E Enhancing End-to-End Autonomous Driving with Multimodal Driver Attention Fusion]] (85.1% similar)

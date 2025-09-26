@@ -1,3 +1,35 @@
+---
+keywords:
+  - Multi-Robot Task Allocation
+  - Robot Coalitions
+  - Network Flow Algorithms
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.15052
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:31:24.945007",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Multi-Robot Task Allocation",
+    "Robot Coalitions",
+    "Network Flow Algorithms"
+  ],
+  "rejected_keywords": [
+    "Task Precedence Relationships"
+  ],
+  "similarity_scores": {
+    "Multi-Robot Task Allocation": 0.78,
+    "Robot Coalitions": 0.75,
+    "Network Flow Algorithms": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Online Multi-Robot Coordination and Cooperation with Task Precedence Relationships
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Robot Coalition Formation
+**🌐 Broad Technical**: [[keywords/Network Flow Algorithms|network flow-based algorithms]]
+**⚡ Unique Technical**: [[keywords/Multi-Robot Task Allocation|multi-robot task allocation]], [[keywords/Robot Coalitions|robot coalitions]]
 
 ## 🔗 유사한 논문
 - [[Multi-Quadruped Cooperative Object Transport Learning Decentralized Pinch-Lift-Move]] (81.2% similar)

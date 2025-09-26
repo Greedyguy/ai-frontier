@@ -1,13 +1,46 @@
+---
+keywords:
+  - Fused Lasso
+  - Change-point Detection
+  - Spacing Test
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:45:35.423467",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Fused Lasso",
+    "Change-point Detection",
+    "Spacing Test"
+  ],
+  "rejected_keywords": [
+    "Regularization Parameter Selection"
+  ],
+  "similarity_scores": {
+    "Fused Lasso": 0.8,
+    "Change-point Detection": 0.75,
+    "Spacing Test": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Spacing Test for Fused Lasso
 
 **Korean Title:** 퓨즈드 라소를 위한 간격 테스트
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Rieko Tasaka|Rieko Tasaka]] [[authors/Tatsuya Kimura|Tatsuya Kimura]] [[authors/Joe Suzuki|Joe Suzuki]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]      [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Post-selection Inference, Change-point Detection
+**🔗 Specific Connectable**: [[keywords/Change-point Detection|Change-point Detection]]
+**⚡ Unique Technical**: [[keywords/Fused Lasso|Fused Lasso]], [[keywords/Spacing Test|Spacing Test]]
 
 ## 🔗 유사한 논문
 - [[Structure-Preserving Margin Distribution Learning for High-Order Tensor Data with Low-Rank Decomposition_20250919|Structure-Preserving Margin Distribution Learning for High-Order Tensor Data with Low-Rank Decomposition]] (74.9% similar)

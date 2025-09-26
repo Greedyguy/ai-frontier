@@ -1,13 +1,48 @@
+---
+keywords:
+  - Artificial General Intelligence
+  - Cognitive Architectures
+  - True Intelligence
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14474
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:43:00.737108",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Artificial General Intelligence",
+    "Cognitive Architectures",
+    "True Intelligence"
+  ],
+  "rejected_keywords": [
+    "Embodied Sensory Fusion",
+    "Dynamic Schemata Creation"
+  ],
+  "similarity_scores": {
+    "Artificial General Intelligence": 0.95,
+    "Cognitive Architectures": 0.8,
+    "True Intelligence": 0.85
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # From Mimicry to True Intelligence (TI) - A New Paradigm for Artificial General Intelligence
 
 **Korean Title:** 모방에서 진정한 지능(TI)으로 - 인공지능 일반화를 위한 새로운 패러다임
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Embodied Sensory Fusion
+**🌐 Broad Technical**: [[keywords/Cognitive Architectures|Cognitive Architectures]]
+**⚡ Unique Technical**: [[keywords/True Intelligence|True Intelligence]]
+**🚀 Evolved Concepts**: [[keywords/Artificial General Intelligence|Artificial General Intelligence]]
 
 ## 🔗 유사한 논문
 - [[From Mimicry to True Intelligence (TI) -- A New Paradigm for Artificial General Intelligence_20250917|From Mimicry to True Intelligence (TI) -- A New Paradigm for Artificial General Intelligence]] (99.0% similar)

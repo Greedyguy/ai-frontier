@@ -1,13 +1,46 @@
+---
+keywords:
+  - Value Alignment
+  - Designing Value-Aligned Systems
+  - Human-Agent Teaming
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:43:27.777697",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Value Alignment",
+    "Designing Value-Aligned Systems",
+    "Human-Agent Teaming"
+  ],
+  "rejected_keywords": [
+    "Cognitive Processes in Humans and AI"
+  ],
+  "similarity_scores": {
+    "Value Alignment": 0.9,
+    "Designing Value-Aligned Systems": 0.85,
+    "Human-Agent Teaming": 0.82
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Understanding the Process of Human-AI Value Alignment
 
 **Korean Title:** 인간-AI 가치 정렬 과정 이해
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Jack McKinlay|Jack McKinlay]] [[authors/Marina De Vos|Marina De Vos]] [[authors/Janina A. Hoffmann|Janina A. Hoffmann]] [[authors/Andreas Theodorou|Andreas Theodorou]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]       [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Value Aligned Systems
+**⚡ Unique Technical**: [[keywords/Human-Agent Teaming|human-agent teaming]]
+**🚀 Evolved Concepts**: [[keywords/Value Alignment|value alignment]], [[keywords/Designing Value-Aligned Systems|designing and developing value-aligned systems]]
 
 ## 🔗 유사한 논문
 - [[Emergent Alignment via Competition_20250919|Emergent Alignment via Competition]] (82.5% similar)

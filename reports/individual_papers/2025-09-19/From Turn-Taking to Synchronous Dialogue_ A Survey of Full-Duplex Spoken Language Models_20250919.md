@@ -1,3 +1,35 @@
+---
+keywords:
+  - Large Language Models
+  - Natural Language Processing
+  - Full-Duplex Spoken Language Models
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14515
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:42:45.998696",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Natural Language Processing",
+    "Full-Duplex Spoken Language Models"
+  ],
+  "rejected_keywords": [
+    "True Full-Duplex Communication"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.85,
+    "Natural Language Processing": 0.88,
+    "Full-Duplex Spoken Language Models": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # From Turn-Taking to Synchronous Dialogue: A Survey of Full-Duplex Spoken Language Models
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Synchronous Dialogue
+**🌐 Broad Technical**: [[keywords/Natural Language Processing|Natural Language Processing]]
+**⚡ Unique Technical**: [[keywords/Full-Duplex Spoken Language Models|Full-Duplex Spoken Language Models]]
 
 ## 🔗 유사한 논문
 - [[From Automation to Autonomy A Survey on Large Language Models in Scientific Discovery]] (81.9% similar)

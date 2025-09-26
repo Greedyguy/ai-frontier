@@ -1,13 +1,46 @@
+---
+keywords:
+  - Drug-Target Interactions
+  - Attention Mechanism
+  - Binding Pockets
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:08:49.645690",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Drug-Target Interactions",
+    "Attention Mechanism",
+    "Binding Pockets"
+  ],
+  "rejected_keywords": [
+    "Self-Supervised Learning"
+  ],
+  "similarity_scores": {
+    "Drug-Target Interactions": 0.9,
+    "Attention Mechanism": 0.82,
+    "Binding Pockets": 0.85
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Structure-Aware Contrastive Learning with Fine-Grained Binding Representations for Drug Discovery
 
 **Korean Title:** 약물 발견을 위한 세밀한 결합 표현을 활용한 구조 인식 대조 학습
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Jing Lan|Jing Lan]] [[authors/Hexiao Ding|Hexiao Ding]] [[authors/Hongzhao Chen|Hongzhao Chen]] [[authors/Yufeng Jiang|Yufeng Jiang]] [[authors/Nga-Chun Ng|Nga-Chun Ng]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Attention Mechanism, Virtual Screening
+**🔗 Specific Connectable**: [[keywords/Attention Mechanism|Attention Patterns]]
+**⚡ Unique Technical**: [[keywords/Drug-Target Interactions|Drug-Target Interactions]], [[keywords/Binding Pockets|Binding Pockets]]
 
 ## 🔗 유사한 논문
 - [[(P)rior(D)yna(F)low_ A Priori Dynamic Workflow Construction via Multi-Agent Collaboration_20250919|(P)rior(D)yna(F)low A Priori Dynamic Workflow Construction via Multi-Agent Collaboration]] (79.2% similar)

@@ -1,13 +1,46 @@
+---
+keywords:
+  - Self-Supervised Learning
+  - Transformer Architecture
+  - Multivariate Anomaly Detection
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:37:20.407951",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Self-Supervised Learning",
+    "Transformer Architecture",
+    "Multivariate Anomaly Detection"
+  ],
+  "rejected_keywords": [
+    "Spatio-Temporal Patterns"
+  ],
+  "similarity_scores": {
+    "Self-Supervised Learning": 0.82,
+    "Transformer Architecture": 0.8,
+    "Multivariate Anomaly Detection": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Beyond Marginals: Learning Joint Spatio-Temporal Patterns for Multivariate Anomaly Detection
 
 **Korean Title:** 한계점을 넘어서: 다변량 이상 탐지를 위한 공동 시공간 패턴 학습
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Padmaksha Roy|Padmaksha Roy]] [[authors/Almuatazbellah Boker|Almuatazbellah Boker]] [[authors/Lamine Mili|Lamine Mili]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]      [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Time-Varying Non-Linear Correlations
+**🔗 Specific Connectable**: [[keywords/Self-Supervised Learning|Self-supervised contrastive learning]], [[keywords/Transformer Architecture|Transformer encoder]]
+**⚡ Unique Technical**: [[keywords/Multivariate Anomaly Detection|Multivariate anomaly detection]]
 
 ## 🔗 유사한 논문
 - [[AnoF-Diff_ One-Step Diffusion-Based Anomaly Detection for Forceful Tool Use_20250918|AnoF-Diff One-Step Diffusion-Based Anomaly Detection for Forceful Tool Use]] (82.1% similar)

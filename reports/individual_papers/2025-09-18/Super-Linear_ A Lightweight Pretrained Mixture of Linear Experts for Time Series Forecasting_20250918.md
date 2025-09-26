@@ -1,13 +1,46 @@
+---
+keywords:
+  - Mixture of Experts
+  - Time Series Forecasting
+  - Zero-Shot Learning
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:08:31.243786",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Mixture of Experts",
+    "Time Series Forecasting",
+    "Zero-Shot Learning"
+  ],
+  "rejected_keywords": [
+    "Spectral Gating Mechanism"
+  ],
+  "similarity_scores": {
+    "Mixture of Experts": 0.82,
+    "Time Series Forecasting": 0.8,
+    "Zero-Shot Learning": 0.79
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Super-Linear: A Lightweight Pretrained Mixture of Linear Experts for Time Series Forecasting
 
 **Korean Title:** 초선형: 시계열 예측을 위한 경량 사전 학습 선형 전문가 혼합 모델
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Liran Nochumsohn|Liran Nochumsohn]] [[authors/Raz Marshanski|Raz Marshanski]] [[authors/Hedi Zisling|Hedi Zisling]] [[authors/Omri Azencot|Omri Azencot]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]       [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Spectral Gating Mechanism
+**🌐 Broad Technical**: [[keywords/Time Series Forecasting|Time Series Forecasting]]
+**🔗 Specific Connectable**: [[keywords/Mixture of Experts|Mixture of Experts]], [[keywords/Zero-Shot Learning|Zero-Shot Performance]]
 
 ## 🔗 유사한 논문
 - [[CSMoE_ An Efficient Remote Sensing Foundation Model with Soft Mixture-of-Experts_20250918|CSMoE An Efficient Remote Sensing Foundation Model with Soft Mixture-of-Experts]] (79.4% similar)

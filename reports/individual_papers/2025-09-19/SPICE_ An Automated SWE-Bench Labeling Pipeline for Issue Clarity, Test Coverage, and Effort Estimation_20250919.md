@@ -1,3 +1,36 @@
+---
+keywords:
+  - SPICE
+  - SWE-bench
+  - Effort Estimation
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2507.09108
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:25:59.303881",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "SPICE",
+    "SWE-bench",
+    "Effort Estimation"
+  ],
+  "rejected_keywords": [
+    "Foundation Models",
+    "Test Coverage"
+  ],
+  "similarity_scores": {
+    "SPICE": 0.8,
+    "SWE-bench": 0.75,
+    "Effort Estimation": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # SPICE: An Automated SWE-Bench Labeling Pipeline for Issue Clarity, Test Coverage, and Effort Estimation
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Rationale-driven Prompting
+**🔗 Specific Connectable**: [[keywords/Effort Estimation|Effort Estimation]]
+**⚡ Unique Technical**: [[keywords/SPICE|SPICE]], [[keywords/SWE-bench|SWE-bench]]
 
 ## 🔗 유사한 논문
 - [[An Empirical Study on Failures in Automated Issue Solving]] (79.2% similar)

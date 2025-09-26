@@ -1,13 +1,47 @@
+---
+keywords:
+  - Large Language Models
+  - Differential Privacy
+  - Synthetic Data Generation
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:08:25.039524",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Differential Privacy",
+    "Synthetic Data Generation"
+  ],
+  "rejected_keywords": [
+    "Membership Inference Attack"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Differential Privacy": 0.78,
+    "Synthetic Data Generation": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # SynBench: A Benchmark for Differentially Private Text Generation
 
 **Korean Title:** SynBench: 차등적으로 비공개 텍스트 생성을 위한 벤치마크
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Yidan Sun|Yidan Sun]] [[authors/Viktor Schlegel|Viktor Schlegel]] [[authors/Srinivasan Nandakumar|Srinivasan Nandakumar]] [[authors/Iqra Zahid|Iqra Zahid]] [[authors/Yuping Wu|Yuping Wu]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Privacy Auditing
+**🔗 Specific Connectable**: [[keywords/Differential Privacy|Differential Privacy]]
+**⚡ Unique Technical**: [[keywords/Synthetic Data Generation|Synthetic Data Generation]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[Practitioners' Perspectives on a Differential Privacy Deployment Registry_20250918|Practitioners' Perspectives on a Differential Privacy Deployment Registry]] (82.4% similar)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - Multilingual Agent Evaluation
+  - Function-Calling Accuracy
+  - Large Language Models
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14477
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:21:16.756542",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Multilingual Agent Evaluation",
+    "Function-Calling Accuracy",
+    "Large Language Models"
+  ],
+  "rejected_keywords": [
+    "Culturally Aware Benchmarks"
+  ],
+  "similarity_scores": {
+    "Multilingual Agent Evaluation": 0.82,
+    "Function-Calling Accuracy": 0.8,
+    "Large Language Models": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Ticket-Bench: A Kickoff for Multilingual and Regionalized Agent Evaluation
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Culturally Aware Benchmarks
+**🌐 Broad Technical**: [[keywords/Large Language Models|Large Language Models]]
+**🔗 Specific Connectable**: [[keywords/Function-Calling Accuracy|function-calling accuracy]]
+**⚡ Unique Technical**: [[keywords/Multilingual Agent Evaluation|multilingual agent evaluation]]
 
 ## 🔗 유사한 논문
 - [[A Culturally-diverse Multilingual Multimodal Video Benchmark & Model]] (83.2% similar)

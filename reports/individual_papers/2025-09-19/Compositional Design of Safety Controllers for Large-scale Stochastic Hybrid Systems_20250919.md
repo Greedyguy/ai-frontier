@@ -1,3 +1,35 @@
+---
+keywords:
+  - Stochastic Hybrid Systems
+  - Augmented Control Barrier Certificates
+  - Safety Controller Synthesis
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2409.10018
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:51:55.505831",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Stochastic Hybrid Systems",
+    "Augmented Control Barrier Certificates",
+    "Safety Controller Synthesis"
+  ],
+  "rejected_keywords": [
+    "Sum-of-Squares Optimization"
+  ],
+  "similarity_scores": {
+    "Stochastic Hybrid Systems": 0.78,
+    "Augmented Control Barrier Certificates": 0.7,
+    "Safety Controller Synthesis": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Compositional Design of Safety Controllers for Large-scale Stochastic Hybrid Systems
 
@@ -5,10 +37,10 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Small-gain Compositional Conditions
+**⚡ Unique Technical**: [[keywords/Stochastic Hybrid Systems|stochastic hybrid systems]], [[keywords/Augmented Control Barrier Certificates|augmented control barrier certificates]], [[keywords/Safety Controller Synthesis|safety controller synthesis]]
 
 ## 🔗 유사한 논문
 - [[Digital Twin-based Cooperative Autonomous Driving in Smart Intersections A Multi-Agent Reinforcement Learning Approach]] (81.1% similar)

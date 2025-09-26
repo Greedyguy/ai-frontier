@@ -1,3 +1,35 @@
+---
+keywords:
+  - Transformer Architecture
+  - Visuomotor Policy
+  - Robotic Strawberry Picking
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14530
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:38:11.374039",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Transformer Architecture",
+    "Visuomotor Policy",
+    "Robotic Strawberry Picking"
+  ],
+  "rejected_keywords": [
+    "Human Teleoperation Interface"
+  ],
+  "similarity_scores": {
+    "Transformer Architecture": 0.82,
+    "Visuomotor Policy": 0.78,
+    "Robotic Strawberry Picking": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Learning to Pick: A Visuomotor Policy for Clustered Strawberry Picking
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Teleoperated Learning
+**🔗 Specific Connectable**: [[keywords/Transformer Architecture|End Pose Assisted Action Chunking Transformer]]
+**⚡ Unique Technical**: [[keywords/Visuomotor Policy|Visuomotor Policy]], [[keywords/Robotic Strawberry Picking|Robotic Strawberry Picking]]
 
 ## 🔗 유사한 논문
 - [[textsc{Gen2Real} Towards Demo-Free Dexterous Manipulation by Harnessing Generated Video]] (81.7% similar)

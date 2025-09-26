@@ -1,13 +1,46 @@
+---
+keywords:
+  - Conformal Prediction
+  - Label Noise
+  - Medical Imaging
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:31:25.547828",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Conformal Prediction",
+    "Label Noise",
+    "Medical Imaging"
+  ],
+  "rejected_keywords": [
+    "Regression Models"
+  ],
+  "similarity_scores": {
+    "Conformal Prediction": 0.8,
+    "Label Noise": 0.72,
+    "Medical Imaging": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Efficient Conformal Prediction for Regression Models under Label Noise
 
 **Korean Title:** 레이블 노이즈 하의 회귀 모델을 위한 효율적인 적합 예측
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Yahav Cohen|Yahav Cohen]] [[authors/Jacob Goldberger|Jacob Goldberger]] [[authors/Tom Tirer|Tom Tirer]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]      [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Conformal Prediction
+**🔗 Specific Connectable**: [[keywords/Label Noise|Label Noise]], [[keywords/Medical Imaging|Medical Imaging]]
+**⚡ Unique Technical**: [[keywords/Conformal Prediction|Conformal Prediction]]
 
 ## 🔗 유사한 논문
 - [[Towards Trustworthy Vital Sign Forecasting_ Leveraging Uncertainty for Prediction Intervals_20250918|Towards Trustworthy Vital Sign Forecasting Leveraging Uncertainty for Prediction Intervals]] (77.9% similar)

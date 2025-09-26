@@ -1,3 +1,36 @@
+---
+keywords:
+  - Mechanism Design
+  - Facility Location Problem
+  - Strategyproof Mechanisms
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.09561
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:35:06.509730",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Mechanism Design",
+    "Facility Location Problem",
+    "Strategyproof Mechanisms"
+  ],
+  "rejected_keywords": [
+    "Utilitarian Social Cost",
+    "Egalitarian Social Cost"
+  ],
+  "similarity_scores": {
+    "Mechanism Design": 0.78,
+    "Facility Location Problem": 0.77,
+    "Strategyproof Mechanisms": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Mechanism Design with Outliers and Predictions
 
@@ -5,10 +38,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Prediction Enhanced Mechanisms
+**🌐 Broad Technical**: [[keywords/Mechanism Design|mechanism design]]
+**🔗 Specific Connectable**: [[keywords/Facility Location Problem|facility location]]
+**⚡ Unique Technical**: [[keywords/Strategyproof Mechanisms|strategyproof mechanisms]]
 
 ## 🔗 유사한 논문
 - [[Polynomial-Time Approximation Schemes via Utility Alignment Unit-Demand Pricing and More]] (81.1% similar)

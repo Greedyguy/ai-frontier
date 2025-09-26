@@ -1,3 +1,35 @@
+---
+keywords:
+  - Cancer Prognosis
+  - Large Language Models
+  - Dynamic Knowledge Integration
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14998
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:00:22.752890",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Cancer Prognosis",
+    "Large Language Models",
+    "Dynamic Knowledge Integration"
+  ],
+  "rejected_keywords": [
+    "Multi-Agent Collaboration"
+  ],
+  "similarity_scores": {
+    "Cancer Prognosis": 0.77,
+    "Large Language Models": 0.8,
+    "Dynamic Knowledge Integration": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # A Knowledge-driven Adaptive Collaboration of LLMs for Enhancing Medical Decision-making
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Knowledge-driven Adaptive Collaboration
+**🔗 Specific Connectable**: [[keywords/Cancer Prognosis|Cancer Prognosis]], [[keywords/Large Language Models|Large Language Models]]
+**⚡ Unique Technical**: [[keywords/Dynamic Knowledge Integration|Dynamic Knowledge Integration]]
 
 ## 🔗 유사한 논문
 - [[OpenLens AI Fully Autonomous Research Agent for Health Infomatics]] (82.9% similar)

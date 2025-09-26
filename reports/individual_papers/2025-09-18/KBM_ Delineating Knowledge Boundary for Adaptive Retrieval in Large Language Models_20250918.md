@@ -1,3 +1,35 @@
+---
+keywords:
+  - Knowledge Boundary Model
+  - Large Language Models
+  - Retrieval-Augmented Generation
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2411.06207
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:24:06.993954",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Knowledge Boundary Model",
+    "Large Language Models",
+    "Retrieval-Augmented Generation"
+  ],
+  "rejected_keywords": [
+    "Natural Language Processing"
+  ],
+  "similarity_scores": {
+    "Knowledge Boundary Model": 0.85,
+    "Large Language Models": 0.8,
+    "Retrieval-Augmented Generation": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # KBM: Delineating Knowledge Boundary for Adaptive Retrieval in Large Language Models
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Multi-hop problems
+**⚡ Unique Technical**: [[keywords/Knowledge Boundary Model|Knowledge Boundary Model]], [[keywords/Retrieval-Augmented Generation|Retrieval-Augmented Generation]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[Linguistic Nepotism: Trading-off Quality for Language Preference in Multilingual RAG]] (84.2% similar)

@@ -1,13 +1,46 @@
+---
+keywords:
+  - Large Language Models
+  - Multi-Turn Dialogue Safety
+  - MCTS-Driven Red Teaming
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:20:05.531331",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Multi-Turn Dialogue Safety",
+    "MCTS-Driven Red Teaming"
+  ],
+  "rejected_keywords": [
+    "Safety Alignment"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Multi-Turn Dialogue Safety": 0.78,
+    "MCTS-Driven Red Teaming": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # MUSE: MCTS-Driven Red Teaming Framework for Enhanced Multi-Turn Dialogue Safety in Large Language Models
 
 **Korean Title:** MUSE: 대규모 언어 모델에서 다중 턴 대화 안전성을 향상시키기 위한 MCTS 기반 레드 팀 프레임워크
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Siyu Yan|Siyu Yan]] [[authors/Long Zeng|Long Zeng]] [[authors/Xuecheng Wu|Xuecheng Wu]] [[authors/Chengcheng Han|Chengcheng Han]] [[authors/Kongcheng Zhang|Kongcheng Zhang]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Multi-turn Dialogue Safety
+**⚡ Unique Technical**: [[keywords/Multi-Turn Dialogue Safety|Multi-Turn Dialogue Safety]], [[keywords/MCTS-Driven Red Teaming|MCTS-Driven Red Teaming]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[Enterprise AI Must Enforce Participant-Aware Access Control_20250919|Enterprise AI Must Enforce Participant-Aware Access Control]] (84.7% similar)

@@ -1,3 +1,36 @@
+---
+keywords:
+  - 3D Geometry
+  - Zero-Shot Learning
+  - Geometric Vision Models
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.14117
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:26:40.764829",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "3D Geometry",
+    "Zero-Shot Learning",
+    "Geometric Vision Models"
+  ],
+  "rejected_keywords": [
+    "Vision-Language-Action Models",
+    "Robotic Agents"
+  ],
+  "similarity_scores": {
+    "3D Geometry": 0.82,
+    "Zero-Shot Learning": 0.79,
+    "Geometric Vision Models": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # GeoAware-VLA: Implicit Geometry Aware Vision-Language-Action Model
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Robotic Agents
+**🌐 Broad Technical**: [[keywords/3D Geometry|3D geometry]]
+**🔗 Specific Connectable**: [[keywords/Zero-Shot Learning|zero-shot generalization]], [[keywords/Geometric Vision Models|geometric vision model]]
 
 ## 🔗 유사한 논문
 - [[Enhancing Generalization in Vision-Language-Action Models by Preserving Pretrained Representations]] (86.1% similar)

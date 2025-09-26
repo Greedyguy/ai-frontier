@@ -1,13 +1,47 @@
+---
+keywords:
+  - Transfer Learning
+  - Context-aware Machine Translation
+  - Context Utilization
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:42:18.452356",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Transfer Learning",
+    "Context-aware Machine Translation",
+    "Context Utilization"
+  ],
+  "rejected_keywords": [
+    "Multilingual Settings"
+  ],
+  "similarity_scores": {
+    "Transfer Learning": 0.8,
+    "Context-aware Machine Translation": 0.78,
+    "Context Utilization": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # You Are What You Train: Effects of Data Composition on Training Context-aware Machine Translation Models
 
 **Korean Title:** 당신은 당신이 훈련한 것: 문맥 인식 기계 번역 모델 훈련에 대한 데이터 구성의 효과
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Paweł Mąka|Paweł Mąka]] [[authors/Yusuf Can Semerci|Yusuf Can Semerci]] [[authors/Jan Scholtes|Jan Scholtes]] [[authors/Gerasimos Spanakis|Gerasimos Spanakis]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]       [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Context-aware Training Strategies
+**🔗 Specific Connectable**: [[keywords/Transfer Learning|cross-lingual transfer]]
+**⚡ Unique Technical**: [[keywords/Context-aware Machine Translation|context-aware machine translation]]
+**🚀 Evolved Concepts**: [[keywords/Context Utilization|context utilization]]
 
 ## 🔗 유사한 논문
 - [[Translate, then Detect_ Leveraging Machine Translation for Cross-Lingual Toxicity Classification_20250919|Translate, then Detect Leveraging Machine Translation for Cross-Lingual Toxicity Classification]] (80.1% similar)

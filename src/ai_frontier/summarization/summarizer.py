@@ -20,7 +20,7 @@ class BaseSummarizer(ABC):
         pass
 
     @abstractmethod
-    def summarize_text(self, text: str) -> str:
+    def summarize_text(self, text: str, max_tokens: int = 1000) -> str:
         """Summarize general text (not necessarily academic abstract)."""
         pass
 
@@ -81,13 +81,13 @@ class OpenAISummarizer(BaseSummarizer):
 
         return points
 
-    def summarize_text(self, text: str) -> str:
+    def summarize_text(self, text: str, max_tokens: int = 1000) -> str:
         """Summarize general text using OpenAI API."""
         response = self.client.chat.completions.create(
             model=self.model,
             messages=[{"role": "user", "content": text}],
             temperature=0.5,
-            max_tokens=500
+            max_tokens=max_tokens
         )
 
         return response.choices[0].message.content.strip()
@@ -147,11 +147,11 @@ class ClaudeSummarizer(BaseSummarizer):
 
         return points
 
-    def summarize_text(self, text: str) -> str:
+    def summarize_text(self, text: str, max_tokens: int = 1000) -> str:
         """Summarize general text using Claude API."""
         response = self.client.messages.create(
             model=self.model,
-            max_tokens=500,
+            max_tokens=max_tokens,
             messages=[{"role": "user", "content": text}]
         )
 

@@ -1,13 +1,47 @@
+---
+keywords:
+  - Quantum Variational Activation Functions
+  - Hybrid Quantum Kolmogorov-Arnold Networks
+  - Generative Models
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:47:04.404106",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Quantum Variational Activation Functions",
+    "Hybrid Quantum Kolmogorov-Arnold Networks",
+    "Generative Models"
+  ],
+  "rejected_keywords": [
+    "Variational Quantum Circuits",
+    "Kolmogorov-Arnold Networks"
+  ],
+  "similarity_scores": {
+    "Quantum Variational Activation Functions": 0.82,
+    "Hybrid Quantum Kolmogorov-Arnold Networks": 0.8,
+    "Generative Models": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Quantum Variational Activation Functions Empower Kolmogorov-Arnold Networks
 
 **Korean Title:** 양자 변분 활성화 함수가 콜모고로프-아르놀드 네트워크를 강화하다
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Jiun-Cheng Jiang|Jiun-Cheng Jiang]] [[authors/Morris Yu-Chao Huang|Morris Yu-Chao Huang]] [[authors/Tianlong Chen|Tianlong Chen]] [[authors/Hsi-Sheng Goan|Hsi-Sheng Goan]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]       [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Quantum Inspired Kolmogorov Arnold Networks
+**🔗 Specific Connectable**: [[keywords/Generative Models|Generative Models]]
+**⚡ Unique Technical**: [[keywords/Quantum Variational Activation Functions|Quantum Variational Activation Functions]], [[keywords/Hybrid Quantum Kolmogorov-Arnold Networks|Hybrid QKANs]]
 
 ## 🔗 유사한 논문
 - [[Trainability of Quantum Models Beyond Known Classical Simulability_20250919|Trainability of Quantum Models Beyond Known Classical Simulability]] (83.0% similar)

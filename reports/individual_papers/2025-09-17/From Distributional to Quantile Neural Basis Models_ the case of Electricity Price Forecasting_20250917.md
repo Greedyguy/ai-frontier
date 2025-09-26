@@ -1,13 +1,47 @@
+---
+keywords:
+  - Quantile Neural Basis Model
+  - Neural Networks
+  - Quantile Generalized Additive Models
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:54:30.644754",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Quantile Neural Basis Model",
+    "Neural Networks",
+    "Quantile Generalized Additive Models"
+  ],
+  "rejected_keywords": [
+    "Electricity Price Forecasting"
+  ],
+  "similarity_scores": {
+    "Quantile Neural Basis Model": 0.78,
+    "Neural Networks": 0.85,
+    "Quantile Generalized Additive Models": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # From Distributional to Quantile Neural Basis Models: the case of Electricity Price Forecasting
 
 **Korean Title:** 분포 기반에서 분위수 신경 기저 모델로: 전기 가격 예측의 사례
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Alessandro Brusaferri|Alessandro Brusaferri]] [[authors/Danial Ramin|Danial Ramin]] [[authors/Andrea Ballarino|Andrea Ballarino]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]      [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Quantile Generalized Additive Models
+**🌐 Broad Technical**: [[keywords/Neural Networks|Neural Networks]]
+**🔗 Specific Connectable**: [[keywords/Quantile Generalized Additive Models|Quantile Generalized Additive Models]]
+**⚡ Unique Technical**: [[keywords/Quantile Neural Basis Model|Quantile Neural Basis Model]]
 
 ## 🔗 유사한 논문
 - [[From Patterns to Predictions_ A Shapelet-Based Framework for Directional Forecasting in Noisy Financial Markets_20250918|From Patterns to Predictions A Shapelet-Based Framework for Directional Forecasting in Noisy Financial Markets]] (79.3% similar)

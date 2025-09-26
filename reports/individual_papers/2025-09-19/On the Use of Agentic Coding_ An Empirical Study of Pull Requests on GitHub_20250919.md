@@ -1,3 +1,35 @@
+---
+keywords:
+  - Large Language Models
+  - Agentic Coding
+  - GitHub
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14745
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:31:39.919604",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Agentic Coding",
+    "GitHub"
+  ],
+  "rejected_keywords": [
+    "Pull Requests"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Agentic Coding": 0.7,
+    "GitHub": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # On the Use of Agentic Coding: An Empirical Study of Pull Requests on GitHub
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Agent-assisted Pull Requests
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Large language models]], [[keywords/GitHub|GitHub]]
+**⚡ Unique Technical**: [[keywords/Agentic Coding|agentic coding]]
 
 ## 🔗 유사한 논문
 - [[AI Agents with Human-Like Collaborative Tools Adaptive Strategies for Enhanced Problem-Solving]] (84.2% similar)

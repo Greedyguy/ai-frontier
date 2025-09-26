@@ -1,3 +1,36 @@
+---
+keywords:
+  - Large Language Models
+  - Multi-Agent Systems
+  - Agile Software Development
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13942
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:29:49.232876",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Multi-Agent Systems",
+    "Agile Software Development"
+  ],
+  "rejected_keywords": [
+    "Waterfall Model",
+    "V-Model"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Multi-Agent Systems": 0.75,
+    "Agile Software Development": 0.74
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Evaluating Classical Software Process Models as Coordination Mechanisms for LLM-Based Software Generation
 
@@ -5,10 +38,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Autonomous Collaboration
+**🔗 Specific Connectable**: [[keywords/Multi-Agent Systems|multi-agent systems]]
+**⚡ Unique Technical**: [[keywords/Agile Software Development|Agile]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Model]]
 
 ## 🔗 유사한 논문
 - [[An_LLM_Agentic_Approach_for_Legal-Critical_Software_A_Case_Study_for_Tax_Prep_Software_20250918|An LLM Agentic Approach for Legal-Critical Software: A Case Study for Tax Prep Software]] (82.7% similar)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - Trace Abstraction Refinement
+  - Software Model Checking
+  - Ultimate Automizer
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13699
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:18:56.483216",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Trace Abstraction Refinement",
+    "Software Model Checking",
+    "Ultimate Automizer"
+  ],
+  "rejected_keywords": [
+    "Parallel Computing"
+  ],
+  "similarity_scores": {
+    "Trace Abstraction Refinement": 0.79,
+    "Software Model Checking": 0.78,
+    "Ultimate Automizer": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Multi-Threaded Software Model Checking via Parallel Trace Abstraction Refinement
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Parallel Trace Abstraction Refinement
+**🌐 Broad Technical**: [[keywords/Software Model Checking|software model checking]]
+**⚡ Unique Technical**: [[keywords/Trace Abstraction Refinement|trace abstraction refinement]], [[keywords/Ultimate Automizer|Ultimate Automizer]]
 
 ## 🔗 유사한 논문
 - [[An Empirical Study on Failures in Automated Issue Solving]] (79.7% similar)

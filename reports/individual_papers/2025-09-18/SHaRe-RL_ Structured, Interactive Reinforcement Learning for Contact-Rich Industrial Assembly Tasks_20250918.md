@@ -1,3 +1,35 @@
+---
+keywords:
+  - Reinforcement Learning
+  - Contact-Rich Industrial Assembly
+  - Human Demonstrations
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13949
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:11:50.494325",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Reinforcement Learning",
+    "Contact-Rich Industrial Assembly",
+    "Human Demonstrations"
+  ],
+  "rejected_keywords": [
+    "Manipulation Primitives"
+  ],
+  "similarity_scores": {
+    "Reinforcement Learning": 0.88,
+    "Contact-Rich Industrial Assembly": 0.7,
+    "Human Demonstrations": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # SHaRe-RL: Structured, Interactive Reinforcement Learning for Contact-Rich Industrial Assembly Tasks
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Contact-Rich Tasks
+**🔗 Specific Connectable**: [[keywords/Reinforcement Learning|Reinforcement Learning]]
+**⚡ Unique Technical**: [[keywords/Contact-Rich Industrial Assembly|Contact-Rich Industrial Assembly]]
+**🚀 Evolved Concepts**: [[keywords/Human Demonstrations|Human Demonstrations]]
 
 ## 🔗 유사한 논문
 - [[Reinforcement_Learning_for_Robotic_Insertion_of_Flexible_Cables_in_Industrial_Settings_20250918|Reinforcement Learning for Robotic Insertion of Flexible Cables in Industrial Settings]] (85.8% similar)

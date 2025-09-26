@@ -1,13 +1,47 @@
+---
+keywords:
+  - Large Language Models
+  - Prompt Design
+  - Synthetic Data Generation
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:44:57.491262",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Prompt Design",
+    "Synthetic Data Generation"
+  ],
+  "rejected_keywords": [
+    "Smartphone Usage Data"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Prompt Design": 0.78,
+    "Synthetic Data Generation": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Synthetic Data Generation for Screen Time and App Usage
 
 **Korean Title:** 스크린 타임 및 앱 사용에 대한 합성 데이터 생성
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Gustavo Kruger|Gustavo Kruger]] [[authors/Nikhil Sachdeva|Nikhil Sachdeva]] [[authors/Michael Sobolev|Michael Sobolev]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]      [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Use Case Specific Evaluation Metrics
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Large Language Models]]
+**⚡ Unique Technical**: [[keywords/Synthetic Data Generation|Synthetic Data Generation]]
+**🚀 Evolved Concepts**: [[keywords/Prompt Design|Prompt Design]]
 
 ## 🔗 유사한 논문
 - [[Single- vs. Dual-Prompt Dialogue Generation with LLMs for Job Interviews in Human Resources_20250919|Single- vs. Dual-Prompt Dialogue Generation with LLMs for Job Interviews in Human Resources]] (81.6% similar)

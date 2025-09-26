@@ -1,3 +1,35 @@
+---
+keywords:
+  - Large Language Models
+  - Instruction Tuning
+  - Curriculum Learning
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:44:26.751544",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Instruction Tuning",
+    "Curriculum Learning"
+  ],
+  "rejected_keywords": [
+    "Competence-Aware Curriculum"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Instruction Tuning": 0.79,
+    "Curriculum Learning": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Teaching According to Talents! Instruction Tuning LLMs with Competence-Aware Curriculum Learning
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Yangning Li|Yangning Li]] [[authors/Tingwei Lu|Tingwei Lu]] [[authors/Yinghui Li|Yinghui Li]] [[authors/Yankai Chen|Yankai Chen]] [[authors/Wei-Chieh Huang|Wei-Chieh Huang]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔬 Broad Technical**: Curriculum Learning, Large Language Models
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Large Language Models]]
+**⚡ Unique Technical**: [[keywords/Curriculum Learning|Curriculum Learning]]
+**🚀 Evolved Concepts**: [[keywords/Instruction Tuning|Instruction Tuning]]
 
 ## 🔗 유사한 논문
 - [[Forget What You Know about LLMs Evaluations -- LLMs are Like a Chameleon]] (82.6% similar)

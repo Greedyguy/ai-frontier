@@ -1,3 +1,35 @@
+---
+keywords:
+  - Reinforcement Learning
+  - Machine Learning
+  - Vehicular IoT
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14877
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:58:47.914388",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Reinforcement Learning",
+    "Machine Learning",
+    "Vehicular IoT"
+  ],
+  "rejected_keywords": [
+    "Osmotic Computing"
+  ],
+  "similarity_scores": {
+    "Reinforcement Learning": 0.78,
+    "Machine Learning": 0.85,
+    "Vehicular IoT": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # AI-Driven Multi-Agent Vehicular Planning for Battery Efficiency and QoS in 6G Smart Cities
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Vehicular Planning Algorithms
+**🌐 Broad Technical**: [[keywords/Machine Learning|AI algorithms]]
+**🔗 Specific Connectable**: [[keywords/Reinforcement Learning|dynamic agent planning]]
+**⚡ Unique Technical**: [[keywords/Vehicular IoT|vehicular IoT nodes]]
 
 ## 🔗 유사한 논문
 - [[VEGA Electric Vehicle Navigation Agent via Physics-Informed Neural Operator and Proximal Policy Optimization]] (81.3% similar)

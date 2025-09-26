@@ -1,13 +1,47 @@
+---
+keywords:
+  - Transformer Architecture
+  - Encoder-based Classifiers
+  - Decoder-based Models
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:42:01.146084",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Transformer Architecture",
+    "Encoder-based Classifiers",
+    "Decoder-based Models"
+  ],
+  "rejected_keywords": [
+    "Social Bot Detection",
+    "Large Language Models"
+  ],
+  "similarity_scores": {
+    "Transformer Architecture": 0.8,
+    "Encoder-based Classifiers": 0.78,
+    "Decoder-based Models": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # A Comparative Analysis of Transformer Models in Social Bot Detection
 
 **Korean Title:** 소셜 봇 탐지에서의 트랜스포머 모델 비교 분석
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Rohan Veit|Rohan Veit]] [[authors/Michael Lones|Michael Lones]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]     [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Task-specific Alignment
+**🔗 Specific Connectable**: [[keywords/Transformer Architecture|Transformer Models]]
+**⚡ Unique Technical**: [[keywords/Encoder-based Classifiers|Encoder-based Classifiers]], [[keywords/Decoder-based Models|Decoder-based Models]]
 
 ## 🔗 유사한 논문
 - [[SMARTER_ A Data-efficient Framework to Improve Toxicity Detection with Explanation via Self-augmenting Large Language Models_20250919|SMARTER A Data-efficient Framework to Improve Toxicity Detection with Explanation via Self-augmenting Large Language Models]] (78.4% similar)

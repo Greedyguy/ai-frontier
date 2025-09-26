@@ -1,13 +1,46 @@
+---
+keywords:
+  - Federated Learning
+  - Differential Privacy
+  - Privacy-Preserving Forecasting
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:56:07.126213",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Federated Learning",
+    "Differential Privacy",
+    "Privacy-Preserving Forecasting"
+  ],
+  "rejected_keywords": [
+    "Neural Networks"
+  ],
+  "similarity_scores": {
+    "Federated Learning": 0.9,
+    "Differential Privacy": 0.88,
+    "Privacy-Preserving Forecasting": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Differentially private federated learning for localized control of infectious disease dynamics
 
 **Korean Title:** 전염병 역학의 지역적 제어를 위한 차등 프라이버시 연합 학습
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Raouf Kerkouche|Raouf Kerkouche]] [[authors/Henrik Zunker|Henrik Zunker]] [[authors/Mario Fritz|Mario Fritz]] [[authors/Martin J. Kühn|Martin J. Kühn]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]       [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Client-level Differential Privacy
+**🔗 Specific Connectable**: [[keywords/Federated Learning|Federated Learning]], [[keywords/Differential Privacy|Differential Privacy]]
+**⚡ Unique Technical**: [[keywords/Privacy-Preserving Forecasting|Privacy-Preserving Forecasting]]
 
 ## 🔗 유사한 논문
 - [[Differential Privacy in Federated Learning_ Mitigating Inference Attacks with Randomized Response_20250917|Differential Privacy in Federated Learning Mitigating Inference Attacks with Randomized Response]] (82.3% similar)

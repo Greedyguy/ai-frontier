@@ -1,13 +1,48 @@
+---
+keywords:
+  - Trajectory Prediction
+  - NuScenes and Argoverse Datasets
+  - Deep Learning
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:55:20.120481",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Trajectory Prediction",
+    "NuScenes and Argoverse Datasets",
+    "Deep Learning"
+  ],
+  "rejected_keywords": [
+    "Ensemble Modeling",
+    "Confidence-Weighted Averaging"
+  ],
+  "similarity_scores": {
+    "Trajectory Prediction": 0.8,
+    "NuScenes and Argoverse Datasets": 0.78,
+    "Deep Learning": 0.85
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Ensemble of Pre-Trained Models for Long-Tailed Trajectory Prediction
 
 **Korean Title:** 사전 학습된 모델 앙상블을 활용한 긴 꼬리 궤적 예측
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Divya Thuremella|Divya Thuremella]] [[authors/Yi Yang|Yi Yang]] [[authors/Simon Wanna|Simon Wanna]] [[authors/Lars Kunze|Lars Kunze]] [[authors/Daniele De Martini|Daniele De Martini]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Confidence-weighted Average Method
+**🌐 Broad Technical**: [[keywords/Deep Learning|deep learning models]]
+**🔗 Specific Connectable**: [[keywords/NuScenes and Argoverse Datasets|NuScenes and Argoverse datasets]]
+**⚡ Unique Technical**: [[keywords/Trajectory Prediction|trajectory prediction]]
 
 ## 🔗 유사한 논문
 - [[STEP_ Structured Training and Evaluation Platform for benchmarking trajectory prediction models_20250919|STEP Structured Training and Evaluation Platform for benchmarking trajectory prediction models]] (80.6% similar)

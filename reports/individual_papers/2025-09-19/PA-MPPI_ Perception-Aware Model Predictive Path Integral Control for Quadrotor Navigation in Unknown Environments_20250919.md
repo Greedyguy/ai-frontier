@@ -1,3 +1,36 @@
+---
+keywords:
+  - Perception-Aware MPPI
+  - Model Predictive Path Integral
+  - Foundation Models
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14978
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:30:00.343199",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Perception-Aware MPPI",
+    "Model Predictive Path Integral",
+    "Foundation Models"
+  ],
+  "rejected_keywords": [
+    "Quadrotor Navigation",
+    "Exploration of Unknown Regions"
+  ],
+  "similarity_scores": {
+    "Perception-Aware MPPI": 0.8,
+    "Model Predictive Path Integral": 0.78,
+    "Foundation Models": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # PA-MPPI: Perception-Aware Model Predictive Path Integral Control for Quadrotor Navigation in Unknown Environments
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Perception-Aware Trajectory Optimization
+**⚡ Unique Technical**: [[keywords/Perception-Aware MPPI|Perception-Aware MPPI]], [[keywords/Model Predictive Path Integral|Model Predictive Path Integral]]
+**🚀 Evolved Concepts**: [[keywords/Foundation Models|Navigation Foundation Models]]
 
 ## 🔗 유사한 논문
 - [[Rethinking Reference Trajectories in Agile Drone Racing A Unified Reference-Free Model-Based Controller via MPPI]] (86.8% similar)

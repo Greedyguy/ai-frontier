@@ -1,3 +1,36 @@
+---
+keywords:
+  - Large Language Models
+  - Retrieval Augmented Generation
+  - Graph-based Reranking
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2505.07546
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:42:16.090775",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Retrieval Augmented Generation",
+    "Graph-based Reranking"
+  ],
+  "rejected_keywords": [
+    "Adversarial Document Attacks",
+    "Natural Language Processing"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Retrieval Augmented Generation": 0.78,
+    "Graph-based Reranking": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # GRADA: Graph-based Reranking against Adversarial Documents Attack
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Adversarial Document Attacks
+**🌐 Broad Technical**: [[keywords/Large Language Models|Large Language Models]]
+**⚡ Unique Technical**: [[keywords/Retrieval Augmented Generation|Retrieval Augmented Generation]], [[keywords/Graph-based Reranking|Graph-based Reranking]]
 
 ## 🔗 유사한 논문
 - [[Enhancing_Retrieval_Augmentation_via_Adversarial_Collaboration_20250919|Enhancing Retrieval Augmentation via Adversarial Collaboration]] (87.9% similar)

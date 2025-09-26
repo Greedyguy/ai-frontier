@@ -1,3 +1,36 @@
+---
+keywords:
+  - Agentic JWT
+  - Autonomous AI Agents
+  - Prompt Injection
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13597
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:40:42.370500",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Agentic JWT",
+    "Autonomous AI Agents",
+    "Prompt Injection"
+  ],
+  "rejected_keywords": [
+    "OAuth 2.0",
+    "Zero-Trust"
+  ],
+  "similarity_scores": {
+    "Agentic JWT": 0.8,
+    "Autonomous AI Agents": 0.78,
+    "Prompt Injection": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Agentic JWT: A Secure Delegation Protocol for Autonomous AI Agents
 
@@ -5,10 +38,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Zero-trust Guarantees
+**🔗 Specific Connectable**: [[keywords/Prompt Injection|Prompt Injection]]
+**⚡ Unique Technical**: [[keywords/Agentic JWT|Agentic JWT]]
+**🚀 Evolved Concepts**: [[keywords/Autonomous AI Agents|Autonomous AI Agents]]
 
 ## 🔗 유사한 논문
 - [[AppAgent v2 Advanced Agent for Flexible Mobile Interactions]] (82.9% similar)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - Attention Mechanism
+  - Attention-Based Denoising Framework
+  - Personality Detection
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2311.09945
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:40:09.663430",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Attention Mechanism",
+    "Attention-Based Denoising Framework",
+    "Personality Detection"
+  ],
+  "rejected_keywords": [
+    "Social Media Texts"
+  ],
+  "similarity_scores": {
+    "Attention Mechanism": 0.8,
+    "Attention-Based Denoising Framework": 0.78,
+    "Personality Detection": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # An Attention-Based Denoising Framework for Personality Detection in Social Media Texts
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: State-of-the-art Performance
+**🔗 Specific Connectable**: [[keywords/Attention Mechanism|attention-based information extraction mechanism]]
+**⚡ Unique Technical**: [[keywords/Attention-Based Denoising Framework|attention-based denoising framework]], [[keywords/Personality Detection|personality detection]]
 
 ## 🔗 유사한 논문
 - [[Designing_AI-Agents_with_Personalities_A_Psychometric_Approach_20250918|Designing AI-Agents with Personalities: A Psychometric Approach]] (80.1% similar)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - WiFi Sensing
+  - Channel State Information
+  - Automatic Gain Control
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13807
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:31:58.925052",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "WiFi Sensing",
+    "Channel State Information",
+    "Automatic Gain Control"
+  ],
+  "rejected_keywords": [
+    "802.11 Protocols"
+  ],
+  "similarity_scores": {
+    "WiFi Sensing": 0.78,
+    "Channel State Information": 0.77,
+    "Automatic Gain Control": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Domino: Dominant Path-based Compensation for Hardware Impairments in Modern WiFi Sensing
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Delay-domain processing
+**🔗 Specific Connectable**: [[keywords/Automatic Gain Control|Automatic Gain Control]]
+**⚡ Unique Technical**: [[keywords/WiFi Sensing|WiFi Sensing]], [[keywords/Channel State Information|Channel State Information]]
 
 ## 🔗 유사한 논문
 - [[RF-LSCM: Pushing Radiance Fields to Multi-Domain Localized Statistical Channel Modeling for Cellular Network Optimization]] (78.2% similar)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - Configuration Space Distance Fields
+  - Manipulator Motion Planning
+  - Model Predictive Path Integral
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.00836
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:17:25.945142",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Configuration Space Distance Fields",
+    "Manipulator Motion Planning",
+    "Model Predictive Path Integral"
+  ],
+  "rejected_keywords": [
+    "Collision Avoidance"
+  ],
+  "similarity_scores": {
+    "Configuration Space Distance Fields": 0.8,
+    "Manipulator Motion Planning": 0.7,
+    "Model Predictive Path Integral": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # One-Step Model Predictive Path Integral for Manipulator Motion Planning Using Configuration Space Distance Fields
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Joint-space Cost Unification
+**🔗 Specific Connectable**: [[keywords/Manipulator Motion Planning|Manipulator Motion Planning]]
+**⚡ Unique Technical**: [[keywords/Configuration Space Distance Fields|Configuration Space Distance Fields]], [[keywords/Model Predictive Path Integral|Model Predictive Path Integral]]
 
 ## 🔗 유사한 논문
 - [[Meta-Optimization_and_Program_Search_using_Language_Models_for_Task_and_Motion_Planning_20250918|Meta-Optimization and Program Search using Language Models for Task and Motion Planning]] (82.4% similar)

@@ -1,3 +1,36 @@
+---
+keywords:
+  - Sentinel Agents
+  - Cross-Agent Anomaly Detection
+  - Large Language Models
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14956
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:24:06.984592",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Sentinel Agents",
+    "Cross-Agent Anomaly Detection",
+    "Large Language Models"
+  ],
+  "rejected_keywords": [
+    "Multi-Agent Systems",
+    "Coordinator Agent"
+  ],
+  "similarity_scores": {
+    "Sentinel Agents": 0.78,
+    "Cross-Agent Anomaly Detection": 0.79,
+    "Large Language Models": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Sentinel Agents for Secure and Trustworthy Agentic AI in Multi-Agent Systems
 
@@ -5,10 +38,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Retrieval-augmented Verification
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Large Language Models]]
+**⚡ Unique Technical**: [[keywords/Sentinel Agents|Sentinel Agents]]
+**🚀 Evolved Concepts**: [[keywords/Cross-Agent Anomaly Detection|Cross-Agent Anomaly Detection]]
 
 ## 🔗 유사한 논문
 - [[Agentic JWT A Secure Delegation Protocol for Autonomous AI Agents]] (83.2% similar)

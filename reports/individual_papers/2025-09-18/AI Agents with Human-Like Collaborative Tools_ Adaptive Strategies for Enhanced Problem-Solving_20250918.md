@@ -1,3 +1,35 @@
+---
+keywords:
+  - Large Language Models
+  - Collaborative Tools
+  - Adaptive Strategies
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13547
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:41:24.239450",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Collaborative Tools",
+    "Adaptive Strategies"
+  ],
+  "rejected_keywords": [
+    "Reasoning Enhancers"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Collaborative Tools": 0.78,
+    "Adaptive Strategies": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # AI Agents with Human-Like Collaborative Tools: Adaptive Strategies for Enhanced Problem-Solving
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Adaptive Collaborative Interfaces
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Large Language Models]]
+**⚡ Unique Technical**: [[keywords/Collaborative Tools|Collaborative Tools]], [[keywords/Adaptive Strategies|Adaptive Strategies]]
 
 ## 🔗 유사한 논문
 - [[LLM-I LLMs are Naturally Interleaved Multimodal Creators]] (81.6% similar)

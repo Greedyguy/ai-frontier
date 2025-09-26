@@ -1,3 +1,35 @@
+---
+keywords:
+  - Large Language Models
+  - Schoenfeld's Episode Theory
+  - Cognitive Labels
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14662
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:19:25.137836",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Schoenfeld's Episode Theory",
+    "Cognitive Labels"
+  ],
+  "rejected_keywords": [
+    "Machine Reasoning"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Schoenfeld's Episode Theory": 0.78,
+    "Cognitive Labels": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Understanding the Thinking Process of Reasoning Models: A Perspective from Schoenfeld's Episode Theory
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔬 Broad Technical**: Cognitive Framework, Machine Reasoning
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Large Reasoning Models]]
+**⚡ Unique Technical**: [[keywords/Schoenfeld's Episode Theory|Schoenfeld's Episode Theory]], [[keywords/Cognitive Labels|Cognitive Labels]]
 
 ## 📋 저자 정보
 

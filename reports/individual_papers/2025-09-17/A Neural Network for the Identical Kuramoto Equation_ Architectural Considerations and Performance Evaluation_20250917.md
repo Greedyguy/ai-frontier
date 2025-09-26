@@ -1,13 +1,47 @@
+---
+keywords:
+  - Deep Learning
+  - Activation Functions
+  - Kuramoto Model
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 23:03:05.713850",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Deep Learning",
+    "Activation Functions",
+    "Kuramoto Model"
+  ],
+  "rejected_keywords": [
+    "Nonlocal Conservation Laws"
+  ],
+  "similarity_scores": {
+    "Deep Learning": 0.85,
+    "Activation Functions": 0.8,
+    "Kuramoto Model": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # A Neural Network for the Identical Kuramoto Equation: Architectural Considerations and Performance Evaluation
 
 **Korean Title:** 동일한 쿠라마토 방정식을 위한 신경망: 구조적 고려사항 및 성능 평가
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Nishantak Panigrahi|Nishantak Panigrahi]] [[authors/Mayank Patwal|Mayank Patwal]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]     [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Neural Network-based Scientific Computing
+**🌐 Broad Technical**: [[keywords/Deep Learning|Deep Neural Networks]]
+**🔗 Specific Connectable**: [[keywords/Activation Functions|activation function]]
+**⚡ Unique Technical**: [[keywords/Kuramoto Model|Kuramoto model]]
 
 ## 🔗 유사한 논문
 - [[Low-rank surrogate modeling and stochastic zero-order optimization for training of neural networks with black-box layers_20250918|Low-rank surrogate modeling and stochastic zero-order optimization for training of neural networks with black-box layers]] (81.4% similar)

@@ -1,13 +1,47 @@
+---
+keywords:
+  - Large Language Models
+  - Dynamic Self-reinforcing Calibration for Hallucination Suppression
+  - Factual Alignment Proxy
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:58:01.265519",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Dynamic Self-reinforcing Calibration for Hallucination Suppression",
+    "Factual Alignment Proxy"
+  ],
+  "rejected_keywords": [
+    "Hallucination Detection Proxy",
+    "TruthfulQA"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Dynamic Self-reinforcing Calibration for Hallucination Suppression": 0.75,
+    "Factual Alignment Proxy": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # DSCC-HS: A Dynamic Self-Reinforcing Framework for Hallucination Suppression in Large Language Models
 
 **Korean Title:** DSCC-HS: 대형 언어 모델에서 환각 억제를 위한 동적 자기 강화 프레임워크
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Xiao Zheng|Xiao Zheng]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]    [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Factual Alignment Proxy
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Large Language Model]]
+**⚡ Unique Technical**: [[keywords/Dynamic Self-reinforcing Calibration for Hallucination Suppression|Dynamic Self-reinforcing Calibration for Hallucination Suppression]], [[keywords/Factual Alignment Proxy|Factual Alignment Proxy]]
 
 ## 🔗 유사한 논문
 - [[Decoupled Proxy Alignment_ Mitigating Language Prior Conflict for Multimodal Alignment in MLLM_20250919|Decoupled Proxy Alignment Mitigating Language Prior Conflict for Multimodal Alignment in MLLM]] (84.2% similar)

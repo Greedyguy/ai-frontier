@@ -1,3 +1,36 @@
+---
+keywords:
+  - Large Language Models
+  - Delta Knowledge Distillation
+  - Knowledge Distillation
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14526
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:49:06.298264",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Delta Knowledge Distillation",
+    "Knowledge Distillation"
+  ],
+  "rejected_keywords": [
+    "Token Level Knowledge Distillation",
+    "Supervised Finetuning"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.85,
+    "Delta Knowledge Distillation": 0.88,
+    "Knowledge Distillation": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Delta Knowledge Distillation for Large Language Models
 
@@ -5,10 +38,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Distributional Shift Preservation
+**🔗 Specific Connectable**: [[keywords/Knowledge Distillation|Knowledge Distillation]]
+**⚡ Unique Technical**: [[keywords/Delta Knowledge Distillation|Delta Knowledge Distillation]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[KBM Delineating Knowledge Boundary for Adaptive Retrieval in Large Language Models]] (83.2% similar)

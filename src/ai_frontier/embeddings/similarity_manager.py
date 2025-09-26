@@ -194,6 +194,22 @@ class SimilarityManager:
             self.logger.error(f"Failed to generate similarity report for {arxiv_id}: {e}")
             return None
 
+    def _generate_filename_from_title_and_date(self, title: str, published_date) -> str:
+        """Generate filename from paper title and published date."""
+        import re
+        # Sanitize title for filename - 콜론만 언더스코어로 변경, 띄어쓰기는 유지
+        sanitized_title = title.replace(':', '_')
+        # 다른 금지된 문자들 제거 (띄어쓰기는 유지)
+        illegal_chars = r'[<>"/\\|?*\x00-\x1f]'
+        sanitized_title = re.sub(illegal_chars, '', sanitized_title)
+        sanitized_title = re.sub(r'_+', '_', sanitized_title)
+        sanitized_title = sanitized_title.strip(' .')
+        if not sanitized_title:
+            sanitized_title = "untitled"
+        # Get date string
+        date_str = published_date.strftime("%Y%m%d")
+        return f"{sanitized_title}_{date_str}"
+
     def generate_obsidian_similarity_links(self, arxiv_id: str, max_links: int = 3,
                                          min_similarity: float = 0.75) -> List[str]:
         """Generate Obsidian links to similar papers.
@@ -211,11 +227,26 @@ class SimilarityManager:
 
             links = []
             for paper, similarity in similar_papers:
-                # Create Obsidian link to similar paper
-                # Format: [[paper_title|similarity_score]]
-                sanitized_title = paper.title.replace("[", "").replace("]", "").replace("|", "")
+                # Create Obsidian link to similar paper using actual filename
+                # Format: [[filename_without_extension|display_text]]
+                # published 정보를 metadata에서 가져오기
+                published_str = paper.metadata.get("published", "")
+                if published_str:
+                    from datetime import datetime
+                    try:
+                        published_date = datetime.fromisoformat(published_str.replace('Z', '+00:00'))
+                    except:
+                        published_date = datetime.now()
+                else:
+                    published_date = datetime.now()
+                
+                filename_base = self._generate_filename_from_title_and_date(paper.title, published_date)
                 similarity_pct = round(similarity * 100, 1)
-                link = f"[[{sanitized_title}|{similarity_pct}% similar]]"
+                # Use title for display, filename for linking
+                sanitized_title = paper.title.replace("[", "").replace("]", "").replace("|", "")
+                # Add date folder path to the link
+                date_folder = published_date.strftime("%Y-%m-%d")
+                link = f"[[{date_folder}/{filename_base}|{sanitized_title}]] ({similarity_pct}% similar)"
                 links.append(link)
 
             return links

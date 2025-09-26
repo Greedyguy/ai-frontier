@@ -1,3 +1,35 @@
+---
+keywords:
+  - Large Language Models
+  - Multilingual and Multicultural Safety Detection
+  - Dialogue System Evaluation
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13569
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:16:55.549618",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Multilingual and Multicultural Safety Detection",
+    "Dialogue System Evaluation"
+  ],
+  "rejected_keywords": [
+    "Spearman's correlation"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Multilingual and Multicultural Safety Detection": 0.78,
+    "Dialogue System Evaluation": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Overview of Dialog System Evaluation Track: Dimensionality, Language, Culture and Safety at DSTC 12
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Multilingual and Multicultural Safety Detection
+**⚡ Unique Technical**: [[keywords/Multilingual and Multicultural Safety Detection|Multilingual and Multicultural Safety Detection]], [[keywords/Dialogue System Evaluation|Dialogue System Evaluation]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[Understanding and Mitigating Overrefusal in LLMs from an Unveiling Perspective of Safety Decision Boundary]] (80.2% similar)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - Transfer Learning
+  - Large Language Models
+  - Frobenius Norm
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2506.02478
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:28:01.230987",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Transfer Learning",
+    "Large Language Models",
+    "Frobenius Norm"
+  ],
+  "rejected_keywords": [
+    "Adaptive Merging"
+  ],
+  "similarity_scores": {
+    "Transfer Learning": 0.82,
+    "Large Language Models": 0.78,
+    "Frobenius Norm": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # FroM: Frobenius Norm-Based Data-Free Adaptive Model Merging
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Adaptive merging
+**🔗 Specific Connectable**: [[keywords/Transfer Learning|Fine-Tuning]]
+**⚡ Unique Technical**: [[keywords/Frobenius Norm|Frobenius Norm]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[HAM_Hierarchical_Adapter_Merging_for_Scalable_Continual_Learning_20250918|HAM: Hierarchical Adapter Merging for Scalable Continual Learning]] (80.5% similar)

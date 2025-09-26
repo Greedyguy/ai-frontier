@@ -1,3 +1,36 @@
+---
+keywords:
+  - Audio Question Answering
+  - Large Audio-Language Models
+  - Curriculum Learning
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.12275
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:32:11.578620",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Audio Question Answering",
+    "Large Audio-Language Models",
+    "Curriculum Learning"
+  ],
+  "rejected_keywords": [
+    "Chain-of-Thought",
+    "Error-Aware Curriculum"
+  ],
+  "similarity_scores": {
+    "Audio Question Answering": 0.78,
+    "Large Audio-Language Models": 0.77,
+    "Curriculum Learning": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Omni-CLST: Error-aware Curriculum Learning with guided Selective chain-of-Thought for audio question answering
 
@@ -5,10 +38,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Error Aware Curriculum Learning
+**🔗 Specific Connectable**: [[keywords/Curriculum Learning|curriculum learning]]
+**⚡ Unique Technical**: [[keywords/Audio Question Answering|audio question answering]]
+**🚀 Evolved Concepts**: [[keywords/Large Audio-Language Models|large audio-language models]]
 
 ## 🔗 유사한 논문
 - [[Cross-Modal_Knowledge_Distillation_for_Speech_Large_Language_Models_20250919|Cross-Modal Knowledge Distillation for Speech Large Language Models]] (81.8% similar)

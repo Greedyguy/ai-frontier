@@ -1,3 +1,36 @@
+---
+keywords:
+  - Confidence Calibration
+  - Neural Networks
+  - Post-Hoc Calibration
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14386
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:47:47.405245",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Confidence Calibration",
+    "Neural Networks",
+    "Post-Hoc Calibration"
+  ],
+  "rejected_keywords": [
+    "Binary Supervision",
+    "Information-Theoretic Constraint"
+  ],
+  "similarity_scores": {
+    "Confidence Calibration": 0.8,
+    "Neural Networks": 0.85,
+    "Post-Hoc Calibration": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Disproving the Feasibility of Learned Confidence Calibration Under Binary Supervision: An Information-Theoretic Impossibility
 
@@ -5,10 +38,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Adaptive Multi-agent Learning
+**🌐 Broad Technical**: [[keywords/Neural Networks|Neural Networks]]
+**🔗 Specific Connectable**: [[keywords/Post-Hoc Calibration|Post-Hoc Calibration]]
+**⚡ Unique Technical**: [[keywords/Confidence Calibration|Confidence Calibration]]
 
 ## 🔗 유사한 논문
 - [[Post-Hoc_Split-Point_Self-Consistency_Verification_for_Efficient,_Unified_Quantification_of_Aleatoric_and_Epistemic_Uncertainty_in_Deep_Learning_20250918|Post-Hoc Split-Point Self-Consistency Verification for Efficient, Unified Quantification of Aleatoric and Epistemic Uncertainty in Deep Learning]] (80.7% similar)

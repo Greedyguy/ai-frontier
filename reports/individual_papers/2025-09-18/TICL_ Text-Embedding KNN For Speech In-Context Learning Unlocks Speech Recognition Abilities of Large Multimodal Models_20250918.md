@@ -1,3 +1,35 @@
+---
+keywords:
+  - In-Context Learning
+  - Text-Embedding KNN
+  - Foundation Models
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13395
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:07:17.067191",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "In-Context Learning",
+    "Text-Embedding KNN",
+    "Foundation Models"
+  ],
+  "rejected_keywords": [
+    "Speech Recognition"
+  ],
+  "similarity_scores": {
+    "In-Context Learning": 0.88,
+    "Text-Embedding KNN": 0.82,
+    "Foundation Models": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # TICL: Text-Embedding KNN For Speech In-Context Learning Unlocks Speech Recognition Abilities of Large Multimodal Models
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔬 Broad Technical**: Speech Recognition, Multimodal Models
+**🌐 Broad Technical**: [[keywords/Foundation Models|Large Multimodal Models]]
+**⚡ Unique Technical**: [[keywords/Text-Embedding KNN|Text-Embedding KNN]]
+**🚀 Evolved Concepts**: [[keywords/In-Context Learning|Speech In-Context Learning]]
 
 ## 🔗 유사한 논문
 - [[Singular_Value_Few-shot_Adaptation_of_Vision-Language_Models_20250918|Singular Value Few-shot Adaptation of Vision-Language Models]] (80.4% similar)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - Machine Learning
+  - Random Forest
+  - Nutritional Status Prediction
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14945
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:49:58.055928",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Machine Learning",
+    "Random Forest",
+    "Nutritional Status Prediction"
+  ],
+  "rejected_keywords": [
+    "Ethiopian Demographic and Health Survey"
+  ],
+  "similarity_scores": {
+    "Machine Learning": 0.85,
+    "Random Forest": 0.8,
+    "Nutritional Status Prediction": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Data-Driven Prediction of Maternal Nutritional Status in Ethiopia Using Ensemble Machine Learning Models
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Data-driven Prediction
+**🌐 Broad Technical**: [[keywords/Machine Learning|Ensemble Machine Learning]]
+**🔗 Specific Connectable**: [[keywords/Random Forest|Random Forest]]
+**⚡ Unique Technical**: [[keywords/Nutritional Status Prediction|Nutritional Status Prediction]]
 
 ## 🔗 유사한 논문
 - [[Artificial neural networks ensemble methodology to predict significant wave height]] (78.2% similar)

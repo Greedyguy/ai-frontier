@@ -1,3 +1,35 @@
+---
+keywords:
+  - Quasi-Hyperbolic Discounting
+  - Time-Inconsistent Behavior
+  - Optimal Interventions
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:56:39.621173",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Quasi-Hyperbolic Discounting",
+    "Time-Inconsistent Behavior",
+    "Optimal Interventions"
+  ],
+  "rejected_keywords": [
+    "Agent Behavior"
+  ],
+  "similarity_scores": {
+    "Quasi-Hyperbolic Discounting": 0.82,
+    "Time-Inconsistent Behavior": 0.78,
+    "Optimal Interventions": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Delta Matters: An Analytically Tractable Model for $β$-$δ$ Discounting Agents
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Yasunori Akagi|Yasunori Akagi]] [[authors/Takeshi Kurashima|Takeshi Kurashima]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]     [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: quasi-hyperbolic discounting
+**🌐 Broad Technical**: [[keywords/Optimal Interventions|optimal interventions]]
+**⚡ Unique Technical**: [[keywords/Quasi-Hyperbolic Discounting|quasi-hyperbolic discounting]], [[keywords/Time-Inconsistent Behavior|time-inconsistent behavior]]
 
 ## 🔗 유사한 논문
 - [[Polynomial-Time_Approximation_Schemes_via_Utility_Alignment_Unit-Demand_Pricing_and_More_20250918|Polynomial-Time Approximation Schemes via Utility Alignment: Unit-Demand Pricing and More]] (78.7% similar)

@@ -1,13 +1,45 @@
+---
+keywords:
+  - Quantum Agnostic Boosting
+  - Quantum PAC Model
+  - Depth-3 Circuits
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:55:41.649618",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Quantum Agnostic Boosting",
+    "Quantum PAC Model",
+    "Depth-3 Circuits"
+  ],
+  "rejected_keywords": [
+    "Phase States"
+  ],
+  "similarity_scores": {
+    "Quantum Agnostic Boosting": 0.8,
+    "Quantum PAC Model": 0.78,
+    "Depth-3 Circuits": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Efficiently learning depth-3 circuits via quantum agnostic boosting
 
 **Korean Title:** 깊이-3 회로를 효율적으로 학습하기 위한 양자 비판적 부스팅
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Srinivasan Arunachalam|Srinivasan Arunachalam]] [[authors/Arkopal Dutt|Arkopal Dutt]] [[authors/Alexandru Gheorghiu|Alexandru Gheorghiu]] [[authors/Michael de Oliveira|Michael de Oliveira]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]       [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**⭐ Unique Technical**: Quantum Agnostic Boosting
+**⚡ Unique Technical**: [[keywords/Quantum Agnostic Boosting|quantum agnostic boosting]], [[keywords/Quantum PAC Model|quantum PAC model]], [[keywords/Depth-3 Circuits|depth-3 circuits]]
 
 ## 🔗 유사한 논문
 - [[Trainability of Quantum Models Beyond Known Classical Simulability_20250919|Trainability of Quantum Models Beyond Known Classical Simulability]] (80.8% similar)

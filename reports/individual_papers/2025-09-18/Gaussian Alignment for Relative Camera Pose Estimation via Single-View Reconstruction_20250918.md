@@ -1,3 +1,35 @@
+---
+keywords:
+  - Relative Camera Pose Estimation
+  - Single-View Reconstruction
+  - Differentiable GMM Alignment
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13652
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:27:07.836304",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Relative Camera Pose Estimation",
+    "Single-View Reconstruction",
+    "Differentiable GMM Alignment"
+  ],
+  "rejected_keywords": [
+    "Gaussian Mixture Model"
+  ],
+  "similarity_scores": {
+    "Relative Camera Pose Estimation": 0.85,
+    "Single-View Reconstruction": 0.82,
+    "Differentiable GMM Alignment": 0.79
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Gaussian Alignment for Relative Camera Pose Estimation via Single-View Reconstruction
 
@@ -5,10 +37,10 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Multi-view Geometry
+**⚡ Unique Technical**: [[keywords/Relative Camera Pose Estimation|relative camera pose estimation]], [[keywords/Single-View Reconstruction|single-view reconstruction]], [[keywords/Differentiable GMM Alignment|differentiable GMM alignment]]
 
 ## 🔗 유사한 논문
 - [[MCGS-SLAM_A_Multi-Camera_SLAM_Framework_Using_Gaussian_Splatting_for_High-Fidelity_Mapping_20250918|MCGS-SLAM: A Multi-Camera SLAM Framework Using Gaussian Splatting for High-Fidelity Mapping]] (83.9% similar)

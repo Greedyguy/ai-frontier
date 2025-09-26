@@ -1,3 +1,36 @@
+---
+keywords:
+  - Large Language Models
+  - Language Proficiency Control
+  - Dilaprix Metric
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14545
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:51:16.056644",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Language Proficiency Control",
+    "Dilaprix Metric"
+  ],
+  "rejected_keywords": [
+    "Linguistic Features",
+    "Natural Language Processing"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Language Proficiency Control": 0.78,
+    "Dilaprix Metric": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Controlling Language Difficulty in Dialogues with Linguistic Features
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Language Proficiency Control
+**⚡ Unique Technical**: [[keywords/Language Proficiency Control|language proficiency]], [[keywords/Dilaprix Metric|Dilaprix]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[Forget What You Know about LLMs Evaluations -- LLMs are Like a Chameleon]] (84.9% similar)

@@ -1,3 +1,36 @@
+---
+keywords:
+  - Vision Transformers
+  - Multimodal Contrastive Learning
+  - Foundation Models
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14084
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:59:06.523965",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Vision Transformers",
+    "Multimodal Contrastive Learning",
+    "Foundation Models"
+  ],
+  "rejected_keywords": [
+    "Zero-Shot Anomaly Detection",
+    "Anomaly-Aware Calibration Module"
+  ],
+  "similarity_scores": {
+    "Vision Transformers": 0.82,
+    "Multimodal Contrastive Learning": 0.79,
+    "Foundation Models": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # AD-DINOv3: Enhancing DINOv3 for Zero-Shot Anomaly Detection with Anomaly-Aware Calibration
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Anomaly-Aware Calibration
+**🔗 Specific Connectable**: [[keywords/Vision Transformers|Vision Transformers]], [[keywords/Foundation Models|Foundation Models]]
+**🚀 Evolved Concepts**: [[keywords/Multimodal Contrastive Learning|Multimodal Contrastive Learning]]
 
 ## 🔗 유사한 논문
 - [[Singular Value Few-shot Adaptation of Vision-Language Models_20250918|Singular Value Few-shot Adaptation of Vision-Language Models]] (81.4% similar)

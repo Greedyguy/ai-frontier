@@ -1,13 +1,46 @@
+---
+keywords:
+  - Generalizable Image Super-Resolution
+  - Feature Denoising
+  - Noise Detection
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:17:52.317424",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Generalizable Image Super-Resolution",
+    "Feature Denoising",
+    "Noise Detection"
+  ],
+  "rejected_keywords": [
+    "Image Content Features"
+  ],
+  "similarity_scores": {
+    "Generalizable Image Super-Resolution": 0.78,
+    "Feature Denoising": 0.77,
+    "Noise Detection": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Not All Degradations Are Equal: A Targeted Feature Denoising Framework for Generalizable Image Super-Resolution
 
 **Korean Title:** 모든 열화가 동일하지는 않다: 일반화 가능한 이미지 초해상도를 위한 목표 지향적 특징 잡음 제거 프레임워크
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Hongjun Wang|Hongjun Wang]] [[authors/Jiyuan Chen|Jiyuan Chen]] [[authors/Zhengwei Yin|Zhengwei Yin]] [[authors/Xuan Song|Xuan Song]] [[authors/Yinqiang Zheng|Yinqiang Zheng]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Generalizable Image Super-Resolution
+**🔗 Specific Connectable**: [[keywords/Noise Detection|Noise Detection]]
+**⚡ Unique Technical**: [[keywords/Generalizable Image Super-Resolution|Generalizable Image Super-Resolution]], [[keywords/Feature Denoising|Feature Denoising]]
 
 ## 🔗 유사한 논문
 - [[End4_ End-to-end Denoising Diffusion for Diffusion-Based Inpainting Detection_20250919|End4 End-to-end Denoising Diffusion for Diffusion-Based Inpainting Detection]] (80.7% similar)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - Federated Prompt Learning
+  - Vision Language Model
+  - Federated Learning
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2505.23024
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:56:57.612408",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Federated Prompt Learning",
+    "Vision Language Model",
+    "Federated Learning"
+  ],
+  "rejected_keywords": [
+    "Prompt Learning"
+  ],
+  "similarity_scores": {
+    "Federated Prompt Learning": 0.78,
+    "Vision Language Model": 0.77,
+    "Federated Learning": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # An Empirical Study of Federated Prompt Learning for Vision Language Model
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Vision Prompt Learning
+**🔗 Specific Connectable**: [[keywords/Federated Learning|Federated Learning]]
+**⚡ Unique Technical**: [[keywords/Federated Prompt Learning|Federated Prompt Learning]]
+**🚀 Evolved Concepts**: [[keywords/Vision Language Model|Vision Language Model]]
 
 ## 🔗 유사한 논문
 - [[An Empirical Analysis of VLM-based OOD Detection Mechanisms, Advantages, and Sensitivity]] (82.6% similar)

@@ -1,3 +1,36 @@
+---
+keywords:
+  - Wildfire Smoke Data
+  - Metadata Standardization
+  - Data Reuse
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.09888
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:52:59.530762",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Wildfire Smoke Data",
+    "Metadata Standardization",
+    "Data Reuse"
+  ],
+  "rejected_keywords": [
+    "Solar Photovoltaic Energy",
+    "Grid Resiliency"
+  ],
+  "similarity_scores": {
+    "Wildfire Smoke Data": 0.78,
+    "Metadata Standardization": 0.77,
+    "Data Reuse": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Climate Data for Power Systems Applications: Lessons in Reusing Wildfire Smoke Data for Solar PV Studies
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Knowledge Transfer Infrastructures
+**🔗 Specific Connectable**: [[keywords/Metadata Standardization|metadata standardization]]
+**⚡ Unique Technical**: [[keywords/Wildfire Smoke Data|wildfire smoke data]], [[keywords/Data Reuse|data reuse]]
 
 ## 🔗 유사한 논문
 - [[Forecasting and Visualizing Air Quality from Sky Images with Vision-Language Models_20250919|Forecasting and Visualizing Air Quality from Sky Images with Vision-Language Models]] (77.1% similar)

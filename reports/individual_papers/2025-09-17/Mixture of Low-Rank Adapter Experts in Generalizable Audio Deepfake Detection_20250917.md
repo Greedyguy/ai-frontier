@@ -1,13 +1,48 @@
+---
+keywords:
+  - Attention Mechanism
+  - Audio Deepfake Detection
+  - Foundation Models
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:50:27.385935",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Attention Mechanism",
+    "Audio Deepfake Detection",
+    "Foundation Models"
+  ],
+  "rejected_keywords": [
+    "Low-Rank Adapters",
+    "Routing Mechanism"
+  ],
+  "similarity_scores": {
+    "Attention Mechanism": 0.8,
+    "Audio Deepfake Detection": 0.75,
+    "Foundation Models": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Mixture of Low-Rank Adapter Experts in Generalizable Audio Deepfake Detection
 
 **Korean Title:** 일반화 가능한 오디오 딥페이크 탐지에서 저차원 어댑터 전문가의 혼합
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Janne Laakkonen|Janne Laakkonen]] [[authors/Ivan Kukanov|Ivan Kukanov]] [[authors/Ville Hautamäki|Ville Hautamäki]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]      [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Generalizable Audio Deepfake Detection
+**🔗 Specific Connectable**: [[keywords/Attention Mechanism|attention layers]]
+**⚡ Unique Technical**: [[keywords/Audio Deepfake Detection|audio deepfake detection]]
+**🚀 Evolved Concepts**: [[keywords/Foundation Models|Wav2Vec2]]
 
 ## 🔗 유사한 논문
 - [[Adaptive LoRA Experts Allocation and Selection for Federated Fine-Tuning_20250918|Adaptive LoRA Experts Allocation and Selection for Federated Fine-Tuning]] (84.5% similar)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - Reinforcement Learning
+  - Chain-of-Thought
+  - Log Anomaly Detection
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14693
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:27:39.609845",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Reinforcement Learning",
+    "Chain-of-Thought",
+    "Log Anomaly Detection"
+  ],
+  "rejected_keywords": [
+    "Large Language Models"
+  ],
+  "similarity_scores": {
+    "Reinforcement Learning": 0.78,
+    "Chain-of-Thought": 0.72,
+    "Log Anomaly Detection": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # RationAnomaly: Log Anomaly Detection with Rationality via Chain-of-Thought and Reinforcement Learning
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔬 Broad Technical**: Reinforcement Learning
+**🔗 Specific Connectable**: [[keywords/Reinforcement Learning|Reinforcement Learning]]
+**⚡ Unique Technical**: [[keywords/Chain-of-Thought|Chain-of-Thought]], [[keywords/Log Anomaly Detection|Log Anomaly Detection]]
 
 ## 📋 저자 정보
 

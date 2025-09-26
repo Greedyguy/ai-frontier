@@ -1,3 +1,35 @@
+---
+keywords:
+  - Generative Models
+  - Multi-Modal Learning
+  - Speech Recognition
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2409.11261
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:21:48.968761",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Generative Models",
+    "Multi-Modal Learning",
+    "Speech Recognition"
+  ],
+  "rejected_keywords": [
+    "Dynamic Multimodal Narratives"
+  ],
+  "similarity_scores": {
+    "Generative Models": 0.8,
+    "Multi-Modal Learning": 0.78,
+    "Speech Recognition": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # The Art of Storytelling: Multi-Agent Generative AI for Dynamic Multimodal Narratives
 
@@ -5,10 +37,10 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Multi-Agent Generative AI
+**🔗 Specific Connectable**: [[keywords/Generative Models|Generative Artificial Intelligence]], [[keywords/Multi-Modal Learning|text-to-video generation]], [[keywords/Speech Recognition|text-to-speech conversion]]
 
 ## 🔗 유사한 논문
 - [[AgentCTG Harnessing Multi-Agent Collaboration for Fine-Grained Precise Control in Text Generation]] (81.8% similar)

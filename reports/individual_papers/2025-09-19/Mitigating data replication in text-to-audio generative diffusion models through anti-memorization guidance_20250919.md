@@ -1,3 +1,35 @@
+---
+keywords:
+  - Diffusion Models
+  - Generative Models
+  - Anti-Memorization Strategies
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14934
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:34:09.151693",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Diffusion Models",
+    "Generative Models",
+    "Anti-Memorization Strategies"
+  ],
+  "rejected_keywords": [
+    "Stable Audio Open"
+  ],
+  "similarity_scores": {
+    "Diffusion Models": 0.82,
+    "Generative Models": 0.75,
+    "Anti-Memorization Strategies": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Mitigating data replication in text-to-audio generative diffusion models through anti-memorization guidance
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Anti-Memorization Strategies
+**🔗 Specific Connectable**: [[keywords/Diffusion Models|text-to-audio diffusion models]], [[keywords/Generative Models|generative audio models]]
+**⚡ Unique Technical**: [[keywords/Anti-Memorization Strategies|anti-memorization strategies]]
 
 ## 🔗 유사한 논문
 - [[Diffusion-Based_Unsupervised_Audio-Visual_Speech_Separation_in_Noisy_Environments_with_Noise_Prior_20250919|Diffusion-Based Unsupervised Audio-Visual Speech Separation in Noisy Environments with Noise Prior]] (80.2% similar)

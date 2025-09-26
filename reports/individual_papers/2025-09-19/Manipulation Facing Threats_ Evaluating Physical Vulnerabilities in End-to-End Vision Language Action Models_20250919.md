@@ -1,3 +1,36 @@
+---
+keywords:
+  - Large Language Models
+  - Vision Language Action Models
+  - Adversarial Patch Attacks
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2409.13174
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:35:34.381520",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Vision Language Action Models",
+    "Adversarial Patch Attacks"
+  ],
+  "rejected_keywords": [
+    "Physical Vulnerability Evaluating Pipeline",
+    "Out-of-Distribution"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.85,
+    "Vision Language Action Models": 0.8,
+    "Adversarial Patch Attacks": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Manipulation Facing Threats: Evaluating Physical Vulnerabilities in End-to-End Vision Language Action Models
 
@@ -5,10 +38,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Vision Language Action Models
+**🔗 Specific Connectable**: [[keywords/Adversarial Patch Attacks|Adversarial Patch Attacks]]
+**⚡ Unique Technical**: [[keywords/Vision Language Action Models|Vision Language Action Models]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Multimodal Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[The Sum Leaks More Than Its Parts Compositional Privacy Risks and Mitigations in Multi-Agent Collaboration]] (84.1% similar)

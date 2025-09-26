@@ -1,3 +1,35 @@
+---
+keywords:
+  - k-Nearest Neighbours
+  - Minkowski Distance
+  - Chebyshev Distance
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2112.12549
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:52:27.783649",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "k-Nearest Neighbours",
+    "Minkowski Distance",
+    "Chebyshev Distance"
+  ],
+  "rejected_keywords": [
+    "UCI Machine Learning Repository"
+  ],
+  "similarity_scores": {
+    "k-Nearest Neighbours": 0.8,
+    "Minkowski Distance": 0.78,
+    "Chebyshev Distance": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Combining Minkowski and Chebyshev: New distance proposal and survey of distance metrics using k-nearest neighbours classifier
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Minkowski Distance, Chebyshev Distance
+**🔗 Specific Connectable**: [[keywords/k-Nearest Neighbours|k-Nearest Neighbours classifier]]
+**⚡ Unique Technical**: [[keywords/Minkowski Distance|Minkowski distance]], [[keywords/Chebyshev Distance|Chebyshev distance]]
 
 ## 🔗 유사한 논문
 - [[Data-Driven_Distributed_Optimization_via_Aggregative_Tracking_and_Deep-Learning_20250918|Data-Driven Distributed Optimization via Aggregative Tracking and Deep-Learning]] (77.3% similar)

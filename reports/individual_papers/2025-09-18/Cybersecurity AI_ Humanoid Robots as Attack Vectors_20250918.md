@@ -1,3 +1,36 @@
+---
+keywords:
+  - Cybersecurity AI
+  - Physical-Cyber Convergence
+  - Humanoid Robots
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.14139
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:34:08.974790",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Cybersecurity AI",
+    "Physical-Cyber Convergence",
+    "Humanoid Robots"
+  ],
+  "rejected_keywords": [
+    "Blowfish Encryption",
+    "GDPR Compliance"
+  ],
+  "similarity_scores": {
+    "Cybersecurity AI": 0.78,
+    "Physical-Cyber Convergence": 0.72,
+    "Humanoid Robots": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Cybersecurity AI: Humanoid Robots as Attack Vectors
 
@@ -5,10 +38,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔬 Broad Technical**: Cybersecurity, Humanoid Robots
+**🔗 Specific Connectable**: [[keywords/Humanoid Robots|Humanoid Robots]]
+**⚡ Unique Technical**: [[keywords/Cybersecurity AI|Cybersecurity AI]]
+**🚀 Evolved Concepts**: [[keywords/Physical-Cyber Convergence|Physical-Cyber Convergence]]
 
 ## 🔗 유사한 논문
 - [[The_Cybersecurity_of_a_Humanoid_Robot_20250918|The Cybersecurity of a Humanoid Robot]] (95.0% similar)

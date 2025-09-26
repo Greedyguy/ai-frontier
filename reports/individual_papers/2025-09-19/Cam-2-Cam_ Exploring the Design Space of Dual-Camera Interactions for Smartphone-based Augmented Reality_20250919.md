@@ -1,3 +1,35 @@
+---
+keywords:
+  - Smartphone-based Augmented Reality
+  - Dual-Camera Interactions
+  - Embodiment and Immersion
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2504.20035
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:53:47.473238",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Smartphone-based Augmented Reality",
+    "Dual-Camera Interactions",
+    "Embodiment and Immersion"
+  ],
+  "rejected_keywords": [
+    "Preventing Disorientation in AR"
+  ],
+  "similarity_scores": {
+    "Smartphone-based Augmented Reality": 0.78,
+    "Dual-Camera Interactions": 0.77,
+    "Embodiment and Immersion": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Cam-2-Cam: Exploring the Design Space of Dual-Camera Interactions for Smartphone-based Augmented Reality
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Simultaneous Capture
+**⚡ Unique Technical**: [[keywords/Smartphone-based Augmented Reality|smartphone-based augmented reality]], [[keywords/Dual-Camera Interactions|dual-camera interactions]]
+**🚀 Evolved Concepts**: [[keywords/Embodiment and Immersion|embodiment and immersion]]
 
 ## 🔗 유사한 논문
 - [[Investigating the Ways in Which Mobile Phone Images with Open-Source Data Can Be Used to Create an Augmented Virtual Environment (AVE)_20250919|Investigating the Ways in Which Mobile Phone Images with Open-Source Data Can Be Used to Create an Augmented Virtual Environment (AVE)]] (78.6% similar)

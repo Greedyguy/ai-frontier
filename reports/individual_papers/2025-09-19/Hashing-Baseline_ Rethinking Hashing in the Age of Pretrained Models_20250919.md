@@ -1,3 +1,35 @@
+---
+keywords:
+  - Hashing
+  - Pretrained Models
+  - Vision and Audio Encoders
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14427
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:40:48.348588",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Hashing",
+    "Pretrained Models",
+    "Vision and Audio Encoders"
+  ],
+  "rejected_keywords": [
+    "Principal Component Analysis"
+  ],
+  "similarity_scores": {
+    "Hashing": 0.85,
+    "Pretrained Models": 0.8,
+    "Vision and Audio Encoders": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Hashing-Baseline: Rethinking Hashing in the Age of Pretrained Models
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Training-free Hashing
+**🔗 Specific Connectable**: [[keywords/Vision and Audio Encoders|vision and audio encoders]]
+**⚡ Unique Technical**: [[keywords/Hashing|hashing]]
+**🚀 Evolved Concepts**: [[keywords/Pretrained Models|pretrained models]]
 
 ## 🔗 유사한 논문
 - [[DiffHash Text-Guided Targeted Attack via Diffusion Models against Deep Hashing Image Retrieval]] (82.5% similar)

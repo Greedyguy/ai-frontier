@@ -1,3 +1,35 @@
+---
+keywords:
+  - Large Language Models
+  - Multi-Modal Learning
+  - Table Understanding
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14671
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:22:14.034116",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Multi-Modal Learning",
+    "Table Understanding"
+  ],
+  "rejected_keywords": [
+    "Cross-Modal Knowledge Integration"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Multi-Modal Learning": 0.82,
+    "Table Understanding": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # TableDART: Dynamic Adaptive Multi-Modal Routing for Table Understanding
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Dynamic Adaptive Routing
+**⚡ Unique Technical**: [[keywords/Table Understanding|Table Understanding]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]], [[keywords/Multi-Modal Learning|Multi-Modal Learning]]
 
 ## 🔗 유사한 논문
 - [[DetectAnyLLM Towards Generalizable and Robust Detection of Machine-Generated Text Across Domains and Models]] (81.4% similar)

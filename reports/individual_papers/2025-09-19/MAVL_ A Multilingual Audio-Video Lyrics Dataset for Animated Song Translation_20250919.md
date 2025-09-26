@@ -1,3 +1,35 @@
+---
+keywords:
+  - Syllable-Constrained Audio-Video LLM
+  - Multilingual Audio-Video Lyrics Benchmark
+  - Animated Song Translation
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2505.18614
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:36:34.827310",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Syllable-Constrained Audio-Video LLM",
+    "Multilingual Audio-Video Lyrics Benchmark",
+    "Animated Song Translation"
+  ],
+  "rejected_keywords": [
+    "Multi-Modal Learning"
+  ],
+  "similarity_scores": {
+    "Syllable-Constrained Audio-Video LLM": 0.82,
+    "Multilingual Audio-Video Lyrics Benchmark": 0.8,
+    "Animated Song Translation": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # MAVL: A Multilingual Audio-Video Lyrics Dataset for Animated Song Translation
 
@@ -5,10 +37,10 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Multilingual Audio-Video Integration
+**⚡ Unique Technical**: [[keywords/Syllable-Constrained Audio-Video LLM|Syllable-Constrained Audio-Video LLM]], [[keywords/Multilingual Audio-Video Lyrics Benchmark|Multilingual Audio-Video Lyrics Benchmark]], [[keywords/Animated Song Translation|Animated Song Translation]]
 
 ## 🔗 유사한 논문
 - [[A Culturally-diverse Multilingual Multimodal Video Benchmark & Model]] (79.1% similar)

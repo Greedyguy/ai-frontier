@@ -1,3 +1,35 @@
+---
+keywords:
+  - Large Language Models
+  - Reinforcement Learning
+  - Transformer Architecture
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14257
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:43:07.159188",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Reinforcement Learning",
+    "Transformer Architecture"
+  ],
+  "rejected_keywords": [
+    "Reinforced Distillation"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.88,
+    "Reinforcement Learning": 0.85,
+    "Transformer Architecture": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # From Correction to Mastery: Reinforced Distillation of Large Language Model Agents
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Student-centered Framework
+**🔗 Specific Connectable**: [[keywords/Reinforcement Learning|Reinforcement Learning]], [[keywords/Transformer Architecture|Transformer Architecture]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Model agents]]
 
 ## 🔗 유사한 논문
 - [[MAgICoRe Multi-Agent, Iterative, Coarse-to-Fine Refinement for Reasoning]] (85.6% similar)

@@ -1,3 +1,36 @@
+---
+keywords:
+  - Large Language Models
+  - Open Relation Extraction
+  - Relation Discoverer
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.15089
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:38:57.628797",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Open Relation Extraction",
+    "Relation Discoverer"
+  ],
+  "rejected_keywords": [
+    "Relation Predictor",
+    "Self-Correcting Inference Strategy"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.88,
+    "Open Relation Extraction": 0.82,
+    "Relation Discoverer": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # LLM-OREF: An Open Relation Extraction Framework Based on Large Language Models
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Self Correcting Inference Strategy
+**⚡ Unique Technical**: [[keywords/Open Relation Extraction|Open Relation Extraction]], [[keywords/Relation Discoverer|Relation Discoverer]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[LLM Agents at the Roundtable A Multi-Perspective and Dialectical Reasoning Framework for Essay Scoring]] (80.0% similar)

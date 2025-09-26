@@ -1,3 +1,35 @@
+---
+keywords:
+  - Generative Models
+  - Self-Supervised Learning
+  - Mutual Information
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2501.13718
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:59:56.342476",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Generative Models",
+    "Self-Supervised Learning",
+    "Mutual Information"
+  ],
+  "rejected_keywords": [
+    "Continuous Sampling"
+  ],
+  "similarity_scores": {
+    "Generative Models": 0.8,
+    "Self-Supervised Learning": 0.77,
+    "Mutual Information": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # A Mutual Information Perspective on Multiple Latent Variable Generative Models for Positive View Generation
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Synthetic Data Generation
+**🔗 Specific Connectable**: [[keywords/Generative Models|Multiple Latent Variable Generative Models]], [[keywords/Self-Supervised Learning|Self-Supervised Contrastive Representation Learning]]
+**⚡ Unique Technical**: [[keywords/Mutual Information|Mutual Information]]
 
 ## 🔗 유사한 논문
 - [[LLM-I LLMs are Naturally Interleaved Multimodal Creators]] (82.8% similar)

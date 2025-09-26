@@ -1,3 +1,35 @@
+---
+keywords:
+  - Convolutional Neural Networks
+  - Adverse Pregnancy Outcomes
+  - Digital Biomarker
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14242
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:56:13.105377",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Convolutional Neural Networks",
+    "Adverse Pregnancy Outcomes",
+    "Digital Biomarker"
+  ],
+  "rejected_keywords": [
+    "Cardiotocography"
+  ],
+  "similarity_scores": {
+    "Convolutional Neural Networks": 0.8,
+    "Adverse Pregnancy Outcomes": 0.75,
+    "Digital Biomarker": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Artificial Intelligence-derived Cardiotocography Age as a Digital Biomarker for Predicting Future Adverse Pregnancy Outcomes
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Digital Biomarker
+**🔗 Specific Connectable**: [[keywords/Convolutional Neural Networks|Convolutional Neural Network]]
+**⚡ Unique Technical**: [[keywords/Adverse Pregnancy Outcomes|Adverse Pregnancy Outcomes]], [[keywords/Digital Biomarker|Digital Biomarker]]
 
 ## 🔗 유사한 논문
 - [[Data-Driven_Prediction_of_Maternal_Nutritional_Status_in_Ethiopia_Using_Ensemble_Machine_Learning_Models_20250919|Data-Driven Prediction of Maternal Nutritional Status in Ethiopia Using Ensemble Machine Learning Models]] (79.9% similar)

@@ -1,13 +1,47 @@
+---
+keywords:
+  - Natural Language Processing
+  - Slerp Merging
+  - Translate-and-Tune Pipeline
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:53:49.260808",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Natural Language Processing",
+    "Slerp Merging",
+    "Translate-and-Tune Pipeline"
+  ],
+  "rejected_keywords": [
+    "Instruction and Translation Models",
+    "Large Language Models"
+  ],
+  "similarity_scores": {
+    "Natural Language Processing": 0.85,
+    "Slerp Merging": 0.82,
+    "Translate-and-Tune Pipeline": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Hala Technical Report: Building Arabic-Centric Instruction & Translation Models at Scale
 
 **Korean Title:** 할라 기술 보고서: 대규모 아랍어 중심의 교육 및 번역 모델 구축
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Hasan Abed Al Kader Hammoud|Hasan Abed Al Kader Hammoud]] [[authors/Mohammad Zbeeb|Mohammad Zbeeb]] [[authors/Bernard Ghanem|Bernard Ghanem]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]      [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Translate and Tune Pipeline
+**🌐 Broad Technical**: [[keywords/Natural Language Processing|Arabic NLP]]
+**⚡ Unique Technical**: [[keywords/Slerp Merging|Slerp Merging]], [[keywords/Translate-and-Tune Pipeline|Translate-and-Tune Pipeline]]
 
 ## 🔗 유사한 논문
 - [[Apertus_ Democratizing Open and Compliant LLMs for Global Language Environments_20250917|Apertus Democratizing Open and Compliant LLMs for Global Language Environments]] (79.9% similar)

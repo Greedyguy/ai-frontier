@@ -1,3 +1,36 @@
+---
+keywords:
+  - Retrieval Augmented Generation
+  - Dense Embedding-based Retrieval
+  - GASLITE Attack
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2412.20953
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:42:29.216685",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Retrieval Augmented Generation",
+    "Dense Embedding-based Retrieval",
+    "GASLITE Attack"
+  ],
+  "rejected_keywords": [
+    "Search Engine Optimization Attacks",
+    "Adversarial Passages"
+  ],
+  "similarity_scores": {
+    "Retrieval Augmented Generation": 0.82,
+    "Dense Embedding-based Retrieval": 0.78,
+    "GASLITE Attack": 0.79
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # GASLITEing the Retrieval: Exploring Vulnerabilities in Dense Embedding-based Search
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Adversarial Passage Generation
+**⚡ Unique Technical**: [[keywords/Dense Embedding-based Retrieval|Dense Embedding-based Retrieval]], [[keywords/GASLITE Attack|GASLITE Attack]]
+**🚀 Evolved Concepts**: [[keywords/Retrieval Augmented Generation|Retrieval Augmented Generation]]
 
 ## 🔗 유사한 논문
 - [[When Content is Goliath and Algorithm is David The Style and Semantic Effects of Generative Search Engine]] (82.3% similar)

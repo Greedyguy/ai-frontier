@@ -1,13 +1,45 @@
+---
+keywords:
+  - MXFlow
+  - Unstructured Data
+  - Latent Structure
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:42:07.188762",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "MXFlow",
+    "Unstructured Data",
+    "Latent Structure"
+  ],
+  "rejected_keywords": [
+    "Data Processing Techniques"
+  ],
+  "similarity_scores": {
+    "MXFlow": 0.9,
+    "Unstructured Data": 0.85,
+    "Latent Structure": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # A Case for Computing on Unstructured Data
 
 **Korean Title:** 비정형 데이터에 대한 컴퓨팅의 필요성
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Mushtari Sadia|Mushtari Sadia]] [[authors/Amrita Roy Chowdhury|Amrita Roy Chowdhury]] [[authors/Ang Chen|Ang Chen]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]      [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Computing on Unstructured Data
+**⚡ Unique Technical**: [[keywords/MXFlow|MXFlow]], [[keywords/Unstructured Data|unstructured data]], [[keywords/Latent Structure|latent structure]]
 
 ## 🔗 유사한 논문
 - [[Feature-aligned Motion Transformation for Efficient Dynamic Point Cloud Compression_20250918|Feature-aligned Motion Transformation for Efficient Dynamic Point Cloud Compression]] (77.8% similar)

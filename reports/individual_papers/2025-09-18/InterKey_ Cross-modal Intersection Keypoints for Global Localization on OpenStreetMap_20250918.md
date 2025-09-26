@@ -1,3 +1,35 @@
+---
+keywords:
+  - OpenStreetMap
+  - Global Localization
+  - Point Clouds
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13857
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:24:52.086399",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "OpenStreetMap",
+    "Global Localization",
+    "Point Clouds"
+  ],
+  "rejected_keywords": [
+    "Cross-modal Framework"
+  ],
+  "similarity_scores": {
+    "OpenStreetMap": 0.8,
+    "Global Localization": 0.78,
+    "Point Clouds": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # InterKey: Cross-modal Intersection Keypoints for Global Localization on OpenStreetMap
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Robust Vehicle Localization
+**🔗 Specific Connectable**: [[keywords/OpenStreetMap|OpenStreetMap]], [[keywords/Point Clouds|Point Clouds]]
+**⚡ Unique Technical**: [[keywords/Global Localization|Global Localization]]
 
 ## 🔗 유사한 논문
 - [[Semantic-Enhanced_Cross-Modal_Place_Recognition_for_Robust_Robot_Localization_20250918|Semantic-Enhanced Cross-Modal Place Recognition for Robust Robot Localization]] (80.6% similar)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - MolmoAct
+  - Action Reasoning Models
+  - Foundation Models
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2508.07917
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:33:46.114586",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "MolmoAct",
+    "Action Reasoning Models",
+    "Foundation Models"
+  ],
+  "rejected_keywords": [
+    "Trajectory Steering"
+  ],
+  "similarity_scores": {
+    "MolmoAct": 0.85,
+    "Action Reasoning Models": 0.8,
+    "Foundation Models": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # MolmoAct: Action Reasoning Models that can Reason in Space
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Action Reasoning Models
+**⚡ Unique Technical**: [[keywords/MolmoAct|MolmoAct]], [[keywords/Action Reasoning Models|Action Reasoning Models]]
+**🚀 Evolved Concepts**: [[keywords/Foundation Models|Robotic Foundation Models]]
 
 ## 🔗 유사한 논문
 - [[ThinkAct Vision-Language-Action Reasoning via Reinforced Visual Latent Planning]] (83.7% similar)

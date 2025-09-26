@@ -1,3 +1,35 @@
+---
+keywords:
+  - Large Language Models
+  - Few-Shot Learning
+  - Javadoc Generation
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14273
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:55:43.054435",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Few-Shot Learning",
+    "Javadoc Generation"
+  ],
+  "rejected_keywords": [
+    "Context-Aware Dataset"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Few-Shot Learning": 0.79,
+    "Javadoc Generation": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Automated and Context-Aware Code Documentation Leveraging Advanced LLMs
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Template-based Documentation, Context-aware Javadoc Generation
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Large Language Models]], [[keywords/Few-Shot Learning|zero-shot, few-shot, and fine-tuned setups]]
+**⚡ Unique Technical**: [[keywords/Javadoc Generation|Javadoc generation]]
 
 ## 🔗 유사한 논문
 - [[MOLE Metadata Extraction and Validation in Scientific Papers Using LLMs]] (83.7% similar)

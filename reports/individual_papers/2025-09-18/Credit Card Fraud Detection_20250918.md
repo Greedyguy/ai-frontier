@@ -1,13 +1,47 @@
+---
+keywords:
+  - Credit Card Fraud Detection
+  - XGBoost
+  - Random Forest
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:34:41.421506",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Credit Card Fraud Detection",
+    "XGBoost",
+    "Random Forest"
+  ],
+  "rejected_keywords": [
+    "Machine Learning",
+    "Logistic Regression"
+  ],
+  "similarity_scores": {
+    "Credit Card Fraud Detection": 0.8,
+    "XGBoost": 0.7,
+    "Random Forest": 0.65
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Credit Card Fraud Detection
 
 **Korean Title:** 신용카드 사기 탐지
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Iva Popova|Iva Popova]] [[authors/Hamza A. A. Gardi|Hamza A. A. Gardi]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]     [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Class Imbalance Handling
+**🔗 Specific Connectable**: [[keywords/XGBoost|XGBoost]], [[keywords/Random Forest|Random Forest]]
+**⚡ Unique Technical**: [[keywords/Credit Card Fraud Detection|Credit Card Fraud Detection]]
 
 ## 🔗 유사한 논문
 - [[Evaluating Supervised Learning Models for Fraud Detection_ A Comparative Study of Classical and Deep Architectures on Imbalanced Transaction Data_20250919|Evaluating Supervised Learning Models for Fraud Detection A Comparative Study of Classical and Deep Architectures on Imbalanced Transaction Data]] (85.9% similar)

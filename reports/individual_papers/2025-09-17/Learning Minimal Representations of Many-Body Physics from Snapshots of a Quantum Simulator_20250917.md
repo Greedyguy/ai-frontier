@@ -1,13 +1,47 @@
+---
+keywords:
+  - Generative Models
+  - Machine Learning
+  - Sine-Gordon Quantum Field Theory
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:52:25.712995",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Generative Models",
+    "Machine Learning",
+    "Sine-Gordon Quantum Field Theory"
+  ],
+  "rejected_keywords": [
+    "Quantum Simulators"
+  ],
+  "similarity_scores": {
+    "Generative Models": 0.78,
+    "Machine Learning": 0.85,
+    "Sine-Gordon Quantum Field Theory": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Learning Minimal Representations of Many-Body Physics from Snapshots of a Quantum Simulator
 
 **Korean Title:** 양자 시뮬레이터의 스냅샷으로부터 다체 물리학의 최소 표현 학습
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Frederik Møller|Frederik Møller]] [[authors/Gabriel Fernández-Fernández|Gabriel Fernández-Fernández]] [[authors/Thomas Schweigler|Thomas Schweigler]] [[authors/Paulin de Schoulepnikoff|Paulin de Schoulepnikoff]] [[authors/Jörg Schmiedmayer|Jörg Schmiedmayer]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Data Driven Discovery in Quantum Systems
+**🌐 Broad Technical**: [[keywords/Machine Learning|machine learning]]
+**🔗 Specific Connectable**: [[keywords/Generative Models|variational autoencoder]]
+**⚡ Unique Technical**: [[keywords/Sine-Gordon Quantum Field Theory|sine-Gordon quantum field theory]]
 
 ## 🔗 유사한 논문
 - [[Learning Mechanistic Subtypes of Neurodegeneration with a Physics-Informed Variational Autoencoder Mixture Model_20250918|Learning Mechanistic Subtypes of Neurodegeneration with a Physics-Informed Variational Autoencoder Mixture Model]] (82.3% similar)

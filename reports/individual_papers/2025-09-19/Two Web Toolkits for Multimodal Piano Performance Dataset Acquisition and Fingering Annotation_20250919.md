@@ -1,3 +1,35 @@
+---
+keywords:
+  - Multi-Modal Learning
+  - Fingering Annotation
+  - PiaRec
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.15222
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:19:48.521926",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Multi-Modal Learning",
+    "Fingering Annotation",
+    "PiaRec"
+  ],
+  "rejected_keywords": [
+    "ASDF"
+  ],
+  "similarity_scores": {
+    "Multi-Modal Learning": 0.8,
+    "Fingering Annotation": 0.7,
+    "PiaRec": 0.65
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Two Web Toolkits for Multimodal Piano Performance Dataset Acquisition and Fingering Annotation
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Multimodal Data Acquisition
+**⚡ Unique Technical**: [[keywords/Fingering Annotation|fingering annotation]], [[keywords/PiaRec|PiaRec]]
+**🚀 Evolved Concepts**: [[keywords/Multi-Modal Learning|multimodal piano performance]]
 
 ## 🔗 유사한 논문
 - [[Py maidr Bridging Visual and Non-Visual Data Experiences Through a Unified Python Framework]] (77.6% similar)

@@ -1,3 +1,36 @@
+---
+keywords:
+  - Multi-Agent Reinforcement Learning
+  - Reinforcement Learning
+  - YOLO-based computer vision system
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2412.03925
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:20:32.639827",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Multi-Agent Reinforcement Learning",
+    "Reinforcement Learning",
+    "YOLO-based computer vision system"
+  ],
+  "rejected_keywords": [
+    "Computer Vision",
+    "Traffic Co-Simulation Framework"
+  ],
+  "similarity_scores": {
+    "Multi-Agent Reinforcement Learning": 0.78,
+    "Reinforcement Learning": 0.8,
+    "YOLO-based computer vision system": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Traffic Co-Simulation Framework Empowered by Infrastructure Camera Sensing and Reinforcement Learning
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Adaptive Signal Control
+**🔗 Specific Connectable**: [[keywords/Reinforcement Learning|Reinforcement Learning]]
+**⚡ Unique Technical**: [[keywords/Multi-Agent Reinforcement Learning|Multi-Agent Reinforcement Learning]], [[keywords/YOLO-based computer vision system|YOLO-based computer vision system]]
 
 ## 🔗 유사한 논문
 - [[Resolve Highway Conflict in Multi-Autonomous Vehicle Controls with Local State Attention_20250919|Resolve Highway Conflict in Multi-Autonomous Vehicle Controls with Local State Attention]] (84.6% similar)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - Transformer Architecture
+  - Electrical Impedance Tomography
+  - Tactile Sensing
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2506.02824
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:31:17.456289",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Transformer Architecture",
+    "Electrical Impedance Tomography",
+    "Tactile Sensing"
+  ],
+  "rejected_keywords": [
+    "Self-Supervised Learning"
+  ],
+  "similarity_scores": {
+    "Transformer Architecture": 0.8,
+    "Electrical Impedance Tomography": 0.78,
+    "Tactile Sensing": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Efficient Tactile Perception with Soft Electrical Impedance Tomography and Pre-trained Transformer
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Tactile sensing
+**🔗 Specific Connectable**: [[keywords/Transformer Architecture|Pre-trained Transformer]]
+**⚡ Unique Technical**: [[keywords/Electrical Impedance Tomography|Electrical Impedance Tomography]], [[keywords/Tactile Sensing|Tactile sensing]]
 
 ## 🔗 유사한 논문
 - [[Embracing_Bulky_Objects_with_Humanoid_Robots_Whole-Body_Manipulation_with_Reinforcement_Learning_20250918|Embracing Bulky Objects with Humanoid Robots: Whole-Body Manipulation with Reinforcement Learning]] (82.1% similar)

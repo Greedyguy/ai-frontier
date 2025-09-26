@@ -1,3 +1,35 @@
+---
+keywords:
+  - Mixture of Multicenter Experts
+  - Multi-Modal Learning
+  - Radiotherapy Target Delineation
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2410.00046
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:34:00.709500",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Mixture of Multicenter Experts",
+    "Multi-Modal Learning",
+    "Radiotherapy Target Delineation"
+  ],
+  "rejected_keywords": [
+    "Few-Shot Learning"
+  ],
+  "similarity_scores": {
+    "Mixture of Multicenter Experts": 0.8,
+    "Multi-Modal Learning": 0.82,
+    "Radiotherapy Target Delineation": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Mixture of Multicenter Experts in Multimodal AI for Debiased Radiotherapy Target Delineation
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Debiased Radiotherapy
+**⚡ Unique Technical**: [[keywords/Mixture of Multicenter Experts|Mixture of Multicenter Experts]], [[keywords/Radiotherapy Target Delineation|Radiotherapy Target Delineation]]
+**🚀 Evolved Concepts**: [[keywords/Multi-Modal Learning|Multimodal AI]]
 
 ## 🔗 유사한 논문
 - [[Semi-MoE Mixture-of-Experts meets Semi-Supervised Histopathology Segmentation]] (83.4% similar)

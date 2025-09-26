@@ -1,0 +1,185 @@
+---
+keywords:
+  - Large Language Model
+  - Software Supply Chain
+  - Code Generation
+  - Chain-of-Confirmation
+category: cs.AI
+publish_date: 2025-09-25
+arxiv_id: 2509.20277
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-25T16:05:02.420697",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Model",
+    "Software Supply Chain",
+    "Code Generation",
+    "Chain-of-Confirmation"
+  ],
+  "rejected_keywords": [],
+  "similarity_scores": {
+    "Large Language Model": 0.85,
+    "Software Supply Chain": 0.78,
+    "Code Generation": 0.72,
+    "Chain-of-Confirmation": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true,
+  "candidates_json": {
+    "candidates": [
+      {
+        "surface": "Large Language Models",
+        "canonical": "Large Language Model",
+        "aliases": [
+          "LLMs"
+        ],
+        "category": "broad_technical",
+        "rationale": "Large Language Models are central to the paper's discussion on code generation and its security implications.",
+        "novelty_score": 0.45,
+        "connectivity_score": 0.88,
+        "specificity_score": 0.7,
+        "link_intent_score": 0.85
+      },
+      {
+        "surface": "Software Supply Chain",
+        "canonical": "Software Supply Chain",
+        "aliases": [
+          "SSC"
+        ],
+        "category": "unique_technical",
+        "rationale": "The concept of Software Supply Chain is crucial for understanding the security threats discussed in the paper.",
+        "novelty_score": 0.75,
+        "connectivity_score": 0.65,
+        "specificity_score": 0.8,
+        "link_intent_score": 0.78
+      },
+      {
+        "surface": "Code Generation Techniques",
+        "canonical": "Code Generation",
+        "aliases": [
+          "Automatic Code Generation"
+        ],
+        "category": "specific_connectable",
+        "rationale": "Code generation is a key process affected by LLMs, relevant for linking discussions on automation and security.",
+        "novelty_score": 0.55,
+        "connectivity_score": 0.73,
+        "specificity_score": 0.68,
+        "link_intent_score": 0.72
+      },
+      {
+        "surface": "Chain-of-Confirmation",
+        "canonical": "Chain-of-Confirmation",
+        "aliases": [],
+        "category": "unique_technical",
+        "rationale": "This novel defense mechanism is a unique contribution of the paper, relevant for linking to security strategies.",
+        "novelty_score": 0.8,
+        "connectivity_score": 0.6,
+        "specificity_score": 0.85,
+        "link_intent_score": 0.77
+      }
+    ],
+    "ban_list_suggestions": [
+      "code snippets",
+      "external components",
+      "continuous integration"
+    ]
+  },
+  "decisions": [
+    {
+      "candidate_surface": "Large Language Models",
+      "resolved_canonical": "Large Language Model",
+      "decision": "linked",
+      "scores": {
+        "novelty": 0.45,
+        "connectivity": 0.88,
+        "specificity": 0.7,
+        "link_intent": 0.85
+      }
+    },
+    {
+      "candidate_surface": "Software Supply Chain",
+      "resolved_canonical": "Software Supply Chain",
+      "decision": "linked",
+      "scores": {
+        "novelty": 0.75,
+        "connectivity": 0.65,
+        "specificity": 0.8,
+        "link_intent": 0.78
+      }
+    },
+    {
+      "candidate_surface": "Code Generation Techniques",
+      "resolved_canonical": "Code Generation",
+      "decision": "linked",
+      "scores": {
+        "novelty": 0.55,
+        "connectivity": 0.73,
+        "specificity": 0.68,
+        "link_intent": 0.72
+      }
+    },
+    {
+      "candidate_surface": "Chain-of-Confirmation",
+      "resolved_canonical": "Chain-of-Confirmation",
+      "decision": "linked",
+      "scores": {
+        "novelty": 0.8,
+        "connectivity": 0.6,
+        "specificity": 0.85,
+        "link_intent": 0.77
+      }
+    }
+  ]
+}
+-->
+
+# Investigating Security Implications of Automatically Generated Code on the Software Supply Chain
+
+## 📋 메타데이터
+
+**Links**: [[daily_digest_20250925|20250925]] [[categories/cs.AI|cs.AI]]
+**PDF**: [Download](https://arxiv.org/pdf/2509.20277.pdf)
+**Category**: cs.AI
+**Published**: 2025-09-25
+**ArXiv ID**: [2509.20277](https://arxiv.org/abs/2509.20277)
+
+## 🔗 유사한 논문
+- [[2025-09-23/Sugar-Coated Poison_ Benign Generation Unlocks LLM Jailbreaking_20250923|Sugar-Coated Poison: Benign Generation Unlocks LLM Jailbreaking]] (85.7% similar)
+- [[2025-09-19/A Multi-Agent LLM Defense Pipeline Against Prompt Injection Attacks_20250919|A Multi-Agent LLM Defense Pipeline Against Prompt Injection Attacks]] (83.6% similar)
+- [[2025-09-22/SeCodePLT_ A Unified Platform for Evaluating the Security of Code GenAI_20250922|SeCodePLT: A Unified Platform for Evaluating the Security of Code GenAI]] (83.4% similar)
+- [[2025-09-18/Evaluating and Improving the Robustness of Security Attack Detectors Generated by LLMs_20250918|Evaluating and Improving the Robustness of Security Attack Detectors Generated by LLMs]] (82.8% similar)
+- [[2025-09-23/Large Language Models for Cyber Security_ A Systematic Literature Review_20250923|Large Language Models for Cyber Security: A Systematic Literature Review]] (82.7% similar)
+
+## 🏷️ 카테고리화된 키워드
+**🧠 Broad Technical**: [[keywords/Large Language Model|Large Language Model]]
+**🔗 Specific Connectable**: [[keywords/Code Generation|Code Generation]]
+**⚡ Unique Technical**: [[keywords/Software Supply Chain|Software Supply Chain]], [[keywords/Chain-of-Confirmation|Chain-of-Confirmation]]
+
+## 📋 저자 정보
+
+**Authors:** 
+
+## 📄 Abstract (원문)
+
+arXiv:2509.20277v1 Announce Type: cross 
+Abstract: In recent years, various software supply chain (SSC) attacks have posed significant risks to the global community. Severe consequences may arise if developers integrate insecure code snippets that are vulnerable to SSC attacks into their products. Particularly, code generation techniques, such as large language models (LLMs), have been widely utilized in the developer community. However, LLMs are known to suffer from inherent issues when generating code, including fabrication, misinformation, and reliance on outdated training data, all of which can result in serious software supply chain threats. In this paper, we investigate the security threats to the SSC that arise from these inherent issues. We examine three categories of threats, including eleven potential SSC-related threats, related to external components in source code, and continuous integration configuration files. We find some threats in LLM-generated code could enable attackers to hijack software and workflows, while some others might cause potential hidden threats that compromise the security of the software over time. To understand these security impacts and severity, we design a tool, SSCGuard, to generate 439,138 prompts based on SSC-related questions collected online, and analyze the responses of four popular LLMs from GPT and Llama. Our results show that all identified SSC-related threats persistently exist. To mitigate these risks, we propose a novel prompt-based defense mechanism, namely Chain-of-Confirmation, to reduce fabrication, and a middleware-based defense that informs users of various SSC threats.
+
+## 📝 요약
+
+최근 소프트웨어 공급망(SSC) 공격이 글로벌 커뮤니티에 큰 위협이 되고 있으며, 특히 대형 언어 모델(LLM)과 같은 코드 생성 기술이 개발자들 사이에서 널리 사용되고 있습니다. 그러나 LLM은 코드 생성 시 허위 정보, 잘못된 정보, 구식 데이터에 의존하는 문제를 가지고 있어 SSC 공격의 위험을 증가시킵니다. 본 논문에서는 이러한 문제로 인한 SSC의 보안 위협을 조사하고, 소스 코드의 외부 구성 요소 및 지속적 통합 구성 파일과 관련된 11가지 잠재적 위협을 분석합니다. 연구 결과, LLM이 생성한 코드에서 발견된 몇몇 위협은 소프트웨어와 워크플로우를 탈취할 수 있으며, 시간이 지남에 따라 소프트웨어 보안을 저해할 수 있는 숨겨진 위협을 초래할 수 있음을 발견했습니다. 이러한 보안 영향과 심각성을 이해하기 위해 SSC 관련 질문을 바탕으로 439,138개의 프롬프트를 생성하고, GPT 및 Llama의 네 가지 인기 있는 LLM의 응답을 분석했습니다. 모든 SSC 관련 위협이 지속적으로 존재함을 확인했으며, 이를 완화하기 위해 'Chain-of-Confirmation'이라는 새로운 프롬프트 기반 방어 메커니즘과 다양한 SSC 위협을 사용자에게 알리는 미들웨어 기반 방어를 제안합니다.
+
+## 🎯 주요 포인트
+
+- 1. 최근 소프트웨어 공급망(SSC) 공격은 전 세계적으로 심각한 위험을 초래하고 있으며, 특히 개발자들이 취약한 코드 스니펫을 제품에 통합할 경우 심각한 결과를 초래할 수 있다.
+- 2. 대형 언어 모델(LLM)과 같은 코드 생성 기술은 개발자 커뮤니티에서 널리 사용되지만, 코드 생성 시 허위 정보, 잘못된 정보, 구식 데이터에 의존하는 문제로 인해 SSC 위협을 초래할 수 있다.
+- 3. 연구에서는 LLM이 생성한 코드에서 발생할 수 있는 11가지 잠재적 SSC 관련 위협을 조사하였으며, 이는 소프트웨어 및 워크플로우를 탈취하거나 시간이 지남에 따라 소프트웨어 보안을 위협할 수 있다.
+- 4. SSC 관련 위협의 보안 영향과 심각성을 이해하기 위해 SSCGuard라는 도구를 설계하여 439,138개의 프롬프트를 생성하고, GPT 및 Llama의 네 가지 인기 있는 LLM의 응답을 분석하였다.
+- 5. 이러한 위험을 완화하기 위해 프롬프트 기반 방어 메커니즘인 Chain-of-Confirmation과 다양한 SSC 위협을 사용자에게 알리는 미들웨어 기반 방어를 제안하였다.
+
+
+---
+
+*Generated on 2025-09-25 16:05:02*

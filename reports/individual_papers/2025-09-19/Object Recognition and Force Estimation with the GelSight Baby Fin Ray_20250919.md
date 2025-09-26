@@ -1,3 +1,35 @@
+---
+keywords:
+  - GelSight Baby Fin Ray
+  - Convolutional Neural Networks
+  - Machine Learning
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14510
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:32:18.364871",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "GelSight Baby Fin Ray",
+    "Convolutional Neural Networks",
+    "Machine Learning"
+  ],
+  "rejected_keywords": [
+    "Camera-based Tactile Sensing"
+  ],
+  "similarity_scores": {
+    "GelSight Baby Fin Ray": 0.8,
+    "Convolutional Neural Networks": 0.8,
+    "Machine Learning": 0.85
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Object Recognition and Force Estimation with the GelSight Baby Fin Ray
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Camera-based Tactile Sensing
+**🌐 Broad Technical**: [[keywords/Machine Learning|Machine Learning]]
+**🔗 Specific Connectable**: [[keywords/Convolutional Neural Networks|Convolutional Neural Networks]]
+**⚡ Unique Technical**: [[keywords/GelSight Baby Fin Ray|GelSight Baby Fin Ray]]
 
 ## 🔗 유사한 논문
 - [[Efficient Tactile Perception with Soft Electrical Impedance Tomography and Pre-trained Transformer_20250918|Efficient Tactile Perception with Soft Electrical Impedance Tomography and Pre-trained Transformer]] (82.4% similar)

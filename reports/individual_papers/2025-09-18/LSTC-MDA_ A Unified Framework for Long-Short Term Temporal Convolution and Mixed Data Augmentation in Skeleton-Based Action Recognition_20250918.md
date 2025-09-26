@@ -1,13 +1,46 @@
+---
+keywords:
+  - Long-Short Term Temporal Convolution
+  - Convolutional Neural Networks
+  - Skeleton-Based Action Recognition
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:23:14.738666",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Long-Short Term Temporal Convolution",
+    "Convolutional Neural Networks",
+    "Skeleton-Based Action Recognition"
+  ],
+  "rejected_keywords": [
+    "Mixed Data Augmentation"
+  ],
+  "similarity_scores": {
+    "Long-Short Term Temporal Convolution": 0.82,
+    "Convolutional Neural Networks": 0.8,
+    "Skeleton-Based Action Recognition": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # LSTC-MDA: A Unified Framework for Long-Short Term Temporal Convolution and Mixed Data Augmentation in Skeleton-Based Action Recognition
 
 **Korean Title:** LSTC-MDA: 골격 기반 행동 인식에서 장단기 시계열 컨볼루션과 혼합 데이터 증강을 위한 통합 프레임워크
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Feng Ding|Feng Ding]] [[authors/Haisheng Fu|Haisheng Fu]] [[authors/Soroush Oraki|Soroush Oraki]] [[authors/Jie Liang|Jie Liang]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]       [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Long-Short Term Temporal Convolution
+**🔗 Specific Connectable**: [[keywords/Convolutional Neural Networks|Convolutional Neural Networks]]
+**⚡ Unique Technical**: [[keywords/Long-Short Term Temporal Convolution|Long-Short Term Temporal Convolution]], [[keywords/Skeleton-Based Action Recognition|Skeleton-Based Action Recognition]]
 
 ## 🔗 유사한 논문
 - [[Multimodal Knowledge Distillation for Egocentric Action Recognition Robust to Missing Modalities_20250919|Multimodal Knowledge Distillation for Egocentric Action Recognition Robust to Missing Modalities]] (81.5% similar)

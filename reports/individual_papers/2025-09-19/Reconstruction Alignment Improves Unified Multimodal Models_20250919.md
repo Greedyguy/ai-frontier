@@ -1,3 +1,35 @@
+---
+keywords:
+  - Multi-Modal Learning
+  - Reconstruction Alignment
+  - Diffusion Models
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.07295
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:27:16.543149",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Multi-Modal Learning",
+    "Reconstruction Alignment",
+    "Diffusion Models"
+  ],
+  "rejected_keywords": [
+    "Self-Supervised Learning"
+  ],
+  "similarity_scores": {
+    "Multi-Modal Learning": 0.82,
+    "Reconstruction Alignment": 0.78,
+    "Diffusion Models": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Reconstruction Alignment Improves Unified Multimodal Models
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Unified Multimodal Models
+**🔗 Specific Connectable**: [[keywords/Diffusion Models|Diffusion-based UMMs]]
+**⚡ Unique Technical**: [[keywords/Reconstruction Alignment|Reconstruction Alignment]]
+**🚀 Evolved Concepts**: [[keywords/Multi-Modal Learning|Unified Multimodal Models]]
 
 ## 🔗 유사한 논문
 - [[LLM-I LLMs are Naturally Interleaved Multimodal Creators]] (82.2% similar)

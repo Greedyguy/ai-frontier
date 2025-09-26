@@ -1,3 +1,35 @@
+---
+keywords:
+  - Markov Decision Processes
+  - Linear Temporal Logic
+  - Control Policy Synthesis
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2403.18632
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:30:30.960237",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Markov Decision Processes",
+    "Linear Temporal Logic",
+    "Control Policy Synthesis"
+  ],
+  "rejected_keywords": [
+    "Efficiency"
+  ],
+  "similarity_scores": {
+    "Markov Decision Processes": 0.78,
+    "Linear Temporal Logic": 0.72,
+    "Control Policy Synthesis": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Optimal Control of Markov Decision Processes for Efficiency with Linear Temporal Logic Tasks
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Efficiency with LTL Tasks
+**🌐 Broad Technical**: [[keywords/Control Policy Synthesis|Control Policy Synthesis]]
+**🔗 Specific Connectable**: [[keywords/Markov Decision Processes|Markov Decision Processes]]
+**⚡ Unique Technical**: [[keywords/Linear Temporal Logic|Linear Temporal Logic]]
 
 ## 🔗 유사한 논문
 - [[Meta-Optimization and Program Search using Language Models for Task and Motion Planning_20250918|Meta-Optimization and Program Search using Language Models for Task and Motion Planning]] (82.1% similar)

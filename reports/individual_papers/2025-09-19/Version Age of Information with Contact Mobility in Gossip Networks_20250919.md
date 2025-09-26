@@ -1,3 +1,36 @@
+---
+keywords:
+  - Version Age-of-Information
+  - Gossip Networks
+  - Stochastic Hybrid System
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.15184
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:18:19.457585",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Version Age-of-Information",
+    "Gossip Networks",
+    "Stochastic Hybrid System"
+  ],
+  "rejected_keywords": [
+    "Contact Mobility",
+    "Optimization"
+  ],
+  "similarity_scores": {
+    "Version Age-of-Information": 0.78,
+    "Gossip Networks": 0.72,
+    "Stochastic Hybrid System": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Version Age of Information with Contact Mobility in Gossip Networks
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Contact Mobility
+**🔗 Specific Connectable**: [[keywords/Stochastic Hybrid System|Stochastic Hybrid System]]
+**⚡ Unique Technical**: [[keywords/Version Age-of-Information|Version Age-of-Information]], [[keywords/Gossip Networks|Gossip Networks]]
 
 ## 🔗 유사한 논문
 - [[Exploring Major Transitions in the Evolution of Biological Cognition With Artificial Neural Networks_20250917|Exploring Major Transitions in the Evolution of Biological Cognition With Artificial Neural Networks]] (78.8% similar)

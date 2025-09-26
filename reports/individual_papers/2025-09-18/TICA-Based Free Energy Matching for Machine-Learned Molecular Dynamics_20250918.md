@@ -1,13 +1,47 @@
+---
+keywords:
+  - Multi-Modal Learning
+  - Molecular Dynamics
+  - Free Energy Surface
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:07:29.504828",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Multi-Modal Learning",
+    "Molecular Dynamics",
+    "Free Energy Surface"
+  ],
+  "rejected_keywords": [
+    "Coarse-Grained Machine Learning",
+    "Energy Matching"
+  ],
+  "similarity_scores": {
+    "Multi-Modal Learning": 0.8,
+    "Molecular Dynamics": 0.75,
+    "Free Energy Surface": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # TICA-Based Free Energy Matching for Machine-Learned Molecular Dynamics
 
 **Korean Title:** TICA 기반 자유 에너지 매칭을 통한 기계 학습 분자동역학
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Alexander Aghili|Alexander Aghili]] [[authors/Andy Bruce|Andy Bruce]] [[authors/Daniel Sabo|Daniel Sabo]] [[authors/Razvan Marinescu|Razvan Marinescu]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]       [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Multi-modal Loss Formulations
+**⚡ Unique Technical**: [[keywords/Molecular Dynamics|Molecular Dynamics]], [[keywords/Free Energy Surface|Free Energy Surface]]
+**🚀 Evolved Concepts**: [[keywords/Multi-Modal Learning|Multi-Modal Loss Formulations]]
 
 ## 🔗 유사한 논문
 - [[Learning Mechanistic Subtypes of Neurodegeneration with a Physics-Informed Variational Autoencoder Mixture Model_20250918|Learning Mechanistic Subtypes of Neurodegeneration with a Physics-Informed Variational Autoencoder Mixture Model]] (78.1% similar)

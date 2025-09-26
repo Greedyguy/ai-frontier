@@ -1,3 +1,36 @@
+---
+keywords:
+  - Transformer Architecture
+  - Large Language Models
+  - Penetration Testing
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14289
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:43:13.478366",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Transformer Architecture",
+    "Large Language Models",
+    "Penetration Testing"
+  ],
+  "rejected_keywords": [
+    "Adaptive Planning",
+    "Real-Time Monitoring"
+  ],
+  "similarity_scores": {
+    "Transformer Architecture": 0.78,
+    "Large Language Models": 0.8,
+    "Penetration Testing": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # From Capabilities to Performance: Evaluating Key Functional Properties of LLM Architectures in Penetration Testing
 
@@ -5,10 +38,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔬 Broad Technical**: Large Language Models, Penetration Testing
+**🔗 Specific Connectable**: [[keywords/Transformer Architecture|Transformer Architecture]]
+**⚡ Unique Technical**: [[keywords/Penetration Testing|Penetration Testing]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]]
 
 ## 📋 저자 정보
 

@@ -1,13 +1,46 @@
+---
+keywords:
+  - Vision Transformers
+  - Hamilton-Jacobi Reachability
+  - Latent World Models
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:33:09.170043",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Vision Transformers",
+    "Hamilton-Jacobi Reachability",
+    "Latent World Models"
+  ],
+  "rejected_keywords": [
+    "Safety Filters"
+  ],
+  "similarity_scores": {
+    "Vision Transformers": 0.8,
+    "Hamilton-Jacobi Reachability": 0.78,
+    "Latent World Models": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Designing Latent Safety Filters using Pre-Trained Vision Models
 
 **Korean Title:** 사전 훈련된 비전 모델을 활용한 잠재적 안전 필터 설계
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Ihab Tabbara|Ihab Tabbara]] [[authors/Yuxuan Yang|Yuxuan Yang]] [[authors/Ahmad Hamzeh|Ahmad Hamzeh]] [[authors/Maxwell Astafyev|Maxwell Astafyev]] [[authors/Hussein Sibai|Hussein Sibai]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Vision-based Safety Filters
+**🔗 Specific Connectable**: [[keywords/Vision Transformers|Pre-trained vision models]]
+**⚡ Unique Technical**: [[keywords/Hamilton-Jacobi Reachability|Hamilton-Jacobi reachability-based safety filters]], [[keywords/Latent World Models|latent world models]]
 
 ## 🔗 유사한 논문
 - [[Manipulation Facing Threats_ Evaluating Physical Vulnerabilities in End-to-End Vision Language Action Models_20250919|Manipulation Facing Threats Evaluating Physical Vulnerabilities in End-to-End Vision Language Action Models]] (80.4% similar)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - End-to-End Autonomous Driving
+  - Safety-Critical Data Synthesis
+  - Sim-to-Real Gap
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13164
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:05:48.427165",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "End-to-End Autonomous Driving",
+    "Safety-Critical Data Synthesis",
+    "Sim-to-Real Gap"
+  ],
+  "rejected_keywords": [
+    "Geospatial Data"
+  ],
+  "similarity_scores": {
+    "End-to-End Autonomous Driving": 0.8,
+    "Safety-Critical Data Synthesis": 0.78,
+    "Sim-to-Real Gap": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # TeraSim-World: Worldwide Safety-Critical Data Synthesis for End-to-End Autonomous Driving
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Geospatial Data Synthesis
+**🔗 Specific Connectable**: [[keywords/Sim-to-Real Gap|sim-to-real gap]]
+**⚡ Unique Technical**: [[keywords/End-to-End Autonomous Driving|end-to-end autonomous driving]], [[keywords/Safety-Critical Data Synthesis|safety-critical data synthesis]]
 
 ## 🔗 유사한 논문
 - [[MAP: End-to-End Autonomous Driving with Map-Assisted Planning]] (81.6% similar)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - Multi-Object Tracking
+  - Vision-Language Model
+  - Visual Semantic Enhancement
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.14060
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:01:51.301396",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Multi-Object Tracking",
+    "Vision-Language Model",
+    "Visual Semantic Enhancement"
+  ],
+  "rejected_keywords": [
+    "Low-Quality Video Scenarios"
+  ],
+  "similarity_scores": {
+    "Multi-Object Tracking": 0.78,
+    "Vision-Language Model": 0.8,
+    "Visual Semantic Enhancement": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # VSE-MOT: Multi-Object Tracking in Low-Quality Video Scenes Guided by Visual Semantic Enhancement
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Visual Semantic Enhancement
+**🔗 Specific Connectable**: [[keywords/Multi-Object Tracking|Multi-Object Tracking]]
+**⚡ Unique Technical**: [[keywords/Visual Semantic Enhancement|Visual Semantic Enhancement]]
+**🚀 Evolved Concepts**: [[keywords/Vision-Language Model|Vision-Language Model]]
 
 ## 🔗 유사한 논문
 - [[Mitigating Query Selection Bias in Referring Video Object Segmentation]] (82.5% similar)

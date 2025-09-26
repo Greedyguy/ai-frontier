@@ -1,13 +1,47 @@
+---
+keywords:
+  - ProtoMedX
+  - Multi-Modal Learning
+  - Explainable AI
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:14:50.231583",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "ProtoMedX",
+    "Multi-Modal Learning",
+    "Explainable AI"
+  ],
+  "rejected_keywords": [
+    "Deep Learning",
+    "DEXA Scans"
+  ],
+  "similarity_scores": {
+    "ProtoMedX": 0.85,
+    "Multi-Modal Learning": 0.8,
+    "Explainable AI": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # ProtoMedX: Towards Explainable Multi-Modal Prototype Learning for Bone Health Classification
 
 **Korean Title:** ProtoMedX: 골 건강 분류를 위한 설명 가능한 다중 모달 프로토타입 학습을 향하여
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Alvaro Lopez Pellicer|Alvaro Lopez Pellicer]] [[authors/Andre Mariucci|Andre Mariucci]] [[authors/Plamen Angelov|Plamen Angelov]] [[authors/Marwan Bukhari|Marwan Bukhari]] [[authors/Jemma G. Kerns|Jemma G. Kerns]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Explainable AI
+**⚡ Unique Technical**: [[keywords/ProtoMedX|ProtoMedX]]
+**🚀 Evolved Concepts**: [[keywords/Multi-Modal Learning|multi-modal learning]], [[keywords/Explainable AI|explainable AI]]
 
 ## 🔗 유사한 논문
 - [[Mixture of Multicenter Experts in Multimodal AI for Debiased Radiotherapy Target Delineation_20250919|Mixture of Multicenter Experts in Multimodal AI for Debiased Radiotherapy Target Delineation]] (82.8% similar)

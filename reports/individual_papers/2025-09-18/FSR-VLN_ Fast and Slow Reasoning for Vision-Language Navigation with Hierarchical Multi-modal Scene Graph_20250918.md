@@ -1,3 +1,36 @@
+---
+keywords:
+  - Hierarchical Multi-modal Scene Graph
+  - Vision-Language Navigation
+  - Fast-to-Slow Navigation Reasoning
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13733
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:29:04.140686",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Hierarchical Multi-modal Scene Graph",
+    "Vision-Language Navigation",
+    "Fast-to-Slow Navigation Reasoning"
+  ],
+  "rejected_keywords": [
+    "Natural Language Processing",
+    "Speech Recognition"
+  ],
+  "similarity_scores": {
+    "Hierarchical Multi-modal Scene Graph": 0.82,
+    "Vision-Language Navigation": 0.78,
+    "Fast-to-Slow Navigation Reasoning": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # FSR-VLN: Fast and Slow Reasoning for Vision-Language Navigation with Hierarchical Multi-modal Scene Graph
 
@@ -5,10 +38,10 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Multi-modal map representation
+**⚡ Unique Technical**: [[keywords/Hierarchical Multi-modal Scene Graph|Hierarchical Multi-modal Scene Graph]], [[keywords/Vision-Language Navigation|Vision-Language Navigation]], [[keywords/Fast-to-Slow Navigation Reasoning|Fast-to-Slow Navigation Reasoning]]
 
 ## 🔗 유사한 논문
 - [[Embodied_Navigation_Foundation_Model_20250918|Embodied Navigation Foundation Model]] (82.6% similar)

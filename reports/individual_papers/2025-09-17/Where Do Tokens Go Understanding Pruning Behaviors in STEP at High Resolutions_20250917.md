@@ -1,13 +1,47 @@
+---
+keywords:
+  - Vision Transformers
+  - SuperToken and Early-Pruning
+  - Computer Vision
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:42:34.628919",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Vision Transformers",
+    "SuperToken and Early-Pruning",
+    "Computer Vision"
+  ],
+  "rejected_keywords": [
+    "dCTS"
+  ],
+  "similarity_scores": {
+    "Vision Transformers": 0.8,
+    "SuperToken and Early-Pruning": 0.78,
+    "Computer Vision": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Where Do Tokens Go? Understanding Pruning Behaviors in STEP at High Resolutions
 
 **Korean Title:** 토큰은 어디로 가는가? 고해상도에서 STEP의 가지치기 동작 이해하기
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Michal Szczepanski|Michal Szczepanski]] [[authors/Martyna Poreba|Martyna Poreba]] [[authors/Karim Haroun|Karim Haroun]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]      [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Dynamic Patch Merging
+**🌐 Broad Technical**: [[keywords/Computer Vision|semantic segmentation]]
+**🔗 Specific Connectable**: [[keywords/Vision Transformers|Vision Transformers]]
+**⚡ Unique Technical**: [[keywords/SuperToken and Early-Pruning|SuperToken and Early-Pruning]]
 
 ## 🔗 유사한 논문
 - [[AToken_ A Unified Tokenizer for Vision_20250919|AToken A Unified Tokenizer for Vision]] (80.9% similar)

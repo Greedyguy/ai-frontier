@@ -1,3 +1,35 @@
+---
+keywords:
+  - Federated Learning
+  - Uncertainty Quantification
+  - Logit-based Federated Learning
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.15147
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:17:17.889872",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Federated Learning",
+    "Uncertainty Quantification",
+    "Logit-based Federated Learning"
+  ],
+  "rejected_keywords": [
+    "Meta-aggregation"
+  ],
+  "similarity_scores": {
+    "Federated Learning": 0.9,
+    "Uncertainty Quantification": 0.8,
+    "Logit-based Federated Learning": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Who to Trust? Aggregating Client Knowledge in Logit-Based Federated Learning
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Uncertainty Weighted Averaging
+**🔗 Specific Connectable**: [[keywords/Federated Learning|Federated Learning]], [[keywords/Uncertainty Quantification|Uncertainty-weighted averaging]]
+**⚡ Unique Technical**: [[keywords/Logit-based Federated Learning|Logit-based FL]]
 
 ## 🔗 유사한 논문
 - [[FedAVOT Exact Distribution Alignment in Federated Learning via Masked Optimal Transport]] (86.0% similar)

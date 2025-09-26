@@ -1,3 +1,36 @@
+---
+keywords:
+  - Vision-to-4D-to-Action framework
+  - Gaussian Action Field
+  - Gaussian Splatting
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2506.14135
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:42:37.583643",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Vision-to-4D-to-Action framework",
+    "Gaussian Action Field",
+    "Gaussian Splatting"
+  ],
+  "rejected_keywords": [
+    "Vision-to-Action paradigm",
+    "Vision-to-3D-to-Action paradigm"
+  ],
+  "similarity_scores": {
+    "Vision-to-4D-to-Action framework": 0.82,
+    "Gaussian Action Field": 0.8,
+    "Gaussian Splatting": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # GAF: Gaussian Action Field as a Dynamic World Model for Robotic Manipulation
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Motion Aware 4D Representations
+**🔗 Specific Connectable**: [[keywords/Gaussian Splatting|Gaussian Splatting]]
+**⚡ Unique Technical**: [[keywords/Vision-to-4D-to-Action framework|Vision-to-4D-to-Action framework]], [[keywords/Gaussian Action Field|Gaussian Action Field]]
 
 ## 🔗 유사한 논문
 - [[GWM Towards Scalable Gaussian World Models for Robotic Manipulation]] (84.6% similar)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - Large Language Models
+  - Dialogue Generation
+  - Dual-Prompt Method
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2502.18650
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:23:41.083851",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Dialogue Generation",
+    "Dual-Prompt Method"
+  ],
+  "rejected_keywords": [
+    "Human Resources"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.88,
+    "Dialogue Generation": 0.82,
+    "Dual-Prompt Method": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Single- vs. Dual-Prompt Dialogue Generation with LLMs for Job Interviews in Human Resources
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Synthetic Dialogue Generation
+**⚡ Unique Technical**: [[keywords/Dialogue Generation|Dialogue Generation]], [[keywords/Dual-Prompt Method|Dual-Prompt Method]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[A Multi-To-One Interview Paradigm for Efficient MLLM Evaluation_20250919|A Multi-To-One Interview Paradigm for Efficient MLLM Evaluation]] (83.7% similar)

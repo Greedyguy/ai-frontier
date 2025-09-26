@@ -1,3 +1,36 @@
+---
+keywords:
+  - Reinforcement Learning
+  - Large Language Models
+  - Turn-level Adjudicated Reinforcement Learning
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14480
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:28:39.277673",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Reinforcement Learning",
+    "Large Language Models",
+    "Turn-level Adjudicated Reinforcement Learning"
+  ],
+  "rejected_keywords": [
+    "Multi-Modal Learning",
+    "Tool Integrated Reasoning"
+  ],
+  "similarity_scores": {
+    "Reinforcement Learning": 0.85,
+    "Large Language Models": 0.8,
+    "Turn-level Adjudicated Reinforcement Learning": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Process-Supervised Reinforcement Learning for Interactive Multimodal Tool-Use Agents
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Tool Integrated Reasoning
+**🔗 Specific Connectable**: [[keywords/Reinforcement Learning|Reinforcement Learning]], [[keywords/Large Language Models|Large Language Model]]
+**⚡ Unique Technical**: [[keywords/Turn-level Adjudicated Reinforcement Learning|Turn-level Adjudicated Reinforcement Learning]]
 
 ## 🔗 유사한 논문
 - [[THOR Tool-Integrated Hierarchical Optimization via RL for Mathematical Reasoning]] (85.3% similar)

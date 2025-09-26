@@ -1,3 +1,35 @@
+---
+keywords:
+  - 3D Gaussian Splatting
+  - Gradient-Aware Upscaling
+  - Bicubic Spline Interpolation
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2503.14171
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:21:43.634416",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "3D Gaussian Splatting",
+    "Gradient-Aware Upscaling",
+    "Bicubic Spline Interpolation"
+  ],
+  "rejected_keywords": [
+    "Optimization"
+  ],
+  "similarity_scores": {
+    "3D Gaussian Splatting": 0.78,
+    "Gradient-Aware Upscaling": 0.77,
+    "Bicubic Spline Interpolation": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Lightweight Gradient-Aware Upscaling of 3D Gaussian Splatting Images
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Gradient-aware Upscaling
+**🔗 Specific Connectable**: [[keywords/Bicubic Spline Interpolation|bicubic spline interpolation]]
+**⚡ Unique Technical**: [[keywords/3D Gaussian Splatting|3D Gaussian Splatting]], [[keywords/Gradient-Aware Upscaling|gradient-aware upscaling]]
 
 ## 🔗 유사한 논문
 - [[LamiGauss: Pitching Radiative Gaussian for Sparse-View X-ray Laminography Reconstruction]] (82.6% similar)

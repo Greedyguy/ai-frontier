@@ -1,13 +1,47 @@
+---
+keywords:
+  - Neural PDE Solvers
+  - Operator Learning
+  - Optimization
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 23:02:31.772916",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Neural PDE Solvers",
+    "Operator Learning",
+    "Optimization"
+  ],
+  "rejected_keywords": [
+    "Residual-Based Adaptivity",
+    "Adaptive Weighting"
+  ],
+  "similarity_scores": {
+    "Neural PDE Solvers": 0.78,
+    "Operator Learning": 0.75,
+    "Optimization": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # A Variational Framework for Residual-Based Adaptivity in Neural PDE Solvers and Operator Learning
 
 **Korean Title:** 신경 편미분 방정식(PDE) 해석기와 연산자 학습에서 잔차 기반 적응성을 위한 변분적 프레임워크
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Juan Diego Toscano|Juan Diego Toscano]] [[authors/Daniel T. Chen|Daniel T. Chen]] [[authors/Vivek Oommen|Vivek Oommen]] [[authors/George Em Karniadakis|George Em Karniadakis]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]       [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Variational Framework for Adaptivity
+**🌐 Broad Technical**: [[keywords/Optimization|Optimization]]
+**⚡ Unique Technical**: [[keywords/Neural PDE Solvers|Neural PDE Solvers]], [[keywords/Operator Learning|Operator Learning]]
 
 ## 🔗 유사한 논문
 - [[Data coarse graining can improve model performance_20250918|Data coarse graining can improve model performance]] (80.3% similar)

@@ -1,3 +1,36 @@
+---
+keywords:
+  - Large Language Models
+  - Collaborative Consensus Defense
+  - Compositional Privacy Leakage
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14284
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:21:32.855339",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Collaborative Consensus Defense",
+    "Compositional Privacy Leakage"
+  ],
+  "rejected_keywords": [
+    "Theory-of-Mind Defense",
+    "Multi-Agent Systems"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Collaborative Consensus Defense": 0.72,
+    "Compositional Privacy Leakage": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # The Sum Leaks More Than Its Parts: Compositional Privacy Risks and Mitigations in Multi-Agent Collaboration
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Compositional Privacy Leakage
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Large Language Models]]
+**⚡ Unique Technical**: [[keywords/Collaborative Consensus Defense|Collaborative Consensus Defense]], [[keywords/Compositional Privacy Leakage|Compositional Privacy Leakage]]
 
 ## 🔗 유사한 논문
 - [[Language Models Identify Ambiguities and Exploit Loopholes]] (83.9% similar)

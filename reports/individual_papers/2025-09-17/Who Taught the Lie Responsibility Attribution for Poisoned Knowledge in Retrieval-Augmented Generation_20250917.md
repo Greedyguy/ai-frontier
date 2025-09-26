@@ -1,13 +1,47 @@
+---
+keywords:
+  - Poisoning Attacks
+  - Retrieval-Augmented Generation
+  - Responsibility Attribution
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:42:27.771024",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Poisoning Attacks",
+    "Retrieval-Augmented Generation",
+    "Responsibility Attribution"
+  ],
+  "rejected_keywords": [
+    "Large Language Models",
+    "Unsupervised Clustering"
+  ],
+  "similarity_scores": {
+    "Poisoning Attacks": 0.85,
+    "Retrieval-Augmented Generation": 0.8,
+    "Responsibility Attribution": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Who Taught the Lie? Responsibility Attribution for Poisoned Knowledge in Retrieval-Augmented Generation
 
 **Korean Title:** "누가 거짓을 가르쳤는가? 검색 증강 생성에서 오염된 지식에 대한 책임 귀속"
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Baolei Zhang|Baolei Zhang]] [[authors/Haoran Xin|Haoran Xin]] [[authors/Yuxi Chen|Yuxi Chen]] [[authors/Zhuqing Liu|Zhuqing Liu]] [[authors/Biao Yi|Biao Yi]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Responsibility Attribution
+**🔗 Specific Connectable**: [[keywords/Poisoning Attacks|Poisoning Attacks]]
+**⚡ Unique Technical**: [[keywords/Retrieval-Augmented Generation|Retrieval-Augmented Generation]], [[keywords/Responsibility Attribution|Responsibility Attribution]]
 
 ## 🔗 유사한 논문
 - [[Enhancing Retrieval Augmentation via Adversarial Collaboration_20250919|Enhancing Retrieval Augmentation via Adversarial Collaboration]] (84.9% similar)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - Retrieval-augmented Generation
+  - Adversarial Collaboration
+  - Knowledge Gaps
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14750
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:46:20.535126",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Retrieval-augmented Generation",
+    "Adversarial Collaboration",
+    "Knowledge Gaps"
+  ],
+  "rejected_keywords": [
+    "Large Language Models"
+  ],
+  "similarity_scores": {
+    "Retrieval-augmented Generation": 0.78,
+    "Adversarial Collaboration": 0.77,
+    "Knowledge Gaps": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Enhancing Retrieval Augmentation via Adversarial Collaboration
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Iterative Problem Dissection
+**⚡ Unique Technical**: [[keywords/Retrieval-augmented Generation|Retrieval-augmented Generation]], [[keywords/Adversarial Collaboration|Adversarial Collaboration]]
+**🚀 Evolved Concepts**: [[keywords/Knowledge Gaps|Knowledge Gaps]]
 
 ## 🔗 유사한 논문
 - [[KBM Delineating Knowledge Boundary for Adaptive Retrieval in Large Language Models]] (85.4% similar)

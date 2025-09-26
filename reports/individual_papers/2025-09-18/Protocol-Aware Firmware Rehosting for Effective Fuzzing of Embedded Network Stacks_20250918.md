@@ -1,3 +1,35 @@
+---
+keywords:
+  - Fuzz Testing
+  - Firmware Rehosting
+  - Embedded Network Stacks
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13740
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:14:40.863101",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Fuzz Testing",
+    "Firmware Rehosting",
+    "Embedded Network Stacks"
+  ],
+  "rejected_keywords": [
+    "Network Protocols"
+  ],
+  "similarity_scores": {
+    "Fuzz Testing": 0.8,
+    "Firmware Rehosting": 0.78,
+    "Embedded Network Stacks": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Protocol-Aware Firmware Rehosting for Effective Fuzzing of Embedded Network Stacks
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Layer-by-layer Analysis
+**🔗 Specific Connectable**: [[keywords/Fuzz Testing|fuzz testing]]
+**⚡ Unique Technical**: [[keywords/Firmware Rehosting|firmware rehosting]], [[keywords/Embedded Network Stacks|embedded network stacks]]
 
 ## 🔗 유사한 논문
 - [[BERTector_An_Intrusion_Detection_Framework_Constructed_via_Joint-dataset_Learning_Based_on_Language_Model_20250918|BERTector: An Intrusion Detection Framework Constructed via Joint-dataset Learning Based on Language Model]] (75.3% similar)

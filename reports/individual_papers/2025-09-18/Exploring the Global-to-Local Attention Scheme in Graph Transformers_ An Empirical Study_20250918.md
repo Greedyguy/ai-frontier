@@ -1,13 +1,45 @@
+---
+keywords:
+  - Graph Neural Networks
+  - Attention Mechanism
+  - Transformer Architecture
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:29:10.153494",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Graph Neural Networks",
+    "Attention Mechanism",
+    "Transformer Architecture"
+  ],
+  "rejected_keywords": [
+    "Global-to-Local Attention Scheme"
+  ],
+  "similarity_scores": {
+    "Graph Neural Networks": 0.85,
+    "Attention Mechanism": 0.82,
+    "Transformer Architecture": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Exploring the Global-to-Local Attention Scheme in Graph Transformers: An Empirical Study
 
 **Korean Title:** 그래프 변환기에서의 글로벌-로컬 주의 메커니즘 탐구: 실증적 연구
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Zhengwei Wang|Zhengwei Wang]] [[authors/Gang Wu|Gang Wu]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]     [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Global Attention Mechanism, Node Level Tasks
+**🔗 Specific Connectable**: [[keywords/Graph Neural Networks|Graph Neural Networks]], [[keywords/Attention Mechanism|Attention Mechanism]], [[keywords/Transformer Architecture|Graph Transformers]]
 
 ## 🔗 유사한 논문
 - [[Attention Beyond Neighborhoods_ Reviving Transformer for Graph Clustering_20250918|Attention Beyond Neighborhoods Reviving Transformer for Graph Clustering]] (86.9% similar)

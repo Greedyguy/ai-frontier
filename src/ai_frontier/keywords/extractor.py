@@ -31,41 +31,75 @@ class KeywordExtractor:
 
         self.logger.info(f"KeywordExtractor initialized with provider: {provider}, model: {self.model}")
 
-    def extract_keywords(self, title: str, abstract: str) -> Dict[str, List[str]]:
-        """논문 제목과 초록에서 카테고리화된 키워드를 추출합니다.
+    def extract_keywords(self, title: str, abstract: str) -> Dict[str, Any]:
+        """논문 제목과 초록에서 요구사항에 맞는 키워드 후보를 추출합니다.
 
         Returns:
-            Dict with categorized keywords:
+            요구사항 스키마에 맞는 JSON 구조:
             {
-                "broad_technical": ["LLM", "RAG"],
-                "specific_connectable": ["Multimodal RAG"],
-                "unique_technical": ["ColPali"],
-                "evolved_concepts": ["Multi-agent RAG"]
+                "candidates": [
+                    {
+                        "surface": "...",
+                        "canonical": "...",
+                        "aliases": ["...", "..."],
+                        "category": "specific_connectable",
+                        "rationale": "...",
+                        "novelty_score": 0.62,
+                        "connectivity_score": 0.81,
+                        "specificity_score": 0.74,
+                        "link_intent_score": 0.76
+                    }
+                ],
+                "ban_list_suggestions": ["...", "..."]
             }
         """
         try:
-            self.logger.debug(f"카테고리화된 키워드 추출 시작 - 제목: {title[:50]}...")
+            self.logger.debug(f"키워드 후보 추출 시작 - 제목: {title[:50]}...")
 
-            # 프롬프트 생성
+            # 기본 어휘 (상위 500개 시뮬레이션)
+            controlled_vocab_json = json.dumps({
+                "Transformer": {"canonical": "Transformer", "category": "broad_technical"},
+                "Large Language Model": {"canonical": "Large Language Model", "category": "broad_technical"},
+                "Computer Vision": {"canonical": "Computer Vision", "category": "broad_technical"},
+                "Natural Language Processing": {"canonical": "Natural Language Processing", "category": "broad_technical"},
+                "Machine Learning": {"canonical": "Machine Learning", "category": "broad_technical"},
+                "Deep Learning": {"canonical": "Deep Learning", "category": "broad_technical"},
+                "Neural Network": {"canonical": "Neural Network", "category": "broad_technical"},
+                "Graph Neural Network": {"canonical": "Graph Neural Network", "category": "specific_connectable"},
+                "Attention Mechanism": {"canonical": "Attention Mechanism", "category": "specific_connectable"},
+                "Self-supervised Learning": {"canonical": "Self-supervised Learning", "category": "specific_connectable"}
+            }, ensure_ascii=False)
+
+            # 최근 트렌딩 키워드
+            recent_trending_json = json.dumps({
+                "RAG": {"canonical": "Retrieval Augmented Generation", "category": "specific_connectable"},
+                "Multimodal": {"canonical": "Multimodal Learning", "category": "specific_connectable"},
+                "Few-Shot Learning": {"canonical": "Few-Shot Learning", "category": "specific_connectable"},
+                "Zero-Shot Learning": {"canonical": "Zero-Shot Learning", "category": "specific_connectable"},
+                "Vision-Language": {"canonical": "Vision-Language Model", "category": "evolved_concepts"}
+            }, ensure_ascii=False)
+
             prompt = self.prompt_manager.generate_prompt(
                 "keyword_extraction",
                 title=title,
-                abstract=abstract
+                abstract=abstract,
+                controlled_vocab_json=controlled_vocab_json,
+                recent_trending_json=recent_trending_json
             )
 
             # LLM 호출
             if self.provider == "openai":
-                keywords = self._extract_with_openai(prompt)
+                result = self._extract_with_openai_structured(prompt)
             else:
                 raise ValueError(f"Unsupported provider: {self.provider}")
 
-            self.logger.debug(f"카테고리화된 키워드 추출 완료: {keywords}")
-            return keywords
+            self.logger.debug(f"키워드 후보 추출 완료: {len(result.get('candidates', []))}개")
+            return result
 
         except Exception as e:
             self.logger.error(f"키워드 추출 실패: {str(e)}")
             # 실패 시 기본 키워드 반환
-            return self._extract_fallback_keywords(title, abstract)
+            return self._extract_fallback_structured(title, abstract)
 
     def extract_keywords_legacy(self, title: str, abstract: str) -> List[str]:
         """레거시 지원을 위한 평면 키워드 리스트 반환"""
@@ -77,6 +111,48 @@ class KeywordExtractor:
             all_keywords.extend(category_keywords)
 
         return all_keywords[:5]  # 최대 5개로 제한
+
+    def _extract_with_openai_structured(self, prompt: str) -> Dict[str, Any]:
+        """OpenAI API를 이용한 구조화된 키워드 후보 추출"""
+        try:
+            response = self.client.chat.completions.create(
+                model=self.model,
+                messages=[
+                    {"role": "system", "content": "You are a keyword extraction expert for academic papers. Return valid JSON only."},
+                    {"role": "user", "content": prompt}
+                ],
+                temperature=0.3,
+                max_tokens=1000
+            )
+
+            content = response.choices[0].message.content.strip()
+
+            # JSON 파싱 - 마크다운 코드 블록 처리
+            try:
+                # 마크다운 코드 블록 제거 (기존 _preprocess_json_text 로직 사용)
+                cleaned_content = self._preprocess_json_text(content)
+                result = json.loads(cleaned_content)
+
+                # 스키마 검증
+                if "candidates" not in result:
+                    raise ValueError("Missing 'candidates' field")
+
+                # 각 후보 검증
+                for candidate in result["candidates"]:
+                    required_fields = ["surface", "canonical", "category", "link_intent_score"]
+                    for field in required_fields:
+                        if field not in candidate:
+                            raise ValueError(f"Missing required field: {field}")
+
+                return result
+
+            except json.JSONDecodeError as e:
+                self.logger.error(f"JSON 파싱 실패: {e}, original: {content[:100]}..., cleaned: {cleaned_content[:200]}...")
+                return self._extract_fallback_structured("", "")
+
+        except Exception as e:
+            self.logger.error(f"OpenAI API 호출 실패: {e}")
+            return self._extract_fallback_structured("", "")
 
     def _extract_with_openai(self, prompt: str) -> Dict[str, List[str]]:
         """OpenAI API를 이용한 카테고리화된 키워드 추출"""
@@ -306,6 +382,67 @@ class KeywordExtractor:
             "specific_connectable": specific_keywords[:2],
             "unique_technical": [],
             "evolved_concepts": []
+        }
+
+    def _extract_fallback_structured(self, title: str, abstract: str) -> Dict[str, Any]:
+        """실패 시 기본 구조화된 키워드 반환"""
+        text = (title + " " + abstract).lower()
+
+        # 간단한 규칙 기반 키워드 추출
+        candidates = []
+
+        # 기본 기술 용어 확인
+        broad_terms = {
+            'machine learning': 'Machine Learning',
+            'deep learning': 'Deep Learning',
+            'artificial intelligence': 'Artificial Intelligence',
+            'neural network': 'Neural Network',
+            'computer vision': 'Computer Vision',
+            'natural language processing': 'Natural Language Processing'
+        }
+
+        for term, canonical in broad_terms.items():
+            if term in text:
+                candidates.append({
+                    "surface": canonical,
+                    "canonical": canonical,
+                    "aliases": [term],
+                    "category": "broad_technical",
+                    "rationale": f"Found '{term}' in text",
+                    "novelty_score": 0.1,
+                    "connectivity_score": 0.8,
+                    "specificity_score": 0.5,
+                    "link_intent_score": 0.7
+                })
+                break  # 하나만 선택
+
+        # 특정 기술 용어 확인
+        specific_terms = {
+            'transformer': 'Transformer',
+            'attention': 'Attention Mechanism',
+            'graph': 'Graph Neural Network',
+            'reinforcement': 'Reinforcement Learning'
+        }
+
+        for term, canonical in specific_terms.items():
+            if term in text:
+                candidates.append({
+                    "surface": canonical,
+                    "canonical": canonical,
+                    "aliases": [term],
+                    "category": "specific_connectable",
+                    "rationale": f"Found '{term}' in text",
+                    "novelty_score": 0.3,
+                    "connectivity_score": 0.7,
+                    "specificity_score": 0.8,
+                    "link_intent_score": 0.75
+                })
+                if len(candidates) >= 3:
+                    break
+
+        return {
+            "candidates": candidates[:3],  # 최대 3개
+            "ban_list_suggestions": ["method", "experiment", "performance"]
         }
 
 

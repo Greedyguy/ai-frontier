@@ -1,13 +1,46 @@
+---
+keywords:
+  - Independent Component Analysis
+  - High-Order Moments
+  - Non-Gaussian Random Variables
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:22:09.112742",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Independent Component Analysis",
+    "High-Order Moments",
+    "Non-Gaussian Random Variables"
+  ],
+  "rejected_keywords": [
+    "Learning Rate"
+  ],
+  "similarity_scores": {
+    "Independent Component Analysis": 0.78,
+    "High-Order Moments": 0.72,
+    "Non-Gaussian Random Variables": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Learning Rate Should Scale Inversely with High-Order Data Moments in High-Dimensional Online Independent Component Analysis
 
 **Korean Title:** 고차 데이터 모멘트와 고차원 온라인 독립 성분 분석에서 학습률은 반비례적으로 조정되어야 한다.
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/M. Oguzhan Gultekin|M. Oguzhan Gultekin]] [[authors/Samet Demir|Samet Demir]] [[authors/Zafer Dogan|Zafer Dogan]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]      [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Adaptive Learning Rate Strategies
+**🔗 Specific Connectable**: [[keywords/Independent Component Analysis|Independent Component Analysis]]
+**⚡ Unique Technical**: [[keywords/High-Order Moments|high-order moments]], [[keywords/Non-Gaussian Random Variables|non-Gaussian random variables]]
 
 ## 🔗 유사한 논문
 - [[Multi-Fidelity Hybrid Reinforcement Learning via Information Gain Maximization_20250919|Multi-Fidelity Hybrid Reinforcement Learning via Information Gain Maximization]] (75.1% similar)

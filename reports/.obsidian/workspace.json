@@ -1,0 +1,271 @@
+{
+  "main": {
+    "id": "4b83f00db7afbc48",
+    "type": "split",
+    "children": [
+      {
+        "id": "69e3402be394c6a5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6b14ae5800839c58",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "individual_papers/2025-09-24/3D-ADAM_ A Dataset for 3D Anomaly Detection in Additive Manufacturing_20250924.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3D-ADAM_ A Dataset for 3D Anomaly Detection in Additive Manufacturing_20250924"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cff0677057da54b9",
+    "type": "split",
+    "children": [
+      {
+        "id": "344eb2512b82ef08",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0f68fcda4e014706",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "13953b2deead173c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          },
+          {
+            "id": "d42a183a102586b3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "북마크"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 216.5
+  },
+  "right": {
+    "id": "4a7e89081c579083",
+    "type": "split",
+    "children": [
+      {
+        "id": "a887724053f1285c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "188f398d7eea845f",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "individual_papers/2025-09-24/3D-ADAM_ A Dataset for 3D Anomaly Detection in Additive Manufacturing_20250924.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": false,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": false,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.6389317535948087,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "3D-ADAM_ A Dataset for 3D Anomaly Detection in Additive Manufacturing_20250924 그래프"
+            }
+          },
+          {
+            "id": "76511b5bacf0bd3c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "모든 속성"
+            }
+          }
+        ]
+      },
+      {
+        "id": "022f3da882e9af1a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "217d8bdffd582b1d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "individual_papers/2025-09-24/3D-ADAM_ A Dataset for 3D Anomaly Detection in Additive Manufacturing_20250924.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "3D-ADAM_ A Dataset for 3D Anomaly Detection in Additive Manufacturing_20250924 의 백링크"
+            }
+          },
+          {
+            "id": "a3374c3778a3c9bd",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "individual_papers/2025-09-24/3D-ADAM_ A Dataset for 3D Anomaly Detection in Additive Manufacturing_20250924.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "3D-ADAM_ A Dataset for 3D Anomaly Detection in Additive Manufacturing_20250924 의 나가는 링크"
+            }
+          },
+          {
+            "id": "619d5c6fbf5a109a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "태그"
+            }
+          },
+          {
+            "id": "1ea2d8da7f740e87",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "individual_papers/2025-09-24/3D-ADAM_ A Dataset for 3D Anomaly Detection in Additive Manufacturing_20250924.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "3D-ADAM_ A Dataset for 3D Anomaly Detection in Additive Manufacturing_20250924 의 개요"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 455.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "bases:새 베이스 생성하기": false,
+      "publish:변경사항 게재": false
+    }
+  },
+  "active": "6b14ae5800839c58",
+  "lastOpenFiles": [
+    "digests/daily_digest_20250925.md",
+    "digests/daily_digest_20250926.md",
+    "individual_papers/2025-09-25/X-Part_ high fidelity and structure coherent shape decomposition_20250925.md",
+    "individual_papers/2025-09-25/Imaging Biomarkers for Neurodegenerative Diseases from Detailed Segmentation of Medial Temporal Lobe Subregions on in vivo Brain MRI Using Upsampling Strategy Guided by High-resolution ex vivo MRI_20250925.md",
+    "individual_papers/2025-09-25/Deciphering Functions of Neurons in Vision-Language Models_20250925.md",
+    "individual_papers/2025-09-25/RG-Attn_ Radian Glue Attention for Multi-modality Multi-agent Cooperative Perception_20250925.md",
+    "individual_papers/2025-09-25/To Fold or Not to Fold_ Graph Regularized Tensor Train for Visual Data Completion_20250925.md",
+    "individual_papers/2025-09-25/Lost in Translation Vocabulary Alignment for Source-Free Domain Adaptation in Open-Vocabulary Semantic Segmentation_20250925.md",
+    "individual_papers/2025-09-25/OmniWorld_ A Multi-Domain and Multi-Modal Dataset for 4D World Modeling_20250925.md",
+    "individual_papers/2025-09-25/AutoOEP -- A Multi-modal Framework for Online Exam Proctoring_20250925.md",
+    "individual_papers/2025-09-25/Chirality in Action_ Time-Aware Video Representation Learning by Latent Straightening_20250925.md",
+    "individual_papers/2025-09-25/FastTracker_ Real-Time and Accurate Visual Tracking_20250925.md",
+    "individual_papers/2025-09-25/Enhancing Targeted Adversarial Attacks on Large Vision-Language Models via Intermediate Projector_20250925.md",
+    "individual_papers/2025-09-25/Multimodal Chain of Continuous Thought for Latent-Space Reasoning in Vision-Language Models_20250925.md",
+    "individual_papers/2025-09-25/VSF_ Simple, Efficient, and Effective Negative Guidance in Few-Step Image Generation Models By Value Sign Flip_20250925.md",
+    "individual_papers/2025-09-25/VER-Bench_ Evaluating MLLMs on Reasoning with Fine-Grained Visual Evidence_20250925.md",
+    "individual_papers/2025-09-25/Probabilistic Online Event Downsampling_20250925.md",
+    "individual_papers/2025-09-25/EndoBench_ A Comprehensive Evaluation of Multi-Modal Large Language Models for Endoscopy Analysis_20250925.md",
+    "individual_papers/2025-09-25/Sparse VideoGen2_ Accelerate Video Generation with Sparse Attention via Semantic-Aware Permutation_20250925.md",
+    "individual_papers/2025-09-25/LiDAR MOT-DETR_ A LiDAR-based Two-Stage Transformer for 3D Multiple Object Tracking_20250925.md",
+    "individual_papers/2025-09-25/ChartQA-X_ Generating Explanations for Visual Chart Reasoning_20250925.md",
+    "individual_papers/2025-09-25/Unsupervised Cross-Domain 3D Human Pose Estimation via Pseudo-Label-Guided Global Transforms_20250925.md",
+    "individual_papers/2025-09-25/Cross-Domain Underwater Image Enhancement Guided by No-Reference Image Quality Assessment_ A Transfer Learning Approach_20250925.md",
+    "individual_papers/2025-09-25/Adversarial Robustness of Discriminative Self-Supervised Learning in Vision_20250925.md",
+    "individual_papers/2025-09-25/LEDiT_ Your Length-Extrapolatable Diffusion Transformer without Positional Encoding_20250925.md",
+    "individual_papers/2025-09-25/Robust Computer-Vision based Construction Site Detection for Assistive-Technology Applications_20250925.md",
+    "individual_papers/2025-09-25",
+    "individual_papers/2025-09-24",
+    "individual_papers/2025-09-23",
+    "keywords",
+    "무제.canvas",
+    "daily",
+    "무제 1.canvas",
+    "individual_papers/2025-09-22",
+    "reports/digests",
+    "reports",
+    "individual_papers/2025-09-17/A Conformal Prediction Framework for Uncertainty Quantification in Physics-Informed Neural Networks_20250917.md.backup",
+    "authors"
+  ]
+}

@@ -1,3 +1,35 @@
+---
+keywords:
+  - Top 500 Supercomputers
+  - EasyC Tool
+  - Carbon Footprint
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13583
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:19:17.578734",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Top 500 Supercomputers",
+    "EasyC Tool",
+    "Carbon Footprint"
+  ],
+  "rejected_keywords": [
+    "High-Performance Computing"
+  ],
+  "similarity_scores": {
+    "Top 500 Supercomputers": 0.82,
+    "EasyC Tool": 0.85,
+    "Carbon Footprint": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Modeling the Carbon Footprint of HPC: The Top 500 and EasyC
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Operational carbon estimation
+**🌐 Broad Technical**: [[keywords/Carbon Footprint|carbon footprint]]
+**⚡ Unique Technical**: [[keywords/Top 500 Supercomputers|Top 500]], [[keywords/EasyC Tool|EasyC tool]]
 
 ## 🔗 유사한 논문
 - [[From Legacy Fortran to Portable Kokkos: An Autonomous Agentic AI Workflow]] (75.8% similar)

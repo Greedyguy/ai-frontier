@@ -1,6 +1,7 @@
 """Main application entry point for AI Frontier."""
 
 import os
+import re
 import asyncio
 import logging
 from pathlib import Path
@@ -129,7 +130,8 @@ class ArxivReportingService:
         summary: str,
         key_points: List[str],
         keywords: List[str],
-        output_dir: Path
+        ai_keyword_result: dict = None,
+        output_dir: Path = None
     ) -> Path:
         """개별 논문 파일을 즉시 저장"""
 
@@ -168,30 +170,15 @@ class ArxivReportingService:
                 self.logger.error(f"🚨 CRITICAL: Failed to create embedding for {paper.arxiv_id} after {max_retries} attempts. Paper will be missing from similarity search!")
                 self.embedding_failures.append(paper.arxiv_id)
 
-        # ReportGenerator를 사용하여 마크다운 콘텐츠 생성 (임베딩 저장 후)
-        from .reporting.generator import ReportGenerator
-
-        generator = ReportGenerator()
-
-        # 번역 데이터 준비
-        translations = {
-            f"{paper.arxiv_id}_title": translated_title,
-            f"{paper.arxiv_id}_abstract": translated_abstract
-        }
-
-        # 요약 데이터 준비
-        summaries = {paper.arxiv_id: summary}
-
-        # 핵심 포인트 데이터 준비
-        key_points_dict = {paper.arxiv_id: key_points}
-
-        # 새로운 format으로 콘텐츠 생성 (이제 유사도 링크 포함)
-        content = generator.generate_individual_paper_file(
+        # AI 키워드 시스템을 사용한 새로운 형태의 콘텐츠 생성
+        content = self._generate_paper_with_ai_keywords(
             paper=paper,
-            translations=translations,
-            summaries=summaries,
-            key_points=key_points_dict,
-            output_format="markdown"
+            translated_title=translated_title,
+            translated_abstract=translated_abstract,
+            summary=summary,
+            key_points=key_points,
+            keywords=keywords,
+            ai_keyword_result=ai_keyword_result
         )
 
         # 파일 저장
@@ -217,6 +204,252 @@ class ArxivReportingService:
             filename = "untitled"
         return filename
 
+    def _extract_simple_keywords(self, title: str, abstract: str, category: str) -> List[str]:
+        """Simple, reliable keyword extraction"""
+        text = (title + " " + abstract).lower()
+        keywords = []
+
+        # Category-based keywords
+        category_keywords = {
+            'cs.ai': ['Artificial Intelligence', 'AI'],
+            'cs.lg': ['Machine Learning', 'Deep Learning'],
+            'cs.cv': ['Computer Vision', 'Image Processing'],
+            'cs.cl': ['Natural Language Processing', 'NLP'],
+            'cs.ne': ['Neural Networks', 'Neural Computing'],
+            'cs.cr': ['Cryptography', 'Security'],
+            'cs.dc': ['Distributed Computing', 'Parallel Computing']
+        }
+
+        # Add category-specific keyword
+        if category.lower() in category_keywords:
+            keywords.append(category_keywords[category.lower()][0])
+
+        # Common technical terms
+        technical_terms = {
+            'transformer': 'Transformer',
+            'attention': 'Attention Mechanism',
+            'neural network': 'Neural Network',
+            'deep learning': 'Deep Learning',
+            'machine learning': 'Machine Learning',
+            'reinforcement learning': 'Reinforcement Learning',
+            'computer vision': 'Computer Vision',
+            'natural language': 'Natural Language Processing',
+            'graph neural': 'Graph Neural Network',
+            'convolutional': 'Convolutional Neural Network',
+            'generative': 'Generative AI',
+            'language model': 'Language Model',
+            'multimodal': 'Multimodal Learning',
+            'few-shot': 'Few-shot Learning',
+            'zero-shot': 'Zero-shot Learning',
+            'self-supervised': 'Self-supervised Learning',
+            'supervised': 'Supervised Learning',
+            'unsupervised': 'Unsupervised Learning'
+        }
+
+        # Find relevant technical terms
+        for term, keyword in technical_terms.items():
+            if term in text and keyword not in keywords:
+                keywords.append(keyword)
+                if len(keywords) >= 3:
+                    break
+
+        # Ensure we have at least 2 keywords
+        if len(keywords) < 2:
+            if 'machine learning' in text or 'ml' in text:
+                keywords.append('Machine Learning')
+            if 'artificial intelligence' in text or ' ai ' in text:
+                keywords.append('Artificial Intelligence')
+            if len(keywords) < 2:
+                keywords.append('Computer Science')
+
+        return keywords[:3]  # Maximum 3 keywords
+
+    def _generate_obsidian_properties(self, paper: ArxivPaper, keywords: List[str]) -> str:
+        """Obsidian Properties 생성"""
+        properties = ["---"]
+
+        # Keywords property
+        if keywords:
+            properties.append("keywords:")
+            for keyword in keywords:
+                properties.append(f"  - {keyword}")
+
+        # Category property
+        properties.append(f"category: {paper.category}")
+
+        # Publish date property
+        properties.append(f"publish_date: {paper.published.strftime('%Y-%m-%d')}")
+
+        # ArXiv ID property
+        properties.append(f"arxiv_id: {paper.arxiv_id}")
+
+        properties.append("---")
+
+        return "\n".join(properties)
+
+    def _generate_paper_with_ai_keywords(
+        self,
+        paper: ArxivPaper,
+        translated_title: str,
+        translated_abstract: str,
+        summary: str,
+        key_points: List[str],
+        keywords: List[str],
+        ai_keyword_result: dict = None
+    ) -> str:
+        """AI 키워드 시스템을 사용한 논문 마크다운 콘텐츠 생성"""
+
+        # 날짜별 표준 링크 생성
+        date_str = paper.published.strftime("%Y%m%d")
+        daily_link = f"[[daily_digest_{date_str}|{date_str}]]"
+        category_link = f"[[categories/{paper.category}|{paper.category}]]"
+
+        # 유사 논문 정보 가져오기
+        similar_papers_section = ""
+        if self.enable_embeddings and self.similarity_manager:
+            try:
+                similar_papers = self.similarity_manager.find_similar_papers(
+                    paper.arxiv_id, top_k=5
+                )
+                if similar_papers:
+                    similar_papers_section = "## 🔗 유사한 논문\n"
+                    for paper_embedding, similarity_score in similar_papers:
+                        # Extract published date from metadata
+                        published_str = paper_embedding.metadata.get("published", "")
+                        if published_str:
+                            try:
+                                from datetime import datetime
+                                published_date = datetime.fromisoformat(published_str.replace('Z', '+00:00'))
+                                date_folder = published_date.strftime("%Y-%m-%d")
+                                date_suffix = published_date.strftime("%Y%m%d")
+                            except:
+                                date_folder = "unknown"
+                                date_suffix = "unknown"
+                        else:
+                            date_folder = "unknown"
+                            date_suffix = "unknown"
+
+                        # Create Obsidian link
+                        sanitized_title = paper_embedding.title.replace(':', '_')
+                        link = f"[[{date_folder}/{sanitized_title}_{date_suffix}|{paper_embedding.title}]]"
+                        similar_papers_section += f"- {link} ({similarity_score:.1%} similar)\n"
+                    similar_papers_section += "\n"
+            except Exception as e:
+                self.logger.warning(f"유사도 검색 실패 - 논문 {paper.arxiv_id}: {e}")
+
+        # AI 키워드 메타데이터와 섹션 생성
+        keyword_metadata = ""
+        keyword_section = ""
+
+        if ai_keyword_result:
+            # HTML 메타데이터 추가 (요구사항 스키마 준수)
+            metadata = {
+                "processed_timestamp": datetime.now().isoformat(),
+                "vocabulary_version": "1.0",
+                "selected_keywords": ai_keyword_result.get('selected_keywords', []),
+                "rejected_keywords": [
+                    c.get('canonical', c.get('surface', ''))
+                    for c in ai_keyword_result.get('candidates', [])
+                    if c.get('canonical', c.get('surface', '')) not in ai_keyword_result.get('selected_keywords', [])
+                ],
+                "similarity_scores": {
+                    c.get('canonical', c.get('surface', '')): c.get('link_intent_score', 0.0)
+                    for c in ai_keyword_result.get('candidates', [])
+                },
+                "extraction_method": "AI_prompt_based",
+                "budget_applied": True,
+                "candidates_json": ai_keyword_result.get('candidates_json', {}),
+                "decisions": [
+                    {
+                        "candidate_surface": c.get('surface', ''),
+                        "resolved_canonical": c.get('canonical', c.get('surface', '')),
+                        "decision": "linked" if c.get('canonical', c.get('surface', '')) in ai_keyword_result.get('selected_keywords', []) else "skipped_threshold",
+                        "scores": {
+                            "novelty": c.get('novelty_score', 0.0),
+                            "connectivity": c.get('connectivity_score', 0.0),
+                            "specificity": c.get('specificity_score', 0.0),
+                            "link_intent": c.get('link_intent_score', 0.0)
+                        }
+                    }
+                    for c in ai_keyword_result.get('candidates', [])
+                ]
+            }
+            import json
+            keyword_metadata = f"<!-- KEYWORD_LINKING_METADATA:\n{json.dumps(metadata, indent=2, ensure_ascii=False)}\n-->\n\n"
+
+            # 키워드 섹션 생성 (카테고리별)
+            categorized_keywords = ai_keyword_result.get('categorized_keywords', {})
+            if categorized_keywords:
+                keyword_section = "## 🏷️ 카테고리화된 키워드\n"
+
+                # 카테고리별 표시
+                category_icons = {
+                    'broad_technical': '🧠 Broad Technical',
+                    'specific_connectable': '🔗 Specific Connectable',
+                    'unique_technical': '⚡ Unique Technical',
+                    'evolved_concepts': '🚀 Evolved Concepts'
+                }
+
+                for category, keywords in categorized_keywords.items():
+                    if keywords:  # 해당 카테고리에 키워드가 있는 경우만
+                        icon_title = category_icons.get(category, f'📝 {category.title()}')
+                        keyword_links = ", ".join([f"[[keywords/{kw}|{kw}]]" for kw in keywords])
+                        keyword_section += f"**{icon_title}**: {keyword_links}\n"
+
+                keyword_section += "\n"
+            else:
+                # fallback: selected_keywords 사용
+                selected_keywords = ai_keyword_result.get('selected_keywords', [])
+                if selected_keywords:
+                    keyword_section = "## 🏷️ 카테고리화된 키워드\n"
+                    keyword_section += "**⚡ Unique Technical**: " + ", ".join([f"[[keywords/{kw}|{kw}]]" for kw in selected_keywords]) + "\n\n"
+
+        # Obsidian Properties 생성
+        obsidian_properties = self._generate_obsidian_properties(
+            paper, ai_keyword_result.get('selected_keywords', [])
+        )
+
+        # 마크다운 콘텐츠 생성
+        content = f"""{obsidian_properties}
+
+{keyword_metadata}# {paper.title}
+
+## 📋 메타데이터
+
+**Links**: {daily_link} {category_link}
+**PDF**: [Download](https://arxiv.org/pdf/{paper.arxiv_id}.pdf)
+**Category**: {paper.category}
+**Published**: {paper.published.strftime('%Y-%m-%d')}
+**ArXiv ID**: [{paper.arxiv_id}](https://arxiv.org/abs/{paper.arxiv_id})
+
+{similar_papers_section}{keyword_section}## 📋 저자 정보
+
+**Authors:** {', '.join(paper.authors)}
+
+## 📄 Abstract (원문)
+
+{paper.abstract}
+
+## 📝 요약
+
+{summary}
+
+## 🎯 주요 포인트
+
+"""
+        for i, point in enumerate(key_points, 1):
+            # 기존 번호가 포함된 경우 제거 (예: "1. " 또는 "1) " 형태)
+            cleaned_point = re.sub(r'^\s*\d+[\.\)]\s*', '', point.strip())
+            content += f"- {i}. {cleaned_point}\n"
+
+        content += f"""
+
+---
+
+*Generated on {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}*"""
+
+        return content
+
     def _generate_paper_markdown(
         self,
         paper: ArxivPaper,
@@ -228,9 +461,12 @@ class ArxivReportingService:
     ) -> str:
         """개별 논문의 마크다운 콘텐츠 생성"""
 
-        content = f"""# {paper.title}
+        # Obsidian Properties 생성
+        obsidian_properties = self._generate_obsidian_properties(paper, keywords)
 
-**Korean Title:** {translated_title}
+        content = f"""{obsidian_properties}
+
+# {paper.title}
 
 ## 📋 논문 정보
 
@@ -243,10 +479,6 @@ class ArxivReportingService:
 ## 📝 Original Abstract
 
 {paper.abstract}
-
-## 🇰🇷 Korean Abstract
-
-{translated_abstract}
 
 ## 📊 Summary
 
@@ -408,6 +640,10 @@ class ArxivReportingService:
         updated_papers = []
         new_papers = []
 
+        # 중복 매니저 새로고침 (새로 생성된 파일들 반영)
+        self.duplicate_manager._load_existing_papers()
+        self.logger.info(f"중복 매니저 새로고침 완료 - {len(self.duplicate_manager.existing_papers)}개 기존 논문 로드")
+
         for i, paper in enumerate(papers, 1):
             self.logger.info(f"논문 처리 중 {i}/{len(papers)}: {paper.arxiv_id} - {paper.title[:100]}")
             print(f"Processing paper {i}/{len(papers)}: {paper.title[:50]}...")
@@ -456,13 +692,9 @@ class ArxivReportingService:
 
             # Process paper
             try:
-                self.logger.debug(f"번역 시작 - 논문 {paper.arxiv_id}")
-                translated_title = self.translator.translate(
-                    paper.title, target_language
-                )
-                translated_abstract = self.translator.translate(
-                    paper.abstract, target_language
-                )
+                # 제목과 초록 번역 모두 제거 - 원문만 사용
+                translated_title = ""
+                translated_abstract = ""
 
                 # Generate summary
                 self.logger.debug(f"요약 생성 시작 - 논문 {paper.arxiv_id}")
@@ -472,12 +704,67 @@ class ArxivReportingService:
                 points = self.summarizer.summarize_key_points(paper.abstract)
                 self.logger.debug(f"요약 완료 - 논문 {paper.arxiv_id}")
 
-                # Extract keywords
+                # Extract keywords using AI-based approach
                 self.logger.debug(f"키워드 추출 시작 - 논문 {paper.arxiv_id}")
-                paper_keywords = self.keyword_extractor.extract_keywords(
-                    paper.title, paper.abstract
-                )
-                self.logger.debug(f"키워드 추출 완료 - 논문 {paper.arxiv_id}: {paper_keywords}")
+
+                try:
+                    # Use AI keyword extractor for structured keyword candidates
+                    candidates_json = self.keyword_extractor.extract_keywords(paper.title, paper.abstract)
+
+                    # Extract candidates for processing
+                    candidates = candidates_json.get('candidates', [])
+
+                    # Process with linking pipeline (simplified version for now)
+                    selected_keywords = []
+                    categorized_keywords = {
+                        'broad_technical': [],
+                        'specific_connectable': [],
+                        'unique_technical': [],
+                        'evolved_concepts': []
+                    }
+
+                    # Apply basic selection rules
+                    for candidate in candidates:
+                        if candidate.get('link_intent_score', 0) >= 0.5:  # 임계값을 0.5로 완화
+                            category = candidate.get('category', 'broad_technical')
+                            canonical = candidate.get('canonical', candidate.get('surface', ''))
+
+                            if canonical:
+                                selected_keywords.append(canonical)
+                                if category in categorized_keywords:
+                                    categorized_keywords[category].append(canonical)
+
+                    # If no keywords selected, use fallback
+                    if not selected_keywords:
+                        self.logger.warning(f"AI 키워드 추출로 선택된 키워드가 없음, fallback 사용")
+                        paper_keywords = self._extract_simple_keywords(paper.title, paper.abstract, paper.category)
+                        ai_keyword_result = {
+                            'selected_keywords': paper_keywords,
+                            'candidates': [{'surface': kw, 'canonical': kw} for kw in paper_keywords],
+                            'categorized_keywords': {'broad_technical': paper_keywords},
+                            'candidates_json': candidates_json  # 원본 JSON 보존
+                        }
+                    else:
+                        # Create AI keyword result structure
+                        ai_keyword_result = {
+                            'selected_keywords': selected_keywords[:5],  # Limit to 5 keywords
+                            'candidates': candidates,
+                            'categorized_keywords': categorized_keywords,
+                            'candidates_json': candidates_json  # 원본 JSON 보존
+                        }
+
+                except Exception as e:
+                    self.logger.warning(f"AI 키워드 추출 실패, 간단한 방식으로 대체: {e}")
+                    # Fallback to simple keyword extraction
+                    paper_keywords = self._extract_simple_keywords(paper.title, paper.abstract, paper.category)
+                    ai_keyword_result = {
+                        'selected_keywords': paper_keywords,
+                        'candidates': [{'surface': kw, 'canonical': kw} for kw in paper_keywords],
+                        'categorized_keywords': {'broad_technical': paper_keywords},
+                        'candidates_json': {'candidates': [], 'ban_list_suggestions': []}
+                    }
+
+                self.logger.debug(f"키워드 추출 완료 - 논문 {paper.arxiv_id}: {ai_keyword_result['selected_keywords']}")
 
                 # 개별 논문 파일 즉시 저장
                 self.logger.debug(f"개별 파일 저장 시작 - 논문 {paper.arxiv_id}")
@@ -487,7 +774,8 @@ class ArxivReportingService:
                     translated_abstract=translated_abstract,
                     summary=summary,
                     key_points=points,
-                    keywords=paper_keywords,
+                    keywords=ai_keyword_result['selected_keywords'],
+                    ai_keyword_result=ai_keyword_result,
                     output_dir=individual_papers_dir
                 )
                 saved_files.append(file_path)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - Convolutional Neural Networks
+  - Multi-Modal Learning
+  - Generative Models
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.15076
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:43:20.102298",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Convolutional Neural Networks",
+    "Multi-Modal Learning",
+    "Generative Models"
+  ],
+  "rejected_keywords": [
+    "Edge Computing"
+  ],
+  "similarity_scores": {
+    "Convolutional Neural Networks": 0.85,
+    "Multi-Modal Learning": 0.82,
+    "Generative Models": 0.79
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Forecasting and Visualizing Air Quality from Sky Images with Vision-Language Models
 
@@ -5,10 +37,10 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Image Guided Pollution Forecasting
+**🔗 Specific Connectable**: [[keywords/Convolutional Neural Networks|Convolutional Neural Networks]], [[keywords/Multi-Modal Learning|Vision-Language Models]], [[keywords/Generative Models|Generative Modeling]]
 
 ## 🔗 유사한 논문
 - [[A Deep Learning Pipeline for Solid Waste Detection in Remote Sensing Images]] (80.8% similar)

@@ -1,3 +1,36 @@
+---
+keywords:
+  - Symbolic Reasoning
+  - Large Language Models
+  - Monte Carlo Estimation
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2505.20415
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:46:27.354645",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Symbolic Reasoning",
+    "Large Language Models",
+    "Monte Carlo Estimation"
+  ],
+  "rejected_keywords": [
+    "Direct Preference Optimization",
+    "Supervised Fine-Tuning"
+  ],
+  "similarity_scores": {
+    "Symbolic Reasoning": 0.78,
+    "Large Language Models": 0.8,
+    "Monte Carlo Estimation": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Enhancing Logical Reasoning in Language Models via Symbolically-Guided Monte Carlo Process Supervision
 
@@ -5,10 +38,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Monte Carlo Estimation, Supervised Fine-Tuning
+**🔗 Specific Connectable**: [[keywords/Monte Carlo Estimation|Monte Carlo Estimation]]
+**⚡ Unique Technical**: [[keywords/Symbolic Reasoning|Symbolic Reasoning]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[THOR Tool-Integrated Hierarchical Optimization via RL for Mathematical Reasoning]] (85.4% similar)

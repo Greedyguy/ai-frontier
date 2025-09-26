@@ -1,3 +1,35 @@
+---
+keywords:
+  - Hybrid Priors-Guided Network
+  - Compressed Low-Light Image Enhancement
+  - JPEG Quality Factor
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2504.02373
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:41:09.113386",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Hybrid Priors-Guided Network",
+    "Compressed Low-Light Image Enhancement",
+    "JPEG Quality Factor"
+  ],
+  "rejected_keywords": [
+    "DCT Quantization Matrix"
+  ],
+  "similarity_scores": {
+    "Hybrid Priors-Guided Network": 0.78,
+    "Compressed Low-Light Image Enhancement": 0.75,
+    "JPEG Quality Factor": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # HPGN: Hybrid Priors-Guided Network for Compressed Low-Light Image Enhancement
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Joint Task Enhancement
+**🔗 Specific Connectable**: [[keywords/JPEG Quality Factor|JPEG Quality Factor]]
+**⚡ Unique Technical**: [[keywords/Hybrid Priors-Guided Network|Hybrid Priors-Guided Network]], [[keywords/Compressed Low-Light Image Enhancement|Compressed Low-Light Image Enhancement]]
 
 ## 🔗 유사한 논문
 - [[Generative Image Coding with Diffusion Prior_20250918|Generative Image Coding with Diffusion Prior]] (81.6% similar)

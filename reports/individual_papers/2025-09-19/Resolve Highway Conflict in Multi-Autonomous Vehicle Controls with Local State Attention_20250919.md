@@ -1,3 +1,33 @@
+---
+keywords:
+  - Reinforcement Learning
+  - Attention Mechanism
+  - Traffic Management
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2506.11445
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:27:01.418465",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Reinforcement Learning",
+    "Attention Mechanism",
+    "Traffic Management"
+  ],
+  "rejected_keywords": [],
+  "similarity_scores": {
+    "Reinforcement Learning": 0.8,
+    "Attention Mechanism": 0.75,
+    "Traffic Management": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Resolve Highway Conflict in Multi-Autonomous Vehicle Controls with Local State Attention
 
@@ -5,10 +35,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Multi-agent Reinforcement Learning
+**🔗 Specific Connectable**: [[keywords/Reinforcement Learning|multi-agent reinforcement learning]], [[keywords/Attention Mechanism|Local State Attention]]
+**⚡ Unique Technical**: [[keywords/Traffic Management|high-density traffic]]
 
 ## 🔗 유사한 논문
 - [[AI-Driven_Multi-Agent_Vehicular_Planning_for_Battery_Efficiency_and_QoS_in_6G_Smart_Cities_20250919|AI-Driven Multi-Agent Vehicular Planning for Battery Efficiency and QoS in 6G Smart Cities]] (83.8% similar)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - Foundation Models
+  - Weighted Traveling Repairman Problem
+  - Zero-Shot Object Navigation
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2503.06937
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:40:54.900132",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Foundation Models",
+    "Weighted Traveling Repairman Problem",
+    "Zero-Shot Object Navigation"
+  ],
+  "rejected_keywords": [
+    "Vision-Language Model"
+  ],
+  "similarity_scores": {
+    "Foundation Models": 0.8,
+    "Weighted Traveling Repairman Problem": 0.79,
+    "Zero-Shot Object Navigation": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Handle Object Navigation as Weighted Traveling Repairman Problem
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Zero Shot Object Navigation
+**⚡ Unique Technical**: [[keywords/Weighted Traveling Repairman Problem|Weighted Traveling Repairman Problem]], [[keywords/Zero-Shot Object Navigation|Zero-Shot Object Navigation]]
+**🚀 Evolved Concepts**: [[keywords/Foundation Models|Foundation Models]]
 
 ## 🔗 유사한 논문
 - [[Search-TTA A Multimodal Test-Time Adaptation Framework for Visual Search in the Wild]] (82.4% similar)

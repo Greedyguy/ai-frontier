@@ -1,3 +1,35 @@
+---
+keywords:
+  - Large Language Models
+  - Video Question Answering
+  - Agentic Choice Enhancement
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2508.19026
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:33:15.066961",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Video Question Answering",
+    "Agentic Choice Enhancement"
+  ],
+  "rejected_keywords": [
+    "Cognitive Reasoning"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Video Question Answering": 0.78,
+    "Agentic Choice Enhancement": 0.79
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # MovieCORE: COgnitive REasoning in Movies
 
@@ -5,10 +37,10 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: System-2 Thinking in AI
+**⚡ Unique Technical**: [[keywords/Video Question Answering|Video Question Answering]], [[keywords/Agentic Choice Enhancement|Agentic Choice Enhancement]]
 
 ## 🔗 유사한 논문
 - [[Omni-CLST Error-aware Curriculum Learning with guided Selective chain-of-Thought for audio question answering]] (79.9% similar)

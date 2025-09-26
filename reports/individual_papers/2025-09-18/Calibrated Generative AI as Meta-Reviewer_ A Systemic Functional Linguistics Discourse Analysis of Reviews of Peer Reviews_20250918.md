@@ -1,13 +1,46 @@
+---
+keywords:
+  - Generative Models
+  - Systemic Functional Linguistics
+  - Appraisal Theory
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:36:01.462791",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Generative Models",
+    "Systemic Functional Linguistics",
+    "Appraisal Theory"
+  ],
+  "rejected_keywords": [
+    "Feedback Literacy"
+  ],
+  "similarity_scores": {
+    "Generative Models": 0.78,
+    "Systemic Functional Linguistics": 0.72,
+    "Appraisal Theory": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Calibrated Generative AI as Meta-Reviewer: A Systemic Functional Linguistics Discourse Analysis of Reviews of Peer Reviews
 
 **Korean Title:** 교정된 생성 AI의 메타 리뷰어 역할: 동료 평가 리뷰에 대한 체계적 기능 언어학 담화 분석
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Gabriela C. Zapata|Gabriela C. Zapata]] [[authors/Bill Cope|Bill Cope]] [[authors/Mary Kalantzis|Mary Kalantzis]] [[authors/Duane Searsmith|Duane Searsmith]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]       [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Feedback Literacy
+**🔗 Specific Connectable**: [[keywords/Generative Models|Generative AI]]
+**⚡ Unique Technical**: [[keywords/Systemic Functional Linguistics|Systemic Functional Linguistics]], [[keywords/Appraisal Theory|Appraisal Theory]]
 
 ## 🔗 유사한 논문
 - [[Designing AI-Agents with Personalities_ A Psychometric Approach_20250918|Designing AI-Agents with Personalities A Psychometric Approach]] (81.7% similar)

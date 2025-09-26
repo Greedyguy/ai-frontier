@@ -1,13 +1,47 @@
+---
+keywords:
+  - Federated Learning
+  - Large Language Models
+  - Mixture-of-Experts
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:40:56.351687",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Federated Learning",
+    "Large Language Models",
+    "Mixture-of-Experts"
+  ],
+  "rejected_keywords": [
+    "Low-Rank Adaptation"
+  ],
+  "similarity_scores": {
+    "Federated Learning": 0.8,
+    "Large Language Models": 0.78,
+    "Mixture-of-Experts": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Adaptive LoRA Experts Allocation and Selection for Federated Fine-Tuning
 
 **Korean Title:** 적응형 LoRA 전문가 할당 및 선택을 위한 연합 미세 조정
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Lei Wang|Lei Wang]] [[authors/Jieming Bian|Jieming Bian]] [[authors/Letian Zhang|Letian Zhang]] [[authors/Jie Xu|Jie Xu]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]       [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Adaptive Mixture-of-Experts
+**🔗 Specific Connectable**: [[keywords/Federated Learning|Federated Learning]]
+**⚡ Unique Technical**: [[keywords/Mixture-of-Experts|Mixture-of-Experts]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[LEED_ A Highly Efficient and Scalable LLM-Empowered Expert Demonstrations Framework for Multi-Agent Reinforcement Learning_20250919|LEED A Highly Efficient and Scalable LLM-Empowered Expert Demonstrations Framework for Multi-Agent Reinforcement Learning]] (82.6% similar)

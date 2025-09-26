@@ -1,3 +1,35 @@
+---
+keywords:
+  - Federated Learning
+  - Optimal Transport
+  - Distribution Alignment
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14444
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:44:04.091028",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Federated Learning",
+    "Optimal Transport",
+    "Distribution Alignment"
+  ],
+  "rejected_keywords": [
+    "Sinkhorn Scaling"
+  ],
+  "similarity_scores": {
+    "Federated Learning": 0.95,
+    "Optimal Transport": 0.85,
+    "Distribution Alignment": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # FedAVOT: Exact Distribution Alignment in Federated Learning via Masked Optimal Transport
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Transport-based Aggregation
+**🔗 Specific Connectable**: [[keywords/Federated Learning|Federated Learning]]
+**⚡ Unique Technical**: [[keywords/Optimal Transport|Optimal Transport]]
+**🚀 Evolved Concepts**: [[keywords/Distribution Alignment|Distribution Alignment]]
 
 ## 🔗 유사한 논문
 - [[FedDiverse Tackling Data Heterogeneity in Federated Learning with Diversity-Driven Client Selection]] (83.9% similar)

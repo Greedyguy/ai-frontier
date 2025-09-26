@@ -1,3 +1,35 @@
+---
+keywords:
+  - Large Language Models
+  - Generative Search Engines
+  - Retrieval Augmented Generation
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14436
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:17:25.059920",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Generative Search Engines",
+    "Retrieval Augmented Generation"
+  ],
+  "rejected_keywords": [
+    "Search Engine Optimization"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.88,
+    "Generative Search Engines": 0.85,
+    "Retrieval Augmented Generation": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # When Content is Goliath and Algorithm is David: The Style and Semantic Effects of Generative Search Engine
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Generative Expression Patterns
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Large Language Models]]
+**⚡ Unique Technical**: [[keywords/Generative Search Engines|Generative Search Engines]], [[keywords/Retrieval Augmented Generation|Retrieval Augmented Generation]]
 
 ## 🔗 유사한 논문
 - [[Large Language Models for Information Retrieval A Survey]] (82.1% similar)

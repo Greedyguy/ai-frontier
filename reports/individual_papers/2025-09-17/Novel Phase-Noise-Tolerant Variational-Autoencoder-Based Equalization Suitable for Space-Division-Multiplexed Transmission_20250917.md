@@ -1,13 +1,44 @@
+---
+keywords:
+  - Space-Division Multiplexing
+  - Variational Autoencoder
+  - Phase Noise Tolerance
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:49:16.137300",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Space-Division Multiplexing",
+    "Variational Autoencoder",
+    "Phase Noise Tolerance"
+  ],
+  "rejected_keywords": [],
+  "similarity_scores": {
+    "Space-Division Multiplexing": 0.79,
+    "Variational Autoencoder": 0.8,
+    "Phase Noise Tolerance": 0.65
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Novel Phase-Noise-Tolerant Variational-Autoencoder-Based Equalization Suitable for Space-Division-Multiplexed Transmission
 
 **Korean Title:** 공간 분할 다중화 전송에 적합한 새로운 위상 잡음 내성 변분 오토인코더 기반 등화 기술
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Vincent Lauinger|Vincent Lauinger]] [[authors/Lennart Schmitz|Lennart Schmitz]] [[authors/Patrick Matalla|Patrick Matalla]] [[authors/Andrej Rode|Andrej Rode]] [[authors/Sebastian Randel|Sebastian Randel]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**⭐ Unique Technical**: Phase Noise Tolerant Equalization
+**🔗 Specific Connectable**: [[keywords/Space-Division Multiplexing|space-division-multiplexed transmission]], [[keywords/Variational Autoencoder|variational-autoencoder-based equalization]]
+**⚡ Unique Technical**: [[keywords/Phase Noise Tolerance|phase-noise-tolerant]]
 
 ## 🔗 유사한 논문
 - [[Discrete optimal transport is a strong audio adversarial attack_20250918|Discrete optimal transport is a strong audio adversarial attack]] (79.3% similar)

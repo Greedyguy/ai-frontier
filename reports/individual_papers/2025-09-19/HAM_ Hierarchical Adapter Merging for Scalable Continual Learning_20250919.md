@@ -1,3 +1,35 @@
+---
+keywords:
+  - Continual Learning
+  - Transfer Learning
+  - Hierarchical Adapters Merging
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.13211
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:41:15.613319",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Continual Learning",
+    "Transfer Learning",
+    "Hierarchical Adapters Merging"
+  ],
+  "rejected_keywords": [
+    "Parameter-Efficient Fine-Tuning"
+  ],
+  "similarity_scores": {
+    "Continual Learning": 0.85,
+    "Transfer Learning": 0.8,
+    "Hierarchical Adapters Merging": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # HAM: Hierarchical Adapter Merging for Scalable Continual Learning
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Dynamic Adapter Grouping
+**🔗 Specific Connectable**: [[keywords/Continual Learning|Continual Learning]], [[keywords/Transfer Learning|Transfer Learning]]
+**⚡ Unique Technical**: [[keywords/Hierarchical Adapters Merging|Hierarchical Adapters Merging]]
 
 ## 🔗 유사한 논문
 - [[Superpose_Task-specific_Features_for_Model_Merging_20250919|Superpose Task-specific Features for Model Merging]] (81.9% similar)

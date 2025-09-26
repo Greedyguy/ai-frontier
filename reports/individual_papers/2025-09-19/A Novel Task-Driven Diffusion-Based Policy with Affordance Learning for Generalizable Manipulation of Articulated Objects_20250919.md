@@ -1,3 +1,36 @@
+---
+keywords:
+  - Diffusion Models
+  - Transfer Learning
+  - Linear Temporal Logic
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14939
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:59:48.215448",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Diffusion Models",
+    "Transfer Learning",
+    "Linear Temporal Logic"
+  ],
+  "rejected_keywords": [
+    "Affordance Learning",
+    "Optimization"
+  ],
+  "similarity_scores": {
+    "Diffusion Models": 0.78,
+    "Transfer Learning": 0.77,
+    "Linear Temporal Logic": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # A Novel Task-Driven Diffusion-Based Policy with Affordance Learning for Generalizable Manipulation of Articulated Objects
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Diffusion-Based Policy
+**🔗 Specific Connectable**: [[keywords/Diffusion Models|diffusion-based policy]], [[keywords/Transfer Learning|transfer reasoning]]
+**⚡ Unique Technical**: [[keywords/Linear Temporal Logic|linear temporal logic]]
 
 ## 🔗 유사한 논문
 - [[CRAFT Coaching Reinforcement Learning Autonomously using Foundation Models for Multi-Robot Coordination Tasks]] (82.9% similar)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - Autonomous Drones
+  - Wire Detection and Depth Estimation
+  - Temporal Correlation Layer
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14989
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:19:41.868839",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Autonomous Drones",
+    "Wire Detection and Depth Estimation",
+    "Temporal Correlation Layer"
+  ],
+  "rejected_keywords": [
+    "Synthetic Data"
+  ],
+  "similarity_scores": {
+    "Autonomous Drones": 0.82,
+    "Wire Detection and Depth Estimation": 0.78,
+    "Temporal Correlation Layer": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # UCorr: Wire Detection and Depth Estimation for Autonomous Drones
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Monocular End-to-End Model
+**🔗 Specific Connectable**: [[keywords/Autonomous Drones|autonomous drones]]
+**⚡ Unique Technical**: [[keywords/Wire Detection and Depth Estimation|wire detection and depth estimation]], [[keywords/Temporal Correlation Layer|temporal correlation layer]]
 
 ## 🔗 유사한 논문
 - [[A Novel Compression Framework for YOLOv8 Achieving Real-Time Aerial Object Detection on Edge Devices via Structured Pruning and Channel-Wise Distillation]] (81.0% similar)

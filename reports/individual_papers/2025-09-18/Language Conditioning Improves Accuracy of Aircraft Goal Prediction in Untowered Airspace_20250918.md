@@ -1,3 +1,36 @@
+---
+keywords:
+  - Natural Language Processing
+  - Speech Recognition
+  - Convolutional Neural Networks
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.14063
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:22:51.291524",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Natural Language Processing",
+    "Speech Recognition",
+    "Convolutional Neural Networks"
+  ],
+  "rejected_keywords": [
+    "Generative Models",
+    "Multi-Modal Learning"
+  ],
+  "similarity_scores": {
+    "Natural Language Processing": 0.85,
+    "Speech Recognition": 0.8,
+    "Convolutional Neural Networks": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Language Conditioning Improves Accuracy of Aircraft Goal Prediction in Untowered Airspace
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Socially Aware Motion Planning
+**🌐 Broad Technical**: [[keywords/Natural Language Processing|natural language understanding]]
+**🔗 Specific Connectable**: [[keywords/Speech Recognition|automatic speech recognition]], [[keywords/Convolutional Neural Networks|temporal convolutional network]]
 
 ## 🔗 유사한 논문
 - [[Agentic_UAVs_LLM-Driven_Autonomy_with_Integrated_Tool-Calling_and_Cognitive_Reasoning_20250918|Agentic UAVs: LLM-Driven Autonomy with Integrated Tool-Calling and Cognitive Reasoning]] (81.6% similar)

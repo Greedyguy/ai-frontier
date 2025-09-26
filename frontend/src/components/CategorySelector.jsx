@@ -11,14 +11,33 @@ const CategorySelector = ({ selectedCategories, setSelectedCategories }) => {
     'cs.CV': 'Computer Vision and Pattern Recognition',
     'cs.CR': 'Cryptography and Security',
     'cs.DC': 'Distributed, Parallel, and Cluster Computing',
+    'cs.DM': 'Discrete Mathematics',
     'cs.DS': 'Data Structures and Algorithms',
-    'cs.IR': 'Information Retrieval',
-    'cs.NI': 'Networking and Internet Architecture',
-    'cs.RO': 'Robotics',
-    'cs.SE': 'Software Engineering',
-    'cs.SY': 'Systems and Control',
+    'cs.ET': 'Emerging Technologies',
+    'cs.FL': 'Formal Languages and Automata Theory',
+    'cs.GL': 'General Literature',
+    'cs.GR': 'Graphics',
+    'cs.GT': 'Computer Science and Game Theory',
     'cs.HC': 'Human-Computer Interaction',
-    'cs.GT': 'Computer Science and Game Theory'
+    'cs.IR': 'Information Retrieval',
+    'cs.IT': 'Information Theory',
+    'cs.LO': 'Logic in Computer Science',
+    'cs.MA': 'Multiagent Systems',
+    'cs.MM': 'Multimedia',
+    'cs.MS': 'Mathematical Software',
+    'cs.NA': 'Numerical Analysis',
+    'cs.NE': 'Neural and Evolutionary Computing',
+    'cs.NI': 'Networking and Internet Architecture',
+    'cs.OH': 'Other Computer Science',
+    'cs.OS': 'Operating Systems',
+    'cs.PF': 'Performance',
+    'cs.PL': 'Programming Languages',
+    'cs.RO': 'Robotics',
+    'cs.SC': 'Symbolic Computation',
+    'cs.SD': 'Sound',
+    'cs.SE': 'Software Engineering',
+    'cs.SI': 'Social and Information Networks',
+    'cs.SY': 'Systems and Control'
   };
 
   const toggleCategory = (categoryId) => {
@@ -74,7 +93,7 @@ const CategorySelector = ({ selectedCategories, setSelectedCategories }) => {
           onClick={selectAll}
           className="px-3 py-1 text-xs bg-green-100 text-green-700 rounded-full hover:bg-green-200 transition-colors"
         >
-          모두 선택
+          CS 전체 선택 (33개)
         </button>
         <button
           type="button"
@@ -98,7 +117,7 @@ const CategorySelector = ({ selectedCategories, setSelectedCategories }) => {
       </div>
 
       {/* 카테고리 그리드 */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 max-h-48 overflow-y-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 max-h-64 overflow-y-auto border border-gray-200 rounded-lg p-2">
         {filteredCategories.map(([categoryId, categoryName]) => (
           <label
             key={categoryId}

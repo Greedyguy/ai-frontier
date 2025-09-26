@@ -1,3 +1,35 @@
+---
+keywords:
+  - Foundation Models
+  - Task and Motion Planning
+  - Meta-Optimization
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2505.03725
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:19:52.700552",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Foundation Models",
+    "Task and Motion Planning",
+    "Meta-Optimization"
+  ],
+  "rejected_keywords": [
+    "Program Search"
+  ],
+  "similarity_scores": {
+    "Foundation Models": 0.8,
+    "Task and Motion Planning": 0.78,
+    "Meta-Optimization": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Meta-Optimization and Program Search using Language Models for Task and Motion Planning
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Trajectory Optimization
+**⚡ Unique Technical**: [[keywords/Task and Motion Planning|Task and Motion Planning]], [[keywords/Meta-Optimization|Meta-Optimization]]
+**🚀 Evolved Concepts**: [[keywords/Foundation Models|Foundation Models]]
 
 ## 🔗 유사한 논문
 - [[MAP: End-to-End Autonomous Driving with Map-Assisted Planning]] (83.4% similar)

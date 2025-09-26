@@ -1,3 +1,35 @@
+---
+keywords:
+  - Large Language Models
+  - Virtual Patients
+  - Virtual Reality
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.14132
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:01:30.762293",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Virtual Patients",
+    "Virtual Reality"
+  ],
+  "rejected_keywords": [
+    "Realism-Verbosity Paradox"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Virtual Patients": 0.75,
+    "Virtual Reality": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # When Avatars Have Personality: Effects on Engagement and Communication in Immersive Medical Training
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Socially Intelligent VR
+**🌐 Broad Technical**: [[keywords/Virtual Reality|Virtual Reality]]
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Large Language Models]]
+**⚡ Unique Technical**: [[keywords/Virtual Patients|Virtual Patients]]
 
 ## 🔗 유사한 논문
 - [[A Comprehensive Survey on the Trustworthiness of Large Language Models in Healthcare]] (82.7% similar)

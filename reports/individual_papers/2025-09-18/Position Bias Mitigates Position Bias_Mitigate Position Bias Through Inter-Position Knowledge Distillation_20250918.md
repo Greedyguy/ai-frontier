@@ -1,3 +1,36 @@
+---
+keywords:
+  - Knowledge Distillation
+  - Positional Bias
+  - Transformer Architecture
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2508.15709
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:15:55.694934",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Knowledge Distillation",
+    "Positional Bias",
+    "Transformer Architecture"
+  ],
+  "rejected_keywords": [
+    "Long-Context Retrieval",
+    "Reasoning Paradigms"
+  ],
+  "similarity_scores": {
+    "Knowledge Distillation": 0.8,
+    "Positional Bias": 0.78,
+    "Transformer Architecture": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Position Bias Mitigates Position Bias:Mitigate Position Bias Through Inter-Position Knowledge Distillation
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Long-context Comprehension
+**🔗 Specific Connectable**: [[keywords/Knowledge Distillation|Knowledge Distillation]], [[keywords/Transformer Architecture|Transformer Architecture]]
+**⚡ Unique Technical**: [[keywords/Positional Bias|Positional Bias]]
 
 ## 🔗 유사한 논문
 - [[Controllable Pareto Trade-off between Fairness and Accuracy]] (78.5% similar)

@@ -1,13 +1,46 @@
+---
+keywords:
+  - Graph Neural Networks
+  - Directed Graphs
+  - State Space Models
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:45:18.675427",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Graph Neural Networks",
+    "Directed Graphs",
+    "State Space Models"
+  ],
+  "rejected_keywords": [
+    "Transformer Architecture"
+  ],
+  "similarity_scores": {
+    "Graph Neural Networks": 0.8,
+    "Directed Graphs": 0.77,
+    "State Space Models": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # State Space Models over Directed Graphs
 
 **Korean Title:** 지시 그래프 상의 상태 공간 모델
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Junzhi She|Junzhi She]] [[authors/Xunkai Li|Xunkai Li]] [[authors/Rong-Hua Li|Rong-Hua Li]] [[authors/Guoren Wang|Guoren Wang]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]       [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Directed Graph Learning
+**🔗 Specific Connectable**: [[keywords/Graph Neural Networks|Graph Neural Networks]]
+**⚡ Unique Technical**: [[keywords/Directed Graphs|directed graphs]], [[keywords/State Space Models|state space models]]
 
 ## 🔗 유사한 논문
 - [[Attention Beyond Neighborhoods_ Reviving Transformer for Graph Clustering_20250918|Attention Beyond Neighborhoods Reviving Transformer for Graph Clustering]] (81.4% similar)

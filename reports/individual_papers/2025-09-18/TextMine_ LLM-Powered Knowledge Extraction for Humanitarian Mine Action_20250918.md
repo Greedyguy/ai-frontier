@@ -1,13 +1,46 @@
+---
+keywords:
+  - Large Language Models
+  - Ontology-Guided Pipeline
+  - Knowledge Extraction
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:05:39.321033",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Ontology-Guided Pipeline",
+    "Knowledge Extraction"
+  ],
+  "rejected_keywords": [
+    "Humanitarian Mine Action"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Ontology-Guided Pipeline": 0.7,
+    "Knowledge Extraction": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # TextMine: LLM-Powered Knowledge Extraction for Humanitarian Mine Action
 
 **Korean Title:** 텍스트마인: 인도적 지뢰 제거를 위한 LLM 기반 지식 추출
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Chenyue Zhou|Chenyue Zhou]] [[authors/Gürkan Solmaz|Gürkan Solmaz]] [[authors/Flavio Cirillo|Flavio Cirillo]] [[authors/Kiril Gashteovski|Kiril Gashteovski]] [[authors/Jonathan Fürst|Jonathan Fürst]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Ontology-aligned Prompts
+**🌐 Broad Technical**: [[keywords/Knowledge Extraction|Knowledge Extraction]]
+**⚡ Unique Technical**: [[keywords/Ontology-Guided Pipeline|Ontology-Guided Pipeline]]
 
 ## 🔗 유사한 논문
 - [[DetectAnyLLM_ Towards Generalizable and Robust Detection of Machine-Generated Text Across Domains and Models_20250919|DetectAnyLLM Towards Generalizable and Robust Detection of Machine-Generated Text Across Domains and Models]] (78.1% similar)

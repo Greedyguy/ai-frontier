@@ -1,3 +1,36 @@
+---
+keywords:
+  - Vision-Language Models
+  - Object Detectors
+  - Human Preference Models
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13399
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:31:33.028212",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Vision-Language Models",
+    "Object Detectors",
+    "Human Preference Models"
+  ],
+  "rejected_keywords": [
+    "Instruction-Based Image Editing",
+    "Semantic-Level Feature Extractors"
+  ],
+  "similarity_scores": {
+    "Vision-Language Models": 0.78,
+    "Object Detectors": 0.77,
+    "Human Preference Models": 0.74
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # EdiVal-Agent: An Object-Centric Framework for Automated, Scalable, Fine-Grained Evaluation of Multi-Turn Editing
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Object Centric Evaluation
+**🔗 Specific Connectable**: [[keywords/Vision-Language Models|Vision-Language Models]], [[keywords/Object Detectors|Object Detectors]]
+**⚡ Unique Technical**: [[keywords/Human Preference Models|Human Preference Models]]
 
 ## 🔗 유사한 논문
 - [[Embodied Image Captioning Self-supervised Learning Agents for Spatially Coherent Image Descriptions]] (81.2% similar)

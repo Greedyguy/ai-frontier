@@ -1,3 +1,35 @@
+---
+keywords:
+  - Large Language Models
+  - Retrieval-Augmented Generation
+  - Substructure Search
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2508.12536
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:16:06.909276",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Retrieval-Augmented Generation",
+    "Substructure Search"
+  ],
+  "rejected_keywords": [
+    "Geospatial Analytics"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Retrieval-Augmented Generation": 0.77,
+    "Substructure Search": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # jXBW: Fast Substructure Search for Large-Scale JSONL Datasets with LLM Applications
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Retrieval Augmented Generation
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Large Language Models]], [[keywords/Retrieval-Augmented Generation|Retrieval-Augmented Generation]]
+**⚡ Unique Technical**: [[keywords/Substructure Search|Substructure Search]]
 
 ## 🔗 유사한 논문
 - [[LLM Agents for Interactive Workflow Provenance Reference Architecture and Evaluation Methodology]] (78.3% similar)

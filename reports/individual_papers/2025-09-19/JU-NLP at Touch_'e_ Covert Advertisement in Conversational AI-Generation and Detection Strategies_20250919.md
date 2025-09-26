@@ -1,3 +1,35 @@
+---
+keywords:
+  - Large Language Models
+  - Prompt-based Reformulation
+  - Conversational AI
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14256
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:39:28.373569",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Prompt-based Reformulation",
+    "Conversational AI"
+  ],
+  "rejected_keywords": [
+    "Covert Advertisement"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.85,
+    "Prompt-based Reformulation": 0.82,
+    "Conversational AI": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # JU-NLP at Touch\'e: Covert Advertisement in Conversational AI-Generation and Detection Strategies
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Prompt Engineering, Fine-tuning
+**🌐 Broad Technical**: [[keywords/Conversational AI|Conversational AI]]
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Large Language Model]]
+**🚀 Evolved Concepts**: [[keywords/Prompt-based Reformulation|Prompt-based Reformulation]]
 
 ## 🔗 유사한 논문
 - [[GEM-Bench A Benchmark for Ad-Injected Response Generation within Generative Engine Marketing]] (82.3% similar)

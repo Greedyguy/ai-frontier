@@ -1,13 +1,47 @@
+---
+keywords:
+  - Large Language Models
+  - Natural Language Processing
+  - Supervised Veracity Prediction
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:58:53.012283",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Natural Language Processing",
+    "Supervised Veracity Prediction"
+  ],
+  "rejected_keywords": [
+    "Biomedical Fact-Checking",
+    "Scientific Evidence Retrieval"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.88,
+    "Natural Language Processing": 0.85,
+    "Supervised Veracity Prediction": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Combining Evidence and Reasoning for Biomedical Fact-Checking
 
 **Korean Title:** 증거와 추론의 결합을 통한 생물의학적 사실 검증
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Mariano Barone|Mariano Barone]] [[authors/Antonio Romano|Antonio Romano]] [[authors/Giuseppe Riccio|Giuseppe Riccio]] [[authors/Marco Postiglione|Marco Postiglione]] [[authors/Vincenzo Moscato|Vincenzo Moscato]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Reasoning via Large Language Models
+**🌐 Broad Technical**: [[keywords/Natural Language Processing|Natural Language Processing]]
+**⚡ Unique Technical**: [[keywords/Supervised Veracity Prediction|Supervised Veracity Prediction]]
 
 ## 🔗 유사한 논문
 - [[Combating Biomedical Misinformation through Multi-modal Claim Detection and Evidence-based Verification_20250917|Combating Biomedical Misinformation through Multi-modal Claim Detection and Evidence-based Verification]] (99.0% similar)

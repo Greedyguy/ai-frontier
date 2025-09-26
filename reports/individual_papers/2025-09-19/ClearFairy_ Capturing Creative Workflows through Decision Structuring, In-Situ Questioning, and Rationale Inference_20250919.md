@@ -1,3 +1,35 @@
+---
+keywords:
+  - Generative Models
+  - Decision Structuring
+  - Creative Workflows
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14537
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:53:05.797517",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Generative Models",
+    "Decision Structuring",
+    "Creative Workflows"
+  ],
+  "rejected_keywords": [
+    "UI Design Assistant"
+  ],
+  "similarity_scores": {
+    "Generative Models": 0.78,
+    "Decision Structuring": 0.72,
+    "Creative Workflows": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # ClearFairy: Capturing Creative Workflows through Decision Structuring, In-Situ Questioning, and Rationale Inference
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Cognitive Decision Structuring
+**🔗 Specific Connectable**: [[keywords/Generative Models|Generative AI Agents]]
+**⚡ Unique Technical**: [[keywords/Decision Structuring|Decision Structuring]], [[keywords/Creative Workflows|Creative Workflows]]
 
 ## 🔗 유사한 논문
 - [[CogniAlign Survivability-Grounded Multi-Agent Moral Reasoning for Safe and Transparent AI]] (79.9% similar)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - Generative Models
+  - Virtual Staining
+  - Histopathology Workflows
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.14119
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:26:59.719823",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Generative Models",
+    "Virtual Staining",
+    "Histopathology Workflows"
+  ],
+  "rejected_keywords": [
+    "Cascaded Registration Mechanisms"
+  ],
+  "similarity_scores": {
+    "Generative Models": 0.8,
+    "Virtual Staining": 0.78,
+    "Histopathology Workflows": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Generative AI for Misalignment-Resistant Virtual Staining to Accelerate Histopathology Workflows
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Pixel-level Supervision
+**🔗 Specific Connectable**: [[keywords/Generative Models|Generative AI]]
+**⚡ Unique Technical**: [[keywords/Virtual Staining|Virtual Staining]], [[keywords/Histopathology Workflows|Histopathology Workflows]]
 
 ## 🔗 유사한 논문
 - [[Intelligent Healthcare Imaging Platform An VLM-Based Framework for Automated Medical Image Analysis and Clinical Report Generation]] (79.4% similar)

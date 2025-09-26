@@ -1,13 +1,46 @@
+---
+keywords:
+  - Reinforcement Learning
+  - Contrastive Language-Audio Pretraining
+  - audio captioning
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:40:24.633719",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Reinforcement Learning",
+    "Contrastive Language-Audio Pretraining",
+    "audio captioning"
+  ],
+  "rejected_keywords": [
+    "human preferences"
+  ],
+  "similarity_scores": {
+    "Reinforcement Learning": 0.82,
+    "Contrastive Language-Audio Pretraining": 0.78,
+    "audio captioning": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Aligning Audio Captions with Human Preferences
 
 **Korean Title:** 오디오 캡션을 인간의 선호도에 맞추기
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Kartik Hegde|Kartik Hegde]] [[authors/Rehana Mahfuz|Rehana Mahfuz]] [[authors/Yinyi Guo|Yinyi Guo]] [[authors/Erik Visser|Erik Visser]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]       [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Reinforcement Learning from Human Feedback
+**🔗 Specific Connectable**: [[keywords/Reinforcement Learning|Reinforcement Learning from Human Feedback]]
+**⚡ Unique Technical**: [[keywords/Contrastive Language-Audio Pretraining|Contrastive Language-Audio Pretraining]], [[keywords/audio captioning|audio captioning]]
 
 ## 🔗 유사한 논문
 - [[Zero-Shot LLMs in Human-in-the-Loop RL_ Replacing Human Feedback for Reward Shaping_20250919|Zero-Shot LLMs in Human-in-the-Loop RL Replacing Human Feedback for Reward Shaping]] (82.6% similar)

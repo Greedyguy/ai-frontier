@@ -1,3 +1,36 @@
+---
+keywords:
+  - Convolutional Neural Networks
+  - Multimodal Physiological Signals
+  - Stress Detection
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13636
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:18:52.258689",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Convolutional Neural Networks",
+    "Multimodal Physiological Signals",
+    "Stress Detection"
+  ],
+  "rejected_keywords": [
+    "Data Augmentation",
+    "Wearable Technologies"
+  ],
+  "similarity_scores": {
+    "Convolutional Neural Networks": 0.9,
+    "Multimodal Physiological Signals": 0.82,
+    "Stress Detection": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Multimodal signal fusion for stress detection using deep neural networks: a novel approach for converting 1D signals to unified 2D images
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Image Based Data Augmentation
+**🔗 Specific Connectable**: [[keywords/Convolutional Neural Networks|Convolutional Neural Networks]]
+**⚡ Unique Technical**: [[keywords/Multimodal Physiological Signals|Multimodal Physiological Signals]], [[keywords/Stress Detection|Stress Detection]]
 
 ## 🔗 유사한 논문
 - [[Multimodal Hate Detection Using Dual-Stream Graph Neural Networks]] (80.0% similar)

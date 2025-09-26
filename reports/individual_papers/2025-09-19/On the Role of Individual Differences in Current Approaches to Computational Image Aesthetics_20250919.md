@@ -1,3 +1,36 @@
+---
+keywords:
+  - Transfer Learning
+  - Image Aesthetic Assessment
+  - Earth Mover's Distance
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2502.20518
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:31:57.568082",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Transfer Learning",
+    "Image Aesthetic Assessment",
+    "Earth Mover's Distance"
+  ],
+  "rejected_keywords": [
+    "Gini Index",
+    "Demographic Correlations"
+  ],
+  "similarity_scores": {
+    "Transfer Learning": 0.8,
+    "Image Aesthetic Assessment": 0.78,
+    "Earth Mover's Distance": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # On the Role of Individual Differences in Current Approaches to Computational Image Aesthetics
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Unified Model for Aesthetic Assessment
+**🔗 Specific Connectable**: [[keywords/Transfer Learning|Transfer Learning]], [[keywords/Earth Mover's Distance|Earth Mover's Distance]]
+**⚡ Unique Technical**: [[keywords/Image Aesthetic Assessment|Image Aesthetic Assessment]]
 
 ## 🔗 유사한 논문
 - [[Leveraging Perceptual Scores for Dataset Pruning in Computer Vision Tasks]] (76.8% similar)

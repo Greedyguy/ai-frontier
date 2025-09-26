@@ -1,3 +1,35 @@
+---
+keywords:
+  - Large Language Models
+  - Rule-Guided Prompting
+  - Oppression Measurement
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.15216
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:55:59.156336",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Rule-Guided Prompting",
+    "Oppression Measurement"
+  ],
+  "rejected_keywords": [
+    "Systemic Exclusion"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Rule-Guided Prompting": 0.72,
+    "Oppression Measurement": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Assessing Historical Structural Oppression Worldwide via Rule-Guided Prompting of Large Language Models
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Context-sensitive Scoring
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Large Language Models]]
+**⚡ Unique Technical**: [[keywords/Rule-Guided Prompting|rule-guided prompting]], [[keywords/Oppression Measurement|oppression measurement]]
 
 ## 🔗 유사한 논문
 - [[Adding LLMs to the psycholinguistic norming toolbox A practical guide to getting the most out of human ratings]] (85.4% similar)

@@ -1,13 +1,47 @@
+---
+keywords:
+  - Reinforcement Learning
+  - Large Language Models
+  - Evolution-Oriented and Label-free Reinforcement Learning
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:29:35.060196",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Reinforcement Learning",
+    "Large Language Models",
+    "Evolution-Oriented and Label-free Reinforcement Learning"
+  ],
+  "rejected_keywords": [
+    "Entropy Regularizer",
+    "Semantic Space"
+  ],
+  "similarity_scores": {
+    "Reinforcement Learning": 0.85,
+    "Large Language Models": 0.8,
+    "Evolution-Oriented and Label-free Reinforcement Learning": 0.82
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Evolving Language Models without Labels: Majority Drives Selection, Novelty Promotes Variation
 
 **Korean Title:** 레이블 없이 진화하는 언어 모델: 다수는 선택을 주도하고, 참신함은 변화를 촉진한다.
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Yujun Zhou|Yujun Zhou]] [[authors/Zhenwen Liang|Zhenwen Liang]] [[authors/Haolin Liu|Haolin Liu]] [[authors/Wenhao Yu|Wenhao Yu]] [[authors/Kishan Panaganti|Kishan Panaganti]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Label-free Reinforcement Learning
+**🔗 Specific Connectable**: [[keywords/Reinforcement Learning|Reinforcement Learning]], [[keywords/Large Language Models|Large Language Models]]
+**⚡ Unique Technical**: [[keywords/Evolution-Oriented and Label-free Reinforcement Learning|Evolution-Oriented and Label-free Reinforcement Learning]]
 
 ## 🔗 유사한 논문
 - [[Zero-Shot LLMs in Human-in-the-Loop RL_ Replacing Human Feedback for Reward Shaping_20250919|Zero-Shot LLMs in Human-in-the-Loop RL Replacing Human Feedback for Reward Shaping]] (84.0% similar)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - Multi-Modal Learning
+  - Multi-Agent Systems
+  - Chart Generation
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2502.17651
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:36:06.422159",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Multi-Modal Learning",
+    "Multi-Agent Systems",
+    "Chart Generation"
+  ],
+  "rejected_keywords": [
+    "Test-Time Scaling"
+  ],
+  "similarity_scores": {
+    "Multi-Modal Learning": 0.78,
+    "Multi-Agent Systems": 0.8,
+    "Chart Generation": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # METAL: A Multi-Agent Framework for Chart Generation with Test-Time Scaling
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Multi Agent Framework
+**🔗 Specific Connectable**: [[keywords/Multi-Agent Systems|multi-agent framework]]
+**⚡ Unique Technical**: [[keywords/Chart Generation|chart generation]]
+**🚀 Evolved Concepts**: [[keywords/Multi-Modal Learning|vision-language model]]
 
 ## 🔗 유사한 논문
 - [[LLM-I LLMs are Naturally Interleaved Multimodal Creators]] (78.9% similar)

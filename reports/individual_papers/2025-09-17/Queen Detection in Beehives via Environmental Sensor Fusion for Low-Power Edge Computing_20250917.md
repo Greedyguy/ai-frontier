@@ -1,13 +1,46 @@
+---
+keywords:
+  - Low-Power Edge Computing
+  - Environmental Sensor Fusion
+  - Precision Beekeeping
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:46:53.148695",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Low-Power Edge Computing",
+    "Environmental Sensor Fusion",
+    "Precision Beekeeping"
+  ],
+  "rejected_keywords": [
+    "Quantized Decision Tree Inference"
+  ],
+  "similarity_scores": {
+    "Low-Power Edge Computing": 0.8,
+    "Environmental Sensor Fusion": 0.78,
+    "Precision Beekeeping": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Queen Detection in Beehives via Environmental Sensor Fusion for Low-Power Edge Computing
 
 **Korean Title:** 벌집에서의 여왕벌 탐지를 위한 저전력 엣지 컴퓨팅 환경 센서 융합 연구
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Chiara De Luca|Chiara De Luca]] [[authors/Elisa Donati|Elisa Donati]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]     [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Autonomous Precision Beekeeping
+**⚡ Unique Technical**: [[keywords/Environmental Sensor Fusion|environmental sensor fusion]]
+**🚀 Evolved Concepts**: [[keywords/Low-Power Edge Computing|low-power edge computing]], [[keywords/Precision Beekeeping|precision beekeeping]]
 
 ## 🔗 유사한 논문
 - [[Estimating Respiratory Effort from Nocturnal Breathing Sounds for Obstructive Sleep Apnoea Screening_20250918|Estimating Respiratory Effort from Nocturnal Breathing Sounds for Obstructive Sleep Apnoea Screening]] (76.3% similar)

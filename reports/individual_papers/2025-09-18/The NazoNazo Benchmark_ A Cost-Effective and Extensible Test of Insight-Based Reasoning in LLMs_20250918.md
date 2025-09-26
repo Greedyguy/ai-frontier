@@ -1,13 +1,46 @@
+---
+keywords:
+  - Large Language Models
+  - Insight-Based Reasoning
+  - Benchmark Saturation
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:05:12.475457",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Insight-Based Reasoning",
+    "Benchmark Saturation"
+  ],
+  "rejected_keywords": [
+    "Meta-Cognitive Weakness"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.85,
+    "Insight-Based Reasoning": 0.7,
+    "Benchmark Saturation": 0.65
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # The NazoNazo Benchmark: A Cost-Effective and Extensible Test of Insight-Based Reasoning in LLMs
 
 **Korean Title:** NazoNazo 벤치마크: 대규모 언어 모델(LLM)에서 통찰 기반 추론을 평가하기 위한 비용 효율적이고 확장 가능한 테스트
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Masaharu Mizumoto|Masaharu Mizumoto]] [[authors/Dat Nguyen|Dat Nguyen]] [[authors/Zhiheng Han|Zhiheng Han]] [[authors/Jiyuan Fang|Jiyuan Fang]] [[authors/Heyuan Guan|Heyuan Guan]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Meta-cognitive Weakness
+**⚡ Unique Technical**: [[keywords/Insight-Based Reasoning|Insight-Based Reasoning]], [[keywords/Benchmark Saturation|Benchmark Saturation]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[Rationality Check! Benchmarking the Rationality of Large Language Models_20250919|Rationality Check! Benchmarking the Rationality of Large Language Models]] (79.6% similar)

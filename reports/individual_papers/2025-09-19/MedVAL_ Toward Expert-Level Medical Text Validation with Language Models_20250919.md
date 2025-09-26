@@ -1,3 +1,36 @@
+---
+keywords:
+  - MedVAL
+  - MedVAL-Bench
+  - Self-Supervised Learning
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2507.03152
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:34:50.923394",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "MedVAL",
+    "MedVAL-Bench",
+    "Self-Supervised Learning"
+  ],
+  "rejected_keywords": [
+    "Large Language Models",
+    "Clinical Integration"
+  ],
+  "similarity_scores": {
+    "MedVAL": 0.88,
+    "MedVAL-Bench": 0.87,
+    "Self-Supervised Learning": 0.82
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # MedVAL: Toward Expert-Level Medical Text Validation with Language Models
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: LM-as-judge Paradigm
+**🔗 Specific Connectable**: [[keywords/Self-Supervised Learning|self-supervised learning]]
+**⚡ Unique Technical**: [[keywords/MedVAL|MedVAL]], [[keywords/MedVAL-Bench|MedVAL-Bench]]
 
 ## 🔗 유사한 논문
 - [[A Comprehensive Survey on the Trustworthiness of Large Language Models in Healthcare]] (85.6% similar)

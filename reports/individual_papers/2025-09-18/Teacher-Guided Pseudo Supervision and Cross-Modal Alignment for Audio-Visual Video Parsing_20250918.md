@@ -1,3 +1,34 @@
+---
+keywords:
+  - Multi-Modal Learning
+  - Multi-Modal Learning
+  - Self-Supervised Learning
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.14097
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:06:13.247019",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Multi-Modal Learning",
+    "Multi-Modal Learning",
+    "Self-Supervised Learning"
+  ],
+  "rejected_keywords": [
+    "Optimization"
+  ],
+  "similarity_scores": {
+    "Multi-Modal Learning": 0.79,
+    "Self-Supervised Learning": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Teacher-Guided Pseudo Supervision and Cross-Modal Alignment for Audio-Visual Video Parsing
 
@@ -5,10 +36,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Class-aware Cross-modal Agreement (CMA
+**🔗 Specific Connectable**: [[keywords/Self-Supervised Learning|class-aware cross-modal agreement]]
+**🚀 Evolved Concepts**: [[keywords/Multi-Modal Learning|audio-visual video parsing]], [[keywords/Multi-Modal Learning|cross-modal alignment]]
 
 ## 🔗 유사한 논문
 - [[VocSegMRI: Multimodal Learning for Precise Vocal Tract Segmentation in Real-time MRI]] (81.7% similar)

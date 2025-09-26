@@ -1,3 +1,35 @@
+---
+keywords:
+  - Diffusion Models
+  - Monocular Camera Calibration
+  - Camera Intrinsics
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2411.17240
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:54:45.752619",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Diffusion Models",
+    "Monocular Camera Calibration",
+    "Camera Intrinsics"
+  ],
+  "rejected_keywords": [
+    "3D Reconstruction"
+  ],
+  "similarity_scores": {
+    "Diffusion Models": 0.8,
+    "Monocular Camera Calibration": 0.78,
+    "Camera Intrinsics": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Boost 3D Reconstruction using Diffusion-based Monocular Camera Calibration
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Diffusion-based Calibration
+**🔗 Specific Connectable**: [[keywords/Diffusion Models|Diffusion Models]]
+**⚡ Unique Technical**: [[keywords/Monocular Camera Calibration|Monocular Camera Calibration]], [[keywords/Camera Intrinsics|Camera Intrinsics]]
 
 ## 🔗 유사한 논문
 - [[MCGS-SLAM A Multi-Camera SLAM Framework Using Gaussian Splatting for High-Fidelity Mapping]] (82.6% similar)

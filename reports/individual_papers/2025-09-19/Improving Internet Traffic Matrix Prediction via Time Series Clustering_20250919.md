@@ -1,3 +1,35 @@
+---
+keywords:
+  - Deep Learning
+  - Time Series Clustering
+  - Traffic Matrix Prediction
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.15072
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:39:59.293045",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Deep Learning",
+    "Time Series Clustering",
+    "Traffic Matrix Prediction"
+  ],
+  "rejected_keywords": [
+    "Optimization"
+  ],
+  "similarity_scores": {
+    "Deep Learning": 0.85,
+    "Time Series Clustering": 0.78,
+    "Traffic Matrix Prediction": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Improving Internet Traffic Matrix Prediction via Time Series Clustering
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Traffic Matrix Prediction
+**🌐 Broad Technical**: [[keywords/Deep Learning|Deep Learning]]
+**⚡ Unique Technical**: [[keywords/Time Series Clustering|Time Series Clustering]], [[keywords/Traffic Matrix Prediction|Traffic Matrix Prediction]]
 
 ## 🔗 유사한 논문
 - [[STEP Structured Training and Evaluation Platform for benchmarking trajectory prediction models]] (80.6% similar)

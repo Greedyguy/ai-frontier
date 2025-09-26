@@ -1,3 +1,35 @@
+---
+keywords:
+  - Large Language Models
+  - Chain-of-Thought Reasoning
+  - Multi-Modal Learning
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2508.05606
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:02:41.174885",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Chain-of-Thought Reasoning",
+    "Multi-Modal Learning"
+  ],
+  "rejected_keywords": [
+    "Vision-Language Reasoning"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Chain-of-Thought Reasoning": 0.78,
+    "Multi-Modal Learning": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Uni-cot: Towards Unified Chain-of-Thought Reasoning Across Text and Vision
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Vision-Language Reasoning
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Large Language Models]], [[keywords/Multi-Modal Learning|Multi-Modal Reasoning]]
+**⚡ Unique Technical**: [[keywords/Chain-of-Thought Reasoning|Chain-of-Thought reasoning]]
 
 ## 🔗 유사한 논문
 - [[Reasoning Efficiently Through Adaptive Chain-of-Thought Compression: A Self-Optimizing Framework]] (85.9% similar)

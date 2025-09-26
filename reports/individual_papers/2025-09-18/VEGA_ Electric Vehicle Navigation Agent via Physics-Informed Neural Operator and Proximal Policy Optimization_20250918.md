@@ -1,3 +1,35 @@
+---
+keywords:
+  - Reinforcement Learning
+  - Proximal Policy Optimization
+  - Electric Vehicle Navigation
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13386
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:01:57.857770",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Reinforcement Learning",
+    "Proximal Policy Optimization",
+    "Electric Vehicle Navigation"
+  ],
+  "rejected_keywords": [
+    "Physics-Informed Neural Operator"
+  ],
+  "similarity_scores": {
+    "Reinforcement Learning": 0.9,
+    "Proximal Policy Optimization": 0.85,
+    "Electric Vehicle Navigation": 0.82
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # VEGA: Electric Vehicle Navigation Agent via Physics-Informed Neural Operator and Proximal Policy Optimization
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Charge-Aware Path Optimization
+**🔗 Specific Connectable**: [[keywords/Reinforcement Learning|Reinforcement Learning]], [[keywords/Proximal Policy Optimization|Proximal Policy Optimization]]
+**⚡ Unique Technical**: [[keywords/Electric Vehicle Navigation|Electric Vehicle Navigation]]
 
 ## 🔗 유사한 논문
 - [[MAP End-to-End Autonomous Driving with Map-Assisted Planning]] (79.4% similar)

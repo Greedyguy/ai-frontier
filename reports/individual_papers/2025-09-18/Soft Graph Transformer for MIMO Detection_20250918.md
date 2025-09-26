@@ -1,3 +1,35 @@
+---
+keywords:
+  - Attention Mechanism
+  - Soft Graph Transformer
+  - Transformer Architecture
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.12694
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:09:27.756002",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Attention Mechanism",
+    "Soft Graph Transformer",
+    "Transformer Architecture"
+  ],
+  "rejected_keywords": [
+    "MIMO Detection"
+  ],
+  "similarity_scores": {
+    "Attention Mechanism": 0.77,
+    "Soft Graph Transformer": 0.8,
+    "Transformer Architecture": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Soft Graph Transformer for MIMO Detection
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Structured Message Passing
+**🔗 Specific Connectable**: [[keywords/Attention Mechanism|Graph-aware cross-attention]], [[keywords/Transformer Architecture|Transformer-based detectors]]
+**⚡ Unique Technical**: [[keywords/Soft Graph Transformer|Soft Graph Transformer]]
 
 ## 🔗 유사한 논문
 - [[GraphTorque_Torque-Driven_Rewiring_Graph_Neural_Network_20250918|GraphTorque: Torque-Driven Rewiring Graph Neural Network]] (77.0% similar)

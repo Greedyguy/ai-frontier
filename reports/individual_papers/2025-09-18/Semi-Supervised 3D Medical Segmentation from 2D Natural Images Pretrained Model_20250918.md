@@ -1,13 +1,47 @@
+---
+keywords:
+  - 3D Medical Image Segmentation
+  - Transfer Learning
+  - Semi-Supervised Learning
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:10:01.650329",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "3D Medical Image Segmentation",
+    "Transfer Learning",
+    "Semi-Supervised Learning"
+  ],
+  "rejected_keywords": [
+    "Pretrained Models",
+    "Model-Agnostic Framework"
+  ],
+  "similarity_scores": {
+    "3D Medical Image Segmentation": 0.78,
+    "Transfer Learning": 0.8,
+    "Semi-Supervised Learning": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Semi-Supervised 3D Medical Segmentation from 2D Natural Images Pretrained Model
 
 **Korean Title:** 2D 자연 이미지 사전 학습 모델을 활용한 반지도 학습 3D 의료 분할
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Pak-Hei Yeung|Pak-Hei Yeung]] [[authors/Jayroop Ramesh|Jayroop Ramesh]] [[authors/Pengfei Lyu|Pengfei Lyu]] [[authors/Ana Namburete|Ana Namburete]] [[authors/Jagath Rajapakse|Jagath Rajapakse]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Semi-supervised Learning, Knowledge Distillation
+**🔗 Specific Connectable**: [[keywords/Transfer Learning|transfer of knowledge]], [[keywords/Semi-Supervised Learning|semi-supervised setting]]
+**⚡ Unique Technical**: [[keywords/3D Medical Image Segmentation|3D medical image segmentation]]
 
 ## 🔗 유사한 논문
 - [[Semi-MoE_ Mixture-of-Experts meets Semi-Supervised Histopathology Segmentation_20250918|Semi-MoE Mixture-of-Experts meets Semi-Supervised Histopathology Segmentation]] (85.1% similar)

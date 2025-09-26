@@ -1,3 +1,35 @@
+---
+keywords:
+  - Continual Learning
+  - Large Language Models
+  - Chinese Grammatical Error Correction
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:59:33.960700",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Continual Learning",
+    "Large Language Models",
+    "Chinese Grammatical Error Correction"
+  ],
+  "rejected_keywords": [
+    "Regularization-based Methods"
+  ],
+  "similarity_scores": {
+    "Continual Learning": 0.82,
+    "Large Language Models": 0.8,
+    "Chinese Grammatical Error Correction": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # CL$^2$GEC: A Multi-Discipline Benchmark for Continual Learning in Chinese Literature Grammatical Error Correction
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Shang Qin|Shang Qin]] [[authors/Jingheng Ye|Jingheng Ye]] [[authors/Yinghui Li|Yinghui Li]] [[authors/Hai-Tao Zheng|Hai-Tao Zheng]] [[authors/Qi Li|Qi Li]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔬 Broad Technical**: Continual Learning, Grammatical Error Correction
+**🔗 Specific Connectable**: [[keywords/Continual Learning|Continual Learning]]
+**⚡ Unique Technical**: [[keywords/Chinese Grammatical Error Correction|Chinese Grammatical Error Correction]]
 
 ## 🔗 유사한 논문
 - [[GEM-Bench A Benchmark for Ad-Injected Response Generation within Generative Engine Marketing]] (77.9% similar)

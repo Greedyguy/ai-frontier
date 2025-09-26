@@ -1,3 +1,36 @@
+---
+keywords:
+  - Out-of-Distribution Events
+  - Antifragile AI Safety
+  - Reward Hacking
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13339
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:15:48.686351",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Out-of-Distribution Events",
+    "Antifragile AI Safety",
+    "Reward Hacking"
+  ],
+  "rejected_keywords": [
+    "Over-Optimization",
+    "AI Safety Guidelines"
+  ],
+  "similarity_scores": {
+    "Out-of-Distribution Events": 0.88,
+    "Antifragile AI Safety": 0.9,
+    "Reward Hacking": 0.85
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Position: AI Safety Must Embrace an Antifragile Perspective
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Open-ended ML Systems
+**🔗 Specific Connectable**: [[keywords/Out-of-Distribution Events|rare or out-of-distribution events]], [[keywords/Reward Hacking|reward hacking]]
+**🚀 Evolved Concepts**: [[keywords/Antifragile AI Safety|antifragile perspective]]
 
 ## 🔗 유사한 논문
 - [[The_Cybersecurity_of_a_Humanoid_Robot_20250918|The Cybersecurity of a Humanoid Robot]] (79.2% similar)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - Convolutional Neural Networks
+  - Neural Networks
+  - Adversarial Attacks
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2508.15454
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:34:17.605018",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Convolutional Neural Networks",
+    "Neural Networks",
+    "Adversarial Attacks"
+  ],
+  "rejected_keywords": [
+    "Local Robustness Verification"
+  ],
+  "similarity_scores": {
+    "Convolutional Neural Networks": 0.8,
+    "Neural Networks": 0.85,
+    "Adversarial Attacks": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Mini-Batch Robustness Verification of Deep Neural Networks
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Group Local Robustness Verification
+**🌐 Broad Technical**: [[keywords/Neural Networks|Deep Neural Networks]]
+**🔗 Specific Connectable**: [[keywords/Convolutional Neural Networks|Convolutional Networks]], [[keywords/Adversarial Attacks|Adversarial Attacks]]
 
 ## 🔗 유사한 논문
 - [[Data-Driven_Distributed_Optimization_via_Aggregative_Tracking_and_Deep-Learning_20250918|Data-Driven Distributed Optimization via Aggregative Tracking and Deep-Learning]] (78.3% similar)

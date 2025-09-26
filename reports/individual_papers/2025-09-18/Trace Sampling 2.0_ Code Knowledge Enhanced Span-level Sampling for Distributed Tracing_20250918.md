@@ -1,3 +1,36 @@
+---
+keywords:
+  - Distributed Tracing
+  - Root Cause Analysis
+  - Trace Sampling
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13852
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:03:30.746435",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Distributed Tracing",
+    "Root Cause Analysis",
+    "Trace Sampling"
+  ],
+  "rejected_keywords": [
+    "Microservices",
+    "Static Analysis"
+  ],
+  "similarity_scores": {
+    "Distributed Tracing": 0.78,
+    "Root Cause Analysis": 0.74,
+    "Trace Sampling": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Trace Sampling 2.0: Code Knowledge Enhanced Span-level Sampling for Distributed Tracing
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Span-level Sampling
+**🔗 Specific Connectable**: [[keywords/Root Cause Analysis|Root Cause Analysis]]
+**⚡ Unique Technical**: [[keywords/Distributed Tracing|Distributed Tracing]], [[keywords/Trace Sampling|Trace Sampling]]
 
 ## 🔗 유사한 논문
 - [[Multi-Threaded_Software_Model_Checking_via_Parallel_Trace_Abstraction_Refinement_20250918|Multi-Threaded Software Model Checking via Parallel Trace Abstraction Refinement]] (79.2% similar)

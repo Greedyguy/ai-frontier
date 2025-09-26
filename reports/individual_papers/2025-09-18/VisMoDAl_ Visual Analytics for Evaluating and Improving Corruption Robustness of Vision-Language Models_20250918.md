@@ -1,13 +1,48 @@
+---
+keywords:
+  - Vision-Language Models
+  - Corruption Robustness
+  - Image Captioning
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:01:45.302067",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Vision-Language Models",
+    "Corruption Robustness",
+    "Image Captioning"
+  ],
+  "rejected_keywords": [
+    "Data Augmentation",
+    "Visual Analytics"
+  ],
+  "similarity_scores": {
+    "Vision-Language Models": 0.88,
+    "Corruption Robustness": 0.8,
+    "Image Captioning": 0.79
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # VisMoDAl: Visual Analytics for Evaluating and Improving Corruption Robustness of Vision-Language Models
 
 **Korean Title:** VisMoDAl: 비전-언어 모델의 부패 견고성을 평가하고 개선하기 위한 시각적 분석
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Huanchen Wang|Huanchen Wang]] [[authors/Wencheng Zhang|Wencheng Zhang]] [[authors/Zhiqiang Wang|Zhiqiang Wang]] [[authors/Zhicong Lu|Zhicong Lu]] [[authors/Yuxin Ma|Yuxin Ma]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Corruption Robustness
+**🔗 Specific Connectable**: [[keywords/Image Captioning|Image Captioning]]
+**⚡ Unique Technical**: [[keywords/Corruption Robustness|Corruption Robustness]]
+**🚀 Evolved Concepts**: [[keywords/Vision-Language Models|Vision-Language Models]]
 
 ## 🔗 유사한 논문
 - [[Manipulation Facing Threats_ Evaluating Physical Vulnerabilities in End-to-End Vision Language Action Models_20250919|Manipulation Facing Threats Evaluating Physical Vulnerabilities in End-to-End Vision Language Action Models]] (81.2% similar)

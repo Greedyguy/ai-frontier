@@ -1,13 +1,47 @@
+---
+keywords:
+  - Diffusion Models
+  - Spatial Audio
+  - Generative Models
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:38:15.046938",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Diffusion Models",
+    "Spatial Audio",
+    "Generative Models"
+  ],
+  "rejected_keywords": [
+    "Auditory Perception",
+    "Phase Reconstruction"
+  ],
+  "similarity_scores": {
+    "Diffusion Models": 0.85,
+    "Spatial Audio": 0.79,
+    "Generative Models": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Back to Ear: Perceptually Driven High Fidelity Music Reconstruction
 
 **Korean Title:** 귀로 돌아가기: 지각적으로 구동되는 고충실도 음악 재구성
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Kangdi Wang|Kangdi Wang]] [[authors/Zhiyue Wu|Zhiyue Wu]] [[authors/Dinghao Zhou|Dinghao Zhou]] [[authors/Rui Lin|Rui Lin]] [[authors/Junyu Dai|Junyu Dai]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Perceptual Filter
+**🔗 Specific Connectable**: [[keywords/Diffusion Models|Diffusion-based generation]], [[keywords/Generative Models|Variational Autoencoders]]
+**⚡ Unique Technical**: [[keywords/Spatial Audio|Stereophonic spatial representation]]
 
 ## 🔗 유사한 논문
 - [[Teacher-Guided Pseudo Supervision and Cross-Modal Alignment for Audio-Visual Video Parsing_20250918|Teacher-Guided Pseudo Supervision and Cross-Modal Alignment for Audio-Visual Video Parsing]] (78.5% similar)

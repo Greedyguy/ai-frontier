@@ -1,3 +1,35 @@
+---
+keywords:
+  - Diffusion Models
+  - Robotic Manipulation
+  - Imitation Learning
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2508.01442
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:29:24.515515",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Diffusion Models",
+    "Robotic Manipulation",
+    "Imitation Learning"
+  ],
+  "rejected_keywords": [
+    "Inverse Rendering"
+  ],
+  "similarity_scores": {
+    "Diffusion Models": 0.85,
+    "Robotic Manipulation": 0.82,
+    "Imitation Learning": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Physically-based Lighting Generation for Robotic Manipulation
 
@@ -5,10 +37,10 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Physically-based Lighting Generation
+**🔗 Specific Connectable**: [[keywords/Robotic Manipulation|robotic manipulation]], [[keywords/Imitation Learning|imitation learning]]
 
 ## 🔗 유사한 논문
 - [[PhysicalAgent Towards General Cognitive Robotics with Foundation World Models]] (85.7% similar)

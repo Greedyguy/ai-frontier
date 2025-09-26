@@ -1,3 +1,35 @@
+---
+keywords:
+  - Local-Canonicalization Equivariant Graph Neural Networks
+  - Graph Neural Networks
+  - Reinforcement Learning
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14431
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:37:16.629349",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Local-Canonicalization Equivariant Graph Neural Networks",
+    "Graph Neural Networks",
+    "Reinforcement Learning"
+  ],
+  "rejected_keywords": [
+    "Swarm Robot Control"
+  ],
+  "similarity_scores": {
+    "Local-Canonicalization Equivariant Graph Neural Networks": 0.82,
+    "Graph Neural Networks": 0.8,
+    "Reinforcement Learning": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Local-Canonicalization Equivariant Graph Neural Networks for Sample-Efficient and Generalizable Swarm Robot Control
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Permutation Equivariance
+**🔗 Specific Connectable**: [[keywords/Graph Neural Networks|Graph Neural Networks]], [[keywords/Reinforcement Learning|Multi-agent reinforcement learning]]
+**⚡ Unique Technical**: [[keywords/Local-Canonicalization Equivariant Graph Neural Networks|Local-Canonicalization Equivariant Graph Neural Networks]]
 
 ## 🔗 유사한 논문
 - [[LEED A Highly Efficient and Scalable LLM-Empowered Expert Demonstrations Framework for Multi-Agent Reinforcement Learning]] (88.1% similar)

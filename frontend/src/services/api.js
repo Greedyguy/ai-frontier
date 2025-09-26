@@ -3,7 +3,9 @@
  * FastAPI 백엔드와 통신하는 함수들을 제공합니다.
  */
 
-const API_BASE_URL = 'http://localhost:8080';
+import { API_BASE_URL, isStaticMode, getStaticResponse, createApiUrl } from '../config/api.js';
+
+const API_BASE_URL_LEGACY = 'http://localhost:8080';
 
 /**
  * API 응답 에러를 처리하는 함수
@@ -297,4 +299,146 @@ export const transformFormDataToApiRequest = (formData) => {
   }
 
   return request;
+};
+
+/**
+ * 일일 다이제스트 생성 API 호출
+ * @param {string} date - 날짜 (YYYYMMDD 형식, 선택사항)
+ * @returns {Promise<Object>} 다이제스트 생성 결과
+ */
+export const generateDailyDigest = async (date = null) => {
+  try {
+    console.log('🗓️ Generating daily digest for date:', date);
+
+    const url = date
+      ? `${API_BASE_URL}/api/digest/daily?date=${date}`
+      : `${API_BASE_URL}/api/digest/daily`;
+
+    const response = await fetch(url, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    });
+
+    console.log('Daily digest response:', response.status, response.statusText);
+    await handleApiError(response);
+    const data = await response.json();
+    console.log('Daily digest result:', data);
+    return data;
+  } catch (error) {
+    console.error('Failed to generate daily digest:', error);
+    throw error;
+  }
+};
+
+/**
+ * 주간 다이제스트 생성 API 호출
+ * @param {string} date - 날짜 (YYYYMMDD 형식, 선택사항)
+ * @returns {Promise<Object>} 다이제스트 생성 결과
+ */
+export const generateWeeklyDigest = async (date = null) => {
+  try {
+    console.log('📅 Generating weekly digest for date:', date);
+
+    const url = date
+      ? `${API_BASE_URL}/api/digest/weekly?date=${date}`
+      : `${API_BASE_URL}/api/digest/weekly`;
+
+    const response = await fetch(url, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    });
+
+    console.log('Weekly digest response:', response.status, response.statusText);
+    await handleApiError(response);
+    const data = await response.json();
+    console.log('Weekly digest result:', data);
+    return data;
+  } catch (error) {
+    console.error('Failed to generate weekly digest:', error);
+    throw error;
+  }
+};
+
+/**
+ * 생성된 다이제스트 목록 조회 API 호출
+ * @returns {Promise<Object>} 다이제스트 목록
+ */
+export const getDigests = async () => {
+  try {
+    console.log('📋 Fetching digests list');
+
+    const response = await fetch(`${API_BASE_URL}/api/digests`, {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    });
+
+    console.log('Get digests response:', response.status, response.statusText);
+    await handleApiError(response);
+    const data = await response.json();
+    console.log('Digests list:', data);
+    return data;
+  } catch (error) {
+    console.error('Failed to get digests:', error);
+    throw error;
+  }
+};
+
+/**
+ * 하이브리드 검색 API 호출
+ * @param {Object} searchRequest - 검색 요청 데이터
+ * @returns {Promise<Object>} 검색 결과
+ */
+export const hybridSearch = async (searchRequest) => {
+  try {
+    console.log('🔍 Performing hybrid search:', searchRequest);
+
+    const response = await fetch(`${API_BASE_URL}/api/search/hybrid`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(searchRequest),
+    });
+
+    console.log('Hybrid search response:', response.status, response.statusText);
+    await handleApiError(response);
+    const data = await response.json();
+    console.log('Hybrid search results:', data);
+    return data;
+  } catch (error) {
+    console.error('Failed to perform hybrid search:', error);
+    throw error;
+  }
+};
+
+/**
+ * 하이브리드 검색 통계 조회 API 호출
+ * @returns {Promise<Object>} 하이브리드 검색 통계
+ */
+export const getHybridSearchStats = async () => {
+  try {
+    console.log('📊 Fetching hybrid search stats');
+
+    const response = await fetch(`${API_BASE_URL}/api/search/hybrid/stats`, {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    });
+
+    console.log('Hybrid search stats response:', response.status, response.statusText);
+    await handleApiError(response);
+    const data = await response.json();
+    console.log('Hybrid search stats:', data);
+    return data;
+  } catch (error) {
+    console.error('Failed to get hybrid search stats:', error);
+    throw error;
+  }
 };

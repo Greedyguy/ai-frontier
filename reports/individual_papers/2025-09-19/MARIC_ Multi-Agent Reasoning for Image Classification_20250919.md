@@ -1,3 +1,36 @@
+---
+keywords:
+  - Multi-Agent Reasoning
+  - Vision Language Models
+  - Reflective Synthesis
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14860
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:36:51.311538",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Multi-Agent Reasoning",
+    "Vision Language Models",
+    "Reflective Synthesis"
+  ],
+  "rejected_keywords": [
+    "Computer Vision",
+    "Aspect Agents"
+  ],
+  "similarity_scores": {
+    "Multi-Agent Reasoning": 0.85,
+    "Vision Language Models": 0.8,
+    "Reflective Synthesis": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # MARIC: Multi-Agent Reasoning for Image Classification
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Multi-agent Reasoning
+**⚡ Unique Technical**: [[keywords/Multi-Agent Reasoning|Multi-Agent Reasoning]], [[keywords/Reflective Synthesis|Reflective Synthesis]]
+**🚀 Evolved Concepts**: [[keywords/Vision Language Models|Vision Language Models]]
 
 ## 🔗 유사한 논문
 - [[LLM-I LLMs are Naturally Interleaved Multimodal Creators]] (82.0% similar)

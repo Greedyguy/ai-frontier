@@ -1,3 +1,36 @@
+---
+keywords:
+  - Diffusion Scenario Tree
+  - Diffusion Models
+  - Reinforcement Learning
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14832
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:48:15.053580",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Diffusion Scenario Tree",
+    "Diffusion Models",
+    "Reinforcement Learning"
+  ],
+  "rejected_keywords": [
+    "Optimization",
+    "Energy Arbitrage"
+  ],
+  "similarity_scores": {
+    "Diffusion Scenario Tree": 0.8,
+    "Diffusion Models": 0.78,
+    "Reinforcement Learning": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Diffusion-Based Scenario Tree Generation for Multivariate Time Series Prediction and Multistage Stochastic Optimization
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Multistage Stochastic Optimization
+**🔗 Specific Connectable**: [[keywords/Diffusion Models|Diffusion Models]], [[keywords/Reinforcement Learning|Reinforcement Learning]]
+**⚡ Unique Technical**: [[keywords/Diffusion Scenario Tree|Diffusion Scenario Tree]]
 
 ## 🔗 유사한 논문
 - [[Privacy-Preserving Uncertainty Disclosure for Facilitating Enhanced Energy Storage Dispatch]] (81.6% similar)

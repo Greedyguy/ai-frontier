@@ -1,3 +1,35 @@
+---
+keywords:
+  - Vision Transformers
+  - Attention-based Double Compression
+  - Split Learning
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.15058
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:52:21.463954",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Vision Transformers",
+    "Attention-based Double Compression",
+    "Split Learning"
+  ],
+  "rejected_keywords": [
+    "Attention Mechanism"
+  ],
+  "similarity_scores": {
+    "Vision Transformers": 0.88,
+    "Attention-based Double Compression": 0.92,
+    "Split Learning": 0.85
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Communication Efficient Split Learning of ViTs with Attention-based Double Compression
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Communication-efficient Learning
+**🔗 Specific Connectable**: [[keywords/Vision Transformers|Vision Transformers]]
+**⚡ Unique Technical**: [[keywords/Attention-based Double Compression|Attention-based Double Compression]], [[keywords/Split Learning|Split Learning]]
 
 ## 🔗 유사한 논문
 - [[Singular_Value_Few-shot_Adaptation_of_Vision-Language_Models_20250918|Singular Value Few-shot Adaptation of Vision-Language Models]] (80.8% similar)

@@ -1,13 +1,47 @@
+---
+keywords:
+  - Explainable AI
+  - Transformer Architecture
+  - Electronic Medical Records
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:29:25.315913",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Explainable AI",
+    "Transformer Architecture",
+    "Electronic Medical Records"
+  ],
+  "rejected_keywords": [
+    "Carbapenemase-Producing Enterobacteriaceae"
+  ],
+  "similarity_scores": {
+    "Explainable AI": 0.85,
+    "Transformer Architecture": 0.88,
+    "Electronic Medical Records": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Explainable AI for Infection Prevention and Control: Modeling CPE Acquisition and Patient Outcomes in an Irish Hospital with Transformers
 
 **Korean Title:** 감염 예방 및 통제를 위한 설명 가능한 인공지능: 트랜스포머를 활용한 아일랜드 병원의 CPE 획득 및 환자 결과 모델링
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Minh-Khoi Pham|Minh-Khoi Pham]] [[authors/Tai Tan Mai|Tai Tan Mai]] [[authors/Martin Crane|Martin Crane]] [[authors/Rob Brennan|Rob Brennan]] [[authors/Marie E. Ward|Marie E. Ward]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Electronic Medical Records
+**🔗 Specific Connectable**: [[keywords/Transformer Architecture|Transformer-based models]]
+**⚡ Unique Technical**: [[keywords/Electronic Medical Records|Electronic Medical Records]]
+**🚀 Evolved Concepts**: [[keywords/Explainable AI|Explainable AI]]
 
 ## 🔗 유사한 논문
 - [[Blockchain-Enabled Explainable AI for Trusted Healthcare Systems_20250918|Blockchain-Enabled Explainable AI for Trusted Healthcare Systems]] (81.2% similar)

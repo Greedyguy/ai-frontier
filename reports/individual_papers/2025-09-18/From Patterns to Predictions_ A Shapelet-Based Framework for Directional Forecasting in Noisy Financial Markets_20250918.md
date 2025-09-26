@@ -1,13 +1,48 @@
+---
+keywords:
+  - Deep Learning
+  - Shapelet-Based Framework
+  - Interpretable Forecasting
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:27:46.648647",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Deep Learning",
+    "Shapelet-Based Framework",
+    "Interpretable Forecasting"
+  ],
+  "rejected_keywords": [
+    "Directional Forecasting",
+    "Multivariate Time Series"
+  ],
+  "similarity_scores": {
+    "Deep Learning": 0.8,
+    "Shapelet-Based Framework": 0.75,
+    "Interpretable Forecasting": 0.68
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # From Patterns to Predictions: A Shapelet-Based Framework for Directional Forecasting in Noisy Financial Markets
 
 **Korean Title:** 패턴에서 예측으로: 잡음이 많은 금융 시장에서 방향성 예측을 위한 쉐이플릿 기반 프레임워크
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Juwon Kim|Juwon Kim]] [[authors/Hyunwook Lee|Hyunwook Lee]] [[authors/Hyotaek Jeon|Hyotaek Jeon]] [[authors/Seungmin Jin|Seungmin Jin]] [[authors/Sungahn Ko|Sungahn Ko]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Shapelet-Based Forecasting
+**🌐 Broad Technical**: [[keywords/Deep Learning|Deep Learning]]
+**⚡ Unique Technical**: [[keywords/Shapelet-Based Framework|Shapelet-Based Framework]]
+**🚀 Evolved Concepts**: [[keywords/Interpretable Forecasting|Interpretable Forecasting]]
 
 ## 🔗 유사한 논문
 - [[Diffusion-Based Scenario Tree Generation for Multivariate Time Series Prediction and Multistage Stochastic Optimization_20250919|Diffusion-Based Scenario Tree Generation for Multivariate Time Series Prediction and Multistage Stochastic Optimization]] (79.9% similar)

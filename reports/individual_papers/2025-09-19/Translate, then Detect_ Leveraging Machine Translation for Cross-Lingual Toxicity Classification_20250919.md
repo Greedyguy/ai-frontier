@@ -1,3 +1,35 @@
+---
+keywords:
+  - Machine Translation
+  - Large Language Models
+  - Transfer Learning
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14493
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:20:09.511428",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Machine Translation",
+    "Large Language Models",
+    "Transfer Learning"
+  ],
+  "rejected_keywords": [
+    "Multilingual Toxicity Detection"
+  ],
+  "similarity_scores": {
+    "Machine Translation": 0.85,
+    "Large Language Models": 0.8,
+    "Transfer Learning": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Translate, then Detect: Leveraging Machine Translation for Cross-Lingual Toxicity Classification
 
@@ -5,10 +37,10 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Translate-Test Paradigm
+**🔗 Specific Connectable**: [[keywords/Machine Translation|Machine Translation]], [[keywords/Transfer Learning|Cross-Lingual Transfer]]
 
 ## 🔗 유사한 논문
 - [[DetectAnyLLM Towards Generalizable and Robust Detection of Machine-Generated Text Across Domains and Models]] (81.5% similar)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - Uncertainty Quantification
+  - Autonomous Valet Parking
+  - Probabilistic Estimator
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.09206
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:17:45.009402",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Uncertainty Quantification",
+    "Autonomous Valet Parking",
+    "Probabilistic Estimator"
+  ],
+  "rejected_keywords": [
+    "Trajectory Planning"
+  ],
+  "similarity_scores": {
+    "Uncertainty Quantification": 0.8,
+    "Autonomous Valet Parking": 0.78,
+    "Probabilistic Estimator": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Occupancy-aware Trajectory Planning for Autonomous Valet Parking in Uncertain Dynamic Environments
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Exploratory Navigation
+**🔗 Specific Connectable**: [[keywords/Uncertainty Quantification|Uncertainty Quantification]]
+**⚡ Unique Technical**: [[keywords/Autonomous Valet Parking|Autonomous Valet Parking]], [[keywords/Probabilistic Estimator|Probabilistic Estimator]]
 
 ## 🔗 유사한 논문
 - [[MAP: End-to-End Autonomous Driving with Map-Assisted Planning]] (83.0% similar)

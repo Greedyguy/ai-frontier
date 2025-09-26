@@ -1,13 +1,46 @@
+---
+keywords:
+  - Federated Learning
+  - Privacy Attacks
+  - Data Heterogeneity
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:04:17.736241",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Federated Learning",
+    "Privacy Attacks",
+    "Data Heterogeneity"
+  ],
+  "rejected_keywords": [
+    "Probabilistic Masking"
+  ],
+  "similarity_scores": {
+    "Federated Learning": 0.8,
+    "Privacy Attacks": 0.78,
+    "Data Heterogeneity": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Towards Privacy-Preserving and Heterogeneity-aware Split Federated Learning via Probabilistic Masking
 
 **Korean Title:** 프라이버시 보호 및 이질성 인식을 위한 확률적 마스킹 기반 분할 연합 학습 연구
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Xingchen Wang|Xingchen Wang]] [[authors/Feijie Wu|Feijie Wu]] [[authors/Chenglin Miao|Chenglin Miao]] [[authors/Tianchun Li|Tianchun Li]] [[authors/Haoyu Hu|Haoyu Hu]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Split Federated Learning
+**🔗 Specific Connectable**: [[keywords/Federated Learning|Split Federated Learning]], [[keywords/Privacy Attacks|Privacy Attacks]]
+**🚀 Evolved Concepts**: [[keywords/Data Heterogeneity|Data Heterogeneity]]
 
 ## 🔗 유사한 논문
 - [[Communication-Efficient and Privacy-Adaptable Mechanism for Federated Learning_20250919|Communication-Efficient and Privacy-Adaptable Mechanism for Federated Learning]] (82.8% similar)

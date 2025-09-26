@@ -1,3 +1,36 @@
+---
+keywords:
+  - Transformer Architecture
+  - Large Language Models
+  - Dynamic Data Optimization
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2508.21589
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:34:28.142022",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Transformer Architecture",
+    "Large Language Models",
+    "Dynamic Data Optimization"
+  ],
+  "rejected_keywords": [
+    "Supervised Fine-Tuning",
+    "Closed-Loop Learning"
+  ],
+  "similarity_scores": {
+    "Transformer Architecture": 0.82,
+    "Large Language Models": 0.8,
+    "Dynamic Data Optimization": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Middo: Model-Informed Dynamic Data Optimization for Enhanced LLM Fine-Tuning via Closed-Loop Learning
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Dynamic Data Optimization
+**🔗 Specific Connectable**: [[keywords/Transformer Architecture|Transformer Architecture]], [[keywords/Large Language Models|Large Language Models]]
+**⚡ Unique Technical**: [[keywords/Dynamic Data Optimization|Dynamic Data Optimization]]
 
 ## 🔗 유사한 논문
 - [[Modular Machine Learning An Indispensable Path towards New-Generation Large Language Models]] (86.7% similar)

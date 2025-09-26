@@ -1,3 +1,35 @@
+---
+keywords:
+  - AI Act
+  - High-Risk AI Systems
+  - TAI Scan Tool
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2507.17514
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:08:04.910873",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "AI Act",
+    "High-Risk AI Systems",
+    "TAI Scan Tool"
+  ],
+  "rejected_keywords": [
+    "RAG-based Assessment"
+  ],
+  "similarity_scores": {
+    "AI Act": 0.82,
+    "High-Risk AI Systems": 0.79,
+    "TAI Scan Tool": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # TAI Scan Tool: A RAG-Based Tool With Minimalistic Input for Trustworthy AI Self-Assessment
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Risk-level Prediction
+**🔗 Specific Connectable**: [[keywords/High-Risk AI Systems|high-risk systems]]
+**⚡ Unique Technical**: [[keywords/AI Act|AI Act]], [[keywords/TAI Scan Tool|TAI Scan Tool]]
 
 ## 🔗 유사한 논문
 - [[Co-Investigator AI The Rise of Agentic AI for Smarter, Trustworthy AML Compliance Narratives]] (80.2% similar)

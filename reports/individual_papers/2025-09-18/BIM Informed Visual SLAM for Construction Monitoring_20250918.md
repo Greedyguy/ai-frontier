@@ -1,3 +1,35 @@
+---
+keywords:
+  - Simultaneous Localization and Mapping
+  - Visual SLAM
+  - Building Information Model
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13972
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:38:29.281462",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Simultaneous Localization and Mapping",
+    "Visual SLAM",
+    "Building Information Model"
+  ],
+  "rejected_keywords": [
+    "RGB-D SLAM"
+  ],
+  "similarity_scores": {
+    "Simultaneous Localization and Mapping": 0.8,
+    "Visual SLAM": 0.75,
+    "Building Information Model": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # BIM Informed Visual SLAM for Construction Monitoring
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Real-time SLAM
+**🌐 Broad Technical**: [[keywords/Simultaneous Localization and Mapping|Simultaneous Localization and Mapping]]
+**🔗 Specific Connectable**: [[keywords/Visual SLAM|Visual SLAM]]
+**⚡ Unique Technical**: [[keywords/Building Information Model|Building Information Model]]
 
 ## 🔗 유사한 논문
 - [[MCGS-SLAM_A_Multi-Camera_SLAM_Framework_Using_Gaussian_Splatting_for_High-Fidelity_Mapping_20250918|MCGS-SLAM: A Multi-Camera SLAM Framework Using Gaussian Splatting for High-Fidelity Mapping]] (83.4% similar)

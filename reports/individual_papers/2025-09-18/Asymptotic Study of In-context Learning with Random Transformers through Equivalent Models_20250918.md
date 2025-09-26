@@ -1,13 +1,47 @@
+---
+keywords:
+  - In-Context Learning
+  - Transformer Architecture
+  - Nonlinear Regression
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:39:15.769994",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "In-Context Learning",
+    "Transformer Architecture",
+    "Nonlinear Regression"
+  ],
+  "rejected_keywords": [
+    "Hermite Polynomial Model"
+  ],
+  "similarity_scores": {
+    "In-Context Learning": 0.9,
+    "Transformer Architecture": 0.85,
+    "Nonlinear Regression": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Asymptotic Study of In-context Learning with Random Transformers through Equivalent Models
 
 **Korean Title:** 랜덤 트랜스포머를 통한 맥락 내 학습의 점근적 연구: 동등 모델을 통한 접근
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Samet Demir|Samet Demir]] [[authors/Zafer Dogan|Zafer Dogan]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]     [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Double-descent Phenomenon
+**🔗 Specific Connectable**: [[keywords/Transformer Architecture|random Transformer]]
+**⚡ Unique Technical**: [[keywords/Nonlinear Regression|nonlinear regression]]
+**🚀 Evolved Concepts**: [[keywords/In-Context Learning|in-context learning]]
 
 ## 🔗 유사한 논문
 - [[TICL_ Text-Embedding KNN For Speech In-Context Learning Unlocks Speech Recognition Abilities of Large Multimodal Models_20250918|TICL Text-Embedding KNN For Speech In-Context Learning Unlocks Speech Recognition Abilities of Large Multimodal Models]] (77.8% similar)

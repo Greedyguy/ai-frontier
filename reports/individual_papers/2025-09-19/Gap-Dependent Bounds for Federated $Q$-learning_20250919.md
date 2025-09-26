@@ -1,3 +1,35 @@
+---
+keywords:
+  - Federated Learning
+  - Gap-Dependent Analysis
+  - Regret Bounds
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2502.02859
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:41:53.346783",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Federated Learning",
+    "Gap-Dependent Analysis",
+    "Regret Bounds"
+  ],
+  "rejected_keywords": [
+    "Markov Decision Processes"
+  ],
+  "similarity_scores": {
+    "Federated Learning": 0.8,
+    "Gap-Dependent Analysis": 0.78,
+    "Regret Bounds": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Gap-Dependent Bounds for Federated $Q$-learning
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Multi-agent Speedup
+**🔗 Specific Connectable**: [[keywords/Federated Learning|Federated Q-Learning]]
+**⚡ Unique Technical**: [[keywords/Gap-Dependent Analysis|Gap-Dependent Analysis]], [[keywords/Regret Bounds|Regret Bounds]]
 
 ## 🔗 유사한 논문
 - [[Zero-sum turn games using Q-learning finite computation with security guarantees]] (80.6% similar)

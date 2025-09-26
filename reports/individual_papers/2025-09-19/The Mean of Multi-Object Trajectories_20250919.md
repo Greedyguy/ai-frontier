@@ -1,3 +1,35 @@
+---
+keywords:
+  - Distributed Multi-Object Tracking
+  - Fréchet Mean
+  - Multi-Object Trajectories
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2504.20391
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:21:39.426028",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Distributed Multi-Object Tracking",
+    "Fréchet Mean",
+    "Multi-Object Trajectories"
+  ],
+  "rejected_keywords": [
+    "Optimal Sub-Pattern Assignment"
+  ],
+  "similarity_scores": {
+    "Distributed Multi-Object Tracking": 0.8,
+    "Fréchet Mean": 0.78,
+    "Multi-Object Trajectories": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # The Mean of Multi-Object Trajectories
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Frechet Mean, Optimal Sub-pattern Assignment
+**🔗 Specific Connectable**: [[keywords/Distributed Multi-Object Tracking|distributed multi-object tracking]]
+**⚡ Unique Technical**: [[keywords/Fréchet Mean|Fréchet mean]], [[keywords/Multi-Object Trajectories|multi-object trajectories]]
 
 ## 🔗 유사한 논문
 - [[VSE-MOT Multi-Object Tracking in Low-Quality Video Scenes Guided by Visual Semantic Enhancement]] (80.6% similar)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - Style Disentangled Attention
+  - Attention Mechanism
+  - Zero-Shot Style Control
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13301
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:08:39.421242",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Style Disentangled Attention",
+    "Attention Mechanism",
+    "Zero-Shot Style Control"
+  ],
+  "rejected_keywords": [
+    "3D Asset Generation"
+  ],
+  "similarity_scores": {
+    "Style Disentangled Attention": 0.78,
+    "Attention Mechanism": 0.8,
+    "Zero-Shot Style Control": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # StyleSculptor: Zero-Shot Style-Controllable 3D Asset Generation with Texture-Geometry Dual Guidance
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Style Guided Control
+**🔗 Specific Connectable**: [[keywords/Attention Mechanism|Attention Mechanism]]
+**⚡ Unique Technical**: [[keywords/Style Disentangled Attention|Style Disentangled Attention]], [[keywords/Zero-Shot Style Control|Zero-Shot Style Control]]
 
 ## 🔗 유사한 논문
 - [[CraftMesh: High-Fidelity Generative Mesh Manipulation via Poisson Seamless Fusion]] (78.4% similar)

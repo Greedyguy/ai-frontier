@@ -1,13 +1,47 @@
+---
+keywords:
+  - Diffusion Models
+  - Membership Inference Attacks
+  - Higher-Order Langevin Dynamics
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:56:49.731826",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Diffusion Models",
+    "Membership Inference Attacks",
+    "Higher-Order Langevin Dynamics"
+  ],
+  "rejected_keywords": [
+    "Generative Models",
+    "Speech Recognition"
+  ],
+  "similarity_scores": {
+    "Diffusion Models": 0.8,
+    "Membership Inference Attacks": 0.78,
+    "Higher-Order Langevin Dynamics": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Defending Diffusion Models Against Membership Inference Attacks via Higher-Order Langevin Dynamics
 
 **Korean Title:** 확산 모델을 고차 랑주뱅 동역학을 통해 멤버십 추론 공격으로부터 방어하기
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Benjamin Sterling|Benjamin Sterling]] [[authors/Yousef El-Laham|Yousef El-Laham]] [[authors/Mónica F. Bugallo|Mónica F. Bugallo]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]      [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Critically-Damped Langevin Dynamics
+**🔗 Specific Connectable**: [[keywords/Diffusion Models|Diffusion Models]]
+**⚡ Unique Technical**: [[keywords/Membership Inference Attacks|Membership Inference Attacks]], [[keywords/Higher-Order Langevin Dynamics|Higher-Order Langevin Dynamics]]
 
 ## 🔗 유사한 논문
 - [[Mitigating data replication in text-to-audio generative diffusion models through anti-memorization guidance_20250919|Mitigating data replication in text-to-audio generative diffusion models through anti-memorization guidance]] (81.5% similar)

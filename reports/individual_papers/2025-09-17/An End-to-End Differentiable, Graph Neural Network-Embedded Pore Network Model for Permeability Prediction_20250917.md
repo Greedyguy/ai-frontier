@@ -1,13 +1,47 @@
+---
+keywords:
+  - Graph Neural Networks
+  - Automatic Differentiation
+  - Pore Network Model
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 23:01:47.282284",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Graph Neural Networks",
+    "Automatic Differentiation",
+    "Pore Network Model"
+  ],
+  "rejected_keywords": [
+    "Permeability Prediction"
+  ],
+  "similarity_scores": {
+    "Graph Neural Networks": 0.9,
+    "Automatic Differentiation": 0.8,
+    "Pore Network Model": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # An End-to-End Differentiable, Graph Neural Network-Embedded Pore Network Model for Permeability Prediction
 
 **Korean Title:** 종단간 미분 가능한 그래프 신경망 내장 기공 네트워크 모델을 통한 투과성 예측
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Qingqi Zhao|Qingqi Zhao]] [[authors/Heng Xiao|Heng Xiao]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]     [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: End-to-End Differentiable Framework
+**🌐 Broad Technical**: [[keywords/Automatic Differentiation|Automatic Differentiation]]
+**🔗 Specific Connectable**: [[keywords/Graph Neural Networks|Graph Neural Network]]
+**⚡ Unique Technical**: [[keywords/Pore Network Model|Pore Network Model]]
 
 ## 🔗 유사한 논문
 - [[A Neural Network for the Identical Kuramoto Equation_ Architectural Considerations and Performance Evaluation_20250917|A Neural Network for the Identical Kuramoto Equation Architectural Considerations and Performance Evaluation]] (82.1% similar)

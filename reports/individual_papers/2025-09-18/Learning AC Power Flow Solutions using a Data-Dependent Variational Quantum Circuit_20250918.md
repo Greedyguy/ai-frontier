@@ -1,3 +1,35 @@
+---
+keywords:
+  - Quantum Machine Learning
+  - Variational Quantum Circuit
+  - AC Power Flow
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.03495
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:22:32.200378",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Quantum Machine Learning",
+    "Variational Quantum Circuit",
+    "AC Power Flow"
+  ],
+  "rejected_keywords": [
+    "Hybrid Classical/Quantum Computing"
+  ],
+  "similarity_scores": {
+    "Quantum Machine Learning": 0.79,
+    "Variational Quantum Circuit": 0.78,
+    "AC Power Flow": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Learning AC Power Flow Solutions using a Data-Dependent Variational Quantum Circuit
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Quantum AC-PF framework
+**⚡ Unique Technical**: [[keywords/Variational Quantum Circuit|Variational Quantum Circuit]], [[keywords/AC Power Flow|AC Power Flow]]
+**🚀 Evolved Concepts**: [[keywords/Quantum Machine Learning|Quantum Machine Learning]]
 
 ## 🔗 유사한 논문
 - [[Hybrid Quantum-Classical Neural Networks for Few-Shot Credit Risk Assessment]] (81.7% similar)

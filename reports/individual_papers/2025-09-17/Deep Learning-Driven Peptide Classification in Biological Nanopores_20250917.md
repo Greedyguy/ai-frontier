@@ -1,13 +1,47 @@
+---
+keywords:
+  - Nanopore Devices
+  - Deep Learning
+  - Wavelet Transforms
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:57:04.288076",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Nanopore Devices",
+    "Deep Learning",
+    "Wavelet Transforms"
+  ],
+  "rejected_keywords": [
+    "Transfer Learning"
+  ],
+  "similarity_scores": {
+    "Nanopore Devices": 0.8,
+    "Deep Learning": 0.85,
+    "Wavelet Transforms": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Deep Learning-Driven Peptide Classification in Biological Nanopores
 
 **Korean Title:** 딥러닝 기반 생물학적 나노포어에서의 펩타이드 분류
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Samuel Tovey|Samuel Tovey]] [[authors/Julian Hoßbach|Julian Hoßbach]] [[authors/Sandro Kuppel|Sandro Kuppel]] [[authors/Tobias Ensslen|Tobias Ensslen]] [[authors/Jan C. Behrends|Jan C. Behrends]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Real-time Disease Diagnosis
+**🌐 Broad Technical**: [[keywords/Deep Learning|Deep Learning]]
+**🔗 Specific Connectable**: [[keywords/Wavelet Transforms|Wavelet Transforms]]
+**⚡ Unique Technical**: [[keywords/Nanopore Devices|Nanopore Devices]]
 
 ## 🔗 유사한 논문
 - [[HD3C_ Efficient Medical Data Classification for Embedded Devices_20250918|HD3C Efficient Medical Data Classification for Embedded Devices]] (81.1% similar)

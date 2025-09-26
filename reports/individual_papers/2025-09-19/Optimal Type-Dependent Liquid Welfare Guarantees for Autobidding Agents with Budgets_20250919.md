@@ -1,3 +1,35 @@
+---
+keywords:
+  - Autobidding
+  - Type-Dependent Smoothness Framework
+  - Liquid Welfare Price of Anarchy
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2506.20908
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:30:15.123278",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Autobidding",
+    "Type-Dependent Smoothness Framework",
+    "Liquid Welfare Price of Anarchy"
+  ],
+  "rejected_keywords": [
+    "Simultaneous First-Price Auctions"
+  ],
+  "similarity_scores": {
+    "Autobidding": 0.78,
+    "Type-Dependent Smoothness Framework": 0.79,
+    "Liquid Welfare Price of Anarchy": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Optimal Type-Dependent Liquid Welfare Guarantees for Autobidding Agents with Budgets
 
@@ -5,10 +37,10 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Liquid Welfare Price of Anarchy
+**⚡ Unique Technical**: [[keywords/Autobidding|autobidding]], [[keywords/Type-Dependent Smoothness Framework|type-dependent smoothness framework]], [[keywords/Liquid Welfare Price of Anarchy|liquid welfare price of anarchy]]
 
 ## 🔗 유사한 논문
 - [[Polynomial-Time Approximation Schemes via Utility Alignment Unit-Demand Pricing and More]] (80.6% similar)

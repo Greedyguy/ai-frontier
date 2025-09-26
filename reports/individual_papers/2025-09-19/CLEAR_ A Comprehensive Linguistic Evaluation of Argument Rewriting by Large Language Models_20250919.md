@@ -1,3 +1,35 @@
+---
+keywords:
+  - Large Language Models
+  - Argument Improvement
+  - Natural Language Processing
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.15027
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:54:19.705587",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Argument Improvement",
+    "Natural Language Processing"
+  ],
+  "rejected_keywords": [
+    "Linguistic Evaluation"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Argument Improvement": 0.75,
+    "Natural Language Processing": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # CLEAR: A Comprehensive Linguistic Evaluation of Argument Rewriting by Large Language Models
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Linguistic Level Analysis
+**🌐 Broad Technical**: [[keywords/Natural Language Processing|Natural Language Processing]]
+**⚡ Unique Technical**: [[keywords/Argument Improvement|Argument Improvement]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[Forget What You Know about LLMs Evaluations -- LLMs are Like a Chameleon]] (83.9% similar)

@@ -1,13 +1,47 @@
+---
+keywords:
+  - Uncertainty Quantification
+  - Machine Learning
+  - Trabecular Meshwork Permeability
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:57:23.924783",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Uncertainty Quantification",
+    "Machine Learning",
+    "Trabecular Meshwork Permeability"
+  ],
+  "rejected_keywords": [
+    "Probabilistic Computational Data Synthesis"
+  ],
+  "similarity_scores": {
+    "Uncertainty Quantification": 0.8,
+    "Machine Learning": 0.78,
+    "Trabecular Meshwork Permeability": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Deconstructing Intraocular Pressure: A Non-invasive Multi-Stage Probabilistic Inverse Framework
 
 **Korean Title:** 안구 내압 해체: 비침습적 다단계 확률적 역 프레임워크
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Md Rezwan Jaher|Md Rezwan Jaher]] [[authors/Abul Mukid Mohammad Mukaddes|Abul Mukid Mohammad Mukaddes]] [[authors/A. B. M. Abdul Malek|A. B. M. Abdul Malek]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]      [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Non-invasive Estimation
+**🌐 Broad Technical**: [[keywords/Machine Learning|multi-stage artificial intelligence architecture]]
+**🔗 Specific Connectable**: [[keywords/Uncertainty Quantification|Bayesian engine]]
+**⚡ Unique Technical**: [[keywords/Trabecular Meshwork Permeability|trabecular meshwork permeability]]
 
 ## 🔗 유사한 논문
 - [[Non-Intrusive Parametrized-Background Data-Weak Reconstruction of Cardiac Displacement Fields from Sparse MRI-like Observations_20250918|Non-Intrusive Parametrized-Background Data-Weak Reconstruction of Cardiac Displacement Fields from Sparse MRI-like Observations]] (82.4% similar)

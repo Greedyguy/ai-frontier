@@ -1,3 +1,36 @@
+---
+keywords:
+  - Few-Shot Learning
+  - Attention Mechanism
+  - Cross-Modal Geometric Rectification
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14958
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:24:57.748324",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Few-Shot Learning",
+    "Attention Mechanism",
+    "Cross-Modal Geometric Rectification"
+  ],
+  "rejected_keywords": [
+    "Texture Amplification Module",
+    "Base-Novel Discriminator"
+  ],
+  "similarity_scores": {
+    "Few-Shot Learning": 0.82,
+    "Attention Mechanism": 0.8,
+    "Cross-Modal Geometric Rectification": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Seeing 3D Through 2D Lenses: 3D Few-Shot Class-Incremental Learning via Cross-Modal Geometric Rectification
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Few-shot Learning, Attention Mechanism
+**🔗 Specific Connectable**: [[keywords/Few-Shot Learning|3D Few-Shot Class-Incremental Learning]], [[keywords/Attention Mechanism|Attention-Driven Geometric Fusion]]
+**⚡ Unique Technical**: [[keywords/Cross-Modal Geometric Rectification|Cross-Modal Geometric Rectification]]
 
 ## 🔗 유사한 논문
 - [[Singular Value Few-shot Adaptation of Vision-Language Models_20250918|Singular Value Few-shot Adaptation of Vision-Language Models]] (82.5% similar)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - Large Language Models
+  - Computer Vision
+  - Gesture-based Operating System
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14412
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:41:31.789123",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Computer Vision",
+    "Gesture-based Operating System"
+  ],
+  "rejected_keywords": [
+    "Robot Teams"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Computer Vision": 0.78,
+    "Gesture-based Operating System": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # GestOS: Advanced Hand Gesture Interpretation via Large Language Models to control Any Type of Robot
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Adaptive Robot Control
+**🌐 Broad Technical**: [[keywords/Computer Vision|Visual Perception]]
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Large Language Models]]
+**⚡ Unique Technical**: [[keywords/Gesture-based Operating System|Gesture-based Operating System]]
 
 ## 🔗 유사한 논문
 - [[PhysicalAgent Towards General Cognitive Robotics with Foundation World Models]] (79.9% similar)

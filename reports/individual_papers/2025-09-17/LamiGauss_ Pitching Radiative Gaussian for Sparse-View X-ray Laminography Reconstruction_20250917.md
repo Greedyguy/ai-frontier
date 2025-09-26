@@ -1,13 +1,45 @@
+---
+keywords:
+  - X-ray Computed Laminography
+  - Sparse-View Reconstruction
+  - Gaussian Splatting
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:52:55.796984",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "X-ray Computed Laminography",
+    "Sparse-View Reconstruction",
+    "Gaussian Splatting"
+  ],
+  "rejected_keywords": [
+    "Optimization"
+  ],
+  "similarity_scores": {
+    "X-ray Computed Laminography": 0.78,
+    "Sparse-View Reconstruction": 0.75,
+    "Gaussian Splatting": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # LamiGauss: Pitching Radiative Gaussian for Sparse-View X-ray Laminography Reconstruction
 
 **Korean Title:** LamiGauss: 희소 뷰 X선 라미노그래피 재구성을 위한 방사형 가우시안 기법
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Chu Chen|Chu Chen]] [[authors/Ander Biguri|Ander Biguri]] [[authors/Jean-Michel Morel|Jean-Michel Morel]] [[authors/Raymond H. Chan|Raymond H. Chan]] [[authors/Carola-Bibiane Schönlieb|Carola-Bibiane Schönlieb]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Gaussian Splatting
+**⚡ Unique Technical**: [[keywords/X-ray Computed Laminography|X-ray Computed Laminography]], [[keywords/Sparse-View Reconstruction|Sparse-View Reconstruction]], [[keywords/Gaussian Splatting|Gaussian Splatting]]
 
 ## 🔗 유사한 논문
 - [[Lightweight Gradient-Aware Upscaling of 3D Gaussian Splatting Images_20250918|Lightweight Gradient-Aware Upscaling of 3D Gaussian Splatting Images]] (81.0% similar)

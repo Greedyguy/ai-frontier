@@ -1,3 +1,36 @@
+---
+keywords:
+  - Physics-aware Interaction Optimization Model
+  - Proximal Policy Optimization
+  - Dexterous Manipulation
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.14178
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:00:49.337015",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Physics-aware Interaction Optimization Model",
+    "Proximal Policy Optimization",
+    "Dexterous Manipulation"
+  ],
+  "rejected_keywords": [
+    "Generative Models",
+    "Natural Language Processing"
+  ],
+  "similarity_scores": {
+    "Physics-aware Interaction Optimization Model": 0.82,
+    "Proximal Policy Optimization": 0.8,
+    "Dexterous Manipulation": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # \textsc{Gen2Real}: Towards Demo-Free Dexterous Manipulation by Harnessing Generated Video
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Physics-aware Interaction Optimization Model
+**🔗 Specific Connectable**: [[keywords/Proximal Policy Optimization|Proximal Policy Optimization]]
+**⚡ Unique Technical**: [[keywords/Physics-aware Interaction Optimization Model|Physics-aware Interaction Optimization Model]], [[keywords/Dexterous Manipulation|Dexterous Manipulation]]
 
 ## 🔗 유사한 논문
 - [[PhysicalAgent: Towards General Cognitive Robotics with Foundation World Models]] (86.1% similar)

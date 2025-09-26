@@ -1,3 +1,36 @@
+---
+keywords:
+  - Diffusion Models
+  - Attention Mechanism
+  - Semantic Segmentation
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2505.16360
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:22:54.696584",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Diffusion Models",
+    "Attention Mechanism",
+    "Semantic Segmentation"
+  ],
+  "rejected_keywords": [
+    "Style Transfer",
+    "Foundation Models"
+  ],
+  "similarity_scores": {
+    "Diffusion Models": 0.8,
+    "Attention Mechanism": 0.78,
+    "Semantic Segmentation": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Style Transfer with Diffusion Models for Synthetic-to-Real Domain Adaptation
 
@@ -5,10 +38,10 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Diffusion-based Style Transfer
+**🔗 Specific Connectable**: [[keywords/Diffusion Models|Diffusion Models]], [[keywords/Attention Mechanism|Cross-Attention]], [[keywords/Semantic Segmentation|Semantic Segmentation]]
 
 ## 🔗 유사한 논문
 - [[StyleSculptor Zero-Shot Style-Controllable 3D Asset Generation with Texture-Geometry Dual Guidance]] (83.2% similar)

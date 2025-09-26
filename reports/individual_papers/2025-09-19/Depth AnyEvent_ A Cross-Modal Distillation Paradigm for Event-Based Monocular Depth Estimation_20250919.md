@@ -1,3 +1,35 @@
+---
+keywords:
+  - Foundation Models
+  - Neural Networks
+  - Cross-Modal Distillation
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.15224
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:48:58.971087",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Foundation Models",
+    "Neural Networks",
+    "Cross-Modal Distillation"
+  ],
+  "rejected_keywords": [
+    "Event-Based Monocular Depth Estimation"
+  ],
+  "similarity_scores": {
+    "Foundation Models": 0.82,
+    "Neural Networks": 0.77,
+    "Cross-Modal Distillation": 0.79
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Depth AnyEvent: A Cross-Modal Distillation Paradigm for Event-Based Monocular Depth Estimation
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Vision Foundation Model
+**🔗 Specific Connectable**: [[keywords/Neural Networks|Recurrent Architecture]]
+**⚡ Unique Technical**: [[keywords/Cross-Modal Distillation|Cross-Modal Distillation]]
+**🚀 Evolved Concepts**: [[keywords/Foundation Models|Vision Foundation Model]]
 
 ## 🔗 유사한 논문
 - [[VSE-MOT Multi-Object Tracking in Low-Quality Video Scenes Guided by Visual Semantic Enhancement]] (80.6% similar)

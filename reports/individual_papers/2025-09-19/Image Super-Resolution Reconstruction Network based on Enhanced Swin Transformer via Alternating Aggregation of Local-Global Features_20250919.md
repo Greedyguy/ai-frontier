@@ -1,3 +1,35 @@
+---
+keywords:
+  - Transformer Architecture
+  - Attention Mechanism
+  - Image Super-Resolution
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2401.00241
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:40:12.739506",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Transformer Architecture",
+    "Attention Mechanism",
+    "Image Super-Resolution"
+  ],
+  "rejected_keywords": [
+    "Local-Global Feature Aggregation"
+  ],
+  "similarity_scores": {
+    "Transformer Architecture": 0.8,
+    "Attention Mechanism": 0.78,
+    "Image Super-Resolution": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Image Super-Resolution Reconstruction Network based on Enhanced Swin Transformer via Alternating Aggregation of Local-Global Features
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Local-Global Feature Aggregation
+**🔗 Specific Connectable**: [[keywords/Transformer Architecture|Swin Transformer]], [[keywords/Attention Mechanism|Attention Mechanism]]
+**⚡ Unique Technical**: [[keywords/Image Super-Resolution|Image Super-Resolution]]
 
 ## 🔗 유사한 논문
 - [[NDLPNet A Location-Aware Nighttime Deraining Network and a Real-World Benchmark Dataset]] (78.5% similar)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - Robust Markov Decision Processes
+  - Bellman Equation
+  - Average-Reward Formulation
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.14203
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:37:26.806766",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Robust Markov Decision Processes",
+    "Bellman Equation",
+    "Average-Reward Formulation"
+  ],
+  "rejected_keywords": [
+    "Dynamic Programming"
+  ],
+  "similarity_scores": {
+    "Robust Markov Decision Processes": 0.78,
+    "Bellman Equation": 0.74,
+    "Average-Reward Formulation": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Bellman Optimality of Average-Reward Robust Markov Decision Processes with a Constant Gain
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Average Reward Robust MDPs
+**🔗 Specific Connectable**: [[keywords/Bellman Equation|Bellman Equation]]
+**⚡ Unique Technical**: [[keywords/Robust Markov Decision Processes|Robust Markov Decision Processes]], [[keywords/Average-Reward Formulation|Average-Reward Formulation]]
 
 ## 🔗 유사한 논문
 - [[Accelerated Gradient Methods with Biased Gradient Estimates Risk Sensitivity, High-Probability Guarantees, and Large Deviation Bounds]] (79.5% similar)

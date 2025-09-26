@@ -1,3 +1,35 @@
+---
+keywords:
+  - AI Agents
+  - Usability Challenges
+  - AI Agent Use Cases
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14528
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:17:11.233950",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "AI Agents",
+    "Usability Challenges",
+    "AI Agent Use Cases"
+  ],
+  "rejected_keywords": [
+    "Meta-Cognitive Abilities"
+  ],
+  "similarity_scores": {
+    "AI Agents": 0.85,
+    "Usability Challenges": 0.82,
+    "AI Agent Use Cases": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Why Johnny Can't Use Agents: Industry Aspirations vs. User Realities with AI Agent Software
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: User Mental Models
+**⚡ Unique Technical**: [[keywords/AI Agents|AI agents]]
+**🚀 Evolved Concepts**: [[keywords/Usability Challenges|usability challenges]], [[keywords/AI Agent Use Cases|orchestration, creation, and insight]]
 
 ## 🔗 유사한 논문
 - [[Designing AI-Agents with Personalities A Psychometric Approach]] (83.6% similar)

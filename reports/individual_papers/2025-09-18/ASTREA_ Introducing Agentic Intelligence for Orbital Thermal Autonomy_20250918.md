@@ -1,3 +1,35 @@
+---
+keywords:
+  - Large Language Models
+  - Reinforcement Learning
+  - Thermal Control
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13380
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:41:04.647460",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Reinforcement Learning",
+    "Thermal Control"
+  ],
+  "rejected_keywords": [
+    "International Space Station"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Reinforcement Learning": 0.78,
+    "Thermal Control": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # ASTREA: Introducing Agentic Intelligence for Orbital Thermal Autonomy
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: LLM-based Systems
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Large Language Model]], [[keywords/Reinforcement Learning|Reinforcement Learning]]
+**⚡ Unique Technical**: [[keywords/Thermal Control|Thermal Control]]
 
 ## 🔗 유사한 논문
 - [[Agentic UAVs LLM-Driven Autonomy with Integrated Tool-Calling and Cognitive Reasoning]] (82.2% similar)

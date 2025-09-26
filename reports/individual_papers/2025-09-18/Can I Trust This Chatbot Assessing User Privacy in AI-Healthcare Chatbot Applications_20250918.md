@@ -1,13 +1,47 @@
+---
+keywords:
+  - User Data Protection
+  - AI Healthcare Chatbots
+  - Privacy Policies
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:35:35.627402",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "User Data Protection",
+    "AI Healthcare Chatbots",
+    "Privacy Policies"
+  ],
+  "rejected_keywords": [
+    "Conversational Artificial Intelligence"
+  ],
+  "similarity_scores": {
+    "User Data Protection": 0.8,
+    "AI Healthcare Chatbots": 0.78,
+    "Privacy Policies": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Can I Trust This Chatbot? Assessing User Privacy in AI-Healthcare Chatbot Applications
 
 **Korean Title:** 이 채팅봇을 신뢰할 수 있을까? AI-헬스케어 채팅봇 애플리케이션에서 사용자 프라이버시 평가
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Ramazan Yener|Ramazan Yener]] [[authors/Guan-Hung Chen|Guan-Hung Chen]] [[authors/Ece Gumusel|Ece Gumusel]] [[authors/Masooda Bashir|Masooda Bashir]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]       [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Privacy Policy Analysis
+**🌐 Broad Technical**: [[keywords/Privacy Policies|privacy policies]]
+**⚡ Unique Technical**: [[keywords/AI Healthcare Chatbots|AI healthcare chatbots]]
+**🚀 Evolved Concepts**: [[keywords/User Data Protection|user data protection]]
 
 ## 🔗 유사한 논문
 - [[Cybersecurity AI_ Humanoid Robots as Attack Vectors_20250918|Cybersecurity AI Humanoid Robots as Attack Vectors]] (78.5% similar)

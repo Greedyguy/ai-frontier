@@ -1,13 +1,46 @@
+---
+keywords:
+  - Dense Video Understanding
+  - Gated Residual Tokenization
+  - Large Language Models
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:56:33.440878",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Dense Video Understanding",
+    "Gated Residual Tokenization",
+    "Large Language Models"
+  ],
+  "rejected_keywords": [
+    "Vision Transformers"
+  ],
+  "similarity_scores": {
+    "Dense Video Understanding": 0.8,
+    "Gated Residual Tokenization": 0.78,
+    "Large Language Models": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Dense Video Understanding with Gated Residual Tokenization
 
 **Korean Title:** 조밀한 비디오 이해를 위한 게이트 잔여 토큰화
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Haichao Zhang|Haichao Zhang]] [[authors/Wenhao Chai|Wenhao Chai]] [[authors/Shwai He|Shwai He]] [[authors/Ang Li|Ang Li]] [[authors/Yun Fu|Yun Fu]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Dense Temporal Information
+**⚡ Unique Technical**: [[keywords/Dense Video Understanding|Dense Video Understanding]], [[keywords/Gated Residual Tokenization|Gated Residual Tokenization]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[WorldForge_ Unlocking Emergent 3D4D Generation in Video Diffusion Model via Training-Free Guidance_20250919|WorldForge Unlocking Emergent 3D4D Generation in Video Diffusion Model via Training-Free Guidance]] (80.4% similar)

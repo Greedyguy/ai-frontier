@@ -1,3 +1,35 @@
+---
+keywords:
+  - KV Cache Compression
+  - Attention Mechanism
+  - Large Language Models
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.15038
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:18:26.171131",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "KV Cache Compression",
+    "Attention Mechanism",
+    "Large Language Models"
+  ],
+  "rejected_keywords": [
+    "CUR Decomposition"
+  ],
+  "similarity_scores": {
+    "KV Cache Compression": 0.78,
+    "Attention Mechanism": 0.8,
+    "Large Language Models": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Value-Guided KV Compression for LLMs via Approximated CUR Decomposition
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Value Guided KV Compression
+**🌐 Broad Technical**: [[keywords/Large Language Models|Large Language Models]]
+**🔗 Specific Connectable**: [[keywords/Attention Mechanism|Attention Mechanism]]
+**⚡ Unique Technical**: [[keywords/KV Cache Compression|Key-value cache compression]]
 
 ## 🔗 유사한 논문
 - [[NIRVANA Structured pruning reimagined for large language models compression]] (81.3% similar)

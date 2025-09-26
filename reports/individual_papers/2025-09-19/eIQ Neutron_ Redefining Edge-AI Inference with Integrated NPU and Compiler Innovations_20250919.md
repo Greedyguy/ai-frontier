@@ -1,3 +1,35 @@
+---
+keywords:
+  - Neural Processing Units
+  - Edge-AI Inference
+  - Compiler Innovations
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14388
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:16:24.742049",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Neural Processing Units",
+    "Edge-AI Inference",
+    "Compiler Innovations"
+  ],
+  "rejected_keywords": [
+    "Optimization"
+  ],
+  "similarity_scores": {
+    "Neural Processing Units": 0.85,
+    "Edge-AI Inference": 0.8,
+    "Compiler Innovations": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # eIQ Neutron: Redefining Edge-AI Inference with Integrated NPU and Compiler Innovations
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Data-driven Design
+**⚡ Unique Technical**: [[keywords/Neural Processing Units|Neural Processing Units]], [[keywords/Compiler Innovations|Compiler Innovations]]
+**🚀 Evolved Concepts**: [[keywords/Edge-AI Inference|Edge-AI Inference]]
 
 ## 🔗 유사한 논문
 - [[Towards_Robust_Agentic_CUDA_Kernel_Benchmarking,_Verification,_and_Optimization_20250919|Towards Robust Agentic CUDA Kernel Benchmarking, Verification, and Optimization]] (78.9% similar)

@@ -1,3 +1,36 @@
+---
+keywords:
+  - Embodied Agents
+  - Vision-Language Agents
+  - Multi-Turn Dialogue
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.15061
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:56:07.038741",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Embodied Agents",
+    "Vision-Language Agents",
+    "Multi-Turn Dialogue"
+  ],
+  "rejected_keywords": [
+    "Diffusion Models",
+    "Ambiguity-Solving Dialogue"
+  ],
+  "similarity_scores": {
+    "Embodied Agents": 0.85,
+    "Vision-Language Agents": 0.78,
+    "Multi-Turn Dialogue": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Ask-to-Clarify: Resolving Instruction Ambiguity through Multi-turn Dialogue
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Collaborative Embodied Agents
+**🔗 Specific Connectable**: [[keywords/Vision-Language Agents|Vision-Language Agents]], [[keywords/Multi-Turn Dialogue|multi-turn dialogue]]
+**⚡ Unique Technical**: [[keywords/Embodied Agents|embodied agents]]
 
 ## 🔗 유사한 논문
 - [[CollabVLA Self-Reflective Vision-Language-Action Model Dreaming Together with Human]] (88.4% similar)

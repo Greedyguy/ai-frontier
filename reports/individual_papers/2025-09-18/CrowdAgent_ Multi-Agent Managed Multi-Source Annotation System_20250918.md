@@ -1,3 +1,36 @@
+---
+keywords:
+  - Natural Language Processing
+  - Large Language Models
+  - Crowdsourcing
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.14030
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:34:17.155893",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Natural Language Processing",
+    "Large Language Models",
+    "Crowdsourcing"
+  ],
+  "rejected_keywords": [
+    "Small Language Models",
+    "Multi-Agent System"
+  ],
+  "similarity_scores": {
+    "Natural Language Processing": 0.85,
+    "Large Language Models": 0.8,
+    "Crowdsourcing": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # CrowdAgent: Multi-Agent Managed Multi-Source Annotation System
 
@@ -5,10 +38,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Multi-agent System
+**🌐 Broad Technical**: [[keywords/Natural Language Processing|Natural Language Processing]]
+**🔗 Specific Connectable**: [[keywords/Crowdsourcing|Crowdsourcing]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[AgentCTG Harnessing Multi-Agent Collaboration for Fine-Grained Precise Control in Text Generation]] (82.4% similar)

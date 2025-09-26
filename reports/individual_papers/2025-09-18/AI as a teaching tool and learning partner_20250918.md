@@ -1,3 +1,35 @@
+---
+keywords:
+  - Large Language Models
+  - LLM-Powered Chatbot
+  - AI-Generated Educational Content
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13899
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:41:15.544454",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "LLM-Powered Chatbot",
+    "AI-Generated Educational Content"
+  ],
+  "rejected_keywords": [
+    "Artificial Intelligence Tools"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.88,
+    "LLM-Powered Chatbot": 0.8,
+    "AI-Generated Educational Content": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # AI as a teaching tool and learning partner
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: AI integration in education
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Large Language Models]]
+**⚡ Unique Technical**: [[keywords/LLM-Powered Chatbot|LLM-powered chatbot]], [[keywords/AI-Generated Educational Content|AI-generated podcasts]]
 
 ## 🔗 유사한 논문
 - [[LLM Chatbot-Creation Approaches]] (84.2% similar)

@@ -1,13 +1,47 @@
+---
+keywords:
+  - Triplet-UNet Architecture
+  - Physics-Informed Deep Learning
+  - Radio Propagation Scenarios
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:14:01.952671",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Triplet-UNet Architecture",
+    "Physics-Informed Deep Learning",
+    "Radio Propagation Scenarios"
+  ],
+  "rejected_keywords": [
+    "Lunar Terrain Generator",
+    "Ray-Tracing Engine"
+  ],
+  "similarity_scores": {
+    "Triplet-UNet Architecture": 0.77,
+    "Physics-Informed Deep Learning": 0.78,
+    "Radio Propagation Scenarios": 0.74
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Radiolunadiff: Estimation of wireless network signal strength in lunar terrain
 
 **Korean Title:** 무선 네트워크 신호 강도의 달 지형에서의 추정: Radiolunadiff
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Paolo Torrado|Paolo Torrado]] [[authors/Anders Pearson|Anders Pearson]] [[authors/Jason Klein|Jason Klein]] [[authors/Alexander Moscibroda|Alexander Moscibroda]] [[authors/Joshua Smith|Joshua Smith]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Physics Informed Learning, UNet Architecture
+**🔗 Specific Connectable**: [[keywords/Radio Propagation Scenarios|radio propagation scenarios]]
+**⚡ Unique Technical**: [[keywords/Triplet-UNet Architecture|triplet-UNet architecture]], [[keywords/Physics-Informed Deep Learning|physics-informed deep learning]]
 
 ## 🔗 유사한 논문
 - [[NDLPNet_ A Location-Aware Nighttime Deraining Network and a Real-World Benchmark Dataset_20250918|NDLPNet A Location-Aware Nighttime Deraining Network and a Real-World Benchmark Dataset]] (79.3% similar)

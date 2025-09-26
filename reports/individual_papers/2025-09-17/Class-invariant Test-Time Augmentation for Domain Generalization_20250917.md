@@ -1,13 +1,46 @@
+---
+keywords:
+  - Domain Generalization
+  - Test-Time Augmentation
+  - Deep Learning
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:59:15.113896",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Domain Generalization",
+    "Test-Time Augmentation",
+    "Deep Learning"
+  ],
+  "rejected_keywords": [
+    "Confidence-Guided Filtering"
+  ],
+  "similarity_scores": {
+    "Domain Generalization": 0.78,
+    "Test-Time Augmentation": 0.77,
+    "Deep Learning": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Class-invariant Test-Time Augmentation for Domain Generalization
 
 **Korean Title:** 도메인 일반화를 위한 클래스 불변 테스트 시점 증강
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Zhicheng Lin|Zhicheng Lin]] [[authors/Xiaolin Wu|Xiaolin Wu]] [[authors/Xi Zhang|Xi Zhang]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]      [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**⭐ Unique Technical**: Class-Invariant Test-Time Augmentation
+**🌐 Broad Technical**: [[keywords/Deep Learning|Deep Models]]
+**⚡ Unique Technical**: [[keywords/Domain Generalization|Domain Generalization]], [[keywords/Test-Time Augmentation|Test-Time Augmentation]]
 
 ## 🔗 유사한 논문
 - [[Style Transfer with Diffusion Models for Synthetic-to-Real Domain Adaptation_20250919|Style Transfer with Diffusion Models for Synthetic-to-Real Domain Adaptation]] (83.1% similar)

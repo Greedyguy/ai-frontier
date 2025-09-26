@@ -337,3 +337,181 @@ async def list_webhook_tasks():
     except Exception as e:
         logger.error(f"Failed to list tasks: {e}")
         raise HTTPException(status_code=500, detail=str(e))
+
+
+class WebhookDigestRequest(BaseModel):
+    """Digest request model for webhook endpoints."""
+    digest_type: str = Field(description="Type: daily or weekly")
+    date: Optional[str] = Field(default=None, description="Date in YYYYMMDD format")
+    translation_provider: str = Field(default="openai", description="Translation provider")
+    summarization_provider: str = Field(default="openai", description="Summarization provider")
+    callback_url: Optional[str] = Field(default=None, description="URL to call when completed")
+
+
+@router.post("/digest/daily")
+async def webhook_generate_daily_digest(request: WebhookDigestRequest = None):
+    """
+    Generate daily digest for automation tools.
+
+    This is a synchronous endpoint that generates and returns the digest.
+    """
+    try:
+        from datetime import datetime
+        from ..summarization.digest import DigestGenerator
+
+        # Parse request if provided
+        target_date = datetime.now()
+        translation_provider = "openai"
+        summarization_provider = "openai"
+
+        if request:
+            if request.date:
+                try:
+                    target_date = datetime.strptime(request.date, "%Y%m%d")
+                except ValueError:
+                    raise HTTPException(status_code=400, detail="Invalid date format. Expected YYYYMMDD.")
+            translation_provider = request.translation_provider
+            summarization_provider = request.summarization_provider
+
+        logger.info(f"Generating daily digest for {target_date.strftime('%Y-%m-%d')}")
+
+        # Create digest generator
+        digest_generator = DigestGenerator(
+            translation_provider=translation_provider,
+            summarization_provider=summarization_provider
+        )
+
+        # Generate and save digest
+        digest_path = digest_generator.save_daily_digest(target_date)
+
+        result = {
+            "success": True,
+            "message": "Daily digest generated successfully",
+            "digest_path": str(digest_path),
+            "date": target_date.strftime("%Y-%m-%d"),
+            "digest_type": "daily"
+        }
+
+        # Call callback URL if provided
+        if request and request.callback_url:
+            try:
+                import httpx
+                async with httpx.AsyncClient() as client:
+                    await client.post(request.callback_url, json=result)
+            except Exception as e:
+                logger.warning(f"Failed to call callback URL: {e}")
+
+        logger.info("Daily digest generated successfully")
+        return result
+
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Daily digest generation failed: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@router.post("/digest/weekly")
+async def webhook_generate_weekly_digest(request: WebhookDigestRequest = None):
+    """
+    Generate weekly digest for automation tools.
+
+    This is a synchronous endpoint that generates and returns the digest.
+    """
+    try:
+        from datetime import datetime
+        from ..summarization.digest import DigestGenerator
+
+        # Parse request if provided
+        target_date = datetime.now()
+        translation_provider = "openai"
+        summarization_provider = "openai"
+
+        if request:
+            if request.date:
+                try:
+                    target_date = datetime.strptime(request.date, "%Y%m%d")
+                except ValueError:
+                    raise HTTPException(status_code=400, detail="Invalid date format. Expected YYYYMMDD.")
+            translation_provider = request.translation_provider
+            summarization_provider = request.summarization_provider
+
+        logger.info(f"Generating weekly digest for {target_date.strftime('%Y-%m-%d')}")
+
+        # Create digest generator
+        digest_generator = DigestGenerator(
+            translation_provider=translation_provider,
+            summarization_provider=summarization_provider
+        )
+
+        # Generate and save digest
+        digest_path = digest_generator.save_weekly_digest(target_date)
+
+        result = {
+            "success": True,
+            "message": "Weekly digest generated successfully",
+            "digest_path": str(digest_path),
+            "date": target_date.strftime("%Y-%m-%d"),
+            "digest_type": "weekly"
+        }
+
+        # Call callback URL if provided
+        if request and request.callback_url:
+            try:
+                import httpx
+                async with httpx.AsyncClient() as client:
+                    await client.post(request.callback_url, json=result)
+            except Exception as e:
+                logger.warning(f"Failed to call callback URL: {e}")
+
+        logger.info("Weekly digest generated successfully")
+        return result
+
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Weekly digest generation failed: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@router.get("/digests")
+async def webhook_list_digests():
+    """List all generated digests for automation tools."""
+    try:
+        from pathlib import Path
+
+        digests_dir = Path("reports/digests")
+        digests = []
+
+        if digests_dir.exists():
+            for file_path in digests_dir.glob("*.md"):
+                try:
+                    digest_info = {
+                        "filename": file_path.name,
+                        "path": str(file_path),
+                        "modified_at": datetime.fromtimestamp(file_path.stat().st_mtime).isoformat(),
+                        "size": file_path.stat().st_size
+                    }
+
+                    # Determine type from filename
+                    if "daily" in file_path.name:
+                        digest_info["type"] = "daily"
+                    elif "weekly" in file_path.name:
+                        digest_info["type"] = "weekly"
+                    else:
+                        digest_info["type"] = "unknown"
+
+                    digests.append(digest_info)
+
+                except Exception as e:
+                    logger.error(f"Error processing digest file {file_path}: {e}")
+                    continue
+
+        # Sort by modification time (newest first)
+        digests.sort(key=lambda x: x['modified_at'], reverse=True)
+
+        return {"digests": digests, "total": len(digests)}
+
+    except Exception as e:
+        logger.error(f"Failed to list digests: {e}")
+        raise HTTPException(status_code=500, detail=str(e))

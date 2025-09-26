@@ -1,3 +1,35 @@
+---
+keywords:
+  - Multi-Modal Learning
+  - Chain of Action
+  - Hierarchical Agent Models
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13347
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:17:10.198095",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Multi-Modal Learning",
+    "Chain of Action",
+    "Hierarchical Agent Models"
+  ],
+  "rejected_keywords": [
+    "Open Hierarchical Agents"
+  ],
+  "similarity_scores": {
+    "Multi-Modal Learning": 0.78,
+    "Chain of Action": 0.72,
+    "Hierarchical Agent Models": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # OpenHA: A Series of Open-Source Hierarchical Agentic Models in Minecraft
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Open Hierarchical Agents
+**🔗 Specific Connectable**: [[keywords/Multi-Modal Learning|Vision-Language-Action]]
+**⚡ Unique Technical**: [[keywords/Chain of Action|Chain of Action]], [[keywords/Hierarchical Agent Models|Hierarchical Agent Models]]
 
 ## 🔗 유사한 논문
 - [[Humanoid_Agent_via_Embodied_Chain-of-Action_Reasoning_with_Multimodal_Foundation_Models_for_Zero-Shot_Loco-Manipulation_20250918|Humanoid Agent via Embodied Chain-of-Action Reasoning with Multimodal Foundation Models for Zero-Shot Loco-Manipulation]] (83.8% similar)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - Sim2Real Transfer
+  - Decentralized Cooperative Transport
+  - Hierarchical Policy Architecture
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14342
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:32:57.879912",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Sim2Real Transfer",
+    "Decentralized Cooperative Transport",
+    "Hierarchical Policy Architecture"
+  ],
+  "rejected_keywords": [
+    "Constellation Reward Formulation"
+  ],
+  "similarity_scores": {
+    "Sim2Real Transfer": 0.8,
+    "Decentralized Cooperative Transport": 0.78,
+    "Hierarchical Policy Architecture": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Multi-Quadruped Cooperative Object Transport: Learning Decentralized Pinch-Lift-Move
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Multi-Quadruped Coordination
+**🔗 Specific Connectable**: [[keywords/Sim2Real Transfer|sim2real transfer]]
+**⚡ Unique Technical**: [[keywords/Decentralized Cooperative Transport|decentralized cooperative transport]], [[keywords/Hierarchical Policy Architecture|hierarchical policy architecture]]
 
 ## 🔗 유사한 논문
 - [[Embracing Bulky Objects with Humanoid Robots Whole-Body Manipulation with Reinforcement Learning]] (83.6% similar)

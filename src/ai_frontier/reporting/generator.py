@@ -130,13 +130,19 @@ class ReportGenerator:
         return html_template
 
     def _sanitize_filename(self, filename: str) -> str:
-        """파일명에서 안전하지 않은 문자들을 제거"""
-        # 특수문자 제거 및 공백을 언더스코어로 변경
-        sanitized = re.sub(r'[<>:"/\\|?*]', '', filename)
-        sanitized = re.sub(r'\s+', '_', sanitized)
-        # 파일명이 너무 길면 제한
-        if len(sanitized) > 100:
-            sanitized = sanitized[:100]
+        """파일명에서 불법 문자 제거 - 콜론만 언더스코어로 변경, 띄어쓰기는 유지"""
+        # 콜론만 언더스코어로 변경
+        sanitized = filename.replace(':', '_')
+        # 다른 금지된 문자들 제거 (띄어쓰기는 유지)
+        illegal_chars = r'[<>"/\\|?*\x00-\x1f]'
+        sanitized = re.sub(illegal_chars, '', sanitized)
+        # 연속된 언더스코어를 하나로 변경
+        sanitized = re.sub(r'_+', '_', sanitized)
+        # 앞뒤 공백과 점 제거
+        sanitized = sanitized.strip(' .')
+        # 빈 문자열인 경우 기본값 사용
+        if not sanitized:
+            sanitized = "untitled"
         return sanitized
     
     def generate_individual_paper_file(
@@ -164,6 +170,29 @@ class ReportGenerator:
             paper, summary, paper_key_points
         )
 
+        # Generate categorized keywords display
+        try:
+            categorized_keywords = self.obsidian_formatter.keyword_extractor.extract_keywords(paper.title, paper.abstract)
+            keywords_display = []
+            category_names = {
+                "evolved_concepts": "🚀 Evolved Concepts",
+                "specific_connectable": "🔗 Specific Connectable",
+                "unique_technical": "⭐ Unique Technical",
+                "broad_technical": "🔬 Broad Technical"
+            }
+            for category in ["evolved_concepts", "specific_connectable", "unique_technical", "broad_technical"]:
+                if category in categorized_keywords and categorized_keywords[category]:
+                    category_display = category_names.get(category, category)
+                    keywords_str = ", ".join(categorized_keywords[category])
+                    keywords_display.append(f"**{category_display}**: {keywords_str}")
+            categorized_keywords_display = "\n".join(keywords_display) if keywords_display else "No categorized keywords extracted"
+        except Exception as e:
+            print(f"Error generating categorized keywords display: {e}")
+            categorized_keywords_display = "Error extracting categorized keywords"
+
+        # Generate similar papers display (placeholder for now)
+        similar_papers_display = "Similar papers will be displayed here based on embedding similarity."
+
         paper_data = {
             "title": paper.title,
             "title_ko": translations.get(f"{paper.arxiv_id}_title", paper.title),
@@ -178,6 +207,8 @@ class ReportGenerator:
             "keywords": keywords.get(paper.arxiv_id, []) if keywords else [],
             "extracted_keywords": extracted_keywords,
             "obsidian_metadata": obsidian_metadata,
+            "categorized_keywords_display": categorized_keywords_display,
+            "similar_papers_display": similar_papers_display,
             "pdf_url": paper.pdf_url,
             "generation_date": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         }
@@ -193,12 +224,21 @@ class ReportGenerator:
     
     def _generate_individual_markdown(self, paper_data: Dict[str, Any]) -> str:
         """개별 논문 마크다운 생성"""
-        template_str = """
-# {{ title }}
+        template_str = """# {{ title }}
 
 **Korean Title:** {{ title_ko }}
 
+## 📋 메타데이터
+
 {{ obsidian_metadata }}
+
+**ArXiv ID**: [{{ arxiv_id }}](https://arxiv.org/abs/{{ arxiv_id }})
+**Published**: {{ published }}
+**Category**: {{ category }}
+**PDF**: [Download]({{ pdf_url }})
+
+## 🏷️ 카테고리화된 키워드
+{{ categorized_keywords_display }}
 
 ## 🏷️ 추출된 키워드
 
@@ -209,6 +249,10 @@ class ReportGenerator:
 {% else %}
 키워드가 추출되지 않았습니다.
 {% endif %}
+
+## 🔗 유사한 논문
+
+{{ similar_papers_display }}
 
 ## 📋 저자 정보
 
@@ -284,18 +328,21 @@ class ReportGenerator:
         output_dir: Path = None,
         output_format: str = "markdown"
     ) -> List[Path]:
-        """개별 논문 파일들을 저장"""
+        """개별 논문 파일들을 저장 (날짜별 폴더 구조)"""
         if output_dir is None:
             output_dir = Path("reports") / "individual_papers"
-        
-        output_dir.mkdir(parents=True, exist_ok=True)
+
         saved_files = []
-        
+
         for paper in papers:
+            # 날짜별 폴더 생성
+            date_str = paper.published.strftime("%Y-%m-%d")  # YYYY-MM-DD 형태
+            date_dir = output_dir / date_str
+            date_dir.mkdir(parents=True, exist_ok=True)
+
             # 파일명 생성: 원문 제목_날짜
-            date_str = paper.published.strftime("%Y%m%d")
-            filename_base = f"{self._sanitize_filename(paper.title)}_{date_str}"
-            
+            filename_base = f"{self._sanitize_filename(paper.title)}_{paper.published.strftime('%Y%m%d')}"
+
             # 확장자 결정
             if output_format.lower() == "markdown":
                 filename = f"{filename_base}.md"
@@ -305,19 +352,19 @@ class ReportGenerator:
                 filename = f"{filename_base}.json"
             else:
                 filename = f"{filename_base}.txt"
-            
+
             # 파일 내용 생성
             content = self.generate_individual_paper_file(
                 paper, translations, summaries, key_points, keywords, output_format
             )
-            
-            # 파일 저장
-            file_path = output_dir / filename
+
+            # 파일 저장 (날짜 폴더 하위에 저장)
+            file_path = date_dir / filename
             with open(file_path, "w", encoding="utf-8") as f:
                 f.write(content)
-            
+
             saved_files.append(file_path)
-        
+
         return saved_files
 
     def save_report(self, content: str, filename: str, output_dir: Path = None) -> Path:

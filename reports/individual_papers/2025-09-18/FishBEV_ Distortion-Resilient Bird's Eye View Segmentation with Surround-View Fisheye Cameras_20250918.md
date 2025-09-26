@@ -1,3 +1,35 @@
+---
+keywords:
+  - Attention Mechanism
+  - Bird's Eye View Segmentation
+  - Fisheye Cameras
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13681
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:28:35.662990",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Attention Mechanism",
+    "Bird's Eye View Segmentation",
+    "Fisheye Cameras"
+  ],
+  "rejected_keywords": [
+    "Uncertainty Quantification"
+  ],
+  "similarity_scores": {
+    "Attention Mechanism": 0.8,
+    "Bird's Eye View Segmentation": 0.78,
+    "Fisheye Cameras": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # FishBEV: Distortion-Resilient Bird's Eye View Segmentation with Surround-View Fisheye Cameras
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Distortion-Resilient Multi-scale Extraction (DRME
+**🔗 Specific Connectable**: [[keywords/Attention Mechanism|Attention Mechanism]]
+**⚡ Unique Technical**: [[keywords/Bird's Eye View Segmentation|Bird's Eye View Segmentation]], [[keywords/Fisheye Cameras|Fisheye Cameras]]
 
 ## 🔗 유사한 논문
 - [[BEVUDA++_Geometric-aware_Unsupervised_Domain_Adaptation_for_Multi-View_3D_Object_Detection_20250918|BEVUDA++: Geometric-aware Unsupervised Domain Adaptation for Multi-View 3D Object Detection]] (84.7% similar)

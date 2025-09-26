@@ -1,13 +1,46 @@
+---
+keywords:
+  - Feature Learning
+  - Kernel Ridge Regression
+  - Laplace Kernel
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 23:03:37.047586",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Feature Learning",
+    "Kernel Ridge Regression",
+    "Laplace Kernel"
+  ],
+  "rejected_keywords": [
+    "Variable Selection"
+  ],
+  "similarity_scores": {
+    "Feature Learning": 0.8,
+    "Kernel Ridge Regression": 0.75,
+    "Laplace Kernel": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # A Compositional Kernel Model for Feature Learning
 
 **Korean Title:** 특징 학습을 위한 합성 커널 모델
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Feng Ruan|Feng Ruan]] [[authors/Keli Liu|Keli Liu]] [[authors/Michael Jordan|Michael Jordan]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]      [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Coordinate-wise Reweighting
+**🌐 Broad Technical**: [[keywords/Feature Learning|feature learning]]
+**⚡ Unique Technical**: [[keywords/Kernel Ridge Regression|kernel ridge regression]], [[keywords/Laplace Kernel|Laplace kernel]]
 
 ## 🔗 유사한 논문
 - [[Probabilistic and nonlinear compressive sensing_20250918|Probabilistic and nonlinear compressive sensing]] (78.5% similar)

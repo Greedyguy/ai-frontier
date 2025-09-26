@@ -1,3 +1,36 @@
+---
+keywords:
+  - Natural Language Processing
+  - Controlled Text Generation
+  - Multi-Agent Collaboration
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13677
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:40:50.449546",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Natural Language Processing",
+    "Controlled Text Generation",
+    "Multi-Agent Collaboration"
+  ],
+  "rejected_keywords": [
+    "Character-Driven Rewriting",
+    "Auto-Prompt Module"
+  ],
+  "similarity_scores": {
+    "Natural Language Processing": 0.85,
+    "Controlled Text Generation": 0.78,
+    "Multi-Agent Collaboration": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # AgentCTG: Harnessing Multi-Agent Collaboration for Fine-Grained Precise Control in Text Generation
 
@@ -5,10 +38,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Multi-agent Collaboration
+**🌐 Broad Technical**: [[keywords/Natural Language Processing|Natural Language Processing]]
+**⚡ Unique Technical**: [[keywords/Controlled Text Generation|Controlled Text Generation]]
+**🚀 Evolved Concepts**: [[keywords/Multi-Agent Collaboration|Multi-Agent Collaboration]]
 
 ## 🔗 유사한 논문
 - [[$Agent^2$ An Agent-Generates-Agent Framework for Reinforcement Learning Automation]] (83.3% similar)

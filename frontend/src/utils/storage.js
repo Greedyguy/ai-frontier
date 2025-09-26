@@ -88,7 +88,13 @@ export const keywordStorage = {
  * 카테고리 관련 스토리지 함수들
  */
 export const categoryStorage = {
-  load: () => getStorageItem(STORAGE_KEYS.CATEGORIES, ['cs.AI', 'cs.LG', 'cs.CL', 'cs.CV']),
+  load: () => getStorageItem(STORAGE_KEYS.CATEGORIES, [
+    'cs.AI', 'cs.LG', 'cs.CL', 'cs.CV', 'cs.CR', 'cs.DC', 'cs.DM', 'cs.DS',
+    'cs.ET', 'cs.FL', 'cs.GL', 'cs.GR', 'cs.GT', 'cs.HC', 'cs.IR', 'cs.IT',
+    'cs.LO', 'cs.MA', 'cs.MM', 'cs.MS', 'cs.NA', 'cs.NE', 'cs.NI', 'cs.OH',
+    'cs.OS', 'cs.PF', 'cs.PL', 'cs.RO', 'cs.SC', 'cs.SD', 'cs.SE', 'cs.SI',
+    'cs.SY'
+  ]),
   save: (categories) => setStorageItem(STORAGE_KEYS.CATEGORIES, categories)
 };
 
@@ -126,7 +132,7 @@ export const aiServiceStorage = {
  * RSS 옵션 관련 스토리지 함수들
  */
 export const rssStorage = {
-  load: () => getStorageItem(STORAGE_KEYS.USE_RSS, false),
+  load: () => getStorageItem(STORAGE_KEYS.USE_RSS, true), // RSS를 기본값으로 설정
   save: (useRss) => setStorageItem(STORAGE_KEYS.USE_RSS, useRss)
 };
 

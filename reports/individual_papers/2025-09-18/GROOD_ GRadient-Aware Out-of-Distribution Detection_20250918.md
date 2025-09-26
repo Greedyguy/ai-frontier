@@ -1,3 +1,35 @@
+---
+keywords:
+  - Out-of-Distribution Detection
+  - Gradient-Aware Methods
+  - Neural Networks
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2312.14427
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:27:17.326233",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Out-of-Distribution Detection",
+    "Gradient-Aware Methods",
+    "Neural Networks"
+  ],
+  "rejected_keywords": [
+    "Prototype-Driven Approaches"
+  ],
+  "similarity_scores": {
+    "Out-of-Distribution Detection": 0.78,
+    "Gradient-Aware Methods": 0.75,
+    "Neural Networks": 0.65
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # GROOD: GRadient-Aware Out-of-Distribution Detection
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Prototype-driven Approaches
+**🌐 Broad Technical**: [[keywords/Neural Networks|Deep Neural Networks]]
+**⚡ Unique Technical**: [[keywords/Out-of-Distribution Detection|Out-of-Distribution Detection]], [[keywords/Gradient-Aware Methods|Gradient-Aware Methods]]
 
 ## 🔗 유사한 논문
 - [[DiffGAN_A_Test_Generation_Approach_for_Differential_Testing_of_Deep_Neural_Networks_for_Image_Analysis_20250918|DiffGAN: A Test Generation Approach for Differential Testing of Deep Neural Networks for Image Analysis]] (79.1% similar)

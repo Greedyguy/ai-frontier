@@ -1,3 +1,35 @@
+---
+keywords:
+  - Retrieval-Augmented Generation
+  - Large Language Models
+  - Workflow Provenance
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13978
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:23:51.562268",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Retrieval-Augmented Generation",
+    "Large Language Models",
+    "Workflow Provenance"
+  ],
+  "rejected_keywords": [
+    "Modular Design"
+  ],
+  "similarity_scores": {
+    "Retrieval-Augmented Generation": 0.78,
+    "Large Language Models": 0.8,
+    "Workflow Provenance": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # LLM Agents for Interactive Workflow Provenance: Reference Architecture and Evaluation Methodology
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Modular Design for LLM Agents
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Large Language Model agents]]
+**⚡ Unique Technical**: [[keywords/Workflow Provenance|workflow provenance]]
+**🚀 Evolved Concepts**: [[keywords/Retrieval-Augmented Generation|Retrieval-Augmented Generation]]
 
 ## 🔗 유사한 논문
 - [[An LLM Agentic Approach for Legal-Critical Software A Case Study for Tax Prep Software]] (83.5% similar)

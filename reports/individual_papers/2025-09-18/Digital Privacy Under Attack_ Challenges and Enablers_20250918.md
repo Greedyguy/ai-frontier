@@ -1,3 +1,35 @@
+---
+keywords:
+  - Privacy Preservation
+  - Privacy Attacks
+  - Privacy-Preserving Models
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2302.09258
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:32:45.212951",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Privacy Preservation",
+    "Privacy Attacks",
+    "Privacy-Preserving Models"
+  ],
+  "rejected_keywords": [
+    "Anonymous Data"
+  ],
+  "similarity_scores": {
+    "Privacy Preservation": 0.85,
+    "Privacy Attacks": 0.82,
+    "Privacy-Preserving Models": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Digital Privacy Under Attack: Challenges and Enablers
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Privacy Awareness
+**🔗 Specific Connectable**: [[keywords/Privacy-Preserving Models|privacy-preserving models]]
+**⚡ Unique Technical**: [[keywords/Privacy Preservation|privacy preservation]], [[keywords/Privacy Attacks|privacy attacks]]
 
 ## 🔗 유사한 논문
 - [[AI For Privacy in Smart Homes: Exploring How Leveraging AI-Powered Smart Devices Enhances Privacy Protection]] (82.8% similar)

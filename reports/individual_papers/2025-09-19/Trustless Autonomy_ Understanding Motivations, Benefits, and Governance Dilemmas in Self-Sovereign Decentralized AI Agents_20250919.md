@@ -1,3 +1,36 @@
+---
+keywords:
+  - Large Language Models
+  - Decentralized AI Agents
+  - Blockchain Smart Contracts
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2505.09757
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:20:00.722607",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Decentralized AI Agents",
+    "Blockchain Smart Contracts"
+  ],
+  "rejected_keywords": [
+    "Trusted Execution Environments",
+    "Self-Sovereignty"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.85,
+    "Decentralized AI Agents": 0.78,
+    "Blockchain Smart Contracts": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Trustless Autonomy: Understanding Motivations, Benefits, and Governance Dilemmas in Self-Sovereign Decentralized AI Agents
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Intelligence as Commons
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Large Language Models]], [[keywords/Blockchain Smart Contracts|Blockchain Smart Contracts]]
+**⚡ Unique Technical**: [[keywords/Decentralized AI Agents|Decentralized AI Agents]]
 
 ## 🔗 유사한 논문
 - [[Agentic JWT A Secure Delegation Protocol for Autonomous AI Agents]] (83.0% similar)

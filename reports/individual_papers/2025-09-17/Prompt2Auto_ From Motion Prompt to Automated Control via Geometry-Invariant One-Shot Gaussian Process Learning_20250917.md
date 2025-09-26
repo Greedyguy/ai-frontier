@@ -1,3 +1,35 @@
+---
+keywords:
+  - Multi-Modal Learning
+  - Reinforcement Learning
+  - Few-Shot Learning
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:47:46.187193",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Multi-Modal Learning",
+    "Reinforcement Learning",
+    "Few-Shot Learning"
+  ],
+  "rejected_keywords": [
+    "Optimization"
+  ],
+  "similarity_scores": {
+    "Multi-Modal Learning": 0.79,
+    "Reinforcement Learning": 0.78,
+    "Few-Shot Learning": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Prompt2Auto: From Motion Prompt to Automated Control via Geometry-Invariant One-Shot Gaussian Process Learning
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Zewen Yang|Zewen Yang]] [[authors/Xiaobing Dai|Xiaobing Dai]] [[authors/Dongfa Zhang|Dongfa Zhang]] [[authors/Yu Li|Yu Li]] [[authors/Ziyang Meng|Ziyang Meng]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔬 Broad Technical**: Gaussian Process, Learning from Demonstration
+**🔗 Specific Connectable**: [[keywords/Reinforcement Learning|learning from demonstration]], [[keywords/Few-Shot Learning|geometry-invariant one-shot Gaussian process]]
+**🚀 Evolved Concepts**: [[keywords/Multi-Modal Learning|multi-skill autonomy]]
 
 ## 🔗 유사한 논문
 - [[GWM Towards Scalable Gaussian World Models for Robotic Manipulation]] (80.4% similar)

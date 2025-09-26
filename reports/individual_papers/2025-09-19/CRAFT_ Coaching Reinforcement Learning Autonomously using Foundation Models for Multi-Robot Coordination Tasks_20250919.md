@@ -1,3 +1,35 @@
+---
+keywords:
+  - Reinforcement Learning
+  - Large Language Models
+  - Vision Transformers
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14380
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:54:13.423872",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Reinforcement Learning",
+    "Large Language Models",
+    "Vision Transformers"
+  ],
+  "rejected_keywords": [
+    "Foundation Models"
+  ],
+  "similarity_scores": {
+    "Reinforcement Learning": 0.8,
+    "Large Language Models": 0.82,
+    "Vision Transformers": 0.79
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # CRAFT: Coaching Reinforcement Learning Autonomously using Foundation Models for Multi-Robot Coordination Tasks
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Multi-Robot Coordination
+**🔗 Specific Connectable**: [[keywords/Reinforcement Learning|Multi-Agent Reinforcement Learning]], [[keywords/Vision Transformers|Vision Language Model]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[LEED A Highly Efficient and Scalable LLM-Empowered Expert Demonstrations Framework for Multi-Agent Reinforcement Learning]] (84.2% similar)

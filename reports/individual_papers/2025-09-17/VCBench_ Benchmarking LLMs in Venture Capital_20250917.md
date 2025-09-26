@@ -1,13 +1,48 @@
+---
+keywords:
+  - Artificial General Intelligence
+  - Large Language Models
+  - Venture Capital
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:43:11.090080",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Artificial General Intelligence",
+    "Large Language Models",
+    "Venture Capital"
+  ],
+  "rejected_keywords": [
+    "Benchmarking",
+    "Privacy-Preserving Evaluation"
+  ],
+  "similarity_scores": {
+    "Artificial General Intelligence": 0.78,
+    "Large Language Models": 0.8,
+    "Venture Capital": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # VCBench: Benchmarking LLMs in Venture Capital
 
 **Korean Title:** VCBench: 벤처 캐피탈에서 대형 언어 모델(LLM) 벤치마킹
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Rick Chen|Rick Chen]] [[authors/Joseph Ternasky|Joseph Ternasky]] [[authors/Afriyie Samuel Kwesi|Afriyie Samuel Kwesi]] [[authors/Ben Griffin|Ben Griffin]] [[authors/Aaron Ontoyin Yin|Aaron Ontoyin Yin]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Benchmarking
+**🌐 Broad Technical**: [[keywords/Artificial General Intelligence|Artificial General Intelligence]]
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Large Language Models]]
+**⚡ Unique Technical**: [[keywords/Venture Capital|Venture Capital]]
 
 ## 🔗 유사한 논문
 - [[Rationality Check! Benchmarking the Rationality of Large Language Models_20250919|Rationality Check! Benchmarking the Rationality of Large Language Models]] (82.7% similar)

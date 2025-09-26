@@ -1,3 +1,35 @@
+---
+keywords:
+  - Thermal Energy Storage
+  - Cooling Load Prediction
+  - Time-of-Use Tariff
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13371
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:41:39.025521",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Thermal Energy Storage",
+    "Cooling Load Prediction",
+    "Time-of-Use Tariff"
+  ],
+  "rejected_keywords": [
+    "Optimization"
+  ],
+  "similarity_scores": {
+    "Thermal Energy Storage": 0.85,
+    "Cooling Load Prediction": 0.8,
+    "Time-of-Use Tariff": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # A novel approach of day-ahead cooling load prediction and optimal control for ice-based thermal energy storage (TES) system in commercial buildings
 
@@ -5,10 +37,10 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔬 Broad Technical**: Thermal Energy Storage, Building Automation System
+**⚡ Unique Technical**: [[keywords/Thermal Energy Storage|Thermal Energy Storage]], [[keywords/Cooling Load Prediction|Cooling Load Prediction]], [[keywords/Time-of-Use Tariff|Time-of-Use Tariff]]
 
 ## 🔗 유사한 논문
 - [[Privacy-Preserving Uncertainty Disclosure for Facilitating Enhanced Energy Storage Dispatch]] (76.1% similar)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - Large Language Models
+  - Prompt Injection Attacks
+  - Multi-Agent Defense Framework
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14285
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:00:15.616202",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Prompt Injection Attacks",
+    "Multi-Agent Defense Framework"
+  ],
+  "rejected_keywords": [
+    "Hierarchical Coordinator-Based System"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.85,
+    "Prompt Injection Attacks": 0.8,
+    "Multi-Agent Defense Framework": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # A Multi-Agent LLM Defense Pipeline Against Prompt Injection Attacks
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Hierarchical Coordinator System
+**🌐 Broad Technical**: [[keywords/Large Language Models|Large Language Models]]
+**⚡ Unique Technical**: [[keywords/Prompt Injection Attacks|Prompt Injection Attacks]], [[keywords/Multi-Agent Defense Framework|Multi-Agent Defense Framework]]
 
 ## 🔗 유사한 논문
 - [[Sentinel_Agents_for_Secure_and_Trustworthy_Agentic_AI_in_Multi-Agent_Systems_20250919|Sentinel Agents for Secure and Trustworthy Agentic AI in Multi-Agent Systems]] (87.6% similar)

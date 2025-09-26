@@ -1,3 +1,35 @@
+---
+keywords:
+  - Natural Language Processing
+  - Large Language Models
+  - Multi-Modal Learning
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13696
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:24:57.969131",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Natural Language Processing",
+    "Large Language Models",
+    "Multi-Modal Learning"
+  ],
+  "rejected_keywords": [
+    "Time Series"
+  ],
+  "similarity_scores": {
+    "Natural Language Processing": 0.85,
+    "Large Language Models": 0.8,
+    "Multi-Modal Learning": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Integrating Text and Time-Series into (Large) Language Models to Predict Medical Outcomes
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Jointly Processing Clinical Notes and Structured EHR Inputs
+**🌐 Broad Technical**: [[keywords/Natural Language Processing|Natural Language Processing]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]], [[keywords/Multi-Modal Learning|Multi-Modal Learning]]
 
 ## 🔗 유사한 논문
 - [[A Comprehensive Survey on the Trustworthiness of Large Language Models in Healthcare]] (82.8% similar)

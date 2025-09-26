@@ -1,13 +1,46 @@
+---
+keywords:
+  - Diffusion Models
+  - Text-guided Audio Editing
+  - Rectified Flow Matching
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:46:43.212995",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Diffusion Models",
+    "Text-guided Audio Editing",
+    "Rectified Flow Matching"
+  ],
+  "rejected_keywords": [
+    "Generative Models"
+  ],
+  "similarity_scores": {
+    "Diffusion Models": 0.8,
+    "Text-guided Audio Editing": 0.78,
+    "Rectified Flow Matching": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # RFM-Editing: Rectified Flow Matching for Text-guided Audio Editing
 
 **Korean Title:** RFM-편집: 텍스트 기반 오디오 편집을 위한 수정된 흐름 매칭
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Liting Gao|Liting Gao]] [[authors/Yi Yuan|Yi Yuan]] [[authors/Yaru Chen|Yaru Chen]] [[authors/Yuelan Cheng|Yuelan Cheng]] [[authors/Zhenbo Li|Zhenbo Li]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Text Guided Audio Editing
+**🔗 Specific Connectable**: [[keywords/Diffusion Models|Diffusion models]]
+**⚡ Unique Technical**: [[keywords/Text-guided Audio Editing|Text-guided audio editing]], [[keywords/Rectified Flow Matching|Rectified flow matching]]
 
 ## 🔗 유사한 논문
 - [[Mitigating data replication in text-to-audio generative diffusion models through anti-memorization guidance_20250919|Mitigating data replication in text-to-audio generative diffusion models through anti-memorization guidance]] (82.4% similar)

@@ -1,13 +1,46 @@
+---
+keywords:
+  - Diffusion Models
+  - Force-Torque Features
+  - AnoF-Diff
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:39:51.338542",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Diffusion Models",
+    "Force-Torque Features",
+    "AnoF-Diff"
+  ],
+  "rejected_keywords": [
+    "Multivariate Time-Series Anomaly Detection"
+  ],
+  "similarity_scores": {
+    "Diffusion Models": 0.8,
+    "Force-Torque Features": 0.75,
+    "AnoF-Diff": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # AnoF-Diff: One-Step Diffusion-Based Anomaly Detection for Forceful Tool Use
 
 **Korean Title:** AnoF-Diff: 강제적 도구 사용을 위한 일단계 확산 기반 이상 탐지
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Yating Lin|Yating Lin]] [[authors/Zixuan Huang|Zixuan Huang]] [[authors/Fan Yang|Fan Yang]] [[authors/Dmitry Berenson|Dmitry Berenson]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]       [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Diffusion-Based Anomaly Detection
+**🔗 Specific Connectable**: [[keywords/Diffusion Models|Diffusion Model]]
+**⚡ Unique Technical**: [[keywords/Force-Torque Features|Force-Torque Features]], [[keywords/AnoF-Diff|AnoF-Diff]]
 
 ## 🔗 유사한 논문
 - [[ToolSample_ Dual Dynamic Sampling Methods with Curriculum Learning for RL-based Tool Learning_20250919|ToolSample Dual Dynamic Sampling Methods with Curriculum Learning for RL-based Tool Learning]] (79.4% similar)

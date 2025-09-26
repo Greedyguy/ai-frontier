@@ -1,13 +1,46 @@
+---
+keywords:
+  - Large Language Models
+  - Automated Issue Solving
+  - SWE-Bench
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 23:02:01.586834",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Automated Issue Solving",
+    "SWE-Bench"
+  ],
+  "rejected_keywords": [
+    "Expert-Executor Framework"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.82,
+    "Automated Issue Solving": 0.78,
+    "SWE-Bench": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # An Empirical Study on Failures in Automated Issue Solving
 
 **Korean Title:** 자동화된 문제 해결의 실패에 관한 실증적 연구
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Simiao Liu|Simiao Liu]] [[authors/Fang Liu|Fang Liu]] [[authors/Liehao Li|Liehao Li]] [[authors/Xin Tan|Xin Tan]] [[authors/Yinghao Zhu|Yinghao Zhu]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Agentic Tools, Pipeline-based Architectures
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Large Language Models]]
+**⚡ Unique Technical**: [[keywords/Automated Issue Solving|Automated Issue Solving]], [[keywords/SWE-Bench|SWE-Bench]]
 
 ## 🔗 유사한 논문
 - [[Detecting Pipeline Failures through Fine-Grained Analysis of Web Agents_20250919|Detecting Pipeline Failures through Fine-Grained Analysis of Web Agents]] (84.7% similar)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - Vision-and-Language Navigation
+  - Natural Language Processing
+  - Agricultural Robotic Agents
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.06644
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:22:29.907454",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Vision-and-Language Navigation",
+    "Natural Language Processing",
+    "Agricultural Robotic Agents"
+  ],
+  "rejected_keywords": [
+    "Instruction Translator"
+  ],
+  "similarity_scores": {
+    "Vision-and-Language Navigation": 0.78,
+    "Natural Language Processing": 0.7,
+    "Agricultural Robotic Agents": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # T-araVLN: Translator for Agricultural Robotic Agents on Vision-and-Language Navigation
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Agricultural Vision and Language Navigation
+**🌐 Broad Technical**: [[keywords/Natural Language Processing|Natural Language Instructions]]
+**⚡ Unique Technical**: [[keywords/Vision-and-Language Navigation|Vision-and-Language Navigation]], [[keywords/Agricultural Robotic Agents|Agricultural Robotic Agents]]
 
 ## 🔗 유사한 논문
 - [[FSR-VLN Fast and Slow Reasoning for Vision-Language Navigation with Hierarchical Multi-modal Scene Graph]] (83.5% similar)

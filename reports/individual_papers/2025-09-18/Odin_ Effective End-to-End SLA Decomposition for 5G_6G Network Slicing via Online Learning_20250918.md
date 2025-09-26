@@ -1,3 +1,35 @@
+---
+keywords:
+  - Network Slicing
+  - End-to-End Orchestration
+  - Service Level Agreement
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13511
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:17:38.545161",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Network Slicing",
+    "End-to-End Orchestration",
+    "Service Level Agreement"
+  ],
+  "rejected_keywords": [
+    "Optimization"
+  ],
+  "similarity_scores": {
+    "Network Slicing": 0.78,
+    "End-to-End Orchestration": 0.77,
+    "Service Level Agreement": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Odin: Effective End-to-End SLA Decomposition for 5G/6G Network Slicing via Online Learning
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: End-to-End SLA Decomposition
+**🌐 Broad Technical**: [[keywords/Service Level Agreement|Service Level Agreement]]
+**⚡ Unique Technical**: [[keywords/Network Slicing|Network Slicing]], [[keywords/End-to-End Orchestration|End-to-End Orchestrator]]
 
 ## 🔗 유사한 논문
 - [[Anomaly_Detection_in_Offshore_Open_Radio_Access_Network_Using_Long_Short-Term_Memory_Models_on_a_Novel_Artificial_Intelligence-Driven_Cloud-Native_Data_Platform_20250918|Anomaly Detection in Offshore Open Radio Access Network Using Long Short-Term Memory Models on a Novel Artificial Intelligence-Driven Cloud-Native Data Platform]] (79.7% similar)

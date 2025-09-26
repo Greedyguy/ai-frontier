@@ -1,13 +1,44 @@
+---
+keywords:
+  - Recommendation Systems
+  - Quantitative Bipolar Argumentation
+  - Set Contribution Functions
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:09:49.081202",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Recommendation Systems",
+    "Quantitative Bipolar Argumentation",
+    "Set Contribution Functions"
+  ],
+  "rejected_keywords": [],
+  "similarity_scores": {
+    "Recommendation Systems": 0.8,
+    "Quantitative Bipolar Argumentation": 0.78,
+    "Set Contribution Functions": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Set Contribution Functions for Quantitative Bipolar Argumentation and their Principles
 
 **Korean Title:** 정량적 양극성 논증을 위한 기여 함수 설정 및 그 원칙들
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Filip Naudot|Filip Naudot]] [[authors/Andreas Brännström|Andreas Brännström]] [[authors/Vicenç Torra|Vicenç Torra]] [[authors/Timotheus Kampik|Timotheus Kampik]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]       [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Principle-based Analysis
+**🌐 Broad Technical**: [[keywords/Recommendation Systems|recommendation system application]]
+**⚡ Unique Technical**: [[keywords/Quantitative Bipolar Argumentation|quantitative bipolar argumentation]], [[keywords/Set Contribution Functions|set contribution functions]]
 
 ## 🔗 유사한 논문
 - [[How Bad Is Forming Your Own Multidimensional Opinion_20250919|How Bad Is Forming Your Own Multidimensional Opinion]] (74.3% similar)

@@ -49,7 +49,7 @@ class ArxivPaper(BaseModel):
 class ArxivClient:
     """Client for interacting with ArXiv API."""
 
-    def __init__(self, max_results: int = 3000, use_rss: bool = False):
+    def __init__(self, max_results: int = 10000, use_rss: bool = False):
         self.max_results = max_results
         self.use_rss = use_rss
 
@@ -243,7 +243,7 @@ class ArxivClient:
         try:
             search = arxiv.Search(
                 query=search_query,
-                max_results=self.max_results,
+                max_results=10000,  # ArXiv 라이브러리 100개 제한 해결
                 sort_by=arxiv.SortCriterion.SubmittedDate,
                 sort_order=arxiv.SortOrder.Descending
             )
@@ -253,14 +253,14 @@ class ArxivClient:
             try:
                 search = arxiv.Search(
                     query=search_query,
-                    max_results=self.max_results
+                    max_results=10000  # ArXiv 라이브러리 100개 제한 해결
                 )
             except Exception as e2:
                 raise RuntimeError(f"arxiv.Search creation failed: {e2}. Please check arxiv library installation.")
 
         total_collected = 0
         processed_count = 0
-        max_processed = 5000  # Increased limit to get more results
+        max_processed = 15000  # 대폭 증가된 제한으로 30일 치 논문 수집 가능
 
         try:
             # Use client if available, otherwise direct search
@@ -355,6 +355,68 @@ class ArxivClient:
         print(f"Total collected: {len(papers)} papers")
         return papers
 
+    def search_by_id(self, arxiv_ids: List[str]) -> List[ArxivPaper]:
+        """Search for papers by their ArXiv IDs."""
+        if not arxiv_ids:
+            return []
+
+        papers = []
+
+        for arxiv_id in arxiv_ids:
+            try:
+                # Clean up the arxiv_id (remove v1, v2, etc.)
+                clean_id = re.sub(r'v\d+$', '', arxiv_id)
+
+                # Create search for specific ID
+                search_query = f"id:{clean_id}"
+
+                try:
+                    search = arxiv.Search(
+                        query=search_query,
+                        max_results=1
+                    )
+                except Exception as e:
+                    print(f"Failed to create search for {arxiv_id}: {e}")
+                    continue
+
+                # Get results
+                try:
+                    if self.use_client and self.client:
+                        results_iter = self.client.results(search)
+                    else:
+                        import warnings
+                        with warnings.catch_warnings():
+                            warnings.simplefilter("ignore", DeprecationWarning)
+                            results_iter = search.results()
+
+                    for result in results_iter:
+                        published_date = result.published
+                        if published_date.tzinfo is None:
+                            published_date = published_date.replace(tzinfo=timezone.utc)
+
+                        paper = ArxivPaper(
+                            title=result.title,
+                            abstract=result.summary,
+                            authors=[author.name for author in result.authors],
+                            arxiv_id=result.get_short_id(),
+                            published=published_date,
+                            updated=result.updated,
+                            pdf_url=result.pdf_url,
+                            category=result.primary_category
+                        )
+                        papers.append(paper)
+                        break  # Only need the first result
+
+                except Exception as e:
+                    print(f"Failed to get results for {arxiv_id}: {e}")
+                    continue
+
+            except Exception as e:
+                print(f"Error searching for {arxiv_id}: {e}")
+                continue
+
+        return papers
+
     def search_by_keywords_only(
         self,
         keywords: List[str],
@@ -420,7 +482,7 @@ class ArxivClient:
         try:
             search = arxiv.Search(
                 query=search_query,
-                max_results=self.max_results,
+                max_results=10000,  # ArXiv 라이브러리 100개 제한 해결
                 sort_by=arxiv.SortCriterion.SubmittedDate,
                 sort_order=arxiv.SortOrder.Descending
             )
@@ -430,14 +492,14 @@ class ArxivClient:
             try:
                 search = arxiv.Search(
                     query=search_query,
-                    max_results=self.max_results
+                    max_results=10000  # ArXiv 라이브러리 100개 제한 해결
                 )
             except Exception as e2:
                 raise RuntimeError(f"arxiv.Search creation failed: {e2}. Please check arxiv library installation.")
 
         total_collected = 0
         processed_count = 0
-        max_processed = 5000  # Increased limit to get more results
+        max_processed = 15000  # 대폭 증가된 제한으로 30일 치 논문 수집 가능
 
         try:
             # Use client if available, otherwise direct search
@@ -529,4 +591,66 @@ class ArxivClient:
                     return []
 
         print(f"Total collected: {len(papers)} papers")
+        return papers
+
+    def search_by_id(self, arxiv_ids: List[str]) -> List[ArxivPaper]:
+        """Search for papers by their ArXiv IDs."""
+        if not arxiv_ids:
+            return []
+
+        papers = []
+
+        for arxiv_id in arxiv_ids:
+            try:
+                # Clean up the arxiv_id (remove v1, v2, etc.)
+                clean_id = re.sub(r'v\d+$', '', arxiv_id)
+
+                # Create search for specific ID
+                search_query = f"id:{clean_id}"
+
+                try:
+                    search = arxiv.Search(
+                        query=search_query,
+                        max_results=1
+                    )
+                except Exception as e:
+                    print(f"Failed to create search for {arxiv_id}: {e}")
+                    continue
+
+                # Get results
+                try:
+                    if self.use_client and self.client:
+                        results_iter = self.client.results(search)
+                    else:
+                        import warnings
+                        with warnings.catch_warnings():
+                            warnings.simplefilter("ignore", DeprecationWarning)
+                            results_iter = search.results()
+
+                    for result in results_iter:
+                        published_date = result.published
+                        if published_date.tzinfo is None:
+                            published_date = published_date.replace(tzinfo=timezone.utc)
+
+                        paper = ArxivPaper(
+                            title=result.title,
+                            abstract=result.summary,
+                            authors=[author.name for author in result.authors],
+                            arxiv_id=result.get_short_id(),
+                            published=published_date,
+                            updated=result.updated,
+                            pdf_url=result.pdf_url,
+                            category=result.primary_category
+                        )
+                        papers.append(paper)
+                        break  # Only need the first result
+
+                except Exception as e:
+                    print(f"Failed to get results for {arxiv_id}: {e}")
+                    continue
+
+            except Exception as e:
+                print(f"Error searching for {arxiv_id}: {e}")
+                continue
+
         return papers

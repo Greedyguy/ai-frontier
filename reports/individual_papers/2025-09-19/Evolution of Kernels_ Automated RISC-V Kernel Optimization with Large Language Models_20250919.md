@@ -1,3 +1,35 @@
+---
+keywords:
+  - Large Language Models
+  - RISC-V Kernel Optimization
+  - Evolution of Kernels
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14265
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:44:58.292762",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "RISC-V Kernel Optimization",
+    "Evolution of Kernels"
+  ],
+  "rejected_keywords": [
+    "Retrieval-Augmented Generation"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "RISC-V Kernel Optimization": 0.78,
+    "Evolution of Kernels": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Evolution of Kernels: Automated RISC-V Kernel Optimization with Large Language Models
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Retrieval-Augmented Generation
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Large Language Models]]
+**⚡ Unique Technical**: [[keywords/RISC-V Kernel Optimization|RISC-V Kernel Optimization]], [[keywords/Evolution of Kernels|Evolution of Kernels]]
 
 ## 🔗 유사한 논문
 - [[LLM-I LLMs are Naturally Interleaved Multimodal Creators]] (81.1% similar)

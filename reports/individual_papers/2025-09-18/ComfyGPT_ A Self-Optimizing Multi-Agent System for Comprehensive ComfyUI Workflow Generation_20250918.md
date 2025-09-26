@@ -1,3 +1,35 @@
+---
+keywords:
+  - Reinforcement Learning
+  - Multi-Agent System
+  - Workflow Generation
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2503.17671
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:35:00.008280",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Reinforcement Learning",
+    "Multi-Agent System",
+    "Workflow Generation"
+  ],
+  "rejected_keywords": [
+    "Large-Scale Dataset"
+  ],
+  "similarity_scores": {
+    "Reinforcement Learning": 0.8,
+    "Multi-Agent System": 0.75,
+    "Workflow Generation": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # ComfyGPT: A Self-Optimizing Multi-Agent System for Comprehensive ComfyUI Workflow Generation
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Multi-agent Workflow Generation
+**🔗 Specific Connectable**: [[keywords/Reinforcement Learning|Reinforcement Learning]]
+**⚡ Unique Technical**: [[keywords/Multi-Agent System|Multi-Agent System]], [[keywords/Workflow Generation|Workflow Generation]]
 
 ## 🔗 유사한 논문
 - [[LLM-I LLMs are Naturally Interleaved Multimodal Creators]] (80.9% similar)

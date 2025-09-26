@@ -1,13 +1,46 @@
+---
+keywords:
+  - Graph Neural Networks
+  - Reinforcement Learning
+  - Optimization
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:49:40.664945",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Graph Neural Networks",
+    "Reinforcement Learning",
+    "Optimization"
+  ],
+  "rejected_keywords": [
+    "Near-Real-Time RAN Intelligent Controller"
+  ],
+  "similarity_scores": {
+    "Graph Neural Networks": 0.78,
+    "Reinforcement Learning": 0.8,
+    "Optimization": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Near-Real-Time Resource Slicing for QoS Optimization in 5G O-RAN using Deep Reinforcement Learning
 
 **Korean Title:** 5G O-RAN에서 심층 강화 학습을 이용한 QoS 최적화를 위한 거의 실시간 자원 슬라이싱
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Peihao Yan|Peihao Yan]] [[authors/Jie Lu|Jie Lu]] [[authors/Huacheng Zeng|Huacheng Zeng]] [[authors/Y. Thomas Hou|Y. Thomas Hou]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]       [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Actor-Critic Model, Regret Minimization
+**🌐 Broad Technical**: [[keywords/Optimization|Quality-of-Service Optimization]]
+**🔗 Specific Connectable**: [[keywords/Graph Neural Networks|Graph Convolutional Network]], [[keywords/Reinforcement Learning|Deep Reinforcement Learning]]
 
 ## 🔗 유사한 논문
 - [[An Explainable AI Framework for Dynamic Resource Management in Vehicular Network Slicing_20250919|An Explainable AI Framework for Dynamic Resource Management in Vehicular Network Slicing]] (85.2% similar)

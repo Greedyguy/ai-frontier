@@ -1,3 +1,36 @@
+---
+keywords:
+  - Reinforcement Learning
+  - Large Language Models
+  - Stochastic Mirror Descent
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 23:02:44.946675",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Reinforcement Learning",
+    "Large Language Models",
+    "Stochastic Mirror Descent"
+  ],
+  "rejected_keywords": [
+    "Bregman Geometry",
+    "Natural Gradient Descent"
+  ],
+  "similarity_scores": {
+    "Reinforcement Learning": 0.78,
+    "Large Language Models": 0.8,
+    "Stochastic Mirror Descent": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # A Universal Banach--Bregman Framework for Stochastic Iterations: Unifying Stochastic Mirror Descent, Learning and LLM Training
 
@@ -5,10 +38,10 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Johnny R. Zhang|Johnny R. Zhang]] [[authors/Xiaomei Mi|Xiaomei Mi]] [[authors/Gaoyuan Du|Gaoyuan Du]] [[authors/Qianyi Sun|Qianyi Sun]] [[authors/Shiqi Wang|Shiqi Wang]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔬 Broad Technical**: Stochastic optimization, Banach spaces
+**🔗 Specific Connectable**: [[keywords/Reinforcement Learning|Reinforcement Learning]], [[keywords/Stochastic Mirror Descent|Stochastic Mirror Descent]]
 
 ## 🔗 유사한 논문
 - [[Learning quantum many-body data locally A provably scalable framework]] (78.1% similar)

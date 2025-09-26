@@ -1,3 +1,35 @@
+---
+keywords:
+  - Transformer Architecture
+  - Uncertainty Quantification
+  - Data Quality Monitoring
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2501.19237
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:50:20.864051",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Transformer Architecture",
+    "Uncertainty Quantification",
+    "Data Quality Monitoring"
+  ],
+  "rejected_keywords": [
+    "Exponentially Weighted Moving Average"
+  ],
+  "similarity_scores": {
+    "Transformer Architecture": 0.8,
+    "Uncertainty Quantification": 0.78,
+    "Data Quality Monitoring": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # DINAMO: Dynamic and INterpretable Anomaly MOnitoring for Large-Scale Particle Physics Experiments
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Transformer Encoder, Exponentially Weighted Moving Average
+**🔗 Specific Connectable**: [[keywords/Transformer Architecture|transformer encoder]], [[keywords/Uncertainty Quantification|Uncertainty Quantification]]
+**⚡ Unique Technical**: [[keywords/Data Quality Monitoring|Data Quality Monitoring]]
 
 ## 🔗 유사한 논문
 - [[Spatio-Temporal Anomaly Detection with Graph Networks for Data Quality Monitoring of the Hadron Calorimeter_20250919|Spatio-Temporal Anomaly Detection with Graph Networks for Data Quality Monitoring of the Hadron Calorimeter]] (81.9% similar)

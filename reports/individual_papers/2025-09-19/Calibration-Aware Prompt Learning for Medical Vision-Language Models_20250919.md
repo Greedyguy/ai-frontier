@@ -1,3 +1,35 @@
+---
+keywords:
+  - Multi-Modal Learning
+  - Optimization
+  - Uncertainty Quantification
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.15226
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:53:57.955483",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Multi-Modal Learning",
+    "Optimization",
+    "Uncertainty Quantification"
+  ],
+  "rejected_keywords": [
+    "Few-Shot Learning"
+  ],
+  "similarity_scores": {
+    "Multi-Modal Learning": 0.82,
+    "Optimization": 0.75,
+    "Uncertainty Quantification": 0.79
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Calibration-Aware Prompt Learning for Medical Vision-Language Models
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Medical Vision-Language Models
+**🌐 Broad Technical**: [[keywords/Optimization|angular separation loss]]
+**🔗 Specific Connectable**: [[keywords/Multi-Modal Learning|Medical Vision-Language Models]], [[keywords/Uncertainty Quantification|confidence calibration]]
 
 ## 🔗 유사한 논문
 - [[MedVAL Toward Expert-Level Medical Text Validation with Language Models]] (85.0% similar)

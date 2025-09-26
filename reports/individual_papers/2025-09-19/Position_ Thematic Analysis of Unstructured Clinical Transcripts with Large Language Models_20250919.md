@@ -1,3 +1,35 @@
+---
+keywords:
+  - Large Language Models
+  - Thematic Analysis
+  - Evaluation Framework
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14597
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:29:11.020262",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Thematic Analysis",
+    "Evaluation Framework"
+  ],
+  "rejected_keywords": [
+    "Natural Language Processing"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Thematic Analysis": 0.75,
+    "Evaluation Framework": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Position: Thematic Analysis of Unstructured Clinical Transcripts with Large Language Models
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Standardized Evaluation Framework
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Large Language Models]]
+**⚡ Unique Technical**: [[keywords/Thematic Analysis|Thematic Analysis]], [[keywords/Evaluation Framework|Evaluation Framework]]
 
 ## 🔗 유사한 논문
 - [[A Comprehensive Survey on the Trustworthiness of Large Language Models in Healthcare]] (88.0% similar)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - Graph Neural Networks
+  - Large Language Models
+  - Retrieval-Augmented Generation
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14267
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:41:22.649305",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Graph Neural Networks",
+    "Large Language Models",
+    "Retrieval-Augmented Generation"
+  ],
+  "rejected_keywords": [
+    "Answer Synthesis Algorithm"
+  ],
+  "similarity_scores": {
+    "Graph Neural Networks": 0.8,
+    "Large Language Models": 0.85,
+    "Retrieval-Augmented Generation": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Graph-Enhanced Retrieval-Augmented Question Answering for E-Commerce Customer Support
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Knowledge-Augmented RAG
+**🔗 Specific Connectable**: [[keywords/Graph Neural Networks|knowledge graphs]]
+**⚡ Unique Technical**: [[keywords/Retrieval-Augmented Generation|retrieval-augmented generation]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|large language models]]
 
 ## 🔗 유사한 논문
 - [[Enhancing_Retrieval_Augmentation_via_Adversarial_Collaboration_20250919|Enhancing Retrieval Augmentation via Adversarial Collaboration]] (84.8% similar)

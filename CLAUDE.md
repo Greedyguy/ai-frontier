@@ -205,8 +205,14 @@ python -m ai_frontier.main --categories cs.AI cs.LG cs.CV cs.CL cs.CR cs.DC --st
 - `src/ai_frontier/reporting/`: 보고서 생성 및 포맷팅
   - `generator.py`: 마크다운 보고서 생성기
 - `src/ai_frontier/utils/`: 유틸리티 함수 및 헬퍼
+- `src/ai_frontier/search/`: RAG 검색 시스템 (2025-09-19 추가)
+  - `rag_service.py`: 시맨틱 검색 서비스
+- `src/ai_frontier/embeddings/`: 벡터 임베딩 관리
+  - `service.py`: 임베딩 생성 서비스
+  - `vector_db.py`: FAISS 벡터 데이터베이스
 - `frontend/`: React 프론트엔드 애플리케이션
   - `src/`: React 컴포넌트 및 서비스
+  - `src/components/PaperSearch.jsx`: RAG 검색 UI 컴포넌트
   - `src/services/api.js`: 백엔드 API 클라이언트
 - `tests/`: pytest 테스트 파일
 
@@ -284,7 +290,26 @@ black src/ tests/ && isort src/ tests/ && flake8 src/ tests/ && mypy src/
 5. 테스트 실행: `pytest`
 6. 커밋 및 풀 리퀘스트 생성
 
-## 최신 기능 (2025-09-18 업데이트)
+## 최신 기능 (2025-09-25 업데이트)
+
+### 📧 알림 시스템 고도화 (2025-09-25)
+- **일간+주간 통합 구독**: 하나의 선택으로 일간과 주간 다이제스트 모두 수신
+- **키워드 기반 맞춤 알림**: 특정 키워드 관련 논문만 필터링하여 수신
+- **통합 구독자 관리**: 일반/키워드 구독자를 통합 인터페이스에서 관리
+- **구독 정보 편집**: 웹 UI에서 키워드, 다이제스트 타입 실시간 수정 가능
+- **중복 알림 방지**: 시간 기반 중복 체크로 같은 다이제스트 중복 발송 방지
+
+### 🔗 Obsidian Properties 지원 (2025-09-25)
+- **YAML Frontmatter**: 모든 논문 파일에 Obsidian 호환 메타데이터 추가
+- **자동 속성 생성**: keywords, category, publish_date, arxiv_id 자동 포함
+- **기존 파일 업데이트**: 기존 2,500여개 논문 파일에 Properties 일괄 적용
+
+### 🚫 번역 기능 제거 (2025-09-25)
+- **성능 최적화**: 번역 과정 생략으로 논문 수집 속도 대폭 향상
+- **비용 절약**: OpenAI API 호출량 감소로 운영 비용 절약
+- **깔끔한 출력**: 한국어 섹션 완전 제거로 보고서 가독성 개선
+
+## 이전 기능 (2025-09-18 업데이트)
 
 ### 🔗 Obsidian 링크 자동 생성
 - **자동 키워드 추출**: 논문 제목과 초록에서 AI/ML 관련 키워드 자동 추출
@@ -348,6 +373,33 @@ python -m ai_frontier.main --generate-digest weekly --digest-date 20250915
 - **OR 검색 지원**: 여러 키워드 중 하나라도 매칭되면 수집
 - **자동 키워드 추출**: 더 이상 수동 입력 불필요, AI가 논문에서 자동 추출
 - **스마트 키워드**: 기술 용어, 약어, 인용구 등 포괄적 추출
+
+### 🔍 RAG 검색 시스템 (2025-09-19 추가)
+벡터 데이터베이스를 활용한 시맨틱 논문 검색 기능이 추가되었습니다.
+
+#### 주요 기능
+- **시맨틱 검색**: OpenAI 임베딩을 이용한 의미 기반 논문 검색
+- **고급 필터링**: 카테고리, 날짜 범위, 유사도 임계값 조건 지원
+- **페이지네이션**: 10개씩 페이지 단위로 최대 100개 결과 표시
+- **유사 논문 검색**: 특정 논문과 유사한 논문 자동 발견
+- **검색어 제안**: AI 기반 검색어 개선 제안 기능
+
+#### 기술 구성
+- **백엔드**: FAISS 벡터 데이터베이스 + OpenAI text-embedding-3-small
+- **프론트엔드**: React 컴포넌트로 직관적인 검색 인터페이스 제공
+- **API**: RESTful 엔드포인트로 검색 기능 제공
+
+#### 사용 방법
+1. 웹 인터페이스에서 "논문 검색" 탭 선택
+2. 키워드 또는 자연어 문장으로 검색 쿼리 입력
+3. 필터 설정 (카테고리, 날짜 범위, 유사도 임계값)
+4. 검색 실행 후 유사도 점수순으로 정렬된 결과 확인
+
+#### API 엔드포인트
+- `POST /api/search/papers`: 논문 검색
+- `POST /api/search/similar`: 유사 논문 검색
+- `GET /api/search/stats`: 데이터베이스 통계
+- `GET /api/search/suggestions`: 검색어 개선 제안
 
 ## 알려진 제한사항
 
@@ -416,6 +468,23 @@ python -m ai_frontier.main --generate-digest weekly --digest-date 20250915
 - `POST /api/digest/weekly?date=YYYYMMDD`: 주간 다이제스트 생성
 - `GET /api/digests`: 생성된 다이제스트 목록 조회
 
+### 알림 관리 (2025-09-19 추가)
+- `POST /api/notifications/email/subscribe`: 이메일 구독 추가
+- `POST /api/notifications/email/unsubscribe`: 이메일 구독 해제
+- `GET /api/notifications/email/subscribers`: 구독자 목록 조회
+- `POST /api/notifications/keywords/subscribe`: 키워드 기반 구독 추가
+- `DELETE /api/notifications/keywords/unsubscribe?email={email}`: 키워드 기반 구독 해제
+- `GET /api/notifications/keywords/subscribers`: 키워드 구독자 목록 조회
+- `GET /api/notifications/status`: 알림 서비스 상태 조회
+- `POST /api/notifications/test`: 알림 서비스 연결 테스트
+- `POST /api/notifications/send/digest`: 다이제스트 알림 수동 전송
+
+### RAG 검색 관련 (2025-09-19 추가)
+- `POST /api/search/papers`: 시맨틱 논문 검색
+- `POST /api/search/similar`: 유사 논문 검색
+- `GET /api/search/stats`: 벡터 데이터베이스 통계
+- `GET /api/search/suggestions`: 검색어 개선 제안
+
 ### 파일 관리
 - `GET /api/download/{task_id}`: 보고서 다운로드
 - `GET /api/papers/{task_id}`: 수집된 논문 목록 조회
@@ -423,3 +492,112 @@ python -m ai_frontier.main --generate-digest weekly --digest-date 20250915
 
 ### 시스템
 - `GET /health`: 서버 상태 확인
+
+# 📧 알림 시스템 (2025-09-19 추가)
+
+## 개요
+일간/주간 다이제스트가 생성될 때 자동으로 이메일, 슬랙, 웹훅을 통해 알림을 전송하는 시스템이 추가되었습니다.
+
+## 설정 방법
+
+### 이메일 설정
+`.env` 파일에 다음 설정을 추가하세요:
+```env
+# 이메일 설정 (Gmail 예시)
+EMAIL_SMTP_SERVER=smtp.gmail.com
+EMAIL_SMTP_PORT=587
+EMAIL_USERNAME=your_email@gmail.com
+EMAIL_PASSWORD=your_app_password_here
+EMAIL_FROM_NAME=AI Frontier Reports
+EMAIL_USE_TLS=true
+
+# 자동 전송 설정
+AUTO_SEND_EMAIL=false
+```
+
+### 슬랙 설정
+슬랙 웹훅 URL을 설정하세요:
+```env
+SLACK_WEBHOOK_URL=https://hooks.slack.com/services/YOUR/SLACK/WEBHOOK
+SLACK_CHANNEL=#ai-frontier
+SLACK_BOT_NAME=AI Frontier Bot
+AUTO_SEND_SLACK=false
+```
+
+### 웹훅 설정 (n8n, Zapier 등)
+```env
+NOTIFICATION_WEBHOOKS=https://your-n8n-webhook.com/digest,https://another-webhook.com/notify
+```
+
+## 사용 방법
+
+### 웹 UI에서 알림 관리
+1. 웹 인터페이스 접속: http://localhost:3000
+2. "알림 설정" 탭 클릭
+3. 메일링 리스트 관리, 연결 테스트 등 수행
+
+### 메일링 리스트 관리
+- **일반 이메일 구독**: 일간/주간/일간+주간 다이제스트 구독자 추가/제거
+- **키워드 기반 구독**: 특정 키워드와 관련된 논문만 필터링하여 맞춤형 다이제스트 수신
+- **일간+주간 옵션**: 하나의 구독으로 일간과 주간 다이제스트를 모두 수신
+- **실시간 관리**: 구독자 목록 조회, 편집, 삭제 기능
+- **통합 관리**: 키워드 구독자도 일간/주간 목록에 함께 표시
+
+### API 엔드포인트
+```bash
+# 일반 이메일 구독 추가 (일간+주간 모두 받기)
+curl -X POST "http://localhost:8080/api/notifications/email/subscribe" \
+  -H "Content-Type: application/json" \
+  -d '{"email": "user@example.com", "digest_type": "daily"}'
+
+curl -X POST "http://localhost:8080/api/notifications/email/subscribe" \
+  -H "Content-Type: application/json" \
+  -d '{"email": "user@example.com", "digest_type": "weekly"}'
+
+# 키워드 기반 구독 추가 (특정 키워드 논문만)
+curl -X POST "http://localhost:8080/api/notifications/keywords/subscribe" \
+  -H "Content-Type: application/json" \
+  -d '{"email": "user@example.com", "keywords": ["transformer", "attention"], "digest_type": "daily"}'
+
+# 구독자 목록 조회
+curl "http://localhost:8080/api/notifications/email/subscribers"
+curl "http://localhost:8080/api/notifications/keywords/subscribers"
+
+# 연결 테스트
+curl -X POST "http://localhost:8080/api/notifications/test" \
+  -H "Content-Type: application/json" \
+  -d '{"test_email": true, "test_slack": true, "test_webhooks": true}'
+```
+
+### 자동 전송
+- `AUTO_SEND_EMAIL=true`: 다이제스트 생성 시 자동으로 구독자에게 이메일 전송
+- `AUTO_SEND_SLACK=true`: 다이제스트 생성 시 자동으로 슬랙 채널에 알림 전송
+- 웹훅은 항상 자동 전송됨 (n8n, Zapier 등 자동화 도구용)
+
+### 알림 내용
+- **이메일**: 다이제스트 전문과 첨부 파일 포함
+- **슬랙**: 요약 정보와 주요 논문 목록
+- **웹훅**: JSON 형태의 메타데이터와 통계 정보
+
+## n8n 연동 예시
+웹훅을 통해 n8n에서 다이제스트 생성 알림을 받아 추가 작업을 수행할 수 있습니다:
+
+```json
+{
+  "event_type": "digest_generated",
+  "digest_type": "daily",
+  "digest_date": "2025-09-19",
+  "timestamp": "2025-09-19T09:00:00Z",
+  "file_info": {
+    "filename": "daily_digest_20250919.md",
+    "filepath": "/path/to/digest.md",
+    "size_bytes": 15420
+  },
+  "statistics": {
+    "total_papers": 25,
+    "categories": ["Computer Vision", "Natural Language Processing"],
+    "word_count": 2840,
+    "char_count": 15420
+  },
+  "source": "ai_frontier"
+}

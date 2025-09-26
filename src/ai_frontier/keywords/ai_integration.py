@@ -65,8 +65,8 @@ class KeywordExtractor:
             # Generate prompt
             prompt = self.prompt_manager.generate_prompt('keyword_extraction', **prompt_params)
 
-            # Get AI response
-            response = self.translation_provider.translate(prompt, target_language='en')
+            # Get AI response (use translate method but with original language preserved)
+            response = self._send_prompt_to_ai(prompt)
 
             # Parse response
             candidates = self._parse_ai_response(response)
@@ -77,6 +77,28 @@ class KeywordExtractor:
         except Exception as e:
             logger.error(f"Failed to extract keywords from {paper_path.name}: {e}")
             return []
+
+    def _send_prompt_to_ai(self, prompt: str) -> str:
+        """Send prompt directly to AI without translation"""
+        try:
+            # Use the underlying OpenAI client directly
+            if hasattr(self.translation_provider, 'client'):
+                response = self.translation_provider.client.chat.completions.create(
+                    model=self.translation_provider.model,
+                    messages=[
+                        {"role": "system", "content": "You are an expert keyword extraction assistant for academic papers. Follow the instructions exactly and return valid JSON."},
+                        {"role": "user", "content": prompt}
+                    ],
+                    temperature=0.1,
+                    max_tokens=1000
+                )
+                return response.choices[0].message.content.strip()
+            else:
+                # Fallback to translate method but try to prevent translation
+                return self.translation_provider.translate(prompt, target_language="original")
+        except Exception as e:
+            logger.error(f"Failed to send prompt to AI: {e}")
+            raise
 
     def _extract_title_abstract(self, content: str) -> Tuple[str, str]:
         """Extract title and abstract from paper content"""
@@ -97,13 +119,41 @@ class KeywordExtractor:
     def _parse_ai_response(self, response: str) -> List[KeywordCandidate]:
         """Parse AI response to extract keyword candidates"""
         try:
-            # Try to extract JSON from response
-            json_match = re.search(r'\{.*\}', response, re.DOTALL)
-            if not json_match:
+            # Try multiple approaches to extract JSON
+            json_content = None
+
+            # Approach 1: Look for JSON code blocks
+            code_block_match = re.search(r'```json\s*(\{.*?\})\s*```', response, re.DOTALL)
+            if code_block_match:
+                json_content = code_block_match.group(1)
+            else:
+                # Approach 2: Look for any JSON-like structure
+                json_match = re.search(r'\{[^{}]*"candidates"[^{}]*\[[^\]]*\][^{}]*\}', response, re.DOTALL)
+                if json_match:
+                    json_content = json_match.group()
+                else:
+                    # Approach 3: Find the largest JSON-like structure
+                    json_match = re.search(r'\{.*\}', response, re.DOTALL)
+                    if json_match:
+                        json_content = json_match.group()
+
+            if not json_content:
                 logger.warning("No JSON found in AI response")
+                logger.debug(f"Response was: {response[:500]}...")
                 return []
 
-            data = json.loads(json_match.group())
+            # Clean up common JSON issues
+            json_content = json_content.strip()
+
+            # Try to parse JSON
+            try:
+                data = json.loads(json_content)
+            except json.JSONDecodeError:
+                # Try to fix common issues and parse again
+                json_content = re.sub(r',\s*}', '}', json_content)  # Remove trailing commas
+                json_content = re.sub(r',\s*]', ']', json_content)  # Remove trailing commas in arrays
+                data = json.loads(json_content)
+
             candidates = []
 
             for candidate_data in data.get('candidates', []):
@@ -128,6 +178,7 @@ class KeywordExtractor:
 
         except json.JSONDecodeError as e:
             logger.error(f"Failed to parse AI response JSON: {e}")
+            logger.debug(f"Attempted to parse: {json_content[:200]}...")
             return []
 
 

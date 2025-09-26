@@ -1,3 +1,36 @@
+---
+keywords:
+  - Agentic Workflows
+  - Large Language Models
+  - Post-deployment Monitoring
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14647
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:57:04.818828",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Agentic Workflows",
+    "Large Language Models",
+    "Post-deployment Monitoring"
+  ],
+  "rejected_keywords": [
+    "Episodic and Semantic Memory",
+    "TRAIL Benchmark"
+  ],
+  "similarity_scores": {
+    "Agentic Workflows": 0.82,
+    "Large Language Models": 0.78,
+    "Post-deployment Monitoring": 0.79
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # AgentCompass: Towards Reliable Evaluation of Agentic Workflows in Production
 
@@ -5,10 +38,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔬 Broad Technical**: Large Language Models
+**🌐 Broad Technical**: [[keywords/Large Language Models|Large Language Models]]
+**⚡ Unique Technical**: [[keywords/Agentic Workflows|Agentic Workflows]]
+**🚀 Evolved Concepts**: [[keywords/Post-deployment Monitoring|Post-deployment Monitoring]]
 
 ## 📋 저자 정보
 

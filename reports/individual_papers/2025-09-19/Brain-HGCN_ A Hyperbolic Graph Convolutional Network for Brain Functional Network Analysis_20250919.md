@@ -1,3 +1,35 @@
+---
+keywords:
+  - Graph Neural Networks
+  - Functional Magnetic Resonance Imaging
+  - Hyperbolic Graph Neural Networks
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14965
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:54:27.427182",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Graph Neural Networks",
+    "Functional Magnetic Resonance Imaging",
+    "Hyperbolic Graph Neural Networks"
+  ],
+  "rejected_keywords": [
+    "Geometric Deep Learning"
+  ],
+  "similarity_scores": {
+    "Graph Neural Networks": 0.88,
+    "Functional Magnetic Resonance Imaging": 0.85,
+    "Hyperbolic Graph Neural Networks": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Brain-HGCN: A Hyperbolic Graph Convolutional Network for Brain Functional Network Analysis
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Hyperbolic Graph Neural Network
+**🔗 Specific Connectable**: [[keywords/Graph Neural Networks|Graph Neural Networks]], [[keywords/Functional Magnetic Resonance Imaging|Functional Magnetic Resonance Imaging]]
+**⚡ Unique Technical**: [[keywords/Hyperbolic Graph Neural Networks|Hyperbolic Graph Convolutional Network]]
 
 ## 🔗 유사한 논문
 - [[GraphTorque Torque-Driven Rewiring Graph Neural Network]] (81.3% similar)

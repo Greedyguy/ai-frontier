@@ -1,3 +1,36 @@
+---
+keywords:
+  - Augmented Virtual Environments
+  - OpenStreetMap
+  - Digital Terrain Models
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14374
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:39:35.360985",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Augmented Virtual Environments",
+    "OpenStreetMap",
+    "Digital Terrain Models"
+  ],
+  "rejected_keywords": [
+    "Python",
+    "Unity"
+  ],
+  "similarity_scores": {
+    "Augmented Virtual Environments": 0.8,
+    "OpenStreetMap": 0.72,
+    "Digital Terrain Models": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Investigating the Ways in Which Mobile Phone Images with Open-Source Data Can Be Used to Create an Augmented Virtual Environment (AVE)
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: 3D Visualization, Object Detection
+**🔗 Specific Connectable**: [[keywords/OpenStreetMap|OpenStreetMap]], [[keywords/Digital Terrain Models|Digital Terrain Models]]
+**⚡ Unique Technical**: [[keywords/Augmented Virtual Environments|Augmented Virtual Environments]]
 
 ## 🔗 유사한 논문
 - [[SPATIALGEN Layout-guided 3D Indoor Scene Generation]] (79.6% similar)

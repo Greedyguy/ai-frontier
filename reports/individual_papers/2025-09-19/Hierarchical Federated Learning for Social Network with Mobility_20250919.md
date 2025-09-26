@@ -1,3 +1,35 @@
+---
+keywords:
+  - Federated Learning
+  - Hierarchical Federated Learning
+  - Social Network with Mobility
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14938
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:40:41.462246",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Federated Learning",
+    "Hierarchical Federated Learning",
+    "Social Network with Mobility"
+  ],
+  "rejected_keywords": [
+    "Optimization"
+  ],
+  "similarity_scores": {
+    "Federated Learning": 0.9,
+    "Hierarchical Federated Learning": 0.7,
+    "Social Network with Mobility": 0.65
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Hierarchical Federated Learning for Social Network with Mobility
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Dynamic Optimization in Social Network with Mobility
+**🔗 Specific Connectable**: [[keywords/Federated Learning|Federated Learning]]
+**⚡ Unique Technical**: [[keywords/Hierarchical Federated Learning|Hierarchical Federated Learning]], [[keywords/Social Network with Mobility|Social Network with Mobility]]
 
 ## 🔗 유사한 논문
 - [[FedDiverse Tackling Data Heterogeneity in Federated Learning with Diversity-Driven Client Selection]] (81.8% similar)

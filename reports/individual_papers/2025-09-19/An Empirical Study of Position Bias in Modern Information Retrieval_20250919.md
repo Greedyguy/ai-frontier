@@ -1,3 +1,36 @@
+---
+keywords:
+  - BM25
+  - Position Bias
+  - Position Sensitivity Index
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2505.13950
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:56:49.867570",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "BM25",
+    "Position Bias",
+    "Position Sensitivity Index"
+  ],
+  "rejected_keywords": [
+    "Dense Embedding Models",
+    "ColBERT-style Models"
+  ],
+  "similarity_scores": {
+    "BM25": 0.8,
+    "Position Bias": 0.78,
+    "Position Sensitivity Index": 0.79
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # An Empirical Study of Position Bias in Modern Information Retrieval
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Position Aware Retrieval
+**🔗 Specific Connectable**: [[keywords/BM25|BM25]]
+**⚡ Unique Technical**: [[keywords/Position Bias|position bias]], [[keywords/Position Sensitivity Index|Position Sensitivity Index]]
 
 ## 🔗 유사한 논문
 - [[Position Bias Mitigates Position BiasMitigate Position Bias Through Inter-Position Knowledge Distillation]] (84.7% similar)

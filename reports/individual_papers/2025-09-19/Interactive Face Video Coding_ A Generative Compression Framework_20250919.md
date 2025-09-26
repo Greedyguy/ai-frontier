@@ -1,3 +1,35 @@
+---
+keywords:
+  - Interactive Face Video Coding
+  - Generative Models
+  - Deep Learning
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2302.09919
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:39:54.128137",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Interactive Face Video Coding",
+    "Generative Models",
+    "Deep Learning"
+  ],
+  "rejected_keywords": [
+    "Semantic Interactivity"
+  ],
+  "similarity_scores": {
+    "Interactive Face Video Coding": 0.8,
+    "Generative Models": 0.78,
+    "Deep Learning": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Interactive Face Video Coding: A Generative Compression Framework
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Semantic Level Interactivity
+**🌐 Broad Technical**: [[keywords/Deep Learning|Deep Generative Model]]
+**🔗 Specific Connectable**: [[keywords/Generative Models|Generative Compression]]
+**⚡ Unique Technical**: [[keywords/Interactive Face Video Coding|Interactive Face Video Coding]]
 
 ## 🔗 유사한 논문
 - [[Generative Image Coding with Diffusion Prior_20250918|Generative Image Coding with Diffusion Prior]] (81.7% similar)

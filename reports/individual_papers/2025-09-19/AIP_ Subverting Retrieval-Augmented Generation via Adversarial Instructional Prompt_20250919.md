@@ -1,3 +1,35 @@
+---
+keywords:
+  - Retrieval-Augmented Generation
+  - Large Language Models
+  - Adversarial Instructional Prompt
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.15159
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:58:36.946265",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Retrieval-Augmented Generation",
+    "Large Language Models",
+    "Adversarial Instructional Prompt"
+  ],
+  "rejected_keywords": [
+    "Optimization"
+  ],
+  "similarity_scores": {
+    "Retrieval-Augmented Generation": 0.8,
+    "Large Language Models": 0.85,
+    "Adversarial Instructional Prompt": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # AIP: Subverting Retrieval-Augmented Generation via Adversarial Instructional Prompt
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Adversarial Instructional Prompt
+**🌐 Broad Technical**: [[keywords/Large Language Models|Large Language Models]]
+**⚡ Unique Technical**: [[keywords/Retrieval-Augmented Generation|Retrieval-Augmented Generation]], [[keywords/Adversarial Instructional Prompt|Adversarial Instructional Prompt]]
 
 ## 🔗 유사한 논문
 - [[Enhancing Retrieval Augmentation via Adversarial Collaboration_20250919|Enhancing Retrieval Augmentation via Adversarial Collaboration]] (88.4% similar)

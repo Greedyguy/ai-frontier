@@ -1,13 +1,46 @@
+---
+keywords:
+  - Vision Transformers
+  - Diffusion Denoised Smoothing
+  - Attribution Rollout
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2311.17983
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:01:07.768558",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Vision Transformers",
+    "Diffusion Denoised Smoothing",
+    "Attribution Rollout"
+  ],
+  "rejected_keywords": [
+    "Interpretability Methods"
+  ],
+  "similarity_scores": {
+    "Vision Transformers": 0.9,
+    "Diffusion Denoised Smoothing": 0.8,
+    "Attribution Rollout": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # [Re] Improving Interpretation Faithfulness for Vision Transformers
 
 **Korean Title:** [재] 비전 트랜스포머의 해석 충실도 향상
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Izabela Kurek|Izabela Kurek]] [[authors/Wojciech Trejter|Wojciech Trejter]] [[authors/Stipe Frkovic|Stipe Frkovic]] [[authors/Andro Erdelez|Andro Erdelez]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]       [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Diffusion Denoised Smoothing
+**🔗 Specific Connectable**: [[keywords/Vision Transformers|Vision Transformers]]
+**⚡ Unique Technical**: [[keywords/Diffusion Denoised Smoothing|Diffusion Denoised Smoothing]], [[keywords/Attribution Rollout|Attribution Rollout]]
 
 ## 🔗 유사한 논문
 - [[Cross-Distribution Diffusion Priors-Driven Iterative Reconstruction for Sparse-View CT_20250918|Cross-Distribution Diffusion Priors-Driven Iterative Reconstruction for Sparse-View CT]] (77.7% similar)

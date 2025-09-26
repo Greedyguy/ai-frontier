@@ -1,3 +1,36 @@
+---
+keywords:
+  - Large Language Models
+  - Information Retrieval
+  - Search Agents
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2308.07107
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:22:42.162692",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Information Retrieval",
+    "Search Agents"
+  ],
+  "rejected_keywords": [
+    "Neural Networks",
+    "Query Rewriters"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.9,
+    "Information Retrieval": 0.85,
+    "Search Agents": 0.82
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Large Language Models for Information Retrieval: A Survey
 
@@ -5,10 +38,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔬 Broad Technical**: Large Language Models, Information Retrieval
+**🌐 Broad Technical**: [[keywords/Information Retrieval|Information Retrieval]]
+**⚡ Unique Technical**: [[keywords/Search Agents|Search Agents]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[From_Automation_to_Autonomy_A_Survey_on_Large_Language_Models_in_Scientific_Discovery_20250918|From Automation to Autonomy: A Survey on Large Language Models in Scientific Discovery]] (87.4% similar)

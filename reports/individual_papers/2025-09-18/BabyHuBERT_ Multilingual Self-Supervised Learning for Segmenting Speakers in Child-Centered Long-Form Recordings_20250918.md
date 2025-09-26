@@ -1,13 +1,47 @@
+---
+keywords:
+  - Self-Supervised Learning
+  - Foundation Models
+  - Speaker Segmentation
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:38:21.965652",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Self-Supervised Learning",
+    "Foundation Models",
+    "Speaker Segmentation"
+  ],
+  "rejected_keywords": [
+    "Child Speech Research"
+  ],
+  "similarity_scores": {
+    "Self-Supervised Learning": 0.8,
+    "Foundation Models": 0.78,
+    "Speaker Segmentation": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # BabyHuBERT: Multilingual Self-Supervised Learning for Segmenting Speakers in Child-Centered Long-Form Recordings
 
 **Korean Title:** BabyHuBERT: 아동 중심의 장기 녹음에서 화자를 분할하기 위한 다국어 자기 지도 학습
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Théo Charlot|Théo Charlot]] [[authors/Tarek Kunze|Tarek Kunze]] [[authors/Maxime Poli|Maxime Poli]] [[authors/Alejandrina Cristia|Alejandrina Cristia]] [[authors/Emmanuel Dupoux|Emmanuel Dupoux]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Multilingual Child Speech Analysis
+**🔗 Specific Connectable**: [[keywords/Self-Supervised Learning|Self-Supervised Learning]]
+**⚡ Unique Technical**: [[keywords/Speaker Segmentation|Speaker Segmentation]]
+**🚀 Evolved Concepts**: [[keywords/Foundation Models|Foundation Models]]
 
 ## 🔗 유사한 논문
 - [[UnifiedVisual_ A Framework for Constructing Unified Vision-Language Datasets_20250919|UnifiedVisual A Framework for Constructing Unified Vision-Language Datasets]] (76.6% similar)

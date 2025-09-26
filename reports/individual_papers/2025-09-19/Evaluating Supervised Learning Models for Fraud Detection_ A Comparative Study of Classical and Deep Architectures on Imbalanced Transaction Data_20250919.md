@@ -1,3 +1,35 @@
+---
+keywords:
+  - Fraud Detection
+  - Neural Networks
+  - Machine Learning
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2505.22521
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:45:50.347456",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Fraud Detection",
+    "Neural Networks",
+    "Machine Learning"
+  ],
+  "rejected_keywords": [
+    "Imbalanced Data"
+  ],
+  "similarity_scores": {
+    "Fraud Detection": 0.78,
+    "Neural Networks": 0.72,
+    "Machine Learning": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Evaluating Supervised Learning Models for Fraud Detection: A Comparative Study of Classical and Deep Architectures on Imbalanced Transaction Data
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Imbalanced Data Handling
+**🌐 Broad Technical**: [[keywords/Machine Learning|Supervised Learning Models]]
+**🔗 Specific Connectable**: [[keywords/Neural Networks|Gated Recurrent Unit]]
+**⚡ Unique Technical**: [[keywords/Fraud Detection|Fraud Detection]]
 
 ## 🔗 유사한 논문
 - [[Adversarial_Distilled_Retrieval-Augmented_Guarding_Model_for_Online_Malicious_Intent_Detection_20250919|Adversarial Distilled Retrieval-Augmented Guarding Model for Online Malicious Intent Detection]] (81.1% similar)

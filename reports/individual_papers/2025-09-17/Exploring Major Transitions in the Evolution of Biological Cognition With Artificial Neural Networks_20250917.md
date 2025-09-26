@@ -1,3 +1,35 @@
+---
+keywords:
+  - Neural Networks
+  - Recurrent Neural Networks
+  - Laminated Networks
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:54:59.234212",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Neural Networks",
+    "Recurrent Neural Networks",
+    "Laminated Networks"
+  ],
+  "rejected_keywords": [
+    "Information Flow"
+  ],
+  "similarity_scores": {
+    "Neural Networks": 0.85,
+    "Recurrent Neural Networks": 0.78,
+    "Laminated Networks": 0.65
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Exploring Major Transitions in the Evolution of Biological Cognition With Artificial Neural Networks
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Konstantinos Voudouris|Konstantinos Voudouris]] [[authors/Andrew Barron|Andrew Barron]] [[authors/Marta Halina|Marta Halina]] [[authors/Colin Klein|Colin Klein]] [[authors/Matishalin Patel|Matishalin Patel]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**⭐ Unique Technical**: Laminated networks
+**🌐 Broad Technical**: [[keywords/Neural Networks|artificial neural networks]]
+**🔗 Specific Connectable**: [[keywords/Recurrent Neural Networks|recurrent networks]]
+**⚡ Unique Technical**: [[keywords/Laminated Networks|laminated networks]]
 
 ## 🔗 유사한 논문
 - [[GraphTorque_Torque-Driven_Rewiring_Graph_Neural_Network_20250918|GraphTorque: Torque-Driven Rewiring Graph Neural Network]] (77.0% similar)

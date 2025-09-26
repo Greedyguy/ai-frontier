@@ -1,3 +1,35 @@
+---
+keywords:
+  - Federated Learning
+  - Differential Privacy
+  - Inference Attacks
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:56:16.139002",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Federated Learning",
+    "Differential Privacy",
+    "Inference Attacks"
+  ],
+  "rejected_keywords": [
+    "Randomized Response"
+  ],
+  "similarity_scores": {
+    "Federated Learning": 0.95,
+    "Differential Privacy": 0.8,
+    "Inference Attacks": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Differential Privacy in Federated Learning: Mitigating Inference Attacks with Randomized Response
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Ozer Ozturk|Ozer Ozturk]] [[authors/Busra Buyuktanir|Busra Buyuktanir]] [[authors/Gozde Karatas Baydogmus|Gozde Karatas Baydogmus]] [[authors/Kazim Yildiz|Kazim Yildiz]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]       [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔬 Broad Technical**: Federated Learning, Differential Privacy
+**🔗 Specific Connectable**: [[keywords/Federated Learning|Federated Learning]]
+**⚡ Unique Technical**: [[keywords/Differential Privacy|Differential Privacy]], [[keywords/Inference Attacks|Inference Attacks]]
 
 ## 🔗 유사한 논문
 - [[FedDiverse Tackling Data Heterogeneity in Federated Learning with Diversity-Driven Client Selection]] (83.0% similar)

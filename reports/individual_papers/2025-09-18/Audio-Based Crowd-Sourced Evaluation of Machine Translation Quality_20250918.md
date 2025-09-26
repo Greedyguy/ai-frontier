@@ -1,3 +1,36 @@
+---
+keywords:
+  - Machine Translation
+  - Speech Translation
+  - Audio-Based Evaluation
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.14023
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:39:00.185349",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Machine Translation",
+    "Speech Translation",
+    "Audio-Based Evaluation"
+  ],
+  "rejected_keywords": [
+    "Crowd-Sourced Evaluation",
+    "Natural Language Processing"
+  ],
+  "similarity_scores": {
+    "Machine Translation": 0.85,
+    "Speech Translation": 0.78,
+    "Audio-Based Evaluation": 0.74
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Audio-Based Crowd-Sourced Evaluation of Machine Translation Quality
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Speech-Based Assessments
+**🌐 Broad Technical**: [[keywords/Machine Translation|Machine Translation]]
+**⚡ Unique Technical**: [[keywords/Speech Translation|Speech Translation]], [[keywords/Audio-Based Evaluation|Audio-Based Evaluation]]
 
 ## 🔗 유사한 논문
 - [[Long-context Reference-based MT Quality Estimation]] (83.7% similar)

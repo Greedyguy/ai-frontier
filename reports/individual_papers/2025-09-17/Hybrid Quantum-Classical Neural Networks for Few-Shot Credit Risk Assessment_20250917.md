@@ -1,13 +1,47 @@
+---
+keywords:
+  - Neural Networks
+  - Hybrid Quantum-Classical Systems
+  - Few-Shot Learning
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:53:21.815733",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Neural Networks",
+    "Hybrid Quantum-Classical Systems",
+    "Few-Shot Learning"
+  ],
+  "rejected_keywords": [
+    "Quantum Machine Learning"
+  ],
+  "similarity_scores": {
+    "Neural Networks": 0.82,
+    "Hybrid Quantum-Classical Systems": 0.77,
+    "Few-Shot Learning": 0.79
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Hybrid Quantum-Classical Neural Networks for Few-Shot Credit Risk Assessment
 
 **Korean Title:** 하이브리드 양자-고전 신경망을 이용한 소수 샷 신용 위험 평가
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Zheng-an Wang|Zheng-an Wang]] [[authors/Yanbo J. Wang|Yanbo J. Wang]] [[authors/Jiachi Zhang|Jiachi Zhang]] [[authors/Qi Xu|Qi Xu]] [[authors/Yilun Zhao|Yilun Zhao]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Few-shot Learning, Quantum Neural Network
+**🌐 Broad Technical**: [[keywords/Neural Networks|Quantum Neural Network]]
+**🔗 Specific Connectable**: [[keywords/Few-Shot Learning|Few-Shot Credit Risk Assessment]]
+**🚀 Evolved Concepts**: [[keywords/Hybrid Quantum-Classical Systems|Hybrid Quantum-Classical Workflow]]
 
 ## 🔗 유사한 논문
 - [[Learning AC Power Flow Solutions using a Data-Dependent Variational Quantum Circuit_20250918|Learning AC Power Flow Solutions using a Data-Dependent Variational Quantum Circuit]] (82.2% similar)

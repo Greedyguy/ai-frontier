@@ -1,3 +1,36 @@
+---
+keywords:
+  - Large Language Models
+  - Direct Discrepancy Learning
+  - Machine-Generated Text Detection
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14268
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:48:46.419867",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Direct Discrepancy Learning",
+    "Machine-Generated Text Detection"
+  ],
+  "rejected_keywords": [
+    "Natural Language Processing",
+    "MIRAGE Benchmark"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.9,
+    "Direct Discrepancy Learning": 0.85,
+    "Machine-Generated Text Detection": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # DetectAnyLLM: Towards Generalizable and Robust Detection of Machine-Generated Text Across Domains and Models
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Unified Detection Framework
+**⚡ Unique Technical**: [[keywords/Direct Discrepancy Learning|Direct Discrepancy Learning]], [[keywords/Machine-Generated Text Detection|Machine-Generated Text Detection]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[LLM-I LLMs are Naturally Interleaved Multimodal Creators]] (85.8% similar)

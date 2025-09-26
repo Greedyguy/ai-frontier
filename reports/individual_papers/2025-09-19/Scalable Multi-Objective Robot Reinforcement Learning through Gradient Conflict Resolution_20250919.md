@@ -1,3 +1,35 @@
+---
+keywords:
+  - Reinforcement Learning
+  - Proximal Policy Optimization
+  - Multi-Objective Optimization
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14816
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:25:19.387774",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Reinforcement Learning",
+    "Proximal Policy Optimization",
+    "Multi-Objective Optimization"
+  ],
+  "rejected_keywords": [
+    "Gradient Conflict Resolution"
+  ],
+  "similarity_scores": {
+    "Reinforcement Learning": 0.88,
+    "Proximal Policy Optimization": 0.82,
+    "Multi-Objective Optimization": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Scalable Multi-Objective Robot Reinforcement Learning through Gradient Conflict Resolution
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Multi-objective Reinforcement Learning
+**🔗 Specific Connectable**: [[keywords/Reinforcement Learning|Reinforcement Learning]], [[keywords/Proximal Policy Optimization|Proximal Policy Optimization]]
+**⚡ Unique Technical**: [[keywords/Multi-Objective Optimization|Multi-Objective Optimization]]
 
 ## 🔗 유사한 논문
 - [[Controllable Pareto Trade-off between Fairness and Accuracy]] (82.4% similar)

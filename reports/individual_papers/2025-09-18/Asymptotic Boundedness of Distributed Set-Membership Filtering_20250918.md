@@ -1,3 +1,35 @@
+---
+keywords:
+  - Distributed Set-Membership Filtering
+  - Collective Observation-Information Tower
+  - Distributed Kalman Filters
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.14106
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:39:21.150896",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Distributed Set-Membership Filtering",
+    "Collective Observation-Information Tower",
+    "Distributed Kalman Filters"
+  ],
+  "rejected_keywords": [
+    "Distributed Observers"
+  ],
+  "similarity_scores": {
+    "Distributed Set-Membership Filtering": 0.78,
+    "Collective Observation-Information Tower": 0.77,
+    "Distributed Kalman Filters": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Asymptotic Boundedness of Distributed Set-Membership Filtering
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Distributed Estimation Methods
+**🔗 Specific Connectable**: [[keywords/Distributed Kalman Filters|Distributed Kalman Filters]]
+**⚡ Unique Technical**: [[keywords/Distributed Set-Membership Filtering|Distributed Set-Membership Filtering]], [[keywords/Collective Observation-Information Tower|Collective Observation-Information Tower]]
 
 ## 🔗 유사한 논문
 - [[Data-Driven_Distributed_Optimization_via_Aggregative_Tracking_and_Deep-Learning_20250918|Data-Driven Distributed Optimization via Aggregative Tracking and Deep-Learning]] (76.7% similar)

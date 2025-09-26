@@ -1,3 +1,35 @@
+---
+keywords:
+  - Reinforcement Learning
+  - Autonomous UAV Navigation
+  - Gym-compatible training environment
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13943
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:13:43.364774",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Reinforcement Learning",
+    "Autonomous UAV Navigation",
+    "Gym-compatible training environment"
+  ],
+  "rejected_keywords": [
+    "Robot Operating System"
+  ],
+  "similarity_scores": {
+    "Reinforcement Learning": 0.9,
+    "Autonomous UAV Navigation": 0.78,
+    "Gym-compatible training environment": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Reinforcement Learning for Autonomous Point-to-Point UAV Navigation
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Point-to-point Drone Operations
+**🔗 Specific Connectable**: [[keywords/Reinforcement Learning|Reinforcement Learning]]
+**⚡ Unique Technical**: [[keywords/Autonomous UAV Navigation|Autonomous UAV Navigation]], [[keywords/Gym-compatible training environment|Gym-compatible training environment]]
 
 ## 🔗 유사한 논문
 - [[Maximizing UAV Cellular Connectivity with Reinforcement Learning for BVLoS Path Planning]] (87.3% similar)

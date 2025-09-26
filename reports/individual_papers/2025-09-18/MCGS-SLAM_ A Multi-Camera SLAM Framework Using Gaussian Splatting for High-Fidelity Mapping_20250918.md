@@ -1,3 +1,35 @@
+---
+keywords:
+  - Multi-Camera SLAM
+  - Bundle Adjustment
+  - Gaussian Splatting
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.14191
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:20:28.303446",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Multi-Camera SLAM",
+    "Bundle Adjustment",
+    "Gaussian Splatting"
+  ],
+  "rejected_keywords": [
+    "Photorealistic Reconstructions"
+  ],
+  "similarity_scores": {
+    "Multi-Camera SLAM": 0.8,
+    "Bundle Adjustment": 0.78,
+    "Gaussian Splatting": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # MCGS-SLAM: A Multi-Camera SLAM Framework Using Gaussian Splatting for High-Fidelity Mapping
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Side-view reconstruction
+**🔗 Specific Connectable**: [[keywords/Bundle Adjustment|Bundle Adjustment]]
+**⚡ Unique Technical**: [[keywords/Multi-Camera SLAM|Multi-Camera SLAM]], [[keywords/Gaussian Splatting|Gaussian Splatting]]
 
 ## 🔗 유사한 논문
 - [[Gaussian_Alignment_for_Relative_Camera_Pose_Estimation_via_Single-View_Reconstruction_20250918|Gaussian Alignment for Relative Camera Pose Estimation via Single-View Reconstruction]] (83.9% similar)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - Large Language Models
+  - Stepwise Experience Recall
+  - Qwen Models
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2508.15214
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:10:53.357133",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Stepwise Experience Recall",
+    "Qwen Models"
+  ],
+  "rejected_keywords": [
+    "ToolQA Benchmark"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Stepwise Experience Recall": 0.7,
+    "Qwen Models": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Self-Guided Function Calling in Large Language Models via Stepwise Experience Recall
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔬 Broad Technical**: Large Language Models, ToolQA benchmark
+**🌐 Broad Technical**: [[keywords/Large Language Models|Large Language Models]]
+**⚡ Unique Technical**: [[keywords/Stepwise Experience Recall|Stepwise Experience Recall]], [[keywords/Qwen Models|Qwen2.5-7B and Qwen2.5-72B models]]
 
 ## 🔗 유사한 논문
 - [[THOR: Tool-Integrated Hierarchical Optimization via RL for Mathematical Reasoning]] (82.7% similar)

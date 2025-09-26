@@ -1,3 +1,35 @@
+---
+keywords:
+  - Graph Neural Networks
+  - Price of Anarchy
+  - Multidimensional Model
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14411
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:40:34.656975",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Graph Neural Networks",
+    "Price of Anarchy",
+    "Multidimensional Model"
+  ],
+  "rejected_keywords": [
+    "Weighted Averaging Process"
+  ],
+  "similarity_scores": {
+    "Graph Neural Networks": 0.8,
+    "Price of Anarchy": 0.78,
+    "Multidimensional Model": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # How Bad Is Forming Your Own Multidimensional Opinion?
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Price of Anarchy in Multidimensional Models
+**🔗 Specific Connectable**: [[keywords/Graph Neural Networks|Graph Neural Networks]]
+**⚡ Unique Technical**: [[keywords/Price of Anarchy|Price of Anarchy]], [[keywords/Multidimensional Model|Multidimensional Model]]
 
 ## 🔗 유사한 논문
 - [[Emergent Alignment via Competition_20250919|Emergent Alignment via Competition]] (80.4% similar)

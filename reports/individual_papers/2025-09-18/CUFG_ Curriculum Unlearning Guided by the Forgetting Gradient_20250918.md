@@ -1,13 +1,45 @@
+---
+keywords:
+  - Machine Unlearning
+  - Curriculum Unlearning
+  - Forgetting Gradients
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:36:11.343426",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Machine Unlearning",
+    "Curriculum Unlearning",
+    "Forgetting Gradients"
+  ],
+  "rejected_keywords": [
+    "Retrain Method"
+  ],
+  "similarity_scores": {
+    "Machine Unlearning": 0.8,
+    "Curriculum Unlearning": 0.78,
+    "Forgetting Gradients": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # CUFG: Curriculum Unlearning Guided by the Forgetting Gradient
 
 **Korean Title:** CUFG: 망각 기울기에 의해 안내되는 커리큘럼 비학습
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Jiaxing Miao|Jiaxing Miao]] [[authors/Liang Hu|Liang Hu]] [[authors/Qi Zhang|Qi Zhang]] [[authors/Lai Zhong Yuan|Lai Zhong Yuan]] [[authors/Usman Naseem|Usman Naseem]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Curriculum Unlearning
+**⚡ Unique Technical**: [[keywords/Machine Unlearning|machine unlearning]], [[keywords/Curriculum Unlearning|curriculum unlearning]], [[keywords/Forgetting Gradients|Forgetting Gradients]]
 
 ## 🔗 유사한 논문
 - [[Towards a Real-World Aligned Benchmark for Unlearning in Recommender Systems_20250919|Towards a Real-World Aligned Benchmark for Unlearning in Recommender Systems]] (82.5% similar)

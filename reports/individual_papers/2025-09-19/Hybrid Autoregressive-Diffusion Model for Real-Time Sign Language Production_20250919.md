@@ -1,3 +1,35 @@
+---
+keywords:
+  - Attention Mechanism
+  - Diffusion Models
+  - Hybrid Autoregressive-Diffusion Model
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2507.09105
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:40:20.622441",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Attention Mechanism",
+    "Diffusion Models",
+    "Hybrid Autoregressive-Diffusion Model"
+  ],
+  "rejected_keywords": [
+    "Multi-Scale Pose Representation"
+  ],
+  "similarity_scores": {
+    "Attention Mechanism": 0.8,
+    "Diffusion Models": 0.82,
+    "Hybrid Autoregressive-Diffusion Model": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Hybrid Autoregressive-Diffusion Model for Real-Time Sign Language Production
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Hybrid Autoregressive-Diffusion Model
+**🔗 Specific Connectable**: [[keywords/Attention Mechanism|Confidence-Aware Causal Attention]], [[keywords/Diffusion Models|Diffusion Models]]
+**⚡ Unique Technical**: [[keywords/Hybrid Autoregressive-Diffusion Model|Hybrid Autoregressive-Diffusion Model]]
 
 ## 🔗 유사한 논문
 - [[SSL-SSAW Self-Supervised Learning with Sigmoid Self-Attention Weighting for Question-Based Sign Language Translation]] (82.8% similar)

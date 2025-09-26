@@ -1,3 +1,36 @@
+---
+keywords:
+  - Retrieval-Augmented Generation
+  - Large Language Models
+  - Data Exfiltration Attacks
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14608
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:46:04.357249",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Retrieval-Augmented Generation",
+    "Large Language Models",
+    "Data Exfiltration Attacks"
+  ],
+  "rejected_keywords": [
+    "Access Control",
+    "Microsoft Copilot Tuning"
+  ],
+  "similarity_scores": {
+    "Retrieval-Augmented Generation": 0.78,
+    "Large Language Models": 0.8,
+    "Data Exfiltration Attacks": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Enterprise AI Must Enforce Participant-Aware Access Control
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Retrieval-Augmented Generation
+**⚡ Unique Technical**: [[keywords/Retrieval-Augmented Generation|Retrieval-Augmented Generation]], [[keywords/Data Exfiltration Attacks|Data Exfiltration Attacks]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[The Sum Leaks More Than Its Parts Compositional Privacy Risks and Mitigations in Multi-Agent Collaboration]] (86.8% similar)

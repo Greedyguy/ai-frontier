@@ -1,13 +1,46 @@
+---
+keywords:
+  - Large Language Models
+  - Behavioral Finance
+  - Personal Finance
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:45:04.867585",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Behavioral Finance",
+    "Personal Finance"
+  ],
+  "rejected_keywords": [
+    "Data-Generation Framework"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Behavioral Finance": 0.7,
+    "Personal Finance": 0.65
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Synthesizing Behaviorally-Grounded Reasoning Chains: A Data-Generation Framework for Personal Finance LLMs
 
 **Korean Title:** 행동 기반 추론 체인 합성: 개인 금융 대형 언어 모델을 위한 데이터 생성 프레임워크
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Akhil Theerthala|Akhil Theerthala]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]    [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Behaviorally-Grounded Reasoning Chains
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Large Language Models]]
+**⚡ Unique Technical**: [[keywords/Behavioral Finance|Behavioral Finance]], [[keywords/Personal Finance|Personal Finance]]
 
 ## 🔗 유사한 논문
 - [[MAFA_ A multi-agent framework for annotation_20250918|MAFA A multi-agent framework for annotation]] (80.8% similar)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - Model-Agnostic Meta-Learning
+  - Task-Specific Neural Networks
+  - Meta-Imitation Learning
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13736
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:19:11.234084",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Model-Agnostic Meta-Learning",
+    "Task-Specific Neural Networks",
+    "Meta-Imitation Learning"
+  ],
+  "rejected_keywords": [
+    "Wearable Exoskeletons"
+  ],
+  "similarity_scores": {
+    "Model-Agnostic Meta-Learning": 0.82,
+    "Task-Specific Neural Networks": 0.79,
+    "Meta-Imitation Learning": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Motion Adaptation Across Users and Tasks for Exoskeletons via Meta-Learning
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Personalized Assistance
+**🔗 Specific Connectable**: [[keywords/Model-Agnostic Meta-Learning|model-agnostic meta-learning]], [[keywords/Task-Specific Neural Networks|task-specific neural network]]
+**⚡ Unique Technical**: [[keywords/Meta-Imitation Learning|meta-imitation learning]]
 
 ## 🔗 유사한 논문
 - [[Embracing_Bulky_Objects_with_Humanoid_Robots_Whole-Body_Manipulation_with_Reinforcement_Learning_20250918|Embracing Bulky Objects with Humanoid Robots: Whole-Body Manipulation with Reinforcement Learning]] (86.0% similar)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - Foundation Models
+  - Embodied Chain-of-Action
+  - Humanoid Loco-Manipulation
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2504.09532
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:26:04.413926",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Foundation Models",
+    "Embodied Chain-of-Action",
+    "Humanoid Loco-Manipulation"
+  ],
+  "rejected_keywords": [
+    "Affordance Analysis"
+  ],
+  "similarity_scores": {
+    "Foundation Models": 0.8,
+    "Embodied Chain-of-Action": 0.82,
+    "Humanoid Loco-Manipulation": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Humanoid Agent via Embodied Chain-of-Action Reasoning with Multimodal Foundation Models for Zero-Shot Loco-Manipulation
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Loco-Manipulation
+**⚡ Unique Technical**: [[keywords/Embodied Chain-of-Action|Embodied Chain-of-Action]], [[keywords/Humanoid Loco-Manipulation|Humanoid loco-manipulation]]
+**🚀 Evolved Concepts**: [[keywords/Foundation Models|Foundation Models]]
 
 ## 🔗 유사한 논문
 - [[PhysicalAgent Towards General Cognitive Robotics with Foundation World Models]] (85.3% similar)

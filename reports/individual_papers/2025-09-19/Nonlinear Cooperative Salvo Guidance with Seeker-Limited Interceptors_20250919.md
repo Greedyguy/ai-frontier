@@ -1,3 +1,35 @@
+---
+keywords:
+  - Cooperative Guidance
+  - Sliding Mode Consensus Protocol
+  - Deviated Pursuit Guidance
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.15136
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:32:27.929315",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Cooperative Guidance",
+    "Sliding Mode Consensus Protocol",
+    "Deviated Pursuit Guidance"
+  ],
+  "rejected_keywords": [
+    "Fixed-Time Distributed Observer"
+  ],
+  "similarity_scores": {
+    "Cooperative Guidance": 0.78,
+    "Sliding Mode Consensus Protocol": 0.75,
+    "Deviated Pursuit Guidance": 0.74
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Nonlinear Cooperative Salvo Guidance with Seeker-Limited Interceptors
 
@@ -5,10 +37,10 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Fixed-time Consensus
+**⚡ Unique Technical**: [[keywords/Cooperative Guidance|cooperative guidance strategy]], [[keywords/Sliding Mode Consensus Protocol|higher-order sliding mode consensus protocol]], [[keywords/Deviated Pursuit Guidance|deviated pursuit guidance]]
 
 ## 🔗 유사한 논문
 - [[Cooperative Target Detection with AUVs A Dual-Timescale Hierarchical MARDL Approach]] (82.4% similar)

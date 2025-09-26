@@ -1,3 +1,35 @@
+---
+keywords:
+  - Transformer Architecture
+  - XGBoost
+  - Neural Networks
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14283
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:29:03.962308",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Transformer Architecture",
+    "XGBoost",
+    "Neural Networks"
+  ],
+  "rejected_keywords": [
+    "Antibiotic Resistance"
+  ],
+  "similarity_scores": {
+    "Transformer Architecture": 0.82,
+    "XGBoost": 0.78,
+    "Neural Networks": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Predicting Antibiotic Resistance Patterns Using Sentence-BERT: A Machine Learning Approach
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Document Embeddings for Antibiotic Resistance
+**🌐 Broad Technical**: [[keywords/Neural Networks|Neural Networks]]
+**🔗 Specific Connectable**: [[keywords/Transformer Architecture|Sentence-BERT]]
+**⚡ Unique Technical**: [[keywords/XGBoost|XGBoost]]
 
 ## 🔗 유사한 논문
 - [[MedVAL Toward Expert-Level Medical Text Validation with Language Models]] (78.7% similar)

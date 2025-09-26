@@ -1,3 +1,35 @@
+---
+keywords:
+  - Reinforcement Learning
+  - Attention Mechanism
+  - Behavioral Cloning
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.15042
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:27:10.255555",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Reinforcement Learning",
+    "Attention Mechanism",
+    "Behavioral Cloning"
+  ],
+  "rejected_keywords": [
+    "Multi-Head Neural Network"
+  ],
+  "similarity_scores": {
+    "Reinforcement Learning": 0.85,
+    "Attention Mechanism": 0.8,
+    "Behavioral Cloning": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Reinforcement Learning Agent for a 2D Shooter Game
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Hybrid Training Approach
+**🔗 Specific Connectable**: [[keywords/Reinforcement Learning|Reinforcement learning]], [[keywords/Attention Mechanism|Attention mechanisms]]
+**⚡ Unique Technical**: [[keywords/Behavioral Cloning|Behavioral cloning]]
 
 ## 🔗 유사한 논문
 - [[Hybrid_Diffusion_Policies_with_Projective_Geometric_Algebra_for_Efficient_Robot_Manipulation_Learning_20250918|Hybrid Diffusion Policies with Projective Geometric Algebra for Efficient Robot Manipulation Learning]] (82.6% similar)

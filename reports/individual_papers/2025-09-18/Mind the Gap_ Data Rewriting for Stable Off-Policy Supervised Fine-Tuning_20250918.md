@@ -1,13 +1,48 @@
+---
+keywords:
+  - Large Language Models
+  - Off-Policy Learning
+  - Dynamic Fine-Tuning
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:19:32.318238",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Off-Policy Learning",
+    "Dynamic Fine-Tuning"
+  ],
+  "rejected_keywords": [
+    "Supervised Fine-Tuning",
+    "Importance Sampling"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Off-Policy Learning": 0.77,
+    "Dynamic Fine-Tuning": 0.79
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Mind the Gap: Data Rewriting for Stable Off-Policy Supervised Fine-Tuning
 
 **Korean Title:** 갭에 주의하라: 안정적인 오프-정책 지도 학습 미세 조정을 위한 데이터 재작성
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Shiwan Zhao|Shiwan Zhao]] [[authors/Xuyang Zhao|Xuyang Zhao]] [[authors/Jiaming Zhou|Jiaming Zhou]] [[authors/Aobo Kong|Aobo Kong]] [[authors/Qicheng Li|Qicheng Li]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Stable Off-Policy Fine-Tuning
+**🔗 Specific Connectable**: [[keywords/Off-Policy Learning|Off-Policy Learning]]
+**⚡ Unique Technical**: [[keywords/Dynamic Fine-Tuning|Dynamic Fine-Tuning]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[Middo_ Model-Informed Dynamic Data Optimization for Enhanced LLM Fine-Tuning via Closed-Loop Learning_20250919|Middo Model-Informed Dynamic Data Optimization for Enhanced LLM Fine-Tuning via Closed-Loop Learning]] (82.9% similar)

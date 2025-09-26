@@ -1,3 +1,35 @@
+---
+keywords:
+  - Transformer Architecture
+  - Diffusion Models
+  - Sparse-View CT
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13576
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:34:32.028342",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Transformer Architecture",
+    "Diffusion Models",
+    "Sparse-View CT"
+  ],
+  "rejected_keywords": [
+    "Out-of-Distribution Scenarios"
+  ],
+  "similarity_scores": {
+    "Transformer Architecture": 0.85,
+    "Diffusion Models": 0.82,
+    "Sparse-View CT": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Cross-Distribution Diffusion Priors-Driven Iterative Reconstruction for Sparse-View CT
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔬 Broad Technical**: Iterative Reconstruction, Diffusion Transformer
+**🔗 Specific Connectable**: [[keywords/Transformer Architecture|Scalable Interpolant Transformer]], [[keywords/Diffusion Models|Diffusion Priors]]
+**⚡ Unique Technical**: [[keywords/Sparse-View CT|Sparse-View CT]]
 
 ## 🔗 유사한 논문
 - [[Singular_Value_Few-shot_Adaptation_of_Vision-Language_Models_20250918|Singular Value Few-shot Adaptation of Vision-Language Models]] (78.7% similar)

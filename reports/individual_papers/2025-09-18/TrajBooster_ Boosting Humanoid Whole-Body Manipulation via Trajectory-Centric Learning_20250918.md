@@ -1,3 +1,36 @@
+---
+keywords:
+  - Reinforcement Learning
+  - Multi-Modal Learning
+  - Transfer Learning
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.11839
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:03:04.564009",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Reinforcement Learning",
+    "Multi-Modal Learning",
+    "Transfer Learning"
+  ],
+  "rejected_keywords": [
+    "Trajectory-Centric Learning",
+    "Whole-Body Manipulation"
+  ],
+  "similarity_scores": {
+    "Reinforcement Learning": 0.82,
+    "Multi-Modal Learning": 0.8,
+    "Transfer Learning": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # TrajBooster: Boosting Humanoid Whole-Body Manipulation via Trajectory-Centric Learning
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Zero-shot skill transfer
+**🔗 Specific Connectable**: [[keywords/Reinforcement Learning|Reinforcement Learning]], [[keywords/Transfer Learning|Zero-Shot Skill Transfer]]
+**🚀 Evolved Concepts**: [[keywords/Multi-Modal Learning|Vision-Language-Action models]]
 
 ## 🔗 유사한 논문
 - [[Embracing_Bulky_Objects_with_Humanoid_Robots_Whole-Body_Manipulation_with_Reinforcement_Learning_20250918|Embracing Bulky Objects with Humanoid Robots: Whole-Body Manipulation with Reinforcement Learning]] (85.2% similar)

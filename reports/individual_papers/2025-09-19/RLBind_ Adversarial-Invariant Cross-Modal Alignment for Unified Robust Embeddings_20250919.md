@@ -1,3 +1,35 @@
+---
+keywords:
+  - Multi-Modal Learning
+  - Robot Perception
+  - Adversarial Robustness
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14383
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:28:02.491682",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Multi-Modal Learning",
+    "Robot Perception",
+    "Adversarial Robustness"
+  ],
+  "rejected_keywords": [
+    "Unified Embeddings"
+  ],
+  "similarity_scores": {
+    "Multi-Modal Learning": 0.78,
+    "Robot Perception": 0.77,
+    "Adversarial Robustness": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # RLBind: Adversarial-Invariant Cross-Modal Alignment for Unified Robust Embeddings
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Adversarial-invariant Embeddings
+**🔗 Specific Connectable**: [[keywords/Robot Perception|robot perception]]
+**⚡ Unique Technical**: [[keywords/Adversarial Robustness|adversarial robustness]]
+**🚀 Evolved Concepts**: [[keywords/Multi-Modal Learning|cross-modal alignment]]
 
 ## 🔗 유사한 논문
 - [[Process-Supervised Reinforcement Learning for Interactive Multimodal Tool-Use Agents_20250919|Process-Supervised Reinforcement Learning for Interactive Multimodal Tool-Use Agents]] (80.5% similar)

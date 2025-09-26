@@ -1,3 +1,36 @@
+---
+keywords:
+  - Uncertainty Quantification
+  - Aleatoric and Epistemic Uncertainty
+  - Self-consistency Discrepancy Score
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13262
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:15:40.017504",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Uncertainty Quantification",
+    "Aleatoric and Epistemic Uncertainty",
+    "Self-consistency Discrepancy Score"
+  ],
+  "rejected_keywords": [
+    "Deep Learning",
+    "Split-Point Analysis"
+  ],
+  "similarity_scores": {
+    "Uncertainty Quantification": 0.8,
+    "Aleatoric and Epistemic Uncertainty": 0.78,
+    "Self-consistency Discrepancy Score": 0.74
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Post-Hoc Split-Point Self-Consistency Verification for Efficient, Unified Quantification of Aleatoric and Epistemic Uncertainty in Deep Learning
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Quantile Regression
+**🔗 Specific Connectable**: [[keywords/Uncertainty Quantification|Uncertainty Quantification]]
+**⚡ Unique Technical**: [[keywords/Aleatoric and Epistemic Uncertainty|Aleatoric and Epistemic Uncertainty]], [[keywords/Self-consistency Discrepancy Score|Self-consistency Discrepancy Score]]
 
 ## 🔗 유사한 논문
 - [[A Conformal Prediction Framework for Uncertainty Quantification in Physics-Informed Neural Networks]] (83.8% similar)

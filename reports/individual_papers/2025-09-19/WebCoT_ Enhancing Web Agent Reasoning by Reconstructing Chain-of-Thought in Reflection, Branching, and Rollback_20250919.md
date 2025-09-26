@@ -1,3 +1,35 @@
+---
+keywords:
+  - Large Language Models
+  - Chain-of-Thought
+  - Web Agents
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2505.20013
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:17:44.434563",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Chain-of-Thought",
+    "Web Agents"
+  ],
+  "rejected_keywords": [
+    "Reasoning Skills"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Chain-of-Thought": 0.7,
+    "Web Agents": 0.65
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # WebCoT: Enhancing Web Agent Reasoning by Reconstructing Chain-of-Thought in Reflection, Branching, and Rollback
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Agent Self-Improving Benchmark
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Large Language Models]]
+**⚡ Unique Technical**: [[keywords/Chain-of-Thought|Chain-of-Thought]], [[keywords/Web Agents|Web Agents]]
 
 ## 🔗 유사한 논문
 - [[Detecting Pipeline Failures through Fine-Grained Analysis of Web Agents_20250919|Detecting Pipeline Failures through Fine-Grained Analysis of Web Agents]] (86.9% similar)

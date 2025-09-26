@@ -1,3 +1,35 @@
+---
+keywords:
+  - Mixed-Integer Linear Programming
+  - Deep Learning
+  - Automated Test-Input Validation
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2507.04990
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:31:06.191146",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Mixed-Integer Linear Programming",
+    "Deep Learning",
+    "Automated Test-Input Validation"
+  ],
+  "rejected_keywords": [
+    "Computer Vision"
+  ],
+  "similarity_scores": {
+    "Mixed-Integer Linear Programming": 0.8,
+    "Deep Learning": 0.85,
+    "Automated Test-Input Validation": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Effort-Optimized, Accuracy-Driven Labelling and Validation of Test Inputs for DL Systems: A Mixed-Integer Linear Programming Approach
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Active Learning
+**🌐 Broad Technical**: [[keywords/Deep Learning|Deep Learning]]
+**⚡ Unique Technical**: [[keywords/Mixed-Integer Linear Programming|Mixed-Integer Linear Programming]], [[keywords/Automated Test-Input Validation|Automated Test-Input Validation]]
 
 ## 🔗 유사한 논문
 - [[MetaSel_A_Test_Selection_Approach_for_Fine-tuned_DNN_Models_20250918|MetaSel: A Test Selection Approach for Fine-tuned DNN Models]] (78.4% similar)

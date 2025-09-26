@@ -1,3 +1,35 @@
+---
+keywords:
+  - Mesh-infused Neural Acoustic Field
+  - Room Impulse Response
+  - Neural Acoustic Modeling
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.15210
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:44:49.864466",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Mesh-infused Neural Acoustic Field",
+    "Room Impulse Response",
+    "Neural Acoustic Modeling"
+  ],
+  "rejected_keywords": [
+    "High-Fidelity Sound Simulation"
+  ],
+  "similarity_scores": {
+    "Mesh-infused Neural Acoustic Field": 0.8,
+    "Room Impulse Response": 0.82,
+    "Neural Acoustic Modeling": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Explicit Context-Driven Neural Acoustic Modeling for High-Fidelity RIR Generation
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Explicit Context-Driven Modeling
+**🔗 Specific Connectable**: [[keywords/Room Impulse Response|Room Impulse Response]]
+**⚡ Unique Technical**: [[keywords/Mesh-infused Neural Acoustic Field|Mesh-infused Neural Acoustic Field]], [[keywords/Neural Acoustic Modeling|Neural Acoustic Modeling]]
 
 ## 🔗 유사한 논문
 - [[TICL Text-Embedding KNN For Speech In-Context Learning Unlocks Speech Recognition Abilities of Large Multimodal Models]] (78.3% similar)

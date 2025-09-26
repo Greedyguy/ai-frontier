@@ -1,3 +1,35 @@
+---
+keywords:
+  - Reinforcement Learning
+  - Diffusion Models
+  - Sim-to-Real Transfer
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14353
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:47:14.910943",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Reinforcement Learning",
+    "Diffusion Models",
+    "Sim-to-Real Transfer"
+  ],
+  "rejected_keywords": [
+    "Human Motion Data"
+  ],
+  "similarity_scores": {
+    "Reinforcement Learning": 0.9,
+    "Diffusion Models": 0.88,
+    "Sim-to-Real Transfer": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # DreamControl: Human-Inspired Whole-Body Humanoid Control for Scene Interaction via Guided Diffusion
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Sim to Real Transfer
+**🔗 Specific Connectable**: [[keywords/Reinforcement Learning|Reinforcement Learning]], [[keywords/Diffusion Models|Diffusion Models]]
+**🚀 Evolved Concepts**: [[keywords/Sim-to-Real Transfer|Sim-to-Real Transfer]]
 
 ## 🔗 유사한 논문
 - [[Embracing Bulky Objects with Humanoid Robots Whole-Body Manipulation with Reinforcement Learning]] (84.1% similar)

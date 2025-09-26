@@ -1,0 +1,185 @@
+---
+keywords:
+  - Large Language Model
+  - Security Operations Center
+  - Cybersecurity
+  - Log Analysis
+category: cs.AI
+publish_date: 2025-09-23
+arxiv_id: 2509.10858
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-24T01:28:38.495936",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Model",
+    "Security Operations Center",
+    "Cybersecurity",
+    "Log Analysis"
+  ],
+  "rejected_keywords": [],
+  "similarity_scores": {
+    "Large Language Model": 0.85,
+    "Security Operations Center": 0.78,
+    "Cybersecurity": 0.8,
+    "Log Analysis": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true,
+  "candidates_json": {
+    "candidates": [
+      {
+        "surface": "Large Language Models",
+        "canonical": "Large Language Model",
+        "aliases": [
+          "LLM",
+          "Large Language Models"
+        ],
+        "category": "broad_technical",
+        "rationale": "Large Language Models are central to the paper's discussion and connect to various AI and NLP concepts.",
+        "novelty_score": 0.45,
+        "connectivity_score": 0.9,
+        "specificity_score": 0.65,
+        "link_intent_score": 0.85
+      },
+      {
+        "surface": "Security Operations Center",
+        "canonical": "Security Operations Center",
+        "aliases": [
+          "SOC",
+          "Security Operations Centers"
+        ],
+        "category": "unique_technical",
+        "rationale": "The Security Operations Center is a unique domain where LLMs are applied, providing specific context for cybersecurity.",
+        "novelty_score": 0.7,
+        "connectivity_score": 0.6,
+        "specificity_score": 0.8,
+        "link_intent_score": 0.78
+      },
+      {
+        "surface": "cybersecurity",
+        "canonical": "Cybersecurity",
+        "aliases": [],
+        "category": "specific_connectable",
+        "rationale": "Cybersecurity is a key area of application for LLMs in SOCs, linking to broader security and AI discussions.",
+        "novelty_score": 0.55,
+        "connectivity_score": 0.75,
+        "specificity_score": 0.7,
+        "link_intent_score": 0.8
+      },
+      {
+        "surface": "log analysis",
+        "canonical": "Log Analysis",
+        "aliases": [],
+        "category": "unique_technical",
+        "rationale": "Log analysis is a specific task within SOCs where LLMs can be applied, highlighting a technical application.",
+        "novelty_score": 0.65,
+        "connectivity_score": 0.5,
+        "specificity_score": 0.75,
+        "link_intent_score": 0.72
+      }
+    ],
+    "ban_list_suggestions": [
+      "method",
+      "performance",
+      "experiment"
+    ]
+  },
+  "decisions": [
+    {
+      "candidate_surface": "Large Language Models",
+      "resolved_canonical": "Large Language Model",
+      "decision": "linked",
+      "scores": {
+        "novelty": 0.45,
+        "connectivity": 0.9,
+        "specificity": 0.65,
+        "link_intent": 0.85
+      }
+    },
+    {
+      "candidate_surface": "Security Operations Center",
+      "resolved_canonical": "Security Operations Center",
+      "decision": "linked",
+      "scores": {
+        "novelty": 0.7,
+        "connectivity": 0.6,
+        "specificity": 0.8,
+        "link_intent": 0.78
+      }
+    },
+    {
+      "candidate_surface": "cybersecurity",
+      "resolved_canonical": "Cybersecurity",
+      "decision": "linked",
+      "scores": {
+        "novelty": 0.55,
+        "connectivity": 0.75,
+        "specificity": 0.7,
+        "link_intent": 0.8
+      }
+    },
+    {
+      "candidate_surface": "log analysis",
+      "resolved_canonical": "Log Analysis",
+      "decision": "linked",
+      "scores": {
+        "novelty": 0.65,
+        "connectivity": 0.5,
+        "specificity": 0.75,
+        "link_intent": 0.72
+      }
+    }
+  ]
+}
+-->
+
+# Large Language Models for Security Operations Centers: A Comprehensive Survey
+
+## 📋 메타데이터
+
+**Links**: [[daily_digest_20250923|20250923]] [[categories/cs.AI|cs.AI]]
+**PDF**: [Download](https://arxiv.org/pdf/2509.10858.pdf)
+**Category**: cs.AI
+**Published**: 2025-09-23
+**ArXiv ID**: [2509.10858](https://arxiv.org/abs/2509.10858)
+
+## 🔗 유사한 논문
+- [[2025-09-23/Large Language Models for Cyber Security_ A Systematic Literature Review_20250923|Large Language Models for Cyber Security: A Systematic Literature Review]] (90.9% similar)
+- [[2025-09-18/From Automation to Autonomy_ A Survey on Large Language Models in Scientific Discovery_20250918|From Automation to Autonomy: A Survey on Large Language Models in Scientific Discovery]] (86.6% similar)
+- [[2025-09-22/Toxicity Red-Teaming_ Benchmarking LLM Safety in Singapore's Low-Resource Languages_20250922|Toxicity Red-Teaming: Benchmarking LLM Safety in Singapore's Low-Resource Languages]] (85.5% similar)
+- [[2025-09-18/Evaluating and Improving the Robustness of Security Attack Detectors Generated by LLMs_20250918|Evaluating and Improving the Robustness of Security Attack Detectors Generated by LLMs]] (84.8% similar)
+- [[2025-09-22/How do Language Models Generate Slang_ A Systematic Comparison between Human and Machine-Generated Slang Usages_20250922|How do Language Models Generate Slang: A Systematic Comparison between Human and Machine-Generated Slang Usages]] (84.7% similar)
+
+## 🏷️ 카테고리화된 키워드
+**🧠 Broad Technical**: [[keywords/Large Language Model|Large Language Model]]
+**🔗 Specific Connectable**: [[keywords/Cybersecurity|Cybersecurity]]
+**⚡ Unique Technical**: [[keywords/Security Operations Center|Security Operations Center]], [[keywords/Log Analysis|Log Analysis]]
+
+## 📋 저자 정보
+
+**Authors:** 
+
+## 📄 Abstract (원문)
+
+arXiv:2509.10858v2 Announce Type: replace-cross 
+Abstract: Large Language Models (LLMs) have emerged as powerful tools capable of understanding and generating human-like text, offering transformative potential across diverse domains. The Security Operations Center (SOC), responsible for safeguarding digital infrastructure, represents one of these domains. SOCs serve as the frontline of defense in cybersecurity, tasked with continuous monitoring, detection, and response to incidents. However, SOCs face persistent challenges such as high alert volumes, limited resources, high demand for experts with advanced knowledge, delayed response times, and difficulties in leveraging threat intelligence effectively. In this context, LLMs can offer promising solutions by automating log analysis, streamlining triage, improving detection accuracy, and providing the required knowledge in less time. This survey systematically explores the integration of generative AI and more specifically LLMs into SOC workflow, providing a structured perspective on its capabilities, challenges, and future directions. We believe that this survey offers researchers and SOC managers a broad overview of the current state of LLM integration within academic study. To the best of our knowledge, this is the first comprehensive study to examine LLM applications in SOCs in details.
+
+## 📝 요약
+
+대형 언어 모델(LLM)은 다양한 분야에서 인간과 유사한 텍스트를 이해하고 생성할 수 있는 강력한 도구로 부상했습니다. 이 논문은 사이버 보안의 최전선인 보안 운영 센터(SOC)에 LLM을 통합하는 방안을 체계적으로 탐구합니다. SOC는 지속적인 모니터링과 사고 대응을 담당하지만, 높은 경고량, 제한된 자원, 전문가 수요, 지연된 대응 시간 등의 문제에 직면해 있습니다. LLM은 로그 분석 자동화, 분류 간소화, 탐지 정확도 향상 등을 통해 이러한 문제를 해결할 수 있는 가능성을 제시합니다. 본 연구는 LLM의 SOC 통합에 대한 현재 상태를 종합적으로 검토한 최초의 연구로, 연구자와 SOC 관리자에게 유용한 통찰을 제공합니다.
+
+## 🎯 주요 포인트
+
+- 1. 대형 언어 모델(LLMs)은 다양한 분야에서 인간과 유사한 텍스트를 이해하고 생성할 수 있는 강력한 도구로 부상하고 있다.
+- 2. 보안 운영 센터(SOC)는 사이버 보안의 최전선에서 디지털 인프라를 보호하며, 지속적인 모니터링, 탐지, 사고 대응을 담당한다.
+- 3. SOC는 높은 경고량, 제한된 자원, 고급 지식을 가진 전문가의 높은 수요, 지연된 대응 시간, 위협 인텔리전스 활용의 어려움 등 지속적인 문제에 직면해 있다.
+- 4. LLMs는 로그 분석 자동화, 트리아지 간소화, 탐지 정확도 향상, 지식 제공 시간 단축 등을 통해 SOC의 문제를 해결할 수 있는 유망한 솔루션을 제공한다.
+- 5. 이 연구는 생성 AI, 특히 LLMs의 SOC 워크플로우 통합을 체계적으로 탐구하며, 현재 학술 연구 내에서 LLM 통합의 현황을 포괄적으로 검토한 최초의 연구이다.
+
+
+---
+
+*Generated on 2025-09-24 01:28:38*

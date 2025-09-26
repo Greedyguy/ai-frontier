@@ -1,13 +1,46 @@
+---
+keywords:
+  - Data Coarse Graining
+  - High-Pass Scheme
+  - Ridge-Regularized Linear Regression
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:33:38.696919",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Data Coarse Graining",
+    "High-Pass Scheme",
+    "Ridge-Regularized Linear Regression"
+  ],
+  "rejected_keywords": [
+    "Renormalization Group"
+  ],
+  "similarity_scores": {
+    "Data Coarse Graining": 0.78,
+    "High-Pass Scheme": 0.75,
+    "Ridge-Regularized Linear Regression": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Data coarse graining can improve model performance
 
 **Korean Title:** 데이터 거칠기(coarse graining)는 모델 성능을 향상시킬 수 있습니다.
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Alex Nguyen|Alex Nguyen]] [[authors/David J. Schwab|David J. Schwab]] [[authors/Vudtiwat Ngampruetikorn|Vudtiwat Ngampruetikorn]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]      [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: High Pass Filtering
+**🔗 Specific Connectable**: [[keywords/Ridge-Regularized Linear Regression|ridge-regularized linear regression]]
+**⚡ Unique Technical**: [[keywords/Data Coarse Graining|data coarse graining]], [[keywords/High-Pass Scheme|high-pass scheme]]
 
 ## 🔗 유사한 논문
 - [[Pre-training under infinite compute_20250918|Pre-training under infinite compute]] (81.8% similar)

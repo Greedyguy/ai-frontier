@@ -1,13 +1,47 @@
+---
+keywords:
+  - Time Series Forecasting
+  - Self-Supervised Learning
+  - Representation Alignment
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:59:50.171986",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Time Series Forecasting",
+    "Self-Supervised Learning",
+    "Representation Alignment"
+  ],
+  "rejected_keywords": [
+    "Mutual Information",
+    "Frequency Mismatches"
+  ],
+  "similarity_scores": {
+    "Time Series Forecasting": 0.78,
+    "Self-Supervised Learning": 0.8,
+    "Representation Alignment": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Bridging Past and Future: Distribution-Aware Alignment for Time Series Forecasting
 
 **Korean Title:** 과거와 미래를 연결하기: 시계열 예측을 위한 분포 인식 정렬
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Yifan Hu|Yifan Hu]] [[authors/Jie Yang|Jie Yang]] [[authors/Tian Zhou|Tian Zhou]] [[authors/Peiyuan Liu|Peiyuan Liu]] [[authors/Yujin Tang|Yujin Tang]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Distribution Aware Alignment
+**🔗 Specific Connectable**: [[keywords/Time Series Forecasting|Time Series Forecasting]], [[keywords/Self-Supervised Learning|Contrastive Learning]]
+**⚡ Unique Technical**: [[keywords/Representation Alignment|Representation Alignment]]
 
 ## 🔗 유사한 논문
 - [[Stochastic Clock Attention for Aligning Continuous and Ordered Sequences_20250918|Stochastic Clock Attention for Aligning Continuous and Ordered Sequences]] (82.7% similar)

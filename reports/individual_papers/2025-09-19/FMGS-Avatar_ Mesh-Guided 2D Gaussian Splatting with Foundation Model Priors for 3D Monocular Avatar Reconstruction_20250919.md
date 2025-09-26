@@ -1,3 +1,36 @@
+---
+keywords:
+  - Foundation Models
+  - 3D Monocular Avatar Reconstruction
+  - Mesh-Guided 2D Gaussian Splatting
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14739
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:44:25.768086",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Foundation Models",
+    "3D Monocular Avatar Reconstruction",
+    "Mesh-Guided 2D Gaussian Splatting"
+  ],
+  "rejected_keywords": [
+    "Geometric Detail Preservation",
+    "Coordinated Training Strategy"
+  ],
+  "similarity_scores": {
+    "Foundation Models": 0.82,
+    "3D Monocular Avatar Reconstruction": 0.78,
+    "Mesh-Guided 2D Gaussian Splatting": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # FMGS-Avatar: Mesh-Guided 2D Gaussian Splatting with Foundation Model Priors for 3D Monocular Avatar Reconstruction
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Mesh Guided Gaussian Splatting
+**⚡ Unique Technical**: [[keywords/3D Monocular Avatar Reconstruction|3D Monocular Avatar Reconstruction]], [[keywords/Mesh-Guided 2D Gaussian Splatting|Mesh-Guided 2D Gaussian Splatting]]
+**🚀 Evolved Concepts**: [[keywords/Foundation Models|Foundation Models]]
 
 ## 🔗 유사한 논문
 - [[Kling-Avatar Grounding Multimodal Instructions for Cascaded Long-Duration Avatar Animation Synthesis]] (82.9% similar)

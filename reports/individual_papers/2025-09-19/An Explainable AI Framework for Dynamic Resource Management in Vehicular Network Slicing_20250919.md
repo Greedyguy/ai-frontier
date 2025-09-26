@@ -1,3 +1,35 @@
+---
+keywords:
+  - Attention Mechanism
+  - Explainable Reinforcement Learning
+  - Vehicular Network Slicing
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2506.11882
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:56:29.535222",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Attention Mechanism",
+    "Explainable Reinforcement Learning",
+    "Vehicular Network Slicing"
+  ],
+  "rejected_keywords": [
+    "Quality of Service"
+  ],
+  "similarity_scores": {
+    "Attention Mechanism": 0.8,
+    "Explainable Reinforcement Learning": 0.78,
+    "Vehicular Network Slicing": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # An Explainable AI Framework for Dynamic Resource Management in Vehicular Network Slicing
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Attention Mechanism, Shapley Values
+**🔗 Specific Connectable**: [[keywords/Attention Mechanism|Attention Mechanism]]
+**⚡ Unique Technical**: [[keywords/Explainable Reinforcement Learning|Explainable Deep Reinforcement Learning]], [[keywords/Vehicular Network Slicing|Vehicular Network Slicing]]
 
 ## 🔗 유사한 논문
 - [[Maximizing UAV Cellular Connectivity with Reinforcement Learning for BVLoS Path Planning]] (82.0% similar)

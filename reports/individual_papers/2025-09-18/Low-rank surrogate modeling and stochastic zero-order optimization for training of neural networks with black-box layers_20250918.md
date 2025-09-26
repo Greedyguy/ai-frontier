@@ -1,13 +1,48 @@
+---
+keywords:
+  - Stochastic Zero-Order Optimization
+  - Neural Networks
+  - Hybrid Architectures
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:21:01.708043",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Stochastic Zero-Order Optimization",
+    "Neural Networks",
+    "Hybrid Architectures"
+  ],
+  "rejected_keywords": [
+    "Low-Rank Surrogate Modeling",
+    "Computer Vision"
+  ],
+  "similarity_scores": {
+    "Stochastic Zero-Order Optimization": 0.85,
+    "Neural Networks": 0.9,
+    "Hybrid Architectures": 0.82
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Low-rank surrogate modeling and stochastic zero-order optimization for training of neural networks with black-box layers
 
 **Korean Title:** 저차원 대리 모델링 및 확률적 제로 차수 최적화를 통한 블랙박스 계층을 가진 신경망의 훈련
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Andrei Chertkov|Andrei Chertkov]] [[authors/Artem Basharin|Artem Basharin]] [[authors/Mikhail Saygin|Mikhail Saygin]] [[authors/Evgeny Frolov|Evgeny Frolov]] [[authors/Stanislav Straupe|Stanislav Straupe]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Hybrid Neural Networks
+**🌐 Broad Technical**: [[keywords/Neural Networks|Neural Networks]]
+**⚡ Unique Technical**: [[keywords/Stochastic Zero-Order Optimization|Stochastic Zero-Order Optimization]]
+**🚀 Evolved Concepts**: [[keywords/Hybrid Architectures|Hybrid Architectures]]
 
 ## 🔗 유사한 논문
 - [[A Universal Banach--Bregman Framework for Stochastic Iterations_ Unifying Stochastic Mirror Descent, Learning and LLM Training_20250917|A Universal Banach--Bregman Framework for Stochastic Iterations Unifying Stochastic Mirror Descent, Learning and LLM Training]] (82.5% similar)

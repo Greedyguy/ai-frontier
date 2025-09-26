@@ -1,13 +1,47 @@
+---
+keywords:
+  - Classification Accuracy
+  - State-Space Models
+  - Activity Classification
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:59:06.969690",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Classification Accuracy",
+    "State-Space Models",
+    "Activity Classification"
+  ],
+  "rejected_keywords": [
+    "Inertial Measurement Units"
+  ],
+  "similarity_scores": {
+    "Classification Accuracy": 0.8,
+    "State-Space Models": 0.78,
+    "Activity Classification": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Classification Filtering
 
 **Korean Title:** 분류 필터링
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Ilker Bayram|Ilker Bayram]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]    [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**⭐ Unique Technical**: Classification Filtering
+**🌐 Broad Technical**: [[keywords/Classification Accuracy|classification accuracy]]
+**🔗 Specific Connectable**: [[keywords/Activity Classification|activity classification]]
+**⚡ Unique Technical**: [[keywords/State-Space Models|state-space model]]
 
 ## 🔗 유사한 논문
 - [[Multimodal signal fusion for stress detection using deep neural networks_ a novel approach for converting 1D signals to unified 2D images_20250918|Multimodal signal fusion for stress detection using deep neural networks a novel approach for converting 1D signals to unified 2D images]] (78.3% similar)

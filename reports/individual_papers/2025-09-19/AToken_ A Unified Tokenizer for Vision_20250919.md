@@ -1,3 +1,35 @@
+---
+keywords:
+  - Transformer Architecture
+  - Multi-Modal Learning
+  - Unified Visual Tokenizer
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14476
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:58:10.418910",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Transformer Architecture",
+    "Multi-Modal Learning",
+    "Unified Visual Tokenizer"
+  ],
+  "rejected_keywords": [
+    "Generative Models"
+  ],
+  "similarity_scores": {
+    "Transformer Architecture": 0.85,
+    "Multi-Modal Learning": 0.82,
+    "Unified Visual Tokenizer": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # AToken: A Unified Tokenizer for Vision
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Unified Visual Tokenization
+**🔗 Specific Connectable**: [[keywords/Transformer Architecture|Transformer Architecture]]
+**⚡ Unique Technical**: [[keywords/Unified Visual Tokenizer|AToken]]
+**🚀 Evolved Concepts**: [[keywords/Multi-Modal Learning|Multimodal AI Systems]]
 
 ## 🔗 유사한 논문
 - [[LLM-I LLMs are Naturally Interleaved Multimodal Creators]] (80.4% similar)

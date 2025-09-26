@@ -1,13 +1,45 @@
+---
+keywords:
+  - Self-Consistency
+  - Large Language Models
+  - Test-Time Scaling
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:45:43.625405",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Self-Consistency",
+    "Large Language Models",
+    "Test-Time Scaling"
+  ],
+  "rejected_keywords": [
+    "Inference Latency"
+  ],
+  "similarity_scores": {
+    "Self-Consistency": 0.8,
+    "Large Language Models": 0.78,
+    "Test-Time Scaling": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Slim-SC: Thought Pruning for Efficient Scaling with Self-Consistency
 
 **Korean Title:** 슬림-SC: 자기 일관성을 통한 효율적인 확장을 위한 사고 가지치기
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Colin Hong|Colin Hong]] [[authors/Xu Guo|Xu Guo]] [[authors/Anand Chaanan Singh|Anand Chaanan Singh]] [[authors/Esha Choukse|Esha Choukse]] [[authors/Dmitrii Ustiugov|Dmitrii Ustiugov]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Thought Pruning
+**⚡ Unique Technical**: [[keywords/Self-Consistency|Self-Consistency]], [[keywords/Test-Time Scaling|Test-Time Scaling]]
 
 ## 🔗 유사한 논문
 - [[Reasoning Efficiently Through Adaptive Chain-of-Thought Compression_ A Self-Optimizing Framework_20250917|Reasoning Efficiently Through Adaptive Chain-of-Thought Compression A Self-Optimizing Framework]] (83.8% similar)

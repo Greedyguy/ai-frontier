@@ -1,13 +1,47 @@
+---
+keywords:
+  - Unconstrained Dysfluency Modeling
+  - Speech Recognition
+  - Clinical Interpretability
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:56:25.397915",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Unconstrained Dysfluency Modeling",
+    "Speech Recognition",
+    "Clinical Interpretability"
+  ],
+  "rejected_keywords": [
+    "Deep Learning"
+  ],
+  "similarity_scores": {
+    "Unconstrained Dysfluency Modeling": 0.88,
+    "Speech Recognition": 0.78,
+    "Clinical Interpretability": 0.82
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Deploying UDM Series in Real-Life Stuttered Speech Applications: A Clinical Evaluation Framework
 
 **Korean Title:** 실제 말더듬 증상 응용에서 UDM 시리즈 배치: 임상 평가 프레임워크
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Eric Zhang|Eric Zhang]] [[authors/Li Wei|Li Wei]] [[authors/Sarah Chen|Sarah Chen]] [[authors/Michael Wang|Michael Wang]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]       [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: AI-assisted Speech Therapy
+**🔗 Specific Connectable**: [[keywords/Speech Recognition|Speech Recognition]]
+**⚡ Unique Technical**: [[keywords/Unconstrained Dysfluency Modeling|Unconstrained Dysfluency Modeling]]
+**🚀 Evolved Concepts**: [[keywords/Clinical Interpretability|Clinical Interpretability]]
 
 ## 🔗 유사한 논문
 - [[From Turn-Taking to Synchronous Dialogue_ A Survey of Full-Duplex Spoken Language Models_20250919|From Turn-Taking to Synchronous Dialogue A Survey of Full-Duplex Spoken Language Models]] (82.1% similar)

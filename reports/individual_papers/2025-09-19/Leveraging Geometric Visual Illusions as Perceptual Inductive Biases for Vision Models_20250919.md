@@ -1,3 +1,35 @@
+---
+keywords:
+  - Transformer Architecture
+  - Geometric Visual Illusions
+  - Convolutional Neural Networks
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.15156
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:37:46.372296",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Transformer Architecture",
+    "Geometric Visual Illusions",
+    "Convolutional Neural Networks"
+  ],
+  "rejected_keywords": [
+    "Perceptual Inductive Biases"
+  ],
+  "similarity_scores": {
+    "Transformer Architecture": 0.82,
+    "Geometric Visual Illusions": 0.78,
+    "Convolutional Neural Networks": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Leveraging Geometric Visual Illusions as Perceptual Inductive Biases for Vision Models
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Perceptual Inductive Biases
+**🔗 Specific Connectable**: [[keywords/Transformer Architecture|Transformer Architecture]], [[keywords/Convolutional Neural Networks|Convolutional Neural Networks]]
+**⚡ Unique Technical**: [[keywords/Geometric Visual Illusions|geometric visual illusions]]
 
 ## 🔗 유사한 논문
 - [[Generalizable_Geometric_Image_Caption_Synthesis_20250919|Generalizable Geometric Image Caption Synthesis]] (79.9% similar)

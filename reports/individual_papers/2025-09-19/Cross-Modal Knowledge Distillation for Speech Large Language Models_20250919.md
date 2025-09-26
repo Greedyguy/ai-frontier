@@ -1,3 +1,36 @@
+---
+keywords:
+  - Large Language Models
+  - Cross-Modal Knowledge Distillation
+  - Natural Language Processing
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14930
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:51:08.513545",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Cross-Modal Knowledge Distillation",
+    "Natural Language Processing"
+  ],
+  "rejected_keywords": [
+    "Speech Recognition",
+    "Transfer Learning"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Cross-Modal Knowledge Distillation": 0.78,
+    "Natural Language Processing": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Cross-Modal Knowledge Distillation for Speech Large Language Models
 
@@ -5,10 +38,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Modality Inequivalence
+**🌐 Broad Technical**: [[keywords/Natural Language Processing|Natural Language Processing]]
+**⚡ Unique Technical**: [[keywords/Cross-Modal Knowledge Distillation|Cross-Modal Knowledge Distillation]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[Delta_Knowledge_Distillation_for_Large_Language_Models_20250919|Delta Knowledge Distillation for Large Language Models]] (84.4% similar)

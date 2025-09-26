@@ -1,3 +1,35 @@
+---
+keywords:
+  - Task-Aware Image Signal Processing
+  - RAW Sensor Data
+  - Image Signal Processor
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13762
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:06:35.170356",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Task-Aware Image Signal Processing",
+    "RAW Sensor Data",
+    "Image Signal Processor"
+  ],
+  "rejected_keywords": [
+    "Object Detection"
+  ],
+  "similarity_scores": {
+    "Task-Aware Image Signal Processing": 0.8,
+    "RAW Sensor Data": 0.75,
+    "Image Signal Processor": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Task-Aware Image Signal Processor for Advanced Visual Perception
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Pretrained vision models
+**🔗 Specific Connectable**: [[keywords/RAW Sensor Data|RAW sensor data]], [[keywords/Image Signal Processor|Image Signal Processor]]
+**⚡ Unique Technical**: [[keywords/Task-Aware Image Signal Processing|Task-Aware Image Signal Processing]]
 
 ## 🔗 유사한 논문
 - [[Search-TTA: A Multimodal Test-Time Adaptation Framework for Visual Search in the Wild]] (78.8% similar)

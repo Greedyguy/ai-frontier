@@ -1,3 +1,35 @@
+---
+keywords:
+  - Multi-Modal Learning
+  - Narrative Sequencing
+  - Multimodal Integration
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.12248
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:26:00.168453",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Multi-Modal Learning",
+    "Narrative Sequencing",
+    "Multimodal Integration"
+  ],
+  "rejected_keywords": [
+    "PixelHumor"
+  ],
+  "similarity_scores": {
+    "Multi-Modal Learning": 0.8,
+    "Narrative Sequencing": 0.77,
+    "Multimodal Integration": 0.79
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Humor in Pixels: Benchmarking Large Multimodal Models Understanding of Online Comics
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Multimodal Humor Understanding
+**🌐 Broad Technical**: [[keywords/Multimodal Integration|visual and textual cues]]
+**🔗 Specific Connectable**: [[keywords/Narrative Sequencing|panel sequencing]]
+**🚀 Evolved Concepts**: [[keywords/Multi-Modal Learning|Large Multimodal Models]]
 
 ## 🔗 유사한 논문
 - [[Forget What You Know about LLMs Evaluations -- LLMs are Like a Chameleon]] (81.7% similar)

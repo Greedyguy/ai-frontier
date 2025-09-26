@@ -1,3 +1,35 @@
+---
+keywords:
+  - Multi-Modal Learning
+  - LLaVA-NeXT-8B model
+  - Sparse Autoencoder
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2411.14982
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:38:39.714737",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Multi-Modal Learning",
+    "LLaVA-NeXT-8B model",
+    "Sparse Autoencoder"
+  ],
+  "rejected_keywords": [
+    "Cognitive Processes"
+  ],
+  "similarity_scores": {
+    "Multi-Modal Learning": 0.8,
+    "LLaVA-NeXT-8B model": 0.78,
+    "Sparse Autoencoder": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Large Multi-modal Models Can Interpret Features in Large Multi-modal Models
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Open Semantic Features
+**⚡ Unique Technical**: [[keywords/LLaVA-NeXT-8B model|LLaVA-NeXT-8B model]], [[keywords/Sparse Autoencoder|Sparse Autoencoder]]
+**🚀 Evolved Concepts**: [[keywords/Multi-Modal Learning|Large Multimodal Models]]
 
 ## 🔗 유사한 논문
 - [[Modular Machine Learning An Indispensable Path towards New-Generation Large Language Models]] (86.9% similar)

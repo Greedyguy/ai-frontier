@@ -1,3 +1,35 @@
+---
+keywords:
+  - Reconfigurable Intelligent Surfaces
+  - Non-Orthogonal Multiple Access
+  - Physical-Layer Security
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14705
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:25:06.384455",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Reconfigurable Intelligent Surfaces",
+    "Non-Orthogonal Multiple Access",
+    "Physical-Layer Security"
+  ],
+  "rejected_keywords": [
+    "Autonomous Aerial Vehicle Networks"
+  ],
+  "similarity_scores": {
+    "Reconfigurable Intelligent Surfaces": 0.78,
+    "Non-Orthogonal Multiple Access": 0.7,
+    "Physical-Layer Security": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Secure Short-Packet Communications for RIS-Assisted AAV Networks
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Short-packet Communications Framework
+**🔗 Specific Connectable**: [[keywords/Non-Orthogonal Multiple Access|Non-Orthogonal Multiple Access]], [[keywords/Physical-Layer Security|Physical-Layer Security]]
+**⚡ Unique Technical**: [[keywords/Reconfigurable Intelligent Surfaces|Reconfigurable Intelligent Surfaces]]
 
 ## 🔗 유사한 논문
 - [[Dual Actor DDPG for Airborne STAR-RIS Assisted Communications]] (81.0% similar)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - Multi-Hop Question Answering
+  - Knowledge Graph-Powered Inner Monologue
+  - Retrieval-Augmented Generation
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2410.09252
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:34:00.477908",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Multi-Hop Question Answering",
+    "Knowledge Graph-Powered Inner Monologue",
+    "Retrieval-Augmented Generation"
+  ],
+  "rejected_keywords": [
+    "Model-Based Planning"
+  ],
+  "similarity_scores": {
+    "Multi-Hop Question Answering": 0.79,
+    "Knowledge Graph-Powered Inner Monologue": 0.8,
+    "Retrieval-Augmented Generation": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # DAVIS: Planning Agent with Knowledge Graph-Powered Inner Monologue
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Interactive Retrieval Method
+**🔗 Specific Connectable**: [[keywords/Multi-Hop Question Answering|Multi-Hop Question Answering]], [[keywords/Retrieval-Augmented Generation|Retrieval-Augmented Generation]]
+**⚡ Unique Technical**: [[keywords/Knowledge Graph-Powered Inner Monologue|Knowledge Graph-Powered Inner Monologue]]
 
 ## 🔗 유사한 논문
 - [[PhysicalAgent Towards General Cognitive Robotics with Foundation World Models]] (80.8% similar)

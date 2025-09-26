@@ -1,13 +1,47 @@
+---
+keywords:
+  - Large Language Models
+  - Machine Unlearning
+  - Differential Privacy
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:46:02.199655",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Machine Unlearning",
+    "Differential Privacy"
+  ],
+  "rejected_keywords": [
+    "Optimization",
+    "CodeEraser"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Machine Unlearning": 0.78,
+    "Differential Privacy": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Scrub It Out! Erasing Sensitive Memorization in Code Language Models via Machine Unlearning
 
 **Korean Title:** 민감한 암기를 제거하라! 기계적 비학습을 통한 코드 언어 모델에서의 민감한 암기 삭제
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Zhaoyang Chu|Zhaoyang Chu]] [[authors/Yao Wan|Yao Wan]] [[authors/Zhikun Zhang|Zhikun Zhang]] [[authors/Di Wang|Di Wang]] [[authors/Zhou Yang|Zhou Yang]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Sensitive Memorization Erasure
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Code Language Models]], [[keywords/Differential Privacy|Differential Privacy]]
+**⚡ Unique Technical**: [[keywords/Machine Unlearning|Machine Unlearning]]
 
 ## 🔗 유사한 논문
 - [[Reveal and Release_ Iterative LLM Unlearning with Self-generated Data_20250918|Reveal and Release Iterative LLM Unlearning with Self-generated Data]] (84.8% similar)

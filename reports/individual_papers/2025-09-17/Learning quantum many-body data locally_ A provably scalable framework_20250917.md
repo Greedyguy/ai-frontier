@@ -1,13 +1,46 @@
+---
+keywords:
+  - Quantum Many-Body Data
+  - Machine Learning
+  - Geometrically Local Quantum Kernel
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:52:12.185229",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Quantum Many-Body Data",
+    "Machine Learning",
+    "Geometrically Local Quantum Kernel"
+  ],
+  "rejected_keywords": [
+    "Exponential Decay of Correlations"
+  ],
+  "similarity_scores": {
+    "Quantum Many-Body Data": 0.8,
+    "Machine Learning": 0.85,
+    "Geometrically Local Quantum Kernel": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Learning quantum many-body data locally: A provably scalable framework
 
 **Korean Title:** 양자 다체 데이터를 지역적으로 학습하기: 입증 가능한 확장 가능한 프레임워크
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Koki Chinzei|Koki Chinzei]] [[authors/Quoc Hoan Tran|Quoc Hoan Tran]] [[authors/Norifumi Matsumoto|Norifumi Matsumoto]] [[authors/Yasuhiro Endo|Yasuhiro Endo]] [[authors/Hirotaka Oshima|Hirotaka Oshima]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Scalable Quantum Data Learning
+**🌐 Broad Technical**: [[keywords/Machine Learning|Machine learning]]
+**⚡ Unique Technical**: [[keywords/Quantum Many-Body Data|quantum many-body data]], [[keywords/Geometrically Local Quantum Kernel|Geometrically Local Quantum Kernel]]
 
 ## 🔗 유사한 논문
 - [[Hybrid Quantum-Classical Neural Networks for Few-Shot Credit Risk Assessment_20250917|Hybrid Quantum-Classical Neural Networks for Few-Shot Credit Risk Assessment]] (83.7% similar)

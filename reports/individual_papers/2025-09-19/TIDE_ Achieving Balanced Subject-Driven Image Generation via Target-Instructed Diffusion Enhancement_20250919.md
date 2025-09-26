@@ -1,3 +1,36 @@
+---
+keywords:
+  - Diffusion Models
+  - Subject-Driven Image Generation
+  - Direct Subject Diffusion
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.06499
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:22:22.123684",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Diffusion Models",
+    "Subject-Driven Image Generation",
+    "Direct Subject Diffusion"
+  ],
+  "rejected_keywords": [
+    "Target-Supervised Triplet Alignment",
+    "Preference Learning"
+  ],
+  "similarity_scores": {
+    "Diffusion Models": 0.8,
+    "Subject-Driven Image Generation": 0.78,
+    "Direct Subject Diffusion": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # TIDE: Achieving Balanced Subject-Driven Image Generation via Target-Instructed Diffusion Enhancement
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Subject Driven Image Generation
+**🔗 Specific Connectable**: [[keywords/Diffusion Models|text-to-image diffusion models]]
+**⚡ Unique Technical**: [[keywords/Subject-Driven Image Generation|subject-driven image generation]], [[keywords/Direct Subject Diffusion|Direct Subject Diffusion]]
 
 ## 🔗 유사한 논문
 - [[Iterative Prompt Refinement for Safer Text-to-Image Generation_20250918|Iterative Prompt Refinement for Safer Text-to-Image Generation]] (80.9% similar)

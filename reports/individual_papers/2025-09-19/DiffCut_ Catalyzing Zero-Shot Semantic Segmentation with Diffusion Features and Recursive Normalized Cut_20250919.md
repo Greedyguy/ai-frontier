@@ -1,3 +1,35 @@
+---
+keywords:
+  - Diffusion Models
+  - Foundation Models
+  - Zero-Shot Learning
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2406.02842
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:48:22.244397",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Diffusion Models",
+    "Foundation Models",
+    "Zero-Shot Learning"
+  ],
+  "rejected_keywords": [
+    "Graph-Based Segmentation"
+  ],
+  "similarity_scores": {
+    "Diffusion Models": 0.82,
+    "Foundation Models": 0.8,
+    "Zero-Shot Learning": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # DiffCut: Catalyzing Zero-Shot Semantic Segmentation with Diffusion Features and Recursive Normalized Cut
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Zero-shot Segmentation
+**🔗 Specific Connectable**: [[keywords/Diffusion Models|Diffusion Features]]
+**🚀 Evolved Concepts**: [[keywords/Foundation Models|Foundation Vision Encoder]], [[keywords/Zero-Shot Learning|Zero-Shot Segmentation]]
 
 ## 🔗 유사한 논문
 - [[Semi-MoE Mixture-of-Experts meets Semi-Supervised Histopathology Segmentation]] (80.9% similar)

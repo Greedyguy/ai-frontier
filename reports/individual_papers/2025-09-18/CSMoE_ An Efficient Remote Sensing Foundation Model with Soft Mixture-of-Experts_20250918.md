@@ -1,3 +1,35 @@
+---
+keywords:
+  - Foundation Models
+  - Self-Supervised Learning
+  - Mixture-of-Experts
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.14104
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:36:17.332000",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Foundation Models",
+    "Self-Supervised Learning",
+    "Mixture-of-Experts"
+  ],
+  "rejected_keywords": [
+    "Masked Autoencoders"
+  ],
+  "similarity_scores": {
+    "Foundation Models": 0.78,
+    "Self-Supervised Learning": 0.8,
+    "Mixture-of-Experts": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # CSMoE: An Efficient Remote Sensing Foundation Model with Soft Mixture-of-Experts
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Cross-Sensor Masked Autoencoder
+**🔗 Specific Connectable**: [[keywords/Self-Supervised Learning|Self-supervised learning]]
+**⚡ Unique Technical**: [[keywords/Mixture-of-Experts|Soft mixture-of-experts]]
+**🚀 Evolved Concepts**: [[keywords/Foundation Models|Remote sensing foundation model]]
 
 ## 🔗 유사한 논문
 - [[Semi-MoE_Mixture-of-Experts_meets_Semi-Supervised_Histopathology_Segmentation_20250918|Semi-MoE: Mixture-of-Experts meets Semi-Supervised Histopathology Segmentation]] (82.5% similar)

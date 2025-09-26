@@ -1,3 +1,35 @@
+---
+keywords:
+  - Diffusion Models
+  - End-to-End Denoising Diffusion
+  - Scale-aware Pyramid-like Fusion Module
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.13214
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:46:43.033274",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Diffusion Models",
+    "End-to-End Denoising Diffusion",
+    "Scale-aware Pyramid-like Fusion Module"
+  ],
+  "rejected_keywords": [
+    "Generative Models"
+  ],
+  "similarity_scores": {
+    "Diffusion Models": 0.8,
+    "End-to-End Denoising Diffusion": 0.78,
+    "Scale-aware Pyramid-like Fusion Module": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # End4: End-to-end Denoising Diffusion for Diffusion-Based Inpainting Detection
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Scale-aware Pyramid-like Fusion Module
+**🔗 Specific Connectable**: [[keywords/Diffusion Models|diffusion models]]
+**⚡ Unique Technical**: [[keywords/End-to-End Denoising Diffusion|End-to-end denoising diffusion]], [[keywords/Scale-aware Pyramid-like Fusion Module|Scale-aware Pyramid-like Fusion Module]]
 
 ## 🔗 유사한 논문
 - [[Controllable Localized Face Anonymization Via Diffusion Inpainting_20250919|Controllable Localized Face Anonymization Via Diffusion Inpainting]] (83.9% similar)

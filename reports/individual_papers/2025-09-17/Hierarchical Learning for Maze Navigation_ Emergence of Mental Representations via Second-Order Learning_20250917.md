@@ -1,3 +1,35 @@
+---
+keywords:
+  - Graph Neural Networks
+  - Second-Order Learning
+  - Mental Representation
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:53:39.022051",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Graph Neural Networks",
+    "Second-Order Learning",
+    "Mental Representation"
+  ],
+  "rejected_keywords": [
+    "Maze Navigation"
+  ],
+  "similarity_scores": {
+    "Graph Neural Networks": 0.88,
+    "Second-Order Learning": 0.78,
+    "Mental Representation": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Hierarchical Learning for Maze Navigation: Emergence of Mental Representations via Second-Order Learning
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Shalima Binta Manir|Shalima Binta Manir]] [[authors/Tim Oates|Tim Oates]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]     [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔬 Broad Technical**: Graph Convolutional Network, MLP controller
+**🔗 Specific Connectable**: [[keywords/Graph Neural Networks|Graph Convolutional Network]]
+**⚡ Unique Technical**: [[keywords/Second-Order Learning|second-order learning]]
+**🚀 Evolved Concepts**: [[keywords/Mental Representation|mental representation]]
 
 ## 🔗 유사한 논문
 - [[Imagined Autocurricula]] (79.9% similar)

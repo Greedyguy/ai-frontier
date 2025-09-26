@@ -1,3 +1,35 @@
+---
+keywords:
+  - Reinforcement Learning
+  - Multi-Modal Learning
+  - Few-Shot Learning
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2507.16815
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:21:23.069521",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Reinforcement Learning",
+    "Multi-Modal Learning",
+    "Few-Shot Learning"
+  ],
+  "rejected_keywords": [
+    "Embodied AI"
+  ],
+  "similarity_scores": {
+    "Reinforcement Learning": 0.8,
+    "Multi-Modal Learning": 0.78,
+    "Few-Shot Learning": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # ThinkAct: Vision-Language-Action Reasoning via Reinforced Visual Latent Planning
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Multimodal Learning, Few-shot Adaptation
+**🔗 Specific Connectable**: [[keywords/Reinforcement Learning|Reinforced Visual Latent Planning]], [[keywords/Few-Shot Learning|Few-Shot Adaptation]]
+**🚀 Evolved Concepts**: [[keywords/Multi-Modal Learning|Vision-Language-Action Reasoning]]
 
 ## 🔗 유사한 논문
 - [[CLAW A Vision-Language-Action Framework for Weight-Aware Robotic Grasping]] (85.2% similar)

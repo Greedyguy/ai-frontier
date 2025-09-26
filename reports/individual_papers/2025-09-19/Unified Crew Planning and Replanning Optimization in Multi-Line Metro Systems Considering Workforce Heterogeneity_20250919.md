@@ -1,13 +1,46 @@
+---
+keywords:
+  - Multi-Line Metro Crew Planning
+  - Workforce Heterogeneity
+  - Hierarchical Time-Space Network Model
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14251
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:19:19.026604",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Multi-Line Metro Crew Planning",
+    "Workforce Heterogeneity",
+    "Hierarchical Time-Space Network Model"
+  ],
+  "rejected_keywords": [
+    "Optimization"
+  ],
+  "similarity_scores": {
+    "Multi-Line Metro Crew Planning": 0.78,
+    "Workforce Heterogeneity": 0.77,
+    "Hierarchical Time-Space Network Model": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Unified Crew Planning and Replanning Optimization in Multi-Line Metro Systems Considering Workforce Heterogeneity
 
 **Korean Title:** 다중 노선 지하철 시스템에서 인력 이질성을 고려한 통합 승무원 계획 및 재계획 최적화
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Cross-Line Coordination
+**🔗 Specific Connectable**: [[keywords/Workforce Heterogeneity|workforce heterogeneity]]
+**⚡ Unique Technical**: [[keywords/Multi-Line Metro Crew Planning|multi-line metro crew planning]], [[keywords/Hierarchical Time-Space Network Model|hierarchical time-space network model]]
 
 ## 🔗 유사한 논문
 - [[AI-Driven Multi-Agent Vehicular Planning for Battery Efficiency and QoS in 6G Smart Cities_20250919|AI-Driven Multi-Agent Vehicular Planning for Battery Efficiency and QoS in 6G Smart Cities]] (80.8% similar)

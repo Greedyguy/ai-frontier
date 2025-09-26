@@ -1,3 +1,36 @@
+---
+keywords:
+  - Diffusion Models
+  - Attention Mechanism
+  - Large Language Models
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.12824
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:32:54.672003",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Diffusion Models",
+    "Attention Mechanism",
+    "Large Language Models"
+  ],
+  "rejected_keywords": [
+    "Deep Hashing",
+    "Multi-Modal Learning"
+  ],
+  "similarity_scores": {
+    "Diffusion Models": 0.78,
+    "Attention Mechanism": 0.79,
+    "Large Language Models": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # DiffHash: Text-Guided Targeted Attack via Diffusion Models against Deep Hashing Image Retrieval
 
@@ -5,10 +38,10 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Text-Guided Targeted Attack
+**🔗 Specific Connectable**: [[keywords/Diffusion Models|Diffusion Models]], [[keywords/Attention Mechanism|Attention Mechanism]], [[keywords/Large Language Models|Large Language Model]]
 
 ## 🔗 유사한 논문
 - [[DiffGAN_A_Test_Generation_Approach_for_Differential_Testing_of_Deep_Neural_Networks_for_Image_Analysis_20250918|DiffGAN: A Test Generation Approach for Differential Testing of Deep Neural Networks for Image Analysis]] (79.5% similar)

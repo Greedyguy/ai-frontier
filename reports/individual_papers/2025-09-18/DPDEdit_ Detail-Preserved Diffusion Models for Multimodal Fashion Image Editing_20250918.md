@@ -1,3 +1,36 @@
+---
+keywords:
+  - Diffusion Models
+  - Multimodal Fashion Image Editing
+  - Attention Mechanism
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2409.01086
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:33:45.117883",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Diffusion Models",
+    "Multimodal Fashion Image Editing",
+    "Attention Mechanism"
+  ],
+  "rejected_keywords": [
+    "Texture Injection and Refinement",
+    "Large Language Models"
+  ],
+  "similarity_scores": {
+    "Diffusion Models": 0.8,
+    "Multimodal Fashion Image Editing": 0.78,
+    "Attention Mechanism": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # DPDEdit: Detail-Preserved Diffusion Models for Multimodal Fashion Image Editing
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Multimodal Fashion Image Editing
+**🔗 Specific Connectable**: [[keywords/Diffusion Models|Diffusion Models]], [[keywords/Attention Mechanism|Attention Mechanism]]
+**⚡ Unique Technical**: [[keywords/Multimodal Fashion Image Editing|Multimodal Fashion Image Editing]]
 
 ## 🔗 유사한 논문
 - [[EdiVal-Agent An Object-Centric Framework for Automated, Scalable, Fine-Grained Evaluation of Multi-Turn Editing]] (80.6% similar)

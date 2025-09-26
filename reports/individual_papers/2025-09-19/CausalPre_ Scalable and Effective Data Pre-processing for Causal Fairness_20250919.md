@@ -1,3 +1,35 @@
+---
+keywords:
+  - Causal Fairness
+  - Marginal Factorization
+  - Distribution Estimation
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.15199
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:53:29.666542",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Causal Fairness",
+    "Marginal Factorization",
+    "Distribution Estimation"
+  ],
+  "rejected_keywords": [
+    "Data Pre-processing"
+  ],
+  "similarity_scores": {
+    "Causal Fairness": 0.78,
+    "Marginal Factorization": 0.75,
+    "Distribution Estimation": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # CausalPre: Scalable and Effective Data Pre-processing for Causal Fairness
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Causality-guided Framework
+**🔗 Specific Connectable**: [[keywords/Distribution Estimation|distribution estimation]]
+**⚡ Unique Technical**: [[keywords/Causal Fairness|causal fairness]], [[keywords/Marginal Factorization|marginal factorization]]
 
 ## 🔗 유사한 논문
 - [[Causal Clustering for Conditional Average Treatment Effects Estimation and Subgroup Discovery]] (79.3% similar)

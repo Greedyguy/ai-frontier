@@ -1,3 +1,35 @@
+---
+keywords:
+  - Quantum Neural Networks
+  - Variational Quantum Circuits
+  - Quantum Long Short-Term Memory
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14290
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:28:28.112242",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Quantum Neural Networks",
+    "Variational Quantum Circuits",
+    "Quantum Long Short-Term Memory"
+  ],
+  "rejected_keywords": [
+    "Virtual Reality"
+  ],
+  "similarity_scores": {
+    "Quantum Neural Networks": 0.78,
+    "Variational Quantum Circuits": 0.72,
+    "Quantum Long Short-Term Memory": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # QLook:Quantum-Driven Viewport Prediction for Virtual Reality
 
@@ -5,10 +37,10 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Quantum Long Short-Term Memory
+**⚡ Unique Technical**: [[keywords/Quantum Neural Networks|Quantum Neural Networks]], [[keywords/Variational Quantum Circuits|Variational Quantum Circuits]], [[keywords/Quantum Long Short-Term Memory|Quantum Long Short-Term Memory]]
 
 ## 🔗 유사한 논문
 - [[Hybrid Quantum-Classical Neural Networks for Few-Shot Credit Risk Assessment]] (80.1% similar)

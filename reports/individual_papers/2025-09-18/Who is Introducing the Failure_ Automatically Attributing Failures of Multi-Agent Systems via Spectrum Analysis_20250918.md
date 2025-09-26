@@ -1,3 +1,35 @@
+---
+keywords:
+  - Large Language Models
+  - Failure Attribution in Multi-Agent Systems
+  - Agent Activation Patterns
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13782
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:01:22.802392",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Failure Attribution in Multi-Agent Systems",
+    "Agent Activation Patterns"
+  ],
+  "rejected_keywords": [
+    "Spectrum Analysis"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Failure Attribution in Multi-Agent Systems": 0.7,
+    "Agent Activation Patterns": 0.65
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Who is Introducing the Failure? Automatically Attributing Failures of Multi-Agent Systems via Spectrum Analysis
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Spectrum-based Failure Attribution
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Large Language Model Powered Multi-Agent Systems]]
+**⚡ Unique Technical**: [[keywords/Failure Attribution in Multi-Agent Systems|Failure Attribution in Multi-Agent Systems]], [[keywords/Agent Activation Patterns|Agent Activation Patterns]]
 
 ## 🔗 유사한 논문
 - [[An Empirical Study on Failures in Automated Issue Solving]] (81.5% similar)

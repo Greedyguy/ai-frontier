@@ -1,3 +1,36 @@
+---
+keywords:
+  - IEEE 802.11p
+  - Vehicle-to-Vehicle Communication
+  - LiDAR Point Clouds
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14523
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:59:17.519943",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "IEEE 802.11p",
+    "Vehicle-to-Vehicle Communication",
+    "LiDAR Point Clouds"
+  ],
+  "rejected_keywords": [
+    "Software Defined Radio",
+    "Decentralized Storage Systems"
+  ],
+  "similarity_scores": {
+    "IEEE 802.11p": 0.8,
+    "Vehicle-to-Vehicle Communication": 0.78,
+    "LiDAR Point Clouds": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # A Software-Defined Radio Testbed for Distributed LiDAR Point Cloud Sharing with IEEE 802.11p in V2V Networks
 
@@ -5,10 +38,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Decentralized Storage Systems
+**🌐 Broad Technical**: [[keywords/Vehicle-to-Vehicle Communication|Vehicle-to-Vehicle communication]]
+**🔗 Specific Connectable**: [[keywords/LiDAR Point Clouds|LiDAR point clouds]]
+**⚡ Unique Technical**: [[keywords/IEEE 802.11p|IEEE 802.11p]]
 
 ## 🔗 유사한 논문
 - [[An Explainable AI Framework for Dynamic Resource Management in Vehicular Network Slicing_20250919|An Explainable AI Framework for Dynamic Resource Management in Vehicular Network Slicing]] (79.9% similar)

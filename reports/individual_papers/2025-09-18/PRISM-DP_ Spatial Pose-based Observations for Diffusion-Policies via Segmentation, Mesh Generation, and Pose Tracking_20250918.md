@@ -1,3 +1,35 @@
+---
+keywords:
+  - Diffusion Models
+  - Spatial Poses
+  - Pose Tracking
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2504.20359
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:16:49.114446",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Diffusion Models",
+    "Spatial Poses",
+    "Pose Tracking"
+  ],
+  "rejected_keywords": [
+    "Mesh Generation"
+  ],
+  "similarity_scores": {
+    "Diffusion Models": 0.78,
+    "Spatial Poses": 0.72,
+    "Pose Tracking": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # PRISM-DP: Spatial Pose-based Observations for Diffusion-Policies via Segmentation, Mesh Generation, and Pose Tracking
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Compact Policy Learning
+**🔗 Specific Connectable**: [[keywords/Diffusion Models|Diffusion Policies]]
+**⚡ Unique Technical**: [[keywords/Spatial Poses|Spatial Poses]], [[keywords/Pose Tracking|Pose Tracking]]
 
 ## 🔗 유사한 논문
 - [[Hybrid_Diffusion_Policies_with_Projective_Geometric_Algebra_for_Efficient_Robot_Manipulation_Learning_20250918|Hybrid Diffusion Policies with Projective Geometric Algebra for Efficient Robot Manipulation Learning]] (84.2% similar)

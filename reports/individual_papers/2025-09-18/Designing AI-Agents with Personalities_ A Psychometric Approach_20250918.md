@@ -1,3 +1,35 @@
+---
+keywords:
+  - Large Language Models
+  - Big Five Personality Traits
+  - AI Agents
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2410.19238
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:33:16.670315",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Big Five Personality Traits",
+    "AI Agents"
+  ],
+  "rejected_keywords": [
+    "Moral Dilemma Vignettes"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.9,
+    "Big Five Personality Traits": 0.88,
+    "AI Agents": 0.85
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Designing AI-Agents with Personalities: A Psychometric Approach
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: AI-Agent Moral Judgment
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Large Language Models]]
+**⚡ Unique Technical**: [[keywords/Big Five Personality Traits|Big Five framework]]
+**🚀 Evolved Concepts**: [[keywords/AI Agents|AI-Agents]]
 
 ## 🔗 유사한 논문
 - [[CogniAlign Survivability-Grounded Multi-Agent Moral Reasoning for Safe and Transparent AI]] (82.9% similar)

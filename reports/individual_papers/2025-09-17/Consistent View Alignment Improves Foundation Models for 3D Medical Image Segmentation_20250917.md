@@ -1,13 +1,47 @@
+---
+keywords:
+  - Transformer Architecture
+  - Consistent View Alignment
+  - Convolutional Neural Networks
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:58:16.981089",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Transformer Architecture",
+    "Consistent View Alignment",
+    "Convolutional Neural Networks"
+  ],
+  "rejected_keywords": [
+    "Self-Supervised Learning",
+    "Foundation Models"
+  ],
+  "similarity_scores": {
+    "Transformer Architecture": 0.82,
+    "Consistent View Alignment": 0.8,
+    "Convolutional Neural Networks": 0.79
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Consistent View Alignment Improves Foundation Models for 3D Medical Image Segmentation
 
 **Korean Title:** 일관된 뷰 정렬은 3D 의료 이미지 분할을 위한 기초 모델을 개선합니다.
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Puru Vaish|Puru Vaish]] [[authors/Felix Meister|Felix Meister]] [[authors/Tobias Heimann|Tobias Heimann]] [[authors/Christoph Brune|Christoph Brune]] [[authors/Jelmer M. Wolterink|Jelmer M. Wolterink]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**⭐ Unique Technical**: Consistent View Alignment
+**🔗 Specific Connectable**: [[keywords/Transformer Architecture|Vision Transformers]], [[keywords/Convolutional Neural Networks|Convolutional Neural Networks]]
+**⚡ Unique Technical**: [[keywords/Consistent View Alignment|Consistent View Alignment]]
 
 ## 🔗 유사한 논문
 - [[Seeing 3D Through 2D Lenses_ 3D Few-Shot Class-Incremental Learning via Cross-Modal Geometric Rectification_20250919|Seeing 3D Through 2D Lenses 3D Few-Shot Class-Incremental Learning via Cross-Modal Geometric Rectification]] (82.5% similar)

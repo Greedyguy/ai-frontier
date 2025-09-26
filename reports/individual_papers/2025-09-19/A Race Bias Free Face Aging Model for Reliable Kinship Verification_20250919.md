@@ -1,3 +1,35 @@
+---
+keywords:
+  - Bias Mitigation in Computer Vision
+  - Generative Models
+  - Kinship Verification
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.15177
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:59:28.343554",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Bias Mitigation in Computer Vision",
+    "Generative Models",
+    "Kinship Verification"
+  ],
+  "rejected_keywords": [
+    "RA-GAN"
+  ],
+  "similarity_scores": {
+    "Bias Mitigation in Computer Vision": 0.8,
+    "Generative Models": 0.78,
+    "Kinship Verification": 0.82
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # A Race Bias Free Face Aging Model for Reliable Kinship Verification
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Racially Unbiased Face Aging
+**🔗 Specific Connectable**: [[keywords/Generative Models|face aging GAN model]]
+**⚡ Unique Technical**: [[keywords/Kinship Verification|kinship verification]]
+**🚀 Evolved Concepts**: [[keywords/Bias Mitigation in Computer Vision|racially unbiased images]]
 
 ## 🔗 유사한 논문
 - [[Controllable Localized Face Anonymization Via Diffusion Inpainting_20250919|Controllable Localized Face Anonymization Via Diffusion Inpainting]] (79.9% similar)

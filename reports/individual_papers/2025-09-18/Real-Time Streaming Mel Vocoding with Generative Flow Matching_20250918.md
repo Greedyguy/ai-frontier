@@ -1,13 +1,46 @@
+---
+keywords:
+  - Generative Flow Matching
+  - MelFlow
+  - Mel Vocoding
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:13:53.807459",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Generative Flow Matching",
+    "MelFlow",
+    "Mel Vocoding"
+  ],
+  "rejected_keywords": [
+    "DiffPhase",
+    "Speech Recognition"
+  ],
+  "similarity_scores": {
+    "Generative Flow Matching": 0.82,
+    "MelFlow": 0.8,
+    "Mel Vocoding": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Real-Time Streaming Mel Vocoding with Generative Flow Matching
 
 **Korean Title:** 실시간 스트리밍 멜 보코딩을 위한 생성적 흐름 매칭
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Simon Welker|Simon Welker]] [[authors/Tal Peer|Tal Peer]] [[authors/Timo Gerkmann|Timo Gerkmann]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]      [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Streaming Mel Vocoding
+**⚡ Unique Technical**: [[keywords/Generative Flow Matching|Generative Flow Matching]], [[keywords/MelFlow|MelFlow]], [[keywords/Mel Vocoding|Mel vocoding]]
 
 ## 🔗 유사한 논문
 - [[MeanFlowSE_ one-step generative speech enhancement via conditional mean flow_20250919|MeanFlowSE one-step generative speech enhancement via conditional mean flow]] (83.5% similar)

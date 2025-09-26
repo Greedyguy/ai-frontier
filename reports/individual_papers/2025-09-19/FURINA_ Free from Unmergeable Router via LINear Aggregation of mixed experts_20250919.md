@@ -1,3 +1,35 @@
+---
+keywords:
+  - Mixture of Experts
+  - Low-Rank Adaptation
+  - Parameter-Efficient Fine-Tuning
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14900
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:44:17.278938",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Mixture of Experts",
+    "Low-Rank Adaptation",
+    "Parameter-Efficient Fine-Tuning"
+  ],
+  "rejected_keywords": [
+    "Self-Routing Mechanism"
+  ],
+  "similarity_scores": {
+    "Mixture of Experts": 0.82,
+    "Low-Rank Adaptation": 0.78,
+    "Parameter-Efficient Fine-Tuning": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # FURINA: Free from Unmergeable Router via LINear Aggregation of mixed experts
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Router Free MoE
+**🔗 Specific Connectable**: [[keywords/Mixture of Experts|Mixture of Experts]], [[keywords/Low-Rank Adaptation|Low-Rank Adaptation]]
+**🚀 Evolved Concepts**: [[keywords/Parameter-Efficient Fine-Tuning|Parameter-Efficient Fine-Tuning]]
 
 ## 🔗 유사한 논문
 - [[Mixture of Low-Rank Adapter Experts in Generalizable Audio Deepfake Detection]] (81.4% similar)

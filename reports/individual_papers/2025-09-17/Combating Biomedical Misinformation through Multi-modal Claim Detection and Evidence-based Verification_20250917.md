@@ -1,13 +1,46 @@
+---
+keywords:
+  - Large Language Models
+  - Biomedical Fact-Checking
+  - Multi-Modal Learning
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:58:59.463127",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Biomedical Fact-Checking",
+    "Multi-Modal Learning"
+  ],
+  "rejected_keywords": [
+    "Natural Language Processing",
+    "Scientific Evidence Retrieval"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Biomedical Fact-Checking": 0.78,
+    "Multi-Modal Learning": 0.79
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Combating Biomedical Misinformation through Multi-modal Claim Detection and Evidence-based Verification
 
 **Korean Title:** 생물의학적 허위정보 대응을 위한 다중 모달 주장 탐지 및 증거 기반 검증
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Mariano Barone|Mariano Barone]] [[authors/Antonio Romano|Antonio Romano]] [[authors/Giuseppe Riccio|Giuseppe Riccio]] [[authors/Marco Postiglione|Marco Postiglione]] [[authors/Vincenzo Moscato|Vincenzo Moscato]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Evidence Retrieval, Supervised Veracity Prediction
+**⚡ Unique Technical**: [[keywords/Biomedical Fact-Checking|Biomedical Fact-Checking]]
 
 ## 🔗 유사한 논문
 - [[MedFact-R1_ Towards Factual Medical Reasoning via Pseudo-Label Augmentation_20250919|MedFact-R1 Towards Factual Medical Reasoning via Pseudo-Label Augmentation]] (83.7% similar)

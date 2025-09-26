@@ -1,3 +1,35 @@
+---
+keywords:
+  - Neural Networks
+  - Open Radio Access Network
+  - DevOps
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2409.02849
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:39:44.129512",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Neural Networks",
+    "Open Radio Access Network",
+    "DevOps"
+  ],
+  "rejected_keywords": [
+    "Cloud-Native Data Platforms"
+  ],
+  "similarity_scores": {
+    "Neural Networks": 0.8,
+    "Open Radio Access Network": 0.78,
+    "DevOps": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Anomaly Detection in Offshore Open Radio Access Network Using Long Short-Term Memory Models on a Novel Artificial Intelligence-Driven Cloud-Native Data Platform
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Offshore Open Radio Access Network
+**🌐 Broad Technical**: [[keywords/Neural Networks|Long Short-Term Memory]]
+**🔗 Specific Connectable**: [[keywords/DevOps|Development Operations]]
+**⚡ Unique Technical**: [[keywords/Open Radio Access Network|Open Radio Access Network]]
 
 ## 🔗 유사한 논문
 - [[Odin_Effective_End-to-End_SLA_Decomposition_for_5G6G_Network_Slicing_via_Online_Learning_20250918|Odin: Effective End-to-End SLA Decomposition for 5G/6G Network Slicing via Online Learning]] (79.7% similar)

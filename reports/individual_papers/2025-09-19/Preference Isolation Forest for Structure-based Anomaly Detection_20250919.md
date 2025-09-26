@@ -1,3 +1,35 @@
+---
+keywords:
+  - Preference Isolation Forest
+  - Local Sensitive Hashing
+  - Anomaly Detection
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2505.10876
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:28:48.842039",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Preference Isolation Forest",
+    "Local Sensitive Hashing",
+    "Anomaly Detection"
+  ],
+  "rejected_keywords": [
+    "Low-Dimensional Manifolds"
+  ],
+  "similarity_scores": {
+    "Preference Isolation Forest": 0.8,
+    "Local Sensitive Hashing": 0.82,
+    "Anomaly Detection": 0.85
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Preference Isolation Forest for Structure-based Anomaly Detection
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Adaptive Isolation Methods
+**🌐 Broad Technical**: [[keywords/Anomaly Detection|anomaly detection]]
+**🔗 Specific Connectable**: [[keywords/Local Sensitive Hashing|Local Sensitive Hashing]]
+**⚡ Unique Technical**: [[keywords/Preference Isolation Forest|Preference Isolation Forest]]
 
 ## 🔗 유사한 논문
 - [[RationAnomaly Log Anomaly Detection with Rationality via Chain-of-Thought and Reinforcement Learning]] (79.2% similar)

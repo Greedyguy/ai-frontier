@@ -1,3 +1,35 @@
+---
+keywords:
+  - Federated Hypergraph Learning
+  - Local Differential Privacy
+  - Graph Neural Networks
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2408.05160
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:43:58.083465",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Federated Hypergraph Learning",
+    "Local Differential Privacy",
+    "Graph Neural Networks"
+  ],
+  "rejected_keywords": [
+    "Hyperedge Completion"
+  ],
+  "similarity_scores": {
+    "Federated Hypergraph Learning": 0.8,
+    "Local Differential Privacy": 0.72,
+    "Graph Neural Networks": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Federated Hypergraph Learning with Local Differential Privacy: Toward Privacy-Aware Hypergraph Structure Completion
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Federated Hypergraph Learning
+**🔗 Specific Connectable**: [[keywords/Local Differential Privacy|Local Differential Privacy]], [[keywords/Graph Neural Networks|Graph Neural Networks]]
+**⚡ Unique Technical**: [[keywords/Federated Hypergraph Learning|Federated Hypergraph Learning]]
 
 ## 🔗 유사한 논문
 - [[Hybrid_Diffusion_Policies_with_Projective_Geometric_Algebra_for_Efficient_Robot_Manipulation_Learning_20250918|Hybrid Diffusion Policies with Projective Geometric Algebra for Efficient Robot Manipulation Learning]] (80.1% similar)

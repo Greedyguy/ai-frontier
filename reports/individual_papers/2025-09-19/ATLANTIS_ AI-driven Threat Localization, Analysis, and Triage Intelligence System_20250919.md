@@ -1,3 +1,36 @@
+---
+keywords:
+  - Large Language Models
+  - Program Analysis
+  - Directed Fuzzing
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14589
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:58:22.566319",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Program Analysis",
+    "Directed Fuzzing"
+  ],
+  "rejected_keywords": [
+    "Symbolic Execution",
+    "Static Analysis"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.8,
+    "Program Analysis": 0.75,
+    "Directed Fuzzing": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # ATLANTIS: AI-driven Threat Localization, Analysis, and Triage Intelligence System
 
@@ -5,10 +38,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Symbolic Execution, Directed Fuzzing
+**🌐 Broad Technical**: [[keywords/Program Analysis|Program Analysis]]
+**🔗 Specific Connectable**: [[keywords/Large Language Models|Large Language Models]]
+**⚡ Unique Technical**: [[keywords/Directed Fuzzing|Directed Fuzzing]]
 
 ## 🔗 유사한 논문
 - [[CogniAlign Survivability-Grounded Multi-Agent Moral Reasoning for Safe and Transparent AI]] (80.1% similar)

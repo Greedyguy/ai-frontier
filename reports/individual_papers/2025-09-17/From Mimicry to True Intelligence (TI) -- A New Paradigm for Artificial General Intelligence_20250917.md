@@ -1,13 +1,48 @@
+---
+keywords:
+  - Artificial General Intelligence
+  - True Intelligence
+  - Cognitive Architectures
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:54:20.103766",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Artificial General Intelligence",
+    "True Intelligence",
+    "Cognitive Architectures"
+  ],
+  "rejected_keywords": [
+    "Schema Theory",
+    "Consciousness"
+  ],
+  "similarity_scores": {
+    "Artificial General Intelligence": 0.88,
+    "True Intelligence": 0.82,
+    "Cognitive Architectures": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # From Mimicry to True Intelligence (TI) -- A New Paradigm for Artificial General Intelligence
 
 **Korean Title:** 모방에서 진정한 지능(TI)으로 -- 인공지능 일반화의 새로운 패러다임
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Meltem Subasioglu|Meltem Subasioglu]] [[authors/Nevzat Subasioglu|Nevzat Subasioglu]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]     [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Embodied Sensory Fusion
+**🌐 Broad Technical**: [[keywords/Cognitive Architectures|Cognitive Architectures]]
+**⚡ Unique Technical**: [[keywords/True Intelligence|True Intelligence]]
+**🚀 Evolved Concepts**: [[keywords/Artificial General Intelligence|Artificial General Intelligence]]
 
 ## 🔗 유사한 논문
 - [[Designing AI-Agents with Personalities_ A Psychometric Approach_20250918|Designing AI-Agents with Personalities A Psychometric Approach]] (80.5% similar)

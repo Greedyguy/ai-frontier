@@ -1,3 +1,35 @@
+---
+keywords:
+  - Reinforcement Learning
+  - Large Language Models
+  - Vision-Language Models
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.14172
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:07:35.990802",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Reinforcement Learning",
+    "Large Language Models",
+    "Vision-Language Models"
+  ],
+  "rejected_keywords": [
+    "Tree-Guided Preference Optimization"
+  ],
+  "similarity_scores": {
+    "Reinforcement Learning": 0.85,
+    "Large Language Models": 0.8,
+    "Vision-Language Models": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # TGPO: Tree-Guided Preference Optimization for Robust Web Agent Reinforcement Learning
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Dynamic Weighting Mechanism
+**🔗 Specific Connectable**: [[keywords/Reinforcement Learning|Reinforcement Learning]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]], [[keywords/Vision-Language Models|Vision-Language Models]]
 
 ## 🔗 유사한 논문
 - [[AgentCTG Harnessing Multi-Agent Collaboration for Fine-Grained Precise Control in Text Generation]] (80.5% similar)

@@ -1,3 +1,35 @@
+---
+keywords:
+  - Diffusion Models
+  - Face Anonymization
+  - Attribute-Guidance Module
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14866
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:51:21.544370",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Diffusion Models",
+    "Face Anonymization",
+    "Attribute-Guidance Module"
+  ],
+  "rejected_keywords": [
+    "Computer Vision"
+  ],
+  "similarity_scores": {
+    "Diffusion Models": 0.82,
+    "Face Anonymization": 0.78,
+    "Attribute-Guidance Module": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Controllable Localized Face Anonymization Via Diffusion Inpainting
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Localized Anonymization
+**🔗 Specific Connectable**: [[keywords/Diffusion Models|Diffusion Inpainting]]
+**⚡ Unique Technical**: [[keywords/Face Anonymization|Face Anonymization]], [[keywords/Attribute-Guidance Module|Attribute-Guidance Module]]
 
 ## 🔗 유사한 논문
 - [[Style Transfer with Diffusion Models for Synthetic-to-Real Domain Adaptation_20250919|Style Transfer with Diffusion Models for Synthetic-to-Real Domain Adaptation]] (81.2% similar)

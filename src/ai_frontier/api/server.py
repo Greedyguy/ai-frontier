@@ -6,6 +6,7 @@ import time
 import logging
 from concurrent.futures import ThreadPoolExecutor
 from typing import Dict, Any
+from datetime import datetime
 from fastapi import FastAPI, HTTPException, BackgroundTasks, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse, FileResponse
@@ -47,11 +48,37 @@ from .models import (
     CollectionStatus,
     CollectionProgress,
     CollectionResult,
-    PaperInfo
+    PaperInfo,
+    DigestRequest,
+    DigestInfo,
+    DigestResult,
+    EmailSubscribeRequest,
+    EmailUnsubscribeRequest,
+    NotificationSettingsRequest,
+    NotificationTestRequest,
+    NotificationStatus,
+    NotificationResult,
+    MailingListResponse,
+    KeywordSubscribeRequest,
+    KeywordSubscriptionInfo,
+    KeywordSubscriptionsResponse,
+    KeywordSubscriptionResponse,
+    PaperSearchRequest,
+    SimilarPapersRequest,
+    PaperSearchResponse,
+    SimilarPapersResponse,
+    DatabaseStatsResponse,
+    HybridSearchRequest,
+    HybridSearchResponse,
+    HybridStatsResponse
 )
 from ..main import ArxivReportingService
 from .webhook import router as webhook_router
 from ..summarization.digest import DigestGenerator
+from ..notification.notification_manager import NotificationManager
+from ..notification.keyword_subscription_manager import KeywordSubscriptionManager, PaperFilterService
+from ..search.rag_service import RAGSearchService
+from ..search.hybrid_service import HybridSearchService
 
 # FastAPI 앱 생성
 app = FastAPI(
@@ -63,7 +90,7 @@ app = FastAPI(
 # CORS 설정
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "http://127.0.0.1:3000", "http://localhost:3001", "http://127.0.0.1:3001", "http://localhost:5173", "http://127.0.0.1:5173"],
+    allow_origins=["http://localhost:3000", "http://127.0.0.1:3000", "http://localhost:3001", "http://127.0.0.1:3001", "http://localhost:3002", "http://127.0.0.1:3002", "http://localhost:3003", "http://127.0.0.1:3003", "http://localhost:3004", "http://127.0.0.1:3004", "http://localhost:5173", "http://127.0.0.1:5173"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -77,6 +104,27 @@ executor = ThreadPoolExecutor(max_workers=2)
 
 # 전역 상태 관리
 collection_tasks: Dict[str, CollectionStatus] = {}
+
+# 알림 관리자 초기화
+notification_manager = NotificationManager()
+keyword_subscription_manager = KeywordSubscriptionManager()
+paper_filter_service = PaperFilterService()
+
+# RAG 검색 서비스 초기화
+try:
+    rag_service = RAGSearchService()
+    api_logger.info("RAG search service initialized successfully")
+except Exception as e:
+    api_logger.warning(f"Failed to initialize RAG search service: {e}")
+    rag_service = None
+
+# 하이브리드 검색 서비스 초기화
+try:
+    hybrid_service = HybridSearchService()
+    api_logger.info("Hybrid search service initialized successfully")
+except Exception as e:
+    api_logger.warning(f"Failed to initialize hybrid search service: {e}")
+    hybrid_service = None
 
 
 class CollectionManager:
@@ -205,7 +253,7 @@ async def collect_papers_background(task_id: str, request: PaperCollectionReques
             manager.update_progress(task_id, progress)
         
         # 실제 논문 수집 실행
-        report_path = await service.process_papers(
+        report_result = await service.process_papers(
             categories=request.categories if request.categories else None,
             days_back=request.days_back,
             keywords=request.keywords if request.keywords else None,
@@ -216,14 +264,22 @@ async def collect_papers_background(task_id: str, request: PaperCollectionReques
             progress_callback=progress_callback_with_cancellation
         )
 
+        # 반환값 처리 (튜플 또는 단일 값)
+        if isinstance(report_result, tuple):
+            report_path, papers_collected = report_result
+        else:
+            # 이전 버전 호환성
+            report_path = report_result
+            papers_collected = 0
+
         processing_time = time.time() - start_time
-        api_logger.info(f"논문 수집 완료 - Task: {task_id}, 처리 시간: {processing_time:.2f}초, 보고서: {report_path}")
+        api_logger.info(f"논문 수집 완료 - Task: {task_id}, 처리 시간: {processing_time:.2f}초, 수집된 논문: {papers_collected}개, 보고서: {report_path}")
 
         # 성공 결과 저장
         result = CollectionResult(
             success=True,
             message="논문 수집이 성공적으로 완료되었습니다.",
-            papers_collected=0,  # 실제 수집된 논문 수 (service에서 제공)
+            papers_collected=papers_collected,  # 실제 수집된 논문 수
             report_path=report_path,
             processing_time=processing_time
         )
@@ -516,6 +572,29 @@ async def generate_daily_digest(date: str = None):
         # Generate and save digest
         digest_path = digest_generator.save_daily_digest(target_date)
 
+        # Send notifications only if not already sent by webhook
+        # Check if digest was created in the last minute (to avoid duplicate sends)
+        import os
+        from datetime import datetime, timedelta
+
+        try:
+            file_stat = os.path.getmtime(digest_path)
+            file_time = datetime.fromtimestamp(file_stat)
+            time_diff = datetime.now() - file_time
+
+            # If file was created more than 1 minute ago, send notifications
+            if time_diff > timedelta(minutes=1):
+                notification_results = notification_manager.send_digest_notifications(
+                    digest_file_path=digest_path,
+                    digest_type="daily",
+                    digest_date=target_date.strftime("%Y-%m-%d")
+                )
+                api_logger.info(f"Daily digest notifications sent: {notification_results}")
+            else:
+                api_logger.info("Daily digest was recently created - skipping duplicate notifications")
+        except Exception as e:
+            api_logger.error(f"Failed to send daily digest notifications: {e}")
+
         return {
             "success": True,
             "message": "Daily digest generated successfully",
@@ -550,6 +629,17 @@ async def generate_weekly_digest(date: str = None):
 
         # Generate and save digest
         digest_path = digest_generator.save_weekly_digest(target_date)
+
+        # Send notifications
+        try:
+            notification_results = notification_manager.send_digest_notifications(
+                digest_file_path=digest_path,
+                digest_type="weekly",
+                digest_date=target_date.strftime("%Y-%m-%d")
+            )
+            api_logger.info(f"Weekly digest notifications sent: {notification_results}")
+        except Exception as e:
+            api_logger.error(f"Failed to send weekly digest notifications: {e}")
 
         return {
             "success": True,
@@ -605,6 +695,409 @@ async def list_digests():
 
     except Exception as e:
         api_logger.error(f"Failed to list digests: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+# Notification API endpoints
+@app.post("/api/notifications/email/subscribe", response_model=dict)
+async def subscribe_email(request: EmailSubscribeRequest):
+    """이메일 구독 추가"""
+    try:
+        success = notification_manager.add_email_subscriber(
+            request.email, request.digest_type
+        )
+        if success:
+            return {"success": True, "message": f"Successfully subscribed {request.email} to {request.digest_type} digest"}
+        else:
+            return {"success": False, "message": "Email already subscribed"}
+    except Exception as e:
+        api_logger.error(f"Failed to subscribe email: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.post("/api/notifications/email/unsubscribe", response_model=dict)
+async def unsubscribe_email(request: EmailUnsubscribeRequest):
+    """이메일 구독 해제"""
+    try:
+        success = notification_manager.remove_email_subscriber(
+            request.email, request.digest_type
+        )
+        if success:
+            return {"success": True, "message": f"Successfully unsubscribed {request.email} from {request.digest_type} digest"}
+        else:
+            return {"success": False, "message": "Email not found in subscription list"}
+    except Exception as e:
+        api_logger.error(f"Failed to unsubscribe email: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.get("/api/notifications/email/subscribers", response_model=MailingListResponse)
+async def get_email_subscribers():
+    """메일링 리스트 조회"""
+    try:
+        daily_subscribers = notification_manager.get_email_subscribers("daily")
+        weekly_subscribers = notification_manager.get_email_subscribers("weekly")
+
+        return MailingListResponse(
+            daily_subscribers=daily_subscribers,
+            weekly_subscribers=weekly_subscribers
+        )
+    except Exception as e:
+        api_logger.error(f"Failed to get email subscribers: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+# =============================================================================
+# 키워드 구독 관리 API
+# =============================================================================
+
+@app.post("/api/notifications/keywords/subscribe", response_model=KeywordSubscriptionResponse)
+async def subscribe_keywords(request: KeywordSubscribeRequest):
+    """키워드 기반 이메일 구독"""
+    try:
+        success = keyword_subscription_manager.add_subscription(
+            email=str(request.email),
+            keywords=request.keywords,
+            digest_type=request.digest_type
+        )
+
+        if success:
+            subscription = keyword_subscription_manager.get_subscription(str(request.email))
+            return KeywordSubscriptionResponse(
+                success=True,
+                message="키워드 구독이 성공적으로 추가/업데이트되었습니다.",
+                subscription=KeywordSubscriptionInfo(
+                    email=subscription.email,
+                    keywords=subscription.keywords,
+                    digest_type=subscription.digest_type,
+                    created_at=subscription.created_at,
+                    updated_at=subscription.updated_at,
+                    active=subscription.active
+                )
+            )
+        else:
+            return KeywordSubscriptionResponse(
+                success=False,
+                message="키워드 구독 추가/업데이트에 실패했습니다."
+            )
+    except Exception as e:
+        api_logger.error(f"Failed to subscribe keywords: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.delete("/api/notifications/keywords/unsubscribe", response_model=KeywordSubscriptionResponse)
+async def unsubscribe_keywords(email: str):
+    """키워드 구독 해제"""
+    try:
+        success = keyword_subscription_manager.remove_subscription(email)
+
+        if success:
+            return KeywordSubscriptionResponse(
+                success=True,
+                message="키워드 구독이 성공적으로 해제되었습니다."
+            )
+        else:
+            return KeywordSubscriptionResponse(
+                success=False,
+                message="해당 이메일의 구독을 찾을 수 없습니다."
+            )
+    except Exception as e:
+        api_logger.error(f"Failed to unsubscribe keywords: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.get("/api/notifications/keywords/subscription/{email}", response_model=KeywordSubscriptionResponse)
+async def get_keyword_subscription(email: str):
+    """특정 사용자의 키워드 구독 정보 조회"""
+    try:
+        subscription = keyword_subscription_manager.get_subscription(email)
+
+        if subscription:
+            return KeywordSubscriptionResponse(
+                success=True,
+                message="구독 정보를 성공적으로 조회했습니다.",
+                subscription=KeywordSubscriptionInfo(
+                    email=subscription.email,
+                    keywords=subscription.keywords,
+                    digest_type=subscription.digest_type,
+                    created_at=subscription.created_at,
+                    updated_at=subscription.updated_at,
+                    active=subscription.active
+                )
+            )
+        else:
+            return KeywordSubscriptionResponse(
+                success=False,
+                message="해당 이메일의 구독을 찾을 수 없습니다."
+            )
+    except Exception as e:
+        api_logger.error(f"Failed to get keyword subscription: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.get("/api/notifications/keywords/subscribers", response_model=KeywordSubscriptionsResponse)
+async def get_keyword_subscribers(digest_type: str = None):
+    """키워드 구독자 목록 조회"""
+    try:
+        subscriptions = keyword_subscription_manager.get_all_subscriptions(digest_type=digest_type)
+
+        subscription_infos = [
+            KeywordSubscriptionInfo(
+                email=sub.email,
+                keywords=sub.keywords,
+                digest_type=sub.digest_type,
+                created_at=sub.created_at,
+                updated_at=sub.updated_at,
+                active=sub.active
+            )
+            for sub in subscriptions
+        ]
+
+        return KeywordSubscriptionsResponse(
+            subscriptions=subscription_infos,
+            total_count=len(subscription_infos)
+        )
+    except Exception as e:
+        api_logger.error(f"Failed to get keyword subscribers: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.get("/api/notifications/status", response_model=NotificationStatus)
+async def get_notification_status():
+    """알림 서비스 상태 조회"""
+    try:
+        status = notification_manager.get_notification_status()
+        return NotificationStatus(**status)
+    except Exception as e:
+        api_logger.error(f"Failed to get notification status: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.post("/api/notifications/test", response_model=dict)
+async def test_notifications(request: NotificationTestRequest):
+    """알림 서비스 연결 테스트"""
+    try:
+        results = {}
+
+        if request.test_email:
+            results["email"] = notification_manager.email_service.test_connection()
+
+        if request.test_slack:
+            results["slack"] = notification_manager.slack_service.test_connection()
+
+        if request.test_webhooks:
+            results["webhooks"] = notification_manager.webhook_service.test_webhooks()
+
+        return {
+            "success": True,
+            "results": results,
+            "message": "Test completed"
+        }
+    except Exception as e:
+        api_logger.error(f"Failed to test notifications: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.post("/api/notifications/send/digest", response_model=NotificationResult)
+async def send_digest_notifications(
+    digest_file: str,
+    digest_type: str = "daily",
+    digest_date: str = None,
+    settings: NotificationSettingsRequest = None
+):
+    """다이제스트 알림 전송"""
+    try:
+        from pathlib import Path
+
+        digest_path = Path(digest_file)
+        if not digest_path.exists():
+            raise HTTPException(status_code=404, detail="Digest file not found")
+
+        # 알림 전송 설정
+        send_email = settings.send_email if settings else None
+        send_slack = settings.send_slack if settings else None
+        send_webhooks = settings.send_webhooks if settings else True
+        custom_recipients = settings.custom_email_recipients if settings else None
+
+        # 알림 전송
+        results = notification_manager.send_digest_notifications(
+            digest_file_path=digest_path,
+            digest_type=digest_type,
+            digest_date=digest_date,
+            send_email=send_email,
+            send_slack=send_slack,
+            send_webhooks=send_webhooks,
+            custom_email_recipients=custom_recipients
+        )
+
+        return NotificationResult(**results)
+
+    except Exception as e:
+        api_logger.error(f"Failed to send digest notifications: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+# RAG Search API endpoints
+@app.post("/api/search/papers", response_model=PaperSearchResponse)
+async def search_papers(request: PaperSearchRequest):
+    """벡터 검색을 통한 논문 검색"""
+    try:
+        if not rag_service:
+            raise HTTPException(status_code=503, detail="RAG search service not available")
+
+        # Parse dates if provided
+        start_date = None
+        end_date = None
+
+        if request.start_date:
+            try:
+                from datetime import datetime
+                start_date = datetime.strptime(request.start_date, "%Y-%m-%d").date()
+            except ValueError:
+                raise HTTPException(status_code=400, detail="Invalid start_date format. Use YYYY-MM-DD")
+
+        if request.end_date:
+            try:
+                from datetime import datetime
+                end_date = datetime.strptime(request.end_date, "%Y-%m-%d").date()
+            except ValueError:
+                raise HTTPException(status_code=400, detail="Invalid end_date format. Use YYYY-MM-DD")
+
+        # Perform search
+        results = rag_service.search_papers(
+            query=request.query,
+            top_k=request.top_k,
+            min_similarity=request.min_similarity,
+            categories=request.categories,
+            start_date=start_date,
+            end_date=end_date,
+            page=request.page,
+            page_size=request.page_size
+        )
+
+        api_logger.info(f"Paper search completed: '{request.query}' -> {results['total_results']} results")
+        return PaperSearchResponse(**results)
+
+    except HTTPException:
+        raise
+    except Exception as e:
+        api_logger.error(f"Paper search failed: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.post("/api/search/similar", response_model=SimilarPapersResponse)
+async def find_similar_papers(request: SimilarPapersRequest):
+    """특정 논문과 유사한 논문 검색"""
+    try:
+        if not rag_service:
+            raise HTTPException(status_code=503, detail="RAG search service not available")
+
+        results = rag_service.find_similar_papers(
+            arxiv_id=request.arxiv_id,
+            top_k=request.top_k,
+            min_similarity=request.min_similarity
+        )
+
+        api_logger.info(f"Similar papers search completed: {request.arxiv_id} -> {results['total_found']} results")
+        return SimilarPapersResponse(**results)
+
+    except Exception as e:
+        api_logger.error(f"Similar papers search failed: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.get("/api/search/stats", response_model=DatabaseStatsResponse)
+async def get_search_stats():
+    """벡터 데이터베이스 통계 조회"""
+    try:
+        if not rag_service:
+            raise HTTPException(status_code=503, detail="RAG search service not available")
+
+        stats = rag_service.get_database_stats()
+        return DatabaseStatsResponse(**stats)
+
+    except Exception as e:
+        api_logger.error(f"Failed to get search stats: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.get("/api/search/suggestions")
+async def get_query_suggestions(query: str):
+    """검색 쿼리 개선 제안"""
+    try:
+        if not rag_service:
+            raise HTTPException(status_code=503, detail="RAG search service not available")
+
+        suggestions = rag_service.suggest_query_improvements(query)
+        return {"query": query, "suggestions": suggestions}
+
+    except Exception as e:
+        api_logger.error(f"Failed to get query suggestions: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+# Hybrid Search API endpoints
+@app.post("/api/search/hybrid", response_model=HybridSearchResponse)
+async def hybrid_search(request: HybridSearchRequest):
+    """하이브리드 검색 (BM25 + 벡터 검색)"""
+    try:
+        if not hybrid_service:
+            raise HTTPException(status_code=503, detail="Hybrid search service not available")
+
+        # Parse dates if provided
+        start_date = None
+        end_date = None
+
+        if request.start_date:
+            try:
+                from datetime import datetime
+                start_date = datetime.strptime(request.start_date, "%Y-%m-%d").date()
+            except ValueError:
+                raise HTTPException(status_code=400, detail="Invalid start_date format. Use YYYY-MM-DD")
+
+        if request.end_date:
+            try:
+                from datetime import datetime
+                end_date = datetime.strptime(request.end_date, "%Y-%m-%d").date()
+            except ValueError:
+                raise HTTPException(status_code=400, detail="Invalid end_date format. Use YYYY-MM-DD")
+
+        # Perform hybrid search
+        results = hybrid_service.hybrid_search(
+            query=request.query,
+            keyword_weight=request.keyword_weight,
+            vector_weight=request.vector_weight,
+            top_k=request.top_k,
+            min_similarity=request.min_similarity,
+            categories=request.categories,
+            start_date=start_date,
+            end_date=end_date,
+            page=request.page,
+            page_size=request.page_size
+        )
+
+        api_logger.info(f"Hybrid search completed: '{request.query}' (kw:{request.keyword_weight:.2f}, vec:{request.vector_weight:.2f}) -> {results['total_results']} results")
+        return HybridSearchResponse(**results)
+
+    except HTTPException:
+        raise
+    except Exception as e:
+        api_logger.error(f"Hybrid search failed: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.get("/api/search/hybrid/stats", response_model=HybridStatsResponse)
+async def get_hybrid_search_stats():
+    """하이브리드 검색 서비스 통계 조회"""
+    try:
+        if not hybrid_service:
+            raise HTTPException(status_code=503, detail="Hybrid search service not available")
+
+        stats = hybrid_service.get_search_stats()
+        return HybridStatsResponse(**stats)
+
+    except Exception as e:
+        api_logger.error(f"Failed to get hybrid search stats: {str(e)}")
         raise HTTPException(status_code=500, detail=str(e))
 
 

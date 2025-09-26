@@ -1,13 +1,47 @@
+---
+keywords:
+  - Self-Supervised Learning
+  - Dependency Controlled Pre-training
+  - Instance-wise Patch Normalization
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:33:24.537285",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Self-Supervised Learning",
+    "Dependency Controlled Pre-training",
+    "Instance-wise Patch Normalization"
+  ],
+  "rejected_keywords": [
+    "Hierarchical Dependency Controlled Learning",
+    "Instance-level Contrastive Module"
+  ],
+  "similarity_scores": {
+    "Self-Supervised Learning": 0.82,
+    "Dependency Controlled Pre-training": 0.78,
+    "Instance-wise Patch Normalization": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # DeCoP: Enhancing Self-Supervised Time Series Representation with Dependency Controlled Pre-training
 
 **Korean Title:** DeCoP: 종속성 제어 사전 훈련을 통한 자기 지도형 시계열 표현 향상
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Yuemin Wu|Yuemin Wu]] [[authors/Zhongze Wu|Zhongze Wu]] [[authors/Xiu Su|Xiu Su]] [[authors/Feng Yang|Feng Yang]] [[authors/Hongyan Xu|Hongyan Xu]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Instance-wise Patch Normalization
+**🔗 Specific Connectable**: [[keywords/Self-Supervised Learning|Self-Supervised Time Series Representation]]
+**⚡ Unique Technical**: [[keywords/Dependency Controlled Pre-training|Dependency Controlled Pre-training]], [[keywords/Instance-wise Patch Normalization|Instance-wise Patch Normalization]]
 
 ## 🔗 유사한 논문
 - [[Beyond Marginals_ Learning Joint Spatio-Temporal Patterns for Multivariate Anomaly Detection_20250918|Beyond Marginals Learning Joint Spatio-Temporal Patterns for Multivariate Anomaly Detection]] (78.7% similar)

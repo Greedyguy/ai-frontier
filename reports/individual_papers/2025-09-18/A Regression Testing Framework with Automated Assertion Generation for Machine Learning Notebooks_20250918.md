@@ -1,3 +1,35 @@
+---
+keywords:
+  - Machine Learning
+  - Regression Testing Framework
+  - Automated Assertion Generation
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13656
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:41:45.886375",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Machine Learning",
+    "Regression Testing Framework",
+    "Automated Assertion Generation"
+  ],
+  "rejected_keywords": [
+    "Continuous Integration"
+  ],
+  "similarity_scores": {
+    "Machine Learning": 0.85,
+    "Regression Testing Framework": 0.78,
+    "Automated Assertion Generation": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # A Regression Testing Framework with Automated Assertion Generation for Machine Learning Notebooks
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Mutation Score
+**🌐 Broad Technical**: [[keywords/Machine Learning|Machine Learning Notebooks]]
+**⚡ Unique Technical**: [[keywords/Regression Testing Framework|Regression Testing Framework]], [[keywords/Automated Assertion Generation|Automated Assertion Generation]]
 
 ## 🔗 유사한 논문
 - [[An Empirical Study on Failures in Automated Issue Solving]] (74.0% similar)

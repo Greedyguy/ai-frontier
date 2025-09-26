@@ -1,3 +1,35 @@
+---
+keywords:
+  - Graph Neural Networks
+  - Vision Language Models
+  - Optical Coherence Tomography Angiography
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2503.09808
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:43:52.279319",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Graph Neural Networks",
+    "Vision Language Models",
+    "Optical Coherence Tomography Angiography"
+  ],
+  "rejected_keywords": [
+    "Explainable Diabetic Retinopathy Diagnosis"
+  ],
+  "similarity_scores": {
+    "Graph Neural Networks": 0.78,
+    "Vision Language Models": 0.72,
+    "Optical Coherence Tomography Angiography": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Fine-tuning Vision Language Models with Graph-based Knowledge for Explainable Medical Image Analysis
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Explainable Medical Image Analysis
+**🔗 Specific Connectable**: [[keywords/Graph Neural Networks|Graph Neural Network]]
+**⚡ Unique Technical**: [[keywords/Vision Language Models|Vision Language Models]], [[keywords/Optical Coherence Tomography Angiography|Optical Coherence Tomography Angiography]]
 
 ## 🔗 유사한 논문
 - [[Intelligent Healthcare Imaging Platform An VLM-Based Framework for Automated Medical Image Analysis and Clinical Report Generation]] (82.8% similar)

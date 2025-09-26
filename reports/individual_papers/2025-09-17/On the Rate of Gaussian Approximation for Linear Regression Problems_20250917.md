@@ -1,13 +1,46 @@
+---
+keywords:
+  - Linear Regression
+  - Gaussian Approximation
+  - Convergence Rate
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:49:08.209649",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Linear Regression",
+    "Gaussian Approximation",
+    "Convergence Rate"
+  ],
+  "rejected_keywords": [
+    "Design Matrix"
+  ],
+  "similarity_scores": {
+    "Linear Regression": 0.85,
+    "Gaussian Approximation": 0.78,
+    "Convergence Rate": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # On the Rate of Gaussian Approximation for Linear Regression Problems
 
 **Korean Title:** 선형 회귀 문제에 대한 가우시안 근사의 속도에 관하여
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Marat Khusainov|Marat Khusainov]] [[authors/Marina Sheshukova|Marina Sheshukova]] [[authors/Alain Durmus|Alain Durmus]] [[authors/Sergey Samsonov|Sergey Samsonov]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]       [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Gaussian Approximation, Convergence Rate
+**🌐 Broad Technical**: [[keywords/Linear Regression|linear regression]]
+**⚡ Unique Technical**: [[keywords/Gaussian Approximation|Gaussian approximation]], [[keywords/Convergence Rate|convergence rate]]
 
 ## 🔗 유사한 논문
 - [[Online reinforcement learning via sparse Gaussian mixture model Q-functions_20250919|Online reinforcement learning via sparse Gaussian mixture model Q-functions]] (77.8% similar)

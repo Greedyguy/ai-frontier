@@ -1,3 +1,35 @@
+---
+keywords:
+  - Trajectory Prediction
+  - Out-of-Sight Trajectory
+  - Vision-Positioning Denoising Module
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.15219
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:30:08.227928",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Trajectory Prediction",
+    "Out-of-Sight Trajectory",
+    "Vision-Positioning Denoising Module"
+  ],
+  "rejected_keywords": [
+    "Computer Vision"
+  ],
+  "similarity_scores": {
+    "Trajectory Prediction": 0.82,
+    "Out-of-Sight Trajectory": 0.78,
+    "Vision-Positioning Denoising Module": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Out-of-Sight Trajectories: Tracking, Fusion, and Prediction
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Trajectory Prediction, Sensor Data Denoising
+**🔗 Specific Connectable**: [[keywords/Trajectory Prediction|Trajectory Prediction]]
+**⚡ Unique Technical**: [[keywords/Out-of-Sight Trajectory|Out-of-Sight Trajectory]], [[keywords/Vision-Positioning Denoising Module|Vision-Positioning Denoising Module]]
 
 ## 🔗 유사한 논문
 - [[VSE-MOT Multi-Object Tracking in Low-Quality Video Scenes Guided by Visual Semantic Enhancement]] (80.6% similar)

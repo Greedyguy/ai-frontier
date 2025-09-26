@@ -1,3 +1,35 @@
+---
+keywords:
+  - Kolmogorov-Arnold Networks
+  - Gradient-weighted Class Activation Mapping
+  - Spline-based Function Approximation
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13687
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:06:25.552291",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Kolmogorov-Arnold Networks",
+    "Gradient-weighted Class Activation Mapping",
+    "Spline-based Function Approximation"
+  ],
+  "rejected_keywords": [
+    "Medical Image Classification"
+  ],
+  "similarity_scores": {
+    "Kolmogorov-Arnold Networks": 0.8,
+    "Gradient-weighted Class Activation Mapping": 0.78,
+    "Spline-based Function Approximation": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Taylor-Series Expanded Kolmogorov-Arnold Network for Medical Imaging Classification
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Interpretable Classification
+**🔗 Specific Connectable**: [[keywords/Gradient-weighted Class Activation Mapping|Gradient-weighted Class Activation Mapping]]
+**⚡ Unique Technical**: [[keywords/Kolmogorov-Arnold Networks|Kolmogorov-Arnold Networks]], [[keywords/Spline-based Function Approximation|Spline-based Function Approximation]]
 
 ## 🔗 유사한 논문
 - [[Intelligent Healthcare Imaging Platform An VLM-Based Framework for Automated Medical Image Analysis and Clinical Report Generation]] (81.5% similar)

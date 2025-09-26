@@ -1,3 +1,37 @@
+---
+keywords:
+  - Reinforcement Learning
+  - StarCraft II Scenarios
+  - Strategic Decision-Making
+category: cs.AI
+publish_date: 2025-09-16
+arxiv_id:
+---
+
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 23:03:51.075984",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Reinforcement Learning",
+    "StarCraft II Scenarios",
+    "Strategic Decision-Making"
+  ],
+  "rejected_keywords": [
+    "Thirty-Six Stratagems",
+    "Large Language Models"
+  ],
+  "similarity_scores": {
+    "Reinforcement Learning": 0.8,
+    "StarCraft II Scenarios": 0.78,
+    "Strategic Decision-Making": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # HLSMAC: A New StarCraft Multi-Agent Challenge for High-Level Strategic Decision-Making
 
@@ -5,10 +39,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-16|2025-09-16]] [[authors/Xingxing Hong|Xingxing Hong]] [[authors/Yungong Wang|Yungong Wang]] [[authors/Dexin Jin|Dexin Jin]] [[authors/Ye Yuan|Ye Yuan]] [[authors/Ximing Huang|Ximing Huang]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250916|2025-09-16]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Thirty-Six Stratagems
+**🔗 Specific Connectable**: [[keywords/Reinforcement Learning|multi-agent reinforcement learning]]
+**⚡ Unique Technical**: [[keywords/StarCraft II Scenarios|StarCraft II scenarios]]
+**🚀 Evolved Concepts**: [[keywords/Strategic Decision-Making|strategic decision-making]]
 
 ## 🔗 유사한 논문
 - [[OpenHA_A_Series_of_Open-Source_Hierarchical_Agentic_Models_in_Minecraft_20250918|OpenHA: A Series of Open-Source Hierarchical Agentic Models in Minecraft]] (78.4% similar)

@@ -1,13 +1,46 @@
+---
+keywords:
+  - Reinforcement Learning
+  - Uncertainty Quantification
+  - Online Contextual Multi-Arm Bandits
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:48:56.871332",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Reinforcement Learning",
+    "Uncertainty Quantification",
+    "Online Contextual Multi-Arm Bandits"
+  ],
+  "rejected_keywords": [
+    "Bayesian Risk Markov Decision Process"
+  ],
+  "similarity_scores": {
+    "Reinforcement Learning": 0.85,
+    "Uncertainty Quantification": 0.8,
+    "Online Contextual Multi-Arm Bandits": 0.75
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Online Bayesian Risk-Averse Reinforcement Learning
 
 **Korean Title:** 온라인 베이지안 위험 회피 강화 학습
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Yuhao Wang|Yuhao Wang]] [[authors/Enlu Zhou|Enlu Zhou]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]     [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**⭐ Unique Technical**: Bayesian Risk-averse Reinforcement Learning
+**🔗 Specific Connectable**: [[keywords/Reinforcement Learning|Reinforcement Learning]], [[keywords/Uncertainty Quantification|Epistemic Uncertainty]]
+**⚡ Unique Technical**: [[keywords/Online Contextual Multi-Arm Bandits|Online Contextual Multi-Arm Bandits]]
 
 ## 🔗 유사한 논문
 - [[Multi-Fidelity Hybrid Reinforcement Learning via Information Gain Maximization_20250919|Multi-Fidelity Hybrid Reinforcement Learning via Information Gain Maximization]] (84.1% similar)

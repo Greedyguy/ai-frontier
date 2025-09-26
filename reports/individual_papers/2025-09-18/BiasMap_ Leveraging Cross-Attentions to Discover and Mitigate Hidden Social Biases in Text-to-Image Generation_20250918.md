@@ -1,3 +1,36 @@
+---
+keywords:
+  - Diffusion Models
+  - Attention Mechanism
+  - BiasMap
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13496
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:37:05.896585",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Diffusion Models",
+    "Attention Mechanism",
+    "BiasMap"
+  ],
+  "rejected_keywords": [
+    "Generative Models",
+    "Stable Diffusion Models"
+  ],
+  "similarity_scores": {
+    "Diffusion Models": 0.85,
+    "Attention Mechanism": 0.75,
+    "BiasMap": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # BiasMap: Leveraging Cross-Attentions to Discover and Mitigate Hidden Social Biases in Text-to-Image Generation
 
@@ -5,10 +38,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Energy-Guided Diffusion Sampling
+**🔗 Specific Connectable**: [[keywords/Attention Mechanism|Cross-Attention]]
+**⚡ Unique Technical**: [[keywords/BiasMap|BiasMap]]
+**🚀 Evolved Concepts**: [[keywords/Diffusion Models|Diffusion Models]]
 
 ## 🔗 유사한 논문
 - [[Iterative_Prompt_Refinement_for_Safer_Text-to-Image_Generation_20250918|Iterative Prompt Refinement for Safer Text-to-Image Generation]] (79.9% similar)

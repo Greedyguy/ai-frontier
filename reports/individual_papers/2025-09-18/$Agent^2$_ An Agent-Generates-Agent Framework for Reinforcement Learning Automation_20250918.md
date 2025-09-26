@@ -1,3 +1,35 @@
+---
+keywords:
+  - Reinforcement Learning
+  - Large Language Models
+  - Model Context Protocol
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13368
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:42:13.025453",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Reinforcement Learning",
+    "Large Language Models",
+    "Model Context Protocol"
+  ],
+  "rejected_keywords": [
+    "Agent-Generates-Agent Framework"
+  ],
+  "similarity_scores": {
+    "Reinforcement Learning": 0.88,
+    "Large Language Models": 0.85,
+    "Model Context Protocol": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # $Agent^2$: An Agent-Generates-Agent Framework for Reinforcement Learning Automation
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Automated AI Systems
+**🔗 Specific Connectable**: [[keywords/Reinforcement Learning|Reinforcement Learning]]
+**⚡ Unique Technical**: [[keywords/Model Context Protocol|Model Context Protocol]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[AppAgent v2 Advanced Agent for Flexible Mobile Interactions]] (85.7% similar)

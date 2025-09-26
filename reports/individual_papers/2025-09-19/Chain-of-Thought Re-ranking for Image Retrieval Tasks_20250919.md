@@ -1,3 +1,36 @@
+---
+keywords:
+  - Text-to-Image Retrieval
+  - Large Language Models
+  - Composed Image Retrieval
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14746
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:53:21.572684",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Text-to-Image Retrieval",
+    "Large Language Models",
+    "Composed Image Retrieval"
+  ],
+  "rejected_keywords": [
+    "Chain-of-Thought Re-Ranking",
+    "Image Retrieval"
+  ],
+  "similarity_scores": {
+    "Text-to-Image Retrieval": 0.8,
+    "Large Language Models": 0.78,
+    "Composed Image Retrieval": 0.79
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Chain-of-Thought Re-ranking for Image Retrieval Tasks
 
@@ -5,10 +38,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Listwise Reasoning
+**🔗 Specific Connectable**: [[keywords/Text-to-Image Retrieval|Text-to-Image Retrieval]], [[keywords/Composed Image Retrieval|Composed Image Retrieval]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Multimodal Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[Uni-cot Towards Unified Chain-of-Thought Reasoning Across Text and Vision]] (83.5% similar)

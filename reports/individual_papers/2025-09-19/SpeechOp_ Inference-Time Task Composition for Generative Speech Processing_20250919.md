@@ -1,3 +1,36 @@
+---
+keywords:
+  - Diffusion Models
+  - Text-to-Speech
+  - Generative Models
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14298
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:23:27.119010",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Diffusion Models",
+    "Text-to-Speech",
+    "Generative Models"
+  ],
+  "rejected_keywords": [
+    "Speech Recognition",
+    "Implicit Task Composition"
+  ],
+  "similarity_scores": {
+    "Diffusion Models": 0.79,
+    "Text-to-Speech": 0.78,
+    "Generative Models": 0.76
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # SpeechOp: Inference-Time Task Composition for Generative Speech Processing
 
@@ -5,10 +38,10 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Implicit Task Composition
+**🔗 Specific Connectable**: [[keywords/Text-to-Speech|Text-to-Speech]], [[keywords/Generative Models|Generative Models]]
 
 ## 🔗 유사한 논문
 - [[TICL Text-Embedding KNN For Speech In-Context Learning Unlocks Speech Recognition Abilities of Large Multimodal Models]] (80.6% similar)

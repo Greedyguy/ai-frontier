@@ -1,13 +1,46 @@
+---
+keywords:
+  - Wasserstein Barycenters
+  - Persistence Diagrams
+  - Optimal Transport
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:12:16.180493",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Wasserstein Barycenters",
+    "Persistence Diagrams",
+    "Optimal Transport"
+  ],
+  "rejected_keywords": [
+    "Clustering of Persistence Diagrams"
+  ],
+  "similarity_scores": {
+    "Wasserstein Barycenters": 0.78,
+    "Persistence Diagrams": 0.75,
+    "Optimal Transport": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Robust Barycenters of Persistence Diagrams
 
 **Korean Title:** 지속성 다이어그램의 강건한 중심점
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Keanu Sisouk|Keanu Sisouk]] [[authors/Eloi Tanguy|Eloi Tanguy]] [[authors/Julie Delon|Julie Delon]] [[authors/Julien Tierny|Julien Tierny]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]       [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Outlier Robustness
+**🌐 Broad Technical**: [[keywords/Optimal Transport|optimal transport plans]]
+**⚡ Unique Technical**: [[keywords/Wasserstein Barycenters|Wasserstein barycenters]], [[keywords/Persistence Diagrams|persistence diagrams]]
 
 ## 🔗 유사한 논문
 - [[Geometry-Aware Decentralized Sinkhorn for Wasserstein Barycenters_20250919|Geometry-Aware Decentralized Sinkhorn for Wasserstein Barycenters]] (79.3% similar)

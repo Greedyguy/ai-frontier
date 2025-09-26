@@ -1,13 +1,46 @@
+---
+keywords:
+  - Reinforcement Learning
+  - Tactile Sensing
+  - Anthropomorphic Hands
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:05:05.398014",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Reinforcement Learning",
+    "Tactile Sensing",
+    "Anthropomorphic Hands"
+  ],
+  "rejected_keywords": [
+    "Sensor Placement"
+  ],
+  "similarity_scores": {
+    "Reinforcement Learning": 0.8,
+    "Tactile Sensing": 0.78,
+    "Anthropomorphic Hands": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # The Role of Touch: Towards Optimal Tactile Sensing Distribution in Anthropomorphic Hands for Dexterous In-Hand Manipulation
 
 **Korean Title:** 촉각의 역할: 정교한 손 내 조작을 위한 인간형 손의 최적 촉각 감지 분포를 향하여
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/João Damião Almeida|João Damião Almeida]] [[authors/Egidio Falotico|Egidio Falotico]] [[authors/Cecilia Laschi|Cecilia Laschi]] [[authors/José Santos-Victor|José Santos-Victor]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]       [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Distributed Tactile Sensing
+**🔗 Specific Connectable**: [[keywords/Reinforcement Learning|deep reinforcement learning]]
+**⚡ Unique Technical**: [[keywords/Tactile Sensing|tactile sensing]], [[keywords/Anthropomorphic Hands|anthropomorphic hands]]
 
 ## 🔗 유사한 논문
 - [[Efficient Tactile Perception with Soft Electrical Impedance Tomography and Pre-trained Transformer_20250918|Efficient Tactile Perception with Soft Electrical Impedance Tomography and Pre-trained Transformer]] (84.1% similar)

@@ -1,13 +1,48 @@
+---
+keywords:
+  - Large Language Models
+  - Attention Mechanism
+  - Structured Pruning
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:49:59.100943",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Attention Mechanism",
+    "Structured Pruning"
+  ],
+  "rejected_keywords": [
+    "Neural Tangent Kernel",
+    "Optimization"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.9,
+    "Attention Mechanism": 0.78,
+    "Structured Pruning": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # NIRVANA: Structured pruning reimagined for large language models compression
 
 **Korean Title:** NIRVANA: 대규모 언어 모델 압축을 위한 구조적 프루닝의 재구성
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Mengting Ai|Mengting Ai]] [[authors/Tianxin Wei|Tianxin Wei]] [[authors/Sirui Chen|Sirui Chen]] [[authors/Jingrui He|Jingrui He]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]       [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Adaptive Sparsity Allocation
+**🔗 Specific Connectable**: [[keywords/Attention Mechanism|Attention Mechanism]]
+**⚡ Unique Technical**: [[keywords/Structured Pruning|Structured Pruning]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[Value-Guided KV Compression for LLMs via Approximated CUR Decomposition_20250919|Value-Guided KV Compression for LLMs via Approximated CUR Decomposition]] (81.0% similar)

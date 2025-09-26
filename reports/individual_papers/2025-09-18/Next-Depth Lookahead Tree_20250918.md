@@ -1,13 +1,44 @@
+---
+keywords:
+  - Next-Depth Lookahead Tree
+  - Tree Depth Evaluation
+  - Optimization
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:18:13.817164",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Next-Depth Lookahead Tree",
+    "Tree Depth Evaluation",
+    "Optimization"
+  ],
+  "rejected_keywords": [],
+  "similarity_scores": {
+    "Next-Depth Lookahead Tree": 0.8,
+    "Tree Depth Evaluation": 0.7,
+    "Optimization": 0.65
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Next-Depth Lookahead Tree
 
 **Korean Title:** 다음-깊이 선행 탐색 트리
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Jaeho Lee|Jaeho Lee]] [[authors/Kangjin Kim|Kangjin Kim]] [[authors/Gyeong Taek Lee|Gyeong Taek Lee]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]      [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Depth Level Evaluation
+**🌐 Broad Technical**: [[keywords/Optimization|node splits]]
+**⚡ Unique Technical**: [[keywords/Next-Depth Lookahead Tree|Next-Depth Lookahead Tree]], [[keywords/Tree Depth Evaluation|depth level]]
 
 ## 🔗 유사한 논문
 - [[TableDART_ Dynamic Adaptive Multi-Modal Routing for Table Understanding_20250919|TableDART Dynamic Adaptive Multi-Modal Routing for Table Understanding]] (76.5% similar)

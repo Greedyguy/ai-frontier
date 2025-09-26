@@ -1,13 +1,46 @@
+---
+keywords:
+  - Graph Neural Networks
+  - Nuclear Norm Minimization
+  - Difference-of-Convex Optimization
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:11:30.503598",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Graph Neural Networks",
+    "Nuclear Norm Minimization",
+    "Difference-of-Convex Optimization"
+  ],
+  "rejected_keywords": [
+    "Sampling Theory"
+  ],
+  "similarity_scores": {
+    "Graph Neural Networks": 0.78,
+    "Nuclear Norm Minimization": 0.75,
+    "Difference-of-Convex Optimization": 0.7
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Sampling Method for Generalized Graph Signals with Pre-selected Vertices via DC Optimization
 
 **Korean Title:** 일반화된 그래프 신호의 샘플링 방법: DC 최적화를 통한 사전 선택된 정점 활용
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Keitaro Yamashita|Keitaro Yamashita]] [[authors/Kazuki Naganuma|Kazuki Naganuma]] [[authors/Shunsuke Ono|Shunsuke Ono]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]      [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Generalized Sampling Theory
+**🔗 Specific Connectable**: [[keywords/Graph Neural Networks|graph signals]]
+**⚡ Unique Technical**: [[keywords/Nuclear Norm Minimization|nuclear norm]], [[keywords/Difference-of-Convex Optimization|DC optimization]]
 
 ## 🔗 유사한 논문
 - [[Learning Graph from Smooth Signals under Partial Observation_ A Robustness Analysis_20250918|Learning Graph from Smooth Signals under Partial Observation A Robustness Analysis]] (80.6% similar)

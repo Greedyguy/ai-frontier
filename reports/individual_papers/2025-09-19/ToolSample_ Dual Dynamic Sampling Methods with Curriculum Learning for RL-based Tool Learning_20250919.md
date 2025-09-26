@@ -1,3 +1,35 @@
+---
+keywords:
+  - Reinforcement Learning
+  - Dynamic Sampling with Curriculum Learning
+  - Large Language Models
+category: cs.AI
+publish_date: 2025-09-19
+arxiv_id: 2509.14718
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 21:21:04.792135",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Reinforcement Learning",
+    "Dynamic Sampling with Curriculum Learning",
+    "Large Language Models"
+  ],
+  "rejected_keywords": [
+    "Multi-Task Learning"
+  ],
+  "similarity_scores": {
+    "Reinforcement Learning": 0.8,
+    "Dynamic Sampling with Curriculum Learning": 0.78,
+    "Large Language Models": 0.72
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # ToolSample: Dual Dynamic Sampling Methods with Curriculum Learning for RL-based Tool Learning
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-19|2025-09-19]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250919|2025-09-19]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Reward-Based Dynamic Sampling
+**🔗 Specific Connectable**: [[keywords/Reinforcement Learning|Reinforcement Learning]]
+**⚡ Unique Technical**: [[keywords/Dynamic Sampling with Curriculum Learning|Dynamic Sampling with Curriculum Learning]]
+**🚀 Evolved Concepts**: [[keywords/Large Language Models|Large Language Models]]
 
 ## 🔗 유사한 논문
 - [[Process-Supervised_Reinforcement_Learning_for_Interactive_Multimodal_Tool-Use_Agents_20250919|Process-Supervised Reinforcement Learning for Interactive Multimodal Tool-Use Agents]] (82.8% similar)

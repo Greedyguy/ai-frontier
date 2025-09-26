@@ -1,13 +1,47 @@
+---
+keywords:
+  - Multi-View Stereo
+  - Diffusion Models
+  - Depth Estimation
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:21:39.762067",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Multi-View Stereo",
+    "Diffusion Models",
+    "Depth Estimation"
+  ],
+  "rejected_keywords": [
+    "Confidence-Based Sampling"
+  ],
+  "similarity_scores": {
+    "Multi-View Stereo": 0.8,
+    "Diffusion Models": 0.78,
+    "Depth Estimation": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Lightweight and Accurate Multi-View Stereo with Confidence-Aware Diffusion Model
 
 **Korean Title:** 신뢰 인식 확산 모델을 활용한 경량 및 정확한 다중 시점 스테레오
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Fangjinhua Wang|Fangjinhua Wang]] [[authors/Qingshan Xu|Qingshan Xu]] [[authors/Yew-Soon Ong|Yew-Soon Ong]] [[authors/Marc Pollefeys|Marc Pollefeys]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]       [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Confidence-aware Sampling
+**🔗 Specific Connectable**: [[keywords/Depth Estimation|Depth Estimation]]
+**⚡ Unique Technical**: [[keywords/Multi-View Stereo|Multi-View Stereo]]
+**🚀 Evolved Concepts**: [[keywords/Diffusion Models|Diffusion Models]]
 
 ## 🔗 유사한 논문
 - [[FlightDiffusion_ Revolutionising Autonomous Drone Training with Diffusion Models Generating FPV Video_20250918|FlightDiffusion Revolutionising Autonomous Drone Training with Diffusion Models Generating FPV Video]] (81.4% similar)

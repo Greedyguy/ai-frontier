@@ -1,3 +1,35 @@
+---
+keywords:
+  - Diffusion Models
+  - Autonomous Drones
+  - Generative Models
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.14082
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:28:19.585956",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Diffusion Models",
+    "Autonomous Drones",
+    "Generative Models"
+  ],
+  "rejected_keywords": [
+    "First-Person View Video"
+  ],
+  "similarity_scores": {
+    "Diffusion Models": 0.9,
+    "Autonomous Drones": 0.8,
+    "Generative Models": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # FlightDiffusion: Revolutionising Autonomous Drone Training with Diffusion Models Generating FPV Video
 
@@ -5,10 +37,12 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Sim-to-real transfer
+**🔗 Specific Connectable**: [[keywords/Generative Models|Generative Models]]
+**⚡ Unique Technical**: [[keywords/Autonomous Drones|Autonomous Drones]]
+**🚀 Evolved Concepts**: [[keywords/Diffusion Models|Diffusion Models]]
 
 ## 🔗 유사한 논문
 - [[PRISM-DP_Spatial_Pose-based_Observations_for_Diffusion-Policies_via_Segmentation,_Mesh_Generation,_and_Pose_Tracking_20250918|PRISM-DP: Spatial Pose-based Observations for Diffusion-Policies via Segmentation, Mesh Generation, and Pose Tracking]] (82.6% similar)

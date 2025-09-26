@@ -1,13 +1,47 @@
+---
+keywords:
+  - Machine Learning
+  - Reincarceration Rates
+  - Criminal Justice System
+category: cs.AI
+publish_date: 2025-09-17
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 23:00:00.317488",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Machine Learning",
+    "Reincarceration Rates",
+    "Criminal Justice System"
+  ],
+  "rejected_keywords": [
+    "Mental Health Outreach"
+  ],
+  "similarity_scores": {
+    "Machine Learning": 0.85,
+    "Reincarceration Rates": 0.75,
+    "Criminal Justice System": 0.8
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Breaking the Cycle of Incarceration With Targeted Mental Health Outreach: A Case Study in Machine Learning for Public Policy
 
 **Korean Title:** 수감의 악순환을 타파하기 위한 정신 건강 맞춤형 지원: 공공 정책을 위한 기계 학습 사례 연구
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-17|2025-09-17]] [[authors/Kit T. Rodolfa|Kit T. Rodolfa]] [[authors/Erika Salomon|Erika Salomon]] [[authors/Jin Yao|Jin Yao]] [[authors/Steve Yoder|Steve Yoder]] [[authors/Robert Sullivan|Robert Sullivan]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250917|2025-09-17]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Community-driven Policing
+**🌐 Broad Technical**: [[keywords/Machine Learning|Machine Learning]]
+**⚡ Unique Technical**: [[keywords/Reincarceration Rates|reincarceration rates]]
+**🚀 Evolved Concepts**: [[keywords/Criminal Justice System|criminal justice system]]
 
 ## 🔗 유사한 논문
 - [[Automated Triaging and Transfer Learning of Incident Learning Safety Reports Using Large Language Representational Models_20250917|Automated Triaging and Transfer Learning of Incident Learning Safety Reports Using Large Language Representational Models]] (76.9% similar)

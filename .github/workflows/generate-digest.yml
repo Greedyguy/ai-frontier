@@ -1,0 +1,377 @@
+name: Generate AI Paper Digest
+
+on:
+  # Generate daily digest at 10 AM KST (1 AM UTC)
+  schedule:
+    - cron: '0 1 * * *'
+
+  # Generate weekly digest on Monday at 11 AM KST (2 AM UTC)
+  schedule:
+    - cron: '0 2 * * 1'
+
+  # Manual trigger
+  workflow_dispatch:
+    inputs:
+      digest_type:
+        description: 'Type of digest to generate'
+        required: true
+        default: 'daily'
+        type: choice
+        options:
+          - daily
+          - weekly
+      target_date:
+        description: 'Target date (YYYYMMDD, optional - defaults to today/this week)'
+        required: false
+      send_notifications:
+        description: 'Send notifications (Slack, Email)'
+        required: false
+        default: true
+        type: boolean
+
+env:
+  PYTHONPATH: ${{ github.workspace }}/src
+
+jobs:
+  generate-digest:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+
+    - name: Cache pip dependencies
+      uses: actions/cache@v3
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/pyproject.toml') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -e .
+
+    - name: Create digests directory
+      run: |
+        mkdir -p reports/digests
+
+    - name: Determine digest parameters
+      id: params
+      run: |
+        # Determine digest type
+        if [ "${{ github.event_name }}" = "schedule" ]; then
+          if [ "${{ github.event.schedule }}" = "0 1 * * *" ]; then
+            DIGEST_TYPE="daily"
+          elif [ "${{ github.event.schedule }}" = "0 2 * * 1" ]; then
+            DIGEST_TYPE="weekly"
+          fi
+        else
+          DIGEST_TYPE="${{ github.event.inputs.digest_type || 'daily' }}"
+        fi
+
+        # Determine target date
+        if [ -n "${{ github.event.inputs.target_date }}" ]; then
+          TARGET_DATE="${{ github.event.inputs.target_date }}"
+        else
+          # Use yesterday for daily digest (since we collect papers at midnight)
+          if [ "$DIGEST_TYPE" = "daily" ]; then
+            TARGET_DATE=$(date -d "yesterday" +%Y%m%d)
+          else
+            # Use current date for weekly digest
+            TARGET_DATE=$(date +%Y%m%d)
+          fi
+        fi
+
+        echo "digest_type=$DIGEST_TYPE" >> $GITHUB_OUTPUT
+        echo "target_date=$TARGET_DATE" >> $GITHUB_OUTPUT
+        echo "send_notifications=${{ github.event.inputs.send_notifications || 'true' }}" >> $GITHUB_OUTPUT
+
+        echo "📋 Digest parameters:"
+        echo "  Type: $DIGEST_TYPE"
+        echo "  Date: $TARGET_DATE"
+
+    - name: Check if papers exist for date
+      id: check_papers
+      run: |
+        TARGET_DATE="${{ steps.params.outputs.target_date }}"
+        READABLE_DATE=$(date -d "${TARGET_DATE}" +%Y-%m-%d 2>/dev/null || echo "Invalid date")
+
+        # Count papers for the target date
+        PAPER_COUNT=0
+        if [ -d "reports/individual_papers" ]; then
+          if [ "${{ steps.params.outputs.digest_type }}" = "daily" ]; then
+            # For daily digest, count papers from that specific date
+            PAPER_COUNT=$(find reports/individual_papers -name "*${READABLE_DATE}*.md" -type f | wc -l)
+          else
+            # For weekly digest, count papers from the last 7 days
+            CUTOFF_DATE=$(date -d "${READABLE_DATE} -7 days" +%Y-%m-%d)
+            PAPER_COUNT=$(find reports/individual_papers -name "*.md" -type f -newermt "${CUTOFF_DATE}" | wc -l)
+          fi
+        fi
+
+        echo "paper_count=$PAPER_COUNT" >> $GITHUB_OUTPUT
+        echo "📊 Found $PAPER_COUNT papers for ${{ steps.params.outputs.digest_type }} digest"
+
+        # Skip if no papers found
+        if [ "$PAPER_COUNT" -eq 0 ]; then
+          echo "⚠️  No papers found for the specified date range. Skipping digest generation."
+          echo "skip_digest=true" >> $GITHUB_OUTPUT
+        else
+          echo "skip_digest=false" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Generate digest
+      if: steps.check_papers.outputs.skip_digest == 'false'
+      env:
+        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        MODEL_NAME: ${{ secrets.MODEL_NAME || 'gpt-4o-mini' }}
+      run: |
+        echo "🚀 Generating ${{ steps.params.outputs.digest_type }} digest for ${{ steps.params.outputs.target_date }}..."
+
+        if [ "${{ steps.params.outputs.target_date }}" != "" ]; then
+          python automation_script.py digest ${{ steps.params.outputs.digest_type }} --date ${{ steps.params.outputs.target_date }}
+        else
+          python automation_script.py digest ${{ steps.params.outputs.digest_type }}
+        fi
+
+    - name: Verify digest was created
+      if: steps.check_papers.outputs.skip_digest == 'false'
+      id: verify_digest
+      run: |
+        DIGEST_TYPE="${{ steps.params.outputs.digest_type }}"
+        TARGET_DATE="${{ steps.params.outputs.target_date }}"
+
+        # Expected digest filename
+        EXPECTED_FILE="reports/digests/${DIGEST_TYPE}_digest_${TARGET_DATE}.md"
+
+        if [ -f "$EXPECTED_FILE" ]; then
+          FILE_SIZE=$(stat -f%z "$EXPECTED_FILE" 2>/dev/null || stat -c%s "$EXPECTED_FILE" 2>/dev/null)
+          echo "✅ Digest created successfully: $EXPECTED_FILE (${FILE_SIZE} bytes)"
+          echo "digest_created=true" >> $GITHUB_OUTPUT
+          echo "digest_file=$EXPECTED_FILE" >> $GITHUB_OUTPUT
+          echo "digest_size=$FILE_SIZE" >> $GITHUB_OUTPUT
+        else
+          echo "❌ Digest file not found: $EXPECTED_FILE"
+          echo "digest_created=false" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Send Slack notification
+      if: steps.verify_digest.outputs.digest_created == 'true' && steps.params.outputs.send_notifications == 'true'
+      env:
+        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        SLACK_CHANNEL: ${{ secrets.SLACK_CHANNEL || '#ai-frontier' }}
+        SLACK_BOT_NAME: ${{ secrets.SLACK_BOT_NAME || 'AI Frontier Digest Bot' }}
+      run: |
+        if [ -n "$SLACK_WEBHOOK_URL" ]; then
+          DIGEST_TYPE="${{ steps.params.outputs.digest_type }}"
+          TARGET_DATE="${{ steps.params.outputs.target_date }}"
+          PAPER_COUNT="${{ steps.check_papers.outputs.paper_count }}"
+          READABLE_DATE=$(date -d "${TARGET_DATE}" +%Y-%m-%d 2>/dev/null || echo "$TARGET_DATE")
+
+          # Create rich Slack message
+          if [ "$DIGEST_TYPE" = "daily" ]; then
+            EMOJI="🤖"
+            TITLE="일간 AI 논문 다이제스트 - ${READABLE_DATE}"
+          else
+            EMOJI="📊"
+            TITLE="주간 AI 논문 다이제스트 - ${READABLE_DATE}"
+          fi
+
+          # Send to Slack using blocks format
+          curl -X POST -H 'Content-type: application/json' \
+            --data "{
+              \"channel\": \"$SLACK_CHANNEL\",
+              \"username\": \"$SLACK_BOT_NAME\",
+              \"icon_emoji\": \":robot_face:\",
+              \"blocks\": [
+                {
+                  \"type\": \"header\",
+                  \"text\": {
+                    \"type\": \"plain_text\",
+                    \"text\": \"$EMOJI $TITLE\"
+                  }
+                },
+                {
+                  \"type\": \"section\",
+                  \"text\": {
+                    \"type\": \"mrkdwn\",
+                    \"text\": \"*총 ${PAPER_COUNT}개의 논문*이 분석되었습니다.\"
+                  }
+                },
+                {
+                  \"type\": \"divider\"
+                },
+                {
+                  \"type\": \"section\",
+                  \"text\": {
+                    \"type\": \"mrkdwn\",
+                    \"text\": \"📎 *다이제스트 파일:* \`${{ steps.params.outputs.digest_type }}_digest_${TARGET_DATE}.md\`\\n생성 시간: $(date '+%Y-%m-%d %H:%M:%S') UTC\"
+                  }
+                },
+                {
+                  \"type\": \"section\",
+                  \"text\": {
+                    \"type\": \"mrkdwn\",
+                    \"text\": \"🔗 *웹사이트에서 보기:* https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/\"
+                  }
+                },
+                {
+                  \"type\": \"context\",
+                  \"elements\": [
+                    {
+                      \"type\": \"mrkdwn\",
+                      \"text\": \"AI Frontier 자동 다이제스트 시스템 (GitHub Actions)에서 생성되었습니다.\"
+                    }
+                  ]
+                }
+              ]
+            }" \
+            "$SLACK_WEBHOOK_URL"
+
+          echo "✅ Slack notification sent"
+        else
+          echo "⚠️  Slack webhook URL not configured"
+        fi
+
+    - name: Send email notification
+      if: steps.verify_digest.outputs.digest_created == 'true' && steps.params.outputs.send_notifications == 'true'
+      env:
+        EMAIL_SMTP_SERVER: ${{ secrets.EMAIL_SMTP_SERVER }}
+        EMAIL_SMTP_PORT: ${{ secrets.EMAIL_SMTP_PORT || '587' }}
+        EMAIL_USERNAME: ${{ secrets.EMAIL_USERNAME }}
+        EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+        EMAIL_TO: ${{ secrets.EMAIL_TO }}
+      run: |
+        if [ -n "$EMAIL_SMTP_SERVER" ] && [ -n "$EMAIL_USERNAME" ] && [ -n "$EMAIL_PASSWORD" ] && [ -n "$EMAIL_TO" ]; then
+          # Send digest via email
+          cat > send_digest_email.py << 'EOF'
+        import smtplib
+        import os
+        from email.mime.text import MIMEText
+        from email.mime.multipart import MIMEMultipart
+        from email.mime.base import MIMEBase
+        from email import encoders
+        from datetime import datetime
+        from pathlib import Path
+
+        # Email configuration
+        smtp_server = os.getenv('EMAIL_SMTP_SERVER')
+        smtp_port = int(os.getenv('EMAIL_SMTP_PORT', '587'))
+        username = os.getenv('EMAIL_USERNAME')
+        password = os.getenv('EMAIL_PASSWORD')
+        to_email = os.getenv('EMAIL_TO')
+
+        # Digest information
+        digest_type = '${{ steps.params.outputs.digest_type }}'
+        target_date = '${{ steps.params.outputs.target_date }}'
+        paper_count = '${{ steps.check_papers.outputs.paper_count }}'
+        digest_file = '${{ steps.verify_digest.outputs.digest_file }}'
+
+        # Create message
+        msg = MIMEMultipart()
+        msg['From'] = username
+        msg['To'] = to_email
+        msg['Subject'] = f"AI Frontier {digest_type.capitalize()} Digest - {target_date}"
+
+        # Email body
+        readable_date = datetime.strptime(target_date, '%Y%m%d').strftime('%Y-%m-%d')
+        body = f"""
+        AI Frontier {digest_type.upper()} Digest가 생성되었습니다.
+
+        📅 분석 기간: {readable_date}
+        📊 분석된 논문 수: {paper_count}개
+        🤖 생성 시간: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} UTC
+
+        첨부된 다이제스트 파일을 확인하시거나,
+        웹사이트에서 확인하세요: https://github.com/${{ github.repository }}
+
+        ---
+        AI Frontier 자동 다이제스트 시스템 (GitHub Actions)
+        """
+
+        msg.attach(MIMEText(body, 'plain'))
+
+        # Attach digest file if it exists
+        if digest_file and Path(digest_file).exists():
+            with open(digest_file, 'rb') as attachment:
+                part = MIMEBase('application', 'octet-stream')
+                part.set_payload(attachment.read())
+
+            encoders.encode_base64(part)
+            part.add_header(
+                'Content-Disposition',
+                f'attachment; filename= {Path(digest_file).name}'
+            )
+            msg.attach(part)
+
+        # Send email
+        try:
+            server = smtplib.SMTP(smtp_server, smtp_port)
+            server.starttls()
+            server.login(username, password)
+            text = msg.as_string()
+            server.sendmail(username, to_email, text)
+            server.quit()
+            print("✅ Email sent successfully")
+        except Exception as e:
+            print(f"❌ Failed to send email: {e}")
+        EOF
+
+          python send_digest_email.py
+        else
+          echo "⚠️  Email configuration not complete"
+        fi
+
+    - name: Commit and push digest
+      if: steps.verify_digest.outputs.digest_created == 'true'
+      run: |
+        # Configure git
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+
+        # Add digest file
+        git add reports/digests/
+
+        # Commit if there are changes
+        if ! git diff --cached --quiet; then
+          DIGEST_TYPE="${{ steps.params.outputs.digest_type }}"
+          TARGET_DATE="${{ steps.params.outputs.target_date }}"
+          PAPER_COUNT="${{ steps.check_papers.outputs.paper_count }}"
+
+          git commit -m "📊 Auto-generate ${DIGEST_TYPE} digest: ${PAPER_COUNT} papers (${TARGET_DATE})"
+          git push
+          echo "✅ Digest committed and pushed"
+        else
+          echo "⚠️  No new digest to commit"
+        fi
+
+    - name: Summary
+      if: always()
+      run: |
+        echo "🎯 Digest Generation Summary"
+        echo "=========================="
+        echo "Digest Type: ${{ steps.params.outputs.digest_type }}"
+        echo "Target Date: ${{ steps.params.outputs.target_date }}"
+        echo "Papers Found: ${{ steps.check_papers.outputs.paper_count }}"
+        echo "Digest Created: ${{ steps.verify_digest.outputs.digest_created || 'false' }}"
+        echo "Notifications Sent: ${{ steps.params.outputs.send_notifications }}"
+
+        if [ "${{ steps.check_papers.outputs.skip_digest }}" = "true" ]; then
+          echo "⚠️  Digest generation was skipped due to no papers found"
+        elif [ "${{ steps.verify_digest.outputs.digest_created }}" = "true" ]; then
+          echo "✅ Digest generation completed successfully"
+        else
+          echo "❌ Digest generation failed"
+        fi

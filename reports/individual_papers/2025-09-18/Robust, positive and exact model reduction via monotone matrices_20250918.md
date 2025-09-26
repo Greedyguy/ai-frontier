@@ -1,3 +1,35 @@
+---
+keywords:
+  - Positive Linear Systems
+  - Non-Negative Reduction Matrices
+  - Monotone Matrices
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2406.11696
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:12:05.058349",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Positive Linear Systems",
+    "Non-Negative Reduction Matrices",
+    "Monotone Matrices"
+  ],
+  "rejected_keywords": [
+    "Minimal Realization Theory"
+  ],
+  "similarity_scores": {
+    "Positive Linear Systems": 0.78,
+    "Non-Negative Reduction Matrices": 0.76,
+    "Monotone Matrices": 0.77
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Robust, positive and exact model reduction via monotone matrices
 
@@ -5,10 +37,10 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: positive reachable realization
+**⚡ Unique Technical**: [[keywords/Positive Linear Systems|positive linear systems]], [[keywords/Non-Negative Reduction Matrices|non-negative reduction matrices]], [[keywords/Monotone Matrices|monotone matrices]]
 
 ## 🔗 유사한 논문
 - [[Finite_Sample_Analysis_of_Open-loop_Subspace_Identification_Methods_20250918|Finite Sample Analysis of Open-loop Subspace Identification Methods]] (75.6% similar)

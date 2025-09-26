@@ -1,13 +1,47 @@
+---
+keywords:
+  - Open-Vocabulary Semantic Segmentation
+  - Vocabulary Alignment
+  - Vision Transformers
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id:
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:21:14.036664",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Open-Vocabulary Semantic Segmentation",
+    "Vocabulary Alignment",
+    "Vision Transformers"
+  ],
+  "rejected_keywords": [
+    "Source-Free Domain Adaptation",
+    "Low-Rank Adaptation"
+  ],
+  "similarity_scores": {
+    "Open-Vocabulary Semantic Segmentation": 0.82,
+    "Vocabulary Alignment": 0.85,
+    "Vision Transformers": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 # Lost in Translation? Vocabulary Alignment for Source-Free Domain Adaptation in Open-Vocabulary Semantic Segmentation
 
 **Korean Title:** 번역에서 길을 잃다? 개방형 어휘 의미 분할에서 소스 없는 도메인 적응을 위한 어휘 정렬
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[authors/Silvio Mazzucco|Silvio Mazzucco]] [[authors/Carl Persson|Carl Persson]] [[authors/Mattia Segu|Mattia Segu]] [[authors/Pier Luigi Dovesi|Pier Luigi Dovesi]] [[authors/Federico Tombari|Federico Tombari]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]        [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🔗 Specific Connectable**: Low-Rank Adaptation, Zero-shot Segmentation
+**🔗 Specific Connectable**: [[keywords/Vision Transformers|Vision Transformers]]
+**⚡ Unique Technical**: [[keywords/Open-Vocabulary Semantic Segmentation|Open-Vocabulary Semantic Segmentation]], [[keywords/Vocabulary Alignment|Vocabulary Alignment]]
 
 ## 🔗 유사한 논문
 - [[GeoAware-VLA_ Implicit Geometry Aware Vision-Language-Action Model_20250918|GeoAware-VLA Implicit Geometry Aware Vision-Language-Action Model]] (82.3% similar)

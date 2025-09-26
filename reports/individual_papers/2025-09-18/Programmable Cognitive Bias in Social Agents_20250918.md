@@ -1,3 +1,35 @@
+---
+keywords:
+  - Large Language Models
+  - Cognitive Bias
+  - Behavioral Regulation Engine
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2509.13588
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:14:56.700308",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Large Language Models",
+    "Cognitive Bias",
+    "Behavioral Regulation Engine"
+  ],
+  "rejected_keywords": [
+    "Social Agents"
+  ],
+  "similarity_scores": {
+    "Large Language Models": 0.9,
+    "Cognitive Bias": 0.85,
+    "Behavioral Regulation Engine": 0.78
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # Programmable Cognitive Bias in Social Agents
 
@@ -5,10 +37,10 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Model Agnostic Cognitive Bias Programming
+**⚡ Unique Technical**: [[keywords/Cognitive Bias|Cognitive Bias]], [[keywords/Behavioral Regulation Engine|Behavioral Regulation Engine]]
 
 ## 🔗 유사한 논문
 - [[Designing AI-Agents with Personalities A Psychometric Approach]] (81.8% similar)

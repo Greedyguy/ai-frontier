@@ -1,3 +1,35 @@
+---
+keywords:
+  - Graph Neural Networks
+  - Graph Rewiring
+  - Torque-Driven Hierarchical Rewiring
+category: cs.AI
+publish_date: 2025-09-18
+arxiv_id: 2507.21422
+---
+
+<!-- KEYWORD_LINKING_METADATA:
+{
+  "processed_timestamp": "2025-09-22 22:26:32.455255",
+  "vocabulary_version": "1.0",
+  "selected_keywords": [
+    "Graph Neural Networks",
+    "Graph Rewiring",
+    "Torque-Driven Hierarchical Rewiring"
+  ],
+  "rejected_keywords": [
+    "Heterophilous Graphs"
+  ],
+  "similarity_scores": {
+    "Graph Neural Networks": 0.8,
+    "Graph Rewiring": 0.7,
+    "Torque-Driven Hierarchical Rewiring": 0.65
+  },
+  "extraction_method": "AI_prompt_based",
+  "budget_applied": true
+}
+-->
+
 
 # GraphTorque: Torque-Driven Rewiring Graph Neural Network
 
@@ -5,10 +37,11 @@
 
 ## 📋 메타데이터
 
-**Links**: [[daily/2025-09-18|2025-09-18]] [[categories/cs.AI|cs.AI]]
+**Links**: [[digests/daily_digest_20250918|2025-09-18]]   [[categories/cs.AI|cs.AI]]
 
 ## 🏷️ 카테고리화된 키워드
-**🚀 Evolved Concepts**: Interference-Aware Torque Metric
+**🔗 Specific Connectable**: [[keywords/Graph Neural Networks|Graph Neural Networks]]
+**⚡ Unique Technical**: [[keywords/Graph Rewiring|graph rewiring]], [[keywords/Torque-Driven Hierarchical Rewiring|torque-driven hierarchical rewiring]]
 
 ## 🔗 유사한 논문
 - [[Hybrid_Diffusion_Policies_with_Projective_Geometric_Algebra_for_Efficient_Robot_Manipulation_Learning_20250918|Hybrid Diffusion Policies with Projective Geometric Algebra for Efficient Robot Manipulation Learning]] (79.3% similar)
