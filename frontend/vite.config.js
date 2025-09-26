@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   // GitHub Pages용 base path 설정
-  base: process.env.NODE_ENV === 'production' ? '/ai_frontier/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/ai-frontier/' : '/',
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
